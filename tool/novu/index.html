@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Novu · 通知短信 · 开源工具集</title>
+<meta name="description" content="开源多通道通知基础设施：邮件 / 短信 / 推送 / 站内 ⭐ 40.0k · TypeScript · MIT">
+<meta name="theme-color" content="#2563eb">
+<link rel="canonical" href="https://lfun.cloud/tool/novu/">
+<link rel="alternate" hreflang="zh-CN" href="https://lfun.cloud/tool/novu/">
+<link rel="alternate" hreflang="en" href="https://lfun.cloud/en/tool/novu/">
+<link rel="alternate" hreflang="x-default" href="https://lfun.cloud/tool/novu/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Novu · 通知短信 · 开源工具集">
+<meta property="og:description" content="开源多通道通知基础设施：邮件 / 短信 / 推送 / 站内 ⭐ 40.0k · TypeScript · MIT">
+<meta property="og:url" content="https://lfun.cloud/tool/novu/">
+<meta property="og:image" content="https://lfun.cloud/og.png">
+<meta property="og:site_name" content="开源工具集">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Novu","description":"开源多通道通知基础设施：邮件 / 短信 / 推送 / 站内","url":"https://lfun.cloud/tool/novu/","inLanguage":"zh-CN","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","codeRepository":"https://github.com/novuhq/novu","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"novuhq"},"keywords":"通知, 多通道"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"全部工具","item":"https://lfun.cloud/"},{"@type":"ListItem","position":2,"name":"通知短信"},{"@type":"ListItem","position":3,"name":"Novu","item":"https://lfun.cloud/tool/novu/"}]}</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧰</text></svg>">
+<link rel="stylesheet" href="/styles.css">
+<script>window.__LANG__="zh";window.__I18N__={"htmlLang":"zh-CN","siteName":"开源工具集","brandSub":"标注清楚<strong>怎么用<\/strong>：在线即用 / 可自托管 / 桌面应用 / 命令行","homeTitle":"开源工具集 · 156 个精选 GitHub 开源项目","homeDesc":"156 个精选 GitHub 开源项目，标注清楚怎么用：在线即用、可自托管、桌面应用、命令行。含出海辅助专题：多语言、合规、支付、邮件、客服。","searchPlaceholder":"搜索工具名、用途、标签…  按 / 聚焦","scenes":{"all":"全部","general":"通用工具","overseas":"🌏 出海辅助"},"usages":{"online":"🌐 在线即用","desktop":"💻 桌面应用","cli":"⌨️ 命令行","selfhost":"🐳 可自托管","lib":"📦 开发库"},"categories":{"diagram":"白板绘图","image":"图片图形","doc":"文档 PDF","dev":"开发工具","design":"设计","utility":"效率工具","fun":"有趣好玩","system":"系统增强","download":"下载工具","capture":"截图录屏","media":"音乐媒体","writing":"写作笔记","filesearch":"搜索与文件","security":"安全隐私","analytics":"数据分析","experiment":"A/B 实验","i18n":"多语言本地化","payment":"支付计费","commerce":"电商建站","email":"邮件触达","notify":"通知短信","support":"客服工单","crm":"CRM 销售","auth":"认证授权","compliance":"合规签署","sitesearch":"站内搜索","finance":"财务发票"},"allCategories":"全部分类","allUsage":"全部","sortStars":"按星数排序","sortName":"按名称排序","sortUpdated":"按最近更新","btnOnline":"在线使用","btnDeploy":"部署","btnDownload":"下载","btnDocs":"文档","btnRepo":"仓库","btnNoOnline":"暂无在线版","archived":"已归档","cautions":{"隐私":"隐私","版权":"版权","系统修改":"系统修改"},"countTemplate":"显示 {n} / {total} 个工具","emptyFav":"还没有收藏任何工具","emptyMatch":"没有匹配的工具","clearFilters":"清除筛选条件","favTitle":"收藏","themeTitle":"切换主题","favOnly":"只看收藏","backToAll":"全部工具","related":"同类工具","detailTitle":"详情","specStars":"星数","specLang":"语言","specLicense":"许可证","specUpdated":"最近更新","specCategory":"分类","specScene":"场景","noLicense":"未标注","footerNote":"星数会持续变化，由 GitHub Actions 每周自动同步。","langSwitch":"English","langSwitchHref":"/en/"};</script>
+</head>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="/">
+      <span class="brand-mark">🧰</span>
+      <div>
+        <span class="brand-name">开源工具集</span>
+        <p class="brand-sub">标注清楚<strong>怎么用</strong>：在线即用 / 可自托管 / 桌面应用 / 命令行</p>
+      </div>
+    </a>
+    <div class="topbar-actions">
+      <a class="btn-ghost" href="/en/">English</a>
+      <button id="theme-toggle" class="btn-ghost" title="切换主题">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs">
+    <a href="/">全部工具</a>
+    <span>/</span><span>通知短信</span>
+    <span>/</span><strong>Novu</strong>
+  </nav>
+  <article class="detail">
+    <header class="detail-head">
+      <img class="icon icon-lg" src="https://github.com/novuhq.png?size=160" alt="" data-initial="N" onerror="iconFail(this)">
+      <div>
+        <h1 class="detail-name">Novu</h1>
+        <div class="card-repo">novuhq/novu</div>
+      </div>
+      <button class="fav fav-lg" data-fav="novu" title="收藏">☆</button>
+    </header>
+    <p class="detail-desc">开源多通道通知基础设施：邮件 / 短信 / 推送 / 站内</p>
+    <div class="tags"><span class="tag">通知</span><span class="tag">多通道</span></div>
+    <dl class="specs">
+    <div class="spec"><dt>星数</dt><dd>★ 40.0k</dd></div>
+    <div class="spec"><dt>语言</dt><dd>TypeScript</dd></div>
+    <div class="spec"><dt>许可证</dt><dd>MIT</dd></div>
+    <div class="spec"><dt>最近更新</dt><dd>—</dd></div>
+    <div class="spec"><dt>分类</dt><dd>通知短信</dd></div>
+    <div class="spec"><dt>场景</dt><dd>🌏 出海辅助</dd></div>
+    </dl>
+    <div class="detail-actions">
+
+      <a class="btn-secondary btn-lg" href="https://github.com/novuhq/novu" target="_blank" rel="noopener">仓库</a>
+    </div>
+  </article>
+  <section class="related">
+    <h2>同类工具</h2>
+    <div class="grid">
+<article class="card" data-id="smsforwarder" data-scene="overseas"
+  data-usage="desktop" data-category="notify"
+  data-stars="28084" data-name="SmsForwarder"
+  data-updated="" data-search="smsforwarder pppscn/smsforwarder 把安卓手机的短信、来电、通知按规则转发出去  kotlin 短信转发 android">
+  <button class="fav" data-fav="smsforwarder" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/pppscn.png?size=96" alt="" loading="lazy"
+         data-initial="S" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/smsforwarder/">SmsForwarder</a></h3>
+      <div class="card-repo">pppscn/SmsForwarder</div>
+    </div>
+  </div>
+  <p class="card-desc">把安卓手机的短信、来电、通知按规则转发出去</p>
+  <div class="tags"><span class="tag plat">Android</span><span class="tag">短信转发</span><span class="tag">Android</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">28.1k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#A97BFF"></i>Kotlin</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/pppscn/SmsForwarder/releases" target="_blank" rel="noopener">下载</a><a class="btn-secondary" href="https://github.com/pppscn/SmsForwarder" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="android-sms-gateway" data-scene="overseas"
+  data-usage="selfhost" data-category="notify"
+  data-stars="5766" data-name="Android SMS Gateway"
+  data-updated="" data-search="android sms gateway capcom6/android-sms-gateway 用安卓手机当短信网关，通过 http 收发短信  kotlin 短信网关">
+  <button class="fav" data-fav="android-sms-gateway" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/capcom6.png?size=96" alt="" loading="lazy"
+         data-initial="A" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/android-sms-gateway/">Android SMS Gateway</a></h3>
+      <div class="card-repo">capcom6/android-sms-gateway</div>
+    </div>
+  </div>
+  <p class="card-desc">用安卓手机当短信网关，通过 HTTP 收发短信</p>
+  <div class="tags"><span class="tag plat">Android</span><span class="tag">短信网关</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">5.8k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#A97BFF"></i>Kotlin</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/capcom6/android-sms-gateway/releases" target="_blank" rel="noopener">部署</a><a class="btn-secondary" href="https://github.com/capcom6/android-sms-gateway" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="httpsms" data-scene="overseas"
+  data-usage="selfhost" data-category="notify"
+  data-stars="5161" data-name="httpSMS"
+  data-updated="" data-search="httpsms ndolestudio/httpsms 通过安卓手机用 http 接口收发短信  go 短信网关">
+  <button class="fav" data-fav="httpsms" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/NdoleStudio.png?size=96" alt="" loading="lazy"
+         data-initial="h" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/httpsms/">httpSMS</a></h3>
+      <div class="card-repo">NdoleStudio/httpsms</div>
+    </div>
+  </div>
+  <p class="card-desc">通过安卓手机用 HTTP 接口收发短信</p>
+  <div class="tags"><span class="tag plat">Android</span><span class="tag">短信网关</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">5.2k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#00ADD8"></i>Go</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/NdoleStudio/httpsms/releases" target="_blank" rel="noopener">部署</a><a class="btn-secondary" href="https://github.com/NdoleStudio/httpsms" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="wepush" data-scene="overseas"
+  data-usage="desktop" data-category="notify"
+  data-stars="4684" data-name="WePush"
+  data-updated="" data-search="wepush rememberber/wepush 中文批量推送工具：公众号、企微、短信、邮件  java 批量推送">
+  <button class="fav" data-fav="wepush" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/rememberber.png?size=96" alt="" loading="lazy"
+         data-initial="W" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/wepush/">WePush</a></h3>
+      <div class="card-repo">rememberber/WePush</div>
+    </div>
+  </div>
+  <p class="card-desc">中文批量推送工具：公众号、企微、短信、邮件</p>
+  <div class="tags"><span class="tag plat">Win</span><span class="tag plat">macOS</span><span class="tag plat">Linux</span><span class="tag">批量推送</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">4.7k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#b07219"></i>Java</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/rememberber/WePush/releases" target="_blank" rel="noopener">下载</a><a class="btn-secondary" href="https://github.com/rememberber/WePush" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+    </div>
+  </section>
+  <p class="back-link"><a href="/">← 全部工具</a></p>
+</main>
+
+<footer class="footer wrap">
+  <p>开源工具集 · 星数会持续变化，由 GitHub Actions 每周自动同步。</p>
+  <p class="footer-note"><a href="/en/">English</a></p>
+</footer>
+<script src="/app.js"></script>
+</body>
+</html>

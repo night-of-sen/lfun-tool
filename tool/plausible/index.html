@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plausible · 数据分析 · 开源工具集</title>
+<meta name="description" content="隐私优先、无 Cookie 的网站分析，界面干净 ⭐ 29.2k · Elixir · AGPL-3.0">
+<meta name="theme-color" content="#2563eb">
+<link rel="canonical" href="https://lfun.cloud/tool/plausible/">
+<link rel="alternate" hreflang="zh-CN" href="https://lfun.cloud/tool/plausible/">
+<link rel="alternate" hreflang="en" href="https://lfun.cloud/en/tool/plausible/">
+<link rel="alternate" hreflang="x-default" href="https://lfun.cloud/tool/plausible/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Plausible · 数据分析 · 开源工具集">
+<meta property="og:description" content="隐私优先、无 Cookie 的网站分析，界面干净 ⭐ 29.2k · Elixir · AGPL-3.0">
+<meta property="og:url" content="https://lfun.cloud/tool/plausible/">
+<meta property="og:image" content="https://lfun.cloud/og.png">
+<meta property="og:site_name" content="开源工具集">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Plausible","description":"隐私优先、无 Cookie 的网站分析，界面干净","url":"https://lfun.cloud/tool/plausible/","inLanguage":"zh-CN","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","codeRepository":"https://github.com/plausible/analytics","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"plausible"},"keywords":"隐私, 无Cookie"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"全部工具","item":"https://lfun.cloud/"},{"@type":"ListItem","position":2,"name":"数据分析"},{"@type":"ListItem","position":3,"name":"Plausible","item":"https://lfun.cloud/tool/plausible/"}]}</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧰</text></svg>">
+<link rel="stylesheet" href="/styles.css">
+<script>window.__LANG__="zh";window.__I18N__={"htmlLang":"zh-CN","siteName":"开源工具集","brandSub":"标注清楚<strong>怎么用<\/strong>：在线即用 / 可自托管 / 桌面应用 / 命令行","homeTitle":"开源工具集 · 156 个精选 GitHub 开源项目","homeDesc":"156 个精选 GitHub 开源项目，标注清楚怎么用：在线即用、可自托管、桌面应用、命令行。含出海辅助专题：多语言、合规、支付、邮件、客服。","searchPlaceholder":"搜索工具名、用途、标签…  按 / 聚焦","scenes":{"all":"全部","general":"通用工具","overseas":"🌏 出海辅助"},"usages":{"online":"🌐 在线即用","desktop":"💻 桌面应用","cli":"⌨️ 命令行","selfhost":"🐳 可自托管","lib":"📦 开发库"},"categories":{"diagram":"白板绘图","image":"图片图形","doc":"文档 PDF","dev":"开发工具","design":"设计","utility":"效率工具","fun":"有趣好玩","system":"系统增强","download":"下载工具","capture":"截图录屏","media":"音乐媒体","writing":"写作笔记","filesearch":"搜索与文件","security":"安全隐私","analytics":"数据分析","experiment":"A/B 实验","i18n":"多语言本地化","payment":"支付计费","commerce":"电商建站","email":"邮件触达","notify":"通知短信","support":"客服工单","crm":"CRM 销售","auth":"认证授权","compliance":"合规签署","sitesearch":"站内搜索","finance":"财务发票"},"allCategories":"全部分类","allUsage":"全部","sortStars":"按星数排序","sortName":"按名称排序","sortUpdated":"按最近更新","btnOnline":"在线使用","btnDeploy":"部署","btnDownload":"下载","btnDocs":"文档","btnRepo":"仓库","btnNoOnline":"暂无在线版","archived":"已归档","cautions":{"隐私":"隐私","版权":"版权","系统修改":"系统修改"},"countTemplate":"显示 {n} / {total} 个工具","emptyFav":"还没有收藏任何工具","emptyMatch":"没有匹配的工具","clearFilters":"清除筛选条件","favTitle":"收藏","themeTitle":"切换主题","favOnly":"只看收藏","backToAll":"全部工具","related":"同类工具","detailTitle":"详情","specStars":"星数","specLang":"语言","specLicense":"许可证","specUpdated":"最近更新","specCategory":"分类","specScene":"场景","noLicense":"未标注","footerNote":"星数会持续变化，由 GitHub Actions 每周自动同步。","langSwitch":"English","langSwitchHref":"/en/"};</script>
+</head>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="/">
+      <span class="brand-mark">🧰</span>
+      <div>
+        <span class="brand-name">开源工具集</span>
+        <p class="brand-sub">标注清楚<strong>怎么用</strong>：在线即用 / 可自托管 / 桌面应用 / 命令行</p>
+      </div>
+    </a>
+    <div class="topbar-actions">
+      <a class="btn-ghost" href="/en/">English</a>
+      <button id="theme-toggle" class="btn-ghost" title="切换主题">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs">
+    <a href="/">全部工具</a>
+    <span>/</span><span>数据分析</span>
+    <span>/</span><strong>Plausible</strong>
+  </nav>
+  <article class="detail">
+    <header class="detail-head">
+      <img class="icon icon-lg" src="https://github.com/plausible.png?size=160" alt="" data-initial="P" onerror="iconFail(this)">
+      <div>
+        <h1 class="detail-name">Plausible</h1>
+        <div class="card-repo">plausible/analytics</div>
+      </div>
+      <button class="fav fav-lg" data-fav="plausible" title="收藏">☆</button>
+    </header>
+    <p class="detail-desc">隐私优先、无 Cookie 的网站分析，界面干净</p>
+    <div class="tags"><span class="tag">隐私</span><span class="tag">无Cookie</span></div>
+    <dl class="specs">
+    <div class="spec"><dt>星数</dt><dd>★ 29.2k</dd></div>
+    <div class="spec"><dt>语言</dt><dd>Elixir</dd></div>
+    <div class="spec"><dt>许可证</dt><dd>AGPL-3.0</dd></div>
+    <div class="spec"><dt>最近更新</dt><dd>2026-09-22</dd></div>
+    <div class="spec"><dt>分类</dt><dd>数据分析</dd></div>
+    <div class="spec"><dt>场景</dt><dd>🌏 出海辅助</dd></div>
+    </dl>
+    <div class="detail-actions">
+      <a class="btn-primary btn-lg" href="https://plausible.io" target="_blank" rel="noopener">部署</a>
+      <a class="btn-secondary btn-lg" href="https://github.com/plausible/analytics" target="_blank" rel="noopener">仓库</a>
+    </div>
+  </article>
+  <section class="related">
+    <h2>同类工具</h2>
+    <div class="grid">
+<article class="card" data-id="metabase" data-scene="overseas"
+  data-usage="selfhost online" data-category="analytics"
+  data-stars="49367" data-name="Metabase"
+  data-updated="2026-09-22" data-search="metabase metabase/metabase 给非技术同事用的 bi，拖拽出报表 the easy-to-use open source business intelligence and embedded analytics tool that lets everyone work with data :bar_chart: clojure bi 报表">
+  <button class="fav" data-fav="metabase" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/metabase.png?size=96" alt="" loading="lazy"
+         data-initial="M" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/metabase/">Metabase</a></h3>
+      <div class="card-repo">metabase/metabase</div>
+    </div>
+  </div>
+  <p class="card-desc">给非技术同事用的 BI，拖拽出报表</p>
+  <div class="tags"><span class="tag">BI</span><span class="tag">报表</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">49.4k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#db5855"></i>Clojure</span>
+    <span class="actions"><a class="btn-primary" href="https://metabase.com" target="_blank" rel="noopener">在线使用</a><a class="btn-secondary" href="https://github.com/metabase/metabase" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="posthog" data-scene="overseas"
+  data-usage="selfhost online" data-category="analytics"
+  data-stars="39893" data-name="PostHog"
+  data-updated="2026-09-22" data-search="posthog posthog/posthog 一站式产品分析：行为分析 + 会话回放 + 功能开关 + 实验 :hedgehog: posthog is the leading platform for building self-driving products. our developer tools – ai observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. steer it all from slack, web, desktop, or the mcp. python 产品分析 全家桶">
+  <button class="fav" data-fav="posthog" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/PostHog.png?size=96" alt="" loading="lazy"
+         data-initial="P" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/posthog/">PostHog</a></h3>
+      <div class="card-repo">PostHog/posthog</div>
+    </div>
+  </div>
+  <p class="card-desc">一站式产品分析：行为分析 + 会话回放 + 功能开关 + 实验</p>
+  <div class="tags"><span class="tag">产品分析</span><span class="tag">全家桶</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">39.9k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3572A5"></i>Python</span>
+    <span class="actions"><a class="btn-primary" href="https://posthog.com" target="_blank" rel="noopener">在线使用</a><a class="btn-secondary" href="https://github.com/PostHog/posthog" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="umami" data-scene="overseas"
+  data-usage="selfhost online" data-category="analytics"
+  data-stars="38946" data-name="Umami"
+  data-updated="2026-09-21" data-search="umami umami-software/umami 隐私优先的轻量分析，部署最简单，无 cookie umami is a privacy-first analytics platform. traffic, campaigns, behavior, conversions, and revenue in one place — no cookies, no surveillance, self-hosted or in the cloud. typescript 轻量 隐私">
+  <button class="fav" data-fav="umami" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/umami-software.png?size=96" alt="" loading="lazy"
+         data-initial="U" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/umami/">Umami</a></h3>
+      <div class="card-repo">umami-software/umami</div>
+    </div>
+  </div>
+  <p class="card-desc">隐私优先的轻量分析，部署最简单，无 Cookie</p>
+  <div class="tags"><span class="tag">轻量</span><span class="tag">隐私</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">38.9k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3178c6"></i>TypeScript</span>
+    <span class="actions"><a class="btn-primary" href="https://umami.is" target="_blank" rel="noopener">在线使用</a><a class="btn-secondary" href="https://github.com/umami-software/umami" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="matomo" data-scene="overseas"
+  data-usage="selfhost online" data-category="analytics"
+  data-stars="21890" data-name="Matomo"
+  data-updated="2026-09-22" data-search="matomo matomo-org/matomo 老牌自托管网站分析，功能最全，可替代 ga4 empowering people ethically 🚀 — matomo is hiring! join us → https://matomo.org/jobs matomo is the leading open-source alternative to google analytics, giving you complete control and built-in privacy. easily collect, visualise, and analyse data from websites &amp; apps. star us on github ⭐️  – pull requests welcome!  php 数据统计 ga替代">
+  <button class="fav" data-fav="matomo" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/matomo-org.png?size=96" alt="" loading="lazy"
+         data-initial="M" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/matomo/">Matomo</a></h3>
+      <div class="card-repo">matomo-org/matomo</div>
+    </div>
+  </div>
+  <p class="card-desc">老牌自托管网站分析，功能最全，可替代 GA4</p>
+  <div class="tags"><span class="tag">数据统计</span><span class="tag">GA替代</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">21.9k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#4F5D95"></i>PHP</span>
+    <span class="actions"><a class="btn-primary" href="https://matomo.org/" target="_blank" rel="noopener">在线使用</a><a class="btn-secondary" href="https://github.com/matomo-org/matomo" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="openreplay" data-scene="overseas"
+  data-usage="selfhost" data-category="analytics"
+  data-stars="12887" data-name="OpenReplay"
+  data-updated="2026-09-21" data-search="openreplay openreplay/openreplay 自托管会话回放，复现用户遇到的问题 session replay, cobrowsing and product analytics you can self-host. best for reproducing issues and iterating on your product. typescript 会话回放">
+  <button class="fav" data-fav="openreplay" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/openreplay.png?size=96" alt="" loading="lazy"
+         data-initial="O" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/openreplay/">OpenReplay</a></h3>
+      <div class="card-repo">openreplay/openreplay</div>
+    </div>
+  </div>
+  <p class="card-desc">自托管会话回放，复现用户遇到的问题</p>
+  <div class="tags"><span class="tag">会话回放</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">12.9k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3178c6"></i>TypeScript</span>
+    <span class="actions"><a class="btn-primary" href="https://openreplay.com" target="_blank" rel="noopener">部署</a><a class="btn-secondary" href="https://github.com/openreplay/openreplay" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="goatcounter" data-scene="overseas"
+  data-usage="selfhost online" data-category="analytics"
+  data-stars="5991" data-name="GoatCounter"
+  data-updated="2026-09-20" data-search="goatcounter arp242/goatcounter 极轻量的访问统计，不追踪个人数据 easy web analytics. no tracking of personal data. go 轻量">
+  <button class="fav" data-fav="goatcounter" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/arp242.png?size=96" alt="" loading="lazy"
+         data-initial="G" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/goatcounter/">GoatCounter</a></h3>
+      <div class="card-repo">arp242/goatcounter</div>
+    </div>
+  </div>
+  <p class="card-desc">极轻量的访问统计，不追踪个人数据</p>
+  <div class="tags"><span class="tag">轻量</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">6.0k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#00ADD8"></i>Go</span>
+    <span class="actions"><a class="btn-primary" href="https://www.goatcounter.com" target="_blank" rel="noopener">在线使用</a><a class="btn-secondary" href="https://github.com/arp242/goatcounter" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+    </div>
+  </section>
+  <p class="back-link"><a href="/">← 全部工具</a></p>
+</main>
+
+<footer class="footer wrap">
+  <p>开源工具集 · 星数会持续变化，由 GitHub Actions 每周自动同步。</p>
+  <p class="footer-note"><a href="/en/">English</a></p>
+</footer>
+<script src="/app.js"></script>
+</body>
+</html>

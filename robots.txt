@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /scripts/
+Disallow: /.git/
+
+Sitemap: https://lfun.cloud/sitemap.xml

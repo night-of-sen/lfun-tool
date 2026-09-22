@@ -1,0 +1,22 @@
+# 依赖与缓存
+node_modules/
+.npm-cache/
+.bun-cache/
+
+# 本地预览 / 调试产物
+.chrome-shot/
+.chrome-tmp*/
+.preview/
+dist/
+dist.zip
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+
+# 注意：data/tools.json 必须提交，它是线上站点读取的数据

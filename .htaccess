@@ -1,0 +1,28 @@
+# 静态站点配置（Apache / LiteSpeed，Hostinger 共享主机适用）
+
+DirectoryIndex index.html
+AddType application/json .json
+AddDefaultCharset UTF-8
+
+# 自定义 404
+ErrorDocument 404 /404.html
+
+# gzip 压缩
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json image/svg+xml
+</IfModule>
+
+# 缓存：HTML 和 JSON 不缓存（改完刷新即生效），其他静态资源缓存 1 小时
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 hours"
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType application/json "access plus 0 seconds"
+</IfModule>
+
+# 不对外暴露脚本、文档和 Git 元数据（站点本身不受影响）
+<IfModule mod_alias.c>
+  RedirectMatch 404 ^/scripts(/|$)
+  RedirectMatch 404 ^/\.git(/|$)
+  RedirectMatch 404 \.(md|mjs|ya?ml)$
+</IfModule>

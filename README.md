@@ -1,0 +1,244 @@
+# 开源工具集 · GitHub 精选
+
+精选 GitHub 开源项目，**把「怎么用」标注清楚**，不用再翻英文 README。
+站点：**https://lfun.cloud**
+
+收录 **156 个项目**，分两个场景：
+
+| 场景 | 数量 | 说明 |
+|---|---|---|
+| 通用工具 | 81 | 日常开发、效率、娱乐 |
+| 🌏 出海辅助 | 75 | 多语言、合规、支付、邮件、客服等出海专有需求 |
+
+每个项目再按「使用方式」标注：
+
+| 使用方式 | 数量 | 含义 |
+|---|---|---|
+| 🌐 在线即用 | 55 | 有官方网页版，点开就用 |
+| 🐳 可自托管 | 62 | Web 应用，自己部署 |
+| 💻 桌面应用 | 28 | 下载客户端 |
+| ⌨️ 命令行 | 22 | 装完在终端用 |
+| 📦 开发库 | 10 | 装进自己项目的库 / 框架 |
+
+> 数量按维度统计，会重复计入（一个项目可以有多种使用方式）。
+
+## 页面结构（多语言）
+
+采用 **子目录 + 默认语言放根路径** 的方案：
+
+| 语言 | 首页 | 工具页 |
+|---|---|---|
+| 中文（默认） | `/` | `/tool/excalidraw/` |
+| English | `/en/` | `/en/tool/excalidraw/` |
+
+**为什么这样设计**
+
+- Google 对 gTLD 的多语言站点推荐**子目录**方案：权重集中在同一域名，比子域名或独立域名更容易起量。
+- 默认语言（中文）直接放根路径，避免 `/zh/` 和 `/` 产生重复内容。
+- 每页都有双向 `hreflang`（`zh-CN` / `en`）+ `x-default` 指向中文版。
+- **不做 IP / 浏览器语言的自动跳转**。Google 明确提示自动重定向会妨碍抓取、也可能让用户看不到另一种语言；改为顶部语言切换按钮。
+
+**SEO 设计**
+
+- 所有卡片和工具页都是**构建期生成的静态 HTML**，不依赖 JS 渲染，爬虫直接可读。
+- 首页有 156 条指向工具页的内链，工具页有「同类工具」反向内链，形成内链网。
+- 每页带 `canonical`、OG / Twitter 卡片、`theme-color`。
+- 结构化数据：首页用 `WebSite` + `ItemList`，工具页用 `SoftwareApplication` + `BreadcrumbList`。
+- `sitemap.xml` 自动生成，含 `xhtml:link` 多语言标注，314 个 URL 条目。
+
+## 目录结构
+
+**仓库根目录就是部署产物**——Hostinger 的 Git 部署只做 `git pull`、不跑构建，
+所以能直接访问的文件必须在根目录。
+
+    工具集合站/                    ← git 仓库根 = 网站根目录
+    ├─ index.html                  ← 中文首页（生成）
+    ├─ en/index.html               ← 英文首页（生成）
+    ├─ tool/<id>/index.html        ← 156 个中文工具页（生成）
+    ├─ en/tool/<id>/index.html     ← 156 个英文工具页（生成）
+    ├─ sitemap.xml                 ← 生成
+    ├─ robots.txt                  ← 生成
+    ├─ 404.html                    ← 手写
+    ├─ app.js                      ← 前端：过滤静态 DOM（零依赖）
+    ├─ styles.css
+    ├─ og.png                      ← 1200×630 分享卡片
+    ├─ data/tools.json             ← 数据源（构建输入）
+    ├─ scripts/
+    │   ├─ tools.source.json       ← 人工维护的源数据
+    │   ├─ i18n.json               ← 中英文界面文案
+    │   ├─ sync-github.mjs         ← 增量同步星数等元数据
+    │   ├─ build-pages.mjs         ← 页面生成器
+    │   ├─ serve.mjs               ← 本地预览服务器
+    │   └─ smoke-test.mjs          ← 冒烟测试
+    ├─ .github/workflows/sync-stars.yml
+    ├─ 01-GitHub开源工具清单.md
+    ├─ 02-出海辅助工具清单.md
+    └─ README.md
+
+> ⚠️ `index.html`、`en/`、`tool/`、`sitemap.xml`、`robots.txt` 都是**生成文件**，
+> 不要手改——下次构建会被覆盖。要改内容请改 `scripts/` 或 `data/tools.json`。
+
+## 本地预览
+
+    cd 工具集合站
+    node scripts/serve.mjs 5188
+    # 打开 http://127.0.0.1:5188
+
+> **不能直接双击 index.html 打开。** 页面用相对路径加载 `/styles.css`、`/app.js`，
+> 且 `fetch` 在 `file://` 下会被拦截，必须通过 HTTP 访问。
+
+## 部署（GitHub + Hostinger Git 部署）
+
+**1. 推到 GitHub**
+
+    cd 工具集合站
+    git init -b main
+    git add -A
+    git config user.name "你的名字"
+    git config user.email "you@example.com"
+    git commit -m "feat: 开源工具集站点"
+    git remote add origin https://github.com/<你的用户名>/<仓库名>.git
+    git push -u origin main
+
+**2. Hostinger 连接仓库**
+
+hPanel → **Advanced** → **GIT** → Create a new repository：
+
+| 字段 | 填什么 |
+|---|---|
+| Repository | `https://github.com/<你>/<仓库名>.git` |
+| Branch | `main` |
+| Install path | `public_html` |
+
+创建后点 **Deploy**。之后 `git push` + 点一下 Deploy 即可。
+
+**3. 换域名时要同步改**
+
+- `scripts/build-pages.mjs` 里的 `DOMAIN` 默认值（或用 `node scripts/build-pages.mjs https://新域名`）
+- 重新生成后 `canonical`、`hreflang`、`og:url`、`sitemap.xml` 会自动更新
+
+## 数据与页面更新流程
+
+**全自动**：`.github/workflows/sync-stars.yml` 每周一自动跑
+「同步星数 → 重建页面 → 跑测试 → 提交」，你什么都不用做。
+
+**手动更新**：
+
+    node scripts/sync-github.mjs     # 1. 拉取最新星数等元数据
+    node scripts/build-pages.mjs     # 2. 重新生成 314 个页面
+    node scripts/smoke-test.mjs      # 3. 验证
+    # 4. git commit && git push
+
+关于同步脚本：
+
+    node scripts/sync-github.mjs            # 增量：只请求过期或缺失的条目
+    node scripts/sync-github.mjs --fresh=1  # 只跳过 1 小时内同步过的
+    node scripts/sync-github.mjs --force    # 强制全部重拉
+
+- 未认证时 GitHub API 限额为 **core 60 次/小时**，而项目有 156 个——
+  一次全量重拉必然打满配额。所以默认是**增量**的，`syncedAt` 12 小时内的条目直接跳过。
+- 请求失败的条目会沿用上次数据并保留上次的 `syncOk`，不会把已有数据误标成"缺失"。
+- 本地想避免限流：`$env:GITHUB_TOKEN = "ghp_xxx"` 后再跑。
+
+## 测试
+
+    node scripts/smoke-test.mjs
+
+33 项断言，覆盖：静态 HTML 的 SEO 要素（hreflang / canonical / JSON-LD / 内链数 /
+按用途自动选按钮）、场景切换、三层筛选联动、搜索、空状态、排序、主题。
+
+## 新增一个工具
+
+编辑 `scripts/tools.source.json`，加一条后跑同步 + 重建：
+
+    {
+      "id": "unique-id",
+      "name": "显示名称",
+      "repo": "owner/repo",
+      "homepage": null,
+      "category": "dev",
+      "usage": ["selfhost"],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "一句中文说明，讲清楚能干什么",
+      "tags": ["标签1", "标签2"],
+      "seed": { "stars": 0, "language": "", "license": "" }
+    }
+
+| 字段 | 取值 |
+|---|---|
+| `scene` | 留空 = 通用工具 · `overseas` = 出海辅助 |
+| `usage` | `online` `selfhost` `desktop` `cli` `lib`（可多个） |
+| `platforms` | `windows` `macos` `linux` `android` `ios`（Web 服务留空数组） |
+| `homepage` | `null` = 从 GitHub 自动读取；`""` = 确认没有；其他 = 写死 |
+| `caution` | 留空或填 `隐私` / `版权` / `系统修改`，显示橙色提醒角标 |
+| `tags` | **必须是数组**，不是逗号分隔的字符串 |
+| `desc` | 中文描述；英文页优先用 GitHub 返回的 `descEn` |
+
+### 分类取值
+
+**通用工具（14 类）**
+
+| key | 显示名 | key | 显示名 |
+|---|---|---|---|
+| `diagram` | 白板绘图 | `system` | 系统增强 |
+| `image` | 图片图形 | `download` | 下载工具 |
+| `doc` | 文档 PDF | `capture` | 截图录屏 |
+| `dev` | 开发工具 | `media` | 音乐媒体 |
+| `design` | 设计 | `writing` | 写作笔记 |
+| `utility` | 效率工具 | `filesearch` | 搜索与文件 |
+| `fun` | 有趣好玩 | `security` | 安全隐私 |
+
+**出海辅助（13 类）**
+
+| key | 显示名 | key | 显示名 |
+|---|---|---|---|
+| `analytics` | 数据分析 | `crm` | CRM 销售 |
+| `experiment` | A/B 实验 | `auth` | 认证授权 |
+| `i18n` | 多语言本地化 | `compliance` | 合规签署 |
+| `payment` | 支付计费 | `sitesearch` | 站内搜索 |
+| `commerce` | 电商建站 | `finance` | 财务发票 |
+| `email` | 邮件触达 | `support` | 客服工单 |
+| `notify` | 通知短信 | | |
+
+## 设计说明
+
+- **零依赖**：不用 npm install，不用框架，不用打包器。Node 只用来跑脚本。
+- **静态优先**：内容全部构建期生成，前端 JS 只负责筛选/排序/收藏，不做数据渲染。
+- **三层筛选**：场景 → 使用方式 → 分类，分类列表跟着前两层实时收窄，切换上层自动重置下层。
+- **按钮按用途自动变化**：
+
+  | 使用方式 | 主按钮 | 说明 |
+  |---|---|---|
+  | 在线即用 | 在线使用 → 官网 | 无官网时显示灰色"暂无在线版" |
+  | 可自托管 | 部署 → 官网或 releases | |
+  | 桌面 / 命令行 | 下载 → releases | 有官网时额外显示"官网" |
+  | 开发库 | 文档 → 官网或仓库 | |
+
+- **homepage 三态**：`null` 自动读、`""` 确认没有、其他写死。
+- **不手写星数**：所有星数来自 GitHub API。
+
+## 按键
+
+| 按键 | 作用 |
+|---|---|
+| `/` | 聚焦搜索框 |
+| `Esc` | 清空搜索并失焦 |
+| 点 ☆ | 收藏（存 localStorage，不需要登录） |
+
+## 已知取舍
+
+- **搜索是子串匹配**：搜 "OCR" 会匹配到 EspoCRM（名字里含 ocr），属于预期行为。
+- **首页 HTML 约 230 KB**：156 张卡片全在 HTML 里是为了 SEO。开 gzip 后约 30–40 KB，可接受。
+- **出海收款和海外短信没有像样的开源替代**：Stripe / Paddle / Twilio 都是闭源的，
+  Hyperswitch 只是编排层。详见 `02-出海辅助工具清单.md`。
+- **自建邮件服务器慎用**：开源自建发信 IP 的信誉极难维护，生产环境建议用
+  SendGrid / Postmark / Resend / SES。
+- **站点里收录的工具 ≠ 能放在共享主机上**：Chatwoot、n8n、Immich 这类需要 VPS 跑 Docker。
+
+## 后续
+
+- 分类落地页（`/category/analytics/` 这类，可再吃一批长尾词）
+- 工具页补充截图与 README 摘要
+- 继续补：浏览器扩展、可自托管服务、学习资源、设计素材
