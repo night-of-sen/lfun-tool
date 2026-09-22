@@ -1,7 +1,22 @@
 # 开源工具集 · GitHub 精选
 
 精选 GitHub 开源项目，**把「怎么用」标注清楚**，不用再翻英文 README。
-站点：**https://lfun.cloud**
+站点：**https://tools.lfun.cloud**
+
+## 站点布局
+
+同一个主域名下挂两个独立站点，使用**不同的 document root**，互不干扰：
+
+| 地址 | 内容 | 部署方式 |
+|---|---|---|
+| `lfun.cloud` | 另一个独立站点（纯静态） | 手动上传到主域名根目录 |
+| `tools.lfun.cloud` | **本仓库**（开源工具导航站） | Hostinger Git 部署 |
+
+> ⚠️ 本仓库的 `canonical` / `hreflang` / `sitemap.xml` 全部指向 `tools.lfun.cloud`。
+> 如果把工具站换到别的地址，必须用 `node scripts/build-pages.mjs https://新地址` 重新生成，
+> 否则等于告诉搜索引擎"正式地址在别处"，页面可能被判成重复内容。
+
+## 内容概览
 
 收录 **156 个项目**，分两个场景：
 
@@ -89,33 +104,38 @@
 
 ## 部署（GitHub + Hostinger Git 部署）
 
-**1. 推到 GitHub**
+仓库：`https://github.com/night-of-sen/lfun-tool`
 
-    cd 工具集合站
-    git init -b main
-    git add -A
-    git config user.name "你的名字"
-    git config user.email "you@example.com"
-    git commit -m "feat: 开源工具集站点"
-    git remote add origin https://github.com/<你的用户名>/<仓库名>.git
-    git push -u origin main
+**1. 在 Hostinger 建子域名**
 
-**2. Hostinger 连接仓库**
+hPanel → **Websites** → **Add Website** → **Subdomain**：
+
+- 子域名填 `tools`，主域名选 `lfun.cloud`
+- 记下它分配的 document root，例如 `domains/tools.lfun.cloud/public_html`
+  （老版 Hostinger 可能是 `public_html/tools`）
+
+**2. 用 Git 部署到那个目录**
 
 hPanel → **Advanced** → **GIT** → Create a new repository：
 
 | 字段 | 填什么 |
 |---|---|
-| Repository | `https://github.com/<你>/<仓库名>.git` |
+| Repository | `https://github.com/night-of-sen/lfun-tool.git` |
 | Branch | `main` |
-| Install path | `public_html` |
+| Install path | 上一步那个 document root |
 
-创建后点 **Deploy**。之后 `git push` + 点一下 Deploy 即可。
+创建后点 **Deploy**。如果 hPanel 有自动部署开关，打开它，以后 `git push` 即上线。
 
-**3. 换域名时要同步改**
+**3. 给子域名装 SSL**
 
-- `scripts/build-pages.mjs` 里的 `DOMAIN` 默认值（或用 `node scripts/build-pages.mjs https://新域名`）
-- 重新生成后 `canonical`、`hreflang`、`og:url`、`sitemap.xml` 会自动更新
+hPanel → **SSL** → 给 `tools.lfun.cloud` 装 Let's Encrypt → 开 Force HTTPS。
+
+**4. 换域名时要同步改的地方**
+
+`scripts/build-pages.mjs` 里的 `DOMAIN` 默认值，或直接传参
+`node scripts/build-pages.mjs https://新域名`。重新生成后这些会一起更新：
+`canonical`、`hreflang`、`og:url`、`sitemap.xml`、`robots.txt`，
+以及 **`og.png` 图上印的域名文字**（那张图是脚本画的，要重跑生成命令）。
 
 ## 数据与页面更新流程
 

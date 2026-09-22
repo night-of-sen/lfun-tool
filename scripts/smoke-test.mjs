@@ -139,7 +139,7 @@ check("指向工具页的链接数", countIn(/href="\/tool\//g), items.length);
 check("hreflang zh-CN", html.includes('hreflang="zh-CN"'), true);
 check("hreflang en", html.includes('hreflang="en"'), true);
 check("hreflang x-default", html.includes('hreflang="x-default"'), true);
-check("canonical", html.includes('<link rel="canonical" href="https://lfun.cloud/">'), true);
+check("canonical", html.includes('<link rel="canonical" href="https://tools.lfun.cloud/">'), true);
 check("JSON-LD 块数", countIn(/application\/ld\+json/g), 2);
 check("在线使用按钮", countIn(/rel="noopener">在线使用<\/a>/g), items.filter((t) => has(t, "online") && t.homepage).length);
 check("部署按钮", countIn(/rel="noopener">部署<\/a>/g), items.filter((t) => !has(t, "online") && !has(t, "desktop") && !has(t, "cli") && has(t, "selfhost")).length);

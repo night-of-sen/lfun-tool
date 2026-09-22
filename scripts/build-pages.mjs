@@ -6,7 +6,8 @@ import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-const DOMAIN = (process.argv[2] || process.env.SITE_DOMAIN || "https://lfun.cloud").replace(/[/]+$/, "");
+// 工具站部署在子域名；占卜站占用 lfun.cloud 主域名
+const DOMAIN = (process.argv[2] || process.env.SITE_DOMAIN || "https://tools.lfun.cloud").replace(/[/]+$/, "");
 const LANGS = ["zh", "en"];
 
 const data = JSON.parse(await readFile(join(ROOT, "data/tools.json"), "utf8"));

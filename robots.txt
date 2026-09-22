@@ -4,4 +4,4 @@ Allow: /
 Disallow: /scripts/
 Disallow: /.git/
 
-Sitemap: https://lfun.cloud/sitemap.xml
+Sitemap: https://tools.lfun.cloud/sitemap.xml
