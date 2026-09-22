@@ -41,10 +41,12 @@
 
 采用 **子目录 + 默认语言放根路径** 的方案：
 
-| 语言 | 首页 | 工具页 |
-|---|---|---|
-| 中文（默认） | `/` | `/tool/excalidraw/` |
-| English | `/en/` | `/en/tool/excalidraw/` |
+| 语言 | 首页 | 工具页 | 分类页 |
+|---|---|---|---|
+| 中文（默认） | `/` | `/tool/excalidraw/` | `/category/analytics/` |
+| English | `/en/` | `/en/tool/excalidraw/` | `/en/category/analytics/` |
+
+分类总览页：`/categories/` 与 `/en/categories/`
 
 **为什么这样设计**
 
@@ -59,7 +61,11 @@
 - 首页有 156 条指向工具页的内链，工具页有「同类工具」反向内链，形成内链网。
 - 每页带 `canonical`、OG / Twitter 卡片、`theme-color`。
 - 结构化数据：首页用 `WebSite` + `ItemList`，工具页用 `SoftwareApplication` + `BreadcrumbList`。
-- `sitemap.xml` 自动生成，含 `xhtml:link` 多语言标注，314 个 URL 条目。
+- **分类落地页**：`/category/analytics/` 这类页面面向「开源数据分析工具」这类关键词，
+  从首页页脚、工具页面包屑、分类总览三处获得内链。
+- **英文页标签走映射**：`i18n.json` 里的 `tagTranslations`（157 条，覆盖率 100%）；
+  搜索索引同时包含原文和译文标签，中英文都能搜到。
+- `sitemap.xml` 自动生成，含 `xhtml:link` 多语言标注，370 个 URL 条目。
 
 ## 目录结构
 
@@ -70,18 +76,26 @@
     ├─ index.html                  ← 中文首页（生成）
     ├─ en/index.html               ← 英文首页（生成）
     ├─ tool/<id>/index.html        ← 156 个中文工具页（生成）
+    ├─ category/<key>/index.html   ← 27 个中文分类页（生成）
+    ├─ categories/index.html       ← 分类总览（生成）
     ├─ en/tool/<id>/index.html     ← 156 个英文工具页（生成）
+    ├─ en/category/<key>/index.html← 27 个英文分类页（生成）
+    ├─ en/categories/index.html    ← 英文分类总览（生成）
     ├─ sitemap.xml                 ← 生成
     ├─ robots.txt                  ← 生成
     ├─ 404.html                    ← 手写
     ├─ app.js                      ← 前端：过滤静态 DOM（零依赖）
     ├─ styles.css
     ├─ og.png                      ← 1200×630 分享卡片
-    ├─ data/tools.json             ← 数据源（构建输入）
+    ├─ data/
+    │   ├─ tools.json              ← 数据源（构建输入）
+    │   └─ readmes.json            ← README 摘要缓存
     ├─ scripts/
     │   ├─ tools.source.json       ← 人工维护的源数据
-    │   ├─ i18n.json               ← 中英文界面文案
+    │   ├─ i18n.json               ← 中英文界面文案 + 157 条标签翻译
     │   ├─ sync-github.mjs         ← 增量同步星数等元数据
+    │   ├─ fetch-readmes.mjs       ← 抓取并提取 README 首段摘要
+    │   ├─ check-links.mjs         ← 死链检测
     │   ├─ build-pages.mjs         ← 页面生成器
     │   ├─ serve.mjs               ← 本地预览服务器
     │   └─ smoke-test.mjs          ← 冒烟测试
@@ -145,7 +159,7 @@ hPanel → **SSL** → 给 `tools.lfun.cloud` 装 Let's Encrypt → 开 Force HT
 **手动更新**：
 
     node scripts/sync-github.mjs     # 1. 拉取最新星数等元数据
-    node scripts/build-pages.mjs     # 2. 重新生成 314 个页面
+    node scripts/build-pages.mjs     # 2. 重新生成 370 个页面
     node scripts/smoke-test.mjs      # 3. 验证
     # 4. git commit && git push
 
@@ -159,6 +173,19 @@ hPanel → **SSL** → 给 `tools.lfun.cloud` 装 Let's Encrypt → 开 Force HT
   一次全量重拉必然打满配额。所以默认是**增量**的，`syncedAt` 12 小时内的条目直接跳过。
 - 请求失败的条目会沿用上次数据并保留上次的 `syncOk`，不会把已有数据误标成"缺失"。
 - 本地想避免限流：`$env:GITHUB_TOKEN = "ghp_xxx"` 后再跑。
+
+## 内容增强与巡检
+
+    node scripts/fetch-readmes.mjs            # 抓取 README 摘要（增量）
+    node scripts/fetch-readmes.mjs 6 --force  # 全部重抓
+    node scripts/check-links.mjs 10           # 死链检测
+
+- README 摘要走 `raw.githubusercontent.com`，**不消耗 GitHub API 配额**。
+- 摘要只接受**以项目名开头**的段落（"X is a …" 这种）。更宽松的规则会放进
+  "Optional: set APIURL…" 这类配置说明，所以宁可少也要准。当前 109/156 有摘要。
+- 工具页会同时展示 GitHub 自动生成的仓库概览卡片和这段摘要。
+- 死链检测同时检查官网和 GitHub 仓库，结果分 ok / dead / blocked / error 四类；
+  报告写到 `data/link-report.json`（临时产物，已加入 .gitignore）。
 
 ## 测试
 

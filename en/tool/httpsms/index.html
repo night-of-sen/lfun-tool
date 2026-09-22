@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>httpSMS · Notifications &amp; SMS · Open Source Toolkit</title>
-<meta name="description" content="通过安卓手机用 HTTP 接口收发短信 ⭐ 5.2k · Go · AGPL-3.0">
+<meta name="description" content="Send and receive SMS messages using your Android phone programmatically via a simple HTTP API ⭐ 5.2k · Go · AGPL-3.0">
 <meta name="theme-color" content="#2563eb">
 <link rel="canonical" href="https://tools.lfun.cloud/en/tool/httpsms/">
 <link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/tool/httpsms/">
@@ -12,16 +12,16 @@
 <link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/httpsms/">
 <meta property="og:type" content="article">
 <meta property="og:title" content="httpSMS · Notifications &amp; SMS · Open Source Toolkit">
-<meta property="og:description" content="通过安卓手机用 HTTP 接口收发短信 ⭐ 5.2k · Go · AGPL-3.0">
+<meta property="og:description" content="Send and receive SMS messages using your Android phone programmatically via a simple HTTP API ⭐ 5.2k · Go · AGPL-3.0">
 <meta property="og:url" content="https://tools.lfun.cloud/en/tool/httpsms/">
 <meta property="og:image" content="https://tools.lfun.cloud/og.png">
 <meta property="og:site_name" content="Open Source Toolkit">
 <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"httpSMS","description":"通过安卓手机用 HTTP 接口收发短信","url":"https://tools.lfun.cloud/en/tool/httpsms/","inLanguage":"en","applicationCategory":"UtilitiesApplication","operatingSystem":"Android","codeRepository":"https://github.com/NdoleStudio/httpsms","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"NdoleStudio"},"keywords":"短信网关"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"All tools","item":"https://tools.lfun.cloud/en/"},{"@type":"ListItem","position":2,"name":"Notifications & SMS"},{"@type":"ListItem","position":3,"name":"httpSMS","item":"https://tools.lfun.cloud/en/tool/httpsms/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"httpSMS","description":"Send and receive SMS messages using your Android phone programmatically via a simple HTTP API","url":"https://tools.lfun.cloud/en/tool/httpsms/","inLanguage":"en","applicationCategory":"UtilitiesApplication","operatingSystem":"Android","codeRepository":"https://github.com/NdoleStudio/httpsms","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"NdoleStudio"},"keywords":"SMS gateway"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"All tools","item":"https://tools.lfun.cloud/en/"},{"@type":"ListItem","position":2,"name":"Notifications & SMS","item":"https://tools.lfun.cloud/en/category/notify/"},{"@type":"ListItem","position":3,"name":"httpSMS","item":"https://tools.lfun.cloud/en/tool/httpsms/"}]}</script>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧰</text></svg>">
 <link rel="stylesheet" href="/styles.css">
-<script>window.__LANG__="en";window.__I18N__={"htmlLang":"en","siteName":"Open Source Toolkit","brandSub":"Know <strong>how to use it<\/strong> before you click: online, self-hosted, desktop, CLI","homeTitle":"Open Source Toolkit · 156 curated GitHub projects","homeDesc":"156 curated open-source GitHub projects with clear notes on how to use them: online, self-hosted, desktop app or CLI. Includes a Going-Global section: localization, compliance, payments, email and support.","searchPlaceholder":"Search name, purpose, tag…  press / to focus","scenes":{"all":"All","general":"General","overseas":"🌏 Going global"},"usages":{"online":"🌐 Online","desktop":"💻 Desktop","cli":"⌨️ CLI","selfhost":"🐳 Self-hosted","lib":"📦 Library"},"categories":{"diagram":"Whiteboards & diagrams","image":"Image & graphics","doc":"Documents & PDF","dev":"Developer tools","design":"Design","utility":"Utilities","fun":"Fun","system":"System tweaks","download":"Downloaders","capture":"Screenshot & recording","media":"Music & media","writing":"Writing & notes","filesearch":"Search & files","security":"Security & privacy","analytics":"Analytics","experiment":"A/B testing & flags","i18n":"Localization","payment":"Payments & billing","commerce":"E-commerce","email":"Email & marketing","notify":"Notifications & SMS","support":"Customer support","crm":"CRM & sales","auth":"Auth & identity","compliance":"Compliance & e-signing","sitesearch":"Site search","finance":"Finance & invoicing"},"allCategories":"All categories","allUsage":"All","sortStars":"By stars","sortName":"By name","sortUpdated":"By last update","btnOnline":"Open online","btnDeploy":"Deploy","btnDownload":"Download","btnDocs":"Docs","btnRepo":"Repository","btnNoOnline":"No online version","archived":"Archived","cautions":{"隐私":"Privacy","版权":"Copyright","系统修改":"System changes"},"countTemplate":"Showing {n} of {total} tools","emptyFav":"No favourites yet","emptyMatch":"No matching tools","clearFilters":"Clear filters","favTitle":"Save","themeTitle":"Toggle theme","favOnly":"Favourites only","backToAll":"All tools","related":"Similar tools","detailTitle":"Details","specStars":"Stars","specLang":"Language","specLicense":"License","specUpdated":"Last updated","specCategory":"Category","specScene":"Section","noLicense":"Not specified","footerNote":"Star counts change over time; synced weekly by GitHub Actions.","langSwitch":"中文","langSwitchHref":"/"};</script>
+<script>window.__LANG__="en";window.__I18N__={"htmlLang":"en","siteName":"Open Source Toolkit","brandSub":"Know <strong>how to use it<\/strong> before you click: online, self-hosted, desktop, CLI","homeTitle":"Open Source Toolkit · 156 curated GitHub projects","homeDesc":"156 curated open-source GitHub projects with clear notes on how to use them: online, self-hosted, desktop app or CLI. Includes a Going-Global section: localization, compliance, payments, email and support.","searchPlaceholder":"Search name, purpose, tag…  press / to focus","scenes":{"all":"All","general":"General","overseas":"🌏 Going global"},"usages":{"online":"🌐 Online","desktop":"💻 Desktop","cli":"⌨️ CLI","selfhost":"🐳 Self-hosted","lib":"📦 Library"},"categories":{"diagram":"Whiteboards & diagrams","image":"Image & graphics","doc":"Documents & PDF","dev":"Developer tools","design":"Design","utility":"Utilities","fun":"Fun","system":"System tweaks","download":"Downloaders","capture":"Screenshot & recording","media":"Music & media","writing":"Writing & notes","filesearch":"Search & files","security":"Security & privacy","analytics":"Analytics","experiment":"A/B testing & flags","i18n":"Localization","payment":"Payments & billing","commerce":"E-commerce","email":"Email & marketing","notify":"Notifications & SMS","support":"Customer support","crm":"CRM & sales","auth":"Auth & identity","compliance":"Compliance & e-signing","sitesearch":"Site search","finance":"Finance & invoicing"},"allCategories":"All categories","allUsage":"All","sortStars":"By stars","sortName":"By name","sortUpdated":"By last update","btnOnline":"Open online","btnDeploy":"Deploy","btnDownload":"Download","btnDocs":"Docs","btnRepo":"Repository","btnNoOnline":"No online version","archived":"Archived","cautions":{"隐私":"Privacy","版权":"Copyright","系统修改":"System changes"},"countTemplate":"Showing {n} of {total} tools","emptyFav":"No favourites yet","emptyMatch":"No matching tools","clearFilters":"Clear filters","favTitle":"Save","themeTitle":"Toggle theme","favOnly":"Favourites only","backToAll":"All tools","related":"Similar tools","detailTitle":"Details","specStars":"Stars","specLang":"Language","specLicense":"License","specUpdated":"Last updated","specCategory":"Category","specScene":"Section","noLicense":"Not specified","footerNote":"Star counts change over time; synced weekly by GitHub Actions.","langSwitch":"中文","langSwitchHref":"/","categoriesHeading":"All categories","catPageSub":"{n} curated open-source projects","catPageLink":"Browse categories","readmeHeading":"From the README"};</script>
 </head>
 
 <header class="topbar">
@@ -43,7 +43,7 @@
 <main class="wrap">
   <nav class="crumbs">
     <a href="/en/">All tools</a>
-    <span>/</span><span>Notifications &amp; SMS</span>
+    <span>/</span><a href="/en/category/notify/">Notifications &amp; SMS</a>
     <span>/</span><strong>httpSMS</strong>
   </nav>
   <article class="detail">
@@ -55,18 +55,23 @@
       </div>
       <button class="fav fav-lg" data-fav="httpsms" title="Save">☆</button>
     </header>
-    <p class="detail-desc">通过安卓手机用 HTTP 接口收发短信</p>
-    <div class="tags"><span class="tag plat">Android</span><span class="tag">短信网关</span></div>
+    <p class="detail-desc">Send and receive SMS messages using your Android phone programmatically via a simple HTTP API</p>
+    <div class="tags"><span class="tag plat">Android</span><span class="tag">SMS gateway</span></div>
+    <figure class="repo-card-wrap">
+      <img class="repo-card" src="https://opengraph.githubassets.com/1/NdoleStudio/httpsms"
+           alt="httpSMS 仓库概览卡片" width="1200" height="600" loading="lazy">
+    </figure>
+    <div class="readme"><h2>From the README</h2><p>httpSMS is a service that lets you use your Android phone as an SMS Gateway to send and receive SMS messages. You make a request to a simple HTTP API and it triggers your Android phone to send an SMS. SMS messages received on your android phone can also be forwarded to your webhook endpoint.</p></div>
     <dl class="specs">
     <div class="spec"><dt>Stars</dt><dd>★ 5.2k</dd></div>
     <div class="spec"><dt>Language</dt><dd>Go</dd></div>
     <div class="spec"><dt>License</dt><dd>AGPL-3.0</dd></div>
-    <div class="spec"><dt>Last updated</dt><dd>—</dd></div>
+    <div class="spec"><dt>Last updated</dt><dd>2026-09-17</dd></div>
     <div class="spec"><dt>Category</dt><dd>Notifications &amp; SMS</dd></div>
     <div class="spec"><dt>Section</dt><dd>🌏 Going global</dd></div>
     </dl>
     <div class="detail-actions">
-      <a class="btn-primary btn-lg" href="https://github.com/NdoleStudio/httpsms/releases" target="_blank" rel="noopener">Deploy</a>
+      <a class="btn-primary btn-lg" href="https://httpsms.com" target="_blank" rel="noopener">Deploy</a>
       <a class="btn-secondary btn-lg" href="https://github.com/NdoleStudio/httpsms" target="_blank" rel="noopener">Repository</a>
     </div>
   </article>
@@ -75,8 +80,8 @@
     <div class="grid">
 <article class="card" data-id="novu" data-scene="overseas"
   data-usage="selfhost online" data-category="notify"
-  data-stars="40027" data-name="Novu"
-  data-updated="" data-search="novu novuhq/novu 开源多通道通知基础设施：邮件 / 短信 / 推送 / 站内  typescript 通知 多通道">
+  data-stars="40031" data-name="Novu"
+  data-updated="2026-09-22" data-search="novu novuhq/novu 开源多通道通知基础设施：邮件 / 短信 / 推送 / 站内 the open-source communication infrastructure for agents and products typescript 通知 多通道 notifications multi-channel">
   <button class="fav" data-fav="novu" title="Save">☆</button>
   <div class="card-head">
     <img class="icon" src="https://github.com/novuhq.png?size=96" alt="" loading="lazy"
@@ -86,18 +91,18 @@
       <div class="card-repo">novuhq/novu</div>
     </div>
   </div>
-  <p class="card-desc">开源多通道通知基础设施：邮件 / 短信 / 推送 / 站内</p>
-  <div class="tags"><span class="tag">通知</span><span class="tag">多通道</span></div>
+  <p class="card-desc">The open-source communication infrastructure for agents and products</p>
+  <div class="tags"><span class="tag">Notifications</span><span class="tag">Multi-channel</span></div>
   <div class="card-foot">
     <span class="stat" title="Stars">★ <span class="star-n">40.0k</span></span>
     <span class="stat"><i class="lang-dot" style="background:#3178c6"></i>TypeScript</span>
-    <span class="actions"><span class="btn-secondary is-muted">No online version</span><a class="btn-secondary" href="https://github.com/novuhq/novu" target="_blank" rel="noopener">Repository</a></span>
+    <span class="actions"><a class="btn-primary" href="https://go.novu.co/github" target="_blank" rel="noopener">Open online</a><a class="btn-secondary" href="https://github.com/novuhq/novu" target="_blank" rel="noopener">Repository</a></span>
   </div>
 </article>
 <article class="card" data-id="smsforwarder" data-scene="overseas"
   data-usage="desktop" data-category="notify"
   data-stars="28084" data-name="SmsForwarder"
-  data-updated="" data-search="smsforwarder pppscn/smsforwarder 把安卓手机的短信、来电、通知按规则转发出去  kotlin 短信转发 android">
+  data-updated="2026-09-22" data-search="smsforwarder pppscn/smsforwarder 把安卓手机的短信、来电、通知按规则转发出去 短信转发器——监控android手机短信、来电、app通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、telegram机器人、server酱、pushplus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（v3.0 新增）ps.这个apk主要是学习与自用，如有bug请提issue，同时欢迎大家提pr指正 kotlin 短信转发 android sms forwarding android">
   <button class="fav" data-fav="smsforwarder" title="Save">☆</button>
   <div class="card-head">
     <img class="icon" src="https://github.com/pppscn.png?size=96" alt="" loading="lazy"
@@ -107,8 +112,8 @@
       <div class="card-repo">pppscn/SmsForwarder</div>
     </div>
   </div>
-  <p class="card-desc">把安卓手机的短信、来电、通知按规则转发出去</p>
-  <div class="tags"><span class="tag plat">Android</span><span class="tag">短信转发</span><span class="tag">Android</span></div>
+  <p class="card-desc">短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正</p>
+  <div class="tags"><span class="tag plat">Android</span><span class="tag">SMS forwarding</span><span class="tag">Android</span></div>
   <div class="card-foot">
     <span class="stat" title="Stars">★ <span class="star-n">28.1k</span></span>
     <span class="stat"><i class="lang-dot" style="background:#A97BFF"></i>Kotlin</span>
@@ -117,8 +122,8 @@
 </article>
 <article class="card" data-id="android-sms-gateway" data-scene="overseas"
   data-usage="selfhost" data-category="notify"
-  data-stars="5766" data-name="Android SMS Gateway"
-  data-updated="" data-search="android sms gateway capcom6/android-sms-gateway 用安卓手机当短信网关，通过 http 收发短信  kotlin 短信网关">
+  data-stars="5767" data-name="Android SMS Gateway"
+  data-updated="2026-09-22" data-search="android sms gateway capcom6/android-sms-gateway 用安卓手机当短信网关，通过 http 收发短信 the sms gateway for android™ app enables sending and receiving sms messages through an api that can be accessed directly on the device or via a cloud server when direct device access is not possible. kotlin 短信网关 sms gateway">
   <button class="fav" data-fav="android-sms-gateway" title="Save">☆</button>
   <div class="card-head">
     <img class="icon" src="https://github.com/capcom6.png?size=96" alt="" loading="lazy"
@@ -128,18 +133,18 @@
       <div class="card-repo">capcom6/android-sms-gateway</div>
     </div>
   </div>
-  <p class="card-desc">用安卓手机当短信网关，通过 HTTP 收发短信</p>
-  <div class="tags"><span class="tag plat">Android</span><span class="tag">短信网关</span></div>
+  <p class="card-desc">The SMS Gateway for Android™ app enables sending and receiving SMS messages through an API that can be accessed directly on the device or via a cloud server when direct device access is not possible.</p>
+  <div class="tags"><span class="tag plat">Android</span><span class="tag">SMS gateway</span></div>
   <div class="card-foot">
     <span class="stat" title="Stars">★ <span class="star-n">5.8k</span></span>
     <span class="stat"><i class="lang-dot" style="background:#A97BFF"></i>Kotlin</span>
-    <span class="actions"><a class="btn-primary" href="https://github.com/capcom6/android-sms-gateway/releases" target="_blank" rel="noopener">Deploy</a><a class="btn-secondary" href="https://github.com/capcom6/android-sms-gateway" target="_blank" rel="noopener">Repository</a></span>
+    <span class="actions"><a class="btn-primary" href="https://docs.sms-gate.app" target="_blank" rel="noopener">Deploy</a><a class="btn-secondary" href="https://github.com/capcom6/android-sms-gateway" target="_blank" rel="noopener">Repository</a></span>
   </div>
 </article>
 <article class="card" data-id="wepush" data-scene="overseas"
   data-usage="desktop" data-category="notify"
   data-stars="4684" data-name="WePush"
-  data-updated="" data-search="wepush rememberber/wepush 中文批量推送工具：公众号、企微、短信、邮件  java 批量推送">
+  data-updated="2026-09-13" data-search="wepush rememberber/wepush 中文批量推送工具：公众号、企微、短信、邮件 专注批量推送的小而美的工具，目前支持：模板消息-公众号、模板消息-小程序、微信客服消息、微信企业号/企业微信消息、阿里云短信、阿里大于模板短信 、腾讯云短信、云片网短信、e-mail、http请求、钉钉、华为云短信、百度云短信、又拍云短信、七牛云短信 java 批量推送 bulk push">
   <button class="fav" data-fav="wepush" title="Save">☆</button>
   <div class="card-head">
     <img class="icon" src="https://github.com/rememberber.png?size=96" alt="" loading="lazy"
@@ -149,8 +154,8 @@
       <div class="card-repo">rememberber/WePush</div>
     </div>
   </div>
-  <p class="card-desc">中文批量推送工具：公众号、企微、短信、邮件</p>
-  <div class="tags"><span class="tag plat">Win</span><span class="tag plat">macOS</span><span class="tag plat">Linux</span><span class="tag">批量推送</span></div>
+  <p class="card-desc">专注批量推送的小而美的工具，目前支持：模板消息-公众号、模板消息-小程序、微信客服消息、微信企业号/企业微信消息、阿里云短信、阿里大于模板短信 、腾讯云短信、云片网短信、E-Mail、HTTP请求、钉钉、华为云短信、百度云短信、又拍云短信、七牛云短信</p>
+  <div class="tags"><span class="tag plat">Win</span><span class="tag plat">macOS</span><span class="tag plat">Linux</span><span class="tag">Bulk push</span></div>
   <div class="card-foot">
     <span class="stat" title="Stars">★ <span class="star-n">4.7k</span></span>
     <span class="stat"><i class="lang-dot" style="background:#b07219"></i>Java</span>
@@ -164,7 +169,7 @@
 
 <footer class="footer wrap">
   <p>Open Source Toolkit · Star counts change over time; synced weekly by GitHub Actions.</p>
-  <p class="footer-note"><a href="/">中文</a></p>
+  <p class="footer-links"><a href="/en/categories/">All categories</a><a href="/">中文</a></p>
 </footer>
 <script src="/app.js"></script>
 </body>

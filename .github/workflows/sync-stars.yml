@@ -23,6 +23,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/sync-github.mjs --force
 
+      - name: 抓取 README 摘要
+        run: node scripts/fetch-readmes.mjs 6
+
       - name: 重建全部静态页面
         run: node scripts/build-pages.mjs
 

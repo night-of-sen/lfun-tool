@@ -15,6 +15,14 @@ const T = JSON.parse(await readFile(join(ROOT, "scripts/i18n.json"), "utf8"));
 const items = data.items;
 const syncedAt = (data.generatedAt || "").slice(0, 10);
 
+// README 摘要缓存（由 scripts/fetch-readmes.mjs 生成）
+let readmes = {};
+try { readmes = JSON.parse(await readFile(join(ROOT, "data", "readmes.json"), "utf8")); } catch (e) {}
+function readmeOf(t) {
+  const r = readmes[t.id];
+  return r && r.summary ? r.summary : "";
+}
+
 /* ---------------- 基础工具 ---------------- */
 function s(v) { return v == null ? "" : String(v); }
 function esc(v) {
@@ -38,9 +46,16 @@ var PLATFORM_LABELS = { windows:"Win", macos:"macOS", linux:"Linux", android:"An
 function langPrefix(lang) { return lang === "zh" ? "" : "/en"; }
 function homePath(lang) { return lang === "zh" ? "/" : "/en/"; }
 function toolPath(lang, id) { return langPrefix(lang) + "/tool/" + id + "/"; }
+function catPath(lang, key) { return langPrefix(lang) + "/category/" + key + "/"; }
+function categoriesPath(lang) { return langPrefix(lang) + "/categories/"; }
 function abs(p) { return DOMAIN + p; }
 function descOf(t, lang) { return lang === "en" ? (t.descEn || t.desc || "") : (t.desc || t.descEn || ""); }
 function catLabel(lang, k) { return T[lang].categories[k] || k; }
+// 标签翻译：英文页查映射表；本来就是英文的标签没有映射，原样返回
+function tagLabel(lang, tag) {
+  if (lang !== "en") return tag;
+  return (T.tagTranslations && T.tagTranslations[tag]) || tag;
+}
 
 function primaryAction(t, lang) {
   var L = T[lang];
@@ -124,7 +139,10 @@ function card(t, lang) {
   var color = LANG_COLORS[t.language] || "#8b949e";
   var owner = t.repo.split("/")[0];
   var initial = (t.name || "?").charAt(0);
-  var search = [t.name, t.repo, t.desc, t.descEn, t.language, (t.tags || []).join(" ")]
+  // 搜索索引同时包含原文标签和译文标签，中英文都能搜到
+  var search = [t.name, t.repo, t.desc, t.descEn, t.language,
+    (t.tags || []).join(" "),
+    (t.tags || []).map(function (x) { return tagLabel("en", x); }).join(" ")]
     .join(" ").toLowerCase();
 
   var badges = "";
@@ -133,7 +151,7 @@ function card(t, lang) {
 
   var plats = (t.platforms || []).filter(function (p) { return PLATFORM_LABELS[p]; })
     .map(function (p) { return '<span class="tag plat">' + PLATFORM_LABELS[p] + "</span>"; }).join("");
-  var tags = (t.tags || []).map(function (x) { return '<span class="tag">' + esc(x) + "</span>"; }).join("");
+  var tags = (t.tags || []).map(function (x) { return '<span class="tag">' + esc(tagLabel(lang, x)) + "</span>"; }).join("");
   var a = primaryAction(t, lang);
   var primaryBtn = a.url
     ? '<a class="btn-primary" href="' + esc(a.url) + '" target="_blank" rel="noopener">' + esc(a.label) + "</a>"
@@ -261,7 +279,8 @@ function footer(lang) {
   return [
     '<footer class="footer wrap">',
     "  <p>" + esc(L.siteName) + " · " + esc(L.footerNote) + "</p>",
-    '  <p class="footer-note"><a href="' + L.langSwitchHref + '">' + esc(L.langSwitch) + "</a></p>",
+    '  <p class="footer-links"><a href="' + categoriesPath(lang) + '">' + esc(L.categoriesHeading) + "</a>" +
+      '<a href="' + L.langSwitchHref + '">' + esc(L.langSwitch) + "</a></p>",
     "</footer>"
   ].join("\n");
 }
@@ -282,7 +301,7 @@ function toolPage(t, lang) {
 
   var plats = (t.platforms || []).filter(function (p) { return PLATFORM_LABELS[p]; })
     .map(function (p) { return '<span class="tag plat">' + PLATFORM_LABELS[p] + "</span>"; }).join("");
-  var tags = (t.tags || []).map(function (x) { return '<span class="tag">' + esc(x) + "</span>"; }).join("");
+  var tags = (t.tags || []).map(function (x) { return '<span class="tag">' + esc(tagLabel(lang, x)) + "</span>"; }).join("");
 
   var related = items.filter(function (x) {
     return x.id !== t.id && x.category === t.category && sceneKey(x) === sceneKey(t);
@@ -317,13 +336,13 @@ function toolPage(t, lang) {
     "codeRepository": "https://github.com/" + t.repo,
     "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
     "author": { "@type": "Organization", "name": owner },
-    "keywords": (t.tags || []).join(", ")
+    "keywords": (t.tags || []).map(function (x) { return tagLabel(lang, x); }).join(", ")
   }, {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": L.backToAll, "item": abs(homePath(lang)) },
-      { "@type": "ListItem", "position": 2, "name": catLabel(lang, t.category) },
+      { "@type": "ListItem", "position": 2, "name": catLabel(lang, t.category), "item": abs(catPath(lang, t.category)) },
       { "@type": "ListItem", "position": 3, "name": t.name, "item": abs(paths[lang]) }
     ]
   }];
@@ -341,7 +360,7 @@ function toolPage(t, lang) {
     '<main class="wrap">',
     '  <nav class="crumbs">',
     '    <a href="' + homePath(lang) + '">' + esc(L.backToAll) + "</a>",
-    '    <span>/</span><span>' + esc(catLabel(lang, t.category)) + "</span>",
+    '    <span>/</span><a href="' + catPath(lang, t.category) + '">' + esc(catLabel(lang, t.category)) + "</a>",
     '    <span>/</span><strong>' + esc(t.name) + "</strong>",
     "  </nav>",
     '  <article class="detail">',
@@ -355,6 +374,11 @@ function toolPage(t, lang) {
     "    </header>",
     '    <p class="detail-desc">' + esc(descOf(t, lang)) + "</p>",
     '    <div class="tags">' + plats + tags + "</div>",
+    '    <figure class="repo-card-wrap">',
+    '      <img class="repo-card" src="https://opengraph.githubassets.com/1/' + esc(t.repo) + '"',
+    '           alt="' + esc(t.name) + ' 仓库概览卡片" width="1200" height="600" loading="lazy">',
+    "    </figure>",
+    (readmeOf(t) ? '    <div class="readme"><h2>' + esc(L.readmeHeading) + "</h2><p>" + esc(readmeOf(t)) + "</p></div>" : ""),
     '    <dl class="specs">',
     specs,
     "    </dl>",
@@ -385,6 +409,132 @@ function toolPage(t, lang) {
 }
 
 /* ---------------- sitemap / robots ---------------- */
+/* ---------------- 分类页 ---------------- */
+function categoryPage(lang, key) {
+  var L = T[lang];
+  var list = items.filter(function (t) { return t.category === key; })
+    .sort(function (a, b) { return b.stars - a.stars; });
+  var cards = list.map(function (t) { return card(t, lang); }).join("\n");
+  var label = catLabel(lang, key);
+  var paths = {};
+  LANGS.forEach(function (l) { paths[l] = catPath(l, key); });
+
+  var title = label + " · " + L.siteName;
+  var desc = (lang === "zh"
+    ? "开源" + label + "工具推荐，共 " + list.length + " 个精选 GitHub 项目，标注清楚怎么用。"
+    : "Curated open-source " + label + " tools — " + list.length + " GitHub projects with clear usage notes.").slice(0, 300);
+
+  var jsonld = [{
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": title,
+    "url": abs(paths[lang]),
+    "inLanguage": L.htmlLang,
+    "description": desc
+  }, {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "numberOfItems": list.length,
+    "itemListElement": list.map(function (t, i) {
+      return { "@type": "ListItem", "position": i + 1, "url": abs(toolPath(lang, t.id)), "name": t.name };
+    })
+  }, {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": L.backToAll, "item": abs(homePath(lang)) },
+      { "@type": "ListItem", "position": 2, "name": L.categoriesHeading, "item": abs(categoriesPath(lang)) },
+      { "@type": "ListItem", "position": 3, "name": label, "item": abs(paths[lang]) }
+    ]
+  }];
+
+  return [
+    head(lang, { title: title, desc: desc, paths: paths, jsonld: jsonld, ogType: "website" }),
+    "",
+    header(lang, false),
+    "",
+    '<main class="wrap">',
+    '  <nav class="crumbs">',
+    '    <a href="' + homePath(lang) + '">' + esc(L.backToAll) + "</a>",
+    '    <span>/</span><a href="' + categoriesPath(lang) + '">' + esc(L.categoriesHeading) + "</a>",
+    '    <span>/</span><strong>' + esc(label) + "</strong>",
+    "  </nav>",
+    '  <h1 class="hero-title">' + esc(label) + "</h1>",
+    '  <p class="hero-sub">' + esc(L.catPageSub.replace("{n}", String(list.length))) + "</p>",
+    '  <div class="grid">',
+    cards,
+    "  </div>",
+    '  <p class="back-link"><a href="' + homePath(lang) + '">← ' + esc(L.backToAll) + "</a></p>",
+    "</main>",
+    "",
+    footer(lang),
+    '<script src="/app.js"></script>',
+    "</body>",
+    "</html>"
+  ].join("\n");
+}
+
+function categoriesIndexPage(lang) {
+  var L = T[lang];
+  var paths = {};
+  LANGS.forEach(function (l) { paths[l] = categoriesPath(l); });
+
+  var counts = {};
+  items.forEach(function (t) { counts[t.category] = (counts[t.category] || 0) + 1; });
+  var keys = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a]; });
+
+  var title = L.categoriesHeading + " · " + L.siteName;
+  var desc = (lang === "zh"
+    ? "按分类浏览 " + items.length + " 个精选开源项目：" + keys.map(function (k) { return catLabel(lang, k); }).join("、") + "。"
+    : "Browse " + items.length + " curated open-source projects by category: " + keys.map(function (k) { return catLabel(lang, k); }).join(", ") + ".").slice(0, 300);
+
+  var jsonld = [{
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": title,
+    "url": abs(paths[lang]),
+    "inLanguage": L.htmlLang,
+    "description": desc
+  }, {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "numberOfItems": keys.length,
+    "itemListElement": keys.map(function (k, i) {
+      return { "@type": "ListItem", "position": i + 1, "url": abs(catPath(lang, k)), "name": catLabel(lang, k) };
+    })
+  }];
+
+  var cards = keys.map(function (k) {
+    return '<a class="cat-card" href="' + catPath(lang, k) + '">' +
+      '<span class="cat-name">' + esc(catLabel(lang, k)) + "</span>" +
+      '<span class="cat-count">' + counts[k] + "</span></a>";
+  }).join("\n");
+
+  return [
+    head(lang, { title: title, desc: desc, paths: paths, jsonld: jsonld, ogType: "website" }),
+    "",
+    header(lang, false),
+    "",
+    '<main class="wrap">',
+    '  <nav class="crumbs">',
+    '    <a href="' + homePath(lang) + '">' + esc(L.backToAll) + "</a>",
+    '    <span>/</span><strong>' + esc(L.categoriesHeading) + "</strong>",
+    "  </nav>",
+    '  <h1 class="hero-title">' + esc(L.categoriesHeading) + "</h1>",
+    '  <p class="hero-sub">' + esc(L.catPageSub.replace("{n}", String(items.length))) + "</p>",
+    '  <div class="cat-grid">',
+    cards,
+    "  </div>",
+    '  <p class="back-link"><a href="' + homePath(lang) + '">← ' + esc(L.backToAll) + "</a></p>",
+    "</main>",
+    "",
+    footer(lang),
+    '<script src="/app.js"></script>',
+    "</body>",
+    "</html>"
+  ].join("\n");
+}
+
 function sitemap() {
   var urls = [];
   LANGS.forEach(function (l) {
@@ -393,6 +543,16 @@ function sitemap() {
   items.forEach(function (t) {
     LANGS.forEach(function (l) {
       urls.push({ loc: abs(toolPath(l, t.id)), paths: { zh: toolPath("zh", t.id), en: toolPath("en", t.id) }, pri: "0.7", freq: "weekly" });
+    });
+  });
+  LANGS.forEach(function (l) {
+    urls.push({ loc: abs(categoriesPath(l)), paths: { zh: categoriesPath("zh"), en: categoriesPath("en") }, pri: "0.8", freq: "weekly" });
+  });
+  var catKeys = {};
+  items.forEach(function (t) { catKeys[t.category] = true; });
+  Object.keys(catKeys).forEach(function (k) {
+    LANGS.forEach(function (l) {
+      urls.push({ loc: abs(catPath(l, k)), paths: { zh: catPath("zh", k), en: catPath("en", k) }, pri: "0.8", freq: "weekly" });
     });
   });
   var body = urls.map(function (u) {
@@ -429,9 +589,15 @@ function robots() {
 
 /* ---------------- 写盘 ---------------- */
 await rm(join(ROOT, "tool"), { recursive: true, force: true });
+await rm(join(ROOT, "category"), { recursive: true, force: true });
+await rm(join(ROOT, "categories"), { recursive: true, force: true });
 await rm(join(ROOT, "en"), { recursive: true, force: true });
 
 var written = 0;
+var allCatKeys = {};
+items.forEach(function (t) { allCatKeys[t.category] = true; });
+var catKeyList = Object.keys(allCatKeys).sort();
+
 for (var li = 0; li < LANGS.length; li++) {
   var lang = LANGS[li];
   var homeDir = lang === "zh" ? ROOT : join(ROOT, "en");
@@ -445,6 +611,19 @@ for (var li = 0; li < LANGS.length; li++) {
     await writeFile(join(dir, "index.html"), toolPage(t, lang), "utf8");
     written++;
   }
+  // 分类总览页
+  var catIdxDir = join(ROOT, categoriesPath(lang).replace(/^[/]/, ""));
+  await mkdir(catIdxDir, { recursive: true });
+  await writeFile(join(catIdxDir, "index.html"), categoriesIndexPage(lang), "utf8");
+  written++;
+  // 各分类落地页
+  for (var ci = 0; ci < catKeyList.length; ci++) {
+    var ck = catKeyList[ci];
+    var cdir = join(ROOT, catPath(lang, ck).replace(/^[/]/, ""));
+    await mkdir(cdir, { recursive: true });
+    await writeFile(join(cdir, "index.html"), categoryPage(lang, ck), "utf8");
+    written++;
+  }
 }
 await writeFile(join(ROOT, "sitemap.xml"), sitemap(), "utf8");
 await writeFile(join(ROOT, "robots.txt"), robots(), "utf8");
@@ -452,6 +631,8 @@ await writeFile(join(ROOT, "robots.txt"), robots(), "utf8");
 console.log("生成完成");
 console.log("  语言: " + LANGS.join(" / "));
 console.log("  工具数: " + items.length);
-console.log("  页面总数: " + written + "（含 " + LANGS.length + " 个首页）");
-console.log("  sitemap.xml: " + (LANGS.length + items.length * LANGS.length) + " 个 URL 条目");
+console.log("  分类数: " + catKeyList.length);
+console.log("  页面总数: " + written + "（首页 " + LANGS.length + " + 工具页 " + items.length * LANGS.length +
+  " + 分类总览 " + LANGS.length + " + 分类页 " + catKeyList.length * LANGS.length + "）");
+console.log("  sitemap.xml 已重新生成");
 console.log("  域名: " + DOMAIN);

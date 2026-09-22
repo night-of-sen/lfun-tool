@@ -605,7 +605,7 @@
       "id": "pyxel",
       "name": "Pyxel",
       "repo": "kitao/pyxel",
-      "homepage": "https://kitao.github.io/pyxel/wasm/",
+      "homepage": "",
       "category": "fun",
       "desc": "复古像素风游戏引擎，浏览器里直接写 Python 游戏",
       "tags": [
@@ -1001,7 +1001,7 @@
       "id": "yesplaymusic",
       "name": "YesPlayMusic",
       "repo": "qier222/YesPlayMusic",
-      "homepage": null,
+      "homepage": "",
       "category": "media",
       "usage": [
         "desktop"
@@ -1347,7 +1347,7 @@
       "id": "yt-dlp",
       "name": "yt-dlp",
       "repo": "yt-dlp/yt-dlp",
-      "homepage": null,
+      "homepage": "",
       "category": "media",
       "usage": [
         "cli"

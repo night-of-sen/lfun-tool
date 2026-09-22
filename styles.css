@@ -165,3 +165,18 @@ html[data-theme="dark"] .badge.warn{color:#fdba74;background:#3b1d0a}
   .detail-name{font-size:19px}
   .icon-lg{width:52px;height:52px}
 }
+/* ===== 分类页 ===== */
+.cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;padding-bottom:36px}
+.cat-card{display:flex;align-items:center;justify-content:space-between;gap:10px;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:15px 18px;box-shadow:var(--shadow);transition:transform .15s,border-color .15s}
+.cat-card:hover{transform:translateY(-2px);border-color:var(--accent)}
+.cat-name{font-size:14.5px;font-weight:600}
+.cat-count{font-size:12.5px;color:var(--muted);background:var(--bg);border:1px solid var(--border);border-radius:999px;padding:2px 10px}
+.footer-links{display:flex;gap:16px;flex-wrap:wrap;opacity:.85}
+.footer-links a{color:var(--accent)}
+.footer-links a:hover{text-decoration:underline}
+/* ===== 工具页视觉卡片与 README 摘要 ===== */
+.repo-card-wrap{margin:0 0 18px}
+.repo-card{display:block;width:100%;max-width:620px;height:auto;border:1px solid var(--border);border-radius:12px;background:var(--bg)}
+.readme{margin:0 0 20px;padding:16px 18px;background:var(--bg);border:1px solid var(--border);border-radius:12px}
+.readme h2{margin:0 0 8px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.3px}
+.readme p{margin:0;font-size:13.5px;line-height:1.75;color:var(--text);opacity:.9}
