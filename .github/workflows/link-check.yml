@@ -1,0 +1,66 @@
+name: 死链巡检
+
+on:
+  schedule:
+    - cron: "0 4 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: 检测链接（发现死链也照常退出）
+        run: node scripts/check-links.mjs 10 || true
+
+      - name: 汇总为 issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = JSON.parse(fs.readFileSync('data/link-report.json', 'utf8'));
+            const bad = report.problems || [];
+            if (!bad.length) {
+              core.info('没有发现死链');
+              return;
+            }
+            const lines = bad.map(function (p) {
+              return '- ' + p.verdict + ' status=' + p.status + ' ' + p.id + ' (' + p.kind + ') ' + p.url;
+            }).join('\n');
+            const parts = [];
+            parts.push('巡检时间: ' + report.checkedAt);
+            parts.push('共检测 ' + report.total + ' 条链接');
+            parts.push('分类统计: ' + JSON.stringify(report.summary));
+            parts.push('');
+            parts.push('需要处理的链接:');
+            parts.push('');
+            parts.push(lines);
+            parts.push('');
+            parts.push('修复方式: 改 scripts/tools.source.json 里对应条目的 homepage 字段。');
+            parts.push('空字符串表示确认没有官网；null 表示从 GitHub 自动读取。');
+            parts.push('改完重跑 node scripts/build-pages.mjs 并提交。');
+            const body = parts.join('\n');
+            const opts = { owner: context.repo.owner, repo: context.repo.repo };
+            const open = await github.rest.issues.listForRepo(
+              Object.assign({}, opts, { state: 'open', labels: 'link-check' })
+            );
+            if (open.data.length) {
+              await github.rest.issues.update(
+                Object.assign({}, opts, { issue_number: open.data[0].number, body: body })
+              );
+              core.info('已更新 issue #' + open.data[0].number);
+            } else {
+              await github.rest.issues.create(
+                Object.assign({}, opts, { title: '死链巡检报告', body: body, labels: ['link-check'] })
+              );
+              core.info('已创建新 issue');
+            }

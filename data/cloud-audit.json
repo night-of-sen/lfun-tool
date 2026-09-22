@@ -1,0 +1,625 @@
+[
+  {
+    "id": "pocketbase",
+    "name": "PocketBase",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": []
+  },
+  {
+    "id": "hyperswitch",
+    "name": "Hyperswitch",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": [
+      {
+        "url": "https://hyperswitch.io/pricing",
+        "text": "Pricing",
+        "host": "hyperswitch.io"
+      },
+      {
+        "url": "https://app.hyperswitch.io/dashboard/login",
+        "text": "Get Started",
+        "host": "app.hyperswitch.io"
+      }
+    ]
+  },
+  {
+    "id": "medusa",
+    "name": "Medusa",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": [
+      {
+        "url": "https://medusajs.com/pricing",
+        "text": "Pricing",
+        "host": "medusajs.com"
+      },
+      {
+        "url": "https://cloud.medusajs.com/signup",
+        "text": "Start now",
+        "host": "cloud.medusajs.com"
+      },
+      {
+        "url": "https://medusajs.com/cloud",
+        "text": "Infrastructure",
+        "host": "medusajs.com"
+      },
+      {
+        "url": "https://cloud.medusajs.com/",
+        "text": "Get Started Cloud",
+        "host": "cloud.medusajs.com"
+      }
+    ]
+  },
+  {
+    "id": "plausible",
+    "name": "Plausible",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": [
+      {
+        "url": "https://plausible.io/eu-hosted-web-analytics",
+        "text": "EU-hosted Built and hosted in the EU. Your data never leaves",
+        "host": "plausible.io"
+      },
+      {
+        "url": "https://plausible.io/vs-cloudflare-web-analytics",
+        "text": "vs Cloudflare Analytics",
+        "host": "plausible.io"
+      },
+      {
+        "url": "https://plausible.io/#pricing",
+        "text": "Pricing",
+        "host": "plausible.io"
+      },
+      {
+        "url": "https://plausible.io/register",
+        "text": "Start free trial",
+        "host": "plausible.io"
+      },
+      {
+        "url": "https://plausible.io/volumeIndex%20%3C%20volumesWithPrices.length%20&&",
+        "text": "Start free trial",
+        "host": "plausible.io"
+      }
+    ]
+  },
+  {
+    "id": "authelia",
+    "name": "Authelia",
+    "ok": true,
+    "status": 200,
+    "textHit": false,
+    "found": []
+  },
+  {
+    "id": "authentik",
+    "name": "Authentik",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": []
+  },
+  {
+    "id": "monica",
+    "name": "Monica",
+    "ok": true,
+    "status": 200,
+    "textHit": false,
+    "found": []
+  },
+  {
+    "id": "firefly-iii",
+    "name": "Firefly III",
+    "ok": true,
+    "status": 403,
+    "textHit": true,
+    "found": []
+  },
+  {
+    "id": "nocobase",
+    "name": "NocoBase",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": [
+      {
+        "url": "https://v2.docs.nocobase.com/get-started/how-nocobase-works",
+        "text": "See how it works",
+        "host": "v2.docs.nocobase.com"
+      },
+      {
+        "url": "https://www.nocobase.com/en/commercial",
+        "text": "Pricing",
+        "host": "www.nocobase.com"
+      }
+    ]
+  },
+  {
+    "id": "krayin",
+    "name": "Krayin CRM",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": [
+      {
+        "url": "https://krayincrm.com/crm-cloud-hosting/",
+        "text": "Krayin CRM Hosting",
+        "host": "krayincrm.com"
+      }
+    ]
+  },
+  {
+    "id": "listmonk",
+    "name": "Listmonk",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": []
+  },
+  {
+    "id": "saleor",
+    "name": "Saleor",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": [
+      {
+        "url": "https://saleor.io/pricing",
+        "text": "Pricing",
+        "host": "saleor.io"
+      },
+      {
+        "url": "https://cloud.saleor.io/",
+        "text": "Log in",
+        "host": "cloud.saleor.io"
+      },
+      {
+        "url": "https://cloud.saleor.io/signup?cta=Get+Started&amp;cta_page=%2F",
+        "text": "Get Started",
+        "host": "cloud.saleor.io"
+      }
+    ]
+  },
+  {
+    "id": "sonic",
+    "name": "Sonic",
+    "ok": true,
+    "status": 200,
+    "textHit": false,
+    "found": []
+  },
+  {
+    "id": "docker-mailserver",
+    "name": "docker-mailserver",
+    "ok": true,
+    "status": 200,
+    "textHit": false,
+    "found": []
+  },
+  {
+    "id": "postal",
+    "name": "Postal",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": [
+      {
+        "url": "https://postalserver.io/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&amp;source=header-repo&amp;source_repo=postalserver%2Finstall",
+        "text": "Sign up",
+        "host": "postalserver.io"
+      }
+    ]
+  },
+  {
+    "id": "open-saas",
+    "name": "Open SaaS",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": []
+  },
+  {
+    "id": "spree",
+    "name": "Spree",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": [
+      {
+        "url": "https://spreecommerce.org/use-cases/b2b-ecommerce-platform/",
+        "text": "B2B eCommerce Buyer organizations, custom pricing & approval",
+        "host": "spreecommerce.org"
+      }
+    ]
+  },
+  {
+    "id": "billionmail",
+    "name": "BillionMail",
+    "ok": true,
+    "status": 520,
+    "textHit": true,
+    "found": []
+  },
+  {
+    "id": "mailinabox",
+    "name": "Mail-in-a-Box",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": [
+      {
+        "url": "https://mailinabox.email/static/nextcloud_contacts.png",
+        "text": "",
+        "host": "mailinabox.email"
+      }
+    ]
+  },
+  {
+    "id": "stalwart",
+    "name": "Stalwart",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": [
+      {
+        "url": "https://stalw.art/pricing",
+        "text": "Pricing",
+        "host": "stalw.art"
+      },
+      {
+        "url": "https://license.stalw.art/trial",
+        "text": "Evaluate",
+        "host": "license.stalw.art"
+      }
+    ]
+  },
+  {
+    "id": "mailcow",
+    "name": "mailcow",
+    "ok": true,
+    "status": 200,
+    "textHit": false,
+    "found": []
+  },
+  {
+    "id": "openreplay",
+    "name": "OpenReplay",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": [
+      {
+        "url": "https://openreplay.com/pricing",
+        "text": "Pricing",
+        "host": "openreplay.com"
+      },
+      {
+        "url": "https://openreplay.com/pricing#self-host",
+        "text": "Self-Host",
+        "host": "openreplay.com"
+      },
+      {
+        "url": "https://openreplay.com/pricing#cloud",
+        "text": "Try Cloud",
+        "host": "openreplay.com"
+      },
+      {
+        "url": "https://app.openreplay.com/login",
+        "text": "Login",
+        "host": "app.openreplay.com"
+      }
+    ]
+  },
+  {
+    "id": "lago",
+    "name": "Lago",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": [
+      {
+        "url": "https://www.getlago.com/platform/usage-metering",
+        "text": "Usage Metering Real-time metering for flexible pricing.",
+        "host": "www.getlago.com"
+      },
+      {
+        "url": "https://www.getlago.com/solutions/teams/product",
+        "text": "Product Ship pricing changes without engineering bottlenecks",
+        "host": "www.getlago.com"
+      },
+      {
+        "url": "https://www.getlago.com/solutions/use-cases/hybrid-plans",
+        "text": "Hybrid Plans Combine different pricing models.",
+        "host": "www.getlago.com"
+      },
+      {
+        "url": "https://www.getlago.com/solutions/use-cases/self-hosted",
+        "text": "Self-hosted Deploy Lago anywhere.",
+        "host": "www.getlago.com"
+      },
+      {
+        "url": "https://www.getlago.com/pricing",
+        "text": "Pricing",
+        "host": "www.getlago.com"
+      },
+      {
+        "url": "https://app.getlago.com/",
+        "text": "Log in",
+        "host": "app.getlago.com"
+      }
+    ]
+  },
+  {
+    "id": "mautic",
+    "name": "Mautic",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": []
+  },
+  {
+    "id": "nopcommerce",
+    "name": "nopCommerce",
+    "ok": true,
+    "status": 403,
+    "textHit": true,
+    "found": []
+  },
+  {
+    "id": "akaunting",
+    "name": "Akaunting",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": [
+      {
+        "url": "https://akaunting.com/plans",
+        "text": "Plans for Cloud",
+        "host": "akaunting.com"
+      },
+      {
+        "url": "https://akaunting.com/features/why-akaunting-cloud",
+        "text": "On-Premise vs Cloud",
+        "host": "akaunting.com"
+      }
+    ]
+  },
+  {
+    "id": "crater",
+    "name": "Crater",
+    "ok": true,
+    "status": 200,
+    "textHit": false,
+    "found": []
+  },
+  {
+    "id": "mailu",
+    "name": "Mailu",
+    "ok": true,
+    "status": 200,
+    "textHit": false,
+    "found": []
+  },
+  {
+    "id": "countly",
+    "name": "Countly",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": [
+      {
+        "url": "https://countly.com/pricing",
+        "text": "Pricing",
+        "host": "countly.com"
+      },
+      {
+        "url": "https://flex.countly.com/",
+        "text": "Flex Private cloud 14-day trial Advanced Analytics included ",
+        "host": "flex.countly.com"
+      }
+    ]
+  },
+  {
+    "id": "android-sms-gateway",
+    "name": "Android SMS Gateway",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": []
+  },
+  {
+    "id": "killbill",
+    "name": "Kill Bill",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": [
+      {
+        "url": "https://killbill.io/platform/catalog-pricing.html",
+        "text": "Catalog &amp; Pricing Plans, tiers, and promotions",
+        "host": "killbill.io"
+      },
+      {
+        "url": "https://killbill.io/use-cases/saas-subscriptions.html",
+        "text": "SaaS &amp; Subscriptions Pricing models, trials, and dunning",
+        "host": "killbill.io"
+      },
+      {
+        "url": "https://killbill.io/use-cases/neocloud-usage-based.html",
+        "text": "NeoCloud &amp; Usage-Based Metering, wallets, and scale",
+        "host": "killbill.io"
+      },
+      {
+        "url": "https://killbill.io/pricing.html",
+        "text": "Pricing Plans and pricing",
+        "host": "killbill.io"
+      },
+      {
+        "url": "https://killbill.io/chaching.html",
+        "text": "Hosted Platform Managed by ChaChing",
+        "host": "killbill.io"
+      }
+    ]
+  },
+  {
+    "id": "httpsms",
+    "name": "httpSMS",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": []
+  },
+  {
+    "id": "kimai",
+    "name": "Kimai",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": [
+      {
+        "url": "https://www.kimai.org/en/pricing",
+        "text": "Pricing",
+        "host": "www.kimai.org"
+      },
+      {
+        "url": "https://www.kimai.org/documentation/cloud.html",
+        "text": "Cloud",
+        "host": "www.kimai.org"
+      },
+      {
+        "url": "https://www.kimai.org/en/terms-cloud.html",
+        "text": "Terms",
+        "host": "www.kimai.org"
+      }
+    ]
+  },
+  {
+    "id": "flipt",
+    "name": "Flipt",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": []
+  },
+  {
+    "id": "freescout",
+    "name": "FreeScout",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": [
+      {
+        "url": "https://freescout.net/cloudron/",
+        "text": "",
+        "host": "freescout.net"
+      },
+      {
+        "url": "https://freescout.net/cloud-hosted/",
+        "text": "More One-Click Installs",
+        "host": "freescout.net"
+      }
+    ]
+  },
+  {
+    "id": "frappe-helpdesk",
+    "name": "Frappe Helpdesk",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": [
+      {
+        "url": "https://frappe.io/helpdesk/pricing",
+        "text": "Pricing",
+        "host": "frappe.io"
+      },
+      {
+        "url": "https://cloud.frappe.io/dashboard/signup?product=helpdesk",
+        "text": "Get started",
+        "host": "cloud.frappe.io"
+      }
+    ]
+  },
+  {
+    "id": "espocrm",
+    "name": "EspoCRM",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": [
+      {
+        "url": "https://www.espocrm.com/cloud/",
+        "text": "CLOUD",
+        "host": "www.espocrm.com"
+      },
+      {
+        "url": "https://www.espocrm.com/self-hosted-vs-cloud-crm/",
+        "text": "Learn more",
+        "host": "www.espocrm.com"
+      },
+      {
+        "url": "https://www.espocrm.com/cloud-registration/",
+        "text": "Get Started Now!",
+        "host": "www.espocrm.com"
+      },
+      {
+        "url": "https://www.espocrm.com/cloud-registration/?plan=demo",
+        "text": "Personal Demo",
+        "host": "www.espocrm.com"
+      }
+    ]
+  },
+  {
+    "id": "libredesk",
+    "name": "LibreDesk",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": []
+  },
+  {
+    "id": "cskefu",
+    "name": "春松客服",
+    "ok": true,
+    "status": 200,
+    "textHit": false,
+    "found": []
+  },
+  {
+    "id": "flagr",
+    "name": "Flagr",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": []
+  },
+  {
+    "id": "openmeter",
+    "name": "OpenMeter",
+    "ok": true,
+    "status": 200,
+    "textHit": true,
+    "found": [
+      {
+        "url": "https://openmeter.io/pricing",
+        "text": "Pricing",
+        "host": "openmeter.io"
+      },
+      {
+        "url": "https://cloud.konghq.com/register?utm_source=openmeter-landing&amp;utm_medium=link&amp;utm_campaign=metering-and-billing&amp;utm_content=index",
+        "text": "Get started",
+        "host": "cloud.konghq.com"
+      },
+      {
+        "url": "https://openmeter.io/use-cases/usage-based-pricing",
+        "text": "Usage-Based Pricing",
+        "host": "openmeter.io"
+      }
+    ]
+  }
+]

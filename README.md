@@ -41,12 +41,12 @@
 
 采用 **子目录 + 默认语言放根路径** 的方案：
 
-| 语言 | 首页 | 工具页 | 分类页 |
-|---|---|---|---|
-| 中文（默认） | `/` | `/tool/excalidraw/` | `/category/analytics/` |
-| English | `/en/` | `/en/tool/excalidraw/` | `/en/category/analytics/` |
+| 语言 | 首页 | 工具页 | 分类页 | 对比页 | 内容页 |
+|---|---|---|---|---|---|
+| 中文（默认） | `/` | `/tool/excalidraw/` | `/category/analytics/` | `/compare/excalidraw-vs-tldraw/` | `/about/` `/disclaimer/` |
+| English | `/en/` | `/en/tool/excalidraw/` | `/en/category/analytics/` | `/en/compare/...` | `/en/about/` … |
 
-分类总览页：`/categories/` 与 `/en/categories/`
+分类总览页：`/categories/` 与 `/en/categories/`。全站共 **496 个页面**。
 
 **为什么这样设计**
 
@@ -81,6 +81,8 @@
     ├─ en/tool/<id>/index.html     ← 156 个英文工具页（生成）
     ├─ en/category/<key>/index.html← 27 个英文分类页（生成）
     ├─ en/categories/index.html    ← 英文分类总览（生成）
+    ├─ compare/<a>-vs-<b>/index.html ← 61 组对比页（生成）
+    ├─ about/ · disclaimer/        ← 静态内容页（生成）
     ├─ sitemap.xml                 ← 生成
     ├─ robots.txt                  ← 生成
     ├─ 404.html                    ← 手写
@@ -93,9 +95,12 @@
     ├─ scripts/
     │   ├─ tools.source.json       ← 人工维护的源数据
     │   ├─ i18n.json               ← 中英文界面文案 + 157 条标签翻译
+    │   ├─ pages.json              ← 「关于」「免责声明」正文（中英）
+    │   ├─ aliases.json            ← 搜索别名（中文俗称、简称）
     │   ├─ sync-github.mjs         ← 增量同步星数等元数据
     │   ├─ fetch-readmes.mjs       ← 抓取并提取 README 首段摘要
     │   ├─ check-links.mjs         ← 死链检测
+    │   ├─ audit-cloud.mjs         ← 审计哪些项目有官方云版
     │   ├─ build-pages.mjs         ← 页面生成器
     │   ├─ serve.mjs               ← 本地预览服务器
     │   └─ smoke-test.mjs          ← 冒烟测试
@@ -159,7 +164,7 @@ hPanel → **SSL** → 给 `tools.lfun.cloud` 装 Let's Encrypt → 开 Force HT
 **手动更新**：
 
     node scripts/sync-github.mjs     # 1. 拉取最新星数等元数据
-    node scripts/build-pages.mjs     # 2. 重新生成 370 个页面
+    node scripts/build-pages.mjs     # 2. 重新生成 496 个页面
     node scripts/smoke-test.mjs      # 3. 验证
     # 4. git commit && git push
 
@@ -183,7 +188,12 @@ hPanel → **SSL** → 给 `tools.lfun.cloud` 装 Let's Encrypt → 开 Force HT
 - README 摘要走 `raw.githubusercontent.com`，**不消耗 GitHub API 配额**。
 - 摘要只接受**以项目名开头**的段落（"X is a …" 这种）。更宽松的规则会放进
   "Optional: set APIURL…" 这类配置说明，所以宁可少也要准。当前 109/156 有摘要。
-- 工具页会同时展示 GitHub 自动生成的仓库概览卡片和这段摘要。
+- 工具页的视觉图：**有官网地址就用 WordPress mShots 截真实网页**，没有则回退到 GitHub
+  自动生成的仓库卡片（1200×600，零维护）。
+- **搜索别名**：`scripts/aliases.json` 给 121 个工具配了 185 条中文俗称和简称，
+  让「在线白板」「网易云播放器」这类词也能搜到。
+- **对比页**：每个分类取星数前 3 两两配对，但**必须共享至少一个标签或使用方式**才生成，
+  避免出现跨用途的荒谬配对。
 - 死链检测同时检查官网和 GitHub 仓库，结果分 ok / dead / blocked / error 四类；
   报告写到 `data/link-report.json`（临时产物，已加入 .gitignore）。
 
@@ -249,6 +259,36 @@ hPanel → **SSL** → 给 `tools.lfun.cloud` 装 Let's Encrypt → 开 Force HT
 | `email` | 邮件触达 | `support` | 客服工单 |
 | `notify` | 通知短信 | | |
 
+## 使用门槛分级
+
+导航站最大的问题是「点进去才发现要自己部署」。所以每个项目都会算出一个门槛等级，
+在卡片和工具页上直接标出来：
+
+| 等级 | 判定依据 | 数量 | 含义 |
+|---|---|---|---|
+| 🟢 `ready` | 有官网在线版 | **55** | 打开就能用，不用装也不用部署 |
+| 🟡 `cloud` | 厂商提供官方云版 | **18** | 注册后即可使用，不用自己部署；免费额度或试用期以厂商为准 |
+| 🔵 `onecmd` | 自托管 + README 里有可执行命令 | **6** | 需要服务器，但能复制粘贴一条命令跑起来 |
+| 🟠 `setup` | 自托管但 README 里没有现成命令 | **17** | 需要服务器 + 配数据库/环境变量/域名，得看官方文档 |
+| ⚪ `install` | 桌面应用 / 命令行 | **50** | 下载安装到本机，不需要服务器 |
+| 📦 `library` | 开发库 | **10** | 不是独立应用，要写代码调用 |
+
+**不需要自己运维的合计 123 个**（ready 55 + cloud 18 + install 50）。
+
+判定逻辑在 `scripts/build-pages.mjs` 的 `deployTier()`，全部由数据推导，不是人工标注。
+
+**关于 `onecmd` 只有 6 个**：不是提取器不行，而是那些项目的 README 里
+**本来就没有可直接执行的部署命令**——它们把安装说明放在外部文档站。这一点值得知道：
+这类项目对非运维用户来说，确实不友好。
+
+**`cloud` 档是怎么来的**：用 `scripts/audit-cloud.mjs` 抓每个「纯自托管」项目的官网，
+找 `cloud.` / `app.` 子域和 signup / pricing 类链接，再人工核实。
+41 个里查出 18 个确实有官方托管版，5 个是误报（链接指向 GitHub 注册页、图片地址、
+案例页、许可证试用页等）。
+
+有命令的工具页会渲染一个带「复制」按钮的代码块，命令从 README 的代码围栏里抽取
+（优先取 `docker run` 这类单行命令，其次取 `docker-compose.yml` 内容）。
+
 ## 设计说明
 
 - **零依赖**：不用 npm install，不用框架，不用打包器。Node 只用来跑脚本。
@@ -265,6 +305,16 @@ hPanel → **SSL** → 给 `tools.lfun.cloud` 装 Let's Encrypt → 开 Force HT
 
 - **homepage 三态**：`null` 自动读、`""` 确认没有、其他写死。
 - **不手写星数**：所有星数来自 GitHub API。
+
+## 贡献
+
+见 [CONTRIBUTING.md](./CONTRIBUTING.md)。三种方式：
+
+- **提 Issue**：用仓库里的表单推荐新工具或报告问题
+- **提 PR**：改 `scripts/tools.source.json` 加一条，跑构建和测试，提交
+- **跑巡检**：`node scripts/check-links.mjs 10`
+
+每月 1 日 CI 会自动巡检死链，把结果汇总到一个标题为「死链巡检报告」的 Issue 里。
 
 ## 按键
 

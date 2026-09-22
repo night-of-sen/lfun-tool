@@ -1,0 +1,429 @@
+{
+  "cskefu": [
+    "春松",
+    "春松客服系统"
+  ],
+  "wepush": [
+    "微信推送",
+    "批量推送工具"
+  ],
+  "smsforwarder": [
+    "短信转发器",
+    "安卓短信转发"
+  ],
+  "umi-ocr": [
+    "离线ocr",
+    "截图识字",
+    "文字识别"
+  ],
+  "esearch": [
+    "截屏ocr",
+    "截图搜索"
+  ],
+  "yesplaymusic": [
+    "网易云播放器",
+    "第三方网易云"
+  ],
+  "listen1": [
+    "全网音乐",
+    "聚合音乐"
+  ],
+  "alger": [
+    "音乐播放器",
+    "桌面歌词"
+  ],
+  "nuclear": [
+    "免费音乐播放器"
+  ],
+  "pear": [
+    "youtube music 客户端"
+  ],
+  "miaoyan": [
+    "妙言",
+    "mac 写作"
+  ],
+  "marktext": [
+    "markdown 编辑器"
+  ],
+  "markedit": [
+    "mac markdown"
+  ],
+  "pake": [
+    "网页打包桌面应用",
+    "网页转应用"
+  ],
+  "pakeplus": [
+    "网页打包app"
+  ],
+  "rubick": [
+    "开源工具箱",
+    "插件工具箱"
+  ],
+  "devtoys": [
+    "开发者工具箱"
+  ],
+  "bongocat": [
+    "桌宠",
+    "键盘猫",
+    "桌面猫"
+  ],
+  "doocs-md": [
+    "微信排版",
+    "公众号排版"
+  ],
+  "60s": [
+    "每日60秒",
+    "60秒读懂世界"
+  ],
+  "linux-command": [
+    "linux命令大全",
+    "命令速查"
+  ],
+  "pyxel": [
+    "像素游戏引擎"
+  ],
+  "p5js": [
+    "创意编程",
+    "processing"
+  ],
+  "lichess": [
+    "国际象棋",
+    "在线下棋"
+  ],
+  "gdevelop": [
+    "做游戏",
+    "游戏开发引擎"
+  ],
+  "tinyrenderer": [
+    "手写渲染器",
+    "图形学教程"
+  ],
+  "squoosh": [
+    "图片压缩",
+    "在线压缩"
+  ],
+  "stirling-pdf": [
+    "pdf工具",
+    "pdf编辑器",
+    "pdf合并"
+  ],
+  "penpot": [
+    "figma 替代",
+    "在线设计"
+  ],
+  "tldraw": [
+    "无限画布",
+    "在线白板"
+  ],
+  "excalidraw": [
+    "在线白板",
+    "手绘白板",
+    "画流程图"
+  ],
+  "drawio": [
+    "流程图",
+    "visio 替代"
+  ],
+  "mermaid": [
+    "文本画图",
+    "流程图代码"
+  ],
+  "plantuml": [
+    "uml 图"
+  ],
+  "markmap": [
+    "markdown 思维导图"
+  ],
+  "mind-elixir": [
+    "思维导图库"
+  ],
+  "it-tools": [
+    "开发者在线工具",
+    "在线工具箱"
+  ],
+  "cyberchef": [
+    "编解码",
+    "加解密工具"
+  ],
+  "jsoncrack": [
+    "json 可视化"
+  ],
+  "hoppscotch": [
+    "api 调试",
+    "postman 替代"
+  ],
+  "transform": [
+    "格式转换"
+  ],
+  "omni-tools": [
+    "在线工具箱"
+  ],
+  "carbon": [
+    "代码截图"
+  ],
+  "profile-summary": [
+    "github 分析"
+  ],
+  "reactive-resume": [
+    "在线简历",
+    "简历生成"
+  ],
+  "slidev": [
+    "markdown ppt",
+    "做ppt"
+  ],
+  "editor-md": [
+    "markdown 编辑器"
+  ],
+  "chatwoot": [
+    "客服系统",
+    "在线客服"
+  ],
+  "twenty": [
+    "crm 系统"
+  ],
+  "pocketbase": [
+    "后端框架",
+    "单文件后端"
+  ],
+  "meilisearch": [
+    "全文搜索",
+    "站内搜索"
+  ],
+  "typesense": [
+    "搜索引擎"
+  ],
+  "sonic": [
+    "搜索后端"
+  ],
+  "metabase": [
+    "bi 工具",
+    "数据看板"
+  ],
+  "plausible": [
+    "网站统计",
+    "谷歌分析替代"
+  ],
+  "umami": [
+    "网站统计",
+    "轻量分析"
+  ],
+  "matomo": [
+    "网站统计",
+    "ga 替代"
+  ],
+  "posthog": [
+    "产品分析",
+    "用户行为分析"
+  ],
+  "listmonk": [
+    "邮件列表",
+    "newsletter"
+  ],
+  "mautic": [
+    "营销自动化"
+  ],
+  "medusa": [
+    "开源电商",
+    "独立站"
+  ],
+  "saleor": [
+    "电商前端"
+  ],
+  "spree": [
+    "电商平台"
+  ],
+  "hyperswitch": [
+    "支付网关",
+    "聚合支付"
+  ],
+  "lago": [
+    "计费系统",
+    "按量计费"
+  ],
+  "documenso": [
+    "电子签名",
+    "docusign 替代"
+  ],
+  "weblate": [
+    "翻译平台",
+    "本地化"
+  ],
+  "tolgee": [
+    "多语言管理"
+  ],
+  "libretranslate": [
+    "翻译api",
+    "自建翻译"
+  ],
+  "i18next": [
+    "国际化框架"
+  ],
+  "open-saas": [
+    "saas 脚手架",
+    "saas 模板"
+  ],
+  "authelia": [
+    "单点登录",
+    "sso"
+  ],
+  "authentik": [
+    "身份认证"
+  ],
+  "logto": [
+    "auth0 替代"
+  ],
+  "supertokens": [
+    "登录认证"
+  ],
+  "zitadel": [
+    "身份管理"
+  ],
+  "casbin": [
+    "权限管理",
+    "rbac"
+  ],
+  "novu": [
+    "消息通知",
+    "多通道通知"
+  ],
+  "mailcow": [
+    "自建邮局"
+  ],
+  "docker-mailserver": [
+    "邮件服务器"
+  ],
+  "stalwart": [
+    "邮件服务器"
+  ],
+  "postal": [
+    "邮件投递"
+  ],
+  "mailinabox": [
+    "一键邮局"
+  ],
+  "mailu": [
+    "邮件服务器"
+  ],
+  "firefly-iii": [
+    "记账软件",
+    "个人财务"
+  ],
+  "kimai": [
+    "工时统计",
+    "计时"
+  ],
+  "akaunting": [
+    "会计软件"
+  ],
+  "crater": [
+    "发票管理"
+  ],
+  "frappe-books": [
+    "记账"
+  ],
+  "powertoys": [
+    "windows 增强",
+    "系统工具"
+  ],
+  "ventoy": [
+    "u盘启动盘",
+    "多系统启动盘"
+  ],
+  "win11debloat": [
+    "win11 优化",
+    "卸载预装"
+  ],
+  "whisky": [
+    "mac 玩windows游戏"
+  ],
+  "sharex": [
+    "截图工具",
+    "录屏工具"
+  ],
+  "flameshot": [
+    "截图标注"
+  ],
+  "motrix": [
+    "下载器",
+    "aria2 界面"
+  ],
+  "abdm": [
+    "下载管理器"
+  ],
+  "cap": [
+    "录屏",
+    "loom 替代"
+  ],
+  "spotube": [
+    "音乐客户端"
+  ],
+  "yt-dlp": [
+    "视频下载",
+    "youtube 下载"
+  ],
+  "spotdl": [
+    "spotify 下载"
+  ],
+  "fzf": [
+    "模糊查找"
+  ],
+  "ripgrep": [
+    "代码搜索"
+  ],
+  "lazygit": [
+    "git 界面"
+  ],
+  "bat": [
+    "cat 替代"
+  ],
+  "fd": [
+    "find 替代"
+  ],
+  "jq": [
+    "json 处理"
+  ],
+  "httpie": [
+    "curl 替代"
+  ],
+  "mkcert": [
+    "本地证书",
+    "https 证书"
+  ],
+  "dive": [
+    "docker 镜像分析"
+  ],
+  "croc": [
+    "传文件"
+  ],
+  "ffsend": [
+    "命令行传文件"
+  ],
+  "gopass": [
+    "密码管理"
+  ],
+  "dufs": [
+    "文件服务器"
+  ],
+  "nb": [
+    "命令行笔记"
+  ],
+  "onefetch": [
+    "git 仓库信息"
+  ],
+  "neofetch": [
+    "系统信息"
+  ],
+  "hyperfine": [
+    "性能测试"
+  ],
+  "beets": [
+    "音乐库管理"
+  ],
+  "tldr": [
+    "命令速查"
+  ],
+  "sherlock": [
+    "用户名搜索"
+  ]
+}

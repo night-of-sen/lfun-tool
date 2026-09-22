@@ -20,7 +20,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "tldraw",
@@ -40,7 +41,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "drawio",
@@ -61,7 +63,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "mermaid",
@@ -81,7 +84,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "plantuml",
@@ -101,7 +105,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "markmap",
@@ -121,7 +126,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "mind-elixir",
@@ -140,7 +146,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "squoosh",
@@ -160,7 +167,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "html2canvas",
@@ -180,7 +188,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "snapdom",
@@ -200,7 +209,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "html-to-image",
@@ -220,7 +230,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "webglstudio",
@@ -240,7 +251,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "stirling-pdf",
@@ -261,7 +273,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "slidev",
@@ -281,7 +294,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "doocs-md",
@@ -301,7 +315,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "editor-md",
@@ -320,7 +335,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "reactive-resume",
@@ -340,7 +356,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "it-tools",
@@ -360,7 +377,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "cyberchef",
@@ -380,7 +398,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "jsoncrack",
@@ -400,7 +419,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "hoppscotch",
@@ -420,7 +440,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "transform",
@@ -440,7 +461,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "omni-tools",
@@ -460,7 +482,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "penpot",
@@ -480,7 +503,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "carbon",
@@ -499,7 +523,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "profile-summary",
@@ -519,7 +544,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "linux-command",
@@ -539,7 +565,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "60s",
@@ -559,7 +586,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "lichess",
@@ -579,7 +607,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "gdevelop",
@@ -599,7 +628,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "pyxel",
@@ -619,7 +649,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "p5js",
@@ -639,7 +670,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "tinyrenderer",
@@ -659,7 +691,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "tinyraytracer",
@@ -679,7 +712,8 @@
       "usage": [
         "online"
       ],
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "powertoys",
@@ -704,7 +738,8 @@
         "language": "C",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "ventoy",
@@ -730,7 +765,8 @@
         "language": "C",
         "license": "GPL-3.0"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "win11debloat",
@@ -755,7 +791,8 @@
         "language": "PowerShell",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "whisky",
@@ -780,7 +817,8 @@
         "language": "Swift",
         "license": "GPL-3.0"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "motrix",
@@ -807,7 +845,8 @@
         "language": "TypeScript",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "abdm",
@@ -834,7 +873,8 @@
         "language": "Kotlin",
         "license": "Apache-2.0"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "sharex",
@@ -860,7 +900,8 @@
         "language": "C#",
         "license": "GPL-3.0"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "flameshot",
@@ -887,7 +928,8 @@
         "language": "C++",
         "license": "GPL-3.0"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "umi-ocr",
@@ -912,7 +954,8 @@
         "language": "Python",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "esearch",
@@ -940,7 +983,8 @@
         "language": "TypeScript",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "cap",
@@ -966,7 +1010,8 @@
         "language": "Rust",
         "license": "AGPL-3.0"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "spotube",
@@ -995,7 +1040,8 @@
         "language": "Dart",
         "license": "BSD-4-Clause"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "yesplaymusic",
@@ -1022,7 +1068,8 @@
         "language": "Vue",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "pear",
@@ -1049,7 +1096,8 @@
         "language": "TypeScript",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "nuclear",
@@ -1076,7 +1124,8 @@
         "language": "TypeScript",
         "license": "AGPL-3.0"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "alger",
@@ -1103,7 +1152,8 @@
         "language": "Vue",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "listen1",
@@ -1130,7 +1180,8 @@
         "language": "JavaScript",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "marktext",
@@ -1157,7 +1208,8 @@
         "language": "TypeScript",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "miaoyan",
@@ -1182,7 +1234,8 @@
         "language": "Swift",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "markedit",
@@ -1207,7 +1260,8 @@
         "language": "Swift",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "devtoys",
@@ -1233,7 +1287,8 @@
         "language": "C#",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "rubick",
@@ -1260,7 +1315,8 @@
         "language": "TypeScript",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "pake",
@@ -1287,7 +1343,8 @@
         "language": "Rust",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "pakeplus",
@@ -1314,7 +1371,8 @@
         "language": "HTML",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "bongocat",
@@ -1341,7 +1399,8 @@
         "language": "Vue",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "yt-dlp",
@@ -1368,7 +1427,8 @@
         "language": "Python",
         "license": "Unlicense"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "fzf",
@@ -1395,7 +1455,8 @@
         "language": "Go",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "lazygit",
@@ -1422,7 +1483,8 @@
         "language": "Go",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "ripgrep",
@@ -1449,7 +1511,8 @@
         "language": "Rust",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "tldr",
@@ -1476,7 +1539,8 @@
         "language": "Markdown",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "mkcert",
@@ -1503,7 +1567,8 @@
         "language": "Go",
         "license": "BSD-3-Clause"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "bat",
@@ -1530,7 +1595,8 @@
         "language": "Rust",
         "license": "Apache-2.0"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "dive",
@@ -1557,7 +1623,8 @@
         "language": "Go",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "fd",
@@ -1584,7 +1651,8 @@
         "language": "Rust",
         "license": "Apache-2.0"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "croc",
@@ -1611,7 +1679,8 @@
         "language": "Go",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "httpie",
@@ -1638,7 +1707,8 @@
         "language": "Python",
         "license": "BSD-3-Clause"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "jq",
@@ -1665,7 +1735,8 @@
         "language": "C",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "hyperfine",
@@ -1692,7 +1763,8 @@
         "language": "Rust",
         "license": "Apache-2.0"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "beets",
@@ -1719,7 +1791,8 @@
         "language": "Python",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "onefetch",
@@ -1746,7 +1819,8 @@
         "language": "Rust",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "dufs",
@@ -1773,7 +1847,8 @@
         "language": "Rust",
         "license": "Apache-2.0"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "nb",
@@ -1800,7 +1875,8 @@
         "language": "Shell",
         "license": "AGPL-3.0"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "ffsend",
@@ -1827,7 +1903,8 @@
         "language": "Rust",
         "license": "MPL-2.0"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "gopass",
@@ -1854,7 +1931,8 @@
         "language": "Go",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "neofetch",
@@ -1880,7 +1958,8 @@
         "language": "Shell",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "sherlock",
@@ -1907,7 +1986,8 @@
         "language": "Python",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "spotdl",
@@ -1934,7 +2014,8 @@
         "language": "Python",
         "license": "MIT"
       },
-      "scene": ""
+      "scene": "",
+      "cloud": ""
     },
     {
       "id": "matomo",
@@ -1958,7 +2039,8 @@
         "stars": 21890,
         "language": "PHP",
         "license": "GPL-3.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "posthog",
@@ -1982,7 +2064,8 @@
         "stars": 39893,
         "language": "Python",
         "license": "MIT"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "umami",
@@ -2006,7 +2089,8 @@
         "stars": 38946,
         "language": "TypeScript",
         "license": "MIT"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "plausible",
@@ -2029,7 +2113,8 @@
         "stars": 29179,
         "language": "Elixir",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": "https://plausible.io/register"
     },
     {
       "id": "goatcounter",
@@ -2052,7 +2137,8 @@
         "stars": 5991,
         "language": "Go",
         "license": "EUPL-1.2"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "countly",
@@ -2074,7 +2160,8 @@
         "stars": 5906,
         "language": "JavaScript",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": "https://flex.countly.com/"
     },
     {
       "id": "openreplay",
@@ -2096,7 +2183,8 @@
         "stars": 12887,
         "language": "TypeScript",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": "https://app.openreplay.com/login"
     },
     {
       "id": "metabase",
@@ -2120,7 +2208,8 @@
         "stars": 49367,
         "language": "Clojure",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "unleash",
@@ -2144,7 +2233,8 @@
         "stars": 13822,
         "language": "TypeScript",
         "license": "Apache-2.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "growthbook",
@@ -2168,7 +2258,8 @@
         "stars": 8416,
         "language": "TypeScript",
         "license": "MIT"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "flagsmith",
@@ -2191,7 +2282,8 @@
         "stars": 6563,
         "language": "Python",
         "license": "BSD-3-Clause"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "flipt",
@@ -2214,7 +2306,8 @@
         "stars": 4907,
         "language": "Go",
         "license": "GPL-3.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "flagr",
@@ -2236,7 +2329,8 @@
         "stars": 2608,
         "language": "Go",
         "license": "Apache-2.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "weblate",
@@ -2260,7 +2354,8 @@
         "stars": 6080,
         "language": "Python",
         "license": "GPL-3.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "tolgee",
@@ -2284,7 +2379,8 @@
         "stars": 4108,
         "language": "TypeScript",
         "license": "Apache-2.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "libretranslate",
@@ -2308,7 +2404,8 @@
         "stars": 16700,
         "language": "Python",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "i18next",
@@ -2331,7 +2428,8 @@
         "stars": 8636,
         "language": "JavaScript",
         "license": "MIT"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "formatjs",
@@ -2354,7 +2452,8 @@
         "stars": 14745,
         "language": "TypeScript",
         "license": "MIT"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "hyperswitch",
@@ -2377,7 +2476,8 @@
         "stars": 43689,
         "language": "Rust",
         "license": "Apache-2.0"
-      }
+      },
+      "cloud": "https://app.hyperswitch.io/dashboard/login"
     },
     {
       "id": "lago",
@@ -2400,7 +2500,8 @@
         "stars": 10593,
         "language": "Ruby",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": "https://www.getlago.com/pricing"
     },
     {
       "id": "killbill",
@@ -2422,7 +2523,8 @@
         "stars": 5753,
         "language": "Java",
         "license": "Apache-2.0"
-      }
+      },
+      "cloud": "https://killbill.io/pricing.html"
     },
     {
       "id": "openmeter",
@@ -2444,7 +2546,8 @@
         "stars": 2330,
         "language": "Go",
         "license": "Apache-2.0"
-      }
+      },
+      "cloud": "https://cloud.konghq.com/register"
     },
     {
       "id": "akaunting",
@@ -2466,7 +2569,8 @@
         "stars": 10128,
         "language": "PHP",
         "license": "Polyform"
-      }
+      },
+      "cloud": "https://akaunting.com/plans"
     },
     {
       "id": "crater",
@@ -2489,7 +2593,8 @@
         "stars": 8348,
         "language": "PHP",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "medusa",
@@ -2512,7 +2617,8 @@
         "stars": 36419,
         "language": "TypeScript",
         "license": "MIT"
-      }
+      },
+      "cloud": "https://cloud.medusajs.com/signup"
     },
     {
       "id": "saleor",
@@ -2535,7 +2641,8 @@
         "stars": 23360,
         "language": "Python",
         "license": "BSD-3-Clause"
-      }
+      },
+      "cloud": "https://cloud.saleor.io/signup"
     },
     {
       "id": "spree",
@@ -2558,7 +2665,8 @@
         "stars": 15715,
         "language": "Ruby",
         "license": "BSD-3-Clause"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "nopcommerce",
@@ -2581,7 +2689,8 @@
         "stars": 10154,
         "language": "C#",
         "license": "GPL-3.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "listmonk",
@@ -2604,7 +2713,8 @@
         "stars": 23522,
         "language": "Go",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "mautic",
@@ -2626,7 +2736,8 @@
         "stars": 10534,
         "language": "PHP",
         "license": "GPL-3.0"
-      }
+      },
+      "cloud": "https://mautic.org/start-using-mautic/managed-mautic/"
     },
     {
       "id": "billionmail",
@@ -2648,7 +2759,8 @@
         "stars": 15631,
         "language": "Python",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "postal",
@@ -2670,7 +2782,8 @@
         "stars": 16821,
         "language": "Ruby",
         "license": "MIT"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "docker-mailserver",
@@ -2692,7 +2805,8 @@
         "stars": 18869,
         "language": "Shell",
         "license": "MIT"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "stalwart",
@@ -2714,7 +2828,8 @@
         "stars": 14757,
         "language": "Rust",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "mailcow",
@@ -2736,7 +2851,8 @@
         "stars": 13462,
         "language": "JavaScript",
         "license": "GPL-3.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "mailinabox",
@@ -2758,7 +2874,8 @@
         "stars": 15419,
         "language": "Python",
         "license": "CC0-1.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "mailu",
@@ -2780,7 +2897,8 @@
         "stars": 7522,
         "language": "Python",
         "license": "MIT"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "phpmailer",
@@ -2802,7 +2920,8 @@
         "stars": 22303,
         "language": "PHP",
         "license": "LGPL-2.1"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "maizzle",
@@ -2824,7 +2943,8 @@
         "stars": 2861,
         "language": "JavaScript",
         "license": "MIT"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "novu",
@@ -2848,7 +2968,8 @@
         "stars": 40027,
         "language": "TypeScript",
         "license": "MIT"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "smsforwarder",
@@ -2873,7 +2994,8 @@
         "stars": 28084,
         "language": "Kotlin",
         "license": "MIT"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "android-sms-gateway",
@@ -2897,7 +3019,8 @@
         "stars": 5766,
         "language": "Kotlin",
         "license": "Apache-2.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "httpsms",
@@ -2921,7 +3044,8 @@
         "stars": 5161,
         "language": "Go",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": "https://httpsms.com"
     },
     {
       "id": "wepush",
@@ -2947,7 +3071,8 @@
         "stars": 4684,
         "language": "Java",
         "license": "Apache-2.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "chatwoot",
@@ -2971,7 +3096,8 @@
         "stars": 37046,
         "language": "Ruby",
         "license": "MIT"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "zammad",
@@ -2994,7 +3120,8 @@
         "stars": 5935,
         "language": "Ruby",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "freescout",
@@ -3016,7 +3143,8 @@
         "stars": 4545,
         "language": "PHP",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "frappe-helpdesk",
@@ -3038,7 +3166,8 @@
         "stars": 3388,
         "language": "Vue",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": "https://cloud.frappe.io/dashboard/signup?product=helpdesk"
     },
     {
       "id": "libredesk",
@@ -3060,7 +3189,8 @@
         "stars": 2951,
         "language": "Go",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "cskefu",
@@ -3083,7 +3213,8 @@
         "stars": 2902,
         "language": "JavaScript",
         "license": "Apache-2.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "twenty",
@@ -3107,7 +3238,8 @@
         "stars": 57246,
         "language": "TypeScript",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "monica",
@@ -3129,7 +3261,8 @@
         "stars": 25343,
         "language": "PHP",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": "https://www.monicahq.com/en/pricing/"
     },
     {
       "id": "nocobase",
@@ -3152,7 +3285,8 @@
         "stars": 24313,
         "language": "TypeScript",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": "https://www.nocobase.com/en/commercial"
     },
     {
       "id": "krayin",
@@ -3175,7 +3309,8 @@
         "stars": 23923,
         "language": "PHP",
         "license": "MIT"
-      }
+      },
+      "cloud": "https://krayincrm.com/crm-cloud-hosting/"
     },
     {
       "id": "espocrm",
@@ -3197,7 +3332,8 @@
         "stars": 3380,
         "language": "PHP",
         "license": "GPL-3.0"
-      }
+      },
+      "cloud": "https://www.espocrm.com/cloud-registration/"
     },
     {
       "id": "pocketbase",
@@ -3220,7 +3356,8 @@
         "stars": 61124,
         "language": "Go",
         "license": "MIT"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "better-auth",
@@ -3242,7 +3379,8 @@
         "stars": 30043,
         "language": "TypeScript",
         "license": "MIT"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "authelia",
@@ -3265,7 +3403,8 @@
         "stars": 29041,
         "language": "Go",
         "license": "Apache-2.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "nextauth",
@@ -3287,7 +3426,8 @@
         "stars": 28369,
         "language": "TypeScript",
         "license": "ISC"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "authentik",
@@ -3310,7 +3450,8 @@
         "stars": 25676,
         "language": "Python",
         "license": "MIT"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "casbin",
@@ -3332,7 +3473,8 @@
         "stars": 20399,
         "language": "Go",
         "license": "Apache-2.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "open-saas",
@@ -3355,7 +3497,8 @@
         "stars": 15980,
         "language": "TypeScript",
         "license": "MIT"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "supertokens",
@@ -3379,7 +3522,8 @@
         "stars": 15316,
         "language": "Java",
         "license": "Apache-2.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "zitadel",
@@ -3403,7 +3547,8 @@
         "stars": 15077,
         "language": "Go",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "logto",
@@ -3427,7 +3572,8 @@
         "stars": 14611,
         "language": "TypeScript",
         "license": "MPL-2.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "cookieconsent",
@@ -3450,7 +3596,8 @@
         "stars": 5680,
         "language": "JavaScript",
         "license": "MIT"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "klaro",
@@ -3473,7 +3620,8 @@
         "stars": 1515,
         "language": "JavaScript",
         "license": "BSD-3-Clause"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "tarteaucitron",
@@ -3495,7 +3643,8 @@
         "stars": 1057,
         "language": "JavaScript",
         "license": "MIT"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "documenso",
@@ -3518,7 +3667,8 @@
         "stars": 15134,
         "language": "TypeScript",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "meilisearch",
@@ -3542,7 +3692,8 @@
         "stars": 59365,
         "language": "Rust",
         "license": "MIT"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "typesense",
@@ -3566,7 +3717,8 @@
         "stars": 26579,
         "language": "C++",
         "license": "GPL-3.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "sonic",
@@ -3588,7 +3740,8 @@
         "stars": 21345,
         "language": "Rust",
         "license": "MPL-2.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "firefly-iii",
@@ -3611,7 +3764,8 @@
         "stars": 24691,
         "language": "PHP",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": ""
     },
     {
       "id": "kimai",
@@ -3634,7 +3788,8 @@
         "stars": 5023,
         "language": "PHP",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": "https://www.kimai.org/en/pricing"
     },
     {
       "id": "frappe-books",
@@ -3661,7 +3816,8 @@
         "stars": 4975,
         "language": "Vue",
         "license": "AGPL-3.0"
-      }
+      },
+      "cloud": ""
     }
   ]
 }

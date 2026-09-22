@@ -94,6 +94,7 @@ const outItems = items.map((it) => {
     platforms: it.platforms || [],
     caution: it.caution || "",
     scene: it.scene || "",
+    cloud: it.cloud || "",
   };
   const d = fetched.get(it.id);
 

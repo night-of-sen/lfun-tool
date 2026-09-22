@@ -18,10 +18,23 @@ const syncedAt = (data.generatedAt || "").slice(0, 10);
 // README 摘要缓存（由 scripts/fetch-readmes.mjs 生成）
 let readmes = {};
 try { readmes = JSON.parse(await readFile(join(ROOT, "data", "readmes.json"), "utf8")); } catch (e) {}
+
+// 静态内容页（关于 / 免责声明）
+const PAGES = JSON.parse(await readFile(join(ROOT, "scripts", "pages.json"), "utf8"));
+
+// 搜索别名（人工维护，补上数据里搜不到的中文名和俗称）
+let ALIASES = {};
+try { ALIASES = JSON.parse(await readFile(join(ROOT, "scripts", "aliases.json"), "utf8")); } catch (e) {}
 function readmeOf(t) {
   const r = readmes[t.id];
   return r && r.summary ? r.summary : "";
 }
+
+// 把 README 里抽到的 docker 命令挂到工具对象上，供工具页渲染
+items.forEach(function (t) {
+  var r = readmes[t.id];
+  t.dockerCmd = r && r.docker ? r.docker : "";
+});
 
 /* ---------------- 基础工具 ---------------- */
 function s(v) { return v == null ? "" : String(v); }
@@ -48,6 +61,34 @@ function homePath(lang) { return lang === "zh" ? "/" : "/en/"; }
 function toolPath(lang, id) { return langPrefix(lang) + "/tool/" + id + "/"; }
 function catPath(lang, key) { return langPrefix(lang) + "/category/" + key + "/"; }
 function categoriesPath(lang) { return langPrefix(lang) + "/categories/"; }
+function contentPath(lang, key) { return langPrefix(lang) + "/" + key + "/"; }
+function comparePath(lang, x, y) { return langPrefix(lang) + "/compare/" + x + "-vs-" + y + "/"; }
+
+// 两个工具必须共享至少一个标签或一种使用方式，才值得对比
+// 否则会出现 "Documenso 和 cookieconsent 怎么选？" 这种跨用途的荒谬配对
+function relevantPair(a, b) {
+  var ta = a.tags || [], tb = b.tags || [];
+  if (ta.some(function (x) { return tb.indexOf(x) !== -1; })) return true;
+  var ua = a.usage || [], ub = b.usage || [];
+  return ua.some(function (x) { return ub.indexOf(x) !== -1; });
+}
+
+// 每个分类取星数前 3，两两配对 -> 最多 3 组/分类
+function comparePairs() {
+  var byCat = {};
+  items.forEach(function (t) { (byCat[t.category] = byCat[t.category] || []).push(t); });
+  var out = [];
+  Object.keys(byCat).forEach(function (k) {
+    var list = byCat[k].slice().sort(function (a, b) { return b.stars - a.stars; }).slice(0, 3);
+    for (var i = 0; i < list.length; i++) {
+      for (var j = i + 1; j < list.length; j++) {
+        if (!relevantPair(list[i], list[j])) continue;
+        out.push({ a: list[i], b: list[j], category: k });
+      }
+    }
+  });
+  return out;
+}
 function abs(p) { return DOMAIN + p; }
 function descOf(t, lang) { return lang === "en" ? (t.descEn || t.desc || "") : (t.desc || t.descEn || ""); }
 function catLabel(lang, k) { return T[lang].categories[k] || k; }
@@ -61,6 +102,8 @@ function primaryAction(t, lang) {
   var L = T[lang];
   var repoUrl = "https://github.com/" + t.repo;
   var releases = repoUrl + "/releases";
+  // 厂商有托管版时，优先引导过去——这才是「点开就能用」的最短路径
+  if (t.cloud) return { label: lang === "zh" ? "云版" : "Cloud", url: t.cloud };
   if (has(t, "online")) {
     return t.homepage ? { label: L.btnOnline, url: t.homepage } : { label: L.btnNoOnline, url: "" };
   }
@@ -142,7 +185,8 @@ function card(t, lang) {
   // 搜索索引同时包含原文标签和译文标签，中英文都能搜到
   var search = [t.name, t.repo, t.desc, t.descEn, t.language,
     (t.tags || []).join(" "),
-    (t.tags || []).map(function (x) { return tagLabel("en", x); }).join(" ")]
+    (t.tags || []).map(function (x) { return tagLabel("en", x); }).join(" "),
+    (ALIASES[t.id] || []).join(" ")]
     .join(" ").toLowerCase();
 
   var badges = "";
@@ -169,6 +213,7 @@ function card(t, lang) {
     '    <div class="card-titles">',
     '      <h3 class="card-name"><a href="' + toolPath(lang, t.id) + '">' + esc(t.name) + "</a>" + badges + "</h3>",
     '      <div class="card-repo">' + esc(t.repo) + "</div>",
+    '      <div class="tier tier-' + deployTier(t) + '">' + esc(tierLabel(t, lang)) + "</div>",
     "    </div>",
     "  </div>",
     '  <p class="card-desc">' + esc(descOf(t, lang)) + "</p>",
@@ -280,6 +325,8 @@ function footer(lang) {
     '<footer class="footer wrap">',
     "  <p>" + esc(L.siteName) + " · " + esc(L.footerNote) + "</p>",
     '  <p class="footer-links"><a href="' + categoriesPath(lang) + '">' + esc(L.categoriesHeading) + "</a>" +
+      '<a href="' + contentPath(lang, "about") + '">' + esc(L.aboutLabel) + "</a>" +
+      '<a href="' + contentPath(lang, "disclaimer") + '">' + esc(L.disclaimerLabel) + "</a>" +
       '<a href="' + L.langSwitchHref + '">' + esc(L.langSwitch) + "</a></p>",
     "</footer>"
   ].join("\n");
@@ -372,12 +419,21 @@ function toolPage(t, lang) {
     "      </div>",
     '      <button class="fav fav-lg" data-fav="' + esc(t.id) + '" title="' + esc(L.favTitle) + '">☆</button>',
     "    </header>",
+    '    <div class="tier-banner tier-' + deployTier(t) + '">',
+    '      <strong>' + esc(tierLabel(t, lang)) + "</strong>",
+    '      <span>' + esc(TIER_DESC[lang][deployTier(t)]) + "</span>",
+    "    </div>",
     '    <p class="detail-desc">' + esc(descOf(t, lang)) + "</p>",
     '    <div class="tags">' + plats + tags + "</div>",
-    '    <figure class="repo-card-wrap">',
-    '      <img class="repo-card" src="https://opengraph.githubassets.com/1/' + esc(t.repo) + '"',
-    '           alt="' + esc(t.name) + ' 仓库概览卡片" width="1200" height="600" loading="lazy">',
-    "    </figure>",
+    "    " + visualHtml(t, lang),
+    (t.dockerCmd ? '    <div class="deploy-block">' +
+      '<div class="deploy-head"><h2>' + esc(lang === "zh" ? "部署命令" : "Deploy command") + "</h2>" +
+      '<button class="copy-btn" type="button" data-copy="' + esc(t.dockerCmd) + '">' +
+      esc(lang === "zh" ? "复制" : "Copy") + "</button></div>" +
+      "<pre><code>" + esc(t.dockerCmd) + "</code></pre>" +
+      '<p class="deploy-note">' + esc(lang === "zh"
+        ? "摘自项目 README。需要一台装了 Docker 的服务器，命令可能还需补充环境变量。"
+        : "Taken from the project README. You need a server with Docker; you may still need to add environment variables.") + "</p></div>" : ""),
     (readmeOf(t) ? '    <div class="readme"><h2>' + esc(L.readmeHeading) + "</h2><p>" + esc(readmeOf(t)) + "</p></div>" : ""),
     '    <dl class="specs">',
     specs,
@@ -409,6 +465,255 @@ function toolPage(t, lang) {
 }
 
 /* ---------------- sitemap / robots ---------------- */
+/* ---------------- 使用门槛分级 ---------------- */
+// 回答一个问题：这个工具点开就能用吗？
+var TIER_LABELS = {
+  zh: { ready: "打开就能用", cloud: "官方云版", onecmd: "一条命令部署", setup: "需要自己配置", install: "需下载安装", library: "写代码时引用" },
+  en: { ready: "Ready to use", cloud: "Official cloud", onecmd: "One-command deploy", setup: "Needs setup", install: "Download & install", library: "Library" }
+};
+var TIER_DESC = {
+  zh: {
+    ready: "有官方在线版，点开就能用，不用安装也不用部署。",
+    cloud: "厂商提供托管版，注册后即可使用，不用自己部署。免费额度或试用期以厂商为准。",
+    onecmd: "需要一台自己的服务器，但 README 里有可直接执行的 Docker 命令，复制粘贴就能跑起来。",
+    setup: "需要一台自己的服务器，而且要配置数据库、环境变量、域名或邮件等，建议先看官方部署文档。",
+    install: "下载安装到本机使用，不需要服务器。",
+    library: "不是一个独立应用，需要装进你自己的项目里写代码调用。"
+  },
+  en: {
+    ready: "There is an official hosted version — open it and go. No install, no deployment.",
+    cloud: "The vendor offers a hosted version: sign up and use it without deploying anything. Free tier or trial depends on the vendor.",
+    onecmd: "You need your own server, but the README has a copy-paste Docker command that gets it running.",
+    setup: "You need your own server plus database, environment variables, domain or mail configuration. Read the official deployment docs first.",
+    install: "Download and install locally. No server needed.",
+    library: "Not a standalone app — install it into your own project and call it from code."
+  }
+};
+var TIER_ORDER = ["ready", "cloud", "onecmd", "setup", "install", "library"];
+
+function deployTier(t) {
+  if (has(t, "online") && t.homepage) return "ready";
+  if (t.cloud) return "cloud";
+  if (has(t, "desktop") || has(t, "cli")) return "install";
+  if (has(t, "lib")) return "library";
+  if (has(t, "selfhost")) {
+    var r = readmes[t.id];
+    return r && r.docker ? "onecmd" : "setup";
+  }
+  if (has(t, "online")) return "ready";
+  return "setup";
+}
+
+function tierLabel(t, lang) { return TIER_LABELS[lang][deployTier(t)]; }
+
+/* ---------------- 视觉卡片 ---------------- */
+// 有官网地址就用 WordPress mShots 截真实网页；否则退回 GitHub 自动生成的仓库卡片
+function visualHtml(t, lang) {
+  var alt = t.name + (lang === "zh" ? " 网站截图" : " website screenshot");
+  if (t.homepage) {
+    var shot = "https://s0.wp.com/mshots/v1/" + encodeURIComponent(t.homepage) + "?w=1200";
+    return '<figure class="repo-card-wrap"><img class="repo-card" src="' + esc(shot) +
+      '" alt="' + esc(alt) + '" width="1200" height="675" loading="lazy" referrerpolicy="no-referrer"></figure>';
+  }
+  return '<figure class="repo-card-wrap"><img class="repo-card" src="https://opengraph.githubassets.com/1/' +
+    esc(t.repo) + '" alt="' + esc(t.name + (lang === "zh" ? " 仓库概览卡片" : " repository card")) +
+    '" width="1200" height="675" loading="lazy"></figure>';
+}
+
+/* ---------------- 静态内容页 ---------------- */
+function contentPage(lang, key) {
+  var L = T[lang];
+  var C = PAGES[key][lang];
+  var paths = {};
+  LANGS.forEach(function (l) { paths[l] = contentPath(l, key); });
+
+  var jsonld = [{
+    "@context": "https://schema.org",
+    "@type": key === "about" ? "AboutPage" : "WebPage",
+    "name": C.title,
+    "url": abs(paths[lang]),
+    "inLanguage": L.htmlLang,
+    "description": C.desc
+  }, {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": L.backToAll, "item": abs(homePath(lang)) },
+      { "@type": "ListItem", "position": 2, "name": C.h1, "item": abs(paths[lang]) }
+    ]
+  }];
+
+  var blocks = C.blocks.map(function (b) {
+    return '  <section class="prose-block"><h2>' + esc(b.h) + "</h2><p>" + esc(b.p) + "</p></section>";
+  }).join("\n");
+
+  return [
+    head(lang, { title: C.title + " · " + L.siteName, desc: C.desc, paths: paths, jsonld: jsonld, ogType: "article" }),
+    "",
+    header(lang, false),
+    "",
+    '<main class="wrap">',
+    '  <nav class="crumbs">',
+    '    <a href="' + homePath(lang) + '">' + esc(L.backToAll) + "</a>",
+    '    <span>/</span><strong>' + esc(C.h1) + "</strong>",
+    "  </nav>",
+    '  <h1 class="hero-title">' + esc(C.h1) + "</h1>",
+    '  <p class="hero-sub">' + esc(C.sub) + "</p>",
+    '  <div class="prose">',
+    blocks,
+    "  </div>",
+    '  <p class="back-link"><a href="' + homePath(lang) + '">← ' + esc(L.backToAll) + "</a></p>",
+    "</main>",
+    "",
+    footer(lang),
+    '<script src="/app.js"></script>',
+    "</body>",
+    "</html>"
+  ].join("\n");
+}
+
+/* ---------------- 对比页 ---------------- */
+var USAGE_WORD = {
+  zh: { online: "在线即用", selfhost: "自托管部署", desktop: "桌面客户端", cli: "命令行", lib: "作为开发库引用" },
+  en: { online: "online use", selfhost: "self-hosting", desktop: "a desktop app", cli: "CLI use", lib: "use as a library" }
+};
+var PLATFORM_WORD = { zh: { windows: "Windows", macos: "macOS", linux: "Linux", android: "Android", ios: "iOS" },
+  en: { windows: "Windows", macos: "macOS", linux: "Linux", android: "Android", ios: "iOS" } };
+
+// 由数据推导「怎么选」，而不是套模板废话
+function compareAdvice(pair, lang) {
+  var a = pair.a, b = pair.b;
+  var W = USAGE_WORD[lang], P = PLATFORM_WORD[lang];
+  var tips = [];
+  var onlyA = (a.usage || []).filter(function (u) { return (b.usage || []).indexOf(u) === -1; });
+  var onlyB = (b.usage || []).filter(function (u) { return (a.usage || []).indexOf(u) === -1; });
+  var words = function (arr) { return arr.map(function (u) { return W[u] || u; }).join(lang === "zh" ? "、" : ", "); };
+  if (onlyA.length) tips.push(lang === "zh" ? "只有 " + a.name + " 支持" + words(onlyA) + "。" : "Only " + a.name + " supports " + words(onlyA) + ".");
+  if (onlyB.length) tips.push(lang === "zh" ? "只有 " + b.name + " 支持" + words(onlyB) + "。" : "Only " + b.name + " supports " + words(onlyB) + ".");
+  if (!onlyA.length && !onlyB.length) tips.push(lang === "zh" ? "两者的使用方式完全一致，差别主要在同生态和实现细节。" : "They support exactly the same usage modes; the difference is in ecosystem and implementation details.");
+  var pa = (a.platforms || []).filter(function (p) { return (b.platforms || []).indexOf(p) === -1; });
+  var pb = (b.platforms || []).filter(function (p) { return (a.platforms || []).indexOf(p) === -1; });
+  if (pa.length) tips.push(lang === "zh" ? a.name + " 额外支持 " + pa.map(function (x) { return P[x] || x; }).join("、") + "。" : a.name + " additionally supports " + pa.map(function (x) { return P[x] || x; }).join(", ") + ".");
+  if (pb.length) tips.push(lang === "zh" ? b.name + " 额外支持 " + pb.map(function (x) { return P[x] || x; }).join("、") + "。" : b.name + " additionally supports " + pb.map(function (x) { return P[x] || x; }).join(", ") + ".");
+  var big = a.stars >= b.stars ? a : b, small = a.stars >= b.stars ? b : a;
+  var ratio = small.stars > 0 ? big.stars / small.stars : 1;
+  if (ratio >= 1.5) {
+    tips.push(lang === "zh"
+      ? big.name + " 的社区规模明显更大（" + fmtStars(big.stars) + " vs " + fmtStars(small.stars) + "），遇到问题更容易搜到答案、插件和教程。"
+      : big.name + " has a clearly larger community (" + fmtStars(big.stars) + " vs " + fmtStars(small.stars) + "), so answers, plugins and tutorials are easier to find.");
+  } else {
+    tips.push(lang === "zh" ? "两者关注度接近，选择时可以更看重功能和体验细节。" : "Both have comparable traction, so pick based on features and day-to-day experience.");
+  }
+  if (a.pushedAt && b.pushedAt && a.pushedAt !== b.pushedAt) {
+    var fresh = a.pushedAt > b.pushedAt ? a : b;
+    tips.push(lang === "zh" ? fresh.name + " 最近更新更晚（" + fresh.pushedAt + "），活跃度更高。" : fresh.name + " was updated more recently (" + fresh.pushedAt + ").");
+  }
+  if (a.license && b.license && a.license !== b.license) {
+    tips.push(lang === "zh" ? "许可证不同（" + a.license + " vs " + b.license + "），商用前请确认条款。" : "Different licenses (" + a.license + " vs " + b.license + ") — check the terms before commercial use.");
+  }
+  return tips;
+}
+
+function comparePage(lang, pair) {
+  var L = T[lang];
+  var a = pair.a, b = pair.b;
+  var paths = {};
+  LANGS.forEach(function (l) { paths[l] = comparePath(l, a.id, b.id); });
+  var title = lang === "zh" ? a.name + " 和 " + b.name + " 怎么选？· " + L.siteName : a.name + " vs " + b.name + " · " + L.siteName;
+  var desc = (lang === "zh"
+    ? a.name + " 与 " + b.name + " 的对比：星数、许可证、使用方式、支持平台逐项对照，并给出怎么选的建议。"
+    : "A side-by-side comparison of " + a.name + " and " + b.name + ": stars, license, usage modes and platforms, plus how to choose.").slice(0, 300);
+
+  var rows = [
+    [L.specStars, "★ " + fmtStars(a.stars), "★ " + fmtStars(b.stars)],
+    [L.specLang, a.language || "—", b.language || "—"],
+    [L.specLicense, a.license || "—", b.license || "—"],
+    [L.specUpdated, a.pushedAt || "—", b.pushedAt || "—"],
+    [lang === "zh" ? "使用方式" : "Usage", (a.usage || []).map(function (u) { return (T[lang].usages || {})[u] || u; }).join(" / "),
+      (b.usage || []).map(function (u) { return (T[lang].usages || {})[u] || u; }).join(" / ")],
+    [lang === "zh" ? "平台" : "Platforms", (a.platforms || []).map(function (p) { return PLATFORM_WORD[lang][p] || p; }).join(" ") || "—", (b.platforms || []).map(function (p) { return PLATFORM_WORD[lang][p] || p; }).join(" ") || "—"],
+    [L.specCategory, catLabel(lang, a.category), catLabel(lang, b.category)]
+  ];
+
+  var table = rows.map(function (r) {
+    return "    <tr><th>" + esc(r[0]) + "</th><td>" + esc(r[1]) + "</td><td>" + esc(r[2]) + "</td></tr>";
+  }).join("\n");
+
+  var tips = compareAdvice(pair, lang).map(function (t) { return "    <li>" + esc(t) + "</li>"; }).join("\n");
+
+  var cardFor = function (t) {
+    return [
+      '  <div class="cmp-col">',
+      "    " + visualHtml(t, lang),
+      '    <h2 class="cmp-name"><a href="' + toolPath(lang, t.id) + '">' + esc(t.name) + "</a></h2>",
+      '    <p class="cmp-desc">' + esc(descOf(t, lang)) + "</p>",
+      '    <div class="tags">' + (t.tags || []).slice(0, 4).map(function (x) { return '<span class="tag">' + esc(tagLabel(lang, x)) + "</span>"; }).join("") + "</div>",
+      '    <p class="cmp-link"><a href="' + toolPath(lang, t.id) + '">' + esc(lang === "zh" ? "查看详情 →" : "View details →") + "</a></p>",
+      "  </div>"
+    ].join("\n");
+  };
+
+  var jsonld = [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": title,
+    "url": abs(paths[lang]),
+    "inLanguage": L.htmlLang,
+    "description": desc,
+    "about": [
+      { "@type": "SoftwareApplication", "name": a.name, "url": abs(toolPath(lang, a.id)) },
+      { "@type": "SoftwareApplication", "name": b.name, "url": abs(toolPath(lang, b.id)) }
+    ]
+  }, {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": L.backToAll, "item": abs(homePath(lang)) },
+      { "@type": "ListItem", "position": 2, "name": catLabel(lang, a.category), "item": abs(catPath(lang, a.category)) }
+    ]
+  }];
+
+  return [
+    head(lang, { title: title, desc: desc, paths: paths, jsonld: jsonld, ogType: "article" }),
+    "",
+    header(lang, false),
+    "",
+    '<main class="wrap">',
+    '  <nav class="crumbs">',
+    '    <a href="' + homePath(lang) + '">' + esc(L.backToAll) + "</a>",
+    '    <span>/</span><a href="' + catPath(lang, a.category) + '">' + esc(catLabel(lang, a.category)) + "</a>",
+    '    <span>/</span><strong>' + esc(lang === "zh" ? "对比" : "Compare") + "</strong>",
+    "  </nav>",
+    '  <h1 class="hero-title">' + esc(lang === "zh" ? a.name + " 和 " + b.name + " 怎么选？" : a.name + " vs " + b.name) + "</h1>",
+    '  <p class="hero-sub">' + esc(lang === "zh"
+      ? "同属「" + catLabel(lang, a.category) + "」，逐项对照"
+      : "Both in " + catLabel(lang, a.category) + " — compared item by item") + "</p>",
+    '  <div class="cmp">',
+    cardFor(a),
+    cardFor(b),
+    "  </div>",
+    '  <table class="cmp-table">',
+    '    <thead><tr><th></th><th>' + esc(a.name) + "</th><th>" + esc(b.name) + "</th></tr></thead>",
+    "    <tbody>",
+    table,
+    "    </tbody>",
+    "  </table>",
+    '  <section class="prose">',
+    '    <h2>' + esc(lang === "zh" ? "怎么选" : "How to choose") + "</h2>",
+    '    <ul class="cmp-advice">',
+    tips,
+    "    </ul>",
+    "  </section>",
+    '  <p class="back-link"><a href="' + homePath(lang) + '">← ' + esc(L.backToAll) + "</a></p>",
+    "</main>",
+    "",
+    footer(lang),
+    '<script src="/app.js"></script>',
+    "</body>",
+    "</html>"
+  ].join("\n");
+}
+
 /* ---------------- 分类页 ---------------- */
 function categoryPage(lang, key) {
   var L = T[lang];
@@ -548,6 +853,16 @@ function sitemap() {
   LANGS.forEach(function (l) {
     urls.push({ loc: abs(categoriesPath(l)), paths: { zh: categoriesPath("zh"), en: categoriesPath("en") }, pri: "0.8", freq: "weekly" });
   });
+  comparePairs().forEach(function (p) {
+    LANGS.forEach(function (l) {
+      urls.push({ loc: abs(comparePath(l, p.a.id, p.b.id)), paths: { zh: comparePath("zh", p.a.id, p.b.id), en: comparePath("en", p.a.id, p.b.id) }, pri: "0.6", freq: "monthly" });
+    });
+  });
+  ["about", "disclaimer"].forEach(function (key) {
+    LANGS.forEach(function (l) {
+      urls.push({ loc: abs(contentPath(l, key)), paths: { zh: contentPath("zh", key), en: contentPath("en", key) }, pri: "0.5", freq: "monthly" });
+    });
+  });
   var catKeys = {};
   items.forEach(function (t) { catKeys[t.category] = true; });
   Object.keys(catKeys).forEach(function (k) {
@@ -591,12 +906,16 @@ function robots() {
 await rm(join(ROOT, "tool"), { recursive: true, force: true });
 await rm(join(ROOT, "category"), { recursive: true, force: true });
 await rm(join(ROOT, "categories"), { recursive: true, force: true });
+await rm(join(ROOT, "compare"), { recursive: true, force: true });
+await rm(join(ROOT, "about"), { recursive: true, force: true });
+await rm(join(ROOT, "disclaimer"), { recursive: true, force: true });
 await rm(join(ROOT, "en"), { recursive: true, force: true });
 
 var written = 0;
 var allCatKeys = {};
 items.forEach(function (t) { allCatKeys[t.category] = true; });
 var catKeyList = Object.keys(allCatKeys).sort();
+var pairList = comparePairs();
 
 for (var li = 0; li < LANGS.length; li++) {
   var lang = LANGS[li];
@@ -624,6 +943,23 @@ for (var li = 0; li < LANGS.length; li++) {
     await writeFile(join(cdir, "index.html"), categoryPage(lang, ck), "utf8");
     written++;
   }
+  // 对比页
+  for (var xi = 0; xi < pairList.length; xi++) {
+    var pr = pairList[xi];
+    var xdir = join(ROOT, comparePath(lang, pr.a.id, pr.b.id).replace(/^[/]/, ""));
+    await mkdir(xdir, { recursive: true });
+    await writeFile(join(xdir, "index.html"), comparePage(lang, pr), "utf8");
+    written++;
+  }
+  // 静态内容页
+  var contentKeys = ["about", "disclaimer"];
+  for (var pi = 0; pi < contentKeys.length; pi++) {
+    var pk = contentKeys[pi];
+    var pdir = join(ROOT, contentPath(lang, pk).replace(/^[/]/, ""));
+    await mkdir(pdir, { recursive: true });
+    await writeFile(join(pdir, "index.html"), contentPage(lang, pk), "utf8");
+    written++;
+  }
 }
 await writeFile(join(ROOT, "sitemap.xml"), sitemap(), "utf8");
 await writeFile(join(ROOT, "robots.txt"), robots(), "utf8");
@@ -633,6 +969,7 @@ console.log("  语言: " + LANGS.join(" / "));
 console.log("  工具数: " + items.length);
 console.log("  分类数: " + catKeyList.length);
 console.log("  页面总数: " + written + "（首页 " + LANGS.length + " + 工具页 " + items.length * LANGS.length +
-  " + 分类总览 " + LANGS.length + " + 分类页 " + catKeyList.length * LANGS.length + "）");
+  " + 分类总览 " + LANGS.length + " + 分类页 " + catKeyList.length * LANGS.length +
+  " + 对比页 " + pairList.length * LANGS.length + " + 内容页 " + 2 * LANGS.length + "）");
 console.log("  sitemap.xml 已重新生成");
 console.log("  域名: " + DOMAIN);

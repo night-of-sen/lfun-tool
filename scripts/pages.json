@@ -1,0 +1,134 @@
+{
+  "about": {
+    "zh": {
+      "title": "关于本站",
+      "desc": "开源工具集是一个精选 GitHub 开源项目的导航站，每个项目都标注清楚怎么用：在线即用、可自托管、桌面应用还是命令行。",
+      "h1": "关于本站",
+      "sub": "156 个精选开源项目，标注清楚怎么用",
+      "blocks": [
+        {
+          "h": "这个站解决什么问题",
+          "p": "GitHub 上的好项目很多，但绝大多数 README 是英文、又长又技术向。看完你往往还是不知道：这东西我能直接用吗？要装什么？跑在哪？本站把这件事提前替你做完了——每个项目都标好使用方式和平台，三秒判断要不要点进去。"
+        },
+        {
+          "h": "收录标准",
+          "p": "只收开源项目，且必须满足：有实际可用的功能（不是教程、不是纯文档）、仍在维护或有明确用途、许可清晰。已经在清单里的项目如果归档或长期停更，会打上「已归档」标记。"
+        },
+        {
+          "h": "「使用方式」是怎么标的",
+          "p": "在线即用 = 有官方网页版，点开就能用；可自托管 = Web 应用，需要自己部署（通常 Docker）；桌面应用 = 下载客户端；命令行 = 装完在终端用；开发库 = 装进你自己的项目里。一个项目可以同时属于多类。"
+        },
+        {
+          "h": "两个场景",
+          "p": "「通用工具」是日常开发、效率、娱乐。「出海辅助」是面向海外业务的专有需求：多语言、合规、支付计费、邮件触达、客服工单、认证授权。这部分在国内业务里基本不存在，所以单独成组。"
+        },
+        {
+          "h": "数据从哪来",
+          "p": "星数、许可证、语言、最后更新时间全部来自 GitHub API，由 GitHub Actions 每周自动同步一次。中文描述和使用方式标注是人工维护的。"
+        },
+        {
+          "h": "发现错误怎么办",
+          "p": "链接失效、描述过时、分类不对——都欢迎提 Issue 或直接提 Pull Request。数据源就是仓库里的一个 JSON 文件，改起来没有门槛。"
+        }
+      ]
+    },
+    "en": {
+      "title": "About",
+      "desc": "Open Source Toolkit is a curated directory of GitHub projects. Every entry tells you how to actually use it: online, self-hosted, desktop, or CLI.",
+      "h1": "About",
+      "sub": "156 curated open-source projects, with clear notes on how to use them",
+      "blocks": [
+        {
+          "h": "The problem we solve",
+          "p": "GitHub is full of excellent projects, but most READMEs are long, English, and written for developers. After reading one you often still don't know: can I use this right now? What do I install? Where does it run? This site answers that up front — every entry is tagged with how to use it and on which platforms."
+        },
+        {
+          "h": "What gets listed",
+          "p": "Open-source projects only, and they must do something real (not a tutorial, not just docs), still be maintained or have a clear purpose, and have a clear license. Entries that get archived or go dormant are flagged as \"Archived\"."
+        },
+        {
+          "h": "How the usage tags work",
+          "p": "Online = there's an official hosted version you can open right away. Self-hosted = a web app you deploy yourself, usually with Docker. Desktop = download a client. CLI = install and run in a terminal. Library = you install it into your own project. A project can be several of these."
+        },
+        {
+          "h": "Two sections",
+          "p": "\"General\" covers everyday development, productivity and fun. \"Going global\" covers needs specific to running a business outside China: localization, compliance, payments and billing, email deliverability, customer support, auth. Those needs barely exist for domestic products, so they get their own group."
+        },
+        {
+          "h": "Where the data comes from",
+          "p": "Stars, license, language and last-updated dates all come from the GitHub API, refreshed weekly by GitHub Actions. The Chinese descriptions and usage tags are maintained by hand."
+        },
+        {
+          "h": "Found a mistake?",
+          "p": "Broken links, stale descriptions, wrong categories — issues and pull requests are both welcome. The data source is a single JSON file in the repository, so contributing is straightforward."
+        }
+      ]
+    }
+  },
+  "disclaimer": {
+    "zh": {
+      "title": "免责声明",
+      "desc": "本站只做信息整理与外链导航，不对第三方项目的可用性、安全性或法律合规性作出担保。",
+      "h1": "免责声明",
+      "sub": "请在使用任何工具前自行评估",
+      "blocks": [
+        {
+          "h": "外链与第三方内容",
+          "p": "本站收录的项目均由各自作者或组织独立开发、维护和发布，与本站没有隶属或代理关系。所有「在线使用」「官网」「下载」「部署」按钮都指向第三方站点。本站无法控制这些站点的内容、可用性、隐私政策或安全性。"
+        },
+        {
+          "h": "数据可能过时",
+          "p": "星数、许可证、最后更新时间由 GitHub API 自动同步，存在延迟。免费额度、定价、是否仍在维护这类信息变化很快，也可能有误。任何决策前请以项目官方页面为准。"
+        },
+        {
+          "h": "不构成推荐或担保",
+          "p": "收录不等于背书。本站不对任何项目的质量、稳定性、安全性、数据安全性或是否适合你的具体场景作出保证。因使用本站收录的项目而产生的任何直接或间接损失，本站不承担责任。"
+        },
+        {
+          "h": "安全与合规提醒",
+          "p": "部分项目涉及隐私、版权或系统修改等敏感领域，已在卡片上以橙色角标标注。请在使用前自行确认是否符合你所在地区的法律法规和你的使用场景。涉及数据处理的项目，请特别留意其隐私政策和数据流向。"
+        },
+        {
+          "h": "知识产权",
+          "p": "所有项目名称、Logo、商标、代码及文档的知识产权归各自权利人所有。本站仅提供索引与说明，不对上述内容主张任何权利。若权利人认为本站的收录或描述存在不妥，欢迎联系更正或移除。"
+        },
+        {
+          "h": "自托管与生产环境",
+          "p": "「可自托管」只是说明该项目具备自行部署的能力，不代表它适合直接用于生产环境。部署、升级、备份、安全加固和合规责任均由使用者自行承担。"
+        }
+      ]
+    },
+    "en": {
+      "title": "Disclaimer",
+      "desc": "This site is an information index that links to third-party projects. We make no warranty about their availability, security or legal compliance.",
+      "h1": "Disclaimer",
+      "sub": "Please evaluate any tool yourself before using it",
+      "blocks": [
+        {
+          "h": "External links and third-party content",
+          "p": "Every project listed here is developed, maintained and published independently by its own authors or organisations. We are not affiliated with, nor an agent of, any of them. All \"Open online\", \"Website\", \"Download\" and \"Deploy\" buttons point to third-party sites. We do not control their content, availability, privacy practices or security."
+        },
+        {
+          "h": "Data may be stale",
+          "p": "Stars, licenses and last-updated dates are synced automatically from the GitHub API and can lag. Free tiers, pricing and maintenance status change quickly and may be inaccurate here. Always check the project's official page before making a decision."
+        },
+        {
+          "h": "No endorsement, no warranty",
+          "p": "Being listed is not an endorsement. We make no guarantee about any project's quality, stability, security, data handling, or suitability for your particular use case. We accept no liability for any direct or indirect loss arising from use of the projects listed here."
+        },
+        {
+          "h": "Security and compliance",
+          "p": "Some projects touch sensitive areas such as privacy, copyright or system modification; those are flagged with an orange badge. Please confirm for yourself that a tool complies with the laws applicable to you and fits your use case. For anything that handles data, pay close attention to its privacy policy and where data is sent."
+        },
+        {
+          "h": "Intellectual property",
+          "p": "All project names, logos, trademarks, code and documentation remain the property of their respective owners. This site only provides an index and short descriptions, and claims no rights over that material. If you are a rights holder and believe a listing or description is inappropriate, contact us and we will correct or remove it."
+        },
+        {
+          "h": "Self-hosting and production",
+          "p": "A \"Self-hosted\" tag means the project can be deployed yourself — it does not mean it is production-ready as-is. Deployment, upgrades, backups, security hardening and compliance are entirely the responsibility of the person running it."
+        }
+      ]
+    }
+  }
+}

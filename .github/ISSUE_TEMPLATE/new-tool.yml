@@ -1,0 +1,72 @@
+name: 推荐一个新工具
+description: 提交一个值得收录的开源项目
+title: "[新工具] "
+labels: ["new-tool"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub 仓库
+      description: owner/repo 形式
+      placeholder: excalidraw/excalidraw
+    validations:
+      required: true
+
+  - type: input
+    id: homepage
+    attributes:
+      label: 官网或在线版地址
+      description: 没有就留空
+      placeholder: https://excalidraw.com
+    validations:
+      required: false
+
+  - type: dropdown
+    id: scene
+    attributes:
+      label: 场景
+      options:
+        - 通用工具
+        - 出海辅助
+    validations:
+      required: true
+
+  - type: dropdown
+    id: usage
+    attributes:
+      label: 使用方式（可多选）
+      multiple: true
+      options:
+        - 在线即用（有官方网页版）
+        - 可自托管（自己部署，通常 Docker）
+        - 桌面应用
+        - 命令行
+        - 开发库
+    validations:
+      required: true
+
+  - type: input
+    id: category
+    attributes:
+      label: 建议分类
+      description: 例如 白板绘图 / 数据分析 / 邮件触达
+    validations:
+      required: true
+
+  - type: textarea
+    id: desc
+    attributes:
+      label: 一句话说明
+      description: 说清楚它能干什么就行，不用抄 README
+      placeholder: 手绘风格在线白板，画流程图、原型、架构图，可多人协作
+    validations:
+      required: true
+
+  - type: input
+    id: relation
+    attributes:
+      label: 你和这个项目的关系
+      description: 作者本人 / 用户 / 只是觉得好用。作者投稿不会被拒，但会看得更仔细
+      placeholder: 只是用户
+    validations:
+      required: true

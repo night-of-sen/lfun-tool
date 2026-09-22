@@ -87,7 +87,9 @@
     "categoriesHeading": "分类总览",
     "catPageSub": "共 {n} 个精选开源项目",
     "catPageLink": "查看分类",
-    "readmeHeading": "项目简介（摘自 README）"
+    "readmeHeading": "项目简介（摘自 README）",
+    "aboutLabel": "关于本站",
+    "disclaimerLabel": "免责声明"
   },
   "en": {
     "htmlLang": "en",
@@ -177,7 +179,9 @@
     "categoriesHeading": "All categories",
     "catPageSub": "{n} curated open-source projects",
     "catPageLink": "Browse categories",
-    "readmeHeading": "From the README"
+    "readmeHeading": "From the README",
+    "aboutLabel": "About",
+    "disclaimerLabel": "Disclaimer"
   },
   "tagTranslations": {
     "音乐": "Music",

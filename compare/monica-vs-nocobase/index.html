@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monica 和 NocoBase 怎么选？· 开源工具集</title>
+<meta name="description" content="Monica 与 NocoBase 的对比：星数、许可证、使用方式、支持平台逐项对照，并给出怎么选的建议。">
+<meta name="theme-color" content="#2563eb">
+<link rel="canonical" href="https://tools.lfun.cloud/compare/monica-vs-nocobase/">
+<link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/compare/monica-vs-nocobase/">
+<link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/en/compare/monica-vs-nocobase/">
+<link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/compare/monica-vs-nocobase/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Monica 和 NocoBase 怎么选？· 开源工具集">
+<meta property="og:description" content="Monica 与 NocoBase 的对比：星数、许可证、使用方式、支持平台逐项对照，并给出怎么选的建议。">
+<meta property="og:url" content="https://tools.lfun.cloud/compare/monica-vs-nocobase/">
+<meta property="og:image" content="https://tools.lfun.cloud/og.png">
+<meta property="og:site_name" content="开源工具集">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Monica 和 NocoBase 怎么选？· 开源工具集","url":"https://tools.lfun.cloud/compare/monica-vs-nocobase/","inLanguage":"zh-CN","description":"Monica 与 NocoBase 的对比：星数、许可证、使用方式、支持平台逐项对照，并给出怎么选的建议。","about":[{"@type":"SoftwareApplication","name":"Monica","url":"https://tools.lfun.cloud/tool/monica/"},{"@type":"SoftwareApplication","name":"NocoBase","url":"https://tools.lfun.cloud/tool/nocobase/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"全部工具","item":"https://tools.lfun.cloud/"},{"@type":"ListItem","position":2,"name":"CRM 销售","item":"https://tools.lfun.cloud/category/crm/"}]}</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧰</text></svg>">
+<link rel="stylesheet" href="/styles.css">
+<script>window.__LANG__="zh";window.__I18N__={"htmlLang":"zh-CN","siteName":"开源工具集","brandSub":"标注清楚<strong>怎么用<\/strong>：在线即用 / 可自托管 / 桌面应用 / 命令行","homeTitle":"开源工具集 · 156 个精选 GitHub 开源项目","homeDesc":"156 个精选 GitHub 开源项目，标注清楚怎么用：在线即用、可自托管、桌面应用、命令行。含出海辅助专题：多语言、合规、支付、邮件、客服。","searchPlaceholder":"搜索工具名、用途、标签…  按 / 聚焦","scenes":{"all":"全部","general":"通用工具","overseas":"🌏 出海辅助"},"usages":{"online":"🌐 在线即用","desktop":"💻 桌面应用","cli":"⌨️ 命令行","selfhost":"🐳 可自托管","lib":"📦 开发库"},"categories":{"diagram":"白板绘图","image":"图片图形","doc":"文档 PDF","dev":"开发工具","design":"设计","utility":"效率工具","fun":"有趣好玩","system":"系统增强","download":"下载工具","capture":"截图录屏","media":"音乐媒体","writing":"写作笔记","filesearch":"搜索与文件","security":"安全隐私","analytics":"数据分析","experiment":"A/B 实验","i18n":"多语言本地化","payment":"支付计费","commerce":"电商建站","email":"邮件触达","notify":"通知短信","support":"客服工单","crm":"CRM 销售","auth":"认证授权","compliance":"合规签署","sitesearch":"站内搜索","finance":"财务发票"},"allCategories":"全部分类","allUsage":"全部","sortStars":"按星数排序","sortName":"按名称排序","sortUpdated":"按最近更新","btnOnline":"在线使用","btnDeploy":"部署","btnDownload":"下载","btnDocs":"文档","btnRepo":"仓库","btnNoOnline":"暂无在线版","archived":"已归档","cautions":{"隐私":"隐私","版权":"版权","系统修改":"系统修改"},"countTemplate":"显示 {n} / {total} 个工具","emptyFav":"还没有收藏任何工具","emptyMatch":"没有匹配的工具","clearFilters":"清除筛选条件","favTitle":"收藏","themeTitle":"切换主题","favOnly":"只看收藏","backToAll":"全部工具","related":"同类工具","detailTitle":"详情","specStars":"星数","specLang":"语言","specLicense":"许可证","specUpdated":"最近更新","specCategory":"分类","specScene":"场景","noLicense":"未标注","footerNote":"星数会持续变化，由 GitHub Actions 每周自动同步。","langSwitch":"English","langSwitchHref":"/en/","categoriesHeading":"分类总览","catPageSub":"共 {n} 个精选开源项目","catPageLink":"查看分类","readmeHeading":"项目简介（摘自 README）","aboutLabel":"关于本站","disclaimerLabel":"免责声明"};</script>
+</head>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="/">
+      <span class="brand-mark">🧰</span>
+      <div>
+        <span class="brand-name">开源工具集</span>
+        <p class="brand-sub">标注清楚<strong>怎么用</strong>：在线即用 / 可自托管 / 桌面应用 / 命令行</p>
+      </div>
+    </a>
+    <div class="topbar-actions">
+      <a class="btn-ghost" href="/en/">English</a>
+      <button id="theme-toggle" class="btn-ghost" title="切换主题">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs">
+    <a href="/">全部工具</a>
+    <span>/</span><a href="/category/crm/">CRM 销售</a>
+    <span>/</span><strong>对比</strong>
+  </nav>
+  <h1 class="hero-title">Monica 和 NocoBase 怎么选？</h1>
+  <p class="hero-sub">同属「CRM 销售」，逐项对照</p>
+  <div class="cmp">
+  <div class="cmp-col">
+    <figure class="repo-card-wrap"><img class="repo-card" src="https://s0.wp.com/mshots/v1/https%3A%2F%2Fbeta.monicahq.com?w=1200" alt="Monica 网站截图" width="1200" height="675" loading="lazy" referrerpolicy="no-referrer"></figure>
+    <h2 class="cmp-name"><a href="/tool/monica/">Monica</a></h2>
+    <p class="cmp-desc">个人 CRM，记录人脉往来和重要日期</p>
+    <div class="tags"><span class="tag">个人CRM</span></div>
+    <p class="cmp-link"><a href="/tool/monica/">查看详情 →</a></p>
+  </div>
+  <div class="cmp-col">
+    <figure class="repo-card-wrap"><img class="repo-card" src="https://s0.wp.com/mshots/v1/https%3A%2F%2Fwww.nocobase.com?w=1200" alt="NocoBase 网站截图" width="1200" height="675" loading="lazy" referrerpolicy="no-referrer"></figure>
+    <h2 class="cmp-name"><a href="/tool/nocobase/">NocoBase</a></h2>
+    <p class="cmp-desc">无代码平台，可快速搭业务系统</p>
+    <div class="tags"><span class="tag">无代码</span><span class="tag">业务系统</span></div>
+    <p class="cmp-link"><a href="/tool/nocobase/">查看详情 →</a></p>
+  </div>
+  </div>
+  <table class="cmp-table">
+    <thead><tr><th></th><th>Monica</th><th>NocoBase</th></tr></thead>
+    <tbody>
+    <tr><th>星数</th><td>★ 25.3k</td><td>★ 24.3k</td></tr>
+    <tr><th>语言</th><td>PHP</td><td>TypeScript</td></tr>
+    <tr><th>许可证</th><td>AGPL-3.0</td><td>AGPL-3.0</td></tr>
+    <tr><th>最近更新</th><td>2026-04-24</td><td>2026-09-22</td></tr>
+    <tr><th>使用方式</th><td>🐳 可自托管</td><td>🐳 可自托管</td></tr>
+    <tr><th>平台</th><td>—</td><td>—</td></tr>
+    <tr><th>分类</th><td>CRM 销售</td><td>CRM 销售</td></tr>
+    </tbody>
+  </table>
+  <section class="prose">
+    <h2>怎么选</h2>
+    <ul class="cmp-advice">
+    <li>两者的使用方式完全一致，差别主要在同生态和实现细节。</li>
+    <li>两者关注度接近，选择时可以更看重功能和体验细节。</li>
+    <li>NocoBase 最近更新更晚（2026-09-22），活跃度更高。</li>
+    </ul>
+  </section>
+  <p class="back-link"><a href="/">← 全部工具</a></p>
+</main>
+
+<footer class="footer wrap">
+  <p>开源工具集 · 星数会持续变化，由 GitHub Actions 每周自动同步。</p>
+  <p class="footer-links"><a href="/categories/">分类总览</a><a href="/about/">关于本站</a><a href="/disclaimer/">免责声明</a><a href="/en/">English</a></p>
+</footer>
+<script src="/app.js"></script>
+</body>
+</html>

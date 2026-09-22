@@ -1,938 +1,1093 @@
 {
   "yt-dlp": {
     "summary": "yt-dlp is a feature-rich command-line audio/video downloader with support for thousands of sites. The project is a fork of youtube-dl based on the now inactive youtube-dlc.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 179142,
-    "fetchedAt": "2026-09-22T08:52:58.819Z"
+    "fetchedAt": "2026-09-22T09:16:01.535Z"
   },
   "powertoys": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 9933,
-    "fetchedAt": "2026-09-22T08:52:58.820Z"
+    "fetchedAt": "2026-09-22T09:16:01.536Z"
   },
   "excalidraw": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 7710,
-    "fetchedAt": "2026-09-22T08:52:58.820Z"
+    "fetchedAt": "2026-09-22T09:16:01.536Z"
   },
   "stirling-pdf": {
     "summary": "Stirling PDF is a powerful, open-source PDF editing platform. Run it as a personal desktop app, in the browser, or deploy it on your own servers with a private API. Edit, sign, redact, convert, and automate PDFs without sending documents to external services.",
+    "docker": "docker run -p 8080:8080 docker.stirlingpdf.com/stirlingtools/stirling-pdf",
     "source": "README.md",
     "rawLength": 3159,
-    "fetchedAt": "2026-09-22T08:52:58.820Z"
+    "fetchedAt": "2026-09-22T09:16:04.126Z"
   },
   "sherlock": {
     "summary": "",
     "source": "",
-    "fetchedAt": "2026-09-22T08:53:00.280Z",
+    "fetchedAt": "2026-09-22T09:10:31.560Z",
     "missing": true
   },
   "mermaid": {
     "summary": "Mermaid is a JavaScript-based diagramming and charting tool that uses Markdown-inspired text definitions and a renderer to create and modify complex diagrams. The main purpose of Mermaid is to help documentation catch up with development.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 24957,
-    "fetchedAt": "2026-09-22T08:53:00.280Z"
+    "fetchedAt": "2026-09-22T09:16:04.126Z"
   },
   "fzf": {
     "summary": "fzf is a general-purpose command-line fuzzy finder and an interactive terminal toolkit.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 41829,
-    "fetchedAt": "2026-09-22T08:53:00.280Z"
+    "fetchedAt": "2026-09-22T09:16:05.481Z"
   },
   "lazygit": {
     "summary": "Lazygit is not my fulltime job but it is a hefty part time job so if you want to support the project please consider sponsoring me",
+    "docker": "",
     "source": "README.md",
     "rawLength": 38325,
-    "fetchedAt": "2026-09-22T08:53:00.280Z"
+    "fetchedAt": "2026-09-22T09:16:05.481Z"
   },
   "hoppscotch": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 11557,
-    "fetchedAt": "2026-09-22T08:53:00.820Z"
+    "fetchedAt": "2026-09-22T09:16:05.481Z"
   },
   "ventoy": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 11806,
-    "fetchedAt": "2026-09-22T08:53:00.820Z"
+    "fetchedAt": "2026-09-22T09:16:06.279Z"
   },
   "ripgrep": {
     "summary": "ripgrep is written in Rust, so you'll need to grab a Rust installation in order to compile it. ripgrep compiles with Rust 1.96.0 (stable) or newer. In general, ripgrep tracks the latest stable release of the Rust compiler.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 21599,
-    "fetchedAt": "2026-09-22T08:53:00.820Z"
+    "fetchedAt": "2026-09-22T09:16:06.279Z"
   },
   "tldr": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 8469,
-    "fetchedAt": "2026-09-22T08:53:00.820Z"
+    "fetchedAt": "2026-09-22T09:16:06.279Z"
   },
   "marktext": {
     "summary": "MarkText is an open-source Markdown editor powered by the support of its community. If MarkText improves your workflow, please consider sponsoring the project. Thank you to all the sponsors ❤️",
+    "docker": "",
     "source": "README.md",
     "rawLength": 9290,
-    "fetchedAt": "2026-09-22T08:53:01.144Z"
+    "fetchedAt": "2026-09-22T09:16:07.009Z"
   },
   "pake": {
     "summary": "Pake's development can not be without these Hackers. They contributed a lot of capabilities for Pake. Also, welcome to follow them! ❤️",
+    "docker": "",
     "source": "README.md",
     "rawLength": 15639,
-    "fetchedAt": "2026-09-22T08:53:01.144Z"
+    "fetchedAt": "2026-09-22T09:16:07.009Z"
   },
   "pocketbase": {
     "summary": "PocketBase is distributed as a regular Go library package which allows you to build your own custom app specific business logic and still have a single portable executable at the end.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 6992,
-    "fetchedAt": "2026-09-22T08:53:01.144Z"
+    "fetchedAt": "2026-09-22T09:16:39.312Z"
   },
   "bat": {
     "summary": "bat can be combined with tail -f to continuously monitor a given file with syntax highlighting.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 33910,
-    "fetchedAt": "2026-09-22T08:53:01.144Z"
+    "fetchedAt": "2026-09-22T09:16:07.778Z"
   },
   "penpot": {
     "summary": "Penpot is the open-source design platform for teams that build digital products at scale.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 11774,
-    "fetchedAt": "2026-09-22T08:53:01.670Z"
+    "fetchedAt": "2026-09-22T09:16:07.778Z"
   },
   "mkcert": {
     "summary": "mkcert is a simple tool for making locally-trusted development certificates. It requires no configuration.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 6495,
-    "fetchedAt": "2026-09-22T08:53:01.670Z"
+    "fetchedAt": "2026-09-22T09:16:07.778Z"
   },
   "meilisearch": {
     "summary": "Meilisearch helps you shape a delightful search experience in a snap, offering features that work out of the box to speed up your workflow.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 15772,
-    "fetchedAt": "2026-09-22T08:53:01.670Z"
+    "fetchedAt": "2026-09-22T09:16:39.313Z"
   },
   "win11debloat": {
     "summary": "Win11Debloat is a lightweight, easy to use PowerShell script that allows you to quickly declutter and customize your Windows experience, no installation required! You can use it to remove pre-installed apps, disable telemetry, remove intrusive interface elements and much more. No need to painstaking…",
+    "docker": "",
     "source": "README.md",
     "rawLength": 9276,
-    "fetchedAt": "2026-09-22T08:53:01.670Z"
+    "fetchedAt": "2026-09-22T09:16:08.537Z"
   },
   "twenty": {
     "summary": "Twenty gives technical teams the building blocks for a custom CRM that meets complex business needs and quickly adapts as the business evolves. Twenty is the CRM you build, ship, and version like the rest of your stack.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 11978,
-    "fetchedAt": "2026-09-22T08:53:02.290Z"
+    "fetchedAt": "2026-09-22T09:16:40.128Z"
   },
   "motrix": {
     "summary": "Motrix is a clean, full-featured desktop download manager for HTTP, FTP, BitTorrent, magnet links, and more.",
+    "docker": "mkdir -p motrix-data downloads\nsudo chown 1000:1000 motrix-data downloads\nexport MOTRIX_IMAGE='docker.io/motrixapp/motrix-server:2.0.0-beta.40'\nexport MOTRIX_PUBLIC_URL='http://nas.example.lan:8080'\ndocker compose pull server\ndocker compose up -d --wait",
     "source": "README.md",
     "rawLength": 16846,
-    "fetchedAt": "2026-09-22T08:53:02.290Z"
+    "fetchedAt": "2026-09-22T09:16:09.231Z"
   },
   "dive": {
     "summary": "dive will search for configs in the following locations: - $XDGCONFIGHOME/dive/.yaml - $XDGCONFIGDIRS/dive/.yaml - /.config/dive/.yaml - /.dive.yaml",
+    "docker": "alias dive=\"docker run -ti --rm  -v /var/run/docker.sock:/var/run/docker.sock docker.io/wagoodman/dive\"\ndive <your-image-tag>\n\n# for example\ndive nginx:latest",
     "source": "README.md",
     "rawLength": 11701,
-    "fetchedAt": "2026-09-22T08:53:02.290Z"
+    "fetchedAt": "2026-09-22T09:16:09.231Z"
   },
   "tldraw": {
     "summary": "tldraw provides a feature-complete infinite canvas engine designed to be the foundation for any canvas app. Create custom shapes, tools, bindings and UI components for a custom experience. Use the default whiteboarding tool set or use the library's primitives to build entirely new shapes and interac…",
+    "docker": "",
     "source": "README.md",
     "rawLength": 8675,
-    "fetchedAt": "2026-09-22T08:53:02.290Z"
+    "fetchedAt": "2026-09-22T09:16:09.231Z"
   },
   "metabase": {
     "summary": "Metabase is the easy, open-source way for everyone in your company to ask questions and learn from data.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 5911,
-    "fetchedAt": "2026-09-22T08:53:02.653Z"
+    "fetchedAt": "2026-09-22T09:16:40.128Z"
   },
   "spotube": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 29614,
-    "fetchedAt": "2026-09-22T08:53:02.653Z"
+    "fetchedAt": "2026-09-22T09:16:09.951Z"
   },
   "slidev": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 5361,
-    "fetchedAt": "2026-09-22T08:53:02.653Z"
+    "fetchedAt": "2026-09-22T09:16:09.951Z"
   },
   "umi-ocr": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 11524,
-    "fetchedAt": "2026-09-22T08:53:02.653Z"
+    "fetchedAt": "2026-09-22T09:16:10.721Z"
   },
   "fd": {
     "summary": "fd is a program to find entries in your filesystem. It is a simple, fast and user-friendly alternative to find. While it does not aim to support all of find's powerful functionality, it provides sensible (opinionated) defaults for a majority of use cases.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 28045,
-    "fetchedAt": "2026-09-22T08:53:03.125Z"
+    "fetchedAt": "2026-09-22T09:16:10.721Z"
   },
   "jsoncrack": {
     "summary": "JSON Crack is a tool for visualizing JSON data in a structured, interactive graphs, making it easier to explore, format, and validate JSON. It offers features like converting JSON to other formats (CSV, YAML), generating JSON Schema, executing queries, and exporting visualizations as images. Designe…",
+    "docker": "cd apps/www\n\n# Build a Docker image with:\ndocker compose build\n\n# Run locally with docker compose\ndocker compose up\n\n# Go to http://localhost:8888",
     "source": "README.md",
     "rawLength": 5601,
-    "fetchedAt": "2026-09-22T08:53:03.125Z"
+    "fetchedAt": "2026-09-22T09:16:10.721Z"
   },
   "hyperswitch": {
     "summary": "Hyperswitch offers a modular, open-source payments infrastructure designed for flexibility and control. Apart from our Payment Suite offering, this solution allows businesses to pick and integrate only the modules they need on top of their existing payment stack — without unnecessary complexity or v…",
+    "docker": "",
     "source": "README.md",
     "rawLength": 16822,
-    "fetchedAt": "2026-09-22T08:53:03.125Z"
+    "fetchedAt": "2026-09-22T09:16:40.128Z"
   },
   "reactive-resume": {
     "summary": "Reactive Resume is and always will be free and open source. If it has helped you land a job or saved you time, please consider supporting continued development:",
+    "docker": "# Clone the repository\ngit clone --depth=1  https://github.com/reactive-resume/reactive-resume.git reactive-resume\ncd reactive-resume\n\n# Start all services\ndocker compose up -d\n\n# Access the app\nopen http://localhost:3000",
     "source": "README.md",
     "rawLength": 11179,
-    "fetchedAt": "2026-09-22T08:53:03.125Z"
+    "fetchedAt": "2026-09-22T09:16:11.704Z"
   },
   "it-tools": {
     "summary": "",
+    "docker": "docker run -d --name it-tools --restart unless-stopped -p 8080:80 corentinth/it-tools:latest",
     "source": "README.md",
     "rawLength": 5106,
-    "fetchedAt": "2026-09-22T08:53:03.483Z"
+    "fetchedAt": "2026-09-22T09:16:11.704Z"
   },
   "croc": {
     "summary": "croc is a tool that allows any two computers to simply and securely transfer files and folders. AFAIK, croc is the only CLI file-transfer tool that does all of the following:",
+    "docker": "croc() { [ $# -eq 0 ] && set -- \"\"; mkdir -p \"$HOME/.config/croc\"; docker run --rm -it --user \"$(id -u):$(id -g)\" -v \"$(pwd):/c\" -v \"$HOME/.config/croc:/.config/croc\" -w /c -e CROC_SECRET docker.io/schollz/croc \"$@\"; }",
     "source": "README.md",
     "rawLength": 21603,
-    "fetchedAt": "2026-09-22T08:53:03.483Z"
+    "fetchedAt": "2026-09-22T09:16:12.499Z"
   },
   "novu": {
     "summary": "Novu provides a unified API to send notifications through multiple channels — Inbox/In-App, Push, Email, SMS, and Chat. Create custom workflows, define per-channel conditions, and let Novu deliver each notification in the most effective way, without stitching together a provider for every channel yo…",
+    "docker": "",
     "source": "README.md",
     "rawLength": 18384,
-    "fetchedAt": "2026-09-22T08:53:03.483Z"
+    "fetchedAt": "2026-09-22T09:16:40.641Z"
   },
   "posthog": {
     "summary": "PostHog provides every tool you need to build a successful product, and captures all the context agents need to proactively diagnose problems, uncover opportunities, and ship fixes:",
+    "docker": "",
     "source": "README.md",
     "rawLength": 11380,
-    "fetchedAt": "2026-09-22T08:53:03.483Z"
+    "fetchedAt": "2026-09-22T09:16:40.641Z"
   },
   "sharex": {
     "summary": "ShareX is a free and open source screenshot tool, screen recorder, file sharing tool and productivity application for Windows. It is designed for users who need fast screen capture, powerful screenshot editing, automated sharing, custom upload destinations and practical utilities in one lightweight…",
+    "docker": "",
     "source": "README.md",
     "rawLength": 8828,
-    "fetchedAt": "2026-09-22T08:53:03.975Z"
+    "fetchedAt": "2026-09-22T09:16:13.560Z"
   },
   "umami": {
     "summary": "Umami provides Docker images as well as a Docker compose file for easy deployment.",
+    "docker": "docker compose up -d",
     "source": "README.md",
     "rawLength": 5205,
-    "fetchedAt": "2026-09-22T08:53:03.975Z"
+    "fetchedAt": "2026-09-22T09:16:13.560Z"
   },
   "httpie": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 4883,
-    "fetchedAt": "2026-09-22T08:53:03.975Z"
+    "fetchedAt": "2026-09-22T09:16:13.560Z"
   },
   "chatwoot": {
     "summary": "Chatwoot is the modern, open-source, and self-hosted customer support platform designed to help businesses deliver exceptional customer support experience. Built for scale and flexibility, Chatwoot gives you full control over your customer data while providing powerful tools to manage conversations…",
+    "docker": "",
     "source": "README.md",
     "rawLength": 7601,
-    "fetchedAt": "2026-09-22T08:53:03.975Z"
+    "fetchedAt": "2026-09-22T09:16:40.641Z"
   },
   "linux-command": {
     "summary": "linux.citie.dpdns.org linux.zenroly.com itool123.cn 235978.xyz hycer.cn chaoxi.online iced.eu.org 85604608.xyz ykkit.cn geekswg.js.cool szsyw.cn lukix.xyz lihaicheng.cn kkcry.com dyh1319.asia qqcl.com huiyex.top wu114.cn waadri.top zanglikun.com alapi.cn fasfuah.icu cnxiaobai.com sicangge.com largei…",
+    "docker": "docker run --name linux-command --rm -d -p 9665:3000 wcjiang/linux-command:latest\n# Or\ndocker run --name linux-command -itd -p 9665:3000 wcjiang/linux-command:latest",
     "source": "README.md",
     "rawLength": 54544,
-    "fetchedAt": "2026-09-22T08:53:04.491Z"
+    "fetchedAt": "2026-09-22T09:16:14.494Z"
   },
   "medusa": {
     "summary": "Medusa uses an open-core model. The core is licensed under the MIT License. The RBAC-based Enterprise Edition materials identified in ENTERPRISE-LICENSE.md require a commercial agreement with MedusaJS, Inc.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 4013,
-    "fetchedAt": "2026-09-22T08:53:04.491Z"
+    "fetchedAt": "2026-09-22T09:16:41.279Z"
   },
   "carbon": {
     "summary": "Carbon supports downloading your image as a PNG and SVG. You can also click Export → Open to open your image directly in the browser. Finally, you can copy the Carbon image directly to your clipboard by going to Copy → Image.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 42805,
-    "fetchedAt": "2026-09-22T08:52:30.221Z"
+    "fetchedAt": "2026-09-22T09:15:33.455Z"
   },
   "cyberchef": {
     "summary": "CyberChef is built to fully support Node.js v24 and is also tested against Node.js v26 ahead of it becoming the active LTS release. For more information, see the \"Node API\" wiki page",
+    "docker": "docker run -it -p 8080:8080 cyberchef",
     "source": "README.md",
     "rawLength": 15227,
-    "fetchedAt": "2026-09-22T08:52:30.221Z"
+    "fetchedAt": "2026-09-22T09:15:33.455Z"
   },
   "jq": {
     "summary": "jq is a lightweight and flexible command-line JSON processor akin to sed,awk,grep, and friends for JSON data. It's written in portable C and has zero runtime dependencies, allowing you to easily slice, filter, map, and transform structured data.",
+    "docker": "docker run --rm -i ghcr.io/jqlang/jq:latest < package.json '.version'",
     "source": "README.md",
     "rawLength": 2603,
-    "fetchedAt": "2026-09-22T08:52:30.221Z"
+    "fetchedAt": "2026-09-22T09:15:33.455Z"
   },
   "pear": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 10959,
-    "fetchedAt": "2026-09-22T08:53:04.491Z"
+    "fetchedAt": "2026-09-22T09:15:33.455Z"
   },
   "yesplaymusic": {
     "summary": "",
+    "docker": "docker run -d --name YesPlayMusic -p 80:80 yesplaymusic",
     "source": "README.md",
     "rawLength": 7402,
-    "fetchedAt": "2026-09-22T08:53:04.491Z"
+    "fetchedAt": "2026-09-22T09:15:33.455Z"
   },
   "devtoys": {
     "summary": "DevToys helps with daily development tasks by offering a bundle of tiny tools designed to do quick, specific tiny tasks. No need to use many untrustworthy websites to simply decode a text or compress an image. With Smart Detection, the app intuitively selects the best tool for the data on your clipb…",
+    "docker": "",
     "source": "README.md",
     "rawLength": 2346,
-    "fetchedAt": "2026-09-22T08:52:30.221Z"
+    "fetchedAt": "2026-09-22T09:15:33.455Z"
   },
   "html2canvas": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 3775,
-    "fetchedAt": "2026-09-22T08:53:04.971Z"
+    "fetchedAt": "2026-09-22T09:15:34.335Z"
   },
   "flameshot": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 28914,
-    "fetchedAt": "2026-09-22T08:53:04.971Z"
+    "fetchedAt": "2026-09-22T09:15:34.335Z"
   },
   "better-auth": {
     "summary": "Better Auth is a framework-agnostic authentication (and authorization) framework for TypeScript. It provides a comprehensive set of features out of the box and includes a plugin ecosystem that simplifies adding advanced functionalities with minimal code in a short amount of time. Whether you need 2F…",
+    "docker": "",
     "source": "README.md",
     "rawLength": 2374,
-    "fetchedAt": "2026-09-22T08:52:30.791Z"
+    "fetchedAt": "2026-09-22T09:15:34.335Z"
   },
   "plausible": {
     "summary": "Plausible Analytics is an open source, privacy-first web analytics tool. Lightweight, cookie-free alternative to Google Analytics. Available in managed cloud or self-hosted community edition.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 12663,
-    "fetchedAt": "2026-09-22T08:52:30.791Z"
+    "fetchedAt": "2026-09-22T09:16:41.279Z"
   },
   "authelia": {
     "summary": "Authelia is an open-source authentication and authorization server providing two-factor authentication and single sign-on (SSO) for your applications via a web portal. It acts as a companion for reverse proxies by allowing, denying, or redirecting requests.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 83505,
-    "fetchedAt": "2026-09-22T08:52:30.791Z"
+    "fetchedAt": "2026-09-22T09:16:41.279Z"
   },
   "hyperfine": {
     "summary": "Hyperfine will automatically determine the number of runs to perform for each command. By default, it will perform at least 10 benchmarking runs and measure for at least 3 seconds. To change this, you can use the -r/--runs option:",
+    "docker": "",
     "source": "README.md",
     "rawLength": 11025,
-    "fetchedAt": "2026-09-22T08:52:30.791Z"
+    "fetchedAt": "2026-09-22T09:15:34.335Z"
   },
   "nextauth": {
     "summary": "Auth.js libraries are written with type safety in mind. Check out the docs for more information.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 4755,
-    "fetchedAt": "2026-09-22T08:52:31.375Z"
+    "fetchedAt": "2026-09-22T09:15:35.046Z"
   },
   "smsforwarder": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 4100,
-    "fetchedAt": "2026-09-22T08:53:04.971Z"
+    "fetchedAt": "2026-09-22T09:15:35.046Z"
   },
   "gdevelop": {
     "summary": "GDevelop is a full-featured, no-code, open-source game development software. You can build 2D, 3D and multiplayer games for mobile (iOS, Android), desktop and the web. GDevelop is designed to be fast and incredibly intuitive: make games using an easy-to-understand yet powerful event-based system and…",
+    "docker": "",
     "source": "README.md",
     "rawLength": 9219,
-    "fetchedAt": "2026-09-22T08:52:31.375Z"
+    "fetchedAt": "2026-09-22T09:15:35.046Z"
   },
   "typesense": {
     "summary": "Typesense is built specifically for decreasing the \"time to market\" for a delightful search experience. It's a light-weight yet powerful & scaleable alternative that focuses on Developer Happiness and Experience with a clean well-documented API, clear semantics and smart defaults so it just works we…",
+    "docker": "docker run -p 8108:8108 -v/tmp/data:/data typesense/typesense:29.0 --data-dir /data --api-key=Hu52dwsas2AdxdE",
     "source": "README.md",
     "rawLength": 23871,
-    "fetchedAt": "2026-09-22T08:52:31.375Z"
+    "fetchedAt": "2026-09-22T09:15:35.046Z"
   },
   "spotdl": {
     "summary": "spotDL finds songs from Spotify playlists on YouTube and downloads them - along with album art, lyrics and metadata.",
+    "docker": "docker run --rm -v $(pwd):/music spotdl download [trackUrl]",
     "source": "README.md",
     "rawLength": 6705,
-    "fetchedAt": "2026-09-22T08:52:31.375Z"
+    "fetchedAt": "2026-09-22T09:15:35.046Z"
   },
   "squoosh": {
     "summary": "[Squoosh] is an image compression web app that reduces image sizes through numerous formats.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 1008,
-    "fetchedAt": "2026-09-22T08:52:31.375Z"
+    "fetchedAt": "2026-09-22T09:15:35.046Z"
   },
   "authentik": {
     "summary": "authentik is an open-source Identity Provider (IdP) for modern SSO. It supports SAML, OAuth2/OIDC, LDAP, RADIUS, and more, designed for self-hosting from small labs to large production clusters.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 4059,
-    "fetchedAt": "2026-09-22T08:52:31.879Z"
+    "fetchedAt": "2026-09-22T09:16:42.076Z"
   },
   "monica": {
     "summary": "Monica is an open-source web application that enables you to document your life, organize, and log your interactions with your family and friends. We call it a PRM, or Personal Relationship Management. Imagine a CRM—a commonly used tool by sales teams in the corporate world—for your friends and fami…",
+    "docker": "",
     "source": "README.md",
     "rawLength": 10033,
-    "fetchedAt": "2026-09-22T08:52:31.879Z"
+    "fetchedAt": "2026-09-22T09:16:42.076Z"
   },
   "firefly-iii": {
     "summary": "\"Firefly III\" is a (self-hosted) manager for your personal finances. It can help you keep track of your expenses and income, so you can spend less and save more. Firefly III supports the use of budgets, categories and tags. Using a bunch of tools, you can import data. It also has many neat financial…",
+    "docker": "",
     "source": "readme.md",
     "rawLength": 13394,
-    "fetchedAt": "2026-09-22T08:52:31.879Z"
+    "fetchedAt": "2026-09-22T09:16:42.076Z"
   },
   "nocobase": {
     "summary": "NocoBase is an open-source AI + no-code platform for building business systems fast. Instead of generating everything from scratch, AI works on top of production-proven infrastructure and a WYSIWYG no-code interface, so you get both speed and reliability.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 6692,
-    "fetchedAt": "2026-09-22T08:52:31.879Z"
+    "fetchedAt": "2026-09-22T09:16:42.612Z"
   },
   "tinyrenderer": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 4644,
-    "fetchedAt": "2026-09-22T08:53:04.971Z"
+    "fetchedAt": "2026-09-22T09:15:35.687Z"
   },
   "p5js": {
     "summary": "p5.js is a free and open-source JavaScript library for accessible creative coding. It is a nurturing community, an approachable language, an exploratory tool, an accessible environment, an inclusive platform, welcoming and playful for artists, designers, educators, beginners, and anyone else!",
+    "docker": "",
     "source": "README.md",
     "rawLength": 13097,
-    "fetchedAt": "2026-09-22T08:52:31.879Z"
+    "fetchedAt": "2026-09-22T09:15:35.687Z"
   },
   "krayin": {
     "summary": "Krayin CRM is a hand tailored CRM framework built on some of the hottest opensource technologies such as Laravel (a PHP framework) and Vue.js a progressive Javascript framework.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 5991,
-    "fetchedAt": "2026-09-22T08:52:32.498Z"
+    "fetchedAt": "2026-09-22T09:16:42.612Z"
   },
   "neofetch": {
     "summary": "Neofetch is a command-line system information tool written in bash 3.2+. Neofetch displays information about your operating system, software and hardware in an aesthetic and visually pleasing way.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 2037,
-    "fetchedAt": "2026-09-22T08:52:32.498Z"
+    "fetchedAt": "2026-09-22T09:15:36.143Z"
   },
   "listmonk": {
     "summary": "listmonk is a standalone, self-hosted, newsletter and mailing list manager. It is fast, feature-rich, and packed into a single binary. It uses a PostgreSQL database as its data store.",
+    "docker": "# Download the compose file to the current directory.\ncurl -LO https://github.com/knadh/listmonk/raw/master/docker-compose.yml\n\n# Run the services in the background.\ndocker compose up -d",
     "source": "README.md",
     "rawLength": 2138,
-    "fetchedAt": "2026-09-22T08:52:32.498Z"
+    "fetchedAt": "2026-09-22T09:15:36.143Z"
   },
   "bongocat": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 7953,
-    "fetchedAt": "2026-09-22T08:53:05.358Z"
+    "fetchedAt": "2026-09-22T09:15:36.143Z"
   },
   "saleor": {
     "summary": "Saleor's API-first extensibility provides powerful tools for developers to extend backend using webhooks, attributes, metadata, apps, subscription queries, API extensions, dashboard iframes.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 9504,
-    "fetchedAt": "2026-09-22T08:52:32.498Z"
+    "fetchedAt": "2026-09-22T09:16:42.612Z"
   },
   "cap": {
     "summary": "Cap is the open source alternative to Loom. It gives you fast screen recording, polished local editing, instant share links, comments, transcripts, analytics, team workspaces, custom domains, custom S3 storage, and full self-hosting when you need complete control.",
+    "docker": "git clone https://github.com/CapSoftware/Cap.git\ncd Cap\ndocker compose up -d",
     "source": "README.md",
     "rawLength": 8563,
-    "fetchedAt": "2026-09-22T08:52:32.498Z"
+    "fetchedAt": "2026-09-22T09:15:36.143Z"
   },
   "phpmailer": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 16823,
-    "fetchedAt": "2026-09-22T08:53:05.358Z"
+    "fetchedAt": "2026-09-22T09:15:36.522Z"
   },
   "matomo": {
     "summary": "Matomo is a full-featured PHP MySQL software program that you download and install on your own webserver. At the end of the five-minute installation process, you will be given a JavaScript code. Simply copy and paste this tag on websites you wish to track and access your analytics reports in real-ti…",
+    "docker": "",
     "source": "README.md",
     "rawLength": 6253,
-    "fetchedAt": "2026-09-22T08:52:32.842Z"
+    "fetchedAt": "2026-09-22T09:16:43.111Z"
   },
   "sonic": {
     "summary": "Sonic is a fast, lightweight and schema-less search backend. It ingests search texts and identifier tuples that can then be queried against in a microsecond's time.",
+    "docker": "docker run -p 1491:1491 -v /path/to/your/sonic/config.cfg:/etc/sonic/config.toml -v /path/to/your/sonic/store/:/var/lib/sonic/store/ valeriansaliou/sonic:v1.4.9",
     "source": "README.md",
     "rawLength": 22111,
-    "fetchedAt": "2026-09-22T08:52:32.842Z"
+    "fetchedAt": "2026-09-22T09:15:36.522Z"
   },
   "casbin": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 17031,
-    "fetchedAt": "2026-09-22T08:53:05.358Z"
+    "fetchedAt": "2026-09-22T09:15:36.522Z"
   },
   "profile-summary": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 1191,
-    "fetchedAt": "2026-09-22T08:53:05.358Z"
+    "fetchedAt": "2026-09-22T09:15:36.522Z"
   },
   "docker-mailserver": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 3826,
-    "fetchedAt": "2026-09-22T08:53:05.581Z"
+    "fetchedAt": "2026-09-22T09:16:43.111Z"
   },
   "lichess": {
     "summary": "Lila (li[chess in sca]la) is a free online chess game server focused on realtime gameplay and ease of use.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 5355,
-    "fetchedAt": "2026-09-22T08:52:33.493Z"
+    "fetchedAt": "2026-09-22T09:15:37.132Z"
   },
   "nuclear": {
     "summary": "Nuclear is a free, open-source music player without ads or tracking. Search for any song or artist, build playlists, and start listening. Runs on Windows, macOS, and Linux.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 4985,
-    "fetchedAt": "2026-09-22T08:52:33.493Z"
+    "fetchedAt": "2026-09-22T09:15:37.132Z"
   },
   "abdm": {
     "summary": "AB Download Manager is a desktop app that helps you manage and organize your downloads more efficiently than ever before.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 8275,
-    "fetchedAt": "2026-09-22T08:52:33.493Z"
+    "fetchedAt": "2026-09-22T09:15:37.132Z"
   },
   "pyxel": {
     "summary": "Pyxel is open source under the MIT License and free to use. Let's start making retro games with Pyxel!",
+    "docker": "",
     "source": "README.md",
     "rawLength": 3703,
-    "fetchedAt": "2026-09-22T08:52:33.493Z"
+    "fetchedAt": "2026-09-22T09:15:37.132Z"
   },
   "postal": {
     "summary": "Postal is a complete and fully featured mail server for use by websites & web servers. Think Sendgrid, Mailgun or Postmark but open source and ready for you to run on your own servers.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 699,
-    "fetchedAt": "2026-09-22T08:52:33.493Z"
+    "fetchedAt": "2026-09-22T09:16:43.111Z"
   },
   "alger": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 3290,
-    "fetchedAt": "2026-09-22T08:53:05.581Z"
+    "fetchedAt": "2026-09-22T09:15:37.132Z"
   },
   "libretranslate": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 2171,
-    "fetchedAt": "2026-09-22T08:53:05.581Z"
+    "fetchedAt": "2026-09-22T09:16:43.933Z"
   },
   "open-saas": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 6599,
-    "fetchedAt": "2026-09-22T08:53:05.581Z"
+    "fetchedAt": "2026-09-22T09:16:43.933Z"
   },
   "spree": {
     "summary": "Spree ships commerce primitives, so the same core serves very different businesses.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 17047,
-    "fetchedAt": "2026-09-22T08:52:34.557Z"
+    "fetchedAt": "2026-09-22T09:16:43.933Z"
   },
   "beets": {
     "summary": "",
+    "docker": "",
     "source": "README.rst",
     "rawLength": 5316,
-    "fetchedAt": "2026-09-22T08:53:06.328Z"
+    "fetchedAt": "2026-09-22T09:15:38.280Z"
   },
   "billionmail": {
     "summary": "BillionMail is a future open-source Mail server, Email marketing platform designed to help businesses and individuals manage their email campaigns with ease. Whether you're sending newsletters, promotional emails, or transactional messages, this tool will provide full control over your email marketi…",
+    "docker": "cd /opt && git clone https://github.com/aaPanel/BillionMail && cd BillionMail && cp env_init .env && docker compose up -d || docker-compose up -d",
     "source": "README.md",
     "rawLength": 6192,
-    "fetchedAt": "2026-09-22T08:52:34.557Z"
+    "fetchedAt": "2026-09-22T09:15:38.280Z"
   },
   "mailinabox": {
     "summary": "Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 6880,
-    "fetchedAt": "2026-09-22T08:52:34.557Z"
+    "fetchedAt": "2026-09-22T09:16:44.527Z"
   },
   "supertokens": {
     "summary": "SuperTokens is an open-core alternative to proprietary login providers like Auth0 or AWS Cognito. We are different because we offer:",
+    "docker": "",
     "source": "README.md",
     "rawLength": 23474,
-    "fetchedAt": "2026-09-22T08:52:34.979Z"
+    "fetchedAt": "2026-09-22T09:16:44.527Z"
   },
   "documenso": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 12562,
-    "fetchedAt": "2026-09-22T08:53:06.328Z"
+    "fetchedAt": "2026-09-22T09:16:44.527Z"
   },
   "whisky": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 2988,
-    "fetchedAt": "2026-09-22T08:53:06.328Z"
+    "fetchedAt": "2026-09-22T09:15:38.682Z"
   },
   "zitadel": {
     "summary": "ZITADEL is an open-source identity and access management platform built for teams that need more than basic auth. Whether you're securing a SaaS product, building a B2B platform, or self-hosting a production IAM stack — ZITADEL gives you everything out of the box: SSO, MFA, Passkeys, OIDC, SAML, SCI…",
+    "docker": "# Docker Compose — up and running in under 3 minutes\ncurl -LO https://raw.githubusercontent.com/zitadel/zitadel/main/deploy/compose/docker-compose.yml \\\n  && curl -LO https://raw.githubusercontent.com/zitadel/zitadel/main/deploy/compose/.env.example \\\n  && cp .env.example .env \\\n  && docker compose up -d --wait",
     "source": "README.md",
     "rawLength": 11149,
-    "fetchedAt": "2026-09-22T08:52:34.979Z"
+    "fetchedAt": "2026-09-22T09:15:38.682Z"
   },
   "pakeplus": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 11602,
-    "fetchedAt": "2026-09-22T08:53:06.328Z"
+    "fetchedAt": "2026-09-22T09:15:38.682Z"
   },
   "stalwart": {
     "summary": "Stalwart is an open-source mail & collaboration server with JMAP, IMAP4, POP3, SMTP, CalDAV, CardDAV and WebDAV support and a wide range of modern features. It is written in Rust and designed to be secure, fast, robust and scalable.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 14856,
-    "fetchedAt": "2026-09-22T08:52:34.979Z"
+    "fetchedAt": "2026-09-22T09:16:45.318Z"
   },
   "formatjs": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 8585,
-    "fetchedAt": "2026-09-22T08:53:06.814Z"
+    "fetchedAt": "2026-09-22T09:15:39.286Z"
   },
   "logto": {
     "summary": "",
+    "docker": "# Using Docker Compose(requires Docker Desktop)\n  curl -fsSL https://raw.githubusercontent.com/logto-io/logto/HEAD/docker-compose.yml | \\\n  docker compose -p logto -f - up\n  \n  # Using Node.js (requires PostgreSQL)\n  npm init @logto",
     "source": "README.md",
     "rawLength": 7200,
-    "fetchedAt": "2026-09-22T08:53:06.814Z"
+    "fetchedAt": "2026-09-22T09:15:39.286Z"
   },
   "editor-md": {
     "summary": "Editor.md : The open source embeddable online markdown editor (component), based on CodeMirror & jQuery & Marked.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 13462,
-    "fetchedAt": "2026-09-22T08:52:35.573Z"
+    "fetchedAt": "2026-09-22T09:15:39.286Z"
   },
   "unleash": {
     "summary": "Unleash is a powerful open-source solution for feature management. It streamlines your development workflow, accelerates software delivery, and empowers teams to control how and when they roll out new features to end users. With Unleash, you can deploy code to production in smaller, more manageable…",
+    "docker": "git clone git@github.com:Unleash/unleash.git\ncd unleash\ndocker compose up -d",
     "source": "README.md",
     "rawLength": 14961,
-    "fetchedAt": "2026-09-22T08:52:35.573Z"
+    "fetchedAt": "2026-09-22T09:15:39.286Z"
   },
   "mailcow": {
     "summary": "mailcow is a registered word mark of The Infrastructure Company GmbH, Parkstr. 42, 47877 Willich, Germany.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 3084,
-    "fetchedAt": "2026-09-22T08:52:35.573Z"
+    "fetchedAt": "2026-09-22T09:16:45.318Z"
   },
   "doocs-md": {
     "summary": "",
+    "docker": "docker run -d -p 8080:80 doocs/md:latest",
     "source": "README.md",
     "rawLength": 9582,
-    "fetchedAt": "2026-09-22T08:53:06.814Z"
+    "fetchedAt": "2026-09-22T09:15:39.286Z"
   },
   "plantuml": {
     "summary": "PlantUML is a component that allows you to create various UML diagrams through simple textual descriptions. From sequence diagrams to deployment diagrams and beyond, PlantUML provides an easy way to create visual representations of complex systems.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 10671,
-    "fetchedAt": "2026-09-22T08:52:36.216Z"
+    "fetchedAt": "2026-09-22T09:15:39.871Z"
   },
   "markmap": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 1785,
-    "fetchedAt": "2026-09-22T08:53:06.814Z"
+    "fetchedAt": "2026-09-22T09:15:39.871Z"
   },
   "openreplay": {
     "summary": "OpenReplay is an open-source session replay suite you can host yourself, that lets you see what users do on your web app, helping you troubleshoot issues faster.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 5795,
-    "fetchedAt": "2026-09-22T08:52:36.216Z"
+    "fetchedAt": "2026-09-22T09:16:45.318Z"
   },
   "onefetch": {
     "summary": "Onefetch is a command-line Git information tool that displays project information and code statistics for a local Git repository directly in your terminal. The tool works completely offline with a focus on performance and customizability.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 3057,
-    "fetchedAt": "2026-09-22T08:52:36.216Z"
+    "fetchedAt": "2026-09-22T09:15:39.871Z"
   },
   "listen1": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 616,
-    "fetchedAt": "2026-09-22T08:53:07.159Z"
+    "fetchedAt": "2026-09-22T09:15:39.871Z"
   },
   "dufs": {
     "summary": "Dufs is a distinctive utility file server that supports static serving, uploading, searching, accessing control, webdav...",
+    "docker": "docker run -v `pwd`:/data -p 5000:5000 --rm sigoden/dufs /data -A",
     "source": "README.md",
     "rawLength": 13104,
-    "fetchedAt": "2026-09-22T08:52:36.216Z"
+    "fetchedAt": "2026-09-22T09:15:39.871Z"
   },
   "lago": {
     "summary": "Lago is the programmable system between product usage and revenue. Send events from your application, turn them into billable metrics, apply pricing and entitlements, then generate invoices and collect payments.",
+    "docker": "git clone --depth 1 https://github.com/getlago/lago.git\ncd lago\n\necho \"LAGO_RSA_PRIVATE_KEY=\\\"$(openssl genrsa 2048 | openssl base64 -A)\\\"\" >> .env\ndocker compose up -d",
     "source": "README.md",
     "rawLength": 18033,
-    "fetchedAt": "2026-09-22T08:52:36.584Z"
+    "fetchedAt": "2026-09-22T09:15:40.289Z"
   },
   "mautic": {
     "summary": "Mautic is the world’s largest open source marketing automation project. We empower businesses and organizations to deliver fully integrated marketing campaigns by providing powerful, world-class open source marketing automation software supported by a thriving, worldwide community of passionate cont…",
+    "docker": "",
     "source": "README.md",
     "rawLength": 83743,
-    "fetchedAt": "2026-09-22T08:52:36.584Z"
+    "fetchedAt": "2026-09-22T09:16:46.008Z"
   },
   "omni-tools": {
     "summary": "",
+    "docker": "docker run -d --name omni-tools --restart unless-stopped -p 8080:80 iib0011/omni-tools:latest",
     "source": "README.md",
     "rawLength": 6038,
-    "fetchedAt": "2026-09-22T08:53:07.159Z"
+    "fetchedAt": "2026-09-22T09:15:40.289Z"
   },
   "nopcommerce": {
     "summary": "nopCommerce is the best open-source eCommerce platform. nopCommerce is free, and it is the most popular ASP.NET Core shopping cart.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 7530,
-    "fetchedAt": "2026-09-22T08:52:36.584Z"
+    "fetchedAt": "2026-09-22T09:16:46.008Z"
   },
   "akaunting": {
     "summary": "Akaunting uses Laravel, the best existing PHP framework, as the foundation framework and Module package for Apps.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 3079,
-    "fetchedAt": "2026-09-22T08:52:36.584Z"
+    "fetchedAt": "2026-09-22T09:16:46.008Z"
   },
   "rubick": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 7085,
-    "fetchedAt": "2026-09-22T08:53:07.159Z"
+    "fetchedAt": "2026-09-22T09:15:40.289Z"
   },
   "transform": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 15385,
-    "fetchedAt": "2026-09-22T08:53:07.159Z"
+    "fetchedAt": "2026-09-22T09:15:42.615Z"
   },
   "miaoyan": {
     "summary": "MiaoYan is local-first and does not sign in to WebDAV or cloud-drive accounts. It reads and writes the Markdown folder you choose. iCloud Drive, Nutstore, Dropbox, or another cloud-drive client handles cross-device sync.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 6357,
-    "fetchedAt": "2026-09-22T08:52:39.353Z"
+    "fetchedAt": "2026-09-22T09:15:42.615Z"
   },
   "i18next": {
     "summary": "i18next is a very popular internationalization framework for browser or any other javascript environment (eg. Node.js, Deno).",
+    "docker": "",
     "source": "README.md",
     "rawLength": 5591,
-    "fetchedAt": "2026-09-22T08:52:39.353Z"
+    "fetchedAt": "2026-09-22T09:15:42.615Z"
   },
   "growthbook": {
     "summary": "GrowthBook is an Open Core product. The bulk of the code is under the permissive MIT license. There are several directories that are governed under a separate commercial license, the GrowthBook Enterprise License.",
+    "docker": "git clone https://github.com/growthbook/growthbook.git\ncd growthbook\ndocker compose up -d",
     "source": "README.md",
     "rawLength": 4374,
-    "fetchedAt": "2026-09-22T08:52:39.353Z"
+    "fetchedAt": "2026-09-22T09:15:42.615Z"
   },
   "nb": {
     "summary": "nb uses Git in the background to automatically record changes and sync notebooks with remote repositories. nb can also be configured to sync notebooks using a general purpose syncing utility like Dropbox so notes can be edited in other apps on any device.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 280160,
-    "fetchedAt": "2026-09-22T08:52:39.353Z"
+    "fetchedAt": "2026-09-22T09:15:42.615Z"
   },
   "crater": {
     "summary": "Crater is an open-source web & mobile app that helps you track expenses, payments & create professional invoices & estimates.",
+    "docker": "",
     "source": "readme.md",
     "rawLength": 3000,
-    "fetchedAt": "2026-09-22T08:52:39.353Z"
+    "fetchedAt": "2026-09-22T09:16:47.337Z"
   },
   "drawio": {
     "summary": "draw.io is a configurable diagramming and whiteboarding application, jointly owned and developed by draw.io Ltd (previously named JGraph) and draw.io AG. We also run a production deployment at https://app.diagrams.net.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 2921,
-    "fetchedAt": "2026-09-22T08:52:39.826Z"
+    "fetchedAt": "2026-09-22T09:15:43.098Z"
   },
   "snapdom": {
     "summary": "SnapDOM is a browser capture engine for web interfaces. It captures rendered DOM state as a reusable result, with styles, fonts and images included.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 27544,
-    "fetchedAt": "2026-09-22T08:52:39.826Z"
+    "fetchedAt": "2026-09-22T09:15:43.098Z"
   },
   "mailu": {
     "summary": "Mailu is a simple yet full-featured mail server as a set of Docker images. It is free software (both as in free beer and as in free speech), open to suggestions and external contributions. The project aims at providing people with an easily setup, easily maintained and full-featured mail server whil…",
+    "docker": "",
     "source": "README.md",
     "rawLength": 1758,
-    "fetchedAt": "2026-09-22T08:52:39.826Z"
+    "fetchedAt": "2026-09-22T09:16:47.337Z"
   },
   "ffsend": {
     "summary": "",
+    "docker": "# Invoke without arguments\ndocker run --rm -it -v $(pwd):/data timvisee/ffsend\n\n# Upload my-file.txt\ndocker run --rm -it -v $(pwd):/data timvisee/ffsend upload my-file.txt\n\n# Download from specified link\ndocker run --rm -it -v $(pwd):/data timvisee/ffsend download https://send.vis.ee/#sample-share-url\n\n# Show help\ndocker run --rm -it -v $(pwd):/data timvisee/ffsend help\n\n# To update the used image\ndocker pull timvisee/ffsend",
     "source": "README.md",
     "rawLength": 31613,
-    "fetchedAt": "2026-09-22T08:53:07.889Z"
+    "fetchedAt": "2026-09-22T09:15:43.098Z"
   },
   "html-to-image": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 12116,
-    "fetchedAt": "2026-09-22T08:53:07.889Z"
+    "fetchedAt": "2026-09-22T09:15:43.098Z"
   },
   "esearch": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 6087,
-    "fetchedAt": "2026-09-22T08:53:07.889Z"
+    "fetchedAt": "2026-09-22T09:15:43.098Z"
   },
   "gopass": {
     "summary": "Gopass is a drop-in replacement for pass, the standard UNIX password manager. By default your credentials are encrypted with GPG and versioned in git. This can be customized easily. Other backends for encryption (e.g. age) and storage (e.g. fossil) are also available. The primary interface is the co…",
+    "docker": "",
     "source": "README.md",
     "rawLength": 7659,
-    "fetchedAt": "2026-09-22T08:52:40.841Z"
+    "fetchedAt": "2026-09-22T09:15:44.166Z"
   },
   "flagsmith": {
     "summary": "Flagsmith makes it easy to create and manage feature flags across web, mobile, and server side applications. Just wrap a section of code with a flag, and then use Flagsmith to toggle that feature on or off for different environments, users or user segments.",
+    "docker": "curl -o docker-compose.yml https://raw.githubusercontent.com/Flagsmith/flagsmith/main/docker-compose.yml\ndocker-compose -f docker-compose.yml up",
     "source": "README.md",
     "rawLength": 4746,
-    "fetchedAt": "2026-09-22T08:52:40.841Z"
+    "fetchedAt": "2026-09-22T09:15:44.166Z"
   },
   "weblate": {
     "summary": "Weblate is libre software web-based continuous localization system, used by over 2500 libre projects and companies in more than 165 countries.",
+    "docker": "",
     "source": "README.rst",
     "rawLength": 2954,
-    "fetchedAt": "2026-09-22T08:52:40.841Z"
+    "fetchedAt": "2026-09-22T09:16:47.337Z"
   },
   "goatcounter": {
     "summary": "GoatCounter is an open source web analytics platform available as a (free) hosted service or self-hosted app. It aims to offer easy to use and meaningful privacy-friendly web analytics as an alternative to Google Analytics or Matomo.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 9842,
-    "fetchedAt": "2026-09-22T08:52:40.841Z"
+    "fetchedAt": "2026-09-22T09:16:47.861Z"
   },
   "zammad": {
     "summary": "Zammad is your Swiss Army knife - a web-based, open-source helpdesk and customer support platform packed with features to streamline customer communication across channels like email, chat, telephone and social media.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 3442,
-    "fetchedAt": "2026-09-22T08:52:40.841Z"
+    "fetchedAt": "2026-09-22T09:16:47.861Z"
   },
   "countly": {
     "summary": "Countly is a privacy-first, AI-ready analytics and customer engagement platform built for organizations that require full data ownership and deployment flexibility.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 9135,
-    "fetchedAt": "2026-09-22T08:52:40.841Z"
+    "fetchedAt": "2026-09-22T09:16:47.861Z"
   },
   "android-sms-gateway": {
     "summary": "SMS Gateway turns your Android smartphone into an SMS gateway. It's a lightweight application that allows you to send SMS messages programmatically via an API or CLI tool and receive webhooks on incoming SMS. This makes it ideal for integrating SMS functionality into your own applications or service…",
+    "docker": "",
     "source": "README.md",
     "rawLength": 21119,
-    "fetchedAt": "2026-09-22T08:52:41.795Z"
+    "fetchedAt": "2026-09-22T09:16:48.384Z"
   },
   "60s": {
     "summary": "",
+    "docker": "docker run -d \\\n  --restart always \\\n  --name 60s \\\n  -p 4399:4399 \\\n  vikiboss/60s:latest",
     "source": "readme.md",
     "rawLength": 8075,
-    "fetchedAt": "2026-09-22T08:53:07.889Z"
+    "fetchedAt": "2026-09-22T09:15:45.213Z"
   },
   "killbill": {
     "summary": "Kill Bill can fulfill the billing and payment needs of nearly any online business. Reliable and robust, it has proven itself over time with even the largest SaaS and e-commerce organizations.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 3643,
-    "fetchedAt": "2026-09-22T08:52:41.795Z"
+    "fetchedAt": "2026-09-22T09:16:48.384Z"
   },
   "markedit": {
     "summary": "MarkEdit is a free and open-source Markdown editor, for macOS. It's just like TextEdit on Mac but dedicated to Markdown.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 5226,
-    "fetchedAt": "2026-09-22T08:52:41.795Z"
+    "fetchedAt": "2026-09-22T09:15:45.213Z"
   },
   "cookieconsent": {
     "summary": "",
+    "docker": "",
     "source": "Readme.md",
     "rawLength": 1486,
-    "fetchedAt": "2026-09-22T08:53:08.666Z"
+    "fetchedAt": "2026-09-22T09:15:45.213Z"
   },
   "tinyraytracer": {
     "summary": "",
+    "docker": "",
     "source": "Readme.md",
     "rawLength": 1544,
-    "fetchedAt": "2026-09-22T08:53:08.666Z"
+    "fetchedAt": "2026-09-22T09:15:45.213Z"
   },
   "webglstudio": {
     "summary": "WebGLStudio.js is an open-source, browser-based 3D graphics suite. You can edit scenes and materials, design effects and shaders, code behaviours, and share your work - all within a browser using standard web technologies.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 2205,
-    "fetchedAt": "2026-09-22T08:52:42.639Z"
+    "fetchedAt": "2026-09-22T09:15:45.842Z"
   },
   "httpsms": {
     "summary": "httpSMS is a service that lets you use your Android phone as an SMS Gateway to send and receive SMS messages. You make a request to a simple HTTP API and it triggers your Android phone to send an SMS. SMS messages received on your android phone can also be forwarded to your webhook endpoint.",
+    "docker": "docker compose up --build",
     "source": "README.md",
     "rawLength": 13451,
-    "fetchedAt": "2026-09-22T08:52:42.639Z"
+    "fetchedAt": "2026-09-22T09:15:45.842Z"
   },
   "kimai": {
     "summary": "Kimai is a professional grade time-tracking application, free and open-source. It handles use-cases of freelancers as well as companies with dozens or hundreds of users. Kimai was build to track your project times and ships with many advanced features, including but not limited to:",
+    "docker": "",
     "source": "README.md",
     "rawLength": 5614,
-    "fetchedAt": "2026-09-22T08:52:42.639Z"
+    "fetchedAt": "2026-09-22T09:16:48.384Z"
   },
   "frappe-books": {
     "summary": "Frappe Books is an open-source accounting software aimed at simplifying financial management for businesses. With its clean and user-friendly interface, it streamlines accounting tasks for small and medium-sized enterprises, offering a seamless solution for modern businesses to manage their finances…",
+    "docker": "",
     "source": "README.md",
     "rawLength": 12783,
-    "fetchedAt": "2026-09-22T08:52:42.639Z"
+    "fetchedAt": "2026-09-22T09:15:45.842Z"
   },
   "flipt": {
     "summary": "Flipt supports the OpenFeature standard for vendor-neutral feature flag evaluation, including the emerging OpenFeature Remote Evaluation Protocol (OFREP) for standardized remote flag evaluation.",
+    "docker": "docker run --rm -p 8080:8080 -p 9000:9000 -t docker.flipt.io/flipt/flipt:v2",
     "source": "README.md",
     "rawLength": 16768,
-    "fetchedAt": "2026-09-22T08:52:42.639Z"
+    "fetchedAt": "2026-09-22T09:15:45.842Z"
   },
   "wepush": {
     "summary": "第一次使用请从《WePush Next 对外使用指南》开始。macOS/Windows 发行物按项目约定不使用商业代码签名，请只从 next-v1.1.0 GitHub Release 下载，并使用同一 Release 中的 SHA256SUMS 校验完整性。",
+    "docker": "",
     "source": "readme.md",
     "rawLength": 8587,
-    "fetchedAt": "2026-09-22T08:52:42.639Z"
+    "fetchedAt": "2026-09-22T09:15:45.842Z"
   },
   "freescout": {
     "summary": "FreeScout is the super lightweight and powerful free open source help desk and shared inbox built with PHP (Laravel framework). Now you can enjoy free Zendesk & Help Scout without giving up privacy or locking yourself into a service you don't control. FreeScout has been developed from scratch and do…",
+    "docker": "",
     "source": "README.md",
     "rawLength": 6614,
-    "fetchedAt": "2026-09-22T08:52:43.327Z"
+    "fetchedAt": "2026-09-22T09:16:48.898Z"
   },
   "tolgee": {
     "summary": "Tolgee isn't just another localization platform that simply syncs your local data with a backend. Instead, it seamlessly integrates into your app through powerful SDKs, providing a truly embedded translation experience.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 7935,
-    "fetchedAt": "2026-09-22T08:52:43.327Z"
+    "fetchedAt": "2026-09-22T09:16:48.898Z"
   },
   "frappe-helpdesk": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 7603,
-    "fetchedAt": "2026-09-22T08:53:08.666Z"
+    "fetchedAt": "2026-09-22T09:16:48.898Z"
   },
   "espocrm": {
     "summary": "EspoCRM is a free, open-source CRM platform designed to help organizations build and maintain strong customer relationships. It provides a wide range of tools to store, organize, and manage leads, contacts, sales opportunities, marketing campaigns, support cases, and more – all business information…",
+    "docker": "",
     "source": "README.md",
     "rawLength": 5293,
-    "fetchedAt": "2026-09-22T08:52:43.327Z"
+    "fetchedAt": "2026-09-22T09:16:49.424Z"
   },
   "mind-elixir": {
     "summary": "Mind elixir is a open source JavaScript mind map core. You can use it with any frontend framework you like.",
+    "docker": "",
     "source": "readme.md",
     "rawLength": 12824,
-    "fetchedAt": "2026-09-22T08:52:43.327Z"
+    "fetchedAt": "2026-09-22T09:15:46.339Z"
   },
   "libredesk": {
     "summary": "",
+    "docker": "# Download the compose file and sample config file in the current directory.\ncurl -LO https://github.com/abhinavxd/libredesk/raw/main/docker-compose.yml\ncurl -LO https://github.com/abhinavxd/libredesk/raw/main/config.sample.toml\n\n# Copy the config.sample.toml to config.toml and edit it as needed.\ncp config.sample.toml config.toml\n\n# Run the services in the background.\ndocker compose up -d\n\n# Setting System user password.\ndocker exec -it libredesk_app ./libredesk --set-system-user-password",
     "source": "README.md",
     "rawLength": 5526,
-    "fetchedAt": "2026-09-22T08:53:08.666Z"
+    "fetchedAt": "2026-09-22T09:15:46.339Z"
   },
   "cskefu": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 22514,
-    "fetchedAt": "2026-09-22T08:53:08.942Z"
+    "fetchedAt": "2026-09-22T09:16:49.424Z"
   },
   "maizzle": {
     "summary": "",
+    "docker": "",
     "source": "README.md",
     "rawLength": 1630,
-    "fetchedAt": "2026-09-22T08:53:08.942Z"
+    "fetchedAt": "2026-09-22T09:15:46.961Z"
   },
   "flagr": {
     "summary": "Flagr is an open-source Go service for feature flags, A/B tests, and dynamic configuration. One primitive, the flag, backs all three: your code calls POST /api/v1/evaluation, Flagr looks at who is asking (entityID, entityContext), and returns a variant plus optional JSON attachment.",
+    "docker": "docker pull ghcr.io/openflagr/flagr\ndocker run -it -p 18000:18000 ghcr.io/openflagr/flagr\n\nopen http://localhost:18000",
     "source": "README.md",
     "rawLength": 6718,
-    "fetchedAt": "2026-09-22T08:52:44.546Z"
+    "fetchedAt": "2026-09-22T09:15:46.961Z"
   },
   "openmeter": {
     "summary": "OpenMeter is open-source monetization infrastructure built for AI, API, and usage-based products. It turns high-volume events into real-time usage, powers access enforcement, and handles usage-based billing from pricing and subscriptions through credits and invoices.",
+    "docker": "git clone https://github.com/openmeterio/openmeter.git\ncd openmeter/quickstart\ndocker compose up -d --wait",
     "source": "README.md",
     "rawLength": 8586,
-    "fetchedAt": "2026-09-22T08:52:44.546Z"
+    "fetchedAt": "2026-09-22T09:15:46.961Z"
   },
   "klaro": {
     "summary": "Klaro [klɛro] is a simple consent management platform (CMP) and privacy tool that helps you to be transparent about the third-party applications on your website. It is designed to be extremely simple, intuitive and easy to use while allowing you to be compliant with all relevant regulations (notably…",
+    "docker": "",
     "source": "README.md",
     "rawLength": 9616,
-    "fetchedAt": "2026-09-22T08:52:44.546Z"
+    "fetchedAt": "2026-09-22T09:15:46.961Z"
   },
   "tarteaucitron": {
     "summary": "tarteaucitron.js is a free, open-source JavaScript consent manager created and maintained by Amauri Champeaux, an independent developer based in France.",
+    "docker": "",
     "source": "README.md",
     "rawLength": 9404,
-    "fetchedAt": "2026-09-22T08:52:44.546Z"
+    "fetchedAt": "2026-09-22T09:15:46.961Z"
   }
 }

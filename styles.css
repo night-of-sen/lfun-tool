@@ -175,8 +175,60 @@ html[data-theme="dark"] .badge.warn{color:#fdba74;background:#3b1d0a}
 .footer-links a{color:var(--accent)}
 .footer-links a:hover{text-decoration:underline}
 /* ===== 工具页视觉卡片与 README 摘要 ===== */
-.repo-card-wrap{margin:0 0 18px}
-.repo-card{display:block;width:100%;max-width:620px;height:auto;border:1px solid var(--border);border-radius:12px;background:var(--bg)}
+.repo-card-wrap{margin:0 0 18px;max-width:620px;aspect-ratio:16/9;overflow:hidden;border:1px solid var(--border);border-radius:12px;background:var(--bg)}
+.repo-card{display:block;width:100%;height:100%;object-fit:cover;object-position:top center}
 .readme{margin:0 0 20px;padding:16px 18px;background:var(--bg);border:1px solid var(--border);border-radius:12px}
 .readme h2{margin:0 0 8px;font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.3px}
 .readme p{margin:0;font-size:13.5px;line-height:1.75;color:var(--text);opacity:.9}
+/* ===== 内容页（关于 / 免责声明）===== */
+.prose{max-width:760px;padding-bottom:20px}
+.prose-block{margin-bottom:26px}
+.prose-block h2{margin:0 0 8px;font-size:15.5px;font-weight:700;letter-spacing:-.2px}
+.prose-block p{margin:0;font-size:14.5px;line-height:1.85;color:var(--text);opacity:.88}
+/* ===== 对比页 ===== */
+.cmp{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-bottom:28px}
+.cmp-col{min-width:0}
+.cmp-col .repo-card-wrap{max-width:none;margin-bottom:12px}
+.cmp-name{margin:0 0 8px;font-size:17px;font-weight:700}
+.cmp-name a{color:inherit}
+.cmp-name a:hover{color:var(--accent)}
+.cmp-desc{margin:0 0 10px;font-size:13.5px;line-height:1.7;opacity:.9}
+.cmp-link{margin:8px 0 0;font-size:13px}
+.cmp-link a{color:var(--accent)}
+.cmp-table{width:100%;border-collapse:collapse;margin-bottom:28px;font-size:13.5px;background:var(--panel);border:1px solid var(--border);border-radius:12px;overflow:hidden}
+.cmp-table th,.cmp-table td{padding:11px 14px;text-align:left;border-bottom:1px solid var(--border)}
+.cmp-table thead th{background:var(--bg);font-weight:700;font-size:12.5px;color:var(--muted)}
+.cmp-table tbody th{color:var(--muted);font-weight:500;width:22%}
+.cmp-table tr:last-child th,.cmp-table tr:last-child td{border-bottom:0}
+.cmp-advice{margin:0;padding-left:20px}
+.cmp-advice li{margin-bottom:8px;font-size:14.5px;line-height:1.8;opacity:.9}
+@media(max-width:640px){.cmp{grid-template-columns:1fr}}
+/* ===== 使用门槛分级 ===== */
+.tier{display:inline-block;margin-top:5px;font-size:11.5px;font-weight:700;padding:2px 8px;border-radius:6px;letter-spacing:.2px}
+.card .tier{font-size:11px}
+.tier-ready{background:#dcfce7;color:#166534}
+.tier-onecmd{background:#dbeafe;color:#1e40af}
+.tier-cloud{background:#ccfbf1;color:#115e59}
+.tier-setup{background:#fef3c7;color:#92400e}
+.tier-install{background:#f1f5f9;color:#475569}
+.tier-library{background:#f3e8ff;color:#6b21a8}
+html[data-theme="dark"] .tier-ready{background:#0f2e1c;color:#86efac}
+html[data-theme="dark"] .tier-onecmd{background:#0f2444;color:#93c5fd}
+html[data-theme="dark"] .tier-cloud{background:#042f2e;color:#5eead4}
+html[data-theme="dark"] .tier-setup{background:#3a2e0a;color:#fcd34d}
+html[data-theme="dark"] .tier-install{background:#1e2530;color:#94a3b8}
+html[data-theme="dark"] .tier-library{background:#2a1240;color:#d8b4fe}
+.tier-banner{display:flex;flex-direction:column;gap:3px;padding:12px 16px;border-radius:12px;margin:0 0 16px;font-size:13.5px}
+.tier-banner strong{font-size:14px}
+.tier-banner span{opacity:.82;line-height:1.6}
+
+/* 部署命令 */
+.deploy-block{margin:0 0 20px;border:1px solid var(--border);border-radius:12px;overflow:hidden;background:var(--bg)}
+.deploy-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:11px 14px;border-bottom:1px solid var(--border)}
+.deploy-head h2{margin:0;font-size:13px;font-weight:700;color:var(--muted);letter-spacing:.3px}
+.copy-btn{background:var(--accent);color:#fff;border:0;border-radius:7px;padding:5px 13px;font-size:12.5px;font-weight:600;cursor:pointer;font-family:inherit;transition:.15s}
+.copy-btn:hover{filter:brightness(1.1)}
+.copy-btn.done{background:#16a34a}
+.deploy-block pre{margin:0;padding:14px;overflow-x:auto;font-size:12.5px;line-height:1.65}
+.deploy-block code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;white-space:pre;color:var(--text)}
+.deploy-note{margin:0;padding:0 14px 12px;font-size:12px;color:var(--muted);line-height:1.6}

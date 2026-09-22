@@ -142,7 +142,8 @@ check("hreflang x-default", html.includes('hreflang="x-default"'), true);
 check("canonical", html.includes('<link rel="canonical" href="https://tools.lfun.cloud/">'), true);
 check("JSON-LD 块数", countIn(/application\/ld\+json/g), 2);
 check("在线使用按钮", countIn(/rel="noopener">在线使用<\/a>/g), items.filter((t) => has(t, "online") && t.homepage).length);
-check("部署按钮", countIn(/rel="noopener">部署<\/a>/g), items.filter((t) => !has(t, "online") && !has(t, "desktop") && !has(t, "cli") && has(t, "selfhost")).length);
+check("云版按钮", countIn(/rel="noopener">云版<\/a>/g), items.filter((t) => t.cloud).length);
+check("部署按钮", countIn(/rel="noopener">部署<\/a>/g), items.filter((t) => !t.cloud && !has(t, "online") && !has(t, "desktop") && !has(t, "cli") && has(t, "selfhost")).length);
 check("下载按钮", countIn(/rel="noopener">下载<\/a>/g), items.filter((t) => !has(t, "online") && (has(t, "desktop") || has(t, "cli"))).length);
 check("文档按钮", countIn(/rel="noopener">文档<\/a>/g), items.filter((t) => !has(t, "online") && !has(t, "desktop") && !has(t, "cli") && has(t, "lib")).length);
 
