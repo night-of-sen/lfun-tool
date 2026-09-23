@@ -132,6 +132,10 @@ const clickScene = (k) => scenes().filter((x) => x.getAttribute("data-scene") ==
 const clickUsage = (k) => usages().filter((x) => x.getAttribute("data-usage") === k)[0].dispatch("click");
 const clickCat = (k) => cats().filter((x) => x.getAttribute("data-cat") === k)[0].dispatch("click");
 const countIn = (re) => (html.match(re) || []).length;
+// 分类/使用方式的 chip 数从数据推导，避免每加一个分类就要改测试
+const catsOf = (pred) => 1 + new Set(items.filter(pred).map((t) => t.category)).size;
+const usagesOf = (pred) => 1 + new Set(items.filter(pred).flatMap((t) => t.usage || [])).size;
+const sceneOf = (t) => t.scene || "general";
 
 console.log("\n[1] 生成的静态 HTML（SEO 基础）");
 check("卡片总数", parsed.length, items.length);
@@ -149,18 +153,26 @@ check("文档按钮", countIn(/rel="noopener">文档<\/a>/g), items.filter((t) =
 
 console.log("\n[2] 初始渲染与筛选条");
 check("可见卡片数", visible(), items.length);
-check("场景按钮数", scenes().length, 3);
-check("使用方式 chip 数", usages().length, 6);
-check("分类 chip 数", cats().length, 28);
+check("场景按钮数", sceneHost.querySelectorAll(".scene-btn").length, 3);
+check("侧边栏容器存在", html.includes('class="wrap layout" id="layout"'), true);
+check("侧边栏在布局内", html.includes('<aside class="sidebar" id="sidebar">'), true);
+check("菜单开关按钮存在", html.includes('id="menu-toggle"'), true);
+check("移动端遮罩存在", html.includes('id="sidebar-backdrop"'), true);
+check("侧边栏四个分区标题", countIn(/class="side-title"/g), 4);
+check("旧的横向筛选条已移除", html.includes('<nav class="filters">'), false);
+check("使用方式 chip 数", usages().length, usagesOf(() => true));
+check("分类 chip 数", cats().length, catsOf(() => true));
 check("结果计数文案", getEl("result-count").textContent, "显示 " + items.length + " / " + items.length + " 个工具");
 
 console.log("\n[3] 场景切换");
 clickScene("overseas");
 check("出海辅助", visible(), items.filter((t) => (t.scene || "general") === "overseas").length);
-check("出海分类 chip 数", cats().length, 14);
+check("出海分类 chip 数", cats().length, catsOf((t) => sceneOf(t) === "overseas"));
+check("出海使用方式 chip 数", usages().length, usagesOf((t) => sceneOf(t) === "overseas"));
 clickScene("general");
 check("通用工具", visible(), items.filter((t) => (t.scene || "general") === "general").length);
-check("通用分类 chip 数", cats().length, 15);
+check("通用分类 chip 数", cats().length, catsOf((t) => sceneOf(t) === "general"));
+check("通用使用方式 chip 数", usages().length, usagesOf((t) => sceneOf(t) === "general"));
 clickScene("all");
 check("回到全部", visible(), items.length);
 

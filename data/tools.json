@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T09:22:19.322Z",
-  "count": 156,
+  "generatedAt": "2026-09-23T02:14:32.897Z",
+  "count": 180,
   "items": [
     {
       "id": "yt-dlp",
@@ -53,14 +53,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "",
-      "stars": 138899,
+      "stars": 138919,
       "language": "C",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "2026-09-22",
+      "pushedAt": "2026-09-23",
       "descEn": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "excalidraw",
@@ -81,14 +81,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://excalidraw.com",
-      "stars": 132634,
+      "stars": 132690,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "2026-09-21",
+      "pushedAt": "2026-09-22",
       "descEn": "Virtual whiteboard for sketching hand-drawn like diagrams",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "stirling-pdf",
@@ -109,13 +109,13 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://stirlingpdf.com",
-      "stars": 92769,
+      "stars": 92832,
       "language": "TypeScript",
       "archived": false,
-      "pushedAt": "2026-09-22",
+      "pushedAt": "2026-09-23",
       "descEn": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "sherlock",
@@ -166,14 +166,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://mermaid.live",
-      "stars": 90350,
+      "stars": 90368,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-21",
       "descEn": "Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "fzf",
@@ -255,14 +255,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://hoppscotch.io",
-      "stars": 80459,
+      "stars": 80470,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-21",
       "descEn": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "ventoy",
@@ -285,14 +285,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://www.ventoy.net",
-      "stars": 79439,
+      "stars": 79478,
       "language": "C",
       "license": "GPL-3.0",
       "archived": false,
       "pushedAt": "2026-08-06",
       "descEn": "A new bootable USB solution.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "ripgrep",
@@ -378,14 +378,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://www.marktext.me",
-      "stars": 61711,
+      "stars": 61746,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "2026-09-22",
+      "pushedAt": "2026-09-23",
       "descEn": "📝A simple and elegant markdown editor, available for Linux, macOS and Windows.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "pake",
@@ -494,14 +494,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://penpot.app",
-      "stars": 60240,
+      "stars": 60277,
       "language": "Clojure",
       "license": "MPL-2.0",
       "archived": false,
-      "pushedAt": "2026-09-21",
+      "pushedAt": "2026-09-22",
       "descEn": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "mkcert",
@@ -582,14 +582,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "",
-      "stars": 57456,
+      "stars": 57494,
       "language": "PowerShell",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-10",
       "descEn": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "twenty",
@@ -641,14 +641,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://motrix.app",
-      "stars": 55750,
+      "stars": 55778,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "2026-09-21",
+      "pushedAt": "2026-09-23",
       "descEn": "A full-featured download manager.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "dive",
@@ -699,13 +699,13 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://tldraw.com",
-      "stars": 50508,
+      "stars": 50524,
       "language": "TypeScript",
       "archived": false,
-      "pushedAt": "2026-09-22",
+      "pushedAt": "2026-09-23",
       "descEn": "Build infinite canvas apps in React with the tldraw SDK. World's best, top-most agent recommended #1 five star SDK.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "metabase",
@@ -759,14 +759,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://spotube.cc/",
-      "stars": 49332,
+      "stars": 49353,
       "language": "Dart",
       "license": "BSD-4-Clause",
       "archived": false,
       "pushedAt": "2026-09-12",
       "descEn": "🎧 Open source music streaming app! Available for both desktop & mobile!",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "slidev",
@@ -786,14 +786,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://sli.dev",
-      "stars": 48788,
+      "stars": 48803,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-16",
       "descEn": "Presentation Slides for Developers",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "umi-ocr",
@@ -815,14 +815,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "",
-      "stars": 47435,
+      "stars": 47448,
       "language": "Python",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2025-11-20",
       "descEn": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "fd",
@@ -873,14 +873,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://jsoncrack.com",
-      "stars": 44441,
+      "stars": 44442,
       "language": "TypeScript",
       "license": "Apache-2.0",
       "archived": false,
       "pushedAt": "2026-09-14",
       "descEn": "✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML and CSV into interactive graphs.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "hyperswitch",
@@ -927,14 +927,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://rxresu.me",
-      "stars": 43293,
+      "stars": 43339,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "2026-09-21",
+      "pushedAt": "2026-09-22",
       "descEn": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "it-tools",
@@ -954,14 +954,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://it-tools.tech",
-      "stars": 40659,
+      "stars": 40667,
       "language": "Vue",
       "license": "GPL-3.0",
       "archived": false,
       "pushedAt": "2026-09-16",
       "descEn": "Collection of handy online tools for developers, with great UX. ",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "croc",
@@ -1071,14 +1071,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://getsharex.com",
-      "stars": 39682,
+      "stars": 39697,
       "language": "C#",
       "license": "GPL-3.0",
       "archived": false,
       "pushedAt": "2026-09-22",
       "descEn": "ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types to a wide range of destinations.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "umami",
@@ -1185,14 +1185,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://wangchujiang.com/linux-command/",
-      "stars": 36935,
+      "stars": 36938,
       "language": "Markdown",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-06",
       "descEn": "Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "medusa",
@@ -1222,6 +1222,33 @@
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
     {
+      "id": "postiz",
+      "name": "Postiz",
+      "repo": "gitroomhq/postiz-app",
+      "category": "promo",
+      "desc": "功能最全的开源社媒排期工具，支持 RSS 自动分发",
+      "tags": [
+        "社媒排期",
+        "RSS分发"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 36214,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "carbon",
       "name": "Carbon",
       "repo": "carbon-app/carbon",
@@ -1245,7 +1272,7 @@
       "pushedAt": "2026-02-10",
       "descEn": ":black_heart: Create and share beautiful images of your source code",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "cyberchef",
@@ -1265,14 +1292,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://gchq.github.io/CyberChef/",
-      "stars": 35907,
+      "stars": 35916,
       "language": "JavaScript",
       "license": "Apache-2.0",
       "archived": false,
       "pushedAt": "2026-09-21",
       "descEn": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "jq",
@@ -1327,14 +1354,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "",
-      "stars": 33552,
+      "stars": 33559,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "2026-09-21",
+      "pushedAt": "2026-09-22",
       "descEn": "Pear 🍐 is extension for music player",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "yesplaymusic",
@@ -1358,14 +1385,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "",
-      "stars": 33308,
+      "stars": 33310,
       "language": "Vue",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-06-14",
       "descEn": "高颜值的第三方网易云播放器，支持 Windows / macOS / Linux :electron: ",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "devtoys",
@@ -1395,7 +1422,7 @@
       "pushedAt": "2026-02-25",
       "descEn": "A Swiss Army knife for developers.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "html2canvas",
@@ -1422,7 +1449,7 @@
       "pushedAt": "2024-07-18",
       "descEn": "Screenshots with JavaScript",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "flameshot",
@@ -1446,14 +1473,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://flameshot.org",
-      "stars": 30904,
+      "stars": 30909,
       "language": "C++",
       "license": "GPL-3.0",
       "archived": false,
       "pushedAt": "2026-09-17",
       "descEn": "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "better-auth",
@@ -1639,13 +1666,13 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://gdevelop.io",
-      "stars": 26732,
+      "stars": 26758,
       "language": "JavaScript",
       "archived": false,
-      "pushedAt": "2026-09-21",
+      "pushedAt": "2026-09-22",
       "descEn": "🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "typesense",
@@ -1724,14 +1751,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://squoosh.app",
-      "stars": 25936,
+      "stars": 25937,
       "language": "TypeScript",
       "license": "Apache-2.0",
       "archived": false,
       "pushedAt": "2026-09-14",
       "descEn": "Make images smaller using best-in-class codecs, right in the browser.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "authentik",
@@ -1858,13 +1885,13 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://haqr.eu/tinyrenderer/",
-      "stars": 24283,
+      "stars": 24285,
       "language": "C++",
       "archived": false,
       "pushedAt": "2026-07-29",
       "descEn": "A brief computer graphics / rendering course",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "p5js",
@@ -1884,14 +1911,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://editor.p5js.org/",
-      "stars": 24020,
+      "stars": 24024,
       "language": "JavaScript",
       "license": "LGPL-2.1",
       "archived": false,
-      "pushedAt": "2026-09-21",
+      "pushedAt": "2026-09-22",
       "descEn": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "krayin",
@@ -2056,14 +2083,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://cap.so",
-      "stars": 22610,
+      "stars": 22640,
       "language": "Rust",
       "license": "AGPL-3.0",
       "archived": false,
       "pushedAt": "2026-09-22",
       "descEn": "Open source Loom alternative. Beautiful, shareable screen recordings.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "phpmailer",
@@ -2172,6 +2199,34 @@
       "syncedAt": "2026-09-22T08:42:38.435Z"
     },
     {
+      "id": "open-seo",
+      "name": "Open SEO",
+      "repo": "every-app/open-seo",
+      "category": "promo",
+      "desc": "Semrush / Ahrefs 的开源替代，做关键词研究与竞品分析",
+      "tags": [
+        "SEO",
+        "关键词",
+        "竞品分析"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 20058,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "profile-summary",
       "name": "GitHub Profile Summary",
       "repo": "tipsy/profile-summary-for-github",
@@ -2196,7 +2251,7 @@
       "pushedAt": "2026-02-22",
       "descEn": "Tool for visualizing GitHub profiles",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "docker-mailserver",
@@ -2242,14 +2297,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://lichess.org",
-      "stars": 18759,
+      "stars": 18760,
       "language": "Scala",
       "license": "AGPL-3.0",
       "archived": false,
       "pushedAt": "2026-09-22",
       "descEn": "♞ lichess.org: the forever free, adless and open source chess server ♞",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "nuclear",
@@ -2273,14 +2328,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://nuclearplayer.com",
-      "stars": 18483,
+      "stars": 18491,
       "language": "TypeScript",
       "license": "AGPL-3.0",
       "archived": false,
-      "pushedAt": "2026-09-21",
+      "pushedAt": "2026-09-22",
       "descEn": "Streaming music player that finds free music for you",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "abdm",
@@ -2304,14 +2359,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://abdownloadmanager.com",
-      "stars": 18027,
+      "stars": 18039,
       "language": "Kotlin",
       "license": "Apache-2.0",
       "archived": false,
       "pushedAt": "2026-09-08",
       "descEn": "A Download Manager that speeds up your downloads",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "pyxel",
@@ -2331,13 +2386,13 @@
       "scene": "",
       "cloud": "",
       "homepage": "",
-      "stars": 17880,
+      "stars": 17887,
       "language": "Rust",
       "archived": false,
-      "pushedAt": "2026-09-16",
+      "pushedAt": "2026-09-22",
       "descEn": "A retro game engine for Python",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "postal",
@@ -2387,14 +2442,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "",
-      "stars": 16774,
+      "stars": 16786,
       "language": "Vue",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-19",
       "descEn": "一个第三方音乐播放器、本地服务、桌面歌词、音乐下载、远程控制",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "libretranslate",
@@ -2636,14 +2691,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://getwhisky.app",
-      "stars": 15106,
+      "stars": 15108,
       "language": "Swift",
       "license": "GPL-3.0",
       "archived": true,
       "pushedAt": "2025-05-11",
       "descEn": "A modern Wine wrapper for macOS built with SwiftUI",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "zitadel",
@@ -2809,7 +2864,7 @@
       "pushedAt": "2024-04-26",
       "descEn": "The open source embeddable online markdown editor (component).",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "unleash",
@@ -2883,14 +2938,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://md.doocs.org/",
-      "stars": 13359,
+      "stars": 13365,
       "language": "TypeScript",
       "license": "WTFPL",
       "archived": false,
-      "pushedAt": "2026-09-18",
+      "pushedAt": "2026-09-22",
       "descEn": "✍ WeChat Markdown Editor | 一款高度简洁的微信 Markdown 编辑器：支持 Markdown 语法、自定义主题样式、内容管理、多图床、AI 助手等特性",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "plantuml",
@@ -2910,14 +2965,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://www.plantuml.com/plantuml",
-      "stars": 13328,
+      "stars": 13330,
       "language": "Java",
       "license": "LGPL-3.0",
       "archived": false,
       "pushedAt": "2026-09-22",
       "descEn": "Generate diagrams from textual description",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "markmap",
@@ -2937,14 +2992,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://markmap.js.org/repl",
-      "stars": 13125,
+      "stars": 13131,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-12",
       "descEn": "Build mindmaps with plain text",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "openreplay",
@@ -3032,7 +3087,7 @@
       "pushedAt": "2026-04-07",
       "descEn": "one for all free music in china (Windows, Mac, Linux desktop)",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "dufs",
@@ -3136,14 +3191,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://omnitools.app",
-      "stars": 10233,
+      "stars": 10240,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "2026-08-17",
+      "pushedAt": "2026-09-22",
       "descEn": "Self-hosted collection of powerful web-based tools for everyday tasks. No ads, no tracking, just fast, accessible utilities right from your browser!",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "nopcommerce",
@@ -3247,14 +3302,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://transform.tools/",
-      "stars": 9236,
+      "stars": 9238,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-01-28",
       "descEn": "A polyglot web converter.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "miaoyan",
@@ -3417,14 +3472,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://app.diagrams.net",
-      "stars": 8277,
+      "stars": 8293,
       "language": "JavaScript",
       "license": "Apache-2.0",
       "archived": false,
       "pushedAt": "2026-09-16",
       "descEn": "draw.io is a JavaScript, client-side editor for general diagramming.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "snapdom",
@@ -3444,14 +3499,41 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://snapdom.dev/",
-      "stars": 8146,
+      "stars": 8152,
       "language": "JavaScript",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "2026-09-21",
+      "pushedAt": "2026-09-22",
       "descEn": "High-performance engine for capturing, modifying, and converting DOM elements into any format.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
+    },
+    {
+      "id": "google-indexing-script",
+      "name": "Google Indexing Script",
+      "repo": "goenning/google-indexing-script",
+      "category": "promo",
+      "desc": "用 Indexing API 让 Google 在 48 小时内收录你的页面",
+      "tags": [
+        "收录",
+        "Indexing API"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 7707,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "mailu",
@@ -3535,7 +3617,7 @@
       "pushedAt": "2026-05-28",
       "descEn": "✂️ Generates an image from a DOM node using HTML5 canvas and SVG.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "esearch",
@@ -3560,14 +3642,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://esearch-app.netlify.app/",
-      "stars": 7198,
+      "stars": 7200,
       "language": "TypeScript",
       "license": "GPL-3.0",
       "archived": false,
       "pushedAt": "2026-09-15",
       "descEn": "截屏 离线OCR 搜索翻译 以图搜图 贴图 录屏 万向滚动截屏 屏幕翻译   Screenshot  Offline OCR   Search   Translate   Search for picture   Paste the picture on the screen   Screen recorder   Omnidirectional scrolling screenshot   Screen translator  支持Windows Linux macOS",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "gopass",
@@ -3781,14 +3863,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://60s.viki.moe",
-      "stars": 5761,
+      "stars": 5763,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-10",
       "descEn": "⏰ 60s API 免费接口。每天 60 秒看世界、奥运奖牌榜、小红书/B站/微博/抖音/知乎热搜、金价、油价、天气、翻译、壁纸、Epic 游戏、二维码、猫眼票房｜一系列 高质量、开源、可靠、全球 CDN 加速 的开放 API 集合，支持 Docker / Deno / Bun / Cloudflare Workers / Node.js 部署",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "killbill",
@@ -3836,14 +3918,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "http://tiny.cc/markedit",
-      "stars": 5711,
+      "stars": 5718,
       "language": "Swift",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "2026-09-21",
+      "pushedAt": "2026-09-23",
       "descEn": "Just like TextEdit on Mac but dedicated to Markdown.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "cookieconsent",
@@ -3896,7 +3978,7 @@
       "pushedAt": "2023-07-07",
       "descEn": "A brief computer graphics / rendering course",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "webglstudio",
@@ -3923,7 +4005,7 @@
       "pushedAt": "2026-07-14",
       "descEn": "A full open source 3D graphics editor in the browser, with scene editor, coding pad, graph editor, virtual file system, and many features more.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "httpsms",
@@ -4123,6 +4205,33 @@
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
     {
+      "id": "growchief",
+      "name": "GrowChief",
+      "repo": "growchief/growchief",
+      "category": "promo",
+      "desc": "社媒自动化外联，批量触达目标账号",
+      "tags": [
+        "外联",
+        "社媒自动化"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 3475,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "frappe-helpdesk",
       "name": "Frappe Helpdesk",
       "repo": "frappe/helpdesk",
@@ -4198,7 +4307,34 @@
       "pushedAt": "2026-09-16",
       "descEn": "⚗ Mind Elixir is a JavaScript, framework-agnostic mind map core.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-23T02:14:32.897Z"
+    },
+    {
+      "id": "openoutreach",
+      "name": "OpenOutreach",
+      "repo": "eracle/OpenOutreach",
+      "category": "promo",
+      "desc": "开源 B2B 线索生成 AI agent，描述产品后自动找客户",
+      "tags": [
+        "外联",
+        "B2B线索"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 3067,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "libredesk",
@@ -4280,6 +4416,33 @@
       "syncedAt": "2026-09-22T08:42:38.435Z"
     },
     {
+      "id": "awesome-seo",
+      "name": "Awesome SEO",
+      "repo": "bmpi-dev/awesome-seo",
+      "category": "promo",
+      "desc": "Google SEO 研究与流量变现的中文资料合集",
+      "tags": [
+        "SEO",
+        "资料"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 2796,
+      "language": "Markdown",
+      "license": "-",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "flagr",
       "name": "Flagr",
       "repo": "openflagr/flagr",
@@ -4304,6 +4467,33 @@
       "descEn": "Flagr is a feature flagging, A/B testing and dynamic configuration microservice",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "brightbean-studio",
+      "name": "BrightBean Studio",
+      "repo": "brightbeanxyz/brightbean-studio",
+      "category": "promo",
+      "desc": "可自托管的社媒管理平台，排期与跨平台发布",
+      "tags": [
+        "社媒管理",
+        "自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 2361,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "openmeter",
@@ -4359,6 +4549,114 @@
       "syncedAt": "2026-09-22T08:42:38.435Z"
     },
     {
+      "id": "advertools",
+      "name": "advertools",
+      "repo": "eliasdabbas/advertools",
+      "category": "promo",
+      "desc": "营销数据分析工具集：SERP 抓取、站点地图、广告数据",
+      "tags": [
+        "营销分析",
+        "Python"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 1462,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "openserp",
+      "name": "OpenSERP",
+      "repo": "karust/openserp",
+      "category": "promo",
+      "desc": "自托管 SERP API，批量查询各搜索引擎排名结果",
+      "tags": [
+        "SERP",
+        "排名查询"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 1411,
+      "language": "Go",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "linkinator",
+      "name": "Linkinator",
+      "repo": "JustinBeckwith/linkinator",
+      "category": "promo",
+      "desc": "爬站检查死链，用于断链建设找外链机会",
+      "tags": [
+        "死链检查",
+        "断链建设"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 1264,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "awesome-seo-tools",
+      "name": "Awesome SEO Tools",
+      "repo": "serpapi/awesome-seo-tools",
+      "category": "promo",
+      "desc": "SEO 工具清单，按用途分类整理",
+      "tags": [
+        "SEO",
+        "工具清单"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 1100,
+      "language": "Markdown",
+      "license": "CC0-1.0",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "tarteaucitron",
       "name": "tarteaucitron.js",
       "repo": "AmauriC/tarteaucitron.js",
@@ -4383,6 +4681,358 @@
       "descEn": "Open-source JavaScript cookie consent manager for GDPR / RGPD. Customizable banner, service-level controls and Google Consent Mode v2 support.",
       "syncOk": true,
       "syncedAt": "2026-09-22T08:42:38.435Z"
+    },
+    {
+      "id": "seo-audits-toolkit",
+      "name": "SEO Audits Toolkit",
+      "repo": "StanGirard/seo-audits-toolkit",
+      "category": "promo",
+      "desc": "批量跑 Lighthouse 和 Security Headers 的 SEO 审计",
+      "tags": [
+        "SEO",
+        "审计",
+        "Lighthouse"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 813,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "geolook",
+      "name": "GeoLook",
+      "repo": "aigclink/geolook",
+      "category": "promo",
+      "desc": "面向 AI 搜索的 GEO 优化：状态分析、诊断与策略生成",
+      "tags": [
+        "GEO",
+        "AI搜索"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 724,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "trypost",
+      "name": "TryPost",
+      "repo": "trypostit/trypost",
+      "category": "promo",
+      "desc": "开源社媒排期工具，界面轻量",
+      "tags": [
+        "社媒排期"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 640,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "openpost",
+      "name": "OpenPost",
+      "repo": "getopenpost/openpost",
+      "category": "promo",
+      "desc": "创建、改写、排期并追踪社媒内容",
+      "tags": [
+        "社媒排期",
+        "内容追踪"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 603,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "crawlseo",
+      "name": "CrawlSEO",
+      "repo": "crawlseo/crawlseo",
+      "category": "promo",
+      "desc": "SEO 监控面板：Search Console + 站点爬虫 + Core Web Vitals",
+      "tags": [
+        "SEO",
+        "监控",
+        "Core Web Vitals"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 600,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "seo-prompt-master",
+      "name": "SEO Prompt Master",
+      "repo": "umutxyp/Seo-Promt-Master",
+      "category": "promo",
+      "desc": "把 Google SEO 官方文档整理成可直接用的 AI 提示词",
+      "tags": [
+        "SEO",
+        "提示词"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 555,
+      "language": "Markdown",
+      "license": "-",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "free-ai-scheduler",
+      "name": "Free AI Scheduler",
+      "repo": "Anil-matcha/Free-AI-Social-Media-Scheduler",
+      "category": "promo",
+      "desc": "可自托管的免费社媒排期工具",
+      "tags": [
+        "社媒排期",
+        "免费"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 518,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "curatedseotools",
+      "name": "Curated SEO Tools",
+      "repo": "sneg55/curatedseotools",
+      "category": "promo",
+      "desc": "精选 SEO 工具集，覆盖各个环节",
+      "tags": [
+        "SEO",
+        "工具清单"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 471,
+      "language": "Markdown",
+      "license": "-",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "marketing-dashboard",
+      "name": "Marketing Dashboard",
+      "repo": "builderz-labs/marketing-dashboard",
+      "category": "promo",
+      "desc": "本地优先的营销操作台：CRM、外联、内容一体化",
+      "tags": [
+        "营销",
+        "CRM"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 469,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "backlink-pilot",
+      "name": "Backlink Pilot",
+      "repo": "s87343472/backlink-pilot",
+      "category": "promo",
+      "desc": "自动化外链提交工具包，面向独立开发者批量投目录",
+      "tags": [
+        "外链",
+        "目录提交"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 360,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "awesome-submitlist",
+      "name": "Awesome Submitlist",
+      "repo": "alvinunreal/awesome-submitlist",
+      "category": "promo",
+      "desc": "339 个推广渠道清单：目录、发布站、社区、newsletter、citations，带 DR 和 dofollow 标注",
+      "tags": [
+        "渠道清单",
+        "外链"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 158,
+      "language": "Markdown",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "awesome-saas-directories",
+      "name": "Awesome SaaS Directories",
+      "repo": "theshubh77/awesome-saas-directories",
+      "category": "promo",
+      "desc": "社区维护的 SaaS 发布渠道清单",
+      "tags": [
+        "发布渠道",
+        "清单"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 59,
+      "language": "Python",
+      "license": "CC0-1.0",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "saas-directories",
+      "name": "SaaS Directories",
+      "repo": "mezmer90/saas-directories",
+      "category": "promo",
+      "desc": "约 920 个目录的开放提交清单，带 DR、dofollow 标注和推进优先级",
+      "tags": [
+        "目录清单",
+        "外链"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "",
+      "stars": 4,
+      "language": "Markdown",
+      "license": "-",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "",
+      "syncOk": false,
+      "syncedAt": ""
     }
   ]
 }

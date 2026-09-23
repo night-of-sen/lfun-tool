@@ -4,7 +4,7 @@
 
   var L = window.__I18N__ || {};
   var LANG = window.__LANG__ || "zh";
-  var USAGE_ORDER = ["online", "desktop", "cli", "selfhost", "lib"];
+  var USAGE_ORDER = ["online", "selfhost", "desktop", "cli", "lib", "list"];
   var CATEGORY_ORDER = Object.keys(L.categories || {});
   var FAV_KEY = "gh-tools:favs";
   var THEME_KEY = "gh-tools:theme";
@@ -305,9 +305,45 @@
     document.body.removeChild(ta);
   }
 
+  /* ---------- 侧边栏 ---------- */
+  var SIDEBAR_KEY = "gh-tools:sidebar";
+
+  function bindSidebar() {
+    var toggle = document.getElementById("menu-toggle");
+    var close = document.getElementById("sidebar-close");
+    var backdrop = document.getElementById("sidebar-backdrop");
+    // document.body 不存在时直接跳过（测试环境）
+    if (!toggle || !document.body || !document.body.classList) return;
+
+    var isMobile = function () {
+      return !!(window.matchMedia && window.matchMedia("(max-width: 900px)").matches);
+    };
+
+    try {
+      if (localStorage.getItem(SIDEBAR_KEY) === "closed") document.body.classList.add("sidebar-collapsed");
+    } catch (e) {}
+
+    toggle.addEventListener("click", function () {
+      if (isMobile()) {
+        document.body.classList.toggle("sidebar-open");
+      } else {
+        var closed = document.body.classList.toggle("sidebar-collapsed");
+        try { localStorage.setItem(SIDEBAR_KEY, closed ? "closed" : "open"); } catch (e) {}
+      }
+    });
+
+    var shut = function () { document.body.classList.remove("sidebar-open"); };
+    if (close) close.addEventListener("click", shut);
+    if (backdrop) backdrop.addEventListener("click", shut);
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") document.body.classList.remove("sidebar-open");
+    });
+  }
+
   initTheme();
   bind();
   bindCopyButtons();
+  bindSidebar();
 
   if (document.getElementById("grid")) {
     cards = readCards();

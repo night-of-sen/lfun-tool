@@ -16,7 +16,8 @@
       "desktop": "💻 桌面应用",
       "cli": "⌨️ 命令行",
       "selfhost": "🐳 可自托管",
-      "lib": "📦 开发库"
+      "lib": "📦 开发库",
+      "list": "📚 清单资源"
     },
     "categories": {
       "diagram": "白板绘图",
@@ -45,7 +46,8 @@
       "auth": "认证授权",
       "compliance": "合规签署",
       "sitesearch": "站内搜索",
-      "finance": "财务发票"
+      "finance": "财务发票",
+      "promo": "推广获客"
     },
     "allCategories": "全部分类",
     "allUsage": "全部",
@@ -89,7 +91,17 @@
     "catPageLink": "查看分类",
     "readmeHeading": "项目简介（摘自 README）",
     "aboutLabel": "关于本站",
-    "disclaimerLabel": "免责声明"
+    "disclaimerLabel": "免责声明",
+    "onlineHeading": "在线工具",
+    "onlineSub": "浏览器里直接可用的小工具，数据不上传服务器",
+    "privacyNote": "🔒 全部在浏览器本地运行，文件和内容不会上传到任何服务器。",
+    "aboutThisTool": "关于这个工具",
+    "sideScene": "场景",
+    "sideUsage": "使用方式",
+    "sideCategory": "分类",
+    "sideSort": "排序",
+    "menuToggle": "筛选菜单",
+    "filterHint": "筛选条件"
   },
   "en": {
     "htmlLang": "en",
@@ -108,7 +120,8 @@
       "desktop": "💻 Desktop",
       "cli": "⌨️ CLI",
       "selfhost": "🐳 Self-hosted",
-      "lib": "📦 Library"
+      "lib": "📦 Library",
+      "list": "📚 Lists"
     },
     "categories": {
       "diagram": "Whiteboards & diagrams",
@@ -137,7 +150,8 @@
       "auth": "Auth & identity",
       "compliance": "Compliance & e-signing",
       "sitesearch": "Site search",
-      "finance": "Finance & invoicing"
+      "finance": "Finance & invoicing",
+      "promo": "Growth & SEO"
     },
     "allCategories": "All categories",
     "allUsage": "All",
@@ -181,7 +195,17 @@
     "catPageLink": "Browse categories",
     "readmeHeading": "From the README",
     "aboutLabel": "About",
-    "disclaimerLabel": "Disclaimer"
+    "disclaimerLabel": "Disclaimer",
+    "onlineHeading": "Online tools",
+    "onlineSub": "Small tools that run right here in your browser. Nothing is uploaded.",
+    "privacyNote": "🔒 Everything runs locally in your browser. Files and content are never uploaded.",
+    "aboutThisTool": "About this tool",
+    "sideScene": "Section",
+    "sideUsage": "How to use",
+    "sideCategory": "Category",
+    "sideSort": "Sort",
+    "menuToggle": "Filter menu",
+    "filterHint": "Filters"
   },
   "tagTranslations": {
     "音乐": "Music",

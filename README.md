@@ -18,24 +18,50 @@
 
 ## 内容概览
 
-收录 **156 个项目**，分两个场景：
+另外站内还有 **10 个自己实现的在线工具**（`/online/`），浏览器里直接可用，数据不上传服务器。
+
+收录 **180 个项目**，分两个场景：
 
 | 场景 | 数量 | 说明 |
 |---|---|---|
 | 通用工具 | 81 | 日常开发、效率、娱乐 |
-| 🌏 出海辅助 | 75 | 多语言、合规、支付、邮件、客服等出海专有需求 |
+| 🌏 出海辅助 | 99 | 多语言、合规、支付、邮件、客服、**推广获客**等出海专有需求 |
 
 每个项目再按「使用方式」标注：
 
 | 使用方式 | 数量 | 含义 |
 |---|---|---|
 | 🌐 在线即用 | 55 | 有官方网页版，点开就用 |
-| 🐳 可自托管 | 62 | Web 应用，自己部署 |
+| 🐳 可自托管 | 74 | Web 应用，自己部署 |
 | 💻 桌面应用 | 28 | 下载客户端 |
-| ⌨️ 命令行 | 22 | 装完在终端用 |
-| 📦 开发库 | 10 | 装进自己项目的库 / 框架 |
+| ⌨️ 命令行 | 26 | 装完在终端用 |
+| 📦 开发库 | 11 | 装进自己项目的库 / 框架 |
+| 📚 清单资源 | 7 | 渠道清单、资料合集，打开仓库直接看 |
 
 > 数量按维度统计，会重复计入（一个项目可以有多种使用方式）。
+
+## 站内在线工具
+
+定位与收录项目完全不同——这些不是外链，是**本站自己实现的工具**，纯前端零依赖：
+
+| 工具 | 地址 | 用到的浏览器能力 |
+|---|---|---|
+| 🧩 JSON 格式化 | `/online/json-format/` | JSON.parse + 错误位置定位 |
+| 🔐 Base64 编解码 | `/online/base64/` | TextEncoder 处理 UTF-8（原生 btoa 遇到中文会炸） |
+| 🔑 哈希计算 | `/online/hash/` | Web Crypto 的 `crypto.subtle.digest` |
+| ⏱️ 时间戳转换 | `/online/timestamp/` | 自动识别 10 位/13 位 |
+| 🖼️ 图片压缩 | `/online/image-compress/` | Canvas `toBlob`，可调质量和最大宽度 |
+| 🎨 颜色转换 | `/online/color/` | HEX / RGB / HSL 互转 + 色阶 |
+| 🔤 命名风格转换 | `/online/case-convert/` | 单词切分（认得 HTTPServer 这种连续大写） |
+| 🔒 随机密码生成 | `/online/password/` | `crypto.getRandomValues` + 拒绝采样避免取模偏差 |
+| 🔗 URL 编解码 | `/online/url-encode/` | 区分 encodeURI 与 encodeURIComponent |
+| 📋 文本对比 | `/online/diff/` | 最长公共子序列逐行比对 |
+
+**核心卖点：数据不出浏览器。** 图片压缩用 Canvas 本地重编码，文本工具全在内存里处理，
+没有任何上传请求。这一点比多数在线工具站更值得信任，也是页面上明确标注的。
+
+**为什么值得做**：这些词的搜索量远高于开源项目名——「JSON 格式化」「图片压缩」「Base64 编码」
+都是高频需求，而收录一个叫 Excalidraw 的项目，搜的人要少得多。10 个页面是一批新的自然流量入口。
 
 ## 页面结构（多语言）
 
@@ -46,7 +72,16 @@
 | 中文（默认） | `/` | `/tool/excalidraw/` | `/category/analytics/` | `/compare/excalidraw-vs-tldraw/` | `/about/` `/disclaimer/` |
 | English | `/en/` | `/en/tool/excalidraw/` | `/en/category/analytics/` | `/en/compare/...` | `/en/about/` … |
 
-分类总览页：`/categories/` 与 `/en/categories/`。全站共 **496 个页面**。
+分类总览页：`/categories/` 与 `/en/categories/`。全站共 **570 个页面**。
+
+## 首页布局：左侧侧边栏
+
+筛选条件放在**左侧可收缩侧边栏**里，不再是横向铺开的筛选条：
+
+- 四个分区纵向排列：**场景 / 使用方式 / 分类 / 排序**
+- 顶栏的 **☰ 按钮**可以收起侧边栏（桌面端），状态记在 localStorage
+- 移动端（≤900px）自动变成**从左侧滑出的抽屉**，带遮罩，点遮罩或按 Esc 关闭
+- 之所以改：分类涨到 28 个之后，横向筛选条要左右滑动才能看全，很难用
 
 **为什么这样设计**
 
@@ -82,11 +117,15 @@
     ├─ en/category/<key>/index.html← 27 个英文分类页（生成）
     ├─ en/categories/index.html    ← 英文分类总览（生成）
     ├─ compare/<a>-vs-<b>/index.html ← 61 组对比页（生成）
+    ├─ online/                     ← 站内在线工具（生成）
+    │   ├─ index.html              ← 工具索引
+    │   └─ <app>/index.html        ← 10 个工具页
     ├─ about/ · disclaimer/        ← 静态内容页（生成）
     ├─ sitemap.xml                 ← 生成
     ├─ robots.txt                  ← 生成
     ├─ 404.html                    ← 手写
     ├─ app.js                      ← 前端：过滤静态 DOM（零依赖）
+    ├─ online.js                   ← 站内在线工具的实现（零依赖）
     ├─ styles.css
     ├─ og.png                      ← 1200×630 分享卡片
     ├─ data/
@@ -100,10 +139,12 @@
     │   ├─ sync-github.mjs         ← 增量同步星数等元数据
     │   ├─ fetch-readmes.mjs       ← 抓取并提取 README 首段摘要
     │   ├─ check-links.mjs         ← 死链检测
+    │   ├─ apps.json               ← 站内工具的定义与界面
     │   ├─ audit-cloud.mjs         ← 审计哪些项目有官方云版
     │   ├─ build-pages.mjs         ← 页面生成器
     │   ├─ serve.mjs               ← 本地预览服务器
-    │   └─ smoke-test.mjs          ← 冒烟测试
+    │   ├─ smoke-test.mjs          ← 站点结构冒烟测试（34 项）
+    │   └─ app-smoke.mjs           ← 在线工具逻辑测试（25 项）
     ├─ .github/workflows/sync-stars.yml
     ├─ 01-GitHub开源工具清单.md
     ├─ 02-出海辅助工具清单.md
@@ -199,7 +240,8 @@ hPanel → **SSL** → 给 `tools.lfun.cloud` 装 Let's Encrypt → 开 Force HT
 
 ## 测试
 
-    node scripts/smoke-test.mjs
+    node scripts/smoke-test.mjs      # 站点结构与 SEO（34 项）
+    node scripts/app-smoke.mjs       # 在线工具的逻辑（25 项）
 
 33 项断言，覆盖：静态 HTML 的 SEO 要素（hreflang / canonical / JSON-LD / 内链数 /
 按用途自动选按钮）、场景切换、三层筛选联动、搜索、空状态、排序、主题。
@@ -234,6 +276,9 @@ hPanel → **SSL** → 给 `tools.lfun.cloud` 装 Let's Encrypt → 开 Force HT
 | `desc` | 中文描述；英文页优先用 GitHub 返回的 `descEn` |
 
 ### 分类取值
+
+**出海辅助新增「推广获客」（`promo`）**：SEO 分析、外链提交、社媒分发、线索外联工具，见
+`03-出海推广与SEO渠道.md`。
 
 **通用工具（14 类）**
 

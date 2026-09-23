@@ -32,6 +32,9 @@ jobs:
       - name: 跑冒烟测试
         run: node scripts/smoke-test.mjs
 
+      - name: 跑在线工具逻辑测试
+        run: node scripts/app-smoke.mjs
+
       - name: 有变化才提交
         run: |
           if git diff --quiet; then

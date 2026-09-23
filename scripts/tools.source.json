@@ -3818,6 +3818,560 @@
         "license": "AGPL-3.0"
       },
       "cloud": ""
+    },
+    {
+      "id": "open-seo",
+      "name": "Open SEO",
+      "repo": "every-app/open-seo",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "Semrush / Ahrefs 的开源替代，做关键词研究与竞品分析",
+      "tags": [
+        "SEO",
+        "关键词",
+        "竞品分析"
+      ],
+      "seed": {
+        "stars": 20058,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "google-indexing-script",
+      "name": "Google Indexing Script",
+      "repo": "goenning/google-indexing-script",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "用 Indexing API 让 Google 在 48 小时内收录你的页面",
+      "tags": [
+        "收录",
+        "Indexing API"
+      ],
+      "seed": {
+        "stars": 7707,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "postiz",
+      "name": "Postiz",
+      "repo": "gitroomhq/postiz-app",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "功能最全的开源社媒排期工具，支持 RSS 自动分发",
+      "tags": [
+        "社媒排期",
+        "RSS分发"
+      ],
+      "seed": {
+        "stars": 36214,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      }
+    },
+    {
+      "id": "growchief",
+      "name": "GrowChief",
+      "repo": "growchief/growchief",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "社媒自动化外联，批量触达目标账号",
+      "tags": [
+        "外联",
+        "社媒自动化"
+      ],
+      "seed": {
+        "stars": 3475,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      }
+    },
+    {
+      "id": "openoutreach",
+      "name": "OpenOutreach",
+      "repo": "eracle/OpenOutreach",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "开源 B2B 线索生成 AI agent，描述产品后自动找客户",
+      "tags": [
+        "外联",
+        "B2B线索"
+      ],
+      "seed": {
+        "stars": 3067,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "brightbean-studio",
+      "name": "BrightBean Studio",
+      "repo": "brightbeanxyz/brightbean-studio",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "可自托管的社媒管理平台，排期与跨平台发布",
+      "tags": [
+        "社媒管理",
+        "自托管"
+      ],
+      "seed": {
+        "stars": 2361,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      }
+    },
+    {
+      "id": "advertools",
+      "name": "advertools",
+      "repo": "eliasdabbas/advertools",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "营销数据分析工具集：SERP 抓取、站点地图、广告数据",
+      "tags": [
+        "营销分析",
+        "Python"
+      ],
+      "seed": {
+        "stars": 1462,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "openserp",
+      "name": "OpenSERP",
+      "repo": "karust/openserp",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "自托管 SERP API，批量查询各搜索引擎排名结果",
+      "tags": [
+        "SERP",
+        "排名查询"
+      ],
+      "seed": {
+        "stars": 1411,
+        "language": "Go",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "linkinator",
+      "name": "Linkinator",
+      "repo": "JustinBeckwith/linkinator",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "爬站检查死链，用于断链建设找外链机会",
+      "tags": [
+        "死链检查",
+        "断链建设"
+      ],
+      "seed": {
+        "stars": 1264,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "seo-audits-toolkit",
+      "name": "SEO Audits Toolkit",
+      "repo": "StanGirard/seo-audits-toolkit",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "批量跑 Lighthouse 和 Security Headers 的 SEO 审计",
+      "tags": [
+        "SEO",
+        "审计",
+        "Lighthouse"
+      ],
+      "seed": {
+        "stars": 813,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "geolook",
+      "name": "GeoLook",
+      "repo": "aigclink/geolook",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "面向 AI 搜索的 GEO 优化：状态分析、诊断与策略生成",
+      "tags": [
+        "GEO",
+        "AI搜索"
+      ],
+      "seed": {
+        "stars": 724,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "trypost",
+      "name": "TryPost",
+      "repo": "trypostit/trypost",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "开源社媒排期工具，界面轻量",
+      "tags": [
+        "社媒排期"
+      ],
+      "seed": {
+        "stars": 640,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      }
+    },
+    {
+      "id": "openpost",
+      "name": "OpenPost",
+      "repo": "getopenpost/openpost",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "创建、改写、排期并追踪社媒内容",
+      "tags": [
+        "社媒排期",
+        "内容追踪"
+      ],
+      "seed": {
+        "stars": 603,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "crawlseo",
+      "name": "CrawlSEO",
+      "repo": "crawlseo/crawlseo",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "SEO 监控面板：Search Console + 站点爬虫 + Core Web Vitals",
+      "tags": [
+        "SEO",
+        "监控",
+        "Core Web Vitals"
+      ],
+      "seed": {
+        "stars": 600,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "free-ai-scheduler",
+      "name": "Free AI Scheduler",
+      "repo": "Anil-matcha/Free-AI-Social-Media-Scheduler",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "可自托管的免费社媒排期工具",
+      "tags": [
+        "社媒排期",
+        "免费"
+      ],
+      "seed": {
+        "stars": 518,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "marketing-dashboard",
+      "name": "Marketing Dashboard",
+      "repo": "builderz-labs/marketing-dashboard",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "本地优先的营销操作台：CRM、外联、内容一体化",
+      "tags": [
+        "营销",
+        "CRM"
+      ],
+      "seed": {
+        "stars": 469,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "backlink-pilot",
+      "name": "Backlink Pilot",
+      "repo": "s87343472/backlink-pilot",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "自动化外链提交工具包，面向独立开发者批量投目录",
+      "tags": [
+        "外链",
+        "目录提交"
+      ],
+      "seed": {
+        "stars": 360,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "awesome-seo",
+      "name": "Awesome SEO",
+      "repo": "bmpi-dev/awesome-seo",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "Google SEO 研究与流量变现的中文资料合集",
+      "tags": [
+        "SEO",
+        "资料"
+      ],
+      "seed": {
+        "stars": 2796,
+        "language": "Markdown",
+        "license": "-"
+      }
+    },
+    {
+      "id": "awesome-seo-tools",
+      "name": "Awesome SEO Tools",
+      "repo": "serpapi/awesome-seo-tools",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "SEO 工具清单，按用途分类整理",
+      "tags": [
+        "SEO",
+        "工具清单"
+      ],
+      "seed": {
+        "stars": 1100,
+        "language": "Markdown",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "id": "seo-prompt-master",
+      "name": "SEO Prompt Master",
+      "repo": "umutxyp/Seo-Promt-Master",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "把 Google SEO 官方文档整理成可直接用的 AI 提示词",
+      "tags": [
+        "SEO",
+        "提示词"
+      ],
+      "seed": {
+        "stars": 555,
+        "language": "Markdown",
+        "license": "-"
+      }
+    },
+    {
+      "id": "curatedseotools",
+      "name": "Curated SEO Tools",
+      "repo": "sneg55/curatedseotools",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "精选 SEO 工具集，覆盖各个环节",
+      "tags": [
+        "SEO",
+        "工具清单"
+      ],
+      "seed": {
+        "stars": 471,
+        "language": "Markdown",
+        "license": "-"
+      }
+    },
+    {
+      "id": "awesome-submitlist",
+      "name": "Awesome Submitlist",
+      "repo": "alvinunreal/awesome-submitlist",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "339 个推广渠道清单：目录、发布站、社区、newsletter、citations，带 DR 和 dofollow 标注",
+      "tags": [
+        "渠道清单",
+        "外链"
+      ],
+      "seed": {
+        "stars": 158,
+        "language": "Markdown",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "awesome-saas-directories",
+      "name": "Awesome SaaS Directories",
+      "repo": "theshubh77/awesome-saas-directories",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "社区维护的 SaaS 发布渠道清单",
+      "tags": [
+        "发布渠道",
+        "清单"
+      ],
+      "seed": {
+        "stars": 59,
+        "language": "Python",
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "id": "saas-directories",
+      "name": "SaaS Directories",
+      "repo": "mezmer90/saas-directories",
+      "homepage": null,
+      "category": "promo",
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "desc": "约 920 个目录的开放提交清单，带 DR、dofollow 标注和推进优先级",
+      "tags": [
+        "目录清单",
+        "外链"
+      ],
+      "seed": {
+        "stars": 4,
+        "language": "Markdown",
+        "license": "-"
+      }
     }
   ]
 }

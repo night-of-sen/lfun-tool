@@ -22,6 +22,9 @@ try { readmes = JSON.parse(await readFile(join(ROOT, "data", "readmes.json"), "u
 // 静态内容页（关于 / 免责声明）
 const PAGES = JSON.parse(await readFile(join(ROOT, "scripts", "pages.json"), "utf8"));
 
+// 站内在线工具（浏览器里直接可用，不是外链）
+const APPS = JSON.parse(await readFile(join(ROOT, "scripts", "apps.json"), "utf8"));
+
 // 搜索别名（人工维护，补上数据里搜不到的中文名和俗称）
 let ALIASES = {};
 try { ALIASES = JSON.parse(await readFile(join(ROOT, "scripts", "aliases.json"), "utf8")); } catch (e) {}
@@ -62,6 +65,8 @@ function toolPath(lang, id) { return langPrefix(lang) + "/tool/" + id + "/"; }
 function catPath(lang, key) { return langPrefix(lang) + "/category/" + key + "/"; }
 function categoriesPath(lang) { return langPrefix(lang) + "/categories/"; }
 function contentPath(lang, key) { return langPrefix(lang) + "/" + key + "/"; }
+function onlinePath(lang, id) { return langPrefix(lang) + "/online/" + id + "/"; }
+function onlineIndexPath(lang) { return langPrefix(lang) + "/online/"; }
 function comparePath(lang, x, y) { return langPrefix(lang) + "/compare/" + x + "-vs-" + y + "/"; }
 
 // 两个工具必须共享至少一个标签或一种使用方式，才值得对比
@@ -164,6 +169,7 @@ function header(lang, isHome) {
     "      </div>",
     "    </a>",
     '    <div class="topbar-actions">',
+    (isHome ? '      <button id="menu-toggle" class="btn-ghost" title="' + esc(L.menuToggle) + '">☰<span class="menu-label">' + esc(L.filterHint) + "</span></button>" : ""),
     '      <a class="btn-ghost" href="' + L.langSwitchHref + '">' + esc(L.langSwitch) + "</a>"
   ];
   if (isHome) {
@@ -279,33 +285,45 @@ function homePage(lang) {
     "  </div>",
     "</section>",
     "",
-    '<nav class="filters">',
-    '  <div class="wrap filters-row filters-row-scene">',
-    '    <div class="scene-switch">' + scenes + "</div>",
-    '    <select id="sort" class="sort" aria-label="sort">',
-    '      <option value="stars">' + esc(L.sortStars) + "</option>",
-    '      <option value="name">' + esc(L.sortName) + "</option>",
-    '      <option value="updated">' + esc(L.sortUpdated) + "</option>",
-    "    </select>",
-    "  </div>",
-    '  <div class="wrap filters-row filters-row-usage">',
-    '    <div id="usage-chips" class="chips chips-usage"></div>',
-    "  </div>",
-    '  <div class="wrap filters-row filters-row-cat">',
-    '    <div id="chips" class="chips"></div>',
-    "  </div>",
-    "</nav>",
-    "",
-    '<main class="wrap">',
-    '  <div id="grid" class="grid">',
+    '<div class="wrap layout" id="layout">',
+    '  <aside class="sidebar" id="sidebar">',
+    '    <div class="sidebar-head">',
+    '      <span>' + esc(L.filterHint) + "</span>",
+    '      <button class="sidebar-close" id="sidebar-close" aria-label="close">✕</button>',
+    "    </div>",
+    '    <div class="side-block">',
+    '      <h3 class="side-title">' + esc(L.sideScene) + "</h3>",
+    '      <div class="scene-switch">' + scenes + "</div>",
+    "    </div>",
+    '    <div class="side-block">',
+    '      <h3 class="side-title">' + esc(L.sideUsage) + "</h3>",
+    '      <div id="usage-chips" class="chips chips-usage"></div>',
+    "    </div>",
+    '    <div class="side-block">',
+    '      <h3 class="side-title">' + esc(L.sideCategory) + "</h3>",
+    '      <div id="chips" class="chips"></div>',
+    "    </div>",
+    '    <div class="side-block">',
+    '      <h3 class="side-title">' + esc(L.sideSort) + "</h3>",
+    '      <select id="sort" class="sort" aria-label="sort">',
+    '        <option value="stars">' + esc(L.sortStars) + "</option>",
+    '        <option value="name">' + esc(L.sortName) + "</option>",
+    '        <option value="updated">' + esc(L.sortUpdated) + "</option>",
+    "      </select>",
+    "    </div>",
+    "  </aside>",
+    '  <div class="sidebar-backdrop" id="sidebar-backdrop"></div>',
+    '  <main class="content">',
+    '    <div id="grid" class="grid">',
     cards,
-    "  </div>",
-    '  <div id="empty" class="empty" hidden>',
-    '    <p class="empty-emoji">🫥</p>',
-    '    <p id="empty-text">' + esc(L.emptyMatch) + "</p>",
-    '    <button id="reset-filters" class="btn-primary">' + esc(L.clearFilters) + "</button>",
-    "  </div>",
-    "</main>",
+    "    </div>",
+    '    <div id="empty" class="empty" hidden>',
+    '      <p class="empty-emoji">🫥</p>',
+    '      <p id="empty-text">' + esc(L.emptyMatch) + "</p>",
+    '      <button id="reset-filters" class="btn-primary">' + esc(L.clearFilters) + "</button>",
+    "    </div>",
+    "  </main>",
+    "</div>",
     "",
     footer(lang),
     '<script src="/app.js"></script>',
@@ -324,7 +342,8 @@ function footer(lang) {
   return [
     '<footer class="footer wrap">',
     "  <p>" + esc(L.siteName) + " · " + esc(L.footerNote) + "</p>",
-    '  <p class="footer-links"><a href="' + categoriesPath(lang) + '">' + esc(L.categoriesHeading) + "</a>" +
+    '  <p class="footer-links"><a href="' + onlineIndexPath(lang) + '">' + esc(L.onlineHeading) + "</a>" +
+      '<a href="' + categoriesPath(lang) + '">' + esc(L.categoriesHeading) + "</a>" +
       '<a href="' + contentPath(lang, "about") + '">' + esc(L.aboutLabel) + "</a>" +
       '<a href="' + contentPath(lang, "disclaimer") + '">' + esc(L.disclaimerLabel) + "</a>" +
       '<a href="' + L.langSwitchHref + '">' + esc(L.langSwitch) + "</a></p>",
@@ -468,8 +487,8 @@ function toolPage(t, lang) {
 /* ---------------- 使用门槛分级 ---------------- */
 // 回答一个问题：这个工具点开就能用吗？
 var TIER_LABELS = {
-  zh: { ready: "打开就能用", cloud: "官方云版", onecmd: "一条命令部署", setup: "需要自己配置", install: "需下载安装", library: "写代码时引用" },
-  en: { ready: "Ready to use", cloud: "Official cloud", onecmd: "One-command deploy", setup: "Needs setup", install: "Download & install", library: "Library" }
+  zh: { ready: "打开就能用", cloud: "官方云版", onecmd: "一条命令部署", setup: "需要自己配置", install: "需下载安装", library: "写代码时引用", resource: "可直接查阅" },
+  en: { ready: "Ready to use", cloud: "Official cloud", onecmd: "One-command deploy", setup: "Needs setup", install: "Download & install", library: "Library", resource: "Read or browse" }
 };
 var TIER_DESC = {
   zh: {
@@ -478,7 +497,8 @@ var TIER_DESC = {
     onecmd: "需要一台自己的服务器，但 README 里有可直接执行的 Docker 命令，复制粘贴就能跑起来。",
     setup: "需要一台自己的服务器，而且要配置数据库、环境变量、域名或邮件等，建议先看官方部署文档。",
     install: "下载安装到本机使用，不需要服务器。",
-    library: "不是一个独立应用，需要装进你自己的项目里写代码调用。"
+    library: "不是一个独立应用，需要装进你自己的项目里写代码调用。",
+    resource: "这是清单、资料或提示词集合，不用安装也不用部署，打开仓库直接看就行。"
   },
   en: {
     ready: "There is an official hosted version — open it and go. No install, no deployment.",
@@ -486,14 +506,16 @@ var TIER_DESC = {
     onecmd: "You need your own server, but the README has a copy-paste Docker command that gets it running.",
     setup: "You need your own server plus database, environment variables, domain or mail configuration. Read the official deployment docs first.",
     install: "Download and install locally. No server needed.",
-    library: "Not a standalone app — install it into your own project and call it from code."
+    library: "Not a standalone app — install it into your own project and call it from code.",
+    resource: "A curated list, reference or prompt collection. Nothing to install or deploy — just open the repository."
   }
 };
-var TIER_ORDER = ["ready", "cloud", "onecmd", "setup", "install", "library"];
+var TIER_ORDER = ["ready", "cloud", "onecmd", "setup", "install", "library", "resource"];
 
 function deployTier(t) {
   if (has(t, "online") && t.homepage) return "ready";
   if (t.cloud) return "cloud";
+  if (has(t, "list")) return "resource";
   if (has(t, "desktop") || has(t, "cli")) return "install";
   if (has(t, "lib")) return "library";
   if (has(t, "selfhost")) {
@@ -574,8 +596,8 @@ function contentPage(lang, key) {
 
 /* ---------------- 对比页 ---------------- */
 var USAGE_WORD = {
-  zh: { online: "在线即用", selfhost: "自托管部署", desktop: "桌面客户端", cli: "命令行", lib: "作为开发库引用" },
-  en: { online: "online use", selfhost: "self-hosting", desktop: "a desktop app", cli: "CLI use", lib: "use as a library" }
+  zh: { online: "在线即用", selfhost: "自托管部署", desktop: "桌面客户端", cli: "命令行", lib: "作为开发库引用", list: "当清单查阅" },
+  en: { online: "online use", selfhost: "self-hosting", desktop: "a desktop app", cli: "CLI use", lib: "use as a library", list: "reading the list" }
 };
 var PLATFORM_WORD = { zh: { windows: "Windows", macos: "macOS", linux: "Linux", android: "Android", ios: "iOS" },
   en: { windows: "Windows", macos: "macOS", linux: "Linux", android: "Android", ios: "iOS" } };
@@ -704,6 +726,125 @@ function comparePage(lang, pair) {
     tips,
     "    </ul>",
     "  </section>",
+    '  <p class="back-link"><a href="' + homePath(lang) + '">← ' + esc(L.backToAll) + "</a></p>",
+    "</main>",
+    "",
+    footer(lang),
+    '<script src="/app.js"></script>',
+    "</body>",
+    "</html>"
+  ].join("\n");
+}
+
+/* ---------------- 站内在线工具 ---------------- */
+function onlineAppPage(lang, app) {
+  var L = T[lang];
+  var paths = {};
+  LANGS.forEach(function (l) { paths[l] = onlinePath(l, app.id); });
+  var name = lang === "zh" ? app.zhName : app.enName;
+  var desc = lang === "zh" ? app.zhDesc : app.enDesc;
+  var bodyText = lang === "zh" ? app.body : (app.bodyEn || app.body);
+  var title = name + " · " + L.siteName;
+
+  var jsonld = [{
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": name,
+    "description": desc,
+    "url": abs(paths[lang]),
+    "inLanguage": L.htmlLang,
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "Any modern browser",
+    "browserRequirements": "Requires JavaScript",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CNY" }
+  }, {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": L.backToAll, "item": abs(homePath(lang)) },
+      { "@type": "ListItem", "position": 2, "name": L.onlineHeading, "item": abs(onlineIndexPath(lang)) },
+      { "@type": "ListItem", "position": 3, "name": name, "item": abs(paths[lang]) }
+    ]
+  }];
+
+  return [
+    head(lang, { title: title, desc: desc, paths: paths, jsonld: jsonld, ogType: "website" }),
+    "",
+    header(lang, false),
+    "",
+    '<main class="wrap">',
+    '  <nav class="crumbs">',
+    '    <a href="' + homePath(lang) + '">' + esc(L.backToAll) + "</a>",
+    '    <span>/</span><a href="' + onlineIndexPath(lang) + '">' + esc(L.onlineHeading) + "</a>",
+    '    <span>/</span><strong>' + esc(name) + "</strong>",
+    "  </nav>",
+    '  <h1 class="hero-title">' + esc(app.icon + " " + name) + "</h1>",
+    '  <p class="hero-sub">' + esc(desc) + "</p>",
+    '  <div class="app" data-app="' + esc(app.id) + '">',
+    app.html.split("\n").map(function (l) { return "    " + l; }).join("\n"),
+    "  </div>",
+    '  <p class="privacy-note">' + esc(L.privacyNote) + "</p>",
+    '  <section class="prose"><h2>' + esc(L.aboutThisTool) + "</h2><p>" + esc(bodyText) + "</p></section>",
+    '  <p class="back-link"><a href="' + onlineIndexPath(lang) + '">← ' + esc(L.onlineHeading) + "</a></p>",
+    "</main>",
+    "",
+    footer(lang),
+    '<script src="/app.js"></script>',
+    '<script src="/online.js"></script>',
+    "</body>",
+    "</html>"
+  ].join("\n");
+}
+
+function onlineIndexPage(lang) {
+  var L = T[lang];
+  var paths = {};
+  LANGS.forEach(function (l) { paths[l] = onlineIndexPath(l); });
+  var title = L.onlineHeading + " · " + L.siteName;
+  var desc = L.onlineSub;
+
+  var cards = APPS.map(function (a) {
+    var name = lang === "zh" ? a.zhName : a.enName;
+    var d = lang === "zh" ? a.zhDesc : a.enDesc;
+    return '<a class="app-card" href="' + onlinePath(lang, a.id) + '">' +
+      '<span class="app-card-icon">' + esc(a.icon) + "</span>" +
+      '<span class="app-card-name">' + esc(name) + "</span>" +
+      '<span class="app-card-desc">' + esc(d) + "</span></a>";
+  }).join("\n");
+
+  var jsonld = [{
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": title,
+    "url": abs(paths[lang]),
+    "inLanguage": L.htmlLang,
+    "description": desc
+  }, {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "numberOfItems": APPS.length,
+    "itemListElement": APPS.map(function (a, i) {
+      return { "@type": "ListItem", "position": i + 1, "url": abs(onlinePath(lang, a.id)),
+        "name": lang === "zh" ? a.zhName : a.enName };
+    })
+  }];
+
+  return [
+    head(lang, { title: title, desc: desc, paths: paths, jsonld: jsonld, ogType: "website" }),
+    "",
+    header(lang, false),
+    "",
+    '<main class="wrap">',
+    '  <nav class="crumbs">',
+    '    <a href="' + homePath(lang) + '">' + esc(L.backToAll) + "</a>",
+    '    <span>/</span><strong>' + esc(L.onlineHeading) + "</strong>",
+    "  </nav>",
+    '  <h1 class="hero-title">' + esc(L.onlineHeading) + "</h1>",
+    '  <p class="hero-sub">' + esc(L.onlineSub) + "</p>",
+    '  <div class="app-grid">',
+    cards,
+    "  </div>",
+    '  <p class="privacy-note">' + esc(L.privacyNote) + "</p>",
     '  <p class="back-link"><a href="' + homePath(lang) + '">← ' + esc(L.backToAll) + "</a></p>",
     "</main>",
     "",
@@ -858,6 +999,14 @@ function sitemap() {
       urls.push({ loc: abs(comparePath(l, p.a.id, p.b.id)), paths: { zh: comparePath("zh", p.a.id, p.b.id), en: comparePath("en", p.a.id, p.b.id) }, pri: "0.6", freq: "monthly" });
     });
   });
+  LANGS.forEach(function (l) {
+    urls.push({ loc: abs(onlineIndexPath(l)), paths: { zh: onlineIndexPath("zh"), en: onlineIndexPath("en") }, pri: "0.9", freq: "monthly" });
+  });
+  APPS.forEach(function (a) {
+    LANGS.forEach(function (l) {
+      urls.push({ loc: abs(onlinePath(l, a.id)), paths: { zh: onlinePath("zh", a.id), en: onlinePath("en", a.id) }, pri: "0.9", freq: "monthly" });
+    });
+  });
   ["about", "disclaimer"].forEach(function (key) {
     LANGS.forEach(function (l) {
       urls.push({ loc: abs(contentPath(l, key)), paths: { zh: contentPath("zh", key), en: contentPath("en", key) }, pri: "0.5", freq: "monthly" });
@@ -907,6 +1056,7 @@ await rm(join(ROOT, "tool"), { recursive: true, force: true });
 await rm(join(ROOT, "category"), { recursive: true, force: true });
 await rm(join(ROOT, "categories"), { recursive: true, force: true });
 await rm(join(ROOT, "compare"), { recursive: true, force: true });
+await rm(join(ROOT, "online"), { recursive: true, force: true });
 await rm(join(ROOT, "about"), { recursive: true, force: true });
 await rm(join(ROOT, "disclaimer"), { recursive: true, force: true });
 await rm(join(ROOT, "en"), { recursive: true, force: true });
@@ -951,6 +1101,17 @@ for (var li = 0; li < LANGS.length; li++) {
     await writeFile(join(xdir, "index.html"), comparePage(lang, pr), "utf8");
     written++;
   }
+  // 站内在线工具
+  var oIdxDir = join(ROOT, onlineIndexPath(lang).replace(/^[/]/, ""));
+  await mkdir(oIdxDir, { recursive: true });
+  await writeFile(join(oIdxDir, "index.html"), onlineIndexPage(lang), "utf8");
+  written++;
+  for (var ai = 0; ai < APPS.length; ai++) {
+    var adir = join(ROOT, onlinePath(lang, APPS[ai].id).replace(/^[/]/, ""));
+    await mkdir(adir, { recursive: true });
+    await writeFile(join(adir, "index.html"), onlineAppPage(lang, APPS[ai]), "utf8");
+    written++;
+  }
   // 静态内容页
   var contentKeys = ["about", "disclaimer"];
   for (var pi = 0; pi < contentKeys.length; pi++) {
@@ -970,6 +1131,7 @@ console.log("  工具数: " + items.length);
 console.log("  分类数: " + catKeyList.length);
 console.log("  页面总数: " + written + "（首页 " + LANGS.length + " + 工具页 " + items.length * LANGS.length +
   " + 分类总览 " + LANGS.length + " + 分类页 " + catKeyList.length * LANGS.length +
-  " + 对比页 " + pairList.length * LANGS.length + " + 内容页 " + 2 * LANGS.length + "）");
+  " + 对比页 " + pairList.length * LANGS.length + " + 在线工具 " + (APPS.length + 1) * LANGS.length +
+  " + 内容页 " + 2 * LANGS.length + "）");
 console.log("  sitemap.xml 已重新生成");
 console.log("  域名: " + DOMAIN);

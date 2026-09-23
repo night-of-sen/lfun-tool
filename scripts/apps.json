@@ -1,0 +1,153 @@
+[
+  {
+    "id": "json-format",
+    "zhName": "JSON 格式化",
+    "enName": "JSON Formatter",
+    "zhDesc": "格式化、压缩、校验 JSON，支持语法错误定位。数据不上传。",
+    "enDesc": "Format, minify and validate JSON with error positions. Runs entirely in your browser.",
+    "icon": "🧩",
+    "keywords": [
+      "json 格式化",
+      "json 校验",
+      "json 压缩",
+      "json formatter"
+    ],
+    "html": "<div class=\"app-row\">\n  <label for=\"jf-indent\">缩进</label>\n  <select id=\"jf-indent\"><option value=\"2\">2 空格</option><option value=\"4\">4 空格</option><option value=\"tab\">Tab</option></select>\n  <button class=\"app-btn\" data-act=\"format\">格式化</button>\n  <button class=\"app-btn\" data-act=\"minify\">压缩</button>\n  <button class=\"app-btn\" data-act=\"validate\">校验</button>\n  <button class=\"app-btn ghost\" data-act=\"clear\">清空</button>\n</div>\n<textarea id=\"jf-in\" class=\"app-area\" rows=\"10\" placeholder='粘贴 JSON，例如 {\"a\":1,\"b\":[2,3]}'></textarea>\n<div id=\"jf-msg\" class=\"app-msg\"></div>\n<textarea id=\"jf-out\" class=\"app-area\" rows=\"10\" readonly placeholder=\"结果会出现在这里\"></textarea>\n<div class=\"app-row\"><button class=\"app-btn\" data-copy=\"jf-out\">复制结果</button></div>",
+    "body": "粘贴 JSON 就能立即格式化。出错时会给出具体的位置和原因，比在编辑器里翻找快得多。所有解析都在浏览器里完成，不会上传任何内容。"
+  },
+  {
+    "id": "base64",
+    "zhName": "Base64 编解码",
+    "enName": "Base64 Encoder / Decoder",
+    "zhDesc": "文本与 Base64 互转，正确处理中文和 Emoji。",
+    "enDesc": "Convert text to and from Base64, with proper UTF-8 handling for CJK and emoji.",
+    "icon": "🔐",
+    "keywords": [
+      "base64 编码",
+      "base64 解码",
+      "base64 转换"
+    ],
+    "html": "<div class=\"app-row\">\n  <button class=\"app-btn\" data-act=\"encode\">编码 → Base64</button>\n  <button class=\"app-btn\" data-act=\"decode\">解码 → 文本</button>\n  <button class=\"app-btn ghost\" data-act=\"swap\">⇅ 互换</button>\n</div>\n<textarea id=\"b64-in\" class=\"app-area\" rows=\"8\" placeholder=\"输入要编码的文本，或要解码的 Base64\"></textarea>\n<div id=\"b64-msg\" class=\"app-msg\"></div>\n<textarea id=\"b64-out\" class=\"app-area\" rows=\"8\" readonly placeholder=\"结果\"></textarea>\n<div class=\"app-row\"><button class=\"app-btn\" data-copy=\"b64-out\">复制结果</button></div>",
+    "body": "浏览器原生的 btoa 处理中文会报错，这里用 TextEncoder 做了正确的 UTF-8 转换，中文、Emoji、生僻字都能正常往返。"
+  },
+  {
+    "id": "hash",
+    "zhName": "哈希计算",
+    "enName": "Hash Generator",
+    "zhDesc": "计算 SHA-1 / SHA-256 / SHA-384 / SHA-512 哈希值。",
+    "enDesc": "Compute SHA-1, SHA-256, SHA-384 and SHA-512 hashes locally.",
+    "icon": "🔑",
+    "keywords": [
+      "sha256 在线",
+      "哈希计算",
+      "md5 sha1 sha256"
+    ],
+    "html": "<textarea id=\"hs-in\" class=\"app-area\" rows=\"7\" placeholder=\"输入要计算哈希的文本\"></textarea>\n<div class=\"app-row\">\n  <label><input type=\"checkbox\" data-alg=\"SHA-1\" checked> SHA-1</label>\n  <label><input type=\"checkbox\" data-alg=\"SHA-256\" checked> SHA-256</label>\n  <label><input type=\"checkbox\" data-alg=\"SHA-384\"> SHA-384</label>\n  <label><input type=\"checkbox\" data-alg=\"SHA-512\"> SHA-512</label>\n</div>\n<div id=\"hs-out\" class=\"app-list\"></div>",
+    "body": "用浏览器内置的 Web Crypto 计算，输入边打边算。用了 SHA-1 是因为有些老系统还在用——如果只是做校验，优先选 SHA-256。"
+  },
+  {
+    "id": "timestamp",
+    "zhName": "时间戳转换",
+    "enName": "Timestamp Converter",
+    "zhDesc": "Unix 时间戳与日期互转，显示当前时间戳。",
+    "enDesc": "Convert between Unix timestamps and human-readable dates.",
+    "icon": "⏱️",
+    "keywords": [
+      "时间戳转换",
+      "unix 时间戳",
+      "时间戳在线"
+    ],
+    "html": "<div class=\"app-now\">当前时间戳：<strong id=\"ts-now\">—</strong> <button class=\"app-btn tiny\" data-act=\"useNow\">用当前时间</button></div>\n<textarea id=\"ts-in\" class=\"app-area\" rows=\"3\" placeholder=\"输入 10 位/13 位时间戳，或 2026-09-22 10:30:00\"></textarea>\n<div class=\"app-row\">\n  <button class=\"app-btn\" data-act=\"toDate\">时间戳 → 日期</button>\n  <button class=\"app-btn\" data-act=\"toTs\">日期 → 时间戳</button>\n</div>\n<textarea id=\"ts-out\" class=\"app-area\" rows=\"8\" readonly placeholder=\"结果\"></textarea>",
+    "body": "自动识别 10 位（秒）和 13 位（毫秒）时间戳，同时给出本地时间和 UTC 时间。"
+  },
+  {
+    "id": "image-compress",
+    "zhName": "图片压缩",
+    "enName": "Image Compressor",
+    "zhDesc": "在浏览器里压缩图片，可调质量和尺寸，文件不离开设备。",
+    "enDesc": "Compress images in the browser. Adjustable quality and size; files never leave your device.",
+    "icon": "🖼️",
+    "keywords": [
+      "图片压缩",
+      "在线压缩图片",
+      "图片压缩不上传"
+    ],
+    "html": "<input type=\"file\" id=\"ic-file\" accept=\"image/*\" multiple class=\"app-file\">\n<div class=\"app-row\">\n  <label>质量 <input type=\"range\" id=\"ic-q\" min=\"0.3\" max=\"1\" step=\"0.05\" value=\"0.8\"><span id=\"ic-qv\">0.80</span></label>\n  <label>最大宽度 <input type=\"number\" id=\"ic-w\" value=\"1920\" min=\"0\" style=\"width:5.5em\"> px</label>\n</div>\n<div id=\"ic-out\" class=\"app-list\"></div>",
+    "body": "用 Canvas 在本地重新编码，图片不会上传到任何服务器——这也是它比多数在线压缩工具更值得用的原因。质量 0.8 通常能把体积压到原来的三分之一而肉眼看不出发虚。"
+  },
+  {
+    "id": "color",
+    "zhName": "颜色格式转换",
+    "enName": "Color Converter",
+    "zhDesc": "HEX / RGB / HSL 互转，并生成深浅色阶。",
+    "enDesc": "Convert between HEX, RGB and HSL, and generate a shade scale.",
+    "icon": "🎨",
+    "keywords": [
+      "颜色转换",
+      "hex转rgb",
+      "rgb转hsl"
+    ],
+    "html": "<div class=\"app-row\">\n  <input type=\"color\" id=\"cl-pick\" value=\"#2563eb\">\n  <input type=\"text\" id=\"cl-in\" class=\"app-input\" value=\"#2563eb\" placeholder=\"#2563eb 或 rgb(37,99,235)\">\n</div>\n<div id=\"cl-out\" class=\"app-list\"></div>\n<div id=\"cl-scale\" class=\"color-scale\"></div>",
+    "body": "输入任意一种格式都会实时换算成另外两种，并给出从 5% 到 95% 的明度色阶，方便挑配色。"
+  },
+  {
+    "id": "case-convert",
+    "zhName": "命名风格转换",
+    "enName": "Case Converter",
+    "zhDesc": "在 camelCase / snake_case / kebab-case 等命名风格间互转。",
+    "enDesc": "Convert between camelCase, PascalCase, snake_case, kebab-case and more.",
+    "icon": "🔤",
+    "keywords": [
+      "命名转换",
+      "驼峰命名",
+      "snake case"
+    ],
+    "html": "<textarea id=\"cc-in\" class=\"app-area\" rows=\"3\" placeholder=\"输入任意风格的文本，例如 hello world 或 helloWorld\"></textarea>\n<div id=\"cc-out\" class=\"app-list\"></div>",
+    "body": "会先把输入拆成单词，再用各风格重组。中文、数字、连续大写（如 HTTPServer）都能正确切分。"
+  },
+  {
+    "id": "password",
+    "zhName": "随机密码生成",
+    "enName": "Password Generator",
+    "zhDesc": "用系统级随机源生成强密码，可批量。",
+    "enDesc": "Generate strong passwords using the system CSPRNG. Batch mode included.",
+    "icon": "🔒",
+    "keywords": [
+      "密码生成器",
+      "随机密码",
+      "强密码"
+    ],
+    "html": "<div class=\"app-row\">\n  <label>长度 <input type=\"range\" id=\"pw-len\" min=\"6\" max=\"64\" value=\"20\"><span id=\"pw-lenv\">20</span></label>\n  <label>数量 <input type=\"number\" id=\"pw-count\" value=\"5\" min=\"1\" max=\"50\" style=\"width:4em\"></label>\n</div>\n<div class=\"app-row\">\n  <label><input type=\"checkbox\" id=\"pw-up\" checked> 大写</label>\n  <label><input type=\"checkbox\" id=\"pw-low\" checked> 小写</label>\n  <label><input type=\"checkbox\" id=\"pw-num\" checked> 数字</label>\n  <label><input type=\"checkbox\" id=\"pw-sym\" checked> 符号</label>\n  <label><input type=\"checkbox\" id=\"pw-amb\"> 排除易混字符 0O1lI</label>\n</div>\n<div class=\"app-row\"><button class=\"app-btn\" data-act=\"gen\">生成</button><button class=\"app-btn ghost\" data-copy=\"pw-out\">复制全部</button></div>\n<div id=\"pw-out\" class=\"app-list mono\"></div>",
+    "body": "用 crypto.getRandomValues 而不是 Math.random——后者可预测，不适合生成密码。每个字符独立随机抽取，不做「必须包含各类字符」的强行拼接。"
+  },
+  {
+    "id": "url-encode",
+    "zhName": "URL 编解码",
+    "enName": "URL Encoder / Decoder",
+    "zhDesc": "URL 编码与解码，区分整条 URL 和参数值。",
+    "enDesc": "Encode and decode URLs, with separate modes for full URLs and component values.",
+    "icon": "🔗",
+    "keywords": [
+      "url编码",
+      "url解码",
+      "urlencode"
+    ],
+    "html": "<div class=\"app-row\">\n  <label><input type=\"radio\" name=\"ue-mode\" value=\"component\" checked> 参数值 encodeURIComponent</label>\n  <label><input type=\"radio\" name=\"ue-mode\" value=\"full\"> 整条 URL encodeURI</label>\n</div>\n<textarea id=\"ue-in\" class=\"app-area\" rows=\"5\" placeholder=\"输入文本或 URL\"></textarea>\n<div class=\"app-row\">\n  <button class=\"app-btn\" data-act=\"encode\">编码</button>\n  <button class=\"app-btn\" data-act=\"decode\">解码</button>\n</div>\n<textarea id=\"ue-out\" class=\"app-area\" rows=\"5\" readonly placeholder=\"结果\"></textarea>\n<div class=\"app-row\"><button class=\"app-btn\" data-copy=\"ue-out\">复制结果</button></div>",
+    "body": "两种模式差别很关键：encodeURI 不会转义 & = ? / 这些分隔符，适合整条链接；encodeURIComponent 会全部转义，适合拼接查询参数。用错了链接就会断。"
+  },
+  {
+    "id": "diff",
+    "zhName": "文本对比",
+    "enName": "Text Diff",
+    "zhDesc": "逐行对比两段文本，标出新增、删除和修改。",
+    "enDesc": "Compare two blocks of text line by line, highlighting additions and removals.",
+    "icon": "📋",
+    "keywords": [
+      "文本对比",
+      "diff 在线",
+      "代码对比"
+    ],
+    "html": "<div class=\"app-two\">\n  <textarea id=\"df-a\" class=\"app-area\" rows=\"10\" placeholder=\"原始文本\"></textarea>\n  <textarea id=\"df-b\" class=\"app-area\" rows=\"10\" placeholder=\"新文本\"></textarea>\n</div>\n<div class=\"app-row\"><button class=\"app-btn\" data-act=\"diff\">对比</button><button class=\"app-btn ghost\" data-act=\"clear\">清空</button></div>\n<div id=\"df-out\" class=\"diff-out\"></div>",
+    "body": "用最长公共子序列逐行比对，适合快速核对配置改动、文案修订。纯前端实现，粘贴敏感内容也不会外泄。"
+  }
+]
