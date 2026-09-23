@@ -63,7 +63,7 @@
 
 **分类取值**
 
-通用工具：`diagram` `image` `doc` `dev` `design` `utility` `fun` `system` `download` `capture` `media` `writing` `filesearch` `security` `watermark` `video` `social` `ai`
+通用工具：`diagram` `image` `doc` `dev` `design` `utility` `fun` `system` `download` `capture` `media` `writing` `filesearch` `security` `watermark` `video` `social` `ai` `agent` `game`
 
 出海辅助：`analytics` `experiment` `i18n` `payment` `commerce` `email` `notify` `support` `crm` `auth` `compliance` `sitesearch` `finance` `promo`
 

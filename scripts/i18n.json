@@ -18,7 +18,7 @@
       "selfhost": "🐳 可自托管",
       "lib": "📦 开发库",
       "list": "📚 清单资源",
-      "extension": "🧩 浏览器扩展"
+      "extension": "🧩 扩展插件"
     },
     "categories": {
       "watermark": "水印处理",
@@ -52,7 +52,9 @@
       "compliance": "合规签署",
       "sitesearch": "站内搜索",
       "finance": "财务发票",
-      "promo": "推广获客"
+      "promo": "推广获客",
+      "agent": "AI 智能体",
+      "game": "游戏"
     },
     "allCategories": "全部分类",
     "allUsage": "全部",
@@ -163,7 +165,9 @@
       "compliance": "Compliance & e-signing",
       "sitesearch": "Site search",
       "finance": "Finance & invoicing",
-      "promo": "Growth & SEO"
+      "promo": "Growth & SEO",
+      "agent": "AI agents",
+      "game": "Games"
     },
     "allCategories": "All categories",
     "allUsage": "All",
@@ -423,6 +427,45 @@
     "Auth0替代": "Auth0 alternative",
     "GA替代": "GA alternative",
     "SaaS样板": "SaaS boilerplate",
-    "Salesforce替代": "Salesforce alternative"
+    "Salesforce替代": "Salesforce alternative",
+    "智能体": "AI agent",
+    "多智能体": "Multi-agent",
+    "自主规划": "Autonomous planning",
+    "编码智能体": "Coding agent",
+    "扩展": "Extension",
+    "浏览器自动化": "Browser automation",
+    "工具协议": "Tool protocol",
+    "清单": "Curated list",
+    "智能体记忆": "Agent memory",
+    "可观测性": "Observability",
+    "沙箱": "Sandbox",
+    "模型网关": "Model gateway",
+    "工作流": "Workflow",
+    "对话界面": "Chat UI",
+    "开源重制": "Open-source remake",
+    "策略": "Strategy",
+    "角色扮演": "RPG",
+    "射击": "Shooter",
+    "模拟经营": "Simulation",
+    "怀旧": "Retro",
+    "硬核": "Hardcore",
+    "太空": "Space",
+    "历史": "History",
+    "战棋": "Tactics",
+    "竞速": "Racing",
+    "休闲": "Casual",
+    "模拟器": "Emulator",
+    "游戏串流": "Game streaming",
+    "终端玩具": "Terminal toy",
+    "治愈": "Soothing",
+    "整活": "Novelty",
+    "视觉特效": "Visual effects",
+    "音频可视化": "Audio visualizer",
+    "浏览器": "Browser",
+    "壁纸": "Wallpaper",
+    "音乐制作": "Music making",
+    "音频": "Audio",
+    "语音合成": "Speech synthesis",
+    "物理": "Physics"
   }
 }

@@ -1,7 +1,61 @@
 {
-  "generatedAt": "2026-09-23T03:47:49.275Z",
-  "count": 278,
+  "generatedAt": "2026-09-23T08:40:50.394Z",
+  "count": 356,
   "items": [
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "repo": "sst/opencode",
+      "category": "agent",
+      "desc": "终端里的 AI 编码智能体，界面做得比多数同类舒服",
+      "tags": [
+        "编码智能体",
+        "命令行"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://opencode.ai",
+      "stars": 209489,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "The open source coding agent.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "repo": "n8n-io/n8n",
+      "category": "agent",
+      "desc": "节点式工作流自动化，拖几十个节点接 API、数据库，也能挂 AI 节点做智能体",
+      "tags": [
+        "工作流",
+        "自动化",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "许可",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://n8n.io",
+      "stars": 205737,
+      "language": "TypeScript",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
     {
       "id": "yt-dlp",
       "name": "yt-dlp",
@@ -32,6 +86,33 @@
       "descEn": "A feature-rich command-line audio/video downloader",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "autogpt",
+      "name": "AutoGPT",
+      "repo": "Significant-Gravitas/AutoGPT",
+      "category": "agent",
+      "desc": "最早火起来的自主智能体，给它一个目标就自己拆解步骤往下做",
+      "tags": [
+        "智能体",
+        "自主规划"
+      ],
+      "usage": [
+        "selfhost",
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://agpt.co",
+      "stars": 187502,
+      "language": "Python",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "firecrawl",
@@ -198,6 +279,34 @@
       "syncedAt": ""
     },
     {
+      "id": "langchain",
+      "name": "LangChain",
+      "repo": "langchain-ai/langchain",
+      "category": "agent",
+      "desc": "构建 LLM 应用和智能体的基础框架，模型、工具、记忆、检索都有现成积木",
+      "tags": [
+        "智能体",
+        "框架",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://python.langchain.com",
+      "stars": 146902,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "The agent engineering platform.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
       "id": "powertoys",
       "name": "PowerToys",
       "repo": "microsoft/PowerToys",
@@ -311,6 +420,33 @@
       "syncedAt": ""
     },
     {
+      "id": "browser-use",
+      "name": "Browser Use",
+      "repo": "browser-use/browser-use",
+      "category": "agent",
+      "desc": "让大模型直接操作浏览器：点击、填表、翻页、抓数据都能自己完成",
+      "tags": [
+        "浏览器自动化",
+        "智能体"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://browser-use.com",
+      "stars": 115990,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-18",
+      "descEn": "Agents that use the browser.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
       "id": "whisper",
       "name": "Whisper",
       "repo": "openai/whisper",
@@ -337,6 +473,33 @@
       "descEn": "Robust Speech Recognition via Large-Scale Weak Supervision",
       "syncOk": false,
       "syncedAt": ""
+    },
+    {
+      "id": "awesome-mcp-servers",
+      "name": "Awesome MCP Servers",
+      "repo": "punkpeye/awesome-mcp-servers",
+      "category": "agent",
+      "desc": "MCP 服务器大全，按用途分类，找现成工具接进智能体",
+      "tags": [
+        "工具协议",
+        "清单"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 95443,
+      "language": "",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "A collection of MCP servers.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "stirling-pdf",
@@ -452,6 +615,34 @@
       "syncedAt": ""
     },
     {
+      "id": "mcp-servers",
+      "name": "MCP Servers",
+      "repo": "modelcontextprotocol/servers",
+      "category": "agent",
+      "desc": "Model Context Protocol 官方服务器集合，让模型安全地读文件、查库、调 API",
+      "tags": [
+        "工具协议",
+        "智能体"
+      ],
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://modelcontextprotocol.io",
+      "stars": 90555,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Model Context Protocol Servers",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
       "id": "mermaid",
       "name": "Mermaid",
       "repo": "mermaid-js/mermaid",
@@ -482,7 +673,7 @@
       "id": "openhands",
       "name": "OpenHands",
       "repo": "All-Hands-AI/OpenHands",
-      "category": "ai",
+      "category": "agent",
       "desc": "AI 软件工程代理，自己写代码、跑命令、改 bug",
       "tags": [
         "AI编程",
@@ -680,6 +871,61 @@
       "syncedAt": ""
     },
     {
+      "id": "metagpt",
+      "name": "MetaGPT",
+      "repo": "geekan/MetaGPT",
+      "category": "agent",
+      "desc": "模拟一家软件公司：产品经理、架构师、工程师各是一个 agent，从一句话需求一路产出代码",
+      "tags": [
+        "多智能体",
+        "框架"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 70567,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-01-21",
+      "descEn": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
+      "id": "cline",
+      "name": "Cline",
+      "repo": "cline/cline",
+      "category": "agent",
+      "desc": "装在编辑器里的自主编码智能体，能自己读文件、改代码、跑命令、看报错",
+      "tags": [
+        "编码智能体",
+        "开发者",
+        "扩展"
+      ],
+      "usage": [
+        "extension"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://cline.bot",
+      "stars": 69098,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
       "id": "ripgrep",
       "name": "ripgrep",
       "repo": "BurntSushi/ripgrep",
@@ -709,6 +955,35 @@
       "descEn": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "open-interpreter",
+      "name": "Open Interpreter",
+      "repo": "OpenInterpreter/open-interpreter",
+      "category": "agent",
+      "desc": "用自然语言让模型在本机写并执行代码，处理文件、表格、批量改图",
+      "tags": [
+        "智能体",
+        "命令行",
+        "自主规划"
+      ],
+      "usage": [
+        "cli",
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://openinterpreter.com",
+      "stars": 68410,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-20",
+      "descEn": "A coding agent for open models like Kimi K3 and GLM 5.3",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "ublock-origin",
@@ -765,6 +1040,34 @@
       "descEn": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
       "syncOk": false,
       "syncedAt": ""
+    },
+    {
+      "id": "mem0",
+      "name": "Mem0",
+      "repo": "mem0ai/mem0",
+      "category": "agent",
+      "desc": "给智能体加长期记忆层，记住用户偏好和历史对话，不用重灌上下文",
+      "tags": [
+        "智能体记忆",
+        "智能体"
+      ],
+      "usage": [
+        "lib",
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://mem0.ai",
+      "stars": 65854,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "ffmpeg",
@@ -914,6 +1217,34 @@
       "syncedAt": "2026-09-22T08:42:38.435Z"
     },
     {
+      "id": "autogen",
+      "name": "AutoGen",
+      "repo": "microsoft/autogen",
+      "category": "agent",
+      "desc": "微软的多智能体对话框架，让多个 agent 互相讨论直到解决问题",
+      "tags": [
+        "多智能体",
+        "框架",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://microsoft.github.io/autogen/",
+      "stars": 61118,
+      "language": "Python",
+      "license": "CC-BY-4.0",
+      "archived": false,
+      "pushedAt": "2026-04-15",
+      "descEn": "A programming framework for agentic AI",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
       "id": "bat",
       "name": "bat",
       "repo": "sharkdp/bat",
@@ -1030,6 +1361,35 @@
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
     {
+      "id": "litellm",
+      "name": "LiteLLM",
+      "repo": "BerriAI/litellm",
+      "category": "agent",
+      "desc": "统一的大模型网关，一套 OpenAI 格式调上百个模型，带限流和计费",
+      "tags": [
+        "模型网关",
+        "智能体",
+        "可自托管"
+      ],
+      "usage": [
+        "lib",
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://litellm.ai",
+      "stars": 59435,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
       "id": "meilisearch",
       "name": "Meilisearch",
       "repo": "meilisearch/meilisearch",
@@ -1056,6 +1416,34 @@
       "descEn": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
       "syncOk": true,
       "syncedAt": "2026-09-22T08:42:38.435Z"
+    },
+    {
+      "id": "crewai",
+      "name": "CrewAI",
+      "repo": "crewAIInc/crewAI",
+      "category": "agent",
+      "desc": "给多个智能体分配角色和任务，像组一个团队一样协作完成复杂工作",
+      "tags": [
+        "多智能体",
+        "框架",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://crewai.com",
+      "stars": 58927,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "win11debloat",
@@ -1175,6 +1563,34 @@
       "descEn": "A tool for exploring each layer in a docker image",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "goose",
+      "name": "Goose",
+      "repo": "block/goose",
+      "category": "agent",
+      "desc": "Block 开源的可扩展编码智能体，本地跑，能接任意模型和 MCP 工具",
+      "tags": [
+        "编码智能体",
+        "命令行"
+      ],
+      "usage": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://block.github.io/goose/",
+      "stars": 54572,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "whisper-cpp",
@@ -1404,7 +1820,7 @@
       "id": "aider",
       "name": "Aider",
       "repo": "Aider-AI/aider",
-      "category": "ai",
+      "category": "agent",
       "desc": "终端里的 AI 结对编程，直接读写仓库里的文件并提交",
       "tags": [
         "AI编程",
@@ -1704,6 +2120,35 @@
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
     {
+      "id": "puter",
+      "name": "Puter",
+      "repo": "HeyPuter/puter",
+      "category": "fun",
+      "desc": "跑在浏览器里的完整桌面系统，有文件管理、应用商店和终端",
+      "tags": [
+        "沙盒",
+        "浏览器",
+        "可自托管"
+      ],
+      "usage": [
+        "online",
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://puter.com",
+      "stars": 43578,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "🌐 The Internet Computer! Free, Open-Source, and Self-Hostable.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
       "id": "reactive-resume",
       "name": "Reactive Resume",
       "repo": "reactive-resume/reactive-resume",
@@ -1729,6 +2174,90 @@
       "descEn": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
       "syncOk": true,
       "syncedAt": "2026-09-23T02:14:32.897Z"
+    },
+    {
+      "id": "agno",
+      "name": "Agno",
+      "repo": "agno-agi/agno",
+      "category": "agent",
+      "desc": "轻量高性能的多模态智能体框架，实例化和内存占用都很省",
+      "tags": [
+        "智能体",
+        "框架",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://agno.com",
+      "stars": 42312,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Build, run, and manage agent platforms.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph",
+      "repo": "langchain-ai/langgraph",
+      "category": "agent",
+      "desc": "把智能体流程写成状态图，支持循环、分支、人工介入和断点续跑",
+      "tags": [
+        "智能体",
+        "多智能体",
+        "框架"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://langchain-ai.github.io/langgraph/",
+      "stars": 42157,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Build resilient agents.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
+      "id": "sunshine",
+      "name": "Sunshine",
+      "repo": "LizardByte/Sunshine",
+      "category": "game",
+      "desc": "把电脑游戏串流到手机电视，NVIDIA GameStream 的开源替代",
+      "tags": [
+        "游戏串流",
+        "游戏",
+        "可自托管"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://app.lizardbyte.dev/Sunshine/",
+      "stars": 41453,
+      "language": "C++",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Self-hosted game stream host for Moonlight.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
       "id": "it-tools",
@@ -2114,15 +2643,15 @@
       "caution": "",
       "scene": "overseas",
       "cloud": "",
-      "homepage": "",
-      "stars": 36214,
+      "homepage": "https://postiz.com",
+      "stars": 36218,
       "language": "TypeScript",
       "license": "AGPL-3.0",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2026-09-23",
+      "descEn": "📨 The ultimate agentic social media scheduling tool 🤖",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "carbon",
@@ -2154,14 +2683,14 @@
       "id": "continue",
       "name": "Continue",
       "repo": "continuedev/continue",
-      "category": "ai",
+      "category": "agent",
       "desc": "编辑器里的 AI 编程助手，VS Code 和 JetBrains 都能装",
       "tags": [
         "AI编程",
         "开发者"
       ],
       "usage": [
-        "lib"
+        "extension"
       ],
       "platforms": [],
       "caution": "",
@@ -2236,6 +2765,34 @@
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
     {
+      "id": "langfuse",
+      "name": "Langfuse",
+      "repo": "langfuse/langfuse",
+      "category": "agent",
+      "desc": "智能体可观测性平台：看每一步调用、耗时、花费，评测和线上问题定位",
+      "tags": [
+        "可观测性",
+        "智能体",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://langfuse.com",
+      "stars": 34950,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
       "id": "diffusers",
       "name": "Diffusers",
       "repo": "huggingface/diffusers",
@@ -2261,6 +2818,33 @@
       "descEn": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
       "syncOk": false,
       "syncedAt": ""
+    },
+    {
+      "id": "gpt-pilot",
+      "name": "GPT Pilot",
+      "repo": "Pythagora-io/gpt-pilot",
+      "category": "agent",
+      "desc": "AI 开发团队：一个 agent 写代码，另一个专门审查和调试，边写边跑",
+      "tags": [
+        "编码智能体",
+        "开发者"
+      ],
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 33665,
+      "language": "Python",
+      "archived": false,
+      "pushedAt": "2026-06-18",
+      "descEn": "The first real AI developer",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "pear",
@@ -2494,6 +3078,62 @@
       "syncedAt": "2026-09-22T08:42:38.435Z"
     },
     {
+      "id": "openai-agents",
+      "name": "OpenAI Agents SDK",
+      "repo": "openai/openai-agents-python",
+      "category": "agent",
+      "desc": "OpenAI 官方智能体 SDK，handoff、护栏、追踪都是内置的",
+      "tags": [
+        "智能体",
+        "框架",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://openai.github.io/openai-agents-python/",
+      "stars": 29650,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "A lightweight, powerful framework for multi-agent workflows",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
+      "id": "smolagents",
+      "name": "smolagents",
+      "repo": "huggingface/smolagents",
+      "category": "agent",
+      "desc": "HuggingFace 的极简智能体库，核心代码很少，直接写 Python 代码当动作",
+      "tags": [
+        "智能体",
+        "框架",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://huggingface.co/docs/smolagents",
+      "stars": 29454,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-08-25",
+      "descEn": "🤗 smolagents: a barebones library for agents that think in code.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
       "id": "plausible",
       "name": "Plausible",
       "repo": "plausible/analytics",
@@ -2519,6 +3159,34 @@
       "descEn": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "mindustry",
+      "name": "Mindustry",
+      "repo": "Anuken/Mindustry",
+      "category": "game",
+      "desc": "工厂建造加塔防，把传送带铺满整张地图的快乐",
+      "tags": [
+        "游戏",
+        "策略",
+        "沙盒"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://mindustrygame.github.io/",
+      "stars": 29084,
+      "language": "Java",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "The automation tower defense RTS",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
       "id": "authelia",
@@ -2579,6 +3247,34 @@
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
     {
+      "id": "semantic-kernel",
+      "name": "Semantic Kernel",
+      "repo": "microsoft/semantic-kernel",
+      "category": "agent",
+      "desc": "微软的 SDK，把大模型能力接进 C# / Python / Java 现有系统",
+      "tags": [
+        "智能体",
+        "框架",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://learn.microsoft.com/semantic-kernel/",
+      "stars": 28592,
+      "language": "C#",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-19",
+      "descEn": "Integrate cutting-edge LLM technology quickly and easily into your apps",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
       "id": "nextauth",
       "name": "NextAuth",
       "repo": "nextauthjs/next-auth",
@@ -2603,6 +3299,35 @@
       "descEn": "Authentication for the Web.",
       "syncOk": true,
       "syncedAt": "2026-09-22T08:42:38.435Z"
+    },
+    {
+      "id": "mastra",
+      "name": "Mastra",
+      "repo": "mastra-ai/mastra",
+      "category": "agent",
+      "desc": "TypeScript 的智能体框架，工作流、记忆、评测、部署一套齐",
+      "tags": [
+        "智能体",
+        "框架",
+        "开发者"
+      ],
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://mastra.ai",
+      "stars": 28270,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "smsforwarder",
@@ -2799,6 +3524,33 @@
       "syncedAt": "2026-09-22T08:42:38.435Z"
     },
     {
+      "id": "stagehand",
+      "name": "Stagehand",
+      "repo": "browserbase/stagehand",
+      "category": "agent",
+      "desc": "浏览器自动化框架，用自然语言写动作，同时保留 Playwright 的可控性",
+      "tags": [
+        "浏览器自动化",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://stagehand.dev",
+      "stars": 25252,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "The SDK to extract data and interact with any site on the web. Get started with Claude Code, Codex, Eve, Mastra, and more.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
       "id": "nextai-translator",
       "name": "NextAI Translator",
       "repo": "nextai-translator/nextai-translator",
@@ -2825,6 +3577,35 @@
       "descEn": "基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API.",
       "syncOk": true,
       "syncedAt": "2026-09-23T03:15:04.641Z"
+    },
+    {
+      "id": "letta",
+      "name": "Letta",
+      "repo": "letta-ai/letta",
+      "category": "agent",
+      "desc": "前身是 MemGPT，把记忆和自我编辑能力做成有状态的服务",
+      "tags": [
+        "智能体记忆",
+        "智能体",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost",
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://letta.com",
+      "stars": 24850,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-10",
+      "descEn": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "rembg",
@@ -2908,6 +3689,34 @@
       "descEn": "Firefly III: a personal finances manager",
       "syncOk": true,
       "syncedAt": "2026-09-22T08:42:38.435Z"
+    },
+    {
+      "id": "activepieces",
+      "name": "Activepieces",
+      "repo": "activepieces/activepieces",
+      "category": "agent",
+      "desc": "开源 Zapier 替代，几百个集成，自托管后 AI 和自动化流程都能自己控",
+      "tags": [
+        "工作流",
+        "自动化",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.activepieces.com",
+      "stars": 24675,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "handbrake",
@@ -3188,6 +3997,34 @@
       "syncedAt": ""
     },
     {
+      "id": "skyvern",
+      "name": "Skyvern",
+      "repo": "Skyvern-AI/skyvern",
+      "category": "agent",
+      "desc": "用视觉模型驱动浏览器完成工作流，网站改版也不容易坏",
+      "tags": [
+        "浏览器自动化",
+        "智能体",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.skyvern.com",
+      "stars": 23055,
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Automate browser based workflows with AI",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
       "id": "cap",
       "name": "Cap",
       "repo": "CapSoftware/Cap",
@@ -3382,6 +4219,34 @@
       "syncedAt": "2026-09-23T03:15:04.641Z"
     },
     {
+      "id": "adk-python",
+      "name": "Agent Development Kit",
+      "repo": "google/adk-python",
+      "category": "agent",
+      "desc": "Google 的智能体开发套件，和 Gemini、Vertex AI 生态打通",
+      "tags": [
+        "智能体",
+        "框架",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://google.github.io/adk-docs/",
+      "stars": 21605,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
       "id": "sonic",
       "name": "Sonic",
       "repo": "valeriansaliou/sonic",
@@ -3434,6 +4299,90 @@
       "syncedAt": "2026-09-22T08:42:38.435Z"
     },
     {
+      "id": "swe-agent",
+      "name": "SWE-agent",
+      "repo": "SWE-agent/SWE-agent",
+      "category": "agent",
+      "desc": "普林斯顿出品，自动修 GitHub issue，是 SWE-bench 上的经典方案",
+      "tags": [
+        "编码智能体",
+        "AI编程"
+      ],
+      "usage": [
+        "cli",
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://swe-agent.com",
+      "stars": 20385,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-21",
+      "descEn": "SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] ",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
+      "id": "open-seo",
+      "name": "Open SEO",
+      "repo": "every-app/open-seo",
+      "category": "promo",
+      "desc": "Semrush / Ahrefs 的开源替代，做关键词研究与竞品分析",
+      "tags": [
+        "SEO",
+        "关键词",
+        "竞品分析"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "overseas",
+      "cloud": "",
+      "homepage": "https://openseo.so",
+      "stars": 20171,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-20",
+      "descEn": "Open source alternative to Semrush and Ahrefs",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
+      "id": "pydantic-ai",
+      "name": "Pydantic AI",
+      "repo": "pydantic/pydantic-ai",
+      "category": "agent",
+      "desc": "Pydantic 团队出的智能体框架，类型校验和结构化输出做得最扎实",
+      "tags": [
+        "智能体",
+        "框架",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://ai.pydantic.dev",
+      "stars": 20123,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
       "id": "daily-dev",
       "name": "daily.dev",
       "repo": "dailydotdev/daily",
@@ -3459,34 +4408,6 @@
       "descEn": "daily.dev is the personalized developer news feed and community. Get the best tech content from all over the web in your browser new tab or on mobile. Free and open source.",
       "syncOk": true,
       "syncedAt": "2026-09-23T03:15:04.641Z"
-    },
-    {
-      "id": "open-seo",
-      "name": "Open SEO",
-      "repo": "every-app/open-seo",
-      "category": "promo",
-      "desc": "Semrush / Ahrefs 的开源替代，做关键词研究与竞品分析",
-      "tags": [
-        "SEO",
-        "关键词",
-        "竞品分析"
-      ],
-      "usage": [
-        "selfhost"
-      ],
-      "platforms": [],
-      "caution": "",
-      "scene": "overseas",
-      "cloud": "",
-      "homepage": "",
-      "stars": 20058,
-      "language": "TypeScript",
-      "license": "MIT",
-      "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
     },
     {
       "id": "profile-summary",
@@ -3541,6 +4462,34 @@
       "descEn": "Command-line program to download image galleries and collections from several image hosting sites",
       "syncOk": false,
       "syncedAt": ""
+    },
+    {
+      "id": "lively",
+      "name": "Lively Wallpaper",
+      "repo": "rocksdanister/lively",
+      "category": "fun",
+      "desc": "把视频、网页、游戏做成 Windows 动态壁纸",
+      "tags": [
+        "壁纸",
+        "桌面",
+        "整活"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.rocksdanister.com/lively/",
+      "stars": 19658,
+      "language": "C#",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-04-30",
+      "descEn": "Free and open-source software that allows users to set animated desktop wallpapers and screensavers powered by WinUI 3.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
       "id": "motion-canvas",
@@ -3625,7 +4574,7 @@
       "id": "lichess",
       "name": "Lichess",
       "repo": "lichess-org/lila",
-      "category": "fun",
+      "category": "game",
       "desc": "永久免费、无广告的开源国际象棋，打开就能下",
       "tags": [
         "国际象棋",
@@ -3647,6 +4596,33 @@
       "descEn": "♞ lichess.org: the forever free, adless and open source chess server ♞",
       "syncOk": true,
       "syncedAt": "2026-09-23T02:14:32.897Z"
+    },
+    {
+      "id": "moonlight",
+      "name": "Moonlight",
+      "repo": "moonlight-stream/moonlight-qt",
+      "category": "game",
+      "desc": "串流客户端，配 Sunshine 用，在沙发上用手柄玩 PC 游戏",
+      "tags": [
+        "游戏串流",
+        "游戏"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://moonlight-stream.org",
+      "stars": 18732,
+      "language": "C++",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-20",
+      "descEn": "GameStream client for PCs (Windows, Mac, Linux, and Steam Link)",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
       "id": "screenity",
@@ -3847,6 +4823,34 @@
       "syncedAt": ""
     },
     {
+      "id": "openra",
+      "name": "OpenRA",
+      "repo": "OpenRA/OpenRA",
+      "category": "game",
+      "desc": "红色警戒、沙丘 2000、泰伯利亚黎明 的现代化重制，支持联机",
+      "tags": [
+        "游戏",
+        "开源重制",
+        "策略"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.openra.net",
+      "stars": 17419,
+      "language": "C#",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-14",
+      "descEn": "Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and OpenGL. Runs on Windows, Linux, *BSD and Mac OS X.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
       "id": "postal",
       "name": "Postal",
       "repo": "postalserver/postal",
@@ -3932,6 +4936,33 @@
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
     {
+      "id": "webgl-fluid",
+      "name": "WebGL Fluid Simulation",
+      "repo": "PavelDoGreat/WebGL-Fluid-Simulation",
+      "category": "fun",
+      "desc": "浏览器里的流体模拟，鼠标划过去搅动出彩色烟雾，解压神器",
+      "tags": [
+        "视觉特效",
+        "沙盒"
+      ],
+      "usage": [
+        "online"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://paveldogreat.github.io/WebGL-Fluid-Simulation/",
+      "stars": 16651,
+      "language": "JavaScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2024-11-12",
+      "descEn": "Play with fluids in your browser (works even on mobile)",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
       "id": "flarum",
       "name": "Flarum",
       "repo": "flarum/flarum",
@@ -3956,6 +4987,34 @@
       "descEn": "Simple forum software for building great communities.",
       "syncOk": false,
       "syncedAt": ""
+    },
+    {
+      "id": "openrct2",
+      "name": "OpenRCT2",
+      "repo": "OpenRCT2/OpenRCT2",
+      "category": "game",
+      "desc": "过山车大亨 2 的开源重制，能联机、能开 4K，还能继续造你的游乐场",
+      "tags": [
+        "游戏",
+        "开源重制",
+        "策略"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://openrct2.io",
+      "stars": 16248,
+      "language": "C++",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "An open source re-implementation of RollerCoaster Tycoon 2 🎢",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
       "id": "open-saas",
@@ -4095,6 +5154,62 @@
       "descEn": "BillionMail gives you open-source MailServer, NewsLetter,  Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "pcsx2",
+      "name": "PCSX2",
+      "repo": "PCSX2/pcsx2",
+      "category": "game",
+      "desc": "PlayStation 2 模拟器，二十年老项目，兼容性好得惊人",
+      "tags": [
+        "模拟器",
+        "怀旧",
+        "游戏"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://pcsx2.net",
+      "stars": 15617,
+      "language": "C++",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "PCSX2 - The Playstation 2 Emulator",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
+      "id": "dolphin",
+      "name": "Dolphin",
+      "repo": "dolphin-emu/dolphin",
+      "category": "game",
+      "desc": "GameCube 和 Wii 模拟器，能把老游戏拉到 4K 分辨率",
+      "tags": [
+        "模拟器",
+        "怀旧",
+        "游戏"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://dolphin-emu.org",
+      "stars": 15558,
+      "language": "C++",
+      "license": "GPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-21",
+      "descEn": "Dolphin is a GameCube / Wii emulator, allowing you to play games for these two platforms on PC with improvements.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
       "id": "mailinabox",
@@ -4563,10 +5678,67 @@
       "syncedAt": "2026-09-23T03:15:04.641Z"
     },
     {
+      "id": "retroarch",
+      "name": "RetroArch",
+      "repo": "libretro/RetroArch",
+      "category": "game",
+      "desc": "万能复古模拟器前端，一个界面管几十种主机核心，还有滤镜和奖杯",
+      "tags": [
+        "模拟器",
+        "怀旧",
+        "游戏"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.retroarch.com",
+      "stars": 14087,
+      "language": "C",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Cross-platform, sophisticated frontend for the libretro API. Licensed GPLv3.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
+      "id": "e2b",
+      "name": "E2B",
+      "repo": "e2b-dev/E2B",
+      "category": "agent",
+      "desc": "给智能体用的云端沙箱，让模型生成的代码在隔离环境里安全执行",
+      "tags": [
+        "沙箱",
+        "智能体",
+        "开发者"
+      ],
+      "usage": [
+        "lib",
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://e2b.dev",
+      "stars": 13925,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Open-source, secure environment with real-world tools for enterprise-grade agents.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
       "id": "nanobrowser",
       "name": "Nanobrowser",
       "repo": "nanobrowser/nanobrowser",
-      "category": "utility",
+      "category": "agent",
       "desc": "浏览器里的 AI 自动化代理，用自己的 API Key 跑多智能体任务，开源版 Operator",
       "tags": [
         "自动化",
@@ -4672,6 +5844,35 @@
       "descEn": "Bitwarden client apps (web, browser extension, desktop, and cli).",
       "syncOk": true,
       "syncedAt": "2026-09-23T03:15:04.641Z"
+    },
+    {
+      "id": "luanti",
+      "name": "Luanti",
+      "repo": "luanti-org/luanti",
+      "category": "game",
+      "desc": "原 Minetest，开源版 Minecraft，还能自己搭服务器和朋友一起玩",
+      "tags": [
+        "游戏",
+        "沙盒",
+        "可自托管"
+      ],
+      "usage": [
+        "desktop",
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.luanti.org",
+      "stars": 13635,
+      "language": "C++",
+      "license": "LGPL-2.1",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Luanti (formerly Minetest) is an open source voxel game-creation platform with easy modding and game creation",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
       "id": "mailcow",
@@ -4782,6 +5983,34 @@
       "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
+      "id": "cataclysm-dda",
+      "name": "Cataclysm: DDA",
+      "repo": "CleverRaven/Cataclysm-DDA",
+      "category": "game",
+      "desc": "末日生存 roguelike，深度到可以自己造车、种田、接假肢",
+      "tags": [
+        "游戏",
+        "角色扮演",
+        "硬核"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://cataclysmdda.org",
+      "stars": 13223,
+      "language": "C++",
+      "license": "CC-BY-SA-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
       "id": "plasmo",
       "name": "Plasmo",
       "repo": "PlasmoHQ/plasmo",
@@ -4890,6 +6119,60 @@
       "descEn": "Session replay, cobrowsing and product analytics you can self-host. Best for reproducing issues and iterating on your product.",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "genact",
+      "name": "genact",
+      "repo": "svenstaro/genact",
+      "category": "fun",
+      "desc": "假装很忙生成器：编译、扫描、黑客攻击，屏幕上永远在滚",
+      "tags": [
+        "终端玩具",
+        "整活"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 12203,
+      "language": "Rust",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-01",
+      "descEn": "🌀 A nonsense activity generator",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
+      "id": "sonic-pi",
+      "name": "Sonic Pi",
+      "repo": "sonic-pi-net/sonic-pi",
+      "category": "fun",
+      "desc": "用写代码的方式现场作曲，改一行就换一段旋律，音乐编程课常用",
+      "tags": [
+        "音乐制作",
+        "创意编程"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://sonic-pi.net",
+      "stars": 12146,
+      "language": "C++",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-20",
+      "descEn": "Code. Music. Live.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
       "id": "onefetch",
@@ -5036,6 +6319,34 @@
       "syncedAt": ""
     },
     {
+      "id": "unciv",
+      "name": "Unciv",
+      "repo": "yairm210/Unciv",
+      "category": "game",
+      "desc": "文明 5 的开源复刻，一个「再来一回合」就到天亮的游戏",
+      "tags": [
+        "游戏",
+        "策略",
+        "开源重制"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://yairm210.github.io/Unciv/",
+      "stars": 11304,
+      "language": "Kotlin",
+      "license": "MPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Open-source Android/Desktop remake of Civ V",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
       "id": "dufs",
       "name": "dufs",
       "repo": "sigoden/dufs",
@@ -5174,6 +6485,33 @@
       "syncedAt": ""
     },
     {
+      "id": "self-operating-computer",
+      "name": "Self-Operating Computer",
+      "repo": "OthersideAI/self-operating-computer",
+      "category": "agent",
+      "desc": "让多模态模型看屏幕截图然后操作鼠标键盘，跨软件的自动化方案",
+      "tags": [
+        "智能体",
+        "浏览器自动化"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 10297,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2025-09-19",
+      "descEn": "A framework to enable a multimodal model to operate a computer.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
       "id": "omni-tools",
       "name": "Omni Tools",
       "repo": "iib0011/omni-tools",
@@ -5283,6 +6621,34 @@
       "descEn": "🔧  Electron based open source toolbox, free integration of rich plug-ins. 基于 electron 的开源工具箱，自由集成丰富插件。",
       "syncOk": true,
       "syncedAt": "2026-09-22T06:16:49.944Z"
+    },
+    {
+      "id": "devilutionx",
+      "name": "DevilutionX",
+      "repo": "diasurgical/devilutionX",
+      "category": "game",
+      "desc": "暗黑破坏神 1 的源码重制，在手机和电脑上重温崔斯特姆",
+      "tags": [
+        "游戏",
+        "开源重制",
+        "角色扮演"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://devilutionx.com",
+      "stars": 9762,
+      "language": "C++",
+      "license": "Unlicense",
+      "archived": false,
+      "pushedAt": "2026-09-20",
+      "descEn": "Diablo build for modern operating systems",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
       "id": "buster",
@@ -5508,6 +6874,34 @@
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
     {
+      "id": "openttd",
+      "name": "OpenTTD",
+      "repo": "OpenTTD/OpenTTD",
+      "category": "game",
+      "desc": "运输大亨的现代重制，铺铁路建机场，看着地图自己长出城市",
+      "tags": [
+        "游戏",
+        "开源重制",
+        "策略"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.openttd.org",
+      "stars": 8296,
+      "language": "C++",
+      "license": "GPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
       "id": "drawio",
       "name": "draw.io",
       "repo": "jgraph/drawio",
@@ -5590,6 +6984,33 @@
       "syncedAt": ""
     },
     {
+      "id": "no-more-secrets",
+      "name": "No More Secrets",
+      "repo": "bartobri/no-more-secrets",
+      "category": "fun",
+      "desc": "复刻电影《 Sneakers》里那段文字乱码后逐渐还原的特效",
+      "tags": [
+        "终端玩具",
+        "视觉特效"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 7818,
+      "language": "C",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2025-12-13",
+      "descEn": "A command line tool that recreates the famous data decryption effect seen in the 1992 movie Sneakers.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
       "id": "opentoonz",
       "name": "OpenToonz",
       "repo": "OpenToonz/OpenToonz",
@@ -5632,15 +7053,71 @@
       "caution": "",
       "scene": "overseas",
       "cloud": "",
-      "homepage": "",
+      "homepage": "https://seogets.com",
       "stars": 7707,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2024-10-10",
+      "descEn": "Script to get your site indexed on Google in less than 48 hours",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
+      "id": "veloren",
+      "name": "Veloren",
+      "repo": "veloren/veloren",
+      "category": "game",
+      "desc": "Rust 写的体素 RPG，开放世界探索加多人联机，画面意外地好",
+      "tags": [
+        "游戏",
+        "角色扮演",
+        "沙盒"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://veloren.net",
+      "stars": 7582,
+      "language": "Rust",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "[mirror of https://gitlab.com/veloren/veloren] An open world, open source voxel RPG inspired by Dwarf Fortress and Cube World. This repository is a mirror. Please submit all PRs and issues on our GitLab page.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
+      "id": "endless-sky",
+      "name": "Endless Sky",
+      "repo": "endless-sky/endless-sky",
+      "category": "game",
+      "desc": "太空贸易与探索游戏，从一条小船开始跑商、走私、打仗",
+      "tags": [
+        "游戏",
+        "太空",
+        "沙盒"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://endless-sky.github.io/",
+      "stars": 7581,
+      "language": "C++",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Space exploration, trading, and combat game.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
       "id": "mailu",
@@ -5667,6 +7144,34 @@
       "descEn": "Insular email distribution - mail server as Docker images",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "mgba",
+      "name": "mGBA",
+      "repo": "mgba-emu/mgba",
+      "category": "game",
+      "desc": "GBA 模拟器，精度高、耗电低，手机上玩也顺",
+      "tags": [
+        "模拟器",
+        "怀旧",
+        "游戏"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://mgba.io",
+      "stars": 7427,
+      "language": "C",
+      "license": "MPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-19",
+      "descEn": "mGBA Game Boy Advance Emulator",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
       "id": "ffsend",
@@ -5817,6 +7322,34 @@
       "syncedAt": ""
     },
     {
+      "id": "wesnoth",
+      "name": "The Battle for Wesnoth",
+      "repo": "wesnoth/wesnoth",
+      "category": "game",
+      "desc": "回合制奇幻战棋，战役剧情量大到能玩几个月",
+      "tags": [
+        "游戏",
+        "策略",
+        "战棋"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.wesnoth.org",
+      "stars": 6884,
+      "language": "C++",
+      "license": "GPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "An open source, turn-based strategy game with a high fantasy theme.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
       "id": "instagrapi",
       "name": "instagrapi",
       "repo": "subzeroid/instagrapi",
@@ -5871,6 +7404,62 @@
       "syncedAt": ""
     },
     {
+      "id": "openmw",
+      "name": "OpenMW",
+      "repo": "OpenMW/OpenMW",
+      "category": "game",
+      "desc": "用新引擎重写上古卷轴 3：晨风，跨平台还支持各种 mod",
+      "tags": [
+        "游戏",
+        "开源重制",
+        "角色扮演"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://openmw.org",
+      "stars": 6580,
+      "language": "C++",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "OpenMW is an open-source open-world RPG game engine that supports playing Morrowind. Main repo and issue tracker can be found here: https://gitlab.com/OpenMW/openmw/",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
+      "id": "shattered-pixel-dungeon",
+      "name": "Shattered Pixel Dungeon",
+      "repo": "00-Evan/shattered-pixel-dungeon",
+      "category": "game",
+      "desc": "像素地牢的改良版，手机和电脑都能玩，随机地牢百玩不腻",
+      "tags": [
+        "游戏",
+        "角色扮演",
+        "像素"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://shatteredpixel.com/shatteredpd/",
+      "stars": 6564,
+      "language": "Java",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-09",
+      "descEn": "Shattered Pixel Dungeon is an open-source traditional roguelike dungeon crawler with randomized levels and enemies, and hundreds of items to collect and use. It's based on the source code of Pixel Dungeon, by Watabou.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
       "id": "flagsmith",
       "name": "Flagsmith",
       "repo": "Flagsmith/flagsmith",
@@ -5923,6 +7512,33 @@
       "descEn": "OpenShot Video Editor is an award-winning free and open-source video editor for Linux, Mac, and Windows, and is dedicated to delivering high quality video editing and animation solutions to the world.",
       "syncOk": false,
       "syncedAt": ""
+    },
+    {
+      "id": "cava",
+      "name": "Cava",
+      "repo": "karlstav/cava",
+      "category": "fun",
+      "desc": "终端音频可视化，音乐一响柱状图就跟着跳",
+      "tags": [
+        "终端玩具",
+        "音频可视化"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 6432,
+      "language": "C",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-21",
+      "descEn": "Cross-platform Audio Visualizer",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
       "id": "weblate",
@@ -6277,6 +7893,34 @@
       "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
+      "id": "supertuxkart",
+      "name": "SuperTuxKart",
+      "repo": "supertuxkart/stk-code",
+      "category": "game",
+      "desc": "开源卡丁车竞速，道具、漂移、分屏多人都有",
+      "tags": [
+        "游戏",
+        "竞速",
+        "休闲"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://supertuxkart.net",
+      "stars": 5368,
+      "language": "C++",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "The code base of SuperTuxKart",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
       "id": "auto-editor",
       "name": "auto-editor",
       "repo": "WyattBlue/auto-editor",
@@ -6304,6 +7948,35 @@
       "syncedAt": ""
     },
     {
+      "id": "the-powder-toy",
+      "name": "The Powder Toy",
+      "repo": "ThePowderToy/The-Powder-Toy",
+      "category": "fun",
+      "desc": "硬核物理沙盒，有电路、核反应和压力系统，能造出完整计算机",
+      "tags": [
+        "沙盒",
+        "视觉特效",
+        "物理"
+      ],
+      "usage": [
+        "desktop",
+        "online"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://powdertoy.co.uk",
+      "stars": 5327,
+      "language": "C++",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-09",
+      "descEn": "Written in C++ and using SDL, The Powder Toy is a desktop version of the classic 'falling sand' physics sandbox, it simulates air pressure and velocity as well as heat.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
       "id": "webglstudio",
       "name": "WebGLStudio.js",
       "repo": "jagenjo/webglstudio.js",
@@ -6329,6 +8002,33 @@
       "descEn": "A full open source 3D graphics editor in the browser, with scene editor, coding pad, graph editor, virtual file system, and many features more.",
       "syncOk": true,
       "syncedAt": "2026-09-23T02:14:32.897Z"
+    },
+    {
+      "id": "cmatrix",
+      "name": "cmatrix",
+      "repo": "abishekvashok/cmatrix",
+      "category": "fun",
+      "desc": "终端里下黑客帝国同款的绿色代码雨",
+      "tags": [
+        "终端玩具",
+        "怀旧"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 5255,
+      "language": "C",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2024-08-21",
+      "descEn": "Terminal based \"The Matrix\" like implementation",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
       "id": "watermark-removal",
@@ -6556,6 +8256,34 @@
       "syncedAt": "2026-09-22T08:42:38.435Z"
     },
     {
+      "id": "corsixth",
+      "name": "CorsixTH",
+      "repo": "CorsixTH/CorsixTH",
+      "category": "game",
+      "desc": "主题医院的重制版，那句「病人不会死在走廊上」又回来了",
+      "tags": [
+        "游戏",
+        "开源重制",
+        "模拟经营"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://corsixth.com",
+      "stars": 4567,
+      "language": "Lua",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Open source clone of Theme Hospital",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
       "id": "freescout",
       "name": "FreeScout",
       "repo": "freescout-help-desk/freescout",
@@ -6580,6 +8308,33 @@
       "descEn": "FreeScout — Free self-hosted omnichannel AI-powered helpdesk & shared mailbox",
       "syncOk": true,
       "syncedAt": "2026-09-22T08:42:38.435Z"
+    },
+    {
+      "id": "openutau",
+      "name": "OpenUtau",
+      "repo": "stakira/OpenUtau",
+      "category": "fun",
+      "desc": "开源的歌声合成编辑器，兼容 UTAU 音源，自己调教虚拟歌手",
+      "tags": [
+        "音乐制作",
+        "语音合成"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.openutau.com",
+      "stars": 4321,
+      "language": "C#",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Open singing synthesis platform / Open source UTAU successor",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
       "id": "tolgee",
@@ -6608,6 +8363,33 @@
       "descEn": "Developer & translator friendly web-based localization platform",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "surge-xt",
+      "name": "Surge XT",
+      "repo": "surge-synthesizer/surge",
+      "category": "fun",
+      "desc": "专业级开源合成器，音色引擎强大到能当主力，还免费",
+      "tags": [
+        "音乐制作",
+        "音频"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://surge-synthesizer.github.io/",
+      "stars": 4022,
+      "language": "C",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-18",
+      "descEn": "Synthesizer plug-in (previously released as Vember Audio Surge)",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
       "id": "linkstack",
@@ -6663,6 +8445,34 @@
       "syncedAt": ""
     },
     {
+      "id": "fheroes2",
+      "name": "fheroes2",
+      "repo": "ihhub/fheroes2",
+      "category": "game",
+      "desc": "英雄无敌 2 的引擎重写，AI 变聪明了，画面还能高清化",
+      "tags": [
+        "游戏",
+        "开源重制",
+        "策略"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://ihhub.github.io/fheroes2/",
+      "stars": 3486,
+      "language": "C++",
+      "license": "GPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "fheroes2 is a recreation of Heroes of Might and Magic II game engine",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
       "id": "growchief",
       "name": "GrowChief",
       "repo": "growchief/growchief",
@@ -6679,15 +8489,15 @@
       "caution": "",
       "scene": "overseas",
       "cloud": "",
-      "homepage": "",
+      "homepage": "https://growchief.com",
       "stars": 3475,
       "language": "TypeScript",
       "license": "AGPL-3.0",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2025-10-13",
+      "descEn": "The Ultimate all-in social media automation (outreach) tool 🤖",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "frappe-helpdesk",
@@ -6742,6 +8552,60 @@
       "syncedAt": "2026-09-22T08:42:38.435Z"
     },
     {
+      "id": "hollywood",
+      "name": "Hollywood",
+      "repo": "dustinkirkland/hollywood",
+      "category": "fun",
+      "desc": "把终端变成黑客电影现场：一堆窗口同时刷数据流",
+      "tags": [
+        "终端玩具",
+        "整活"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 3252,
+      "language": "Shell",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-07-06",
+      "descEn": "Turns your terminal into a Hollywood hacker scene, with a wall of windows scrolling fake data streams",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:40:50.394Z"
+    },
+    {
+      "id": "sandspiel",
+      "name": "Sandspiel",
+      "repo": "MaxBittker/sandspiel",
+      "category": "fun",
+      "desc": "会掉落和反应的沙粒游戏，放火、放水、放病毒看它们互相作用",
+      "tags": [
+        "沙盒",
+        "视觉特效"
+      ],
+      "usage": [
+        "online"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://sandspiel.club",
+      "stars": 3170,
+      "language": "JavaScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-10",
+      "descEn": "Creative cellular automata browser game ",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
       "id": "mind-elixir",
       "name": "Mind Elixir",
       "repo": "SSShooter/mind-elixir-core",
@@ -6768,6 +8632,34 @@
       "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
+      "id": "gzdoom",
+      "name": "GZDoom",
+      "repo": "ZDoom/gzdoom",
+      "category": "game",
+      "desc": "最强的 Doom 引擎，无数玩家自制关卡和 mod 都跑在它上面",
+      "tags": [
+        "游戏",
+        "开源重制",
+        "射击"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://zdoom.org",
+      "stars": 3108,
+      "language": "C++",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-08-10",
+      "descEn": "GZDoom is a feature centric port for all Doom engine games, based on ZDoom, adding an OpenGL renderer and powerful scripting capabilities",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
       "id": "openoutreach",
       "name": "OpenOutreach",
       "repo": "eracle/OpenOutreach",
@@ -6784,15 +8676,69 @@
       "caution": "",
       "scene": "overseas",
       "cloud": "",
-      "homepage": "",
-      "stars": 3067,
+      "homepage": "https://openoutreach.app",
+      "stars": 3068,
       "language": "Python",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-07",
+      "descEn": "Open-source AI agent for B2B lead generation — describe your product, it finds the people who fit, explains why each one does, and emails them from your mailbox. Self-hosted CLI, one install.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
+      "id": "strudel",
+      "name": "Strudel",
+      "repo": "tidalcycles/strudel",
+      "category": "fun",
+      "desc": "浏览器里现场编码做电子音乐，边写边听；开发已迁到 Codeberg，线上应用仍在运行",
+      "tags": [
+        "音乐制作",
+        "创意编程"
+      ],
+      "usage": [
+        "online"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://strudel.cc",
+      "stars": 3031,
+      "language": "JavaScript",
+      "license": "AGPL-3.0",
+      "archived": true,
+      "pushedAt": "2025-06-19",
+      "descEn": "MOVED TO CODEBERG - Web-based environment for live coding algorithmic patterns, incorporating a faithful port of TidalCycles to JavaScript",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
+      "id": "pipes-sh",
+      "name": "pipes.sh",
+      "repo": "pipeseroni/pipes.sh",
+      "category": "fun",
+      "desc": "终端里不断生长的彩色管道动画，适合挂在副屏当屏保",
+      "tags": [
+        "终端玩具",
+        "视觉特效"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 3029,
+      "language": "Shell",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2024-08-12",
+      "descEn": "Animated pipes terminal screensaver",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
       "id": "libredesk",
@@ -6874,6 +8820,34 @@
       "syncedAt": "2026-09-22T08:42:38.435Z"
     },
     {
+      "id": "scummvm",
+      "name": "ScummVM",
+      "repo": "scummvm/scummvm",
+      "category": "game",
+      "desc": "让几百款经典冒险游戏在现代系统上重新跑起来",
+      "tags": [
+        "游戏",
+        "模拟器",
+        "怀旧"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.scummvm.org",
+      "stars": 2816,
+      "language": "C++",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "ScummVM main repository",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
       "id": "awesome-seo",
       "name": "Awesome SEO",
       "repo": "bmpi-dev/awesome-seo",
@@ -6890,15 +8864,15 @@
       "caution": "",
       "scene": "overseas",
       "cloud": "",
-      "homepage": "",
-      "stars": 2796,
+      "homepage": "https://www.i365.tech/",
+      "stars": 2797,
       "language": "Markdown",
-      "license": "-",
+      "license": "MIT",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2026-08-23",
+      "descEn": "Google SEO Research and Web Traffic Monetization",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "flagr",
@@ -6970,15 +8944,15 @@
       "caution": "",
       "scene": "overseas",
       "cloud": "",
-      "homepage": "",
-      "stars": 2361,
-      "language": "TypeScript",
+      "homepage": "https://brightbean.xyz/studio/",
+      "stars": 2362,
+      "language": "Python",
       "license": "AGPL-3.0",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2026-09-20",
+      "descEn": "Open-source, self-hostable social media management platform. Schedule, publish, and manage content across 10+ platforms from a single dashboard. Free alternative to Buffer, Sendible, and SocialPilot.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "photodemon",
@@ -7031,6 +9005,34 @@
       "descEn": "Metering and Billing for AI, API and DevOps. Collect and aggregate millions of usage events in real-time and enable usage-based billing.",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "openxcom",
+      "name": "OpenXcom",
+      "repo": "OpenXcom/OpenXcom",
+      "category": "game",
+      "desc": "X-COM 幽浮的开源引擎，修了一堆原版 bug 还加了新功能",
+      "tags": [
+        "游戏",
+        "开源重制",
+        "策略"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://openxcom.org",
+      "stars": 2218,
+      "language": "C++",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-06-05",
+      "descEn": "Open-source clone of the original X-Com 👽",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
       "id": "socialify",
@@ -7159,15 +9161,15 @@
       "caution": "",
       "scene": "overseas",
       "cloud": "",
-      "homepage": "",
+      "homepage": "https://advertools.readthedocs.io",
       "stars": 1462,
       "language": "Python",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2026-06-30",
+      "descEn": "advertools - online marketing productivity and analysis tools",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "openserp",
@@ -7186,15 +9188,70 @@
       "caution": "",
       "scene": "overseas",
       "cloud": "",
-      "homepage": "",
+      "homepage": "https://openserp.org",
       "stars": 1411,
       "language": "Go",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2026-09-22",
+      "descEn": "Self-hosted SERP API for AI, SEO & automation. Browser-rendered Google, Bing, Yandex, Baidu, DuckDuckGo and Ecosia search with page extraction 🎉",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
+      "id": "oneko-js",
+      "name": "oneko.js",
+      "repo": "adryd325/oneko.js",
+      "category": "fun",
+      "desc": "给网页加一只追着鼠标跑的像素猫，一行脚本的复古桌面宠物",
+      "tags": [
+        "桌面宠物",
+        "怀旧",
+        "整活"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 1320,
+      "language": "JavaScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2025-10-29",
+      "descEn": "Cat follow mouse real! A script I wrote to put a cat on my site.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
+      "id": "asciiquarium",
+      "name": "asciiquarium",
+      "repo": "cmatsuoka/asciiquarium",
+      "category": "fun",
+      "desc": "纯字符画的水族箱，鱼会在你的终端里游来游去",
+      "tags": [
+        "终端玩具",
+        "治愈"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 1270,
+      "language": "Perl",
+      "license": "GPL-2.0",
+      "archived": false,
+      "pushedAt": "2023-08-25",
+      "descEn": "Enjoy the mysteries of the sea from the safety of your own terminal!",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
       "id": "linkinator",
@@ -7214,14 +9271,14 @@
       "scene": "overseas",
       "cloud": "",
       "homepage": "",
-      "stars": 1264,
+      "stars": 1265,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2026-09-18",
+      "descEn": "Broken link checker that crawls websites and validates links. Find broken links, dead links, and invalid URLs in websites, documentation, and local files. Perfect for SEO audits and CI/CD.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "watermark-removal-pytorch",
@@ -7268,15 +9325,15 @@
       "caution": "",
       "scene": "overseas",
       "cloud": "",
-      "homepage": "",
+      "homepage": "https://seotoolslist.org/",
       "stars": 1100,
-      "language": "Markdown",
+      "language": "HTML",
       "license": "CC0-1.0",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2026-09-14",
+      "descEn": "Curated list of awesome SEO tools",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "tarteaucitron",
@@ -7324,13 +9381,13 @@
       "cloud": "",
       "homepage": "",
       "stars": 813,
-      "language": "TypeScript",
+      "language": "Python",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2023-02-06",
+      "descEn": "SEO & Security Audit for Websites. Lighthouse & Security Headers crawler, Sitemap/Keywords/Images Extractor,  Summarizer, etc ...",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "geolook",
@@ -7349,15 +9406,15 @@
       "caution": "",
       "scene": "overseas",
       "cloud": "",
-      "homepage": "",
+      "homepage": "https://geolook.cc",
       "stars": 724,
       "language": "Python",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2026-08-10",
+      "descEn": "Open-source end-to-end GEO implementation: status analysis, diagnosis, strategy, tickets, execution, verification",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "trypost",
@@ -7375,15 +9432,15 @@
       "caution": "",
       "scene": "overseas",
       "cloud": "",
-      "homepage": "",
-      "stars": 640,
-      "language": "TypeScript",
+      "homepage": "https://trypost.it",
+      "stars": 641,
+      "language": "PHP",
       "license": "AGPL-3.0",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2026-09-22",
+      "descEn": "Open-source Social Media Scheduling",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "openpost",
@@ -7402,15 +9459,15 @@
       "caution": "",
       "scene": "overseas",
       "cloud": "",
-      "homepage": "",
+      "homepage": "https://openpo.st",
       "stars": 603,
       "language": "TypeScript",
-      "license": "MIT",
+      "license": "AGPL-3.0",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2026-09-22",
+      "descEn": "Create, adapt, schedule, and track social posts. Open-source, hosted or self-hosted.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "crawlseo",
@@ -7431,14 +9488,14 @@
       "scene": "overseas",
       "cloud": "",
       "homepage": "",
-      "stars": 600,
+      "stars": 601,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2026-09-05",
+      "descEn": "Open-source SEO monitoring. GSC + Site Crawler + Core Web Vitals in one dashboard.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "watermark-js-plus",
@@ -7468,6 +9525,34 @@
       "syncedAt": ""
     },
     {
+      "id": "hedgewars",
+      "name": "Hedgewars",
+      "repo": "hedgewars/hw",
+      "category": "game",
+      "desc": "刺猬版百战天虫，算抛物线轰炸对手，表情包式武器很多",
+      "tags": [
+        "游戏",
+        "策略",
+        "休闲"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.hedgewars.org",
+      "stars": 560,
+      "language": "Lua",
+      "license": "GPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-08-28",
+      "descEn": "Official Hedgewars mirror for GitHub!",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T08:40:39.531Z"
+    },
+    {
       "id": "seo-prompt-master",
       "name": "SEO Prompt Master",
       "repo": "umutxyp/Seo-Promt-Master",
@@ -7486,13 +9571,13 @@
       "cloud": "",
       "homepage": "",
       "stars": 555,
-      "language": "Markdown",
-      "license": "-",
+      "language": "JavaScript",
+      "license": "MIT",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2026-08-15",
+      "descEn": "🔍 Google SEO's full docs as an AI prompt machine — drop it into your AI assistant to map every public route, audit each page against Google's rules, and fix the gaps step by step.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "stable-signature",
@@ -7540,13 +9625,13 @@
       "cloud": "",
       "homepage": "",
       "stars": 518,
-      "language": "TypeScript",
+      "language": "JavaScript",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2026-09-22",
+      "descEn": "Free open-source AI social media scheduler — self-hostable alternative to Postiz, Buffer, and Hootsuite with built-in AI content generation.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "curatedseotools",
@@ -7565,15 +9650,15 @@
       "caution": "",
       "scene": "overseas",
       "cloud": "",
-      "homepage": "",
+      "homepage": "https://curatedseotools.com",
       "stars": 471,
-      "language": "Markdown",
-      "license": "-",
-      "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "language": "CSS",
+      "license": "GPL-3.0",
+      "archived": true,
+      "pushedAt": "2020-04-23",
+      "descEn": "Best SEO Tools Stash",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "marketing-dashboard",
@@ -7592,15 +9677,15 @@
       "caution": "",
       "scene": "overseas",
       "cloud": "",
-      "homepage": "",
-      "stars": 469,
+      "homepage": "https://www.nyk.dev/oss/marketing-dashboard",
+      "stars": 470,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2026-09-22",
+      "descEn": "Local-first marketing operations control center for CRM, outreach, content, analytics, approvals, automations, and agent workflows.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "backlink-pilot",
@@ -7621,13 +9706,13 @@
       "cloud": "",
       "homepage": "",
       "stars": 360,
-      "language": "Python",
+      "language": "JavaScript",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2026-03-29",
+      "descEn": "Automated backlink submission toolkit for indie hackers — submit your product to directory sites, awesome-lists, and search engines with one command",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "awesome-submitlist",
@@ -7646,15 +9731,15 @@
       "caution": "",
       "scene": "overseas",
       "cloud": "",
-      "homepage": "",
+      "homepage": "https://submitlist.io/catalog",
       "stars": 158,
-      "language": "Markdown",
-      "license": "MIT",
+      "language": "JavaScript",
+      "license": "CC0-1.0",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2026-09-21",
+      "descEn": "Junk-free, 300+ directories, launch sites, newsletters, communities, subreddits and marketplaces to submit your startup, with Domain Rating, traffic and pricing. Synced weekly from submitlist.io.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "awesome-saas-directories",
@@ -7673,15 +9758,15 @@
       "caution": "",
       "scene": "overseas",
       "cloud": "",
-      "homepage": "",
+      "homepage": "https://launchdb.vercel.app",
       "stars": 59,
       "language": "Python",
       "license": "CC0-1.0",
       "archived": false,
-      "pushedAt": "",
-      "descEn": "",
-      "syncOk": false,
-      "syncedAt": ""
+      "pushedAt": "2026-09-23",
+      "descEn": "A curated, community-driven list of the best places to launch your SaaS, get early users, and build SEO backlinks.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
       "id": "saas-directories",
@@ -7705,8 +9790,92 @@
       "language": "Markdown",
       "license": "-",
       "archived": false,
+      "pushedAt": "2026-06-07",
+      "descEn": "Open list of 921 directories, communities & review sites to list your SaaS or AI product — with domain ratings, link type, and a phased submission plan. CSV, free, no signup.",
+      "syncOk": true,
+      "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
+      "id": "ufo",
+      "name": "UFO",
+      "repo": "microsoft/UFO",
+      "category": "agent",
+      "desc": "微软的 Windows 智能体，跨应用操作图形界面完成任务，比如改系统设置、整理文件",
+      "tags": [
+        "智能体",
+        "桌面",
+        "自主规划"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 0,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
       "pushedAt": "",
-      "descEn": "",
+      "descEn": "UFO³: Weaving the Digital Agent Galaxy",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "copilotkit",
+      "name": "CopilotKit",
+      "repo": "CopilotKit/CopilotKit",
+      "category": "agent",
+      "desc": "给自家产品加智能体前端：侧边栏助手、生成式 UI、应用内动作调用",
+      "tags": [
+        "智能体",
+        "对话界面",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.copilotkit.ai",
+      "stars": 0,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "chainlit",
+      "name": "Chainlit",
+      "repo": "chainlit/chainlit",
+      "category": "agent",
+      "desc": "几行 Python 就能给智能体套上对话界面，带中间步骤展示和引用来源",
+      "tags": [
+        "对话界面",
+        "智能体",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://chainlit.io",
+      "stars": 0,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "",
+      "descEn": "Build Conversational AI in minutes ⚡️",
       "syncOk": false,
       "syncedAt": ""
     }

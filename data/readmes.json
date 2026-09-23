@@ -1943,5 +1943,551 @@
     "source": "README.md",
     "rawLength": 9204,
     "fetchedAt": "2026-09-23T03:50:31.799Z"
+  },
+  "opencode": {
+    "summary": "OpenCode is also available as a desktop application. Download directly from the releases page or opencode.ai/download.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5317,
+    "fetchedAt": "2026-09-23T05:59:35.455Z"
+  },
+  "n8n": {
+    "summary": "n8n is fair-code distributed under the Sustainable Use License and n8n Enterprise License.",
+    "docker": "docker volume create n8n_data\ndocker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n",
+    "source": "README.md",
+    "rawLength": 4005,
+    "fetchedAt": "2026-09-23T05:59:35.456Z"
+  },
+  "autogpt": {
+    "summary": "AutoGPT lets you build, deploy, and run AI agents that carry out complete workflows. Describe an outcome in plain English or shape every step in the visual builder, then run the agent on demand, on a schedule, or from a trigger.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11120,
+    "fetchedAt": "2026-09-23T05:59:35.456Z"
+  },
+  "langchain": {
+    "summary": "LangChain is a framework for building agents and LLM-powered applications. It helps you chain together interoperable components and third-party integrations to simplify AI application development — all while future-proofing decisions as the underlying technology evolves.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5889,
+    "fetchedAt": "2026-09-23T05:59:35.456Z"
+  },
+  "browser-use": {
+    "summary": "Browser Use Cloud provides stealth browsers and proxies designed to reduce bot detection and CAPTCHA challenges. With the Python library, enable a cloud browser with Browser(usecloud=True) and set BROWSERUSEAPIKEY.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14944,
+    "fetchedAt": "2026-09-23T05:59:35.456Z"
+  },
+  "awesome-mcp-servers": {
+    "summary": "MCP is an open protocol that enables AI models to securely interact with local and remote resources through standardized server implementations. This list focuses on production-ready and experimental MCP servers that extend AI capabilities through file access, database connections, API integrations…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1793376,
+    "fetchedAt": "2026-09-23T05:59:35.456Z"
+  },
+  "mcp-servers": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8683,
+    "fetchedAt": "2026-09-23T05:59:47.360Z"
+  },
+  "metagpt": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8165,
+    "fetchedAt": "2026-09-23T05:59:47.360Z"
+  },
+  "cline": {
+    "summary": "Cline as a native app for macOS and Windows. Run agent sessions in any folder, schedule routines, and manage models, plugins, and MCP servers.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9236,
+    "fetchedAt": "2026-09-23T05:59:47.360Z"
+  },
+  "open-interpreter": {
+    "summary": "Open Interpreter is a fork of OpenAI's Codex, with a focus on emulating the agent harness that gets the best performance out of low-cost models.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8066,
+    "fetchedAt": "2026-09-23T05:59:47.360Z"
+  },
+  "mem0": {
+    "summary": "Mem0 (\"mem-zero\") enhances AI assistants and agents with an intelligent memory layer, enabling personalized AI interactions. It remembers user preferences, adapts to individual needs, and continuously learns over time—ideal for customer support chatbots, AI assistants, and autonomous systems.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11879,
+    "fetchedAt": "2026-09-23T05:59:47.360Z"
+  },
+  "autogen": {
+    "summary": "AutoGen is a framework for creating multi-agent AI applications that can act autonomously or work alongside humans.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20777,
+    "fetchedAt": "2026-09-23T05:59:49.568Z"
+  },
+  "litellm": {
+    "summary": "LiteLLM is an open source AI Gateway that gives you a single, unified interface to call 100+ LLM providers — OpenAI, Anthropic, Gemini, Bedrock, Azure, and more — using the OpenAI format.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 35331,
+    "fetchedAt": "2026-09-23T05:59:49.568Z"
+  },
+  "crewai": {
+    "summary": "CrewAI AMP is designed for enterprises seeking a powerful, reliable solution to transform complex business processes into efficient, intelligent automations.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 32680,
+    "fetchedAt": "2026-09-23T05:59:49.568Z"
+  },
+  "goose": {
+    "summary": "goose is a general-purpose AI agent that runs on your machine. Not just for code — use it for research, writing, automation, data analysis, or anything you need to get done.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3435,
+    "fetchedAt": "2026-09-23T05:59:49.568Z"
+  },
+  "agno": {
+    "summary": "Agno is a framework and runtime for agent platforms. Build agents, run them as a service, manage your platform using a web UI.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4954,
+    "fetchedAt": "2026-09-23T05:59:49.568Z"
+  },
+  "langgraph": {
+    "summary": "LangGraph is inspired by Pregel and Apache Beam. The public interface draws inspiration from NetworkX. LangGraph is built by LangChain Inc, the creators of LangChain, but can be used without LangChain.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6351,
+    "fetchedAt": "2026-09-23T05:59:49.568Z"
+  },
+  "langfuse": {
+    "summary": "Langfuse is an open source LLM engineering platform. It helps teams collaboratively develop, monitor, evaluate, and debug AI applications. Langfuse can be self-hosted in minutes and is battle-tested. Proudly made with ClickHouse open source database.",
+    "docker": "# Get a copy of the latest Langfuse repository\n  git clone --depth=1 https://github.com/langfuse/langfuse.git\n  cd langfuse\n\n  # Run the langfuse docker compose\n  docker compose up",
+    "source": "README.md",
+    "rawLength": 52541,
+    "fetchedAt": "2026-09-23T05:59:50.552Z"
+  },
+  "gpt-pilot": {
+    "summary": "GPT Pilot is the core technology for the Pythagora VS Code extension that aims to provide the first real AI developer companion. Not just an autocomplete or a helper for PR messages but rather a real AI developer that can write full features, debug them, talk to you about issues, ask for review, etc…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12603,
+    "fetchedAt": "2026-09-23T05:59:50.552Z"
+  },
+  "openai-agents": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8456,
+    "fetchedAt": "2026-09-23T05:59:50.552Z"
+  },
+  "smolagents": {
+    "summary": "smolagents is a library that enables you to run powerful agents in a few lines of code. It offers:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14111,
+    "fetchedAt": "2026-09-23T05:59:50.552Z"
+  },
+  "semantic-kernel": {
+    "summary": "Semantic Kernel is a model-agnostic SDK that empowers developers to build, orchestrate, and deploy AI agents and multi-agent systems. Whether you're building a simple chatbot or a complex multi-agent workflow, Semantic Kernel provides the tools you need with enterprise-grade reliability and flexibil…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14450,
+    "fetchedAt": "2026-09-23T05:59:50.552Z"
+  },
+  "mastra": {
+    "summary": "Mastra is a framework for building AI-powered applications and agents with a modern TypeScript stack.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7265,
+    "fetchedAt": "2026-09-23T05:59:50.552Z"
+  },
+  "stagehand": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16953,
+    "fetchedAt": "2026-09-23T05:59:59.269Z"
+  },
+  "letta": {
+    "summary": "Letta (f.k.a. MemGPT) is actively developed. The current source code lives in letta-ai/letta-code, which includes the agent harness, interactive terminal UI, App Server, channels, and the runtime used by the desktop and web apps.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1574,
+    "fetchedAt": "2026-09-23T05:59:59.269Z"
+  },
+  "activepieces": {
+    "summary": "Activepieces supports integrations with Google Sheets, OpenAI, Discord, RSS, and over 200 other services. Check out the full list of supported integrations, which is constantly expanding thanks to our community's contributions.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 90541,
+    "fetchedAt": "2026-09-23T05:59:59.269Z"
+  },
+  "skyvern": {
+    "summary": "Skyvern automates browser-based workflows using LLMs and computer vision. It provides a Playwright-compatible SDK that adds AI functionality on top of playwright, as well as a no-code workflow builder to help both technical and non-technical users automate manual workflows on any website, replacing…",
+    "docker": "docker compose up -d",
+    "source": "README.md",
+    "rawLength": 25255,
+    "fetchedAt": "2026-09-23T05:59:59.269Z"
+  },
+  "adk-python": {
+    "summary": "Agent Development Kit (ADK) is a flexible and modular framework that applies software development principles to AI agent creation. It is designed to simplify building, deploying, and orchestrating agent workflows, from simple tasks to complex systems. While optimized for Gemini, ADK is model-agnosti…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9397,
+    "fetchedAt": "2026-09-23T05:59:59.269Z"
+  },
+  "swe-agent": {
+    "summary": "SWE-agent enables your language model of choice (e.g. GPT-4o or Claude Sonnet 4) to autonomously use tools to fix issues in real GitHub repositories, find cybersecurity vulnerabilities, or perform any custom task.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8142,
+    "fetchedAt": "2026-09-23T06:00:10.106Z"
+  },
+  "pydantic-ai": {
+    "summary": "Pydantic AI Harness has everything an agent needs for complex, long-running work, snapped on as capabilities, from memory, guardrails, and sub-agents to planning, context management, and storage, up to a complete coding agent.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 22862,
+    "fetchedAt": "2026-09-23T06:00:10.106Z"
+  },
+  "e2b": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4164,
+    "fetchedAt": "2026-09-23T06:00:10.106Z"
+  },
+  "self-operating-computer": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8122,
+    "fetchedAt": "2026-09-23T06:00:10.107Z"
+  },
+  "ufo": {
+    "summary": "UFO³ introduces Galaxy, a revolutionary multi-device orchestration framework that coordinates intelligent agents across heterogeneous platforms. Built on five tightly integrated design principles:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 24921,
+    "fetchedAt": "2026-09-23T06:00:10.107Z"
+  },
+  "copilotkit": {
+    "summary": "CopilotKit is a best-in-class SDK for building full-stack agentic applications, Generative UI, and chat applications.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13240,
+    "fetchedAt": "2026-09-23T06:00:11.235Z"
+  },
+  "chainlit": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 17,
+    "fetchedAt": "2026-09-23T06:00:11.235Z"
+  },
+  "puter": {
+    "summary": "Puter is an advanced, open-source, self-hostable internet computer designed to be feature-rich, fast, and highly extensible.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6657,
+    "fetchedAt": "2026-09-23T08:41:22.917Z"
+  },
+  "sunshine": {
+    "summary": "Sunshine is a self-hosted game stream host for Moonlight. Offering low-latency, cloud gaming server capabilities with support for AMD, Intel, and Nvidia GPUs for hardware encoding. Software encoding is also available. You can connect to Sunshine from any Moonlight client on a variety of devices. A w…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14940,
+    "fetchedAt": "2026-09-23T08:41:22.918Z"
+  },
+  "mindustry": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4770,
+    "fetchedAt": "2026-09-23T08:41:22.918Z"
+  },
+  "lively": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7142,
+    "fetchedAt": "2026-09-23T08:41:22.918Z"
+  },
+  "moonlight": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8506,
+    "fetchedAt": "2026-09-23T08:41:30.567Z"
+  },
+  "openra": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3490,
+    "fetchedAt": "2026-09-23T08:41:30.567Z"
+  },
+  "webgl-fluid": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 433,
+    "fetchedAt": "2026-09-23T08:41:30.567Z"
+  },
+  "openrct2": {
+    "summary": "OpenRCT2 requires original files of RollerCoaster Tycoon 2 to play. It can be bought at either Steam or GOG.com. If you have the original RollerCoaster Tycoon and its expansion packs, you can point OpenRCT2 to these in order to play the original scenarios.",
+    "docker": "",
+    "source": "readme.md",
+    "rawLength": 14349,
+    "fetchedAt": "2026-09-23T08:41:30.567Z"
+  },
+  "pcsx2": {
+    "summary": "PCSX2 is a free and open-source PlayStation 2 (PS2) emulator. Its purpose is to emulate the PS2's hardware, using a combination of MIPS CPU Interpreters>), Recompilers and a Virtual Machine which manages hardware states and PS2 system memory. This allows you to play PS2 games on your PC, with many a…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2542,
+    "fetchedAt": "2026-09-23T08:41:30.567Z"
+  },
+  "dolphin": {
+    "summary": "Dolphin is an emulator for running GameCube and Wii games on Windows, Linux, macOS, and recent Android devices. It's licensed under the terms of the GNU General Public License, version 2 or later (GPLv2+).",
+    "docker": "",
+    "source": "Readme.md",
+    "rawLength": 8610,
+    "fetchedAt": "2026-09-23T08:41:30.567Z"
+  },
+  "retroarch": {
+    "summary": "RetroArch is the reference frontend for the libretro API. Popular examples of implementations for this API includes video game system emulators and game engines as well as more generalized 3D programs. These programs are instantiated as dynamic libraries. We refer to these as \"libretro cores\".",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12427,
+    "fetchedAt": "2026-09-23T08:41:47.723Z"
+  },
+  "luanti": {
+    "summary": "Luanti is a free open-source voxel game engine with easy modding and game creation.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7473,
+    "fetchedAt": "2026-09-23T08:41:47.723Z"
+  },
+  "cataclysm-dda": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5878,
+    "fetchedAt": "2026-09-23T08:41:47.723Z"
+  },
+  "genact": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5027,
+    "fetchedAt": "2026-09-23T08:41:47.723Z"
+  },
+  "sonic-pi": {
+    "summary": "Sonic Pi is a new kind of musical instrument. Instead of strumming strings or whacking things with sticks - you write code - live.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8113,
+    "fetchedAt": "2026-09-23T08:41:47.723Z"
+  },
+  "unciv": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7968,
+    "fetchedAt": "2026-09-23T08:42:02.957Z"
+  },
+  "devilutionx": {
+    "summary": "DevilutionX is a port of Diablo and Hellfire that strives to make it simple to run the game while providing engine improvements, bug fixes, and some optional quality of life features.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7990,
+    "fetchedAt": "2026-09-23T08:42:02.957Z"
+  },
+  "openttd": {
+    "summary": "OpenTTD is a transport simulation game based upon the popular game Transport Tycoon Deluxe, written by Chris Sawyer. It attempts to mimic the original game as closely as possible while extending it with new features.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9747,
+    "fetchedAt": "2026-09-23T08:42:02.957Z"
+  },
+  "no-more-secrets": {
+    "summary": "More and more Unix/Linux platforms are including this project in their package manager. You may wish to search your package manager to see if it is an installation option. If you install from a package manager, please check that you have the latest version (nms -v). If not, I suggest installing from…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5066,
+    "fetchedAt": "2026-09-23T08:42:02.957Z"
+  },
+  "veloren": {
+    "summary": "Veloren is an action-adventure RPG game set in a vast fantasy world. It is inspired by other games such as Cube World, The Legend of Zelda: Breath of the Wild, Dwarf Fortress and Minecraft.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6418,
+    "fetchedAt": "2026-09-23T08:42:02.957Z"
+  },
+  "endless-sky": {
+    "summary": "Endless Sky is a sandbox-style space exploration game similar to Elite, Escape Velocity, or Star Control. You start out as the captain of a tiny spaceship and can choose what to do from there. The game includes a major plot line and many minor missions, but you can choose whether you want to play th…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3920,
+    "fetchedAt": "2026-09-23T08:42:02.957Z"
+  },
+  "mgba": {
+    "summary": "mGBA is an emulator for running Game Boy Advance games. It aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack. It also supports Game Boy and Game Boy Color games.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12564,
+    "fetchedAt": "2026-09-23T08:42:08.248Z"
+  },
+  "wesnoth": {
+    "summary": "The Battle for Wesnoth is an Open Source, turn-based tactical strategy game with a high fantasy theme, featuring both singleplayer and online/hotseat multiplayer combat. Fight a desperate battle to reclaim the throne of Wesnoth, search for the key to immortality, or take part in any number of other…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5309,
+    "fetchedAt": "2026-09-23T08:42:08.248Z"
+  },
+  "openmw": {
+    "summary": "OpenMW is an open-source open-world RPG game engine that supports playing Morrowind by Bethesda Softworks. You need to own the game for OpenMW to play Morrowind.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7859,
+    "fetchedAt": "2026-09-23T08:42:08.248Z"
+  },
+  "shattered-pixel-dungeon": {
+    "summary": "Shattered Pixel Dungeon is an open-source traditional roguelike dungeon crawler with randomized levels and enemies, and hundreds of items to collect and use. It's based on the source code of Pixel Dungeon, by Watabou.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2473,
+    "fetchedAt": "2026-09-23T08:42:08.248Z"
+  },
+  "cava": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 29138,
+    "fetchedAt": "2026-09-23T08:42:08.248Z"
+  },
+  "supertuxkart": {
+    "summary": "SuperTuxKart is a free kart racing game. It focuses on fun and not on realistic kart physics. Instructions can be found on the in-game help page.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3048,
+    "fetchedAt": "2026-09-23T08:42:08.248Z"
+  },
+  "the-powder-toy": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9305,
+    "fetchedAt": "2026-09-23T08:42:14.026Z"
+  },
+  "cmatrix": {
+    "summary": "CMatrix is based on the screensaver from The Matrix website. It shows text flying in and out in a terminal like as seen in \"The Matrix\" movie. It can scroll lines all at the same rate or asynchronously and at a user-defined speed.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7597,
+    "fetchedAt": "2026-09-23T08:42:14.026Z"
+  },
+  "corsixth": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6801,
+    "fetchedAt": "2026-09-23T08:42:14.026Z"
+  },
+  "openutau": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4595,
+    "fetchedAt": "2026-09-23T08:42:14.026Z"
+  },
+  "surge-xt": {
+    "summary": "Surge XT is a free and open-source hybrid synthesizer, originally written and sold as a commercial product by @kurasu/Claes Johanson at Vember Audio. In September 2018, Claes decided to release a partially completed version of Surge 1.6 under GPL3, and a group of developers have been improving it si…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15076,
+    "fetchedAt": "2026-09-23T08:42:14.026Z"
+  },
+  "fheroes2": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4718,
+    "fetchedAt": "2026-09-23T08:42:14.026Z"
+  },
+  "hollywood": {
+    "summary": "",
+    "docker": "docker run -it --rm cgr.dev/chainguard/hollywood",
+    "source": "README.md",
+    "rawLength": 4131,
+    "fetchedAt": "2026-09-23T08:42:25.416Z"
+  },
+  "sandspiel": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1171,
+    "fetchedAt": "2026-09-23T08:42:25.416Z"
+  },
+  "gzdoom": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1253,
+    "fetchedAt": "2026-09-23T08:42:25.416Z"
+  },
+  "strudel": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 157,
+    "fetchedAt": "2026-09-23T08:42:25.416Z"
+  },
+  "pipes-sh": {
+    "summary": "pipes.sh was originally created by Matthew Simpson and posted to the Arch Linux Forums in early 2010. It was also later posted to Gist released in the public domain.",
+    "docker": "",
+    "source": "README.rst",
+    "rawLength": 5466,
+    "fetchedAt": "2026-09-23T08:42:25.416Z"
+  },
+  "scummvm": {
+    "summary": "ScummVM allows you to play classic graphic point-and-click adventure games, text adventure games, and RPGs, as long as you already have the game data files. ScummVM replaces the executable files shipped with the games, which means you can now play your favorite games on all your favorite devices.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4872,
+    "fetchedAt": "2026-09-23T08:42:25.416Z"
+  },
+  "openxcom": {
+    "summary": "OpenXcom is an open-source clone of the popular \"UFO: Enemy Unknown\" (\"X-COM: UFO Defense\" in the USA release) and \"X-COM: Terror From the Deep\" videogames by Microprose, licensed under the GPL and written in C++ / SDL.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6751,
+    "fetchedAt": "2026-09-23T08:42:35.282Z"
+  },
+  "oneko-js": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 848,
+    "fetchedAt": "2026-09-23T08:42:35.282Z"
+  },
+  "asciiquarium": {
+    "summary": "",
+    "docker": "",
+    "source": "",
+    "fetchedAt": "2026-09-23T08:42:35.282Z",
+    "missing": true
+  },
+  "hedgewars": {
+    "summary": "Hedgewars has been ported to other operating systems in the past. Check out for the latest information.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5926,
+    "fetchedAt": "2026-09-23T08:42:35.282Z"
   }
 }

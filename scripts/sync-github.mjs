@@ -111,7 +111,7 @@ const outItems = items.map((it) => {
       license: d.license && d.license.spdx_id && d.license.spdx_id !== "NOASSERTION" ? d.license.spdx_id : it.seed.license,
       archived: !!d.archived,
       pushedAt: (d.pushed_at || "").slice(0, 10),
-      descEn: d.description || "",
+      descEn: d.description || it.descEn || "",
       syncOk: true,
       syncedAt: now,
     };

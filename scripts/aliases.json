@@ -6,6 +6,18 @@
   "abdm": [
     "下载管理器"
   ],
+  "activepieces": [
+    "zapier替代",
+    "开源自动化"
+  ],
+  "adk-python": [
+    "谷歌智能体",
+    "adk"
+  ],
+  "agno": [
+    "智能体框架",
+    "phidata"
+  ],
   "aider": [
     "ai结对编程",
     "终端ai"
@@ -21,6 +33,10 @@
     "本地知识库",
     "文档问答"
   ],
+  "asciiquarium": [
+    "字符水族箱",
+    "终端鱼"
+  ],
   "authelia": [
     "单点登录",
     "sso"
@@ -32,9 +48,20 @@
     "自动剪辑",
     "去静音"
   ],
+  "autogen": [
+    "多智能体对话"
+  ],
+  "autogpt": [
+    "自主智能体",
+    "自动gpt"
+  ],
   "automa": [
     "浏览器自动化",
     "网页自动化"
+  ],
+  "awesome-mcp-servers": [
+    "mcp大全",
+    "mcp清单"
   ],
   "backgroundremover": [
     "视频抠图",
@@ -59,6 +86,10 @@
     "键盘猫",
     "桌面猫"
   ],
+  "browser-use": [
+    "浏览器智能体",
+    "ai操作浏览器"
+  ],
   "buster": [
     "验证码识别",
     "过验证码"
@@ -79,9 +110,29 @@
     "视频嗅探",
     "网页视频下载"
   ],
+  "cataclysm-dda": [
+    "末日生存",
+    "cdda"
+  ],
+  "cava": [
+    "音频可视化",
+    "音乐频谱"
+  ],
+  "chainlit": [
+    "智能体界面",
+    "对话界面"
+  ],
   "chatwoot": [
     "客服系统",
     "在线客服"
+  ],
+  "cline": [
+    "vscode智能体",
+    "编辑器智能体"
+  ],
+  "cmatrix": [
+    "代码雨",
+    "黑客帝国"
   ],
   "codeformer": [
     "人脸修复"
@@ -98,8 +149,19 @@
     "ai编程助手",
     "代码补全"
   ],
+  "copilotkit": [
+    "智能体前端",
+    "生成式ui"
+  ],
+  "corsixth": [
+    "主题医院"
+  ],
   "crater": [
     "发票管理"
+  ],
+  "crewai": [
+    "多智能体团队",
+    "智能体框架"
   ],
   "croc": [
     "传文件"
@@ -120,6 +182,10 @@
     "深色模式",
     "夜间模式",
     "暗黑模式"
+  ],
+  "devilutionx": [
+    "暗黑破坏神",
+    "暗黑1"
   ],
   "devtoys": [
     "开发者工具箱"
@@ -145,6 +211,10 @@
     "电子签名",
     "docusign 替代"
   ],
+  "dolphin": [
+    "wii模拟器",
+    "ngc模拟器"
+  ],
   "doocs-md": [
     "微信排版",
     "公众号排版"
@@ -160,8 +230,15 @@
   "dufs": [
     "文件服务器"
   ],
+  "e2b": [
+    "代码沙箱",
+    "agent沙箱"
+  ],
   "editor-md": [
     "markdown 编辑器"
+  ],
+  "endless-sky": [
+    "太空贸易"
   ],
   "esearch": [
     "截屏ocr",
@@ -181,6 +258,10 @@
   ],
   "ffsend": [
     "命令行传文件"
+  ],
+  "fheroes2": [
+    "英雄无敌2",
+    "英雄无敌"
   ],
   "firecrawl": [
     "网页抓取",
@@ -214,12 +295,26 @@
     "做游戏",
     "游戏开发引擎"
   ],
+  "genact": [
+    "假装很忙",
+    "终端整活"
+  ],
   "gfpgan": [
     "老照片修复",
     "人脸修复"
   ],
+  "goose": [
+    "本地编码智能体"
+  ],
   "gopass": [
     "密码管理"
+  ],
+  "gpt-pilot": [
+    "ai开发团队"
+  ],
+  "gzdoom": [
+    "doom",
+    "毁灭战士"
   ],
   "handbrake": [
     "视频压缩",
@@ -228,6 +323,14 @@
   "harper": [
     "英文语法检查",
     "语法检查"
+  ],
+  "hedgewars": [
+    "百战天虫",
+    "刺猬大战"
+  ],
+  "hollywood": [
+    "黑客终端",
+    "好莱坞"
   ],
   "hoppscotch": [
     "api 调试",
@@ -299,8 +402,20 @@
     "计费系统",
     "按量计费"
   ],
+  "langchain": [
+    "大模型应用框架",
+    "langchain框架"
+  ],
   "langflow": [
     "可视化llm"
+  ],
+  "langfuse": [
+    "llm可观测",
+    "agent监控"
+  ],
+  "langgraph": [
+    "智能体状态机",
+    "agent编排"
   ],
   "lazygit": [
     "git 界面"
@@ -308,6 +423,10 @@
   "lemmy": [
     "开源reddit",
     "论坛"
+  ],
+  "letta": [
+    "memgpt",
+    "有状态智能体"
   ],
   "librechat": [
     "多模型聊天"
@@ -339,6 +458,14 @@
     "邮件列表",
     "newsletter"
   ],
+  "litellm": [
+    "模型网关",
+    "统一api"
+  ],
+  "lively": [
+    "动态壁纸",
+    "live wallpaper"
+  ],
   "llama-cpp": [
     "本地推理",
     "量化模型"
@@ -357,6 +484,10 @@
   "lossless-cut": [
     "无损剪切",
     "视频剪切"
+  ],
+  "luanti": [
+    "minetest",
+    "我的世界开源版"
   ],
   "mailcow": [
     "自建邮局"
@@ -380,12 +511,19 @@
     "长毛象",
     "微博客"
   ],
+  "mastra": [
+    "ts智能体框架"
+  ],
   "matomo": [
     "网站统计",
     "ga 替代"
   ],
   "mautic": [
     "营销自动化"
+  ],
+  "mcp-servers": [
+    "mcp服务器",
+    "模型上下文协议"
   ],
   "medusa": [
     "开源电商",
@@ -394,6 +532,10 @@
   "meilisearch": [
     "全文搜索",
     "站内搜索"
+  ],
+  "mem0": [
+    "智能体记忆",
+    "ai记忆层"
   ],
   "memex": [
     "网页高亮",
@@ -407,12 +549,23 @@
     "bi 工具",
     "数据看板"
   ],
+  "metagpt": [
+    "多智能体公司",
+    "ai软件公司"
+  ],
+  "mgba": [
+    "gba模拟器"
+  ],
   "miaoyan": [
     "妙言",
     "mac 写作"
   ],
   "mind-elixir": [
     "思维导图库"
+  ],
+  "mindustry": [
+    "工厂塔防",
+    "mindustry"
   ],
   "misskey": [
     "联邦微博"
@@ -425,6 +578,9 @@
     "本地证书",
     "https 证书"
   ],
+  "moonlight": [
+    "串流客户端"
+  ],
   "motion-canvas": [
     "代码动画"
   ],
@@ -435,6 +591,10 @@
   "moviepy": [
     "python剪视频",
     "脚本剪视频"
+  ],
+  "n8n": [
+    "自动化工作流",
+    "zapier替代"
   ],
   "nanobrowser": [
     "ai浏览器",
@@ -453,6 +613,10 @@
   "nextai-translator": [
     "划词翻译",
     "翻译插件"
+  ],
+  "no-more-secrets": [
+    "解密特效",
+    "sneakers"
   ],
   "novu": [
     "消息通知",
@@ -476,6 +640,14 @@
   "onefetch": [
     "git 仓库信息"
   ],
+  "oneko-js": [
+    "像素猫",
+    "跟随鼠标的猫"
+  ],
+  "open-interpreter": [
+    "自然语言执行代码",
+    "ai操作电脑"
+  ],
   "open-saas": [
     "saas 脚手架",
     "saas 模板"
@@ -484,9 +656,28 @@
     "自建chatgpt",
     "chatgpt界面"
   ],
+  "openai-agents": [
+    "openai智能体sdk"
+  ],
+  "opencode": [
+    "终端智能体",
+    "命令行ai编程"
+  ],
   "openhands": [
     "ai程序员",
     "自动写代码"
+  ],
+  "openmw": [
+    "上古卷轴3",
+    "晨风"
+  ],
+  "openra": [
+    "红色警戒",
+    "红警"
+  ],
+  "openrct2": [
+    "过山车大亨",
+    "过山车大亨2"
   ],
   "openshot": [
     "视频剪辑器"
@@ -494,6 +685,18 @@
   "opentoonz": [
     "二维动画",
     "动画制作"
+  ],
+  "openttd": [
+    "运输大亨",
+    "铁路大亨"
+  ],
+  "openutau": [
+    "歌声合成",
+    "虚拟歌手"
+  ],
+  "openxcom": [
+    "幽浮",
+    "xcom"
   ],
   "owncast": [
     "自建直播"
@@ -508,6 +711,9 @@
   ],
   "pakeplus": [
     "网页打包app"
+  ],
+  "pcsx2": [
+    "ps2模拟器"
   ],
   "pear": [
     "youtube music 客户端"
@@ -527,6 +733,10 @@
   "photodemon": [
     "修图软件",
     "windows修图"
+  ],
+  "pipes-sh": [
+    "管道动画",
+    "终端屏保"
   ],
   "pixelfed": [
     "开源instagram",
@@ -565,6 +775,13 @@
   "profile-summary": [
     "github 分析"
   ],
+  "puter": [
+    "浏览器操作系统",
+    "云桌面"
+  ],
+  "pydantic-ai": [
+    "pydantic智能体"
+  ],
   "pyxel": [
     "像素游戏引擎"
   ],
@@ -592,6 +809,10 @@
     "代码做视频",
     "react视频"
   ],
+  "retroarch": [
+    "模拟器前端",
+    "复古模拟器"
+  ],
   "ripgrep": [
     "代码搜索"
   ],
@@ -606,14 +827,28 @@
   "saleor": [
     "电商前端"
   ],
+  "sandspiel": [
+    "沙粒游戏",
+    "流沙"
+  ],
   "screenity": [
     "浏览器录屏",
     "网页录屏"
+  ],
+  "scummvm": [
+    "经典冒险游戏",
+    "老游戏"
   ],
   "sd-webui": [
     "stable diffusion",
     "ai绘画",
     "文生图"
+  ],
+  "self-operating-computer": [
+    "ai看屏幕操作电脑"
+  ],
+  "semantic-kernel": [
+    "微软ai框架"
   ],
   "sharex": [
     "截图工具",
@@ -621,6 +856,9 @@
   ],
   "sharp": [
     "node图片处理"
+  ],
+  "shattered-pixel-dungeon": [
+    "像素地牢"
   ],
   "sherlock": [
     "用户名搜索"
@@ -633,9 +871,15 @@
     "保存网页",
     "单文件保存"
   ],
+  "skyvern": [
+    "浏览器自动化智能体"
+  ],
   "slidev": [
     "markdown ppt",
     "做ppt"
+  ],
+  "smolagents": [
+    "轻量智能体"
   ],
   "smsforwarder": [
     "短信转发器",
@@ -646,6 +890,10 @@
   ],
   "sonic": [
     "搜索后端"
+  ],
+  "sonic-pi": [
+    "音乐编程",
+    "代码作曲"
   ],
   "sponsorblock": [
     "跳过广告",
@@ -668,6 +916,9 @@
     "隐形水印",
     "ai水印"
   ],
+  "stagehand": [
+    "浏览器自动化框架"
+  ],
   "stalwart": [
     "邮件服务器"
   ],
@@ -676,16 +927,40 @@
     "pdf编辑器",
     "pdf合并"
   ],
+  "strudel": [
+    "在线编曲",
+    "电子音乐"
+  ],
   "subtitleedit": [
     "字幕编辑",
     "字幕工具"
   ],
+  "sunshine": [
+    "游戏串流",
+    "串流服务端"
+  ],
   "supertokens": [
     "登录认证"
+  ],
+  "supertuxkart": [
+    "卡丁车",
+    "马车"
+  ],
+  "surge-xt": [
+    "合成器",
+    "音源"
+  ],
+  "swe-agent": [
+    "自动修issue",
+    "swe-bench"
   ],
   "tab-session-manager": [
     "标签页管理",
     "会话恢复"
+  ],
+  "the-powder-toy": [
+    "粉末游戏",
+    "物理沙盒"
   ],
   "thumbor": [
     "图片处理服务"
@@ -726,6 +1001,10 @@
     "广告拦截插件",
     "屏蔽广告"
   ],
+  "ufo": [
+    "windows智能体",
+    "桌面智能体"
+  ],
   "umami": [
     "网站统计",
     "轻量分析"
@@ -735,10 +1014,17 @@
     "截图识字",
     "文字识别"
   ],
+  "unciv": [
+    "文明5",
+    "文明"
+  ],
   "upscayl": [
     "图片放大",
     "ai放大",
     "图片变清晰"
+  ],
+  "veloren": [
+    "体素rpg"
   ],
   "ventoy": [
     "u盘启动盘",
@@ -774,6 +1060,10 @@
     "网页快照",
     "网页存档"
   ],
+  "webgl-fluid": [
+    "流体模拟",
+    "解压动画"
+  ],
   "weblate": [
     "翻译平台",
     "本地化"
@@ -781,6 +1071,10 @@
   "wepush": [
     "微信推送",
     "批量推送工具"
+  ],
+  "wesnoth": [
+    "韦诺之战",
+    "战棋"
   ],
   "whisky": [
     "mac 玩windows游戏"
