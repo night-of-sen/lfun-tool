@@ -1,5 +1,5 @@
 {
-  "note": "usage: online=在线即用 / desktop=桌面应用 / cli=命令行 / selfhost=可自托管 / lib=开发库。scene: 空=通用, overseas=出海辅助。homepage: null 从 GitHub 读取，空字符串表示确认没有。",
+  "note": "usage: online=在线即用 / desktop=桌面应用 / cli=命令行 / selfhost=可自托管 / lib=开发库 / extension=浏览器扩展。scene: 空=通用, overseas=出海辅助。homepage: null 从 GitHub 读取，空字符串表示确认没有。",
   "items": [
     {
       "id": "excalidraw",
@@ -4372,6 +4372,2543 @@
         "language": "Markdown",
         "license": "-"
       }
+    },
+    {
+      "id": "ublock-origin",
+      "name": "uBlock Origin",
+      "repo": "gorhill/uBlock",
+      "homepage": "",
+      "category": "security",
+      "desc": "浏览器内容拦截器，拦广告、追踪和恶意域名，占用极低，Chromium 与 Firefox 通用",
+      "descEn": "Efficient wide-spectrum content blocker for Chromium and Firefox",
+      "tags": [
+        "广告拦截",
+        "隐私",
+        "浏览器扩展"
+      ],
+      "seed": {
+        "stars": 68057,
+        "language": "JavaScript",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "extension"
+      ],
+      "scene": "",
+      "cloud": "",
+      "caution": ""
+    },
+    {
+      "id": "refined-github",
+      "name": "Refined GitHub",
+      "repo": "refined-github/refined-github",
+      "homepage": "",
+      "category": "dev",
+      "desc": "给 GitHub 网页版加几十项实用改进：一键解决冲突、批量操作、隐藏界面噪音",
+      "descEn": "Browser extension that simplifies the GitHub interface and adds useful features",
+      "tags": [
+        "浏览器扩展",
+        "开发者",
+        "效率"
+      ],
+      "seed": {
+        "stars": 32201,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "extension"
+      ],
+      "scene": "",
+      "cloud": "",
+      "caution": ""
+    },
+    {
+      "id": "singlefile",
+      "name": "SingleFile",
+      "repo": "gildas-lormeau/SingleFile",
+      "homepage": "https://getsinglefile.com",
+      "category": "download",
+      "desc": "把整个网页连图片样式一起存成单个 HTML 文件，离线打开也跟原页面一样",
+      "descEn": "Save a faithful copy of a complete web page in a single HTML file",
+      "tags": [
+        "网页存档",
+        "离线",
+        "浏览器扩展"
+      ],
+      "seed": {
+        "stars": 22463,
+        "language": "JavaScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "extension"
+      ],
+      "scene": "",
+      "cloud": "",
+      "caution": ""
+    },
+    {
+      "id": "dark-reader",
+      "name": "Dark Reader",
+      "repo": "darkreader/darkreader",
+      "homepage": "https://darkreader.org/",
+      "category": "system",
+      "desc": "给任意网站生成深色主题，可逐站调亮度、对比度和灰度，晚上看网页不刺眼",
+      "descEn": "Dark mode for every website, with per-site brightness and contrast controls",
+      "tags": [
+        "深色模式",
+        "浏览器扩展"
+      ],
+      "seed": {
+        "stars": 22388,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "extension"
+      ],
+      "scene": "",
+      "cloud": "",
+      "caution": ""
+    },
+    {
+      "id": "cat-catch",
+      "name": "猫抓",
+      "repo": "xifangczy/cat-catch",
+      "homepage": "https://cat-catch.94cat.com",
+      "category": "download",
+      "desc": "嗅探网页里的视频音频资源，支持 m3u8 分片合并下载，网页视频存本地",
+      "descEn": "Browser extension that sniffs media resources and downloads m3u8 streams",
+      "tags": [
+        "视频下载",
+        "下载器",
+        "浏览器扩展"
+      ],
+      "seed": {
+        "stars": 21983,
+        "language": "JavaScript",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "extension"
+      ],
+      "scene": "",
+      "cloud": "",
+      "caution": "版权"
+    },
+    {
+      "id": "automa",
+      "name": "Automa",
+      "repo": "AutomaApp/automa",
+      "homepage": "https://www.goautoma.com/extension",
+      "category": "utility",
+      "desc": "拖拽积木块把浏览器操作拼成自动化流程：填表、抓数据、定时跑任务",
+      "descEn": "Browser extension for automating your browser by connecting blocks",
+      "tags": [
+        "自动化",
+        "无代码",
+        "浏览器扩展"
+      ],
+      "seed": {
+        "stars": 21635,
+        "language": "Vue"
+      },
+      "usage": [
+        "extension"
+      ],
+      "scene": "",
+      "cloud": "",
+      "caution": "许可"
+    },
+    {
+      "id": "immersive-translate",
+      "name": "Immersive Translate",
+      "repo": "immersive-translate/immersive-translate",
+      "homepage": "https://immersivetranslate.com",
+      "category": "i18n",
+      "desc": "双语对照翻译网页、PDF、Epub 和字幕，可接自己的翻译接口，出国看资料必备",
+      "descEn": "Dual-language translation extension for web pages, PDF, EPUB and subtitles",
+      "tags": [
+        "翻译",
+        "浏览器扩展"
+      ],
+      "seed": {
+        "stars": 18984
+      },
+      "usage": [
+        "extension"
+      ],
+      "scene": "overseas",
+      "cloud": "",
+      "caution": "许可"
+    },
+    {
+      "id": "screenity",
+      "name": "Screenity",
+      "repo": "alyssaxuu/screenity",
+      "homepage": "https://screenity.io",
+      "category": "capture",
+      "desc": "浏览器里直接录屏，边录边标注，可裁剪导出，不限时长也不上传云端",
+      "descEn": "Privacy-friendly screen recorder for the browser with annotations and no limits",
+      "tags": [
+        "录屏",
+        "浏览器扩展",
+        "隐私"
+      ],
+      "seed": {
+        "stars": 18719,
+        "language": "JavaScript",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "extension"
+      ],
+      "scene": "",
+      "cloud": "",
+      "caution": ""
+    },
+    {
+      "id": "daily-dev",
+      "name": "daily.dev",
+      "repo": "dailydotdev/daily",
+      "homepage": "https://daily.dev",
+      "category": "utility",
+      "desc": "把新标签页变成开发者资讯流，按兴趣聚合各站技术文章和开源动态",
+      "descEn": "Personalized developer news feed that replaces your browser new tab",
+      "tags": [
+        "资讯",
+        "浏览器扩展"
+      ],
+      "seed": {
+        "stars": 20071,
+        "language": "JavaScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "extension"
+      ],
+      "scene": "",
+      "cloud": "",
+      "caution": ""
+    },
+    {
+      "id": "harper",
+      "name": "Harper",
+      "repo": "Automattic/harper",
+      "homepage": "https://writewithharper.com",
+      "category": "writing",
+      "desc": "完全本地运行的英文语法检查器，文本不出浏览器，Rust 写成所以几乎是瞬时的",
+      "descEn": "Offline, privacy-first English grammar checker powered by Rust",
+      "tags": [
+        "语法检查",
+        "隐私",
+        "浏览器扩展"
+      ],
+      "seed": {
+        "stars": 15846,
+        "language": "Rust",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "extension"
+      ],
+      "scene": "",
+      "cloud": "",
+      "caution": ""
+    },
+    {
+      "id": "sponsorblock",
+      "name": "SponsorBlock",
+      "repo": "ajayyy/SponsorBlock",
+      "homepage": "https://sponsor.ajay.app",
+      "category": "media",
+      "desc": "众包标记 YouTube 视频里的赞助口播、片头片尾，播放时自动跳过",
+      "descEn": "Crowdsourced extension that skips sponsor segments in YouTube videos",
+      "tags": [
+        "广告拦截",
+        "浏览器扩展"
+      ],
+      "seed": {
+        "stars": 13823,
+        "language": "TypeScript",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "extension"
+      ],
+      "scene": "",
+      "cloud": "",
+      "caution": ""
+    },
+    {
+      "id": "codelf",
+      "name": "CodeLF",
+      "repo": "unbug/codelf",
+      "homepage": "https://unbug.github.io/codelf/",
+      "category": "dev",
+      "desc": "给变量函数起名时先搜一下别人怎么命名，直接从 GitHub 代码里找灵感",
+      "descEn": "Search how other open-source projects name things, straight from GitHub code",
+      "tags": [
+        "命名",
+        "开发者",
+        "浏览器扩展"
+      ],
+      "seed": {
+        "stars": 14134,
+        "language": "JavaScript"
+      },
+      "usage": [
+        "extension"
+      ],
+      "scene": "",
+      "cloud": "",
+      "caution": "许可"
+    },
+    {
+      "id": "nanobrowser",
+      "name": "Nanobrowser",
+      "repo": "nanobrowser/nanobrowser",
+      "homepage": "https://nanobrowser.ai",
+      "category": "utility",
+      "desc": "浏览器里的 AI 自动化代理，用自己的 API Key 跑多智能体任务，开源版 Operator",
+      "descEn": "Open-source Chrome extension for AI-powered multi-agent web automation",
+      "tags": [
+        "自动化",
+        "浏览器扩展"
+      ],
+      "seed": {
+        "stars": 13827,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "extension"
+      ],
+      "scene": "",
+      "cloud": "",
+      "caution": ""
+    },
+    {
+      "id": "bitwarden",
+      "name": "Bitwarden",
+      "repo": "bitwarden/clients",
+      "homepage": "https://bitwarden.com",
+      "category": "security",
+      "desc": "开源密码管理器客户端，浏览器扩展加桌面和命令行都有，服务端也能自己搭",
+      "descEn": "Open-source password manager clients: browser extension, desktop and CLI",
+      "tags": [
+        "密码管理",
+        "加密",
+        "浏览器扩展"
+      ],
+      "seed": {
+        "stars": 13819,
+        "language": "TypeScript"
+      },
+      "usage": [
+        "extension",
+        "desktop",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "https://vault.bitwarden.com",
+      "caution": "许可"
+    },
+    {
+      "id": "violentmonkey",
+      "name": "Violentmonkey",
+      "repo": "violentmonkey/violentmonkey",
+      "homepage": "https://violentmonkey.github.io/",
+      "category": "system",
+      "desc": "用户脚本管理器，装脚本改网站行为，兼容 Greasemonkey 系脚本",
+      "descEn": "Userscript support for browsers with WebExtensions",
+      "tags": [
+        "用户脚本",
+        "浏览器扩展"
+      ],
+      "seed": {
+        "stars": 8922,
+        "language": "JavaScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "extension"
+      ],
+      "scene": "",
+      "cloud": "",
+      "caution": ""
+    },
+    {
+      "id": "buster",
+      "name": "Buster",
+      "repo": "dessant/buster",
+      "homepage": "",
+      "category": "utility",
+      "desc": "点一下用语音识别过 reCAPTCHA 验证码，不用一张张点图片",
+      "descEn": "Captcha solver extension that uses speech recognition for reCAPTCHA",
+      "tags": [
+        "验证码",
+        "浏览器扩展"
+      ],
+      "seed": {
+        "stars": 9302,
+        "language": "JavaScript",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "extension"
+      ],
+      "scene": "",
+      "cloud": "",
+      "caution": ""
+    },
+    {
+      "id": "tab-session-manager",
+      "name": "Tab Session Manager",
+      "repo": "sienori/Tab-Session-Manager",
+      "homepage": "https://tab-session-manager.sienori.com/",
+      "category": "utility",
+      "desc": "自动保存窗口和标签页状态，标签页误关或浏览器崩溃后能整套恢复",
+      "descEn": "Save and restore browser window and tab sessions",
+      "tags": [
+        "标签页管理",
+        "浏览器扩展"
+      ],
+      "seed": {
+        "stars": 2458,
+        "language": "JavaScript",
+        "license": "MPL-2.0"
+      },
+      "usage": [
+        "extension"
+      ],
+      "scene": "",
+      "cloud": "",
+      "caution": ""
+    },
+    {
+      "id": "web-archives",
+      "name": "Web Archives",
+      "repo": "dessant/web-archives",
+      "homepage": "",
+      "category": "filesearch",
+      "desc": "一键查看网页的历史存档快照，内容被删改时用来对证很好使",
+      "descEn": "View archived and cached versions of web pages",
+      "tags": [
+        "网页存档",
+        "搜索",
+        "浏览器扩展"
+      ],
+      "seed": {
+        "stars": 1593,
+        "language": "JavaScript",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "extension"
+      ],
+      "scene": "",
+      "cloud": "",
+      "caution": ""
+    },
+    {
+      "id": "memex",
+      "name": "Memex",
+      "repo": "WorldBrain/Memex",
+      "homepage": "https://worldbrain.io",
+      "category": "writing",
+      "desc": "给看过的网页做高亮和笔记，还能全文搜索自己浏览和收藏过的内容",
+      "descEn": "Annotate, highlight and full-text search everything you read online",
+      "tags": [
+        "网页标注",
+        "搜索",
+        "浏览器扩展"
+      ],
+      "seed": {
+        "stars": 4721,
+        "language": "TypeScript"
+      },
+      "usage": [
+        "extension"
+      ],
+      "scene": "",
+      "cloud": "",
+      "caution": "许可"
+    },
+    {
+      "id": "nextai-translator",
+      "name": "NextAI Translator",
+      "repo": "nextai-translator/nextai-translator",
+      "homepage": "",
+      "category": "i18n",
+      "desc": "划词翻译扩展加跨平台桌面版，可接 OpenAI 等接口，支持双语对照显示",
+      "descEn": "Browser extension and desktop app for translation powered by LLM APIs",
+      "tags": [
+        "翻译",
+        "浏览器扩展"
+      ],
+      "seed": {
+        "stars": 24977,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "extension",
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "caution": ""
+    },
+    {
+      "id": "plasmo",
+      "name": "Plasmo",
+      "repo": "PlasmoHQ/plasmo",
+      "homepage": "https://www.plasmo.com",
+      "category": "dev",
+      "desc": "写浏览器扩展的框架：热更新、打包、多浏览器发布一条龙",
+      "descEn": "The browser extension framework with HMR, bundling and multi-browser builds",
+      "tags": [
+        "扩展开发",
+        "打包",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 13157,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "caution": ""
+    },
+    {
+      "id": "iopaint",
+      "name": "IOPaint",
+      "repo": "Sanster/IOPaint",
+      "homepage": "https://www.iopaint.com",
+      "category": "watermark",
+      "desc": "图片修复与去水印：涂抹掉杂物、路人、水印，模型本地跑不传图",
+      "descEn": "Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures.",
+      "tags": [
+        "去水印",
+        "图片修复",
+        "隐私"
+      ],
+      "seed": {
+        "stars": 23320,
+        "language": "Python",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "selfhost",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2025-04-29",
+      "archived": true
+    },
+    {
+      "id": "video-subtitle-remover",
+      "name": "Video Subtitle Remover",
+      "repo": "YaoFANGUK/video-subtitle-remover",
+      "homepage": "",
+      "category": "watermark",
+      "desc": "用 AI 抹掉视频里的硬字幕和顽固水印，尽量保留背景细节",
+      "descEn": "基于AI的图片/视频硬字幕去除、文本水印去除，无损分辨率生成去字幕、去水印后的图片/视频文件。无需申请第三方API，本地实现。AI-based tool for removing hard-coded subtitles and text-like watermarks from videos or Pictures.",
+      "tags": [
+        "去水印",
+        "视频剪辑",
+        "AI"
+      ],
+      "seed": {
+        "stars": 13028,
+        "language": "Python"
+      },
+      "usage": [
+        "selfhost",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "版权",
+      "pushedAt": "2026-06-30"
+    },
+    {
+      "id": "inpaint-web",
+      "name": "Inpaint Web",
+      "repo": "lxfater/inpaint-web",
+      "homepage": "https://inpaintweb.lxfater.com/",
+      "category": "watermark",
+      "desc": "浏览器里直接涂抹去除水印和杂物，模型在本地跑，图不用上传",
+      "descEn": "A free and open-source inpainting & image-upscaling tool powered by webgpu and wasm on the browser。|   基于 Webgpu 技术和 wasm 技术的免费开源 inpainting & image-upscaling 工具, 纯浏览器端实现。",
+      "tags": [
+        "去水印",
+        "图片修复"
+      ],
+      "seed": {
+        "stars": 5926,
+        "language": "TypeScript",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "online"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2025-12-23"
+    },
+    {
+      "id": "watermarkremover-ai",
+      "name": "WatermarkRemover-AI",
+      "repo": "D-Ogi/WatermarkRemover-AI",
+      "homepage": "",
+      "category": "watermark",
+      "desc": "先用 Florence-2 找到水印位置，再用 LaMa 修复，可批量处理",
+      "descEn": "AI-Powered Watermark Remover using Florence-2 and LaMA: Remove watermarks from images and videos, including AI-generated content from Sora, Runway, and others. Features a modern PyWebview GUI.",
+      "tags": [
+        "去水印",
+        "AI",
+        "批量处理"
+      ],
+      "seed": {
+        "stars": 1969,
+        "language": "Python",
+        "license": "MIT"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "watermark-removal-pytorch",
+      "name": "Watermark Removal Pytorch",
+      "repo": "braindotai/Watermark-Removal-Pytorch",
+      "homepage": "",
+      "category": "watermark",
+      "desc": "去水印的 PyTorch 实现，带训练代码，可以自己训模型",
+      "descEn": "🔥 CNN for Watermark Removal using Deep Image Prior with Pytorch 🔥.",
+      "tags": [
+        "水印处理",
+        "AI",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 1149,
+        "language": "Python",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2024-10-15"
+    },
+    {
+      "id": "watermark-removal",
+      "name": "watermark-removal",
+      "repo": "zuruoke/watermark-removal",
+      "homepage": "",
+      "category": "watermark",
+      "desc": "深度学习去水印，附论文实现和预训练权重",
+      "descEn": "a machine learning image inpainting task that instinctively removes watermarks from image indistinguishable from the ground truth image ",
+      "tags": [
+        "水印处理",
+        "AI"
+      ],
+      "seed": {
+        "stars": 5176,
+        "language": "Python",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "id": "imagemagick",
+      "name": "ImageMagick",
+      "repo": "ImageMagick/ImageMagick",
+      "homepage": "https://imagemagick.org",
+      "category": "watermark",
+      "desc": "老牌图像处理命令行工具箱，批量加水印、缩放、转格式一条命令搞定",
+      "descEn": "ImageMagick is a free, open-source software suite for creating, editing, converting, and displaying images. It supports 200+ formats and offers powerful command-line tools and APIs for automation, scripting, and integration across platforms.",
+      "tags": [
+        "命令行",
+        "批量处理"
+      ],
+      "seed": {
+        "stars": 17493,
+        "language": "C"
+      },
+      "usage": [
+        "cli",
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "jimp",
+      "name": "Jimp",
+      "repo": "jimp-dev/jimp",
+      "homepage": "https://jimp-dev.github.io/jimp/",
+      "category": "watermark",
+      "desc": "纯 JS 图像处理库，加水印、裁剪、调色，Node 和浏览器都能跑",
+      "descEn": "An image processing library written entirely in JavaScript for Node, with zero external or native dependencies.",
+      "tags": [
+        "开发者",
+        "批量处理"
+      ],
+      "seed": {
+        "stars": 14661,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-04-07"
+    },
+    {
+      "id": "stable-signature",
+      "name": "Stable Signature",
+      "repo": "facebookresearch/stable_signature",
+      "homepage": "",
+      "category": "watermark",
+      "desc": "Meta 的隐形数字水印：给图片嵌肉眼看不见的标记，用于 AI 生成内容溯源",
+      "descEn": "Official implementation of the paper \"The Stable Signature Rooting Watermarks in Latent Diffusion Models\"",
+      "tags": [
+        "数字水印",
+        "AI"
+      ],
+      "seed": {
+        "stars": 529,
+        "language": "Python"
+      },
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-02"
+    },
+    {
+      "id": "thumbor",
+      "name": "Thumbor",
+      "repo": "thumbor/thumbor",
+      "homepage": "https://thumbor.readthedocs.io/",
+      "category": "watermark",
+      "desc": "图片处理服务，用 URL 参数裁剪缩放加水印，自带缓存",
+      "descEn": "thumbor is an open-source photo thumbnail service by globo.com",
+      "tags": [
+        "图片修复",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 10519,
+        "language": "Python",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-21"
+    },
+    {
+      "id": "ffmpeg",
+      "name": "FFmpeg",
+      "repo": "FFmpeg/FFmpeg",
+      "homepage": "https://ffmpeg.org",
+      "category": "video",
+      "desc": "音视频处理的事实标准，转码、剪切、加字幕、压制的底层全靠它",
+      "descEn": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
+      "tags": [
+        "转码",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 64438,
+        "language": "C"
+      },
+      "usage": [
+        "cli",
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "handbrake",
+      "name": "HandBrake",
+      "repo": "HandBrake/HandBrake",
+      "homepage": "https://handbrake.fr",
+      "category": "video",
+      "desc": "视频转码工具，把几个 G 的素材压小还保画质，支持 GPU 加速",
+      "descEn": "HandBrake's development repository ",
+      "tags": [
+        "转码",
+        "桌面"
+      ],
+      "seed": {
+        "stars": 24466,
+        "language": "C"
+      },
+      "usage": [
+        "desktop",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "lossless-cut",
+      "name": "LosslessCut",
+      "repo": "mifi/lossless-cut",
+      "homepage": "https://losslesscut.app/",
+      "category": "video",
+      "desc": "不重新编码直接剪切视频，几秒切完几个 G 的素材，画质零损失",
+      "descEn": "The swiss army knife of lossless video/audio editing",
+      "tags": [
+        "视频剪辑",
+        "桌面"
+      ],
+      "seed": {
+        "stars": 43974,
+        "language": "TypeScript",
+        "license": "GPL-2.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-14"
+    },
+    {
+      "id": "obs-studio",
+      "name": "OBS Studio",
+      "repo": "obsproject/obs-studio",
+      "homepage": "https://obsproject.com",
+      "category": "video",
+      "desc": "录屏和直播推流的标准工具，多场景切换、多路音视频混合",
+      "descEn": "OBS Studio - Free and open source software for live streaming and screen recording",
+      "tags": [
+        "录屏",
+        "直播"
+      ],
+      "seed": {
+        "stars": 76531,
+        "language": "C",
+        "license": "GPL-2.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "shotcut",
+      "name": "Shotcut",
+      "repo": "mltframework/shotcut",
+      "homepage": "https://www.shotcut.org/",
+      "category": "video",
+      "desc": "跨平台非线性剪辑，格式支持极广，多数素材不用先转码",
+      "descEn": "cross-platform (Qt), open-source (GPLv3) video editor",
+      "tags": [
+        "视频剪辑",
+        "桌面"
+      ],
+      "seed": {
+        "stars": 15258,
+        "language": "C++",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "openshot",
+      "name": "OpenShot",
+      "repo": "OpenShot/openshot-qt",
+      "homepage": "https://www.openshot.org/",
+      "category": "video",
+      "desc": "上手简单的视频剪辑器，拖拽式时间线，适合刚入门的人",
+      "descEn": "OpenShot Video Editor is an award-winning free and open-source video editor for Linux, Mac, and Windows, and is dedicated to delivering high quality video editing and animation solutions to the world.",
+      "tags": [
+        "视频剪辑",
+        "桌面"
+      ],
+      "seed": {
+        "stars": 6533,
+        "language": "Python",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "kdenlive",
+      "name": "Kdenlive",
+      "repo": "KDE/kdenlive",
+      "homepage": "https://kdenlive.org/",
+      "category": "video",
+      "desc": "KDE 出品的专业剪辑软件，多轨、代理剪辑、关键帧都齐",
+      "descEn": "Free and open source video editor, based on MLT Framework and KDE Frameworks",
+      "tags": [
+        "视频剪辑",
+        "桌面"
+      ],
+      "seed": {
+        "stars": 5728,
+        "language": "C++",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "natron",
+      "name": "Natron",
+      "repo": "NatronGitHub/Natron",
+      "homepage": "https://natrongithub.github.io/",
+      "category": "video",
+      "desc": "节点式合成软件，After Effects 的免费开源替代",
+      "descEn": "Open-source video compositing software. Node-graph based. Similar in functionalities to Adobe After Effects and Nuke by The Foundry.",
+      "tags": [
+        "特效",
+        "视频剪辑"
+      ],
+      "seed": {
+        "stars": 5547,
+        "language": "C++",
+        "license": "GPL-2.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-07-24"
+    },
+    {
+      "id": "opentoonz",
+      "name": "OpenToonz",
+      "repo": "OpenToonz/OpenToonz",
+      "homepage": "https://opentoonz.github.io/e/",
+      "category": "video",
+      "desc": "2D 动画制作软件，吉卜力工作室的动画流程就基于它",
+      "descEn": "OpenToonz - An open-source full-featured 2D animation creation software",
+      "tags": [
+        "动画",
+        "桌面"
+      ],
+      "seed": {
+        "stars": 7753,
+        "language": "C++"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-20"
+    },
+    {
+      "id": "moviepy",
+      "name": "MoviePy",
+      "repo": "Zulko/moviepy",
+      "homepage": "https://zulko.github.io/moviepy/",
+      "category": "video",
+      "desc": "用 Python 脚本剪视频，批量加片头、字幕、水印特别合适",
+      "descEn": "Video editing with Python",
+      "tags": [
+        "视频剪辑",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 14914,
+        "language": "Python",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-08-26"
+    },
+    {
+      "id": "remotion",
+      "name": "Remotion",
+      "repo": "remotion-dev/remotion",
+      "homepage": "https://remotion.dev",
+      "category": "video",
+      "desc": "用 React 代码做视频，适合批量生成数据可视化和模板化视频",
+      "descEn": "🎥      Make videos programmatically with React",
+      "tags": [
+        "视频剪辑",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 60021,
+        "language": "TypeScript"
+      },
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "许可",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "motion-canvas",
+      "name": "Motion Canvas",
+      "repo": "motion-canvas/motion-canvas",
+      "homepage": "https://motioncanvas.io/",
+      "category": "video",
+      "desc": "用代码画动画，做技术讲解和演示视频很方便",
+      "descEn": "Visualize Your Ideas With Code",
+      "tags": [
+        "动画",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 19155,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-07-02"
+    },
+    {
+      "id": "auto-editor",
+      "name": "auto-editor",
+      "repo": "WyattBlue/auto-editor",
+      "homepage": "https://auto-editor.com",
+      "category": "video",
+      "desc": "自动剪掉视频里的静音片段，口播视频能省一半时长",
+      "descEn": "Effort free video editing!",
+      "tags": [
+        "视频剪辑",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 5335,
+        "language": "Python",
+        "license": "Unlicense"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-19"
+    },
+    {
+      "id": "subtitleedit",
+      "name": "Subtitle Edit",
+      "repo": "SubtitleEdit/SubtitleEdit",
+      "homepage": "https://www.nikse.dk/subtitleedit",
+      "category": "video",
+      "desc": "字幕编辑神器，自动翻译、波形对齐、格式互转",
+      "descEn": "the subtitle editor :)",
+      "tags": [
+        "字幕",
+        "桌面"
+      ],
+      "seed": {
+        "stars": 14293,
+        "language": "C#",
+        "license": "MIT"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "upscayl",
+      "name": "Upscayl",
+      "repo": "upscayl/upscayl",
+      "homepage": "https://upscayl.org",
+      "category": "image",
+      "desc": "本地 AI 放大图片，低清素材变高清，图片不出本机",
+      "descEn": "🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.",
+      "tags": [
+        "超分辨率",
+        "隐私",
+        "桌面"
+      ],
+      "seed": {
+        "stars": 49800,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-15"
+    },
+    {
+      "id": "real-esrgan",
+      "name": "Real-ESRGAN",
+      "repo": "xinntao/Real-ESRGAN",
+      "homepage": "",
+      "category": "image",
+      "desc": "图像超分与修复的经典模型，动漫和照片都能救",
+      "descEn": "Real-ESRGAN aims at developing Practical Algorithms for General Image/Video Restoration.",
+      "tags": [
+        "超分辨率",
+        "AI"
+      ],
+      "seed": {
+        "stars": 36880,
+        "language": "Python",
+        "license": "BSD-3-Clause"
+      },
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2024-08-06"
+    },
+    {
+      "id": "rembg",
+      "name": "rembg",
+      "repo": "danielgatis/rembg",
+      "homepage": "",
+      "category": "image",
+      "desc": "一行命令抠掉图片背景，人像和商品图都能用",
+      "descEn": "Rembg is a tool to remove images background",
+      "tags": [
+        "抠图",
+        "AI"
+      ],
+      "seed": {
+        "stars": 24846,
+        "language": "Python",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-20"
+    },
+    {
+      "id": "backgroundremover",
+      "name": "backgroundremover",
+      "repo": "nadermx/backgroundremover",
+      "homepage": "https://backgroundremover.app",
+      "category": "image",
+      "desc": "抠图工具，图片和视频都能去背景，适合批量做素材",
+      "descEn": "Background Remover lets you Remove Background from images and video using AI with a simple command line interface that is free and open source.",
+      "tags": [
+        "抠图",
+        "批量处理"
+      ],
+      "seed": {
+        "stars": 8069,
+        "language": "Python",
+        "license": "MIT"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-07-10"
+    },
+    {
+      "id": "gfpgan",
+      "name": "GFPGAN",
+      "repo": "TencentARC/GFPGAN",
+      "homepage": "",
+      "category": "image",
+      "desc": "修复老照片和模糊人脸，腾讯 ARC 实验室出品",
+      "descEn": "GFPGAN aims at developing Practical Algorithms for Real-world Face Restoration.",
+      "tags": [
+        "修图",
+        "AI"
+      ],
+      "seed": {
+        "stars": 37681,
+        "language": "Python"
+      },
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2024-07-26"
+    },
+    {
+      "id": "codeformer",
+      "name": "CodeFormer",
+      "repo": "sczhou/CodeFormer",
+      "homepage": "",
+      "category": "image",
+      "desc": "人脸修复与增强，对严重退化的人像效果好",
+      "descEn": "[NeurIPS 2022] Towards Robust Blind Face Restoration with Codebook Lookup Transformer",
+      "tags": [
+        "修图",
+        "AI"
+      ],
+      "seed": {
+        "stars": 18143,
+        "language": "Python"
+      },
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2025-11-18"
+    },
+    {
+      "id": "sharp",
+      "name": "sharp",
+      "repo": "lovell/sharp",
+      "homepage": "https://sharp.pixelplumbing.com",
+      "category": "image",
+      "desc": "Node 高性能图像处理，缩图和转格式比 ImageMagick 快得多",
+      "descEn": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, AVIF and TIFF images. Uses the libvips library.",
+      "tags": [
+        "开发者",
+        "批量处理"
+      ],
+      "seed": {
+        "stars": 32701,
+        "language": "JavaScript",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-19"
+    },
+    {
+      "id": "libvips",
+      "name": "libvips",
+      "repo": "libvips/libvips",
+      "homepage": "https://libvips.github.io/libvips/",
+      "category": "image",
+      "desc": "低内存占用的图像处理库，也是 sharp 的底层引擎",
+      "descEn": "A fast image processing library with low memory needs.",
+      "tags": [
+        "开发者",
+        "批量处理"
+      ],
+      "seed": {
+        "stars": 11667,
+        "language": "C",
+        "license": "LGPL-2.1"
+      },
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-21"
+    },
+    {
+      "id": "pixelorama",
+      "name": "Pixelorama",
+      "repo": "Orama-Interactive/Pixelorama",
+      "homepage": "",
+      "category": "image",
+      "desc": "像素画编辑器，做游戏素材和小图标很趁手",
+      "descEn": "Unleash your creativity with Pixelorama, a powerful and accessible open-source pixel art multitool. Whether you want to create sprites, tiles, animations, or just express yourself in the language of pixel art, this software will realize your pixel-perfect dreams with a vast toolbox of features. Available on Windows, Linux, macOS and the Web!",
+      "tags": [
+        "像素画",
+        "桌面"
+      ],
+      "seed": {
+        "stars": 10357,
+        "language": "GDScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-20"
+    },
+    {
+      "id": "photodemon",
+      "name": "PhotoDemon",
+      "repo": "tannerhelland/PhotoDemon",
+      "homepage": "https://photodemon.org",
+      "category": "image",
+      "desc": "轻量免费的 Windows 修图软件，绿色免安装，老机器也跑得动",
+      "descEn": "A free portable photo editor focused on pro-grade features, high performance, and maximum usability.",
+      "tags": [
+        "修图",
+        "桌面"
+      ],
+      "seed": {
+        "stars": 2359,
+        "language": "Visual Basic .NET"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-08-18"
+    },
+    {
+      "id": "mastodon",
+      "name": "Mastodon",
+      "repo": "mastodon/mastodon",
+      "homepage": "https://joinmastodon.org",
+      "category": "social",
+      "desc": "去中心化微博客，自己开实例就不用看平台脸色",
+      "descEn": "Your self-hosted, globally interconnected microblogging community",
+      "tags": [
+        "社区",
+        "联邦宇宙"
+      ],
+      "seed": {
+        "stars": 50308,
+        "language": "Ruby",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "misskey",
+      "name": "Misskey",
+      "repo": "misskey-dev/misskey",
+      "homepage": "https://misskey-hub.net",
+      "category": "social",
+      "desc": "日系联邦微博客，表情回应和插件生态很丰富",
+      "descEn": "🌎 A completely free and open interplanetary-microblogging platform 🚀",
+      "tags": [
+        "社区",
+        "联邦宇宙"
+      ],
+      "seed": {
+        "stars": 11328,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "lemmy",
+      "name": "Lemmy",
+      "repo": "LemmyNet/lemmy",
+      "homepage": "https://join-lemmy.org",
+      "category": "social",
+      "desc": "联邦版 Reddit，自建论坛和兴趣社区",
+      "descEn": "🐀 A decentralised discussion platform for communities.",
+      "tags": [
+        "社区",
+        "联邦宇宙"
+      ],
+      "seed": {
+        "stars": 14606,
+        "language": "Rust",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "peertube",
+      "name": "PeerTube",
+      "repo": "Chocobozzz/PeerTube",
+      "homepage": "https://joinpeertube.org",
+      "category": "social",
+      "desc": "联邦视频平台，自己搭一个 YouTube 式站点",
+      "descEn": "ActivityPub-federated video streaming platform using P2P directly in your web browser",
+      "tags": [
+        "社区",
+        "联邦宇宙"
+      ],
+      "seed": {
+        "stars": 15328,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-17"
+    },
+    {
+      "id": "pixelfed",
+      "name": "Pixelfed",
+      "repo": "pixelfed/pixelfed",
+      "homepage": "https://pixelfed.org",
+      "category": "social",
+      "desc": "联邦图片社交，Instagram 的开源自托管替代",
+      "descEn": "Photo Sharing. For Everyone.",
+      "tags": [
+        "社区",
+        "联邦宇宙"
+      ],
+      "seed": {
+        "stars": 7107,
+        "language": "PHP",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "discourse",
+      "name": "Discourse",
+      "repo": "discourse/discourse",
+      "homepage": "https://www.discourse.org",
+      "category": "social",
+      "desc": "社区论坛系统，很多产品的官方社区都跑在它上面",
+      "descEn": "A platform for community discussion. Free, open, simple.",
+      "tags": [
+        "社区"
+      ],
+      "seed": {
+        "stars": 47885,
+        "language": "Ruby",
+        "license": "GPL-2.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "flarum",
+      "name": "Flarum",
+      "repo": "flarum/flarum",
+      "homepage": "https://flarum.org",
+      "category": "social",
+      "desc": "轻量论坛，界面现代、插件生态好，适合小社区",
+      "descEn": "Simple forum software for building great communities.",
+      "tags": [
+        "社区"
+      ],
+      "seed": {
+        "stars": 16403,
+        "language": "PHP",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-08-27"
+    },
+    {
+      "id": "bluesky",
+      "name": "Bluesky",
+      "repo": "bluesky-social/social-app",
+      "homepage": "https://bsky.app",
+      "category": "social",
+      "desc": "Bluesky 官方客户端，基于 AT 协议的新一代社交网络",
+      "descEn": "The Bluesky Social application for Web, iOS, and Android",
+      "tags": [
+        "社区",
+        "社交"
+      ],
+      "seed": {
+        "stars": 18302,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "online",
+        "desktop"
+      ],
+      "scene": "overseas",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "mixpost",
+      "name": "Mixpost",
+      "repo": "inovector/mixpost",
+      "homepage": "https://mixpost.app",
+      "category": "social",
+      "desc": "自托管社媒日程管理，一个后台排期发多个平台",
+      "descEn": "📅 Schedule, 📢 publish, and ⚡ manage your social media content on your server. No subscriptions, no limits. (Buffer alternative)",
+      "tags": [
+        "社媒管理",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 3734,
+        "language": "PHP"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "overseas",
+      "cloud": "",
+      "platforms": [],
+      "caution": "许可",
+      "pushedAt": "2026-03-16"
+    },
+    {
+      "id": "instaloader",
+      "name": "Instaloader",
+      "repo": "instaloader/instaloader",
+      "homepage": "https://instaloader.github.io/",
+      "category": "social",
+      "desc": "下载 Instagram 的帖子、快拍、头像和元数据",
+      "descEn": "Download pictures (or videos) along with their captions and other metadata from Instagram.",
+      "tags": [
+        "图片下载",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 13421,
+        "language": "Python",
+        "license": "MIT"
+      },
+      "usage": [
+        "cli",
+        "lib"
+      ],
+      "scene": "overseas",
+      "cloud": "",
+      "platforms": [],
+      "caution": "版权",
+      "pushedAt": "2026-09-06"
+    },
+    {
+      "id": "gallery-dl",
+      "name": "gallery-dl",
+      "repo": "mikf/gallery-dl",
+      "homepage": "https://codeberg.org/mikf/gallery-dl",
+      "category": "social",
+      "desc": "从上百个图片社交站点批量下载图集，一个命令行工具全包",
+      "descEn": "Command-line program to download image galleries and collections from several image hosting sites",
+      "tags": [
+        "图片下载",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 19808,
+        "language": "Python",
+        "license": "GPL-2.0"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "overseas",
+      "cloud": "",
+      "platforms": [],
+      "caution": "版权",
+      "pushedAt": "2026-09-19"
+    },
+    {
+      "id": "instagrapi",
+      "name": "instagrapi",
+      "repo": "subzeroid/instagrapi",
+      "homepage": "",
+      "category": "social",
+      "desc": "非官方 Instagram API，自动发帖、抓数据、私信",
+      "descEn": "🔥 The fastest and powerful Python library for Instagram Private API 2026 with HikerAPI SaaS",
+      "tags": [
+        "社媒管理",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 6831,
+        "language": "Python",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib"
+      ],
+      "scene": "overseas",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "twikit",
+      "name": "twikit",
+      "repo": "d60/twikit",
+      "homepage": "",
+      "category": "social",
+      "desc": "不用申请密钥就能调用 Twitter/X，发帖、搜索、抓趋势",
+      "descEn": "Twitter API Scraper | Without an API key | Twitter Internal API | Free | Twitter scraper | Twitter Bot",
+      "tags": [
+        "社媒管理",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 4691,
+        "language": "Python",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib"
+      ],
+      "scene": "overseas",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-03-10"
+    },
+    {
+      "id": "tiktok-api",
+      "name": "TikTok-Api",
+      "repo": "davidteather/TikTok-Api",
+      "homepage": "https://davidteather.github.io/TikTok-Api/",
+      "category": "social",
+      "desc": "抓 TikTok 的视频、用户和话题数据，做选题分析",
+      "descEn": "The Unofficial TikTok API Wrapper In Python",
+      "tags": [
+        "社媒管理",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 6647,
+        "language": "Python",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib"
+      ],
+      "scene": "overseas",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-08-24"
+    },
+    {
+      "id": "dub",
+      "name": "Dub",
+      "repo": "dubinc/dub",
+      "homepage": "https://dub.co",
+      "category": "social",
+      "desc": "短链管理平台，带点击分析和转化追踪，投放时用来分流",
+      "descEn": "The modern link attribution platform. Loved by world-class marketing teams like Framer, Perplexity, Superhuman, Twilio, Buffer and more.",
+      "tags": [
+        "短链",
+        "推广"
+      ],
+      "seed": {
+        "stars": 24802,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost",
+        "online"
+      ],
+      "scene": "overseas",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "linkstack",
+      "name": "LinkStack",
+      "repo": "LinkStackOrg/LinkStack",
+      "homepage": "https://linkstack.org",
+      "category": "social",
+      "desc": "自托管版 Linktree，一个页面放齐所有社交入口",
+      "descEn": "LinkStack - the ultimate solution for creating a personalized & professional profile page. Showcase all your important links in one place, forget the limitation of one link on social media. Set up your personal site on your own server with just a few clicks.",
+      "tags": [
+        "短链",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 3881,
+        "language": "PHP",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "overseas",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-07-21"
+    },
+    {
+      "id": "socialify",
+      "name": "Socialify",
+      "repo": "wei/socialify",
+      "homepage": "https://socialify.git.ci",
+      "category": "social",
+      "desc": "给 GitHub 仓库一键生成好看的社交分享图",
+      "descEn": "💞 Socialify your project. 🌐 Share with the world!",
+      "tags": [
+        "社媒管理",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 2213,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "online"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-14"
+    },
+    {
+      "id": "rsshub",
+      "name": "RSSHub",
+      "repo": "DIYgod/RSSHub",
+      "homepage": "https://docs.rsshub.app",
+      "category": "social",
+      "desc": "把几乎所有网站变成 RSS 源，内容分发和监控的底座",
+      "descEn": "🧡 Everything is RSSible",
+      "tags": [
+        "自动化",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 46298,
+        "language": "JavaScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost",
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "owncast",
+      "name": "Owncast",
+      "repo": "owncast/owncast",
+      "homepage": "https://owncast.online",
+      "category": "social",
+      "desc": "自托管直播服务，自己搭一个直播站，不依赖第三方平台",
+      "descEn": "Take control over your live stream video by running it yourself.  Streaming + chat out of the box.",
+      "tags": [
+        "直播",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 11552,
+        "language": "Go",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-18"
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "repo": "ollama/ollama",
+      "homepage": "https://ollama.com",
+      "category": "ai",
+      "desc": "一条命令在本地跑 Llama、Qwen 等大模型，断网也能用",
+      "descEn": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "tags": [
+        "本地大模型",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 181476,
+        "language": "Go",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost",
+        "desktop",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "llama-cpp",
+      "name": "llama.cpp",
+      "repo": "ggml-org/llama.cpp",
+      "homepage": "",
+      "category": "ai",
+      "desc": "本地推理引擎，量化之后笔记本也能带动大模型",
+      "descEn": "LLM inference in C/C++",
+      "tags": [
+        "本地大模型",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 129239,
+        "language": "C++",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "open-webui",
+      "name": "Open WebUI",
+      "repo": "open-webui/open-webui",
+      "homepage": "https://openwebui.com",
+      "category": "ai",
+      "desc": "自托管 ChatGPT 界面，支持多模型、知识库和团队账号",
+      "descEn": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "tags": [
+        "本地大模型",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 152858,
+        "language": "JavaScript"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "许可",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "lobe-chat",
+      "name": "LobeChat",
+      "repo": "lobehub/lobe-chat",
+      "homepage": "https://lobechat.com",
+      "category": "ai",
+      "desc": "界面精致的多模型 AI 聊天，插件、知识库、语音都齐",
+      "descEn": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+      "tags": [
+        "本地大模型",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 82760,
+        "language": "TypeScript"
+      },
+      "usage": [
+        "online",
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "librechat",
+      "name": "LibreChat",
+      "repo": "danny-avila/LibreChat",
+      "homepage": "https://librechat.ai",
+      "category": "ai",
+      "desc": "多模型聊天平台，能同时接 OpenAI、Claude 和本地模型",
+      "descEn": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+      "tags": [
+        "本地大模型",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 44705,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "dify",
+      "name": "Dify",
+      "repo": "langgenius/dify",
+      "homepage": "https://dify.ai",
+      "category": "ai",
+      "desc": "LLM 应用开发平台，拖拽编排工作流再发布成 API",
+      "descEn": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+      "tags": [
+        "AI应用",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 156903,
+        "language": "TypeScript"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "许可",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "langflow",
+      "name": "Langflow",
+      "repo": "langflow-ai/langflow",
+      "homepage": "https://langflow.org",
+      "category": "ai",
+      "desc": "可视化搭 LLM 流程，改一个节点立刻看到效果",
+      "descEn": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "tags": [
+        "AI应用",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 155110,
+        "language": "Python",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost",
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "localai",
+      "name": "LocalAI",
+      "repo": "mudler/LocalAI",
+      "homepage": "https://localai.io",
+      "category": "ai",
+      "desc": "本地 OpenAI 兼容 API，把现有代码的地址一改就能用",
+      "descEn": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "tags": [
+        "本地大模型",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 49221,
+        "language": "Go",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "vllm",
+      "name": "vLLM",
+      "repo": "vllm-project/vllm",
+      "homepage": "https://docs.vllm.ai",
+      "category": "ai",
+      "desc": "高吞吐推理引擎，生产环境部署大模型的主流选择",
+      "descEn": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "tags": [
+        "本地大模型",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 92399,
+        "language": "Python",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "selfhost",
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "anything-llm",
+      "name": "AnythingLLM",
+      "repo": "Mintplex-Labs/anything-llm",
+      "homepage": "https://anythingllm.com",
+      "category": "ai",
+      "desc": "把公司文档变成能对话的知识库，可接各种模型",
+      "descEn": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
+      "tags": [
+        "AI应用",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 66338,
+        "language": "JavaScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost",
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "ragflow",
+      "name": "RAGFlow",
+      "repo": "infiniflow/ragflow",
+      "homepage": "https://ragflow.io",
+      "category": "ai",
+      "desc": "RAG 引擎，文档解析深，回答带引用溯源",
+      "descEn": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "tags": [
+        "AI应用",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 91119,
+        "language": "Python",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "perplexica",
+      "name": "Perplexica",
+      "repo": "ItzCrazyKns/Perplexica",
+      "homepage": "",
+      "category": "ai",
+      "desc": "开源 AI 搜索，答案带来源引用，Perplexity 的替代",
+      "descEn": "Vane is an AI-powered answering engine.",
+      "tags": [
+        "AI搜索",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 36900,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-01"
+    },
+    {
+      "id": "firecrawl",
+      "name": "Firecrawl",
+      "repo": "firecrawl/firecrawl",
+      "homepage": "https://firecrawl.dev",
+      "category": "ai",
+      "desc": "把网页抓成干净的 Markdown 喂给大模型，省掉清洗环节",
+      "descEn": "The web data API to search, scrape, and interact at scale. 🔥",
+      "tags": [
+        "AI应用",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 183477,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost",
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "whisper",
+      "name": "Whisper",
+      "repo": "openai/whisper",
+      "homepage": "",
+      "category": "ai",
+      "desc": "OpenAI 的语音识别模型，多语言转写和翻译",
+      "descEn": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "tags": [
+        "语音识别",
+        "AI"
+      ],
+      "seed": {
+        "stars": 109468,
+        "language": "Python",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-08-31"
+    },
+    {
+      "id": "whisper-cpp",
+      "name": "whisper.cpp",
+      "repo": "ggml-org/whisper.cpp",
+      "homepage": "",
+      "category": "ai",
+      "desc": "Whisper 的 C++ 实现，本地转写不联网，Mac 和树莓派都能跑",
+      "descEn": "Port of OpenAI's Whisper model in C/C++",
+      "tags": [
+        "语音识别",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 53869,
+        "language": "C++",
+        "license": "MIT"
+      },
+      "usage": [
+        "cli",
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "sd-webui",
+      "name": "Stable Diffusion WebUI",
+      "repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "homepage": "",
+      "category": "ai",
+      "desc": "最流行的文生图 WebUI，插件和模型生态最大",
+      "descEn": "Stable Diffusion web UI",
+      "tags": [
+        "文生图",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 165074,
+        "language": "Python",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-03-02"
+    },
+    {
+      "id": "comfyui",
+      "name": "ComfyUI",
+      "repo": "comfyanonymous/ComfyUI",
+      "homepage": "https://www.comfy.org",
+      "category": "ai",
+      "desc": "节点式 AI 出图流程，复杂工作流靠连线搭出来",
+      "descEn": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "tags": [
+        "文生图",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 134544,
+        "language": "Python",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "selfhost",
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "fooocus",
+      "name": "Fooocus",
+      "repo": "lllyasviel/Fooocus",
+      "homepage": "",
+      "category": "ai",
+      "desc": "开箱即用的文生图，不用调参数也能出好图",
+      "descEn": "Focus on prompting and generating",
+      "tags": [
+        "文生图",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 53149,
+        "language": "Python",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2025-12-01"
+    },
+    {
+      "id": "diffusers",
+      "name": "Diffusers",
+      "repo": "huggingface/diffusers",
+      "homepage": "https://huggingface.co/docs/diffusers",
+      "category": "ai",
+      "desc": "扩散模型库，图像和音频生成的标准工具箱",
+      "descEn": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "tags": [
+        "文生图",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 34585,
+        "language": "Python",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "continue",
+      "name": "Continue",
+      "repo": "continuedev/continue",
+      "homepage": "https://continue.dev",
+      "category": "ai",
+      "desc": "编辑器里的 AI 编程助手，VS Code 和 JetBrains 都能装",
+      "descEn": "open-source coding agent",
+      "tags": [
+        "AI编程",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 35997,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "aider",
+      "name": "Aider",
+      "repo": "Aider-AI/aider",
+      "homepage": "https://aider.chat",
+      "category": "ai",
+      "desc": "终端里的 AI 结对编程，直接读写仓库里的文件并提交",
+      "descEn": "aider is AI pair programming in your terminal",
+      "tags": [
+        "AI编程",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 49121,
+        "language": "Python",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-05-22"
+    },
+    {
+      "id": "openhands",
+      "name": "OpenHands",
+      "repo": "All-Hands-AI/OpenHands",
+      "homepage": "https://docs.all-hands.dev",
+      "category": "ai",
+      "desc": "AI 软件工程代理，自己写代码、跑命令、改 bug",
+      "descEn": "🙌 OpenHands: AI-Driven Development",
+      "tags": [
+        "AI编程",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 88897,
+        "language": "Python",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "jan",
+      "name": "Jan",
+      "repo": "janhq/jan",
+      "homepage": "https://jan.ai",
+      "category": "ai",
+      "desc": "本地 AI 桌面端，下载即用，完全离线",
+      "descEn": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
+      "tags": [
+        "本地大模型",
+        "桌面"
+      ],
+      "seed": {
+        "stars": 44609,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "watermark-js-plus",
+      "name": "Watermark JS Plus",
+      "repo": "zhensherlock/watermark-js-plus",
+      "homepage": "",
+      "category": "watermark",
+      "desc": "浏览器水印库，支持文字、图片、盲水印和防篡改，不绑定框架",
+      "descEn": "Lightweight, framework-agnostic browser watermark library with text, image, rich-text and blind watermarks",
+      "tags": [
+        "水印处理",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 573,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-21"
     }
   ]
 }

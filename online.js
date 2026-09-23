@@ -427,10 +427,431 @@
     });
   }
 
+  /* ---------- 11. Markdown ---------- */
+  var MD_PREFIX = String.fromCharCode(92) + "u";
+  function mdInline(t) {
+    return t
+      .replace(/`([^`]+)`/g, "<code>$1</code>")
+      .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+      .replace(/\*([^*]+)\*/g, "<em>$1</em>")
+      .replace(/~~([^~]+)~~/g, "<del>$1</del>")
+      .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1">')
+      .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+  }
+  function splitRow(l) {
+    return l.replace(/^\s*\|/, "").replace(/\|\s*$/, "").split("|").map(function (c) { return c.trim(); });
+  }
+  function mdRender(src) {
+    var s = String(src).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    var lines = s.split("\n"), html = [], i = 0;
+    while (i < lines.length) {
+      var line = lines[i];
+      if (/^\s*```/.test(line)) {
+        var code = []; i++;
+        while (i < lines.length && !/^\s*```/.test(lines[i])) { code.push(lines[i]); i++; }
+        i++;
+        html.push("<pre><code>" + code.join("\n") + "</code></pre>");
+        continue;
+      }
+      var h = /^(#{1,6})\s+(.*)$/.exec(line);
+      if (h) { html.push("<h" + h[1].length + ">" + mdInline(h[2]) + "</h" + h[1].length + ">"); i++; continue; }
+      if (/^\s*(-{3,}|\*{3,}|_{3,})\s*$/.test(line)) { html.push("<hr>"); i++; continue; }
+      if (/^>\s?/.test(line)) {
+        var q = [];
+        while (i < lines.length && /^>\s?/.test(lines[i])) { q.push(lines[i].replace(/^>\s?/, "")); i++; }
+        html.push("<blockquote>" + mdInline(q.join(" ")) + "</blockquote>");
+        continue;
+      }
+      if (line.indexOf("|") !== -1 && i + 1 < lines.length && /^\s*\|?[\s:|-]+\|[\s:|-]*$/.test(lines[i + 1])) {
+        var head = splitRow(line); i += 2;
+        var rows = [];
+        while (i < lines.length && lines[i].indexOf("|") !== -1 && lines[i].trim()) { rows.push(splitRow(lines[i])); i++; }
+        html.push("<table><thead><tr>" + head.map(function (c) { return "<th>" + mdInline(c) + "</th>"; }).join("") +
+          "</tr></thead><tbody>" + rows.map(function (r) {
+            return "<tr>" + r.map(function (c) { return "<td>" + mdInline(c) + "</td>"; }).join("") + "</tr>";
+          }).join("") + "</tbody></table>");
+        continue;
+      }
+      var li = /^\s*([-*+]|\d+[.)])\s+(.*)$/.exec(line);
+      if (li) {
+        var ordered = /\d/.test(li[1]), items = [];
+        while (i < lines.length) {
+          var m = /^\s*([-*+]|\d+[.)])\s+(.*)$/.exec(lines[i]);
+          if (!m) break;
+          var task = /^\[([ xX])\]\s+(.*)$/.exec(m[2]);
+          if (task) {
+            items.push('<li class="task"><input type="checkbox" disabled' + (task[1].toLowerCase() === "x" ? " checked" : "") + ">" + mdInline(task[2]) + "</li>");
+          } else items.push("<li>" + mdInline(m[2]) + "</li>");
+          i++;
+        }
+        html.push((ordered ? "<ol>" : "<ul>") + items.join("") + (ordered ? "</ol>" : "</ul>"));
+        continue;
+      }
+      if (/^\s*$/.test(line)) { i++; continue; }
+      var para = [];
+      while (i < lines.length && lines[i].trim() &&
+             !/^(#{1,6}\s|>|\s*```|\s*([-*+]|\d+[.)])\s)/.test(lines[i])) { para.push(lines[i]); i++; }
+      html.push("<p>" + mdInline(para.join(" ")) + "</p>");
+    }
+    return html.join("\n");
+  }
+  function markdownApp() {
+    var src = el("md-in"), out = el("md-out");
+    var timer = null;
+    function run() {
+      clearTimeout(timer);
+      timer = setTimeout(function () { out.innerHTML = mdRender(src.value); }, 120);
+    }
+    src.addEventListener("input", run);
+  }
+
+  /* ---------- 12. 正则 ---------- */
+  function regexApp() {
+    var pat = el("re-pat"), fl = el("re-flags"), src = el("re-in");
+    function run() {
+      var text = src.value, p = pat.value;
+      if (!p) { msg("re-msg", ""); el("re-out").innerHTML = ""; el("re-hl").innerHTML = esc(text); return; }
+      var re;
+      try { re = new RegExp(p, fl.value); }
+      catch (e) { msg("re-msg", e.message, "err"); el("re-out").innerHTML = ""; el("re-hl").innerHTML = esc(text); return; }
+      var matches = [], m, guard = 0, global = fl.value.indexOf("g") !== -1;
+      if (global) {
+        re.lastIndex = 0;
+        while ((m = re.exec(text)) !== null && guard++ < 5000) {
+          matches.push({ index: m.index, full: m[0], groups: Array.prototype.slice.call(m, 1) });
+          if (m.index === re.lastIndex) re.lastIndex++;
+        }
+      } else {
+        m = re.exec(text);
+        if (m) matches.push({ index: m.index, full: m[0], groups: Array.prototype.slice.call(m, 1) });
+      }
+      msg("re-msg", matches.length + (LANG === "zh" ? " 个匹配" : " match(es)"), matches.length ? "ok" : "err");
+      var hl = "", last = 0;
+      matches.forEach(function (mm) {
+        hl += esc(text.slice(last, mm.index)) + "<mark>" + esc(mm.full) + "</mark>";
+        last = mm.index + mm.full.length;
+      });
+      hl += esc(text.slice(last));
+      el("re-hl").innerHTML = hl || '<span class="app-hint">' + (LANG === "zh" ? "（无内容）" : "(nothing)") + "</span>";
+      el("re-out").innerHTML = matches.slice(0, 40).map(function (mm, i) {
+        var g = mm.groups.map(function (v, j) { return "$" + (j + 1) + "=" + (v === undefined ? "—" : v); }).join("  ");
+        return row2("#" + (i + 1) + " @" + mm.index, mm.full + (g ? "    " + g : ""));
+      }).join("");
+    }
+    ["re-pat", "re-flags", "re-in"].forEach(function (id) { el(id).addEventListener("input", run); });
+    run();
+  }
+
+  /* ---------- 13. 字数统计 ---------- */
+  function countCJK(t) {
+    var n = 0;
+    for (var i = 0; i < t.length; i++) { var c = t.charCodeAt(i); if (c >= 0x4e00 && c <= 0x9fff) n++; }
+    return n;
+  }
+  function wordCountApp() {
+    var src = el("wc-in"), out = el("wc-out");
+    function run() {
+      var t = src.value;
+      var cjk = countCJK(t);
+      var words = (t.match(/[A-Za-z][A-Za-z'-]*/g) || []).length;
+      var lines = t ? t.split("\n").length : 0;
+      var paras = t.trim() ? t.split(/\n\s*\n/).filter(function (x) { return x.trim(); }).length : 0;
+      var mins = cjk / 400 + words / 220;
+      var readTxt = mins < 1 ? (LANG === "zh" ? "不到 1 分钟" : "under 1 min")
+        : (LANG === "zh" ? Math.ceil(mins) + " 分钟" : Math.ceil(mins) + " min");
+      var zh = LANG === "zh";
+      out.innerHTML =
+        row2(zh ? "总字符" : "Characters", t.length) +
+        row2(zh ? "不含空格" : "No spaces", t.replace(/\s/g, "").length) +
+        row2(zh ? "中文字符" : "CJK chars", cjk) +
+        row2(zh ? "英文单词" : "Words", words) +
+        row2(zh ? "行数" : "Lines", lines) +
+        row2(zh ? "段落" : "Paragraphs", paras) +
+        row2(zh ? "预计阅读" : "Read time", readTxt);
+    }
+    src.addEventListener("input", run);
+  }
+
+  /* ---------- 14. 文本批处理 ---------- */
+  function randInt(max) {
+    var limit = Math.floor(4294967296 / max) * max, a = new Uint32Array(1);
+    do { crypto.getRandomValues(a); } while (a[0] >= limit);
+    return a[0] % max;
+  }
+  function textToolsApp() {
+    var src = el("tt-in"), out = el("tt-out");
+    function cur() { return (out.value || src.value).split("\n"); }
+    function put(a) { out.value = a.join("\n"); }
+    bindActions(host, {
+      dedupe: function () { var seen = {}; put(cur().filter(function (l) { var k = l.trim(); if (seen[k]) return false; seen[k] = 1; return true; })); },
+      sort: function () { put(cur().slice().sort(function (a, b) { return a.localeCompare(b, "zh"); })); },
+      sortDesc: function () { put(cur().slice().sort(function (a, b) { return b.localeCompare(a, "zh"); })); },
+      trim: function () { put(cur().map(function (l) { return l.trim(); })); },
+      dropEmpty: function () { put(cur().filter(function (l) { return l.trim(); })); },
+      shuffle: function () {
+        var a = cur().slice();
+        for (var i = a.length - 1; i > 0; i--) { var j = randInt(i + 1); var tmp = a[i]; a[i] = a[j]; a[j] = tmp; }
+        put(a);
+      }
+    });
+  }
+
+  /* ---------- 15. JWT ---------- */
+  function b64urlDecode(s) {
+    s = String(s).replace(/-/g, "+").replace(/_/g, "/");
+    while (s.length % 4) s += "=";
+    var bin = atob(s), bytes = new Uint8Array(bin.length);
+    for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+    return new TextDecoder().decode(bytes);
+  }
+  function rowPre(k, v) {
+    return '<div class="app-item pre"><span class="app-k">' + esc(k) + "</span><pre class=\"app-pre\">" + esc(v) + "</pre></div>";
+  }
+  function jwtApp() {
+    var src = el("jwt-in"), out = el("jwt-out");
+    function run() {
+      var t = src.value.trim();
+      out.innerHTML = ""; msg("jwt-msg", "");
+      if (!t) return;
+      var parts = t.split(".");
+      if (parts.length < 2) { msg("jwt-msg", LANG === "zh" ? "不是有效的 JWT（至少要有两段）" : "Not a valid JWT", "err"); return; }
+      try {
+        var head = JSON.parse(b64urlDecode(parts[0]));
+        var body = JSON.parse(b64urlDecode(parts[1]));
+        out.innerHTML = rowPre("Header", JSON.stringify(head, null, 2)) + rowPre("Payload", JSON.stringify(body, null, 2));
+        if (body.exp) {
+          var left = body.exp * 1000 - Date.now();
+          msg("jwt-msg", left > 0
+            ? (LANG === "zh" ? "有效，还有 " + Math.round(left / 60000) + " 分钟过期" : "Valid, " + Math.round(left / 60000) + " min left")
+            : (LANG === "zh" ? "已于 " + new Date(body.exp * 1000).toLocaleString() + " 过期" : "Expired at " + new Date(body.exp * 1000).toISOString()),
+            left > 0 ? "ok" : "err");
+        } else {
+          msg("jwt-msg", LANG === "zh" ? "解析成功（这个 token 没有 exp 字段）" : "Decoded (no exp claim)", "ok");
+        }
+      } catch (e) { msg("jwt-msg", T.err + ": " + e.message, "err"); }
+    }
+    src.addEventListener("input", run);
+  }
+
+  /* ---------- 16. 进制转换 ---------- */
+  function numberBaseApp() {
+    var src = el("nb-in"), from = el("nb-from"), out = el("nb-out");
+    function run() {
+      var raw = src.value.trim().replace(/^0[bxo]/i, "");
+      if (!raw) { out.innerHTML = ""; return; }
+      var n = parseInt(raw, Number(from.value));
+      if (isNaN(n)) { out.innerHTML = row2("—", T.err); return; }
+      var zh = LANG === "zh";
+      out.innerHTML =
+        row2("HEX", "0x" + n.toString(16).toUpperCase()) +
+        row2("DEC", String(n)) +
+        row2("OCT", "0o" + n.toString(8)) +
+        row2("BIN", "0b" + n.toString(2)) +
+        row2(zh ? "32 位有符号" : "int32", String(n | 0)) +
+        row2(zh ? "32 位无符号" : "uint32", String(n >>> 0));
+    }
+    src.addEventListener("input", run);
+    from.addEventListener("change", run);
+    run();
+  }
+
+  /* ---------- 17. 转义 ---------- */
+  function escapeApp() {
+    var src = el("es-in"), out = el("es-out");
+    var bs = String.fromCharCode(92);
+    var uniRe = new RegExp(bs + bs + "u([0-9a-fA-F]{4})", "g");
+    bindActions(host, {
+      htmlEnc: function () {
+        out.value = src.value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+      },
+      htmlDec: function () {
+        out.value = src.value.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"')
+          .replace(/&#39;/g, "'").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&");
+      },
+      uniEnc: function () {
+        var s = "";
+        for (var i = 0; i < src.value.length; i++) {
+          var c = src.value.charCodeAt(i);
+          s += (c > 126 || c < 32) ? MD_PREFIX + ("000" + c.toString(16)).slice(-4) : src.value.charAt(i);
+        }
+        out.value = s;
+      },
+      uniDec: function () {
+        out.value = src.value.replace(uniRe, function (_, hex) { return String.fromCharCode(parseInt(hex, 16)); });
+      },
+      jsonStr: function () {
+        var j = JSON.stringify(src.value);
+        out.value = j.slice(1, -1);
+      }
+    });
+  }
+
+  /* ---------- 18. CSV ↔ JSON ---------- */
+  function parseCSV(text) {
+    var clean = String(text).replace(new RegExp("^" + String.fromCharCode(0xFEFF)), "");
+    var rows = [], row = [], field = "", inQ = false;
+    for (var i = 0; i < clean.length; i++) {
+      var ch = clean.charAt(i);
+      if (inQ) {
+        if (ch === '"') {
+          if (clean.charAt(i + 1) === '"') { field += '"'; i++; } else inQ = false;
+        } else field += ch;
+      } else if (ch === '"') inQ = true;
+      else if (ch === ",") { row.push(field); field = ""; }
+      else if (ch === "\n") { row.push(field); rows.push(row); row = []; field = ""; }
+      else if (ch !== "\r") field += ch;
+    }
+    if (field !== "" || row.length) { row.push(field); rows.push(row); }
+    return rows.filter(function (r) { return r.length > 1 || (r[0] || "").trim() !== ""; });
+  }
+  function csvCell(v) {
+    var s = v == null ? "" : String(v);
+    return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+  }
+  function csvJsonApp() {
+    var src = el("cj-in"), out = el("cj-out");
+    bindActions(host, {
+      csv2json: function () {
+        var rows = parseCSV(src.value);
+        if (rows.length < 2) { msg("cj-msg", LANG === "zh" ? "至少需要表头 + 一行数据" : "Need a header and at least one row", "err"); out.value = ""; return; }
+        var head = rows[0];
+        var list = rows.slice(1).map(function (r) {
+          var o = {};
+          head.forEach(function (k, i) { o[k.trim()] = r[i] === undefined ? "" : r[i]; });
+          return o;
+        });
+        out.value = JSON.stringify(list, null, 2);
+        msg("cj-msg", list.length + (LANG === "zh" ? " 行 → JSON 数组" : " rows → JSON"), "ok");
+      },
+      json2csv: function () {
+        var data;
+        try { data = JSON.parse(src.value); } catch (e) { msg("cj-msg", e.message, "err"); out.value = ""; return; }
+        if (!Array.isArray(data) || !data.length) { msg("cj-msg", LANG === "zh" ? "需要一个非空 JSON 数组" : "Need a non-empty JSON array", "err"); out.value = ""; return; }
+        var keys = [];
+        data.forEach(function (o) { Object.keys(o).forEach(function (k) { if (keys.indexOf(k) === -1) keys.push(k); }); });
+        var lines = [keys.map(csvCell).join(",")];
+        data.forEach(function (o) { lines.push(keys.map(function (k) { return csvCell(o[k]); }).join(",")); });
+        out.value = lines.join("\n");
+        msg("cj-msg", data.length + (LANG === "zh" ? " 条 → CSV" : " records → CSV"), "ok");
+      }
+    });
+  }
+
+  /* ---------- 19. 图片格式转换 ---------- */
+  function imageConvertApp() {
+    var fileEl = el("icv-file"), out = el("icv-out"), tEl = el("icv-type"), qEl = el("icv-q"), wEl = el("icv-w"), qv = el("icv-qv");
+    qEl.addEventListener("input", function () { qv.textContent = Number(qEl.value).toFixed(2); });
+    fileEl.addEventListener("change", function () {
+      out.innerHTML = "";
+      Array.prototype.slice.call(fileEl.files || []).forEach(process);
+    });
+    function process(file) {
+      var item = document.createElement("div");
+      item.className = "app-item img-item";
+      item.innerHTML = '<span class="app-k">' + esc(file.name) + "</span><span class=\"app-v\">" +
+        (LANG === "zh" ? "处理中…" : "working…") + "</span>";
+      out.appendChild(item);
+      var url = URL.createObjectURL(file), img = new Image();
+      img.onload = function () {
+        var maxW = Number(wEl.value) || 0;
+        var scale = (maxW && img.width > maxW) ? maxW / img.width : 1;
+        var cv = document.createElement("canvas");
+        cv.width = Math.round(img.width * scale);
+        cv.height = Math.round(img.height * scale);
+        var ctx = cv.getContext("2d");
+        if (tEl.value === "image/jpeg") { ctx.fillStyle = "#fff"; ctx.fillRect(0, 0, cv.width, cv.height); }
+        ctx.drawImage(img, 0, 0, cv.width, cv.height);
+        URL.revokeObjectURL(url);
+        cv.toBlob(function (blob) {
+          if (!blob) { item.querySelector(".app-v").textContent = T.err; return; }
+          var dl = URL.createObjectURL(blob);
+          var ext = tEl.value === "image/webp" ? ".webp" : (tEl.value === "image/jpeg" ? ".jpg" : ".png");
+          item.className = "app-item img-item done";
+          item.innerHTML =
+            '<span class="app-k">' + esc(file.name) + "</span>" +
+            '<span class="app-v">' + human(file.size) + " → <strong>" + human(blob.size) + "</strong> · " +
+            cv.width + "×" + cv.height + " · " + ext.slice(1).toUpperCase() + "</span>" +
+            '<img class="img-preview" src="' + dl + '" alt="">' +
+            '<a class="app-btn" href="' + dl + '" download="' + esc(file.name.replace(/\.[^.]+$/, "")) + ext + '">' + esc(T.download) + "</a>";
+        }, tEl.value, Number(qEl.value));
+      };
+      img.onerror = function () { item.querySelector(".app-v").textContent = T.err; };
+      img.src = url;
+    }
+  }
+
+  /* ---------- 20. Cron ---------- */
+  function parseCronField(expr, min, max) {
+    var set = {};
+    String(expr).split(",").forEach(function (part) {
+      var step = 1, body = part;
+      var slash = part.indexOf("/");
+      if (slash !== -1) { body = part.slice(0, slash); step = Number(part.slice(slash + 1)) || 1; }
+      var lo, hi;
+      if (body === "*" || body === "") { lo = min; hi = max; }
+      else if (body.indexOf("-") !== -1) { var seg = body.split("-"); lo = Number(seg[0]); hi = Number(seg[1]); }
+      else { lo = hi = Number(body); }
+      if (isNaN(lo) || isNaN(hi)) return;
+      for (var v = lo; v <= hi; v += step) if (v >= min && v <= max) set[v] = 1;
+    });
+    return set;
+  }
+  function cronApp() {
+    var src = el("cr-in"), out = el("cr-out");
+    var NAMES = LANG === "zh"
+      ? ["分钟", "小时", "日", "月", "星期"]
+      : ["minute", "hour", "day", "month", "weekday"];
+    var WD = LANG === "zh"
+      ? ["周日", "周一", "周二", "周三", "周四", "周五", "周六"]
+      : ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    function describe(part, idx) {
+      var f = String(part).trim();
+      if (f === "*") return LANG === "zh" ? "每" + NAMES[idx] : "every " + NAMES[idx];
+      if (f.indexOf("/") !== -1 && f.indexOf("*") === 0) return (LANG === "zh" ? "每 " : "every ") + f.split("/")[1] + " " + NAMES[idx];
+      return f;
+    }
+    function run() {
+      var raw = src.value.trim();
+      out.innerHTML = ""; msg("cr-msg", "");
+      var parts = raw.split(/\s+/);
+      if (parts.length !== 5) { msg("cr-msg", LANG === "zh" ? "需要 5 段：分 时 日 月 周" : "Need 5 fields: min hour day month weekday", "err"); return; }
+      var mins = parseCronField(parts[0], 0, 59), hrs = parseCronField(parts[1], 0, 23);
+      var dom = parseCronField(parts[2], 1, 31), mon = parseCronField(parts[3], 1, 12);
+      var wd = parseCronField(parts[4].replace(/7/g, "0"), 0, 6);
+      if (!Object.keys(mins).length || !Object.keys(hrs).length) { msg("cr-msg", LANG === "zh" ? "表达式无法解析" : "Cannot parse", "err"); return; }
+      var zh = LANG === "zh";
+      out.innerHTML = parts.map(function (p, i) { return row2(NAMES[i], describe(p, i)); }).join("");
+      // 接下来 5 次
+      var next = [], d = new Date();
+      d.setSeconds(0, 0); d.setMinutes(d.getMinutes() + 1);
+      for (var i = 0; i < 527040 && next.length < 5; i++) {
+        var m = d.getMinutes(), h = d.getHours(), day = d.getDate(), mo = d.getMonth() + 1, w = d.getDay();
+        if (mins[m] && hrs[h] && dom[day] && mon[mo] && wd[w]) next.push(new Date(d.getTime()));
+        d.setMinutes(d.getMinutes() + 1);
+      }
+      if (next.length) {
+        out.innerHTML += row2(zh ? "接下来 5 次" : "Next 5 runs",
+          next.map(function (x) { return fmtDate(x) + " " + WD[x.getDay()]; }).join("\n"));
+        msg("cr-msg", zh ? "解析成功" : "Parsed", "ok");
+      } else {
+        msg("cr-msg", zh ? "未来一年内没有匹配时间" : "No match within a year", "err");
+      }
+    }
+    src.addEventListener("input", run);
+    bindActions(host, { });
+    qsa("[data-preset]").forEach(function (b) {
+      b.addEventListener("click", function () { src.value = b.getAttribute("data-preset"); run(); });
+    });
+    run();
+  }
+
   var APPS = {
     "json-format": jsonFormat, "base64": base64App, "hash": hashApp, "timestamp": timestampApp,
     "image-compress": imageCompressApp, "color": colorApp, "case-convert": caseApp,
-    "password": passwordApp, "url-encode": urlApp, "diff": diffApp
+    "password": passwordApp, "url-encode": urlApp, "diff": diffApp,
+    "markdown": markdownApp, "regex": regexApp, "word-count": wordCountApp, "text-tools": textToolsApp,
+    "jwt": jwtApp, "number-base": numberBaseApp, "escape": escapeApp, "csv-json": csvJsonApp,
+    "image-convert": imageConvertApp, "cron": cronApp
   };
   if (APPS[kind]) APPS[kind]();
   bindCopy(host);

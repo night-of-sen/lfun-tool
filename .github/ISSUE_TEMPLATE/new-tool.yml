@@ -41,6 +41,7 @@ body:
         - 可自托管（自己部署，通常 Docker）
         - 桌面应用
         - 命令行
+        - 浏览器扩展
         - 开发库
     validations:
       required: true

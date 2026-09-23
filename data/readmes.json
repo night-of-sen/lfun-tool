@@ -1089,5 +1089,859 @@
     "source": "README.md",
     "rawLength": 9404,
     "fetchedAt": "2026-09-22T09:15:46.961Z"
+  },
+  "ublock-origin": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10751,
+    "fetchedAt": "2026-09-23T03:16:19.765Z"
+  },
+  "postiz": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11856,
+    "fetchedAt": "2026-09-23T03:16:19.765Z"
+  },
+  "refined-github": {
+    "summary": "GitHub took inspiration from Refined GitHub and natively implemented dozens of its features, 🎉 so they've been removed from this extension. You can also see all the past features of Refined GitHub in a single list.",
+    "docker": "",
+    "source": "readme.md",
+    "rawLength": 49019,
+    "fetchedAt": "2026-09-23T03:16:19.765Z"
+  },
+  "nextai-translator": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9591,
+    "fetchedAt": "2026-09-23T03:16:19.765Z"
+  },
+  "singlefile": {
+    "summary": "",
+    "docker": "",
+    "source": "",
+    "fetchedAt": "2026-09-23T03:16:19.765Z",
+    "missing": true
+  },
+  "dark-reader": {
+    "summary": "Dark Reader build script requires a JavaScript runtime, either Node.js or Deno. We recommend using Node.js, Deno support is experimental.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15926,
+    "fetchedAt": "2026-09-23T03:16:20.881Z"
+  },
+  "cat-catch": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2252,
+    "fetchedAt": "2026-09-23T03:16:20.881Z"
+  },
+  "automa": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3939,
+    "fetchedAt": "2026-09-23T03:16:20.881Z"
+  },
+  "daily-dev": {
+    "summary": "daily.dev is a free, open source personalized news feed for developers, used by millions of developers worldwide. It aggregates articles, tutorials, release notes, and news from 2,000+ trusted sources across the web, and personalizes your feed based on the tags you follow (like #webdev, #ai, #devops…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16281,
+    "fetchedAt": "2026-09-23T03:16:20.881Z"
+  },
+  "open-seo": {
+    "summary": "OpenSEO is an SEO tool for the people. If tools like Semrush or Ahrefs are too expensive or bloated, OpenSEO is a pay-as-you-go alternative that you actually control.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3269,
+    "fetchedAt": "2026-09-23T03:16:20.881Z"
+  },
+  "immersive-translate": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 621,
+    "fetchedAt": "2026-09-23T03:16:20.881Z"
+  },
+  "screenity": {
+    "summary": "Screenity is a powerful privacy-friendly screen recorder and annotation tool to make better videos for work, education, and more. You can create stunning product demos, tutorials, presentations, or share feedback with your team - all for free.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6902,
+    "fetchedAt": "2026-09-23T03:16:21.649Z"
+  },
+  "harper": {
+    "summary": "Harper is an English grammar checker designed to be just right. I created it after years of dealing with the shortcomings of the competition.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3884,
+    "fetchedAt": "2026-09-23T03:16:21.649Z"
+  },
+  "codelf": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4047,
+    "fetchedAt": "2026-09-23T03:16:21.649Z"
+  },
+  "nanobrowser": {
+    "summary": "Nanobrowser is an open-source AI web automation tool that runs in your browser. A free alternative to OpenAI Operator with flexible LLM options and multi-agent system.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12238,
+    "fetchedAt": "2026-09-23T03:16:21.649Z"
+  },
+  "sponsorblock": {
+    "summary": "SponsorBlock is an open-source crowdsourced browser extension to skip sponsor segments in YouTube videos. Users submit when a sponsor happens from the extension, and the extension automatically skips sponsors it knows about. It also supports skipping other categories, such as intros, outros and remi…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5064,
+    "fetchedAt": "2026-09-23T03:16:21.649Z"
+  },
+  "bitwarden": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3194,
+    "fetchedAt": "2026-09-23T03:16:21.649Z"
+  },
+  "plasmo": {
+    "summary": "",
+    "docker": "",
+    "source": "",
+    "fetchedAt": "2026-09-23T03:16:24.251Z",
+    "missing": true
+  },
+  "buster": {
+    "summary": "Buster is a browser extension which helps you to solve difficult CAPTCHAs by completing reCAPTCHA audio challenges using speech recognition. Challenges are solved by clicking on the extension button at the bottom of the reCAPTCHA widget.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3898,
+    "fetchedAt": "2026-09-23T03:16:24.251Z"
+  },
+  "violentmonkey": {
+    "summary": "Violentmonkey provides userscripts support for browsers. It works on browsers with WebExtensions support.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2739,
+    "fetchedAt": "2026-09-23T03:16:24.251Z"
+  },
+  "google-indexing-script": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5453,
+    "fetchedAt": "2026-09-23T03:16:24.251Z"
+  },
+  "memex": {
+    "summary": "Memex is funded without VC money or selling shares. Instead we are funded with a model called \"Steward Ownership\". This model ensures that the company can never be sold and our investors are rewarded with a capped profit share. This way we will never be tempted by incentivizes to optimise our compan…",
+    "docker": "",
+    "source": "Readme.md",
+    "rawLength": 5284,
+    "fetchedAt": "2026-09-23T03:16:24.251Z"
+  },
+  "growchief": {
+    "summary": "Growchief is an open-source social media automation tool (aka social scraper). It allows you to create a workflow (step-by-step) for interacting with different accounts on social media, such as sending a connection request, following up with a message, and so on. We do not encourage spam (perfect fo…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4732,
+    "fetchedAt": "2026-09-23T03:16:24.251Z"
+  },
+  "openoutreach": {
+    "summary": "OpenOutreach is an orchestrator. The finding and the sending are two standalone programs, and this package installs both and hosts them in one process, one database and one onboarding:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16731,
+    "fetchedAt": "2026-09-23T03:16:26.394Z"
+  },
+  "awesome-seo": {
+    "summary": "SEOquake > Check the SEO-related information of the website, such as the number of external links, the number of indexes, and SEO Internal website issues, etc.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12006,
+    "fetchedAt": "2026-09-23T03:16:26.394Z"
+  },
+  "tab-session-manager": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2710,
+    "fetchedAt": "2026-09-23T03:16:26.394Z"
+  },
+  "brightbean-studio": {
+    "summary": "BrightBean Studio is an open-source, self-hostable social media management platform built for creators, agencies and SMBs. It does what Sendible, SocialPilot, or ContentStudio do, but free and without per-seat, per-channel, or per-workspace limits. Plan, compose, schedule, approve, publish, and moni…",
+    "docker": "docker compose up -d --build\ndocker compose exec app python manage.py createsuperuser",
+    "source": "README.md",
+    "rawLength": 47749,
+    "fetchedAt": "2026-09-23T03:16:26.394Z"
+  },
+  "web-archives": {
+    "summary": "Web Archives is an open source project made possible thanks to a community of awesome supporters. If you'd like to support the continued development of the extension, please consider contributing with Patreon, PayPal or Bitcoin.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3625,
+    "fetchedAt": "2026-09-23T03:16:26.394Z"
+  },
+  "advertools": {
+    "summary": "advertools is a Python package that can hopefully make that part of your job a little easier.",
+    "docker": "",
+    "source": "README.rst",
+    "rawLength": 14396,
+    "fetchedAt": "2026-09-23T03:16:26.394Z"
+  },
+  "openserp": {
+    "summary": "OpenSERP is a free, open-source SERP API and CLI for Google, Yandex, Baidu, Bing, DuckDuckGo, and Ecosia.",
+    "docker": "# Run the API server via prebuilt image\ndocker run --rm -p 127.0.0.1:7000:7000 karust/openserp:latest serve -a 0.0.0.0 -p 7000\n\n# Or\ndocker compose up",
+    "source": "README.md",
+    "rawLength": 17581,
+    "fetchedAt": "2026-09-23T03:16:28.191Z"
+  },
+  "linkinator": {
+    "summary": "Linkinator is a powerful broken link checker that crawls websites and validates all links automatically. Whether you're checking a live website, local HTML files, or markdown documentation, this link checker tool will find broken links, dead links, and invalid URLs quickly and efficiently.",
+    "docker": "docker run ghcr.io/justinbeckwith/linkinator LOCATION [ --arguments ]",
+    "source": "README.md",
+    "rawLength": 26933,
+    "fetchedAt": "2026-09-23T03:16:28.191Z"
+  },
+  "awesome-seo-tools": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 21839,
+    "fetchedAt": "2026-09-23T03:16:28.191Z"
+  },
+  "seo-audits-toolkit": {
+    "summary": "",
+    "docker": "git clone https://github.com/StanGirard/seo-audits-toolkit\ncd seo-audits-toolkit\ndocker-compose pull ## docker-compose build if you want to build it on your own\ndocker-compose --env-file .env-example up -d",
+    "source": "README.md",
+    "rawLength": 3915,
+    "fetchedAt": "2026-09-23T03:16:28.191Z"
+  },
+  "geolook": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20137,
+    "fetchedAt": "2026-09-23T03:16:28.191Z"
+  },
+  "trypost": {
+    "summary": "TryPost is open source on purpose. Self-host it and your posts, drafts, and metrics stay on your infrastructure, under a license that is yours to keep. No seat tax, no feature gates, no vendor deciding when to lock you out. Read every line, fork it, and ship it. When you would rather not run servers…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6744,
+    "fetchedAt": "2026-09-23T03:16:28.191Z"
+  },
+  "openpost": {
+    "summary": "OpenPost has integrations for Instagram, Facebook, LinkedIn, X, TikTok, YouTube, Threads, Bluesky, Mastodon, Pixelfed, PeerTube, Lemmy, PieFed, Discord, Pinterest, and Telegram. Mastodon and Pixelfed connect per instance over OAuth; PeerTube, Lemmy, and PieFed connect with instance credentials. Disc…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12618,
+    "fetchedAt": "2026-09-23T03:16:29.012Z"
+  },
+  "crawlseo": {
+    "summary": "CrawlSEO includes a Model Context Protocol server so AI agents can query your SEO data directly.",
+    "docker": "git clone https://github.com/crawlseo/crawlseo.git\ncd crawlseo\ncp .env.example .env.local\n# Add your Google OAuth credentials to .env.local\ndocker compose up -d db\nnpm install\nnpx prisma migrate dev --name init\nnpm run dev",
+    "source": "README.md",
+    "rawLength": 8051,
+    "fetchedAt": "2026-09-23T03:16:29.012Z"
+  },
+  "seo-prompt-master": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11025,
+    "fetchedAt": "2026-09-23T03:16:29.012Z"
+  },
+  "free-ai-scheduler": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6102,
+    "fetchedAt": "2026-09-23T03:16:29.012Z"
+  },
+  "curatedseotools": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 26957,
+    "fetchedAt": "2026-09-23T03:16:29.012Z"
+  },
+  "marketing-dashboard": {
+    "summary": "Marketing Dashboard brings CRM, outreach, content planning, analytics, approvals, automation schedules, and agent activity into one self-hosted interface. It runs on Next.js and SQLite, works without required hosted infrastructure, and can connect to OpenClaw and external marketing services when you…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7581,
+    "fetchedAt": "2026-09-23T03:16:29.012Z"
+  },
+  "backlink-pilot": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5703,
+    "fetchedAt": "2026-09-23T03:16:30.071Z"
+  },
+  "awesome-submitlist": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 162959,
+    "fetchedAt": "2026-09-23T03:16:30.071Z"
+  },
+  "awesome-saas-directories": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 49987,
+    "fetchedAt": "2026-09-23T03:16:30.071Z"
+  },
+  "saas-directories": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3999,
+    "fetchedAt": "2026-09-23T03:16:30.071Z"
+  },
+  "firecrawl": {
+    "summary": "Firecrawl is open source under the AGPL-3.0 license. The cloud version at firecrawl.dev includes additional features:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 25462,
+    "fetchedAt": "2026-09-23T03:49:03.331Z"
+  },
+  "ollama": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 19223,
+    "fetchedAt": "2026-09-23T03:49:03.333Z"
+  },
+  "sd-webui": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12924,
+    "fetchedAt": "2026-09-23T03:49:03.333Z"
+  },
+  "dify": {
+    "summary": "Dify is an open-source LLM app development platform. Its intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features (including Opik, Langfuse, and Arize Phoenix) and more, letting you quickly go from prototype to production. Here's a list of…",
+    "docker": "cd dify\ncd docker\ncp .env.example .env\ndocker compose up -d",
+    "source": "README.md",
+    "rawLength": 12150,
+    "fetchedAt": "2026-09-23T03:49:03.333Z"
+  },
+  "langflow": {
+    "summary": "Langflow Desktop is the easiest way to get started with Langflow. All dependencies are included, so you don't need to manage Python environments or install packages manually. Available for Windows and macOS.",
+    "docker": "docker run -p 7860:7860 langflowai/langflow:latest",
+    "source": "README.md",
+    "rawLength": 4697,
+    "fetchedAt": "2026-09-23T03:49:03.333Z"
+  },
+  "open-webui": {
+    "summary": "Open WebUI is a home for AI, a self-hosted AI platform that's extensible, feature-rich, user-friendly, and built to run entirely offline. With support for Ollama and OpenAI-compatible APIs, it gives you a powerful, provider-agnostic interface for both local and cloud-based models.",
+    "docker": "docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main",
+    "source": "README.md",
+    "rawLength": 18065,
+    "fetchedAt": "2026-09-23T03:49:03.333Z"
+  },
+  "comfyui": {
+    "summary": "ComfyUI follows a weekly release cycle targeting Monday but this regularly changes because of model releases or large changes to the codebase. There are three interconnected repositories:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 28915,
+    "fetchedAt": "2026-09-23T03:49:18.394Z"
+  },
+  "llama-cpp": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7351,
+    "fetchedAt": "2026-09-23T03:49:18.394Z"
+  },
+  "whisper": {
+    "summary": "Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8244,
+    "fetchedAt": "2026-09-23T03:49:18.394Z"
+  },
+  "vllm": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5706,
+    "fetchedAt": "2026-09-23T03:49:18.394Z"
+  },
+  "ragflow": {
+    "summary": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs. It offers a streamlined RAG workflow adaptable to enterprises of any scale. Powered by a converged context engine and pre-buil…",
+    "docker": "cd ragflow/docker\n\n   git checkout v0.27.2\n   # Optional: use a stable tag (see releases: https://github.com/infiniflow/ragflow/releases)\n   # This step ensures the **entrypoint.sh** file in the code matches the Docker image version.\n\n   # Use CPU for DeepDoc tasks:\n   docker compose -f docker-compose.yml up -d\n\n   # To use GPU to accelerate DeepDoc tasks:\n   # sed -i '1i DEVICE=gpu' .env\n   # docker compose -f docker-compose.yml up -d",
+    "source": "README.md",
+    "rawLength": 17492,
+    "fetchedAt": "2026-09-23T03:49:18.394Z"
+  },
+  "openhands": {
+    "summary": "OpenHands Agent Canvas turns your coding agents into a self-hosted, always-on engineering team. It's a developer control center for starting conversations and automating everyday tasks — like generating reports that publish to Slack or automatically decomposing GitHub issues into tasks.",
+    "docker": "export PROJECTS_PATH=\"$HOME/projects\"  # directory containing your project folders\nmkdir -p \"$PROJECTS_PATH\" \"$HOME/.openhands\"\n\ndocker run -it --rm \\\n  -p 8000:8000 \\\n  -v \"$HOME/.openhands:/home/openhands/.openhands\" \\\n  -v \"${PROJECTS_PATH}:/projects\" \\\n  ghcr.io/openhands/agent-canvas:1.22.0 # x-release-please-version",
+    "source": "README.md",
+    "rawLength": 10116,
+    "fetchedAt": "2026-09-23T03:49:30.913Z"
+  },
+  "lobe-chat": {
+    "summary": "LobeHub is a work-and-lifestyle space to find, build, and collaborate with agent teammates that grow with you. In LobeHub, we treat Agents as the unit of work, providing an infrastructure where humans and agents co-evolve.",
+    "docker": "docker compose up -d",
+    "source": "README.md",
+    "rawLength": 39014,
+    "fetchedAt": "2026-09-23T03:49:30.913Z"
+  },
+  "obs-studio": {
+    "summary": "OBS Studio is software designed for capturing, compositing, encoding, recording, and streaming video content, efficiently.",
+    "docker": "",
+    "source": "README.rst",
+    "rawLength": 3139,
+    "fetchedAt": "2026-09-23T03:49:30.913Z"
+  },
+  "anything-llm": {
+    "summary": "AnythingLLM is the all-in-one AI application that lets you build a private, fully-featured ChatGPT—without compromises. Connect your favorite local or cloud LLM, ingest your documents, and start chatting in minutes. Out of the box you get built-in agents, multi-user support, vector databases, and do…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 26457,
+    "fetchedAt": "2026-09-23T03:49:30.913Z"
+  },
+  "ffmpeg": {
+    "summary": "FFmpeg is a collection of libraries and tools to process multimedia content such as audio, video, subtitles and related metadata.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1798,
+    "fetchedAt": "2026-09-23T03:49:30.913Z"
+  },
+  "remotion": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4158,
+    "fetchedAt": "2026-09-23T03:49:30.913Z"
+  },
+  "whisper-cpp": {
+    "summary": "whisper.cpp supports POWER architectures and includes code which significantly speeds operation on Linux running on POWER9/10, making it capable of faster-than-realtime transcription on underclocked Raptor Talos II. Ensure you have a BLAS package installed, and replace the standard cmake setup with:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 40980,
+    "fetchedAt": "2026-09-23T03:49:36.755Z"
+  },
+  "fooocus": {
+    "summary": "",
+    "docker": "",
+    "source": "readme.md",
+    "rawLength": 33281,
+    "fetchedAt": "2026-09-23T03:49:36.755Z"
+  },
+  "mastodon": {
+    "summary": "Mastodon is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones. On Mastodon, users can publish anything they want: links, pictures, text, and video. All Mastodon servers are interoperable as a federated network (users on one server can…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5831,
+    "fetchedAt": "2026-09-23T03:49:36.755Z"
+  },
+  "upscayl": {
+    "summary": "Upscayl should be available on the software listings of most Linux operating systems. Your distro's Store app might also support the Flatpak or Snap version.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12895,
+    "fetchedAt": "2026-09-23T03:49:36.755Z"
+  },
+  "localai": {
+    "summary": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+    "docker": "docker run -ti --name local-ai -p 8080:8080 localai/localai:latest",
+    "source": "README.md",
+    "rawLength": 23671,
+    "fetchedAt": "2026-09-23T03:49:36.755Z"
+  },
+  "aider": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12328,
+    "fetchedAt": "2026-09-23T03:49:36.755Z"
+  },
+  "discourse": {
+    "summary": "Discourse is a 100% open-source community platform for those who want complete control over how and where their site is run.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7486,
+    "fetchedAt": "2026-09-23T03:49:40.870Z"
+  },
+  "rsshub": {
+    "summary": "RSSHub is the world's largest RSS network, consisting of over 5,000 global instances.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6375,
+    "fetchedAt": "2026-09-23T03:49:40.870Z"
+  },
+  "librechat": {
+    "summary": "LibreChat is a self-hosted AI chat platform that unifies all major AI providers in a single, privacy-focused interface.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15999,
+    "fetchedAt": "2026-09-23T03:49:40.870Z"
+  },
+  "jan": {
+    "summary": "Jan is bringing the best of open-source AI in an easy-to-use product. Download and run LLMs with full control and privacy.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7164,
+    "fetchedAt": "2026-09-23T03:49:40.870Z"
+  },
+  "lossless-cut": {
+    "summary": "LosslessCut is maintained by me alone and will always remain free and open source. If it's useful to you, consider supporting my work. Alternatively donate to the FFmpeg team because they are doing the world a huge favor.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12421,
+    "fetchedAt": "2026-09-23T03:49:40.870Z"
+  },
+  "gfpgan": {
+    "summary": "GFPGAN aims at developing a Practical Algorithm for Real-world Face Restoration. It leverages rich and diverse priors encapsulated in a pretrained face GAN (e.g., StyleGAN2) for blind face restoration.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11710,
+    "fetchedAt": "2026-09-23T03:49:40.870Z"
+  },
+  "perplexica": {
+    "summary": "",
+    "docker": "docker run -d -p 3000:3000 -v vane-data:/home/vane/data --name vane itzcrazykns1337/vane:latest",
+    "source": "README.md",
+    "rawLength": 12926,
+    "fetchedAt": "2026-09-23T03:49:43.867Z"
+  },
+  "real-esrgan": {
+    "summary": "Real-ESRGAN aims at developing Practical Algorithms for General Image/Video Restoration. We extend the powerful ESRGAN to a practical restoration application (namely, Real-ESRGAN), which is trained with pure synthetic data.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16358,
+    "fetchedAt": "2026-09-23T03:49:43.867Z"
+  },
+  "continue": {
+    "summary": "Continue is a coding agent available as a CLI, VS Code extension, and JetBrains plugin.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2790,
+    "fetchedAt": "2026-09-23T03:49:43.867Z"
+  },
+  "diffusers": {
+    "summary": "🤗 Diffusers is the go-to library for state-of-the-art pretrained diffusion models for generating images, audio, and even 3D structures of molecules. Whether you're looking for a simple inference solution or training your own diffusion models, 🤗 Diffusers is a modular toolbox that supports both. Ou…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14580,
+    "fetchedAt": "2026-09-23T03:49:43.867Z"
+  },
+  "sharp": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3162,
+    "fetchedAt": "2026-09-23T03:49:43.867Z"
+  },
+  "rembg": {
+    "summary": "Rembg has three ways to turn a mask into a cutout. They differ only in how they treat the soft pixels along an edge — hair, fur, fabric, motion blur.",
+    "docker": "docker run -v .:/data danielgatis/rembg i /data/input.png /data/output.png",
+    "source": "README.md",
+    "rawLength": 23123,
+    "fetchedAt": "2026-09-23T03:49:43.867Z"
+  },
+  "dub": {
+    "summary": "Dub is the modern, open-source link attribution platform for short links, conversion tracking, and affiliate programs.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4881,
+    "fetchedAt": "2026-09-23T03:49:56.264Z"
+  },
+  "handbrake": {
+    "summary": "HandBrake is an open-source video transcoder available for Linux, Mac, and Windows, licensed under the GNU General Public License (GPL) Version 2.",
+    "docker": "",
+    "source": "README.markdown",
+    "rawLength": 2915,
+    "fetchedAt": "2026-09-23T03:49:56.264Z"
+  },
+  "iopaint": {
+    "summary": "IOPaint provides a convenient webui for using the latest AI models to edit your images. You can install and start IOPaint easily by running following command:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6748,
+    "fetchedAt": "2026-09-23T03:49:56.264Z"
+  },
+  "gallery-dl": {
+    "summary": "gallery-dl is a command-line program to download image galleries and collections from several image hosting sites (see Supported Sites ). It is a cross-platform tool with many command-line and configuration options, as well as powerful file-naming capabilities .",
+    "docker": "",
+    "source": "README.rst",
+    "rawLength": 14375,
+    "fetchedAt": "2026-09-23T03:49:56.264Z"
+  },
+  "motion-canvas": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5248,
+    "fetchedAt": "2026-09-23T03:49:56.264Z"
+  },
+  "bluesky": {
+    "summary": "Bluesky is an open social network built on the AT Protocol, a flexible technology that will never lock developers out of the ecosystems that they help build. With atproto, third-party integration can be as seamless as first-party through custom feeds, federated services, clients, and more.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5336,
+    "fetchedAt": "2026-09-23T03:49:59.482Z"
+  },
+  "codeformer": {
+    "summary": "CodeFormer has been widely adopted and deployed across a broad range (>20) of online applications, platforms, API services, and independent websites, and has also been integrated into many open-source projects and toolkits.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11931,
+    "fetchedAt": "2026-09-23T03:49:59.482Z"
+  },
+  "imagemagick": {
+    "summary": "ImageMagick® is a free and open-source software suite, used for editing and manipulating digital images. It can be used to create, edit, compose, or convert bitmap images, and supports a wide range of file formats, including JPEG, PNG, GIF, TIFF, and PDF.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11880,
+    "fetchedAt": "2026-09-23T03:49:59.482Z"
+  },
+  "flarum": {
+    "summary": "Flarum is a delightfully simple discussion platform for your website. It's fast and easy to use, with all the features you need to run a successful community. It is designed to be:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2329,
+    "fetchedAt": "2026-09-23T03:49:59.482Z"
+  },
+  "peertube": {
+    "summary": "PeerTube is a free, decentralized and federated video platform developed as an alternative to other platforms that centralize our data and attention, such as YouTube, Dailymotion or Vimeo. :clapper:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9774,
+    "fetchedAt": "2026-09-23T03:49:59.482Z"
+  },
+  "shotcut": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2838,
+    "fetchedAt": "2026-09-23T03:49:59.482Z"
+  },
+  "moviepy": {
+    "summary": "MoviePy (online documentation here) is a Python library for video editing: cuts, concatenations, title insertions, video compositing (a.k.a. non-linear editing), video processing, and creation of custom effects.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5004,
+    "fetchedAt": "2026-09-23T03:50:15.145Z"
+  },
+  "jimp": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 45107,
+    "fetchedAt": "2026-09-23T03:50:15.145Z"
+  },
+  "lemmy": {
+    "summary": "Lemmy is similar to sites like Reddit, Lobste.rs, or Hacker News: you subscribe to forums you're interested in, post links and discussions, then vote, and comment on them. Behind the scenes, it is very different; anyone can easily run a server, and all these servers are federated (think email), and…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8163,
+    "fetchedAt": "2026-09-23T03:50:15.145Z"
+  },
+  "subtitleedit": {
+    "summary": "Subtitle Edit is an offline, open-source application. It does not collect, store, transmit, or analyze the content of your subtitle files, media files, or any associated metadata — not for analytics, not for model training, and not for any other secondary purpose, now or in the future.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3377,
+    "fetchedAt": "2026-09-23T03:50:15.145Z"
+  },
+  "instaloader": {
+    "summary": "Instaloader can also be used to download private profiles. To do so, invoke it with",
+    "docker": "",
+    "source": "README.rst",
+    "rawLength": 5502,
+    "fetchedAt": "2026-09-23T03:50:15.145Z"
+  },
+  "video-subtitle-remover": {
+    "summary": "",
+    "docker": "# Nvidia 10 20 30系显卡\n  docker run -it --name vsr --gpus all eritpchy/video-subtitle-remover:1.4.0-cuda11.8 python backend/main.py -i test/test.mp4 -o test/test_no_sub.mp4\n\n  # Nvidia 40系显卡\n  docker run -it --name vsr --gpus all eritpchy/video-subtitle-remover:1.4.0-cuda12.6 python backend/main.py -i test/test.mp4 -o test/test_no_sub.mp4\n\n  # Nvidia 50系显卡\n  docker run -it --name vsr --gpus all eritpchy/video-subtitle-remover:1.4.0-cuda12.8 python backend/main.py -i test/test.mp4 -o test/test_no_sub.mp4\n\n  # AMD / Intel 独显 集显\n  docker run -it --name vsr --gpus all eritpchy/video-subtitle-remover:1.4.0-directml python backend/main.py -i test/test.mp4 -o test/test_no_sub.mp4\n\n  # CPU\n  docker run -it --name vsr --gpus all eritpchy/video-subtitle-remover:1.4.0-cpu python backend/main.py -i test/test.mp4 -o test/test_no_sub.mp4\n\n  # 导出视频\n  docker cp vsr:/vsr/test/test_no_sub.mp4 ./",
+    "source": "README.md",
+    "rawLength": 8975,
+    "fetchedAt": "2026-09-23T03:50:18.615Z"
+  },
+  "libvips": {
+    "summary": "libvips is a demand-driven, horizontally threaded image processing library. Compared to similar libraries, libvips runs quickly and uses little memory. libvips is licensed under the LGPL-2.1-or-later.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10109,
+    "fetchedAt": "2026-09-23T03:50:18.615Z"
+  },
+  "owncast": {
+    "summary": "Owncast is an open source, self-hosted, decentralized, single user live video streaming and chat server for running your own live streams similar in style to the large mainstream options. It offers complete ownership over your content, interface, moderation and audience. Visit the demo for an exampl…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8905,
+    "fetchedAt": "2026-09-23T03:50:18.615Z"
+  },
+  "misskey": {
+    "summary": "🌎 Misskey is an open source, federated social media platform that's free forever! 🚀",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3508,
+    "fetchedAt": "2026-09-23T03:50:18.615Z"
+  },
+  "thumbor": {
+    "summary": "thumbor is a smart imaging service that enables on-demand cropping, resizing, applying filters and optimizing images.",
+    "docker": "docker run -p 8888:8888 ghcr.io/thumbor/thumbor:latest",
+    "source": "README.md",
+    "rawLength": 7781,
+    "fetchedAt": "2026-09-23T03:50:18.615Z"
+  },
+  "pixelorama": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7770,
+    "fetchedAt": "2026-09-23T03:50:18.615Z"
+  },
+  "backgroundremover": {
+    "summary": "BackgroundRemover automatically detects and uses your GPU if available, which provides significant speed improvements (typically 5-10x faster than CPU).",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 21753,
+    "fetchedAt": "2026-09-23T03:50:21.307Z"
+  },
+  "opentoonz": {
+    "summary": "OpenToonz is a 2D animation software published by DWANGO. It is based on Toonz Studio Ghibli Version, originally developed in Italy by Digital Video, Inc., and customized by Studio Ghibli over many years of production.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3684,
+    "fetchedAt": "2026-09-23T03:50:21.307Z"
+  },
+  "pixelfed": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4258,
+    "fetchedAt": "2026-09-23T03:50:21.307Z"
+  },
+  "instagrapi": {
+    "summary": "instagrapi combines public web and private mobile API flows, supports session persistence and challenge handling, and covers the main automation primitives for users, media, stories, direct messages, notes, locations, comments, insights, and uploads.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16704,
+    "fetchedAt": "2026-09-23T03:50:21.307Z"
+  },
+  "tiktok-api": {
+    "summary": "",
+    "docker": "docker pull mcr.microsoft.com/playwright:focal\ndocker build . -t tiktokapi:latest\ndocker run -v TikTokApi --rm tiktokapi:latest python3 your_script.py",
+    "source": "README.md",
+    "rawLength": 8906,
+    "fetchedAt": "2026-09-23T03:50:21.307Z"
+  },
+  "openshot": {
+    "summary": "OpenShot Video Editor is an award-winning free and open-source video editor for Linux, Mac, and Windows, and is dedicated to delivering high quality video editing and animation solutions to the world.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6308,
+    "fetchedAt": "2026-09-23T03:50:21.307Z"
+  },
+  "inpaint-web": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2861,
+    "fetchedAt": "2026-09-23T03:50:26.088Z"
+  },
+  "kdenlive": {
+    "summary": "Kdenlive is a powerful, free and open-source video editor that brings professional-grade video editing capabilities to everyone. Whether you're creating a simple family video or working on a complex project, Kdenlive provides the tools you need to bring your vision to life.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2720,
+    "fetchedAt": "2026-09-23T03:50:26.089Z"
+  },
+  "natron": {
+    "summary": "Natron is a free open-source (GPLv2 license) video compositing software, similar in functionality to Adobe After Effects, Nuke by The Foundry, or Blackmagic Fusion.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12600,
+    "fetchedAt": "2026-09-23T03:50:26.089Z"
+  },
+  "auto-editor": {
+    "summary": "Auto-Editor is a command line application for automatically editing video and audio by analyzing a variety of methods, most notably audio loudness.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4467,
+    "fetchedAt": "2026-09-23T03:50:26.089Z"
+  },
+  "watermark-removal": {
+    "summary": "",
+    "docker": "docker run --rm -v '<path_to_model_dir>:/repo/model' -v '<path_to_input_dir>:/input' -v '<path_to_output_dir>:/output' watermark-removal --checkpoint_dir /repo/model --image '/input/<input_image_file>' --output '/output/<output_image_file>' --watermark_type istock",
+    "source": "README.md",
+    "rawLength": 6019,
+    "fetchedAt": "2026-09-23T03:50:26.089Z"
+  },
+  "twikit": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3477,
+    "fetchedAt": "2026-09-23T03:50:26.089Z"
+  },
+  "linkstack": {
+    "summary": "LinkStack is a unique platform that provides an efficient solution for managing and sharing links online. Our platform offers a website similar to Linktree, which allows users to overcome the limitation of only being able to add one link on social media platforms.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14509,
+    "fetchedAt": "2026-09-23T03:50:29.124Z"
+  },
+  "mixpost": {
+    "summary": "Mixpost is licensed under the MIT License, sponsored and supported by Inovector.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5675,
+    "fetchedAt": "2026-09-23T03:50:29.124Z"
+  },
+  "photodemon": {
+    "summary": "PhotoDemon provides a comprehensive photo editor in a 22 MB download. It runs on any Windows PC (XP through Win 11) and it does not require installation. You can run it from a USB stick, SD card, or portable drive.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7144,
+    "fetchedAt": "2026-09-23T03:50:29.124Z"
+  },
+  "socialify": {
+    "summary": "Socialify is under active development. Design and project domain are subject to change without notice.",
+    "docker": "# Using docker-compose\ndocker-compose up -d\n\n# Or using docker directly\ndocker build -t socialify .\ndocker run -p 3000:3000 --env-file .env socialify",
+    "source": "README.md",
+    "rawLength": 7549,
+    "fetchedAt": "2026-09-23T03:50:29.124Z"
+  },
+  "watermarkremover-ai": {
+    "summary": "WatermarkRemover-AI is a cutting-edge application that leverages AI models for precise watermark detection and seamless removal. Perfect for removing watermarks from AI-generated videos like Sora, Sora 2, Runway, and others.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6188,
+    "fetchedAt": "2026-09-23T03:50:29.124Z"
+  },
+  "watermark-removal-pytorch": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10126,
+    "fetchedAt": "2026-09-23T03:50:29.124Z"
+  },
+  "watermark-js-plus": {
+    "summary": "watermark-js-plus is a canvas-based TypeScript library for adding watermarks in the browser. It works with vanilla JavaScript and frontend frameworks without requiring a framework-specific adapter.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9991,
+    "fetchedAt": "2026-09-23T03:50:31.799Z"
+  },
+  "stable-signature": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9204,
+    "fetchedAt": "2026-09-23T03:50:31.799Z"
   }
 }

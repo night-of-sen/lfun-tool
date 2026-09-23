@@ -313,3 +313,32 @@ html[data-theme="dark"] .diff-line.del{color:#fca5a5}
   body.sidebar-open .sidebar-backdrop{opacity:1;pointer-events:auto}
   .menu-label{display:inline}
 }
+/* ===== 第二批在线工具 ===== */
+.md-preview{background:var(--bg);border:1px solid var(--border);border-radius:9px;padding:14px 18px;overflow-y:auto;max-height:540px;font-size:14px;line-height:1.75}
+.md-preview h1,.md-preview h2,.md-preview h3{margin:18px 0 8px;line-height:1.35}
+.md-preview h1{font-size:22px}.md-preview h2{font-size:18px}.md-preview h3{font-size:16px}
+.md-preview p:first-child,.md-preview h1:first-child,.md-preview h2:first-child{margin-top:0}
+.md-preview p{margin:0 0 12px}
+.md-preview ul,.md-preview ol{margin:0 0 12px;padding-left:22px}
+.md-preview li{margin-bottom:4px}
+.md-preview li.task{list-style:none;margin-left:-20px}
+.md-preview li.task input{margin-right:6px}
+.md-preview code{background:var(--panel);border:1px solid var(--border);border-radius:4px;padding:1px 5px;font-size:12.5px;font-family:ui-monospace,monospace}
+.md-preview pre{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:12px;overflow-x:auto;margin:0 0 12px}
+.md-preview pre code{background:none;border:0;padding:0}
+.md-preview blockquote{margin:0 0 12px;padding:6px 14px;border-left:3px solid var(--accent);color:var(--muted)}
+.md-preview table{width:100%;border-collapse:collapse;margin:0 0 12px;font-size:13px}
+.md-preview th,.md-preview td{border:1px solid var(--border);padding:6px 10px;text-align:left}
+.md-preview th{background:var(--panel)}
+.md-preview hr{border:0;border-top:1px solid var(--border);margin:16px 0}
+.md-preview a{color:var(--accent)}
+.md-preview img{max-width:100%;border-radius:6px}
+.re-row{gap:0}
+.re-slash{font-family:ui-monospace,monospace;color:var(--muted);font-size:15px;padding:0 2px}
+.re-hl{margin:10px 0;padding:12px 14px;background:var(--bg);border:1px solid var(--border);border-radius:9px;font-family:ui-monospace,monospace;font-size:13px;line-height:1.7;white-space:pre-wrap;word-break:break-all;max-height:260px;overflow-y:auto}
+.re-hl mark{background:#fde68a;color:#111;border-radius:3px;padding:0 1px}
+html[data-theme="dark"] .re-hl mark{background:#a16207;color:#fff}
+.app-item.pre{display:block}
+.app-item.pre .app-k{display:block;margin-bottom:6px}
+.app-pre{margin:0;white-space:pre-wrap;word-break:break-all;font-family:ui-monospace,monospace;font-size:12.5px;line-height:1.65}
+.app-hint{color:var(--muted);font-size:13px}

@@ -52,9 +52,10 @@
 | `repo` | `owner/repo`，必须真实存在 |
 | `homepage` | `null` = 从 GitHub 自动读取；`""` = 确认没有官网；其他 = 写死 |
 | `category` | 见下方分类表 |
-| `usage` | `online` `selfhost` `desktop` `cli` `lib`，可多选 |
+| `usage` | `online` `selfhost` `desktop` `cli` `extension` `lib`，可多选 |
 | `platforms` | `windows` `macos` `linux` `android` `ios`；Web 服务留空数组 |
-| `caution` | 留空，或填 `隐私` / `版权` / `系统修改`（会显示橙色提醒角标） |
+| `caution` | 留空，或填 `隐私` / `版权` / `系统修改` / `许可`（会显示橙色提醒角标） |
+| `archived` | 可选。仓库已归档但仍有参考价值时填 `true`，页面会显示「已归档」角标 |
 | `scene` | 留空 = 通用工具；`overseas` = 出海辅助 |
 | `desc` | **一句中文**，说清楚能干什么。不要照抄 README |
 | `tags` | 数组，不是逗号分隔的字符串 |
@@ -62,9 +63,9 @@
 
 **分类取值**
 
-通用工具：`diagram` `image` `doc` `dev` `design` `utility` `fun` `system` `download` `capture` `media` `writing` `filesearch` `security`
+通用工具：`diagram` `image` `doc` `dev` `design` `utility` `fun` `system` `download` `capture` `media` `writing` `filesearch` `security` `watermark` `video` `social` `ai`
 
-出海辅助：`analytics` `experiment` `i18n` `payment` `commerce` `email` `notify` `support` `crm` `auth` `compliance` `sitesearch` `finance`
+出海辅助：`analytics` `experiment` `i18n` `payment` `commerce` `email` `notify` `support` `crm` `auth` `compliance` `sitesearch` `finance` `promo`
 
 **第二步：如果有中文俗称，同步加别名**
 

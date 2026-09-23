@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IOPaint · 水印处理 · 开源工具集</title>
+<meta name="description" content="图片修复与去水印：涂抹掉杂物、路人、水印，模型本地跑不传图 ⭐ 23.3k · Python · Apache-2.0">
+<meta name="theme-color" content="#2563eb">
+<link rel="canonical" href="https://tools.lfun.cloud/tool/iopaint/">
+<link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/tool/iopaint/">
+<link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/en/tool/iopaint/">
+<link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/iopaint/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="IOPaint · 水印处理 · 开源工具集">
+<meta property="og:description" content="图片修复与去水印：涂抹掉杂物、路人、水印，模型本地跑不传图 ⭐ 23.3k · Python · Apache-2.0">
+<meta property="og:url" content="https://tools.lfun.cloud/tool/iopaint/">
+<meta property="og:image" content="https://tools.lfun.cloud/og.png">
+<meta property="og:site_name" content="开源工具集">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"IOPaint","description":"图片修复与去水印：涂抹掉杂物、路人、水印，模型本地跑不传图","url":"https://tools.lfun.cloud/tool/iopaint/","inLanguage":"zh-CN","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","codeRepository":"https://github.com/Sanster/IOPaint","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"Sanster"},"keywords":"去水印, 图片修复, 隐私"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"全部工具","item":"https://tools.lfun.cloud/"},{"@type":"ListItem","position":2,"name":"水印处理","item":"https://tools.lfun.cloud/category/watermark/"},{"@type":"ListItem","position":3,"name":"IOPaint","item":"https://tools.lfun.cloud/tool/iopaint/"}]}</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧰</text></svg>">
+<link rel="stylesheet" href="/styles.css?v=67b0715d">
+<script>window.__LANG__="zh";window.__I18N__={"htmlLang":"zh-CN","siteName":"开源工具集","brandSub":"标注清楚<strong>怎么用<\/strong>：在线即用 / 可自托管 / 桌面应用 / 命令行","homeTitle":"开源工具集 · {n} 个精选 GitHub 开源项目","homeDesc":"{n} 个精选 GitHub 开源项目，标注清楚怎么用：在线即用、可自托管、桌面应用、命令行。含出海辅助专题：多语言、合规、支付、邮件、客服。","searchPlaceholder":"搜索工具名、用途、标签…  按 / 聚焦","scenes":{"all":"全部","general":"通用工具","overseas":"🌏 出海辅助"},"usages":{"online":"🌐 在线即用","desktop":"💻 桌面应用","cli":"⌨️ 命令行","selfhost":"🐳 可自托管","lib":"📦 开发库","list":"📚 清单资源","extension":"🧩 浏览器扩展"},"categories":{"watermark":"水印处理","video":"视频制作","social":"社媒运营","ai":"AI 工具","diagram":"白板绘图","image":"图片图形","doc":"文档 PDF","dev":"开发工具","design":"设计","utility":"效率工具","fun":"有趣好玩","system":"系统增强","download":"下载工具","capture":"截图录屏","media":"音乐媒体","writing":"写作笔记","filesearch":"搜索与文件","security":"安全隐私","analytics":"数据分析","experiment":"A/B 实验","i18n":"多语言本地化","payment":"支付计费","commerce":"电商建站","email":"邮件触达","notify":"通知短信","support":"客服工单","crm":"CRM 销售","auth":"认证授权","compliance":"合规签署","sitesearch":"站内搜索","finance":"财务发票","promo":"推广获客"},"allCategories":"全部分类","allUsage":"全部","sortStars":"按星数排序","sortName":"按名称排序","sortUpdated":"按最近更新","btnOnline":"在线使用","btnDeploy":"部署","btnDownload":"下载","btnDocs":"文档","btnAddon":"获取扩展","btnRepo":"仓库","btnNoOnline":"暂无在线版","archived":"已归档","cautions":{"隐私":"隐私","版权":"版权","系统修改":"系统修改","许可":"许可待确认"},"countTemplate":"显示 {n} / {total} 个工具","emptyFav":"还没有收藏任何工具","emptyMatch":"没有匹配的工具","clearFilters":"清除筛选条件","favTitle":"收藏","themeTitle":"切换主题","favOnly":"只看收藏","backToAll":"全部工具","related":"同类工具","detailTitle":"详情","specStars":"星数","specLang":"语言","specLicense":"许可证","specUpdated":"最近更新","specCategory":"分类","specScene":"场景","noLicense":"未标注","footerNote":"星数会持续变化，由 GitHub Actions 每周自动同步。","langSwitch":"English","langSwitchHref":"/en/","categoriesHeading":"分类总览","catPageSub":"共 {n} 个精选开源项目","catPageLink":"查看分类","readmeHeading":"项目简介（摘自 README）","aboutLabel":"关于本站","disclaimerLabel":"免责声明","onlineHeading":"在线工具","onlineSub":"浏览器里直接可用的小工具，数据不上传服务器","privacyNote":"🔒 全部在浏览器本地运行，文件和内容不会上传到任何服务器。","aboutThisTool":"关于这个工具","sideScene":"场景","sideUsage":"使用方式","sideCategory":"分类","sideSort":"排序","menuToggle":"筛选菜单","filterHint":"筛选条件"};</script>
+</head>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="/">
+      <span class="brand-mark">🧰</span>
+      <div>
+        <span class="brand-name">开源工具集</span>
+        <p class="brand-sub">标注清楚<strong>怎么用</strong>：在线即用 / 可自托管 / 桌面应用 / 命令行</p>
+      </div>
+    </a>
+    <div class="topbar-actions">
+
+      <a class="btn-ghost" href="/en/">English</a>
+      <button id="theme-toggle" class="btn-ghost" title="切换主题">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs">
+    <a href="/">全部工具</a>
+    <span>/</span><a href="/category/watermark/">水印处理</a>
+    <span>/</span><strong>IOPaint</strong>
+  </nav>
+  <article class="detail">
+    <header class="detail-head">
+      <img class="icon icon-lg" src="https://github.com/Sanster.png?size=160" alt="" data-initial="I" onerror="iconFail(this)">
+      <div>
+        <h1 class="detail-name">IOPaint<span class="badge">已归档</span></h1>
+        <div class="card-repo">Sanster/IOPaint</div>
+      </div>
+      <button class="fav fav-lg" data-fav="iopaint" title="收藏">☆</button>
+    </header>
+    <div class="tier-banner tier-install">
+      <strong>需下载安装</strong>
+      <span>下载安装到本机使用，不需要服务器。</span>
+    </div>
+    <p class="detail-desc">图片修复与去水印：涂抹掉杂物、路人、水印，模型本地跑不传图</p>
+    <div class="tags"><span class="tag">去水印</span><span class="tag">图片修复</span><span class="tag">隐私</span></div>
+    <figure class="repo-card-wrap"><img class="repo-card" src="https://s0.wp.com/mshots/v1/https%3A%2F%2Fwww.iopaint.com?w=1200" alt="IOPaint 网站截图" width="1200" height="675" loading="lazy" referrerpolicy="no-referrer"></figure>
+
+    <div class="readme"><h2>项目简介（摘自 README）</h2><p>IOPaint provides a convenient webui for using the latest AI models to edit your images. You can install and start IOPaint easily by running following command:</p></div>
+    <dl class="specs">
+    <div class="spec"><dt>星数</dt><dd>★ 23.3k</dd></div>
+    <div class="spec"><dt>语言</dt><dd>Python</dd></div>
+    <div class="spec"><dt>许可证</dt><dd>Apache-2.0</dd></div>
+    <div class="spec"><dt>最近更新</dt><dd>2025-04-29</dd></div>
+    <div class="spec"><dt>分类</dt><dd>水印处理</dd></div>
+    <div class="spec"><dt>场景</dt><dd>通用工具</dd></div>
+    </dl>
+    <div class="detail-actions">
+      <a class="btn-primary btn-lg" href="https://github.com/Sanster/IOPaint/releases" target="_blank" rel="noopener">下载</a>
+      <a class="btn-secondary btn-lg" href="https://github.com/Sanster/IOPaint" target="_blank" rel="noopener">仓库</a>
+    </div>
+  </article>
+  <section class="related">
+    <h2>同类工具</h2>
+    <div class="grid">
+<article class="card" data-id="imagemagick" data-scene="general"
+  data-usage="cli lib" data-category="watermark"
+  data-stars="17493" data-name="ImageMagick"
+  data-updated="2026-09-23" data-search="imagemagick imagemagick/imagemagick 老牌图像处理命令行工具箱，批量加水印、缩放、转格式一条命令搞定 imagemagick is a free, open-source software suite for creating, editing, converting, and displaying images. it supports 200+ formats and offers powerful command-line tools and apis for automation, scripting, and integration across platforms. c 命令行 批量处理 command line batch processing 图片命令行 imagemagick">
+  <button class="fav" data-fav="imagemagick" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/ImageMagick.png?size=96" alt="" loading="lazy"
+         data-initial="I" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/imagemagick/">ImageMagick</a></h3>
+      <div class="card-repo">ImageMagick/ImageMagick</div>
+      <div class="tier tier-install">需下载安装</div>
+    </div>
+  </div>
+  <p class="card-desc">老牌图像处理命令行工具箱，批量加水印、缩放、转格式一条命令搞定</p>
+  <div class="tags"><span class="tag">命令行</span><span class="tag">批量处理</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">17.5k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#555555"></i>C</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/ImageMagick/ImageMagick/releases" target="_blank" rel="noopener">下载</a><a class="btn-secondary" href="https://github.com/ImageMagick/ImageMagick" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="jimp" data-scene="general"
+  data-usage="lib" data-category="watermark"
+  data-stars="14661" data-name="Jimp"
+  data-updated="2026-04-07" data-search="jimp jimp-dev/jimp 纯 js 图像处理库，加水印、裁剪、调色，node 和浏览器都能跑 an image processing library written entirely in javascript for node, with zero external or native dependencies. typescript 开发者 批量处理 developer batch processing js图像处理">
+  <button class="fav" data-fav="jimp" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/jimp-dev.png?size=96" alt="" loading="lazy"
+         data-initial="J" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/jimp/">Jimp</a></h3>
+      <div class="card-repo">jimp-dev/jimp</div>
+      <div class="tier tier-library">写代码时引用</div>
+    </div>
+  </div>
+  <p class="card-desc">纯 JS 图像处理库，加水印、裁剪、调色，Node 和浏览器都能跑</p>
+  <div class="tags"><span class="tag">开发者</span><span class="tag">批量处理</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">14.7k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3178c6"></i>TypeScript</span>
+    <span class="actions"><a class="btn-primary" href="https://jimp-dev.github.io/jimp/" target="_blank" rel="noopener">文档</a><a class="btn-secondary" href="https://github.com/jimp-dev/jimp" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="video-subtitle-remover" data-scene="general"
+  data-usage="selfhost cli" data-category="watermark"
+  data-stars="13028" data-name="Video Subtitle Remover"
+  data-updated="2026-06-30" data-search="video subtitle remover yaofanguk/video-subtitle-remover 用 ai 抹掉视频里的硬字幕和顽固水印，尽量保留背景细节 基于ai的图片/视频硬字幕去除、文本水印去除，无损分辨率生成去字幕、去水印后的图片/视频文件。无需申请第三方api，本地实现。ai-based tool for removing hard-coded subtitles and text-like watermarks from videos or pictures. python 去水印 视频剪辑 ai watermark removal video editing ai 视频去字幕 去硬字幕">
+  <button class="fav" data-fav="video-subtitle-remover" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/YaoFANGUK.png?size=96" alt="" loading="lazy"
+         data-initial="V" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/video-subtitle-remover/">Video Subtitle Remover</a><span class="badge warn">版权</span></h3>
+      <div class="card-repo">YaoFANGUK/video-subtitle-remover</div>
+      <div class="tier tier-install">需下载安装</div>
+    </div>
+  </div>
+  <p class="card-desc">用 AI 抹掉视频里的硬字幕和顽固水印，尽量保留背景细节</p>
+  <div class="tags"><span class="tag">去水印</span><span class="tag">视频剪辑</span><span class="tag">AI</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">13.0k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3572A5"></i>Python</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/YaoFANGUK/video-subtitle-remover/releases" target="_blank" rel="noopener">下载</a><a class="btn-secondary" href="https://github.com/YaoFANGUK/video-subtitle-remover" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="thumbor" data-scene="general"
+  data-usage="selfhost" data-category="watermark"
+  data-stars="10519" data-name="Thumbor"
+  data-updated="2026-09-21" data-search="thumbor thumbor/thumbor 图片处理服务，用 url 参数裁剪缩放加水印，自带缓存 thumbor is an open-source photo thumbnail service by globo.com python 图片修复 可自托管 photo restoration self-hostable 图片处理服务">
+  <button class="fav" data-fav="thumbor" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/thumbor.png?size=96" alt="" loading="lazy"
+         data-initial="T" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/thumbor/">Thumbor</a></h3>
+      <div class="card-repo">thumbor/thumbor</div>
+      <div class="tier tier-onecmd">一条命令部署</div>
+    </div>
+  </div>
+  <p class="card-desc">图片处理服务，用 URL 参数裁剪缩放加水印，自带缓存</p>
+  <div class="tags"><span class="tag">图片修复</span><span class="tag">可自托管</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">10.5k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3572A5"></i>Python</span>
+    <span class="actions"><a class="btn-primary" href="https://thumbor.readthedocs.io/" target="_blank" rel="noopener">部署</a><a class="btn-secondary" href="https://github.com/thumbor/thumbor" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="inpaint-web" data-scene="general"
+  data-usage="online" data-category="watermark"
+  data-stars="5926" data-name="Inpaint Web"
+  data-updated="2025-12-23" data-search="inpaint web lxfater/inpaint-web 浏览器里直接涂抹去除水印和杂物，模型在本地跑，图不用上传 a free and open-source inpainting &amp; image-upscaling tool powered by webgpu and wasm on the browser。|   基于 webgpu 技术和 wasm 技术的免费开源 inpainting &amp; image-upscaling 工具, 纯浏览器端实现。 typescript 去水印 图片修复 watermark removal photo restoration 在线去水印 网页修图">
+  <button class="fav" data-fav="inpaint-web" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/lxfater.png?size=96" alt="" loading="lazy"
+         data-initial="I" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/inpaint-web/">Inpaint Web</a></h3>
+      <div class="card-repo">lxfater/inpaint-web</div>
+      <div class="tier tier-ready">打开就能用</div>
+    </div>
+  </div>
+  <p class="card-desc">浏览器里直接涂抹去除水印和杂物，模型在本地跑，图不用上传</p>
+  <div class="tags"><span class="tag">去水印</span><span class="tag">图片修复</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">5.9k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3178c6"></i>TypeScript</span>
+    <span class="actions"><a class="btn-primary" href="https://inpaintweb.lxfater.com/" target="_blank" rel="noopener">在线使用</a><a class="btn-secondary" href="https://github.com/lxfater/inpaint-web" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="watermark-removal" data-scene="general"
+  data-usage="lib cli" data-category="watermark"
+  data-stars="5176" data-name="watermark-removal"
+  data-updated="2026-08-14" data-search="watermark-removal zuruoke/watermark-removal 深度学习去水印，附论文实现和预训练权重 a machine learning image inpainting task that instinctively removes watermarks from image indistinguishable from the ground truth image  python 水印处理 ai watermarking ai 去水印算法">
+  <button class="fav" data-fav="watermark-removal" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/zuruoke.png?size=96" alt="" loading="lazy"
+         data-initial="w" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/watermark-removal/">watermark-removal</a></h3>
+      <div class="card-repo">zuruoke/watermark-removal</div>
+      <div class="tier tier-install">需下载安装</div>
+    </div>
+  </div>
+  <p class="card-desc">深度学习去水印，附论文实现和预训练权重</p>
+  <div class="tags"><span class="tag">水印处理</span><span class="tag">AI</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">5.2k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3572A5"></i>Python</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/zuruoke/watermark-removal/releases" target="_blank" rel="noopener">下载</a><a class="btn-secondary" href="https://github.com/zuruoke/watermark-removal" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+    </div>
+  </section>
+  <p class="back-link"><a href="/">← 全部工具</a></p>
+</main>
+
+<footer class="footer wrap">
+  <p>开源工具集 · 星数会持续变化，由 GitHub Actions 每周自动同步。</p>
+  <p class="footer-links"><a href="/online/">在线工具</a><a href="/categories/">分类总览</a><a href="/about/">关于本站</a><a href="/disclaimer/">免责声明</a><a href="/en/">English</a></p>
+</footer>
+<script src="/app.js?v=67b0715d"></script>
+</body>
+</html>

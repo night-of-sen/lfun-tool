@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nanobrowser · Utilities · Open Source Toolkit</title>
+<meta name="description" content="Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator. ⭐ 13.8k · TypeScript · Apache-2.0">
+<meta name="theme-color" content="#2563eb">
+<link rel="canonical" href="https://tools.lfun.cloud/en/tool/nanobrowser/">
+<link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/tool/nanobrowser/">
+<link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/en/tool/nanobrowser/">
+<link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/nanobrowser/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Nanobrowser · Utilities · Open Source Toolkit">
+<meta property="og:description" content="Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator. ⭐ 13.8k · TypeScript · Apache-2.0">
+<meta property="og:url" content="https://tools.lfun.cloud/en/tool/nanobrowser/">
+<meta property="og:image" content="https://tools.lfun.cloud/og.png">
+<meta property="og:site_name" content="Open Source Toolkit">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Nanobrowser","description":"Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator.","url":"https://tools.lfun.cloud/en/tool/nanobrowser/","inLanguage":"en","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","codeRepository":"https://github.com/nanobrowser/nanobrowser","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"nanobrowser"},"keywords":"Automation, Browser extension"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"All tools","item":"https://tools.lfun.cloud/en/"},{"@type":"ListItem","position":2,"name":"Utilities","item":"https://tools.lfun.cloud/en/category/utility/"},{"@type":"ListItem","position":3,"name":"Nanobrowser","item":"https://tools.lfun.cloud/en/tool/nanobrowser/"}]}</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧰</text></svg>">
+<link rel="stylesheet" href="/styles.css?v=67b0715d">
+<script>window.__LANG__="en";window.__I18N__={"htmlLang":"en","siteName":"Open Source Toolkit","brandSub":"Know <strong>how to use it<\/strong> before you click: online, self-hosted, desktop, CLI","homeTitle":"Open Source Toolkit · {n} curated GitHub projects","homeDesc":"{n} curated open-source GitHub projects with clear notes on how to use them: online, self-hosted, desktop app or CLI. Includes a Going-Global section: localization, compliance, payments, email and support.","searchPlaceholder":"Search name, purpose, tag…  press / to focus","scenes":{"all":"All","general":"General","overseas":"🌏 Going global"},"usages":{"online":"🌐 Online","desktop":"💻 Desktop","cli":"⌨️ CLI","selfhost":"🐳 Self-hosted","lib":"📦 Library","list":"📚 Lists","extension":"🧩 Extensions"},"categories":{"watermark":"Watermarks","video":"Video production","social":"Social media","ai":"AI tools","diagram":"Whiteboards & diagrams","image":"Image & graphics","doc":"Documents & PDF","dev":"Developer tools","design":"Design","utility":"Utilities","fun":"Fun","system":"System tweaks","download":"Downloaders","capture":"Screenshot & recording","media":"Music & media","writing":"Writing & notes","filesearch":"Search & files","security":"Security & privacy","analytics":"Analytics","experiment":"A/B testing & flags","i18n":"Localization","payment":"Payments & billing","commerce":"E-commerce","email":"Email & marketing","notify":"Notifications & SMS","support":"Customer support","crm":"CRM & sales","auth":"Auth & identity","compliance":"Compliance & e-signing","sitesearch":"Site search","finance":"Finance & invoicing","promo":"Growth & SEO"},"allCategories":"All categories","allUsage":"All","sortStars":"By stars","sortName":"By name","sortUpdated":"By last update","btnOnline":"Open online","btnDeploy":"Deploy","btnDownload":"Download","btnDocs":"Docs","btnAddon":"Get the add-on","btnRepo":"Repository","btnNoOnline":"No online version","archived":"Archived","cautions":{"隐私":"Privacy","版权":"Copyright","系统修改":"System changes","许可":"License unclear"},"countTemplate":"Showing {n} of {total} tools","emptyFav":"No favourites yet","emptyMatch":"No matching tools","clearFilters":"Clear filters","favTitle":"Save","themeTitle":"Toggle theme","favOnly":"Favourites only","backToAll":"All tools","related":"Similar tools","detailTitle":"Details","specStars":"Stars","specLang":"Language","specLicense":"License","specUpdated":"Last updated","specCategory":"Category","specScene":"Section","noLicense":"Not specified","footerNote":"Star counts change over time; synced weekly by GitHub Actions.","langSwitch":"中文","langSwitchHref":"/","categoriesHeading":"All categories","catPageSub":"{n} curated open-source projects","catPageLink":"Browse categories","readmeHeading":"From the README","aboutLabel":"About","disclaimerLabel":"Disclaimer","onlineHeading":"Online tools","onlineSub":"Small tools that run right here in your browser. Nothing is uploaded.","privacyNote":"🔒 Everything runs locally in your browser. Files and content are never uploaded.","aboutThisTool":"About this tool","sideScene":"Section","sideUsage":"How to use","sideCategory":"Category","sideSort":"Sort","menuToggle":"Filter menu","filterHint":"Filters"};</script>
+</head>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="/en/">
+      <span class="brand-mark">🧰</span>
+      <div>
+        <span class="brand-name">Open Source Toolkit</span>
+        <p class="brand-sub">Know <strong>how to use it</strong> before you click: online, self-hosted, desktop, CLI</p>
+      </div>
+    </a>
+    <div class="topbar-actions">
+
+      <a class="btn-ghost" href="/">中文</a>
+      <button id="theme-toggle" class="btn-ghost" title="Toggle theme">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs">
+    <a href="/en/">All tools</a>
+    <span>/</span><a href="/en/category/utility/">Utilities</a>
+    <span>/</span><strong>Nanobrowser</strong>
+  </nav>
+  <article class="detail">
+    <header class="detail-head">
+      <img class="icon icon-lg" src="https://github.com/nanobrowser.png?size=160" alt="" data-initial="N" onerror="iconFail(this)">
+      <div>
+        <h1 class="detail-name">Nanobrowser</h1>
+        <div class="card-repo">nanobrowser/nanobrowser</div>
+      </div>
+      <button class="fav fav-lg" data-fav="nanobrowser" title="Save">☆</button>
+    </header>
+    <div class="tier-banner tier-install">
+      <strong>Download &amp; install</strong>
+      <span>Download and install locally. No server needed.</span>
+    </div>
+    <p class="detail-desc">Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator.</p>
+    <div class="tags"><span class="tag">Automation</span><span class="tag">Browser extension</span></div>
+    <figure class="repo-card-wrap"><img class="repo-card" src="https://s0.wp.com/mshots/v1/https%3A%2F%2Fnanobrowser.ai?w=1200" alt="Nanobrowser website screenshot" width="1200" height="675" loading="lazy" referrerpolicy="no-referrer"></figure>
+
+    <div class="readme"><h2>From the README</h2><p>Nanobrowser is an open-source AI web automation tool that runs in your browser. A free alternative to OpenAI Operator with flexible LLM options and multi-agent system.</p></div>
+    <dl class="specs">
+    <div class="spec"><dt>Stars</dt><dd>★ 13.8k</dd></div>
+    <div class="spec"><dt>Language</dt><dd>TypeScript</dd></div>
+    <div class="spec"><dt>License</dt><dd>Apache-2.0</dd></div>
+    <div class="spec"><dt>Last updated</dt><dd>2026-08-18</dd></div>
+    <div class="spec"><dt>Category</dt><dd>Utilities</dd></div>
+    <div class="spec"><dt>Section</dt><dd>General</dd></div>
+    </dl>
+    <div class="detail-actions">
+      <a class="btn-primary btn-lg" href="https://nanobrowser.ai" target="_blank" rel="noopener">Get the add-on</a>
+      <a class="btn-secondary btn-lg" href="https://github.com/nanobrowser/nanobrowser" target="_blank" rel="noopener">Repository</a>
+    </div>
+  </article>
+  <section class="related">
+    <h2>Similar tools</h2>
+    <div class="grid">
+<article class="card" data-id="tldr" data-scene="general"
+  data-usage="cli" data-category="utility"
+  data-stars="63710" data-name="tldr"
+  data-updated="2026-09-22" data-search="tldr tldr-pages/tldr 命令速查手册，只给最常用的例子，比 man 好用 collaborative cheatsheets for console commands 📚. markdown 速查 文档 cheat sheet docs 命令速查">
+  <button class="fav" data-fav="tldr" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/tldr-pages.png?size=96" alt="" loading="lazy"
+         data-initial="t" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/tldr/">tldr</a></h3>
+      <div class="card-repo">tldr-pages/tldr</div>
+      <div class="tier tier-install">Download &amp; install</div>
+    </div>
+  </div>
+  <p class="card-desc">Collaborative cheatsheets for console commands 📚.</p>
+  <div class="tags"><span class="tag plat">Win</span><span class="tag plat">macOS</span><span class="tag plat">Linux</span><span class="tag">Cheat sheet</span><span class="tag">Docs</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">63.7k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#083fa1"></i>Markdown</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/tldr-pages/tldr/releases" target="_blank" rel="noopener">Download</a><a class="btn-secondary" href="https://github.com/tldr-pages/tldr" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="linux-command" data-scene="general"
+  data-usage="online" data-category="utility"
+  data-stars="36938" data-name="Linux Command"
+  data-updated="2026-09-06" data-search="linux command jaywcjlove/linux-command linux 命令速查手册，600+ 命令在线搜索 linux命令大全搜索工具，内容包含linux命令手册、详解、学习、搜集。https://git.io/linux markdown 速查 linux cheat sheet linux linux命令大全 命令速查">
+  <button class="fav" data-fav="linux-command" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/jaywcjlove.png?size=96" alt="" loading="lazy"
+         data-initial="L" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/linux-command/">Linux Command</a></h3>
+      <div class="card-repo">jaywcjlove/linux-command</div>
+      <div class="tier tier-ready">Ready to use</div>
+    </div>
+  </div>
+  <p class="card-desc">Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux</p>
+  <div class="tags"><span class="tag">Cheat sheet</span><span class="tag">Linux</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">36.9k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#083fa1"></i>Markdown</span>
+    <span class="actions"><a class="btn-primary" href="https://wangchujiang.com/linux-command/" target="_blank" rel="noopener">Open online</a><a class="btn-secondary" href="https://github.com/jaywcjlove/linux-command" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="neofetch" data-scene="general"
+  data-usage="cli" data-category="utility"
+  data-stars="23676" data-name="neofetch"
+  data-updated="2024-07-19" data-search="neofetch dylanaraps/neofetch 在终端展示系统信息和 ascii 艺术 logo 🖼️  a command-line system information tool written in bash 3.2+ shell 系统信息 美化 system info themes 系统信息">
+  <button class="fav" data-fav="neofetch" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/dylanaraps.png?size=96" alt="" loading="lazy"
+         data-initial="n" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/neofetch/">neofetch</a><span class="badge">Archived</span></h3>
+      <div class="card-repo">dylanaraps/neofetch</div>
+      <div class="tier tier-install">Download &amp; install</div>
+    </div>
+  </div>
+  <p class="card-desc">🖼️  A command-line system information tool written in bash 3.2+</p>
+  <div class="tags"><span class="tag plat">macOS</span><span class="tag plat">Linux</span><span class="tag">System info</span><span class="tag">Themes</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">23.7k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#89e051"></i>Shell</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/dylanaraps/neofetch/releases" target="_blank" rel="noopener">Download</a><a class="btn-secondary" href="https://github.com/dylanaraps/neofetch" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="automa" data-scene="general"
+  data-usage="extension" data-category="utility"
+  data-stars="21635" data-name="Automa"
+  data-updated="2026-03-02" data-search="automa automaapp/automa 拖拽积木块把浏览器操作拼成自动化流程：填表、抓数据、定时跑任务 a browser extension for automating your browser by connecting blocks vue 自动化 无代码 浏览器扩展 automation no-code browser extension 浏览器自动化 网页自动化">
+  <button class="fav" data-fav="automa" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/AutomaApp.png?size=96" alt="" loading="lazy"
+         data-initial="A" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/automa/">Automa</a><span class="badge warn">License unclear</span></h3>
+      <div class="card-repo">AutomaApp/automa</div>
+      <div class="tier tier-install">Download &amp; install</div>
+    </div>
+  </div>
+  <p class="card-desc">A browser extension for automating your browser by connecting blocks</p>
+  <div class="tags"><span class="tag">Automation</span><span class="tag">No-code</span><span class="tag">Browser extension</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">21.6k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#41b883"></i>Vue</span>
+    <span class="actions"><a class="btn-primary" href="https://www.goautoma.com/extension" target="_blank" rel="noopener">Get the add-on</a><a class="btn-secondary" href="https://github.com/AutomaApp/automa" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="daily-dev" data-scene="general"
+  data-usage="extension" data-category="utility"
+  data-stars="20071" data-name="daily.dev"
+  data-updated="2026-09-14" data-search="daily.dev dailydotdev/daily 把新标签页变成开发者资讯流，按兴趣聚合各站技术文章和开源动态 daily.dev is the personalized developer news feed and community. get the best tech content from all over the web in your browser new tab or on mobile. free and open source. javascript 资讯 浏览器扩展 news browser extension 开发者资讯 技术资讯">
+  <button class="fav" data-fav="daily-dev" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/dailydotdev.png?size=96" alt="" loading="lazy"
+         data-initial="d" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/daily-dev/">daily.dev</a></h3>
+      <div class="card-repo">dailydotdev/daily</div>
+      <div class="tier tier-install">Download &amp; install</div>
+    </div>
+  </div>
+  <p class="card-desc">daily.dev is the personalized developer news feed and community. Get the best tech content from all over the web in your browser new tab or on mobile. Free and open source.</p>
+  <div class="tags"><span class="tag">News</span><span class="tag">Browser extension</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">20.1k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#f1e05a"></i>JavaScript</span>
+    <span class="actions"><a class="btn-primary" href="https://daily.dev" target="_blank" rel="noopener">Get the add-on</a><a class="btn-secondary" href="https://github.com/dailydotdev/daily" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="buster" data-scene="general"
+  data-usage="extension" data-category="utility"
+  data-stars="9302" data-name="Buster"
+  data-updated="2026-06-27" data-search="buster dessant/buster 点一下用语音识别过 recaptcha 验证码，不用一张张点图片 captcha solver extension for humans, available for chrome, edge and firefox javascript 验证码 浏览器扩展 captcha browser extension 验证码识别 过验证码">
+  <button class="fav" data-fav="buster" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/dessant.png?size=96" alt="" loading="lazy"
+         data-initial="B" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/buster/">Buster</a></h3>
+      <div class="card-repo">dessant/buster</div>
+      <div class="tier tier-install">Download &amp; install</div>
+    </div>
+  </div>
+  <p class="card-desc">Captcha solver extension for humans, available for Chrome, Edge and Firefox</p>
+  <div class="tags"><span class="tag">CAPTCHA</span><span class="tag">Browser extension</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">9.3k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#f1e05a"></i>JavaScript</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/dessant/buster/releases" target="_blank" rel="noopener">Get the add-on</a><a class="btn-secondary" href="https://github.com/dessant/buster" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+    </div>
+  </section>
+  <p class="back-link"><a href="/en/">← All tools</a></p>
+</main>
+
+<footer class="footer wrap">
+  <p>Open Source Toolkit · Star counts change over time; synced weekly by GitHub Actions.</p>
+  <p class="footer-links"><a href="/en/online/">Online tools</a><a href="/en/categories/">All categories</a><a href="/en/about/">About</a><a href="/en/disclaimer/">Disclaimer</a><a href="/">中文</a></p>
+</footer>
+<script src="/app.js?v=67b0715d"></script>
+</body>
+</html>

@@ -123,6 +123,7 @@ function primaryAction(t, lang) {
   if (has(t, "online")) {
     return t.homepage ? { label: L.btnOnline, url: t.homepage } : { label: L.btnNoOnline, url: "" };
   }
+  if (has(t, "extension")) return { label: L.btnAddon, url: t.homepage || releases };
   if (has(t, "desktop") || has(t, "cli")) return { label: L.btnDownload, url: releases };
   if (has(t, "selfhost")) return { label: L.btnDeploy, url: t.homepage || releases };
   if (has(t, "lib")) return { label: L.btnDocs, url: t.homepage || repoUrl };
@@ -246,8 +247,17 @@ function card(t, lang) {
 }
 
 /* ---------------- 首页 ---------------- */
+function countFilled(L) {
+  var o = {};
+  for (var k in L) o[k] = L[k];
+  var n = String(items.length);
+  o.homeTitle = String(L.homeTitle || "").split("{n}").join(n);
+  o.homeDesc = String(L.homeDesc || "").split("{n}").join(n);
+  return o;
+}
+
 function homePage(lang) {
-  var L = T[lang];
+  var L = countFilled(T[lang]);
   var cards = items.map(function (t) { return card(t, lang); }).join("\n");
   var scenes = ["all", "general", "overseas"].map(function (k) {
     return '<button class="scene-btn' + (k === "all" ? " active" : "") + '" data-scene="' + k + '">' + esc(L.scenes[k]) + "</button>";
@@ -527,7 +537,7 @@ function deployTier(t) {
   if (has(t, "online") && t.homepage) return "ready";
   if (t.cloud) return "cloud";
   if (has(t, "list")) return "resource";
-  if (has(t, "desktop") || has(t, "cli")) return "install";
+  if (has(t, "desktop") || has(t, "cli") || has(t, "extension")) return "install";
   if (has(t, "lib")) return "library";
   if (has(t, "selfhost")) {
     var r = readmes[t.id];
@@ -607,8 +617,8 @@ function contentPage(lang, key) {
 
 /* ---------------- 对比页 ---------------- */
 var USAGE_WORD = {
-  zh: { online: "在线即用", selfhost: "自托管部署", desktop: "桌面客户端", cli: "命令行", lib: "作为开发库引用", list: "当清单查阅" },
-  en: { online: "online use", selfhost: "self-hosting", desktop: "a desktop app", cli: "CLI use", lib: "use as a library", list: "reading the list" }
+  zh: { online: "在线即用", selfhost: "自托管部署", desktop: "桌面客户端", cli: "命令行", lib: "作为开发库引用", list: "当清单查阅", extension: "装到浏览器" },
+  en: { online: "online use", selfhost: "self-hosting", desktop: "a desktop app", cli: "CLI use", lib: "use as a library", list: "reading the list", extension: "installing an add-on" }
 };
 var PLATFORM_WORD = { zh: { windows: "Windows", macos: "macOS", linux: "Linux", android: "Android", ios: "iOS" },
   en: { windows: "Windows", macos: "macOS", linux: "Linux", android: "Android", ios: "iOS" } };

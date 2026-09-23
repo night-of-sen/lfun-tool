@@ -149,5 +149,155 @@
     ],
     "html": "<div class=\"app-two\">\n  <textarea id=\"df-a\" class=\"app-area\" rows=\"10\" placeholder=\"原始文本\"></textarea>\n  <textarea id=\"df-b\" class=\"app-area\" rows=\"10\" placeholder=\"新文本\"></textarea>\n</div>\n<div class=\"app-row\"><button class=\"app-btn\" data-act=\"diff\">对比</button><button class=\"app-btn ghost\" data-act=\"clear\">清空</button></div>\n<div id=\"df-out\" class=\"diff-out\"></div>",
     "body": "用最长公共子序列逐行比对，适合快速核对配置改动、文案修订。纯前端实现，粘贴敏感内容也不会外泄。"
+  },
+  {
+    "id": "markdown",
+    "zhName": "Markdown 预览",
+    "enName": "Markdown Preview",
+    "zhDesc": "左边写 Markdown，右边实时渲染。支持表格、代码块、任务列表。",
+    "enDesc": "Write Markdown on the left, see it rendered on the right. Tables, code blocks and task lists included.",
+    "icon": "📝",
+    "keywords": [
+      "markdown 预览",
+      "markdown 在线",
+      "md 转换"
+    ],
+    "html": "<div class=\"app-two\">\n  <textarea id=\"md-in\" class=\"app-area\" rows=\"16\" placeholder=\"在这里写 Markdown…\"></textarea>\n  <div id=\"md-out\" class=\"md-preview\"></div>\n</div>",
+    "body": "自己实现的轻量解析器，覆盖标题、粗体、斜体、删除线、行内代码、代码块、引用、有序/无序列表、任务列表、表格、链接和图片。不依赖任何第三方库，粘贴私有内容也不会外泄。"
+  },
+  {
+    "id": "regex",
+    "zhName": "正则测试",
+    "enName": "Regex Tester",
+    "zhDesc": "实时测试正则表达式，高亮匹配并列出捕获组。",
+    "enDesc": "Test regular expressions live, with match highlighting and capture groups.",
+    "icon": "🎯",
+    "keywords": [
+      "正则测试",
+      "正则表达式在线",
+      "regex"
+    ],
+    "html": "<div class=\"app-row re-row\">\n  <span class=\"re-slash\">/</span>\n  <input id=\"re-pat\" class=\"app-input mono\" value=\"\\d+\" placeholder=\"正则表达式\">\n  <span class=\"re-slash\">/</span>\n  <input id=\"re-flags\" class=\"app-input mono\" value=\"g\" style=\"width:4.5em\" placeholder=\"flags\">\n</div>\n<textarea id=\"re-in\" class=\"app-area\" rows=\"5\" placeholder=\"要测试的文本\"></textarea>\n<div id=\"re-msg\" class=\"app-msg\"></div>\n<div id=\"re-hl\" class=\"re-hl\"></div>\n<div id=\"re-out\" class=\"app-list\"></div>",
+    "body": "边打边测。匹配结果会在原文里高亮，捕获组单独列出。常用的 flags：g 全局、i 忽略大小写、m 多行、s 让 . 匹配换行、u 支持 Unicode。"
+  },
+  {
+    "id": "word-count",
+    "zhName": "字数统计",
+    "enName": "Word & Character Count",
+    "zhDesc": "统计字符、中文、英文单词、行数，并估算阅读时间。",
+    "enDesc": "Count characters, CJK characters, words and lines, with a reading-time estimate.",
+    "icon": "🔢",
+    "keywords": [
+      "字数统计",
+      "中文字数",
+      "word count"
+    ],
+    "html": "<textarea id=\"wc-in\" class=\"app-area\" rows=\"8\" placeholder=\"粘贴要统计的文本\"></textarea>\n<div id=\"wc-out\" class=\"app-list\"></div>",
+    "body": "中文和英文分开统计——英文按空格分词，中文按字符计。阅读时间按中文 400 字/分钟、英文 220 词/分钟估算，写公众号和公众号/小红书文案时很好用。"
+  },
+  {
+    "id": "text-tools",
+    "zhName": "文本批处理",
+    "enName": "Text Batch Tools",
+    "zhDesc": "去重、排序、去空行、去首尾空格、随机打乱。",
+    "enDesc": "Deduplicate, sort, drop empty lines, trim whitespace and shuffle lines.",
+    "icon": "🧹",
+    "keywords": [
+      "文本去重",
+      "文本排序",
+      "去除空行"
+    ],
+    "html": "<textarea id=\"tt-in\" class=\"app-area\" rows=\"9\" placeholder=\"每行一条\"></textarea>\n<div class=\"app-row\">\n  <button class=\"app-btn\" data-act=\"dedupe\">去重</button>\n  <button class=\"app-btn\" data-act=\"sort\">升序</button>\n  <button class=\"app-btn\" data-act=\"sortDesc\">降序</button>\n  <button class=\"app-btn\" data-act=\"trim\">去首尾空格</button>\n  <button class=\"app-btn\" data-act=\"dropEmpty\">去空行</button>\n  <button class=\"app-btn\" data-act=\"shuffle\">随机打乱</button>\n</div>\n<textarea id=\"tt-out\" class=\"app-area\" rows=\"9\" readonly placeholder=\"结果\"></textarea>\n<div class=\"app-row\"><button class=\"app-btn\" data-copy=\"tt-out\">复制结果</button></div>",
+    "body": "清理名单、日志、关键词这类一行一条的数据。每个操作都会在上次结果的基础上继续处理，可以连续点几个按钮叠加使用。"
+  },
+  {
+    "id": "jwt",
+    "zhName": "JWT 解析",
+    "enName": "JWT Decoder",
+    "zhDesc": "解析 JWT 的头部和载荷，显示过期时间。",
+    "enDesc": "Decode a JWT header and payload, with expiry check.",
+    "icon": "🎫",
+    "keywords": [
+      "jwt 解析",
+      "jwt decoder",
+      "token 解析"
+    ],
+    "html": "<textarea id=\"jwt-in\" class=\"app-area\" rows=\"4\" placeholder=\"粘贴 JWT（eyJhbGciOi…）\"></textarea>\n<div id=\"jwt-msg\" class=\"app-msg\"></div>\n<div id=\"jwt-out\" class=\"app-list\"></div>",
+    "body": "只做 Base64URL 解码和 JSON 格式化，**不验证签名**——签名验证需要密钥，绝不该在网页里做。如果 token 里有过期时间（exp），会直接标出还剩多久或多早之前就过期了。"
+  },
+  {
+    "id": "number-base",
+    "zhName": "进制转换",
+    "enName": "Number Base Converter",
+    "zhDesc": "二进制、八进制、十进制、十六进制互转。",
+    "enDesc": "Convert between binary, octal, decimal and hexadecimal.",
+    "icon": "🔟",
+    "keywords": [
+      "进制转换",
+      "十六进制转换",
+      "二进制转换"
+    ],
+    "html": "<div class=\"app-row\">\n  <input id=\"nb-in\" class=\"app-input mono\" value=\"255\" placeholder=\"输入数字\">\n  <select id=\"nb-from\" class=\"sort\" style=\"width:auto\">\n    <option value=\"10\">十进制</option><option value=\"16\">十六进制</option>\n    <option value=\"2\">二进制</option><option value=\"8\">八进制</option>\n  </select>\n</div>\n<div id=\"nb-out\" class=\"app-list\"></div>",
+    "body": "输入任意进制，实时给出另外三种。同时给出 8/16/32 位的有符号和无符号表示，调试位运算时用得上。"
+  },
+  {
+    "id": "escape",
+    "zhName": "转义工具",
+    "enName": "Escape Tools",
+    "zhDesc": "HTML、Unicode、JSON 字符串的转义与反转义。",
+    "enDesc": "Escape and unescape HTML entities, Unicode sequences and JSON strings.",
+    "icon": "🔣",
+    "keywords": [
+      "html转义",
+      "unicode转义",
+      "json 转义"
+    ],
+    "html": "<textarea id=\"es-in\" class=\"app-area\" rows=\"6\" placeholder=\"输入要处理的文本\"></textarea>\n<div class=\"app-row\">\n  <button class=\"app-btn\" data-act=\"htmlEnc\">HTML 转义</button>\n  <button class=\"app-btn\" data-act=\"htmlDec\">HTML 反转义</button>\n  <button class=\"app-btn\" data-act=\"uniEnc\">Unicode 转义</button>\n  <button class=\"app-btn\" data-act=\"uniDec\">Unicode 反转义</button>\n  <button class=\"app-btn\" data-act=\"jsonStr\">JSON 字符串转义</button>\n</div>\n<textarea id=\"es-out\" class=\"app-area\" rows=\"6\" readonly placeholder=\"结果\"></textarea>\n<div class=\"app-row\"><button class=\"app-btn\" data-copy=\"es-out\">复制结果</button></div>",
+    "body": "把用户输入插进 HTML 之前必须转义，否则就是 XSS 漏洞。这个工具也常用来处理被双重转义的数据——先反转义一层看看原始内容是什么。"
+  },
+  {
+    "id": "csv-json",
+    "zhName": "CSV ↔ JSON",
+    "enName": "CSV to JSON",
+    "zhDesc": "CSV 与 JSON 互转，支持带引号字段和换行。",
+    "enDesc": "Convert between CSV and JSON, handling quoted fields and embedded newlines.",
+    "icon": "📊",
+    "keywords": [
+      "csv转json",
+      "json转csv",
+      "csv 在线"
+    ],
+    "html": "<textarea id=\"cj-in\" class=\"app-area\" rows=\"9\" placeholder=\"粘贴 CSV（第一行为表头）或 JSON 数组\"></textarea>\n<div class=\"app-row\">\n  <button class=\"app-btn\" data-act=\"csv2json\">CSV → JSON</button>\n  <button class=\"app-btn\" data-act=\"json2csv\">JSON → CSV</button>\n</div>\n<div id=\"cj-msg\" class=\"app-msg\"></div>\n<textarea id=\"cj-out\" class=\"app-area\" rows=\"9\" readonly placeholder=\"结果\"></textarea>\n<div class=\"app-row\"><button class=\"app-btn\" data-copy=\"cj-out\">复制结果</button></div>",
+    "body": "支持双引号包裹的字段（字段里可以有逗号和换行），这是手写解析最容易漏的地方。导出 Excel 用的 CSV 常带 BOM，这里也会自动去掉。"
+  },
+  {
+    "id": "image-convert",
+    "zhName": "图片格式转换",
+    "enName": "Image Converter",
+    "zhDesc": "在浏览器里转 WebP / JPEG / PNG，可同时缩放。",
+    "enDesc": "Convert images to WebP, JPEG or PNG in your browser, with optional resizing.",
+    "icon": "🔄",
+    "keywords": [
+      "图片格式转换",
+      "图片转webp",
+      "png转jpg"
+    ],
+    "html": "<input type=\"file\" id=\"icv-file\" accept=\"image/*\" multiple class=\"app-file\">\n<div class=\"app-row\">\n  <label>输出格式\n    <select id=\"icv-type\" class=\"sort\" style=\"width:auto\">\n      <option value=\"image/webp\">WebP</option><option value=\"image/jpeg\">JPEG</option><option value=\"image/png\">PNG</option>\n    </select>\n  </label>\n  <label>质量 <input type=\"range\" id=\"icv-q\" min=\"0.3\" max=\"1\" step=\"0.05\" value=\"0.9\"><span id=\"icv-qv\">0.90</span></label>\n  <label>最大宽度 <input type=\"number\" id=\"icv-w\" value=\"0\" min=\"0\" style=\"width:5.5em\"> px（0 = 不缩放）</label>\n</div>\n<div id=\"icv-out\" class=\"app-list\"></div>",
+    "body": "转 WebP 通常能把图片压到原体积的一半以下，而且现代浏览器全都支持——它是提升页面加载速度最省事的一招。转换在本地完成，图片不会上传。"
+  },
+  {
+    "id": "cron",
+    "zhName": "Cron 表达式解析",
+    "enName": "Cron Expression Explainer",
+    "zhDesc": "把 cron 表达式翻译成人话，并列出接下来几次执行时间。",
+    "enDesc": "Turns a cron expression into plain language and lists the next run times.",
+    "icon": "⏰",
+    "keywords": [
+      "cron 表达式",
+      "定时任务",
+      "crontab"
+    ],
+    "html": "<input id=\"cr-in\" class=\"app-input mono\" value=\"0 9 * * 1-5\" placeholder=\"分 时 日 月 周\">\n<div class=\"app-row\">\n  <button class=\"app-btn tiny\" data-preset=\"* * * * *\">每分钟</button>\n  <button class=\"app-btn tiny\" data-preset=\"0 * * * *\">每小时</button>\n  <button class=\"app-btn tiny\" data-preset=\"0 9 * * 1-5\">工作日 9:00</button>\n  <button class=\"app-btn tiny\" data-preset=\"0 0 1 * *\">每月 1 号</button>\n  <button class=\"app-btn tiny\" data-preset=\"*/5 * * * *\">每 5 分钟</button>\n</div>\n<div id=\"cr-msg\" class=\"app-msg\"></div>\n<div id=\"cr-out\" class=\"app-list\"></div>",
+    "body": "支持标准 5 段表达式，以及 * / , - 和 */n 这类写法。除了翻译成人话，还会算出接下来 5 次执行时间——这比读描述更能确认表达式是不是你想要的。"
   }
 ]

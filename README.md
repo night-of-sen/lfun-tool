@@ -18,24 +18,25 @@
 
 ## 内容概览
 
-另外站内还有 **10 个自己实现的在线工具**（`/online/`），浏览器里直接可用，数据不上传服务器。
+另外站内还有 **20 个自己实现的在线工具**（`/online/`），浏览器里直接可用，数据不上传服务器。
 
-收录 **180 个项目**，分两个场景：
+收录 **278 个项目**，分两个场景：
 
 | 场景 | 数量 | 说明 |
 |---|---|---|
-| 通用工具 | 81 | 日常开发、效率、娱乐 |
-| 🌏 出海辅助 | 99 | 多语言、合规、支付、邮件、客服、**推广获客**等出海专有需求 |
+| 通用工具 | 169 | 日常开发、效率、娱乐 |
+| 🌏 出海辅助 | 109 | 多语言、合规、支付、邮件、客服、**推广获客**等出海专有需求 |
 
 每个项目再按「使用方式」标注：
 
 | 使用方式 | 数量 | 含义 |
 |---|---|---|
-| 🌐 在线即用 | 55 | 有官方网页版，点开就用 |
-| 🐳 可自托管 | 74 | Web 应用，自己部署 |
-| 💻 桌面应用 | 28 | 下载客户端 |
-| ⌨️ 命令行 | 26 | 装完在终端用 |
-| 📦 开发库 | 11 | 装进自己项目的库 / 框架 |
+| 🌐 在线即用 | 60 | 有官方网页版，点开就用 |
+| 🐳 可自托管 | 105 | Web 应用，自己部署 |
+| 💻 桌面应用 | 47 | 下载客户端 |
+| ⌨️ 命令行 | 54 | 装完在终端用 |
+| 🧩 浏览器扩展 | 20 | 装到 Chrome / Firefox / Safari |
+| 📦 开发库 | 41 | 装进自己项目的库 / 框架 |
 | 📚 清单资源 | 7 | 渠道清单、资料合集，打开仓库直接看 |
 
 > 数量按维度统计，会重复计入（一个项目可以有多种使用方式）。
@@ -56,12 +57,22 @@
 | 🔒 随机密码生成 | `/online/password/` | `crypto.getRandomValues` + 拒绝采样避免取模偏差 |
 | 🔗 URL 编解码 | `/online/url-encode/` | 区分 encodeURI 与 encodeURIComponent |
 | 📋 文本对比 | `/online/diff/` | 最长公共子序列逐行比对 |
+| 📝 Markdown 预览 | `/online/markdown/` | 自写极简渲染器，代码全部转义，不执行原页面脚本 |
+| 🔍 正则测试 | `/online/regex/` | `RegExp` + 高亮包裹，转义后再插入 DOM |
+| 🔢 字数统计 | `/online/word-count/` | 中英混排分别计数，中文按字计 |
+| 🧰 文本处理 | `/online/text-tools/` | 去重 / 去空行 / 排序 / 大小写，一次到位 |
+| 🎫 JWT 解析 | `/online/jwt/` | 只解出 header / payload 并检查 exp，不做签名验证 |
+| 💯 进制转换 | `/online/number-base/` | 二 / 八 / 十 / 十六进制互转，带 32 位有符号视图 |
+| 🧬 转义转码 | `/online/escape/` | HTML 实体、Unicode 转义、JSON 字符串转义 |
+| 📊 CSV ↔ JSON | `/online/csv-json/` | 自写 CSV 解析，认得引号内逗号和转义引号 |
+| 🔄 图片格式转换 | `/online/image-convert/` | Canvas 重编码为 PNG / JPEG / WebP |
+| ⏰ Cron 表达式 | `/online/cron/` | 自写字段解析，列出接下来几次执行时间 |
 
 **核心卖点：数据不出浏览器。** 图片压缩用 Canvas 本地重编码，文本工具全在内存里处理，
 没有任何上传请求。这一点比多数在线工具站更值得信任，也是页面上明确标注的。
 
 **为什么值得做**：这些词的搜索量远高于开源项目名——「JSON 格式化」「图片压缩」「Base64 编码」
-都是高频需求，而收录一个叫 Excalidraw 的项目，搜的人要少得多。10 个页面是一批新的自然流量入口。
+都是高频需求，而收录一个叫 Excalidraw 的项目，搜的人要少得多。20 个页面是一批新的自然流量入口。
 
 ## 页面结构（多语言）
 
@@ -81,7 +92,7 @@
 - 四个分区纵向排列：**场景 / 使用方式 / 分类 / 排序**
 - 顶栏的 **☰ 按钮**可以收起侧边栏（桌面端），状态记在 localStorage
 - 移动端（≤900px）自动变成**从左侧滑出的抽屉**，带遮罩，点遮罩或按 Esc 关闭
-- 之所以改：分类涨到 28 个之后，横向筛选条要左右滑动才能看全，很难用
+- 之所以改：分类涨到 32 个之后，横向筛选条要左右滑动才能看全，很难用
 
 **为什么这样设计**
 
@@ -93,14 +104,14 @@
 **SEO 设计**
 
 - 所有卡片和工具页都是**构建期生成的静态 HTML**，不依赖 JS 渲染，爬虫直接可读。
-- 首页有 156 条指向工具页的内链，工具页有「同类工具」反向内链，形成内链网。
+- 首页有 278 条指向工具页的内链，工具页有「同类工具」反向内链，形成内链网。
 - 每页带 `canonical`、OG / Twitter 卡片、`theme-color`。
 - 结构化数据：首页用 `WebSite` + `ItemList`，工具页用 `SoftwareApplication` + `BreadcrumbList`。
 - **分类落地页**：`/category/analytics/` 这类页面面向「开源数据分析工具」这类关键词，
   从首页页脚、工具页面包屑、分类总览三处获得内链。
-- **英文页标签走映射**：`i18n.json` 里的 `tagTranslations`（157 条，覆盖率 100%）；
+- **英文页标签走映射**：`i18n.json` 里的 `tagTranslations`（202 条，覆盖率 100%）；
   搜索索引同时包含原文和译文标签，中英文都能搜到。
-- `sitemap.xml` 自动生成，含 `xhtml:link` 多语言标注，370 个 URL 条目。
+- `sitemap.xml` 自动生成，含 `xhtml:link` 多语言标注，804 个 URL 条目。
 
 ## 目录结构
 
@@ -110,16 +121,16 @@
     工具集合站/                    ← git 仓库根 = 网站根目录
     ├─ index.html                  ← 中文首页（生成）
     ├─ en/index.html               ← 英文首页（生成）
-    ├─ tool/<id>/index.html        ← 156 个中文工具页（生成）
-    ├─ category/<key>/index.html   ← 27 个中文分类页（生成）
+    ├─ tool/<id>/index.html        ← 278 个中文工具页（生成）
+    ├─ category/<key>/index.html   ← 32 个中文分类页（生成）
     ├─ categories/index.html       ← 分类总览（生成）
-    ├─ en/tool/<id>/index.html     ← 156 个英文工具页（生成）
-    ├─ en/category/<key>/index.html← 27 个英文分类页（生成）
+    ├─ en/tool/<id>/index.html     ← 278 个英文工具页（生成）
+    ├─ en/category/<key>/index.html← 32 个英文分类页（生成）
     ├─ en/categories/index.html    ← 英文分类总览（生成）
-    ├─ compare/<a>-vs-<b>/index.html ← 61 组对比页（生成）
+    ├─ compare/<a>-vs-<b>/index.html ← 67 组对比页（生成）
     ├─ online/                     ← 站内在线工具（生成）
     │   ├─ index.html              ← 工具索引
-    │   └─ <app>/index.html        ← 10 个工具页
+    │   └─ <app>/index.html        ← 20 个工具页
     ├─ about/ · disclaimer/        ← 静态内容页（生成）
     ├─ sitemap.xml                 ← 生成
     ├─ robots.txt                  ← 生成
@@ -133,7 +144,7 @@
     │   └─ readmes.json            ← README 摘要缓存
     ├─ scripts/
     │   ├─ tools.source.json       ← 人工维护的源数据
-    │   ├─ i18n.json               ← 中英文界面文案 + 157 条标签翻译
+    │   ├─ i18n.json               ← 中英文界面文案 + 202 条标签翻译
     │   ├─ pages.json              ← 「关于」「免责声明」正文（中英）
     │   ├─ aliases.json            ← 搜索别名（中文俗称、简称）
     │   ├─ sync-github.mjs         ← 增量同步星数等元数据
@@ -214,8 +225,9 @@ hPanel → **SSL** → 给 `tools.lfun.cloud` 装 Let's Encrypt → 开 Force HT
     node scripts/sync-github.mjs            # 增量：只请求过期或缺失的条目
     node scripts/sync-github.mjs --fresh=1  # 只跳过 1 小时内同步过的
     node scripts/sync-github.mjs --force    # 强制全部重拉
+    node scripts/sync-github.mjs --only=a,b # 只同步指定 id（新增条目省配额）
 
-- 未认证时 GitHub API 限额为 **core 60 次/小时**，而项目有 156 个——
+- 未认证时 GitHub API 限额为 **core 60 次/小时**，而项目有 278 个——
   一次全量重拉必然打满配额。所以默认是**增量**的，`syncedAt` 12 小时内的条目直接跳过。
 - 请求失败的条目会沿用上次数据并保留上次的 `syncOk`，不会把已有数据误标成"缺失"。
 - 本地想避免限流：`$env:GITHUB_TOKEN = "ghp_xxx"` 后再跑。
@@ -226,12 +238,13 @@ hPanel → **SSL** → 给 `tools.lfun.cloud` 装 Let's Encrypt → 开 Force HT
     node scripts/fetch-readmes.mjs 6 --force  # 全部重抓
     node scripts/check-links.mjs 10           # 死链检测
 
-- README 摘要走 `raw.githubusercontent.com`，**不消耗 GitHub API 配额**。
+- README 摘要走 `raw.githubusercontent.com`，**不消耗 GitHub API 配额**；
+  该域名在部分网络（如中国大陆）会被完全阻断，脚本启动时会自动探测并改用 jsDelivr CDN。
 - 摘要只接受**以项目名开头**的段落（"X is a …" 这种）。更宽松的规则会放进
-  "Optional: set APIURL…" 这类配置说明，所以宁可少也要准。当前 109/156 有摘要。
+  "Optional: set APIURL…" 这类配置说明，所以宁可少也要准。当前 188/278 有摘要。
 - 工具页的视觉图：**有官网地址就用 WordPress mShots 截真实网页**，没有则回退到 GitHub
   自动生成的仓库卡片（1200×600，零维护）。
-- **搜索别名**：`scripts/aliases.json` 给 121 个工具配了 185 条中文俗称和简称，
+- **搜索别名**：`scripts/aliases.json` 给 219 个工具配了 370 条中文俗称和简称，
   让「在线白板」「网易云播放器」这类词也能搜到。
 - **对比页**：每个分类取星数前 3 两两配对，但**必须共享至少一个标签或使用方式**才生成，
   避免出现跨用途的荒谬配对。
@@ -268,10 +281,11 @@ hPanel → **SSL** → 给 `tools.lfun.cloud` 装 Let's Encrypt → 开 Force HT
 | 字段 | 取值 |
 |---|---|
 | `scene` | 留空 = 通用工具 · `overseas` = 出海辅助 |
-| `usage` | `online` `selfhost` `desktop` `cli` `lib`（可多个） |
+| `usage` | `online` `selfhost` `desktop` `cli` `extension` `lib`（可多个） |
 | `platforms` | `windows` `macos` `linux` `android` `ios`（Web 服务留空数组） |
 | `homepage` | `null` = 从 GitHub 自动读取；`""` = 确认没有；其他 = 写死 |
-| `caution` | 留空或填 `隐私` / `版权` / `系统修改`，显示橙色提醒角标 |
+| `caution` | 留空或填 `隐私` / `版权` / `系统修改` / `许可`，显示橙色提醒角标 |
+| `archived` | 可选。仓库已归档但仍有参考价值时填 `true`，显示「已归档」角标 |
 | `tags` | **必须是数组**，不是逗号分隔的字符串 |
 | `desc` | 中文描述；英文页优先用 GitHub 返回的 `descEn` |
 
@@ -345,6 +359,7 @@ hPanel → **SSL** → 给 `tools.lfun.cloud` 装 Let's Encrypt → 开 Force HT
   |---|---|---|
   | 在线即用 | 在线使用 → 官网 | 无官网时显示灰色"暂无在线版" |
   | 可自托管 | 部署 → 官网或 releases | |
+  | 浏览器扩展 | 获取扩展 → 官网或 releases | |
   | 桌面 / 命令行 | 下载 → releases | 有官网时额外显示"官网" |
   | 开发库 | 文档 → 官网或仓库 | |
 
@@ -372,7 +387,7 @@ hPanel → **SSL** → 给 `tools.lfun.cloud` 装 Let's Encrypt → 开 Force HT
 ## 已知取舍
 
 - **搜索是子串匹配**：搜 "OCR" 会匹配到 EspoCRM（名字里含 ocr），属于预期行为。
-- **首页 HTML 约 230 KB**：156 张卡片全在 HTML 里是为了 SEO。开 gzip 后约 30–40 KB，可接受。
+- **首页 HTML 约 470 KB**：278 张卡片全在 HTML 里是为了 SEO。开 gzip 后约 70 KB。
 - **出海收款和海外短信没有像样的开源替代**：Stripe / Paddle / Twilio 都是闭源的，
   Hyperswitch 只是编排层。详见 `02-出海辅助工具清单.md`。
 - **自建邮件服务器慎用**：开源自建发信 IP 的信誉极难维护，生产环境建议用
@@ -383,4 +398,4 @@ hPanel → **SSL** → 给 `tools.lfun.cloud` 装 Let's Encrypt → 开 Force HT
 
 - 分类落地页（`/category/analytics/` 这类，可再吃一批长尾词）
 - 工具页补充截图与 README 摘要
-- 继续补：浏览器扩展、可自托管服务、学习资源、设计素材
+- 继续补：学习资源、设计素材、移动端工具、硬件与物联网

@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SingleFile · 下载工具 · 开源工具集</title>
+<meta name="description" content="把整个网页连图片样式一起存成单个 HTML 文件，离线打开也跟原页面一样 ⭐ 22.5k · JavaScript · AGPL-3.0">
+<meta name="theme-color" content="#2563eb">
+<link rel="canonical" href="https://tools.lfun.cloud/tool/singlefile/">
+<link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/tool/singlefile/">
+<link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/en/tool/singlefile/">
+<link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/singlefile/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SingleFile · 下载工具 · 开源工具集">
+<meta property="og:description" content="把整个网页连图片样式一起存成单个 HTML 文件，离线打开也跟原页面一样 ⭐ 22.5k · JavaScript · AGPL-3.0">
+<meta property="og:url" content="https://tools.lfun.cloud/tool/singlefile/">
+<meta property="og:image" content="https://tools.lfun.cloud/og.png">
+<meta property="og:site_name" content="开源工具集">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"SingleFile","description":"把整个网页连图片样式一起存成单个 HTML 文件，离线打开也跟原页面一样","url":"https://tools.lfun.cloud/tool/singlefile/","inLanguage":"zh-CN","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","codeRepository":"https://github.com/gildas-lormeau/SingleFile","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"gildas-lormeau"},"keywords":"网页存档, 离线, 浏览器扩展"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"全部工具","item":"https://tools.lfun.cloud/"},{"@type":"ListItem","position":2,"name":"下载工具","item":"https://tools.lfun.cloud/category/download/"},{"@type":"ListItem","position":3,"name":"SingleFile","item":"https://tools.lfun.cloud/tool/singlefile/"}]}</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧰</text></svg>">
+<link rel="stylesheet" href="/styles.css?v=67b0715d">
+<script>window.__LANG__="zh";window.__I18N__={"htmlLang":"zh-CN","siteName":"开源工具集","brandSub":"标注清楚<strong>怎么用<\/strong>：在线即用 / 可自托管 / 桌面应用 / 命令行","homeTitle":"开源工具集 · {n} 个精选 GitHub 开源项目","homeDesc":"{n} 个精选 GitHub 开源项目，标注清楚怎么用：在线即用、可自托管、桌面应用、命令行。含出海辅助专题：多语言、合规、支付、邮件、客服。","searchPlaceholder":"搜索工具名、用途、标签…  按 / 聚焦","scenes":{"all":"全部","general":"通用工具","overseas":"🌏 出海辅助"},"usages":{"online":"🌐 在线即用","desktop":"💻 桌面应用","cli":"⌨️ 命令行","selfhost":"🐳 可自托管","lib":"📦 开发库","list":"📚 清单资源","extension":"🧩 浏览器扩展"},"categories":{"watermark":"水印处理","video":"视频制作","social":"社媒运营","ai":"AI 工具","diagram":"白板绘图","image":"图片图形","doc":"文档 PDF","dev":"开发工具","design":"设计","utility":"效率工具","fun":"有趣好玩","system":"系统增强","download":"下载工具","capture":"截图录屏","media":"音乐媒体","writing":"写作笔记","filesearch":"搜索与文件","security":"安全隐私","analytics":"数据分析","experiment":"A/B 实验","i18n":"多语言本地化","payment":"支付计费","commerce":"电商建站","email":"邮件触达","notify":"通知短信","support":"客服工单","crm":"CRM 销售","auth":"认证授权","compliance":"合规签署","sitesearch":"站内搜索","finance":"财务发票","promo":"推广获客"},"allCategories":"全部分类","allUsage":"全部","sortStars":"按星数排序","sortName":"按名称排序","sortUpdated":"按最近更新","btnOnline":"在线使用","btnDeploy":"部署","btnDownload":"下载","btnDocs":"文档","btnAddon":"获取扩展","btnRepo":"仓库","btnNoOnline":"暂无在线版","archived":"已归档","cautions":{"隐私":"隐私","版权":"版权","系统修改":"系统修改","许可":"许可待确认"},"countTemplate":"显示 {n} / {total} 个工具","emptyFav":"还没有收藏任何工具","emptyMatch":"没有匹配的工具","clearFilters":"清除筛选条件","favTitle":"收藏","themeTitle":"切换主题","favOnly":"只看收藏","backToAll":"全部工具","related":"同类工具","detailTitle":"详情","specStars":"星数","specLang":"语言","specLicense":"许可证","specUpdated":"最近更新","specCategory":"分类","specScene":"场景","noLicense":"未标注","footerNote":"星数会持续变化，由 GitHub Actions 每周自动同步。","langSwitch":"English","langSwitchHref":"/en/","categoriesHeading":"分类总览","catPageSub":"共 {n} 个精选开源项目","catPageLink":"查看分类","readmeHeading":"项目简介（摘自 README）","aboutLabel":"关于本站","disclaimerLabel":"免责声明","onlineHeading":"在线工具","onlineSub":"浏览器里直接可用的小工具，数据不上传服务器","privacyNote":"🔒 全部在浏览器本地运行，文件和内容不会上传到任何服务器。","aboutThisTool":"关于这个工具","sideScene":"场景","sideUsage":"使用方式","sideCategory":"分类","sideSort":"排序","menuToggle":"筛选菜单","filterHint":"筛选条件"};</script>
+</head>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="/">
+      <span class="brand-mark">🧰</span>
+      <div>
+        <span class="brand-name">开源工具集</span>
+        <p class="brand-sub">标注清楚<strong>怎么用</strong>：在线即用 / 可自托管 / 桌面应用 / 命令行</p>
+      </div>
+    </a>
+    <div class="topbar-actions">
+
+      <a class="btn-ghost" href="/en/">English</a>
+      <button id="theme-toggle" class="btn-ghost" title="切换主题">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs">
+    <a href="/">全部工具</a>
+    <span>/</span><a href="/category/download/">下载工具</a>
+    <span>/</span><strong>SingleFile</strong>
+  </nav>
+  <article class="detail">
+    <header class="detail-head">
+      <img class="icon icon-lg" src="https://github.com/gildas-lormeau.png?size=160" alt="" data-initial="S" onerror="iconFail(this)">
+      <div>
+        <h1 class="detail-name">SingleFile</h1>
+        <div class="card-repo">gildas-lormeau/SingleFile</div>
+      </div>
+      <button class="fav fav-lg" data-fav="singlefile" title="收藏">☆</button>
+    </header>
+    <div class="tier-banner tier-install">
+      <strong>需下载安装</strong>
+      <span>下载安装到本机使用，不需要服务器。</span>
+    </div>
+    <p class="detail-desc">把整个网页连图片样式一起存成单个 HTML 文件，离线打开也跟原页面一样</p>
+    <div class="tags"><span class="tag">网页存档</span><span class="tag">离线</span><span class="tag">浏览器扩展</span></div>
+    <figure class="repo-card-wrap"><img class="repo-card" src="https://s0.wp.com/mshots/v1/https%3A%2F%2Fgetsinglefile.com?w=1200" alt="SingleFile 网站截图" width="1200" height="675" loading="lazy" referrerpolicy="no-referrer"></figure>
+
+
+    <dl class="specs">
+    <div class="spec"><dt>星数</dt><dd>★ 22.5k</dd></div>
+    <div class="spec"><dt>语言</dt><dd>JavaScript</dd></div>
+    <div class="spec"><dt>许可证</dt><dd>AGPL-3.0</dd></div>
+    <div class="spec"><dt>最近更新</dt><dd>2026-09-22</dd></div>
+    <div class="spec"><dt>分类</dt><dd>下载工具</dd></div>
+    <div class="spec"><dt>场景</dt><dd>通用工具</dd></div>
+    </dl>
+    <div class="detail-actions">
+      <a class="btn-primary btn-lg" href="https://getsinglefile.com" target="_blank" rel="noopener">获取扩展</a>
+      <a class="btn-secondary btn-lg" href="https://github.com/gildas-lormeau/SingleFile" target="_blank" rel="noopener">仓库</a>
+    </div>
+  </article>
+  <section class="related">
+    <h2>同类工具</h2>
+    <div class="grid">
+<article class="card" data-id="motrix" data-scene="general"
+  data-usage="desktop" data-category="download"
+  data-stars="55778" data-name="Motrix"
+  data-updated="2026-09-23" data-search="motrix agalwood/motrix 界面清爽的全能下载器，支持 http/bt/磁力/百度网盘 a full-featured download manager. typescript 下载器 bt downloader bt 下载器 aria2 界面">
+  <button class="fav" data-fav="motrix" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/agalwood.png?size=96" alt="" loading="lazy"
+         data-initial="M" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/motrix/">Motrix</a></h3>
+      <div class="card-repo">agalwood/Motrix</div>
+      <div class="tier tier-install">需下载安装</div>
+    </div>
+  </div>
+  <p class="card-desc">界面清爽的全能下载器，支持 HTTP/BT/磁力/百度网盘</p>
+  <div class="tags"><span class="tag plat">Win</span><span class="tag plat">macOS</span><span class="tag plat">Linux</span><span class="tag">下载器</span><span class="tag">BT</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">55.8k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3178c6"></i>TypeScript</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/agalwood/Motrix/releases" target="_blank" rel="noopener">下载</a><a class="btn-secondary" href="https://github.com/agalwood/Motrix" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="cat-catch" data-scene="general"
+  data-usage="extension" data-category="download"
+  data-stars="21983" data-name="猫抓"
+  data-updated="2026-09-15" data-search="猫抓 xifangczy/cat-catch 嗅探网页里的视频音频资源，支持 m3u8 分片合并下载，网页视频存本地 猫抓 浏览器资源嗅探扩展 / cat-catch browser resource sniffing extension javascript 视频下载 下载器 浏览器扩展 video download downloader browser extension 猫抓 视频嗅探 网页视频下载">
+  <button class="fav" data-fav="cat-catch" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/xifangczy.png?size=96" alt="" loading="lazy"
+         data-initial="猫" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/cat-catch/">猫抓</a><span class="badge warn">版权</span></h3>
+      <div class="card-repo">xifangczy/cat-catch</div>
+      <div class="tier tier-install">需下载安装</div>
+    </div>
+  </div>
+  <p class="card-desc">嗅探网页里的视频音频资源，支持 m3u8 分片合并下载，网页视频存本地</p>
+  <div class="tags"><span class="tag">视频下载</span><span class="tag">下载器</span><span class="tag">浏览器扩展</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">22.0k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#f1e05a"></i>JavaScript</span>
+    <span class="actions"><a class="btn-primary" href="https://cat-catch.94cat.com" target="_blank" rel="noopener">获取扩展</a><a class="btn-secondary" href="https://github.com/xifangczy/cat-catch" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="abdm" data-scene="general"
+  data-usage="desktop" data-category="download"
+  data-stars="18039" data-name="AB Download Manager"
+  data-updated="2026-09-08" data-search="ab download manager amir1376/ab-download-manager 多线程下载管理器，idm 的免费开源替代 a download manager that speeds up your downloads kotlin 下载器 多线程 downloader multi-threaded 下载管理器">
+  <button class="fav" data-fav="abdm" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/amir1376.png?size=96" alt="" loading="lazy"
+         data-initial="A" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/abdm/">AB Download Manager</a></h3>
+      <div class="card-repo">amir1376/ab-download-manager</div>
+      <div class="tier tier-install">需下载安装</div>
+    </div>
+  </div>
+  <p class="card-desc">多线程下载管理器，IDM 的免费开源替代</p>
+  <div class="tags"><span class="tag plat">Win</span><span class="tag plat">macOS</span><span class="tag plat">Linux</span><span class="tag">下载器</span><span class="tag">多线程</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">18.0k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#A97BFF"></i>Kotlin</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/amir1376/ab-download-manager/releases" target="_blank" rel="noopener">下载</a><a class="btn-secondary" href="https://github.com/amir1376/ab-download-manager" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+    </div>
+  </section>
+  <p class="back-link"><a href="/">← 全部工具</a></p>
+</main>
+
+<footer class="footer wrap">
+  <p>开源工具集 · 星数会持续变化，由 GitHub Actions 每周自动同步。</p>
+  <p class="footer-links"><a href="/online/">在线工具</a><a href="/categories/">分类总览</a><a href="/about/">关于本站</a><a href="/disclaimer/">免责声明</a><a href="/en/">English</a></p>
+</footer>
+<script src="/app.js?v=67b0715d"></script>
+</body>
+</html>

@@ -210,6 +210,167 @@ function check(name, actual, expected) {
   t.restore();
 }
 
+/* ---- 第二批工具 ---- */
+
+/* 11. Markdown */
+{
+  const t = runApp("markdown", "zh");
+  t.els["md-in"].value = "# 标题\n\n**粗体** 和 *斜体*\n\n- a\n- b\n\n1. 一\n2. 二";
+  t.els["md-in"].dispatch("input");
+  await new Promise((r) => setTimeout(r, 300));
+  const h = t.els["md-out"].innerHTML;
+  check("Markdown H1", h.includes("<h1>标题</h1>"), true);
+  check("Markdown 粗体", h.includes("<strong>粗体</strong>"), true);
+  check("Markdown 斜体", h.includes("<em>斜体</em>"), true);
+  check("Markdown 无序列表", h.includes("<ul><li>a</li><li>b</li></ul>"), true);
+  check("Markdown 有序列表", h.includes("<ol><li>一</li><li>二</li></ol>"), true);
+  t.els["md-in"].value = "| A | B |\n|---|---|\n| 1 | 2 |";
+  t.els["md-in"].dispatch("input");
+  await new Promise((r) => setTimeout(r, 300));
+  check("Markdown 表格", t.els["md-out"].innerHTML.includes("<th>A</th>"), true);
+  t.els["md-in"].value = "```js\nconst a = 1;\n```";
+  t.els["md-in"].dispatch("input");
+  await new Promise((r) => setTimeout(r, 300));
+  check("Markdown 代码块", t.els["md-out"].innerHTML.includes("<pre><code>const a = 1;"), true);
+  t.restore();
+}
+
+/* 12. 正则 */
+{
+  const t = runApp("regex", "zh");
+  t.els["re-pat"].value = "\\d+";
+  t.els["re-flags"].value = "g";
+  t.els["re-in"].value = "a1 b22 c333";
+  t.els["re-in"].dispatch("input");
+  check("正则匹配数 3", t.els["re-msg"].textContent.includes("3"), true);
+  check("正则高亮", t.els["re-hl"].innerHTML.includes("<mark>333</mark>"), true);
+  t.els["re-pat"].value = "(a+)";
+  t.els["re-in"].dispatch("input");
+  check("正则捕获组", t.els["re-out"].innerHTML.includes("$1="), true);
+  t.els["re-pat"].value = "([";
+  t.els["re-in"].dispatch("input");
+  check("非法正则报错", t.els["re-msg"].textContent.length > 0, true);
+  t.restore();
+}
+
+/* 13. 字数统计 */
+{
+  const t = runApp("word-count", "zh");
+  t.els["wc-in"].value = "你好世界 hello world";
+  t.els["wc-in"].dispatch("input");
+  const h = t.els["wc-out"].innerHTML;
+  check("中文字符数 = 4", h.includes('中文字符</span><code class="app-v">4</code>'), true);
+  check("英文单词数 = 2", h.includes('英文单词</span><code class="app-v">2</code>'), true);
+  check("总字符数 = 16", h.includes('总字符</span><code class="app-v">16</code>'), true);
+  t.restore();
+}
+
+/* 14. 文本批处理 */
+{
+  const t = runApp("text-tools", "zh");
+  t.els["tt-in"].value = "b\na\nb\n\nc";
+  t.click("dedupe");
+  check("去重后剩 4 行（含空行）", t.els["tt-out"].value.split("\n").length, 4);
+  t.click("dropEmpty");
+  check("去空行后剩 3 行", t.els["tt-out"].value.split("\n").length, 3);
+  t.click("sort");
+  check("升序排序", t.els["tt-out"].value, "a\nb\nc");
+  t.click("sortDesc");
+  check("降序排序", t.els["tt-out"].value, "c\nb\na");
+  t.restore();
+}
+
+/* 15. JWT */
+{
+  const t = runApp("jwt", "zh");
+  const b64u = (o) => Buffer.from(JSON.stringify(o)).toString("base64url");
+  t.els["jwt-in"].value = b64u({ alg: "HS256", typ: "JWT" }) + "." + b64u({ sub: "1234", exp: 9999999999 }) + ".sig";
+  t.els["jwt-in"].dispatch("input");
+  const h = t.els["jwt-out"].innerHTML;
+  check("JWT 解析 Header", h.includes("HS256"), true);
+  check("JWT 解析 Payload", h.includes("1234"), true);
+  check("JWT 未过期提示", t.els["jwt-msg"].textContent.includes("有效"), true);
+  t.els["jwt-in"].value = "not-a-jwt";
+  t.els["jwt-in"].dispatch("input");
+  check("非法 JWT 报错", t.els["jwt-msg"].textContent.length > 0, true);
+  t.restore();
+}
+
+/* 16. 进制转换 */
+{
+  const t = runApp("number-base", "zh");
+  t.els["nb-in"].value = "255";
+  t.els["nb-from"].value = "10";
+  t.els["nb-in"].dispatch("input");
+  let h = t.els["nb-out"].innerHTML;
+  check("255 → HEX", h.includes("0xFF"), true);
+  check("255 → BIN", h.includes("0b11111111"), true);
+  check("255 → OCT", h.includes("0o377"), true);
+  t.els["nb-in"].value = "FF";
+  t.els["nb-from"].value = "16";
+  t.els["nb-in"].dispatch("input");
+  h = t.els["nb-out"].innerHTML;
+  check("0xFF → DEC 255", h.includes('DEC</span><code class="app-v">255</code>'), true);
+  t.restore();
+}
+
+/* 17. 转义 */
+{
+  const t = runApp("escape", "zh");
+  t.els["es-in"].value = '<a href="x">&!';
+  t.click("htmlEnc");
+  check("HTML 转义", t.els["es-out"].value, "&lt;a href=&quot;x&quot;&gt;&amp;!");
+  t.els["es-in"].value = t.els["es-out"].value;
+  t.click("htmlDec");
+  check("HTML 反转义往返", t.els["es-out"].value, '<a href="x">&!');
+  t.els["es-in"].value = "中文A";
+  t.click("uniEnc");
+  const uni = t.els["es-out"].value;
+  check("Unicode 转义", uni.indexOf("4e2d") !== -1 && uni.indexOf("A") !== -1, true);
+  t.els["es-in"].value = uni;
+  t.click("uniDec");
+  check("Unicode 反转义往返", t.els["es-out"].value, "中文A");
+  t.els["es-in"].value = 'a"b';
+  t.click("jsonStr");
+  check("JSON 字符串转义", t.els["es-out"].value, 'a\\"b');
+  t.restore();
+}
+
+/* 18. CSV ↔ JSON */
+{
+  const t = runApp("csv-json", "zh");
+  t.els["cj-in"].value = 'name,age\n"张,三",30\n李四,25';
+  t.click("csv2json");
+  const j = JSON.parse(t.els["cj-out"].value);
+  check("CSV 行数", j.length, 2);
+  check("带逗号的引号字段", j[0].name, "张,三");
+  check("字段类型保持字符串", j[1].age, "25");
+  t.els["cj-in"].value = t.els["cj-out"].value;
+  t.click("json2csv");
+  const csv = t.els["cj-out"].value;
+  check("JSON → CSV 表头", csv.split("\n")[0], "name,age");
+  check("JSON → CSV 自动加引号", csv.includes('"张,三"'), true);
+  t.restore();
+}
+
+/* 20. Cron */
+{
+  const t = runApp("cron", "zh");
+  t.els["cr-in"].value = "0 9 * * 1-5";
+  t.els["cr-in"].dispatch("input");
+  const h = t.els["cr-out"].innerHTML;
+  check("Cron 分钟字段", h.includes("分钟"), true);
+  check("Cron 接下来执行时间", h.includes("接下来 5 次"), true);
+  check("Cron 解析成功", t.els["cr-msg"].textContent.includes("成功"), true);
+  t.els["cr-in"].value = "bad";
+  t.els["cr-in"].dispatch("input");
+  check("非法 Cron 报错", t.els["cr-msg"].textContent.length > 0, true);
+  t.els["cr-in"].value = "*/5 * * * *";
+  t.els["cr-in"].dispatch("input");
+  check("Cron */5 解析", t.els["cr-out"].innerHTML.includes("每 5"), true);
+  t.restore();
+}
+
 console.log("");
 console.log("结果: " + pass + " 通过 / " + fail + " 失败");
 process.exit(fail ? 1 : 0);

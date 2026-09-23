@@ -5,6 +5,7 @@
 //   node scripts/sync-github.mjs              增量同步（跳过 12 小时内已同步的条目）
 //   node scripts/sync-github.mjs --fresh=1    只跳过 1 小时内已同步的
 //   node scripts/sync-github.mjs --force      忽略新鲜度，全部重拉
+//   node scripts/sync-github.mjs --only=a,b   只同步指定 id（用于新增条目，省配额）
 //
 // 环境变量 GITHUB_TOKEN 可选，用于提高限额（未认证: core 60 次/小时）
 import { readFile, writeFile, mkdir } from "node:fs/promises";
@@ -20,6 +21,8 @@ const args = process.argv.slice(2);
 const FORCE = args.includes("--force");
 const freshArg = args.find((a) => a.startsWith("--fresh="));
 const FRESH_HOURS = freshArg ? Number(freshArg.split("=")[1]) : 12;
+const onlyArg = args.find((a) => a.startsWith("--only="));
+const ONLY = onlyArg ? new Set(onlyArg.slice("--only=".length).split(",").filter(Boolean)) : null;
 
 const token = process.env.GITHUB_TOKEN || "";
 const headers = { "User-Agent": "gh-tools-collection", Accept: "application/vnd.github+json" };
@@ -51,8 +54,9 @@ function isFresh(p) {
 const skipped = [];
 const fetchList = [];
 for (const it of items) {
+  if (ONLY && !ONLY.has(it.id)) { skipped.push(it.id); continue; }
   const p = prevMap[it.id];
-  if (!FORCE && isFresh(p)) skipped.push(it.id);
+  if (!FORCE && !ONLY && isFresh(p)) skipped.push(it.id);
   else fetchList.push(it);
 }
 
@@ -121,9 +125,9 @@ const outItems = items.map((it) => {
       stars: p.stars != null ? p.stars : it.seed.stars,
       language: p.language || it.seed.language,
       license: p.license || it.seed.license,
-      archived: !!p.archived,
-      pushedAt: p.pushedAt || "",
-      descEn: p.descEn || "",
+      archived: typeof it.archived === "boolean" ? it.archived : !!p.archived,
+      pushedAt: p.pushedAt || it.pushedAt || "",
+      descEn: p.descEn || it.descEn || "",
       syncOk: p.syncOk === true,
       syncedAt: p.syncedAt || "",
     };
@@ -136,9 +140,9 @@ const outItems = items.map((it) => {
     stars: p.stars != null ? p.stars : it.seed.stars,
     language: p.language || it.seed.language,
     license: p.license || it.seed.license,
-    archived: !!p.archived,
-    pushedAt: p.pushedAt || "",
-    descEn: p.descEn || "",
+    archived: typeof it.archived === "boolean" ? it.archived : !!p.archived,
+    pushedAt: p.pushedAt || it.pushedAt || "",
+    descEn: p.descEn || it.descEn || "",
     syncOk: p.syncOk === true,
     syncedAt: p.syncedAt || "",
   };

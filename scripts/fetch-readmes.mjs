@@ -139,17 +139,39 @@ const NAMES = ["README.md", "readme.md", "Readme.md", "README.rst", "README.mark
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// raw.githubusercontent.com 在部分网络（如中国大陆）会被完全阻断，
+// 启动时探测一次：拿不到任何 HTTP 响应就整体切到 jsDelivr CDN。
+let RAW_OK = true;
+try {
+  await fetch("https://raw.githubusercontent.com/octocat/Hello-World/master/README", {
+    signal: AbortSignal.timeout(8000), headers: { "User-Agent": UA },
+  });
+} catch (e) {
+  RAW_OK = false;
+}
+if (!RAW_OK) console.log("提示: raw.githubusercontent.com 不可达，改用 jsDelivr CDN");
+
+// 同一份文件可能存在的地址，按可靠性排序
+function candidateUrls(repo, name) {
+  const urls = [];
+  if (RAW_OK) urls.push("https://raw.githubusercontent.com/" + repo + "/HEAD/" + name);
+  urls.push("https://cdn.jsdelivr.net/gh/" + repo + "@main/" + name);
+  urls.push("https://cdn.jsdelivr.net/gh/" + repo + "@master/" + name);
+  return urls;
+}
+
 async function fetchReadme(repo) {
   for (const name of NAMES) {
-    const url = "https://raw.githubusercontent.com/" + repo + "/HEAD/" + name;
-    for (let attempt = 0; attempt < 3; attempt++) {
-      try {
-        const res = await fetch(url, { signal: AbortSignal.timeout(20000), headers: { "User-Agent": UA } });
-        if (res.ok) return { text: await res.text(), file: name };
-        if (res.status === 404) break;             // 文件名不对，直接换下一个候选
-        await sleep(2500 * (attempt + 1));         // 429 / 5xx：退避重试
-      } catch (e) {
-        await sleep(1500 * (attempt + 1));
+    for (const url of candidateUrls(repo, name)) {
+      for (let attempt = 0; attempt < 2; attempt++) {
+        try {
+          const res = await fetch(url, { signal: AbortSignal.timeout(15000), headers: { "User-Agent": UA } });
+          if (res.ok) return { text: await res.text(), file: name };
+          if (res.status === 404) break;           // 这个地址没有该文件，换下一个
+          await sleep(2000 * (attempt + 1));       // 429 / 5xx：退避重试
+        } catch (e) {
+          await sleep(1200 * (attempt + 1));
+        }
       }
     }
   }
