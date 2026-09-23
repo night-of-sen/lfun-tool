@@ -4,11 +4,22 @@
 import { readFile, writeFile, mkdir, rm } from "node:fs/promises";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { createHash } from "node:crypto";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 // 工具站部署在子域名；占卜站占用 lfun.cloud 主域名
 const DOMAIN = (process.argv[2] || process.env.SITE_DOMAIN || "https://tools.lfun.cloud").replace(/[/]+$/, "");
 const LANGS = ["zh", "en"];
+
+// 静态资源加内容指纹，避免浏览器缓存旧 CSS/JS
+// （.htaccess 给 CSS/JS 设了 1 小时缓存，不加版本号的话改完样式用户要等一小时才看到）
+const ASSET_V = await (async function () {
+  const h = createHash("sha1");
+  for (const f of ["styles.css", "app.js", "online.js"]) {
+    try { h.update(await readFile(join(ROOT, f))); } catch (e) {}
+  }
+  return h.digest("hex").slice(0, 8);
+})();
 
 const data = JSON.parse(await readFile(join(ROOT, "data/tools.json"), "utf8"));
 const T = JSON.parse(await readFile(join(ROOT, "scripts/i18n.json"), "utf8"));
@@ -150,7 +161,7 @@ function head(lang, opt) {
     '<meta name="twitter:card" content="summary_large_image">',
     jsonld,
     '<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧰</text></svg>">',
-    '<link rel="stylesheet" href="/styles.css">',
+    '<link rel="stylesheet" href="/styles.css?v=' + ASSET_V + '">',
     '<script>window.__LANG__=' + JSON.stringify(lang) + ";window.__I18N__=" + i18nJs + ";</script>",
     "</head>"
   ].join("\n");
@@ -326,7 +337,7 @@ function homePage(lang) {
     "</div>",
     "",
     footer(lang),
-    '<script src="/app.js"></script>',
+    '<script src="/app.js?v=' + ASSET_V + '"></script>',
     "</body>",
     "</html>"
   ].join("\n");
@@ -477,7 +488,7 @@ function toolPage(t, lang) {
   lines.push("</main>");
   lines.push("");
   lines.push(footer(lang));
-  lines.push('<script src="/app.js"></script>');
+  lines.push('<script src="/app.js?v=' + ASSET_V + '"></script>');
   lines.push("</body>");
   lines.push("</html>");
   return lines.join("\n");
@@ -588,7 +599,7 @@ function contentPage(lang, key) {
     "</main>",
     "",
     footer(lang),
-    '<script src="/app.js"></script>',
+    '<script src="/app.js?v=' + ASSET_V + '"></script>',
     "</body>",
     "</html>"
   ].join("\n");
@@ -730,7 +741,7 @@ function comparePage(lang, pair) {
     "</main>",
     "",
     footer(lang),
-    '<script src="/app.js"></script>',
+    '<script src="/app.js?v=' + ASSET_V + '"></script>',
     "</body>",
     "</html>"
   ].join("\n");
@@ -789,8 +800,8 @@ function onlineAppPage(lang, app) {
     "</main>",
     "",
     footer(lang),
-    '<script src="/app.js"></script>',
-    '<script src="/online.js"></script>',
+    '<script src="/app.js?v=' + ASSET_V + '"></script>',
+    '<script src="/online.js?v=' + ASSET_V + '"></script>',
     "</body>",
     "</html>"
   ].join("\n");
@@ -849,7 +860,7 @@ function onlineIndexPage(lang) {
     "</main>",
     "",
     footer(lang),
-    '<script src="/app.js"></script>',
+    '<script src="/app.js?v=' + ASSET_V + '"></script>',
     "</body>",
     "</html>"
   ].join("\n");
@@ -914,7 +925,7 @@ function categoryPage(lang, key) {
     "</main>",
     "",
     footer(lang),
-    '<script src="/app.js"></script>',
+    '<script src="/app.js?v=' + ASSET_V + '"></script>',
     "</body>",
     "</html>"
   ].join("\n");
@@ -975,7 +986,7 @@ function categoriesIndexPage(lang) {
     "</main>",
     "",
     footer(lang),
-    '<script src="/app.js"></script>',
+    '<script src="/app.js?v=' + ASSET_V + '"></script>',
     "</body>",
     "</html>"
   ].join("\n");
@@ -1124,6 +1135,16 @@ for (var li = 0; li < LANGS.length; li++) {
 }
 await writeFile(join(ROOT, "sitemap.xml"), sitemap(), "utf8");
 await writeFile(join(ROOT, "robots.txt"), robots(), "utf8");
+
+// 404.html 是手写页，只替换其中的资源引用，让版本号跟着一起更新
+try {
+  const nfPath = join(ROOT, "404.html");
+  const nfHtml = await readFile(nfPath, "utf8");
+  const patched = nfHtml
+    .replace(/href="\/styles\.css[^"]*"/, 'href="/styles.css?v=' + ASSET_V + '"')
+    .replace(/src="\/app\.js[^"]*"/, 'src="/app.js?v=' + ASSET_V + '"');
+  if (patched !== nfHtml) await writeFile(nfPath, patched, "utf8");
+} catch (e) {}
 
 console.log("生成完成");
 console.log("  语言: " + LANGS.join(" / "));
