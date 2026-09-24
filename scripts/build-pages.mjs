@@ -216,12 +216,20 @@ function card(t, lang) {
   var color = LANG_COLORS[t.language] || "#8b949e";
   var owner = t.repo.split("/")[0];
   var initial = (t.name || "?").charAt(0);
-  // 搜索索引同时包含原文标签和译文标签，中英文都能搜到
-  var search = [t.name, t.repo, t.desc, t.descEn, t.language,
-    (t.tags || []).join(" "),
-    (t.tags || []).map(function (x) { return tagLabel("en", x); }).join(" "),
-    (ALIASES[t.id] || []).join(" ")]
-    .join(" ").toLowerCase();
+  // 搜索文本的大头（名称/仓库/描述/标签）前端可以直接从卡片 DOM 读，
+  // 这里只放 DOM 里没有的：另一种语言的描述与标签 + 中文别名。
+  // 早先把整份索引塞进 data-search，光这一项就占了首页 16% 的体积。
+  var extra = [];
+  if (lang === "zh") {
+    if (t.descEn) extra.push(t.descEn);
+    (t.tags || []).forEach(function (x) { var e = tagLabel("en", x); if (e && e !== x) extra.push(e); });
+  } else {
+    if (t.desc) extra.push(t.desc);
+    (t.tags || []).forEach(function (x) { extra.push(x); });
+  }
+  (ALIASES[t.id] || []).forEach(function (x) { extra.push(x); });
+  if (t.language) extra.push(t.language);   // 保留「按语言搜索」，卡面 DOM 里只有可见文案
+  var extraStr = extra.join(" ");
 
   var badges = "";
   if (t.archived) badges += '<span class="badge">' + esc(L.archived) + "</span>";
@@ -239,7 +247,7 @@ function card(t, lang) {
     '<article class="card" data-id="' + esc(t.id) + '" data-scene="' + sceneKey(t) + '"',
     '  data-usage="' + esc((t.usage || []).join(" ")) + '" data-category="' + esc(t.category) + '"',
     '  data-stars="' + (t.stars || 0) + '" data-name="' + esc(t.name) + '"',
-    '  data-updated="' + esc(t.pushedAt || "") + '" data-search="' + esc(search) + '">',
+    '  data-updated="' + esc(t.pushedAt || "") + '" data-extra="' + esc(extraStr) + '">',
     '  <button class="fav" data-fav="' + esc(t.id) + '" title="' + esc(L.favTitle) + '">☆</button>',
     '  <div class="card-head">',
     '    <img class="icon" src="https://github.com/' + esc(owner) + '.png?size=96" alt="" loading="lazy"',
@@ -259,7 +267,7 @@ function card(t, lang) {
       '<a class="btn-secondary" href="https://github.com/' + esc(t.repo) + '" target="_blank" rel="noopener">' + esc(L.btnRepo) + "</a></span>",
     "  </div>",
     "</article>"
-  ].join("\n");
+  ].join("\n").replace(/\n\s*/g, " ");
 }
 
 /* ---------------- 首页 ---------------- */

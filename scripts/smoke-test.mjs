@@ -13,17 +13,31 @@ const has = (t, u) => (t.usage || []).includes(u);
 const i18nStart = html.indexOf("window.__I18N__=");
 const i18nEnd = html.indexOf(";</script>", i18nStart);
 const i18n = JSON.parse(html.slice(i18nStart + "window.__I18N__=".length, i18nEnd));
+const aliases = JSON.parse(readFileSync(resolve(ROOT, "scripts/aliases.json"), "utf8"));
+
+// 首页卡片的可搜索文本：DOM 里的可见文案（名称/仓库/描述/标签）+ data-extra
+// （另一种语言的描述与标签、中文别名、语言名）。改搜索实现时这里必须同步。
+const searchTextOf = (t) => [t.name, t.repo, t.desc, t.descEn, t.language || "",
+  (t.tags || []).join(" "),
+  (t.tags || []).map((x) => (i18n.tagTranslations || {})[x] || "").join(" "),
+  (aliases[t.id] || []).join(" ")].join(" ").toLowerCase();
 
 /* 解析静态卡片 */
 const parsed = [];
-const cardRe = /<article class="card"([\s\S]*?)>/g;
+const cardRe = /<article class="card"([^>]*)>([\s\S]*?)<\/article>/g;
 let mm;
 while ((mm = cardRe.exec(html))) {
-  const a = mm[1];
+  const a = mm[1], body = mm[2];
   const get = (k) => { const r = new RegExp('data-' + k + '="([^"]*)"').exec(a); return r ? r[1] : ""; };
+  // app.js 现在从卡片 DOM 读可见文本，垫片也得能返回这些节点
+  const pick = (cls) => {
+    const r = new RegExp('<[^>]*class="' + cls + '"[^>]*>([\\s\\S]*?)<\\/').exec(body);
+    return r ? r[1].replace(/<[^>]+>/g, " ") : "";
+  };
   parsed.push({
     id: get("id"), scene: get("scene"), usage: get("usage"), category: get("category"),
-    stars: Number(get("stars")) || 0, name: get("name"), updated: get("updated"), search: get("search")
+    stars: Number(get("stars")) || 0, name: get("name"), updated: get("updated"), extra: get("extra"),
+    repo: pick("card-repo"), desc: pick("card-desc"), tags: pick("tags")
   });
 }
 
@@ -71,10 +85,17 @@ function stub(attrs, text) {
 const els = {};
 const getEl = (id) => (els[id] = els[id] || stub());
 const grid = getEl("grid");
-const cardEls = parsed.map((p) => stub({
-  "data-id": p.id, "data-scene": p.scene, "data-usage": p.usage, "data-category": p.category,
-  "data-stars": String(p.stars), "data-name": p.name, "data-updated": p.updated, "data-search": p.search
-}));
+const cardEls = parsed.map((p) => {
+  const s = stub({
+    "data-id": p.id, "data-scene": p.scene, "data-usage": p.usage, "data-category": p.category,
+    "data-stars": String(p.stars), "data-name": p.name, "data-updated": p.updated, "data-extra": p.extra
+  });
+  s.querySelector = function (sel) {
+    const v = sel === ".card-repo" ? p.repo : sel === ".card-desc" ? p.desc : sel === ".tags" ? p.tags : "";
+    return { textContent: v };
+  };
+  return s;
+});
 grid._children = cardEls;
 
 const sceneHost = stub();
@@ -145,7 +166,8 @@ check("hreflang en", html.includes('hreflang="en"'), true);
 check("hreflang x-default", html.includes('hreflang="x-default"'), true);
 check("canonical", html.includes('<link rel="canonical" href="https://tools.lfun.cloud/">'), true);
 check("JSON-LD 块数", countIn(/application\/ld\+json/g), 2);
-check("在线使用按钮", countIn(/rel="noopener">在线使用<\/a>/g), items.filter((t) => has(t, "online") && t.homepage).length);
+// primaryAction 里 cloud 分支优先于 online，所以这里必须排除有云版的
+check("在线使用按钮", countIn(/rel="noopener">在线使用<\/a>/g), items.filter((t) => !t.cloud && has(t, "online") && t.homepage).length);
 check("云版按钮", countIn(/rel="noopener">云版<\/a>/g), items.filter((t) => t.cloud).length);
 check("部署按钮", countIn(/rel="noopener">部署<\/a>/g), items.filter((t) => !t.cloud && !has(t, "online") && !has(t, "extension") && !has(t, "desktop") && !has(t, "cli") && has(t, "selfhost")).length);
 check("下载按钮", countIn(/rel="noopener">下载<\/a>/g), items.filter((t) => !t.cloud && !has(t, "online") && !has(t, "extension") && (has(t, "desktop") || has(t, "cli"))).length);
@@ -197,7 +219,12 @@ console.log("\n[5] 搜索");
 const search = getEl("search");
 async function type(v) { search.value = v; search.dispatch("input"); await new Promise((r) => setTimeout(r, 200)); }
 await type("客服");
-check("搜索 客服", visible(), items.filter((t) => [t.name, t.repo, t.desc, t.descEn, t.language, (t.tags || []).join(" ")].join(" ").toLowerCase().includes("客服")).length);
+check("搜索 客服", visible(), items.filter((t) => searchTextOf(t).includes("客服")).length);
+await type("rust");
+check("搜索语言名 rust", visible(), items.filter((t) => searchTextOf(t).includes("rust")).length);
+check("语言搜索结果非空", visible() > 0, true);
+await type("油猴");
+check("按中文别名搜索 油猴", visible(), items.filter((t) => searchTextOf(t).includes("油猴")).length);
 await type("zzz不存在zzz");
 check("无结果", visible(), 0);
 check("空状态显示", getEl("empty").hidden, false);

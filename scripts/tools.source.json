@@ -2202,7 +2202,7 @@
         "language": "PHP",
         "license": "GPL-3.0"
       },
-      "cloud": "",
+      "cloud": "https://matomo.org/pricing/",
       "descEn": "Empowering People Ethically 🚀 — Matomo is hiring! Join us → https://matomo.org/jobs Matomo is the leading open-source alternative to Google Analytics, giving you complete control and built-in privacy. Easily collect, visualise, and analyse data from websites & apps. Star us on GitHub ⭐️  – Pull Requests welcome! ",
       "pushedAt": "2026-09-23"
     },
@@ -2229,7 +2229,7 @@
         "language": "Python",
         "license": "MIT"
       },
-      "cloud": "",
+      "cloud": "https://app.posthog.com",
       "descEn": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
       "pushedAt": "2026-09-23"
     },
@@ -2256,7 +2256,7 @@
         "language": "TypeScript",
         "license": "MIT"
       },
-      "cloud": "",
+      "cloud": "https://cloud.umami.is",
       "descEn": "Umami is a privacy-first analytics platform. Traffic, campaigns, behavior, conversions, and revenue in one place — no cookies, no surveillance, self-hosted or in the cloud.",
       "pushedAt": "2026-09-22"
     },
@@ -2385,7 +2385,7 @@
         "language": "Clojure",
         "license": "AGPL-3.0"
       },
-      "cloud": "",
+      "cloud": "https://www.metabase.com/",
       "descEn": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:",
       "pushedAt": "2026-09-23"
     },
@@ -2439,7 +2439,7 @@
         "language": "TypeScript",
         "license": "MIT"
       },
-      "cloud": "",
+      "cloud": "https://app.growthbook.io",
       "descEn": "Open Source Feature Flags, Experimentation, and Product Analytics",
       "pushedAt": "2026-09-23"
     },
@@ -2465,7 +2465,7 @@
         "language": "Python",
         "license": "BSD-3-Clause"
       },
-      "cloud": "",
+      "cloud": "https://app.flagsmith.com",
       "descEn": "Flagsmith is an open-source feature flag platform with remote config, experimentation, and self-hosted or cloud deployment options.",
       "pushedAt": "2026-09-23"
     },
@@ -3190,7 +3190,7 @@
       "id": "novu",
       "name": "Novu",
       "repo": "novuhq/novu",
-      "homepage": null,
+      "homepage": "https://novu.co",
       "category": "notify",
       "usage": [
         "selfhost",
@@ -3209,7 +3209,7 @@
         "language": "TypeScript",
         "license": "MIT"
       },
-      "cloud": "",
+      "cloud": "https://web.novu.co",
       "descEn": "The open-source communication infrastructure for agents and products",
       "pushedAt": "2026-09-22"
     },
@@ -3328,7 +3328,7 @@
       "id": "chatwoot",
       "name": "Chatwoot",
       "repo": "chatwoot/chatwoot",
-      "homepage": null,
+      "homepage": "https://www.chatwoot.com",
       "category": "support",
       "usage": [
         "selfhost",
@@ -3347,7 +3347,7 @@
         "language": "Ruby",
         "license": "MIT"
       },
-      "cloud": "",
+      "cloud": "https://app.chatwoot.com",
       "descEn": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
       "pushedAt": "2026-09-23"
     },
@@ -3373,7 +3373,7 @@
         "language": "Ruby",
         "license": "AGPL-3.0"
       },
-      "cloud": "",
+      "cloud": "https://zammad.com",
       "descEn": "Zammad is a web based open source helpdesk/customer support system.",
       "pushedAt": "2026-09-23"
     },
@@ -3993,7 +3993,7 @@
         "language": "Rust",
         "license": "MIT"
       },
-      "cloud": "",
+      "cloud": "https://cloud.meilisearch.com",
       "descEn": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
       "pushedAt": "2026-09-22"
     },
@@ -4020,7 +4020,7 @@
         "language": "C++",
         "license": "GPL-3.0"
       },
-      "cloud": "",
+      "cloud": "https://cloud.typesense.org",
       "descEn": "Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences",
       "pushedAt": "2026-09-23"
     },
@@ -6789,7 +6789,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://cloud.dify.ai",
       "platforms": [],
       "caution": "许可",
       "pushedAt": "2026-09-23"
@@ -6975,7 +6975,7 @@
         "lib"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://firecrawl.dev",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-23"
@@ -7748,7 +7748,7 @@
         "lib"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://cloud.browser-use.com",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-18"
@@ -7775,7 +7775,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://app.skyvern.com",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-23"
@@ -7935,7 +7935,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://app.mem0.ai",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-22"
@@ -7963,7 +7963,7 @@
         "lib"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://app.letta.com",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-10"
@@ -7990,7 +7990,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://cloud.langfuse.com",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-22"
@@ -8018,7 +8018,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://e2b.dev",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-22"
@@ -8046,7 +8046,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://www.litellm.ai",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-22"
@@ -8072,7 +8072,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://app.n8n.cloud",
       "platforms": [],
       "caution": "许可",
       "pushedAt": "2026-09-23"
@@ -8099,7 +8099,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://cloud.activepieces.com",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-23"
@@ -9708,7 +9708,7 @@
         "desktop"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://joplincloud.com",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-23"
@@ -9791,7 +9791,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://app.affine.pro",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-23"
@@ -9871,7 +9871,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://app.getoutline.com",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-24"
@@ -9950,7 +9950,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://docmost.com",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-22"
@@ -10323,7 +10323,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://grafana.com",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-24"
@@ -10376,7 +10376,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://app.netdata.cloud",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-24"
@@ -12163,7 +12163,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://app.appsmith.com",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-23"
@@ -12190,7 +12190,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://www.tooljet.com",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-23"
@@ -12217,7 +12217,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://budibase.com",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-23"
@@ -12244,7 +12244,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://baserow.io",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-23"
@@ -12271,7 +12271,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://app.nocodb.com",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-23"
@@ -12298,7 +12298,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://directus.cloud",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-23"
@@ -12324,7 +12324,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://cloud.strapi.io",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-23"
@@ -12377,7 +12377,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://app.teable.io",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-23"
@@ -12700,7 +12700,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://mattermost.com",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-24"
@@ -12726,7 +12726,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://zulip.com",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-23"
@@ -12752,7 +12752,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://cloud.rocket.chat",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-24"
@@ -12780,7 +12780,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://app.element.io",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-24"
@@ -12914,7 +12914,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://vikunja.cloud",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-24"
@@ -13077,7 +13077,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://app.cal.com",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-09-20"
@@ -15039,7 +15039,7 @@
         "selfhost"
       ],
       "scene": "",
-      "cloud": "",
+      "cloud": "https://app.agentops.ai",
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-06-25"

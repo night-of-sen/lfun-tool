@@ -65,7 +65,15 @@
         stars: Number(el.getAttribute("data-stars")) || 0,
         name: el.getAttribute("data-name") || "",
         updated: el.getAttribute("data-updated") || "",
-        search: (el.getAttribute("data-search") || "").toLowerCase()
+        // 可见文本直接从 DOM 读，避免在 HTML 里再存一份；
+        // data-extra 只带另一种语言的描述/标签和中文别名
+        search: [
+          el.getAttribute("data-name") || "",
+          (function () { var n = el.querySelector(".card-repo"); return n ? n.textContent : ""; })(),
+          (function () { var n = el.querySelector(".card-desc"); return n ? n.textContent : ""; })(),
+          (function () { var n = el.querySelector(".tags"); return n ? n.textContent : ""; })(),
+          el.getAttribute("data-extra") || ""
+        ].join(" ").toLowerCase()
       };
     });
   }

@@ -12,6 +12,11 @@ ErrorDocument 404 /404.html
   AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json image/svg+xml
 </IfModule>
 
+# brotli（支持的浏览器用它，比 gzip 再小一截）
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/css text/javascript application/javascript application/json image/svg+xml application/xml
+</IfModule>
+
 # 缓存：HTML 和 JSON 不缓存（改完刷新即生效），其他静态资源缓存 1 小时
 <IfModule mod_expires.c>
   ExpiresActive On
