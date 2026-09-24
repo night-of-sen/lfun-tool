@@ -155,11 +155,14 @@ check("文档按钮", countIn(/rel="noopener">文档<\/a>/g), items.filter((t) =
 console.log("\n[2] 初始渲染与筛选条");
 check("可见卡片数", visible(), items.length);
 check("场景按钮数", sceneHost.querySelectorAll(".scene-btn").length, 3);
-check("侧边栏容器存在", html.includes('class="wrap layout" id="layout"'), true);
+check("侧边栏容器存在", html.includes('class="layout" id="layout"'), true);
+check("外壳 app-frame 存在", html.includes('class="app-frame"'), true);
+check("body 开标签存在", html.includes("<body>"), true);
 check("侧边栏在布局内", html.includes('<aside class="sidebar" id="sidebar">'), true);
 check("菜单开关按钮存在", html.includes('id="menu-toggle"'), true);
 check("移动端遮罩存在", html.includes('id="sidebar-backdrop"'), true);
-check("侧边栏四个分区标题", countIn(/class="side-title"/g), 4);
+check("侧边栏分区标题（导航+三层筛选+排序）", countIn(/class="side-title"/g), 5);
+check("侧栏导航项至少 5 个", countIn(/class="nav-item/g) >= 5, true);
 check("旧的横向筛选条已移除", html.includes('<nav class="filters">'), false);
 check("使用方式 chip 数", usages().length, usagesOf(() => true));
 check("分类 chip 数", cats().length, catsOf(() => true));
@@ -211,9 +214,9 @@ getEl("grid");
 check("收藏持久化键存在", typeof store.get("gh-tools:favs"), "undefined");
 
 console.log("\n[7] 主题");
-check("默认浅色", document.documentElement.getAttribute("data-theme"), "light");
+check("默认深色", document.documentElement.getAttribute("data-theme"), "dark");
 getEl("theme-toggle").dispatch("click");
-check("切换深色", document.documentElement.getAttribute("data-theme"), "dark");
+check("切换到浅色", document.documentElement.getAttribute("data-theme"), "light");
 
 console.log("\n结果: " + pass + " 通过 / " + fail + " 失败");
 process.exit(fail ? 1 : 0);

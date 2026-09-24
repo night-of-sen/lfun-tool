@@ -105,6 +105,14 @@ function comparePairs() {
   });
   return out;
 }
+var ICON = {
+  home: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/></svg>',
+  bolt: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 4.5 13H11l-1 9 8.5-11H12l1-9z"/></svg>',
+  grid: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>',
+  info: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 7.5h.01"/></svg>',
+  shield: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/></svg>'
+};
+
 function abs(p) { return DOMAIN + p; }
 function descOf(t, lang) { return lang === "en" ? (t.descEn || t.desc || "") : (t.desc || t.descEn || ""); }
 function catLabel(lang, k) { return T[lang].categories[k] || k; }
@@ -143,13 +151,13 @@ function head(lang, opt) {
 
   return [
     "<!doctype html>",
-    '<html lang="' + L.htmlLang + '">',
+    '<html lang="' + L.htmlLang + '" data-theme="dark">',
     "<head>",
     '<meta charset="utf-8">',
     '<meta name="viewport" content="width=device-width, initial-scale=1">',
     "<title>" + esc(opt.title) + "</title>",
     '<meta name="description" content="' + esc(opt.desc) + '">',
-    '<meta name="theme-color" content="#2563eb">',
+    '<meta name="theme-color" content="#0b0b0b">',
     '<link rel="canonical" href="' + esc(abs(opt.paths[lang])) + '">',
     alts,
     '<link rel="alternate" hreflang="x-default" href="' + esc(abs(opt.paths.zh)) + '">',
@@ -164,7 +172,9 @@ function head(lang, opt) {
     '<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧰</text></svg>">',
     '<link rel="stylesheet" href="/styles.css?v=' + ASSET_V + '">',
     '<script>window.__LANG__=' + JSON.stringify(lang) + ";window.__I18N__=" + i18nJs + ";</script>",
-    "</head>"
+    "</head>",
+    "<body>",
+    '<div class="app-frame">'
   ].join("\n");
 }
 
@@ -172,7 +182,7 @@ function header(lang, isHome) {
   var L = T[lang];
   var rows = [
     '<header class="topbar">',
-    '  <div class="wrap topbar-inner">',
+    '  <div class="topbar-inner">',
     '    <a class="brand" href="' + homePath(lang) + '">',
     '      <span class="brand-mark">🧰</span>',
     "      <div>",
@@ -180,6 +190,12 @@ function header(lang, isHome) {
     '        <p class="brand-sub">' + L.brandSub + "</p>",
     "      </div>",
     "    </a>",
+    '    <nav class="topnav">',
+    '      <a class="nav-item' + (isHome ? " active" : "") + '" href="' + homePath(lang) + '">' + ICON.home + esc(L.navHome) + "</a>",
+    '      <a class="nav-item" href="' + onlineIndexPath(lang) + '">' + ICON.bolt + esc(L.navOnline) + "</a>",
+    '      <a class="nav-item" href="' + categoriesPath(lang) + '">' + ICON.grid + esc(L.navCategories) + "</a>",
+    '      <a class="nav-item" href="' + contentPath(lang, "about") + '">' + ICON.info + esc(L.navAbout) + "</a>",
+    "    </nav>",
     '    <div class="topbar-actions">',
     (isHome ? '      <button id="menu-toggle" class="btn-ghost" title="' + esc(L.menuToggle) + '">☰<span class="menu-label">' + esc(L.filterHint) + "</span></button>" : ""),
     '      <a class="btn-ghost" href="' + L.langSwitchHref + '">' + esc(L.langSwitch) + "</a>"
@@ -289,29 +305,20 @@ function homePage(lang) {
     "",
     header(lang, true),
     "",
-    '<section class="hero">',
-    '  <div class="wrap">',
-    '    <h1 class="hero-title">' + esc(L.homeTitle) + "</h1>",
-    '    <p class="hero-sub">' + items.length + " " + (lang === "zh" ? "个项目 · 其中 " + official + " 个有在线版或官网" : "projects · " + official + " with an online version or website") + "</p>",
-    '    <div class="search-box">',
-    '      <span class="search-icon">🔍</span>',
-    '      <input id="search" type="search" placeholder="' + esc(L.searchPlaceholder) + '" autocomplete="off">',
-    '      <button id="clear-search" class="search-clear" hidden>✕</button>',
-    "    </div>",
-    '    <div class="meta-row">',
-    '      <span id="result-count"></span>',
-    '      <span class="dot-sep">·</span>',
-    '      <span class="sync-time">' + esc(todayLabel(lang)) + "</span>",
-    "    </div>",
-    "  </div>",
-    "</section>",
-    "",
-    '<div class="wrap layout" id="layout">',
+    '<div class="layout" id="layout">',
     '  <aside class="sidebar" id="sidebar">',
     '    <div class="sidebar-head">',
     '      <span>' + esc(L.filterHint) + "</span>",
     '      <button class="sidebar-close" id="sidebar-close" aria-label="close">✕</button>',
     "    </div>",
+    '<nav class="side-block">',
+    '      <h3 class="side-title">' + esc(L.sideNav) + "</h3>",
+    '      <a class="nav-item active" href="' + homePath(lang) + '">' + ICON.home + esc(L.navHome) + "</a>",
+    '      <a class="nav-item" href="' + onlineIndexPath(lang) + '">' + ICON.bolt + esc(L.navOnline) + "</a>",
+    '      <a class="nav-item" href="' + categoriesPath(lang) + '">' + ICON.grid + esc(L.navCategories) + "</a>",
+    '      <a class="nav-item" href="' + contentPath(lang, "about") + '">' + ICON.info + esc(L.navAbout) + "</a>",
+    '      <a class="nav-item" href="' + contentPath(lang, "disclaimer") + '">' + ICON.shield + esc(L.navDisclaimer) + "</a>",
+    "    </nav>",
     '    <div class="side-block">',
     '      <h3 class="side-title">' + esc(L.sideScene) + "</h3>",
     '      <div class="scene-switch">' + scenes + "</div>",
@@ -335,6 +342,20 @@ function homePage(lang) {
     "  </aside>",
     '  <div class="sidebar-backdrop" id="sidebar-backdrop"></div>',
     '  <main class="content">',
+    '<section class="hero">',
+    '  <h1 class="hero-title">' + esc(L.homeTitle) + "</h1>",
+    '  <p class="hero-sub">' + items.length + " " + (lang === "zh" ? "个项目 · 其中 " + official + " 个有在线版或官网" : "projects · " + official + " with an online version or website") + "</p>",
+    '  <div class="search-box">',
+    '    <span class="search-icon">🔍</span>',
+    '    <input id="search" type="search" placeholder="' + esc(L.searchPlaceholder) + '" autocomplete="off">',
+    '    <button id="clear-search" class="search-clear" hidden>✕</button>',
+    "  </div>",
+    '  <div class="meta-row">',
+    '    <span id="result-count"></span>',
+    '    <span class="dot-sep">·</span>',
+    '    <span class="sync-time">' + esc(todayLabel(lang)) + "</span>",
+    "  </div>",
+    "</section>",
     '    <div id="grid" class="grid">',
     cards,
     "    </div>",
@@ -348,6 +369,7 @@ function homePage(lang) {
     "",
     footer(lang),
     '<script src="/app.js?v=' + ASSET_V + '"></script>',
+    "</div>",
     "</body>",
     "</html>"
   ].join("\n");
@@ -499,6 +521,7 @@ function toolPage(t, lang) {
   lines.push("");
   lines.push(footer(lang));
   lines.push('<script src="/app.js?v=' + ASSET_V + '"></script>');
+  lines.push("</div>");
   lines.push("</body>");
   lines.push("</html>");
   return lines.join("\n");
@@ -610,6 +633,7 @@ function contentPage(lang, key) {
     "",
     footer(lang),
     '<script src="/app.js?v=' + ASSET_V + '"></script>',
+    "</div>",
     "</body>",
     "</html>"
   ].join("\n");
@@ -752,6 +776,7 @@ function comparePage(lang, pair) {
     "",
     footer(lang),
     '<script src="/app.js?v=' + ASSET_V + '"></script>',
+    "</div>",
     "</body>",
     "</html>"
   ].join("\n");
@@ -812,6 +837,7 @@ function onlineAppPage(lang, app) {
     footer(lang),
     '<script src="/app.js?v=' + ASSET_V + '"></script>',
     '<script src="/online.js?v=' + ASSET_V + '"></script>',
+    "</div>",
     "</body>",
     "</html>"
   ].join("\n");
@@ -871,6 +897,7 @@ function onlineIndexPage(lang) {
     "",
     footer(lang),
     '<script src="/app.js?v=' + ASSET_V + '"></script>',
+    "</div>",
     "</body>",
     "</html>"
   ].join("\n");
@@ -936,6 +963,7 @@ function categoryPage(lang, key) {
     "",
     footer(lang),
     '<script src="/app.js?v=' + ASSET_V + '"></script>',
+    "</div>",
     "</body>",
     "</html>"
   ].join("\n");
@@ -997,47 +1025,59 @@ function categoriesIndexPage(lang) {
     "",
     footer(lang),
     '<script src="/app.js?v=' + ASSET_V + '"></script>',
+    "</div>",
     "</body>",
     "</html>"
   ].join("\n");
 }
 
+// lastmod 逐页不同才有意义：全站同一个日期 Google 会直接忽略这个字段
+function newestDate(list) {
+  var d = "";
+  list.forEach(function (t) { if (t.pushedAt && t.pushedAt > d) d = t.pushedAt; });
+  return d || syncedAt;
+}
+
 function sitemap() {
   var urls = [];
+  var siteMod = newestDate(items);
+  var codeMod = syncedAt || new Date().toISOString().slice(0, 10);
   LANGS.forEach(function (l) {
-    urls.push({ loc: abs(homePath(l)), paths: { zh: homePath("zh"), en: homePath("en") }, pri: "1.0", freq: "daily" });
+    urls.push({ loc: abs(homePath(l)), paths: { zh: homePath("zh"), en: homePath("en") }, pri: "1.0", freq: "daily", mod: siteMod });
   });
   items.forEach(function (t) {
     LANGS.forEach(function (l) {
-      urls.push({ loc: abs(toolPath(l, t.id)), paths: { zh: toolPath("zh", t.id), en: toolPath("en", t.id) }, pri: "0.7", freq: "weekly" });
+      urls.push({ loc: abs(toolPath(l, t.id)), paths: { zh: toolPath("zh", t.id), en: toolPath("en", t.id) }, pri: "0.7", freq: "weekly", mod: t.pushedAt || codeMod });
     });
   });
   LANGS.forEach(function (l) {
-    urls.push({ loc: abs(categoriesPath(l)), paths: { zh: categoriesPath("zh"), en: categoriesPath("en") }, pri: "0.8", freq: "weekly" });
+    urls.push({ loc: abs(categoriesPath(l)), paths: { zh: categoriesPath("zh"), en: categoriesPath("en") }, pri: "0.8", freq: "weekly", mod: siteMod });
   });
   comparePairs().forEach(function (p) {
+    var pm = newestDate([p.a, p.b]);
     LANGS.forEach(function (l) {
-      urls.push({ loc: abs(comparePath(l, p.a.id, p.b.id)), paths: { zh: comparePath("zh", p.a.id, p.b.id), en: comparePath("en", p.a.id, p.b.id) }, pri: "0.6", freq: "monthly" });
+      urls.push({ loc: abs(comparePath(l, p.a.id, p.b.id)), paths: { zh: comparePath("zh", p.a.id, p.b.id), en: comparePath("en", p.a.id, p.b.id) }, pri: "0.6", freq: "monthly", mod: pm });
     });
   });
   LANGS.forEach(function (l) {
-    urls.push({ loc: abs(onlineIndexPath(l)), paths: { zh: onlineIndexPath("zh"), en: onlineIndexPath("en") }, pri: "0.9", freq: "monthly" });
+    urls.push({ loc: abs(onlineIndexPath(l)), paths: { zh: onlineIndexPath("zh"), en: onlineIndexPath("en") }, pri: "0.9", freq: "monthly", mod: codeMod });
   });
   APPS.forEach(function (a) {
     LANGS.forEach(function (l) {
-      urls.push({ loc: abs(onlinePath(l, a.id)), paths: { zh: onlinePath("zh", a.id), en: onlinePath("en", a.id) }, pri: "0.9", freq: "monthly" });
+      urls.push({ loc: abs(onlinePath(l, a.id)), paths: { zh: onlinePath("zh", a.id), en: onlinePath("en", a.id) }, pri: "0.9", freq: "monthly", mod: codeMod });
     });
   });
   ["about", "disclaimer"].forEach(function (key) {
     LANGS.forEach(function (l) {
-      urls.push({ loc: abs(contentPath(l, key)), paths: { zh: contentPath("zh", key), en: contentPath("en", key) }, pri: "0.5", freq: "monthly" });
+      urls.push({ loc: abs(contentPath(l, key)), paths: { zh: contentPath("zh", key), en: contentPath("en", key) }, pri: "0.5", freq: "monthly", mod: codeMod });
     });
   });
   var catKeys = {};
   items.forEach(function (t) { catKeys[t.category] = true; });
   Object.keys(catKeys).forEach(function (k) {
+    var cm = newestDate(items.filter(function (t) { return t.category === k; }));
     LANGS.forEach(function (l) {
-      urls.push({ loc: abs(catPath(l, k)), paths: { zh: catPath("zh", k), en: catPath("en", k) }, pri: "0.8", freq: "weekly" });
+      urls.push({ loc: abs(catPath(l, k)), paths: { zh: catPath("zh", k), en: catPath("en", k) }, pri: "0.8", freq: "weekly", mod: cm });
     });
   });
   var body = urls.map(function (u) {
@@ -1047,7 +1087,7 @@ function sitemap() {
       '    <xhtml:link rel="alternate" hreflang="zh-CN" href="' + esc(abs(u.paths.zh)) + '"/>',
       '    <xhtml:link rel="alternate" hreflang="en" href="' + esc(abs(u.paths.en)) + '"/>',
       '    <xhtml:link rel="alternate" hreflang="x-default" href="' + esc(abs(u.paths.zh)) + '"/>',
-      "    <lastmod>" + syncedAt + "</lastmod>",
+      "    <lastmod>" + u.mod + "</lastmod>",
       "    <changefreq>" + u.freq + "</changefreq>",
       "    <priority>" + u.pri + "</priority>",
       "  </url>"

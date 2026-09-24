@@ -26,3 +26,19 @@ ErrorDocument 404 /404.html
   RedirectMatch 404 ^/\.git(/|$)
   RedirectMatch 404 \.(md|mjs|ya?ml)$
 </IfModule>
+
+# www 与主域名同时可访问会被判定为重复内容，统一 301 到主域名
+# 冗余的 index.html 同理：/index.html 和 / 是同一个页面，只保留一个 URL
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+
+  RewriteCond %{THE_REQUEST} \s/+index\.html[\s?] [NC]
+  RewriteRule ^index\.html$ / [R=301,L,NE]
+
+  RewriteCond %{THE_REQUEST} \s/+(.+)/index\.html[\s?] [NC]
+  RewriteRule ^ /%1/ [R=301,L,NE]
+</IfModule>
+

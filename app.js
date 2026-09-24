@@ -49,8 +49,7 @@
     var saved = null;
     try { saved = localStorage.getItem(THEME_KEY); } catch (e) {}
     if (saved) return applyTheme(saved);
-    var dark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-    applyTheme(dark ? "dark" : "light");
+    applyTheme("dark");
   }
 
   function readCards() {
@@ -153,25 +152,53 @@
     });
   }
 
+  var openGroups = {};
+  // 50 个分类折叠成若干分组（分组定义在 i18n.categoryGroups）
   function renderCategoryChips() {
     var host = document.getElementById("chips");
     if (!host) return;
     var pool = afterUsage();
     var counts = {};
     pool.forEach(function (c) { counts[c.category] = (counts[c.category] || 0) + 1; });
-    var order = ["all"].concat(CATEGORY_ORDER.filter(function (k) { return counts[k]; }));
-    host.innerHTML = order.map(function (key) {
-      var label = key === "all" ? (L.allCategories || "All") : ((L.categories || {})[key] || key);
-      var n = key === "all" ? pool.length : counts[key];
+
+    var groups = L.categoryGroups || [];
+    var inGroup = {};
+    groups.forEach(function (g) { g.cats.forEach(function (k) { inGroup[k] = 1; }); });
+
+    function chip(key) {
+      var label = (L.categories || {})[key] || key;
       var active = state.category === key ? " active" : "";
       return '<button class="chip' + active + '" data-cat="' + key + '">' +
-        esc(label) + ' <span class="chip-n">' + n + "</span></button>";
-    }).join("");
+        esc(label) + ' <span class="chip-n">' + (counts[key] || 0) + "</span></button>";
+    }
+
+    var html = '<button class="chip' + (state.category === "all" ? " active" : "") + '" data-cat="all">' +
+      esc(L.allCategories || "All") + ' <span class="chip-n">' + pool.length + "</span></button>";
+
+    groups.forEach(function (g) {
+      var cats = g.cats.filter(function (k) { return counts[k]; });
+      if (!cats.length) return;
+      var total = cats.reduce(function (s, k) { return s + counts[k]; }, 0);
+      var open = openGroups[g.key] || cats.indexOf(state.category) !== -1;
+      html += '<details class="side-group" data-group="' + g.key + '"' + (open ? " open" : "") + ">" +
+        "<summary>" + esc(LANG === "zh" ? g.zh : g.en) +
+        ' <span class="side-group-n">' + total + "</span></summary>" +
+        '<div class="side-group-body">' + cats.map(chip).join("") + "</div></details>";
+    });
+
+    var rest = Object.keys(counts).filter(function (k) { return !inGroup[k]; }).sort();
+    if (rest.length) html += rest.map(chip).join("");
+
+    host.innerHTML = html;
+
     Array.prototype.forEach.call(host.querySelectorAll(".chip"), function (btn) {
       btn.addEventListener("click", function () {
         state.category = btn.getAttribute("data-cat");
         render();
       });
+    });
+    Array.prototype.forEach.call(host.querySelectorAll(".side-group"), function (d) {
+      d.addEventListener("toggle", function () { openGroups[d.getAttribute("data-group")] = d.open; });
     });
   }
 

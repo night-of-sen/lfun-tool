@@ -35,6 +35,9 @@ jobs:
       - name: 跑在线工具逻辑测试
         run: node scripts/app-smoke.mjs
 
+      - name: SEO 自检
+        run: node scripts/seo-audit.mjs
+
       - name: 有变化才提交
         run: |
           if git diff --quiet; then

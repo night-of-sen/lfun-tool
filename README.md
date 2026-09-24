@@ -86,14 +86,38 @@
 
 分类总览页：`/categories/` 与 `/en/categories/`。全站共 **570 个页面**。
 
-## 首页布局：左侧侧边栏
+## 界面与菜单
 
-筛选条件放在**左侧可收缩侧边栏**里，不再是横向铺开的筛选条：
+视觉语言取自 [llmrelevance.com](https://www.llmrelevance.com/)：**单色调 + 分层外壳**，没有品牌色。
 
-- 四个分区纵向排列：**场景 / 使用方式 / 分类 / 排序**
+- **三层表面**：页面底 `#141414` → 圆角外壳 `#0b0b0b`（移动端铺满）→ 卡片 `#1b1b1b`
+- **深色为默认**，`html` 上直接写 `data-theme="dark"`，避免 JS 执行前闪白；浅色主题是覆盖层
+- 主色就是近白 `#e8e8e8`（浅色主题下是近黑 `#121212`），边框统一 `rgba(255,255,255,.1)`，圆角基准 `10px`
+- 字体自托管 **Geist / Geist Mono**（可变字体，共 52 KB，放在 `/fonts/`）；中文回退到系统 CJK 字体
+- 侧栏宽 212px、顶栏高 56px，导航项是「图标 + 文字」样式
+
+**菜单分三层**
+
+1. 顶栏横向导航（全站可见）：首页 / 在线工具 / 分类总览 / 关于
+2. 侧栏导航区（首页）：上面四个入口 + 免责声明
+3. 侧栏筛选区：**场景 / 使用方式 / 分类 / 排序**
+
+**50 个分类折叠成 7 组**，否则侧栏会长到没法用：
+
+| 分组 | 分类数 | 包含 |
+|---|---|---|
+| AI 与智能体 | 3 | ai · agent · skill |
+| 开发与技术 | 8 | dev · editor · database · filesearch · security · auth · lowcode · system |
+| 内容与媒体 | 9 | image · video · media · doc · writing · capture · watermark · design · diagram |
+| 自托管与运维 | 6 | storage · mediaserver · monitor · network · mobile · iot |
+| 出海增长 | 14 | promo · email · notify · support · crm · payment · commerce · i18n · compliance · analytics · experiment · sitesearch · finance · social |
+| 效率与协作 | 7 | notes · project · team · form · utility · download · browser |
+| 生活与娱乐 | 3 | fun · game · learn |
+
+分组用原生 `<details>` 实现，展开状态在筛选切换时保留；计数跟着上两层筛选实时收窄。分组定义在 `i18n.json` 的 `categoryGroups`。
+
 - 顶栏的 **☰ 按钮**可以收起侧边栏（桌面端），状态记在 localStorage
-- 移动端（≤900px）自动变成**从左侧滑出的抽屉**，带遮罩，点遮罩或按 Esc 关闭
-- 之所以改：分类涨到 50 个之后，横向筛选条要左右滑动才能看全，很难用
+- 移动端（≤900px）外壳铺满、侧栏变成**从左滑出的抽屉**，带遮罩，点遮罩或按 Esc 关闭
 
 **为什么这样设计**
 

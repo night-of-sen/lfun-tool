@@ -127,7 +127,13 @@
     "sideCategory": "分类",
     "sideSort": "排序",
     "menuToggle": "筛选菜单",
-    "filterHint": "筛选条件"
+    "filterHint": "筛选条件",
+    "sideNav": "导航",
+    "navHome": "首页",
+    "navOnline": "在线工具",
+    "navCategories": "分类总览",
+    "navAbout": "关于",
+    "navDisclaimer": "免责声明"
   },
   "en": {
     "htmlLang": "en",
@@ -257,7 +263,13 @@
     "sideCategory": "Category",
     "sideSort": "Sort",
     "menuToggle": "Filter menu",
-    "filterHint": "Filters"
+    "filterHint": "Filters",
+    "sideNav": "Menu",
+    "navHome": "Home",
+    "navOnline": "Online tools",
+    "navCategories": "Categories",
+    "navAbout": "About",
+    "navDisclaimer": "Disclaimer"
   },
   "tagTranslations": {
     "去水印": "Watermark removal",
@@ -585,5 +597,106 @@
     "深度研究": "Deep research",
     "个人助理": "Personal assistant",
     "模拟": "Simulation"
-  }
+  },
+  "categoryGroups": [
+    {
+      "key": "ai",
+      "zh": "AI 与智能体",
+      "en": "AI & agents",
+      "cats": [
+        "ai",
+        "agent",
+        "skill"
+      ]
+    },
+    {
+      "key": "dev",
+      "zh": "开发与技术",
+      "en": "Dev & tech",
+      "cats": [
+        "dev",
+        "editor",
+        "database",
+        "filesearch",
+        "security",
+        "auth",
+        "lowcode",
+        "system"
+      ]
+    },
+    {
+      "key": "content",
+      "zh": "内容与媒体",
+      "en": "Content & media",
+      "cats": [
+        "image",
+        "video",
+        "media",
+        "doc",
+        "writing",
+        "capture",
+        "watermark",
+        "design",
+        "diagram"
+      ]
+    },
+    {
+      "key": "infra",
+      "zh": "自托管与运维",
+      "en": "Self-hosting & ops",
+      "cats": [
+        "storage",
+        "mediaserver",
+        "monitor",
+        "network",
+        "mobile",
+        "iot"
+      ]
+    },
+    {
+      "key": "growth",
+      "zh": "出海增长",
+      "en": "Go global",
+      "cats": [
+        "promo",
+        "email",
+        "notify",
+        "support",
+        "crm",
+        "payment",
+        "commerce",
+        "i18n",
+        "compliance",
+        "analytics",
+        "experiment",
+        "sitesearch",
+        "finance",
+        "social"
+      ]
+    },
+    {
+      "key": "work",
+      "zh": "效率与协作",
+      "en": "Work & collab",
+      "cats": [
+        "notes",
+        "project",
+        "team",
+        "form",
+        "utility",
+        "download",
+        "browser"
+      ]
+    },
+    {
+      "key": "life",
+      "zh": "生活与娱乐",
+      "en": "Life & fun",
+      "cats": [
+        "fun",
+        "game",
+        "learn"
+      ]
+    }
+  ]
 }
