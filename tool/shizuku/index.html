@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shizuku · 移动端 · 开源工具集</title>
+<meta name="description" content="让普通应用借用系统权限，不用 root 也能用高级功能 ⭐ 30.5k · Java · Apache-2.0">
+<meta name="theme-color" content="#2563eb">
+<link rel="canonical" href="https://tools.lfun.cloud/tool/shizuku/">
+<link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/tool/shizuku/">
+<link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/en/tool/shizuku/">
+<link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/shizuku/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Shizuku · 移动端 · 开源工具集">
+<meta property="og:description" content="让普通应用借用系统权限，不用 root 也能用高级功能 ⭐ 30.5k · Java · Apache-2.0">
+<meta property="og:url" content="https://tools.lfun.cloud/tool/shizuku/">
+<meta property="og:image" content="https://tools.lfun.cloud/og.png">
+<meta property="og:site_name" content="开源工具集">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Shizuku","description":"让普通应用借用系统权限，不用 root 也能用高级功能","url":"https://tools.lfun.cloud/tool/shizuku/","inLanguage":"zh-CN","applicationCategory":"UtilitiesApplication","operatingSystem":"Android","codeRepository":"https://github.com/RikkaApps/Shizuku","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"RikkaApps"},"keywords":"移动端, 系统增强"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"全部工具","item":"https://tools.lfun.cloud/"},{"@type":"ListItem","position":2,"name":"移动端","item":"https://tools.lfun.cloud/category/mobile/"},{"@type":"ListItem","position":3,"name":"Shizuku","item":"https://tools.lfun.cloud/tool/shizuku/"}]}</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧰</text></svg>">
+<link rel="stylesheet" href="/styles.css?v=b0fafb04">
+<script>window.__LANG__="zh";window.__I18N__={"htmlLang":"zh-CN","siteName":"开源工具集","brandSub":"标注清楚<strong>怎么用<\/strong>：在线即用 / 可自托管 / 桌面应用 / 命令行","homeTitle":"开源工具集 · {n} 个精选 GitHub 开源项目","homeDesc":"{n} 个精选 GitHub 开源项目，标注清楚怎么用：在线即用、可自托管、桌面应用、命令行。含出海辅助专题：多语言、合规、支付、邮件、客服。","searchPlaceholder":"搜索工具名、用途、标签…  按 / 聚焦","scenes":{"all":"全部","general":"通用工具","overseas":"🌏 出海辅助"},"usages":{"online":"🌐 在线即用","desktop":"💻 桌面应用","cli":"⌨️ 命令行","selfhost":"🐳 可自托管","lib":"📦 开发库","list":"📚 清单资源","extension":"🧩 扩展插件","mobile":"📱 移动应用"},"categories":{"watermark":"水印处理","video":"视频制作","social":"社媒运营","ai":"AI 工具","diagram":"白板绘图","image":"图片图形","doc":"文档 PDF","dev":"开发工具","design":"设计","utility":"效率工具","fun":"有趣好玩","system":"系统增强","download":"下载工具","capture":"截图录屏","media":"音乐媒体","writing":"写作笔记","filesearch":"搜索与文件","security":"安全隐私","analytics":"数据分析","experiment":"A/B 实验","i18n":"多语言本地化","payment":"支付计费","commerce":"电商建站","email":"邮件触达","notify":"通知短信","support":"客服工单","crm":"CRM 销售","auth":"认证授权","compliance":"合规签署","sitesearch":"站内搜索","finance":"财务发票","promo":"推广获客","agent":"AI 智能体","game":"游戏","storage":"存储与同步","notes":"笔记与知识库","mediaserver":"媒体服务器","monitor":"监控与运维","network":"网络与代理","learn":"学习资源","mobile":"移动端","iot":"硬件与物联网","editor":"编辑器与终端","lowcode":"低代码与内部工具","project":"项目与任务管理","team":"团队沟通","form":"表单与问卷","database":"数据库与 API","browser":"浏览器"},"allCategories":"全部分类","allUsage":"全部","sortStars":"按星数排序","sortName":"按名称排序","sortUpdated":"按最近更新","btnOnline":"在线使用","btnDeploy":"部署","btnDownload":"下载","btnDocs":"文档","btnAddon":"获取扩展","btnRepo":"仓库","btnNoOnline":"暂无在线版","archived":"已归档","cautions":{"隐私":"隐私","版权":"版权","系统修改":"系统修改","许可":"许可待确认"},"countTemplate":"显示 {n} / {total} 个工具","emptyFav":"还没有收藏任何工具","emptyMatch":"没有匹配的工具","clearFilters":"清除筛选条件","favTitle":"收藏","themeTitle":"切换主题","favOnly":"只看收藏","backToAll":"全部工具","related":"同类工具","detailTitle":"详情","specStars":"星数","specLang":"语言","specLicense":"许可证","specUpdated":"最近更新","specCategory":"分类","specScene":"场景","noLicense":"未标注","footerNote":"星数会持续变化，由 GitHub Actions 每周自动同步。","langSwitch":"English","langSwitchHref":"/en/","categoriesHeading":"分类总览","catPageSub":"共 {n} 个精选开源项目","catPageLink":"查看分类","readmeHeading":"项目简介（摘自 README）","aboutLabel":"关于本站","disclaimerLabel":"免责声明","onlineHeading":"在线工具","onlineSub":"浏览器里直接可用的小工具，数据不上传服务器","privacyNote":"🔒 全部在浏览器本地运行，文件和内容不会上传到任何服务器。","aboutThisTool":"关于这个工具","sideScene":"场景","sideUsage":"使用方式","sideCategory":"分类","sideSort":"排序","menuToggle":"筛选菜单","filterHint":"筛选条件"};</script>
+</head>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="/">
+      <span class="brand-mark">🧰</span>
+      <div>
+        <span class="brand-name">开源工具集</span>
+        <p class="brand-sub">标注清楚<strong>怎么用</strong>：在线即用 / 可自托管 / 桌面应用 / 命令行</p>
+      </div>
+    </a>
+    <div class="topbar-actions">
+
+      <a class="btn-ghost" href="/en/">English</a>
+      <button id="theme-toggle" class="btn-ghost" title="切换主题">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs">
+    <a href="/">全部工具</a>
+    <span>/</span><a href="/category/mobile/">移动端</a>
+    <span>/</span><strong>Shizuku</strong>
+  </nav>
+  <article class="detail">
+    <header class="detail-head">
+      <img class="icon icon-lg" src="https://github.com/RikkaApps.png?size=160" alt="" data-initial="S" onerror="iconFail(this)">
+      <div>
+        <h1 class="detail-name">Shizuku</h1>
+        <div class="card-repo">RikkaApps/Shizuku</div>
+      </div>
+      <button class="fav fav-lg" data-fav="shizuku" title="收藏">☆</button>
+    </header>
+    <div class="tier-banner tier-setup">
+      <strong>需要自己配置</strong>
+      <span>需要一台自己的服务器，而且要配置数据库、环境变量、域名或邮件等，建议先看官方部署文档。</span>
+    </div>
+    <p class="detail-desc">让普通应用借用系统权限，不用 root 也能用高级功能</p>
+    <div class="tags"><span class="tag plat">Android</span><span class="tag">移动端</span><span class="tag">系统增强</span></div>
+    <figure class="repo-card-wrap"><img class="repo-card" src="https://s0.wp.com/mshots/v1/https%3A%2F%2Fshizuku.rikka.app?w=1200" alt="Shizuku 网站截图" width="1200" height="675" loading="lazy" referrerpolicy="no-referrer"></figure>
+
+    <div class="readme"><h2>项目简介（摘自 README）</h2><p>Shizuku guides users to run a process, Shizuku server, with root or ADB first. When the app starts, the binder to Shizuku server will also be sent to the app.</p></div>
+    <dl class="specs">
+    <div class="spec"><dt>星数</dt><dd>★ 30.5k</dd></div>
+    <div class="spec"><dt>语言</dt><dd>Java</dd></div>
+    <div class="spec"><dt>许可证</dt><dd>Apache-2.0</dd></div>
+    <div class="spec"><dt>最近更新</dt><dd>2025-06-18</dd></div>
+    <div class="spec"><dt>分类</dt><dd>移动端</dd></div>
+    <div class="spec"><dt>场景</dt><dd>通用工具</dd></div>
+    </dl>
+    <div class="detail-actions">
+      <a class="btn-primary btn-lg" href="https://github.com/RikkaApps/Shizuku" target="_blank" rel="noopener">仓库</a>
+      <a class="btn-secondary btn-lg" href="https://github.com/RikkaApps/Shizuku" target="_blank" rel="noopener">仓库</a>
+    </div>
+  </article>
+  <section class="related">
+    <h2>同类工具</h2>
+    <div class="grid">
+<article class="card" data-id="scrcpy" data-scene="general"
+  data-usage="desktop" data-category="mobile"
+  data-stars="150280" data-name="scrcpy"
+  data-updated="2026-09-22" data-search="scrcpy genymobile/scrcpy 用电脑控制安卓手机，画面流畅延迟低，不用装手机端应用 display and control your android device c 移动端 投屏 命令行 mobile screen mirroring command line 手机投屏 安卓投屏">
+  <button class="fav" data-fav="scrcpy" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/Genymobile.png?size=96" alt="" loading="lazy"
+         data-initial="s" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/scrcpy/">scrcpy</a></h3>
+      <div class="card-repo">Genymobile/scrcpy</div>
+      <div class="tier tier-install">需下载安装</div>
+    </div>
+  </div>
+  <p class="card-desc">用电脑控制安卓手机，画面流畅延迟低，不用装手机端应用</p>
+  <div class="tags"><span class="tag plat">Android</span><span class="tag">移动端</span><span class="tag">投屏</span><span class="tag">命令行</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">150.3k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#555555"></i>C</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/Genymobile/scrcpy/releases" target="_blank" rel="noopener">下载</a><a class="btn-secondary" href="https://github.com/Genymobile/scrcpy" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="magisk" data-scene="general"
+  data-usage="mobile" data-category="mobile"
+  data-stars="62911" data-name="Magisk"
+  data-updated="2026-09-22" data-search="magisk topjohnwu/magisk 安卓 root 方案的事实标准，支持模块化和隐藏 root the magic mask for android kotlin 移动端 系统增强 mobile system tweaks 安卓root">
+  <button class="fav" data-fav="magisk" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/topjohnwu.png?size=96" alt="" loading="lazy"
+         data-initial="M" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/magisk/">Magisk</a><span class="badge warn">系统修改</span></h3>
+      <div class="card-repo">topjohnwu/Magisk</div>
+      <div class="tier tier-setup">需要自己配置</div>
+    </div>
+  </div>
+  <p class="card-desc">安卓 root 方案的事实标准，支持模块化和隐藏 root</p>
+  <div class="tags"><span class="tag plat">Android</span><span class="tag">移动端</span><span class="tag">系统增强</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">62.9k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#A97BFF"></i>Kotlin</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/topjohnwu/Magisk" target="_blank" rel="noopener">仓库</a><a class="btn-secondary" href="https://github.com/topjohnwu/Magisk" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="termux" data-scene="general"
+  data-usage="mobile" data-category="mobile"
+  data-stars="61297" data-name="Termux"
+  data-updated="2026-09-16" data-search="termux termux/termux-app 安卓上的终端和 linux 环境，手机上跑 python 和 git termux - a terminal emulator application for android os extendible by variety of packages. java 移动端 命令行 终端 mobile command line terminal 安卓终端 手机linux">
+  <button class="fav" data-fav="termux" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/termux.png?size=96" alt="" loading="lazy"
+         data-initial="T" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/termux/">Termux</a></h3>
+      <div class="card-repo">termux/termux-app</div>
+      <div class="tier tier-setup">需要自己配置</div>
+    </div>
+  </div>
+  <p class="card-desc">安卓上的终端和 Linux 环境，手机上跑 Python 和 git</p>
+  <div class="tags"><span class="tag plat">Android</span><span class="tag">移动端</span><span class="tag">命令行</span><span class="tag">终端</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">61.3k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#b07219"></i>Java</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/termux/termux-app" target="_blank" rel="noopener">仓库</a><a class="btn-secondary" href="https://github.com/termux/termux-app" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="newpipe" data-scene="general"
+  data-usage="mobile" data-category="mobile"
+  data-stars="39762" data-name="NewPipe"
+  data-updated="2026-09-21" data-search="newpipe teamnewpipe/newpipe 安卓上的 youtube 客户端，后台播放、免广告、可下载 a libre lightweight streaming front-end for android. java 移动端 影音 隐私 mobile video &amp; audio privacy 油管客户端 youtube替代">
+  <button class="fav" data-fav="newpipe" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/TeamNewPipe.png?size=96" alt="" loading="lazy"
+         data-initial="N" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/newpipe/">NewPipe</a></h3>
+      <div class="card-repo">TeamNewPipe/NewPipe</div>
+      <div class="tier tier-setup">需要自己配置</div>
+    </div>
+  </div>
+  <p class="card-desc">安卓上的 YouTube 客户端，后台播放、免广告、可下载</p>
+  <div class="tags"><span class="tag plat">Android</span><span class="tag">移动端</span><span class="tag">影音</span><span class="tag">隐私</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">39.8k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#b07219"></i>Java</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/TeamNewPipe/NewPipe" target="_blank" rel="noopener">仓库</a><a class="btn-secondary" href="https://github.com/TeamNewPipe/NewPipe" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="seal" data-scene="general"
+  data-usage="mobile" data-category="mobile"
+  data-stars="29174" data-name="Seal"
+  data-updated="2026-08-25" data-search="seal junkfood02/seal 安卓上的音视频下载器，基于 yt-dlp，界面好看 🦭 video/audio downloader for android, based on yt-dlp kotlin 移动端 下载 mobile download 安卓视频下载">
+  <button class="fav" data-fav="seal" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/JunkFood02.png?size=96" alt="" loading="lazy"
+         data-initial="S" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/seal/">Seal</a></h3>
+      <div class="card-repo">JunkFood02/Seal</div>
+      <div class="tier tier-setup">需要自己配置</div>
+    </div>
+  </div>
+  <p class="card-desc">安卓上的音视频下载器，基于 yt-dlp，界面好看</p>
+  <div class="tags"><span class="tag plat">Android</span><span class="tag">移动端</span><span class="tag">下载</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">29.2k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#A97BFF"></i>Kotlin</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/JunkFood02/Seal" target="_blank" rel="noopener">仓库</a><a class="btn-secondary" href="https://github.com/JunkFood02/Seal" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="obtainium" data-scene="general"
+  data-usage="mobile" data-category="mobile"
+  data-stars="19905" data-name="Obtainium"
+  data-updated="2026-09-13" data-search="obtainium imranr98/obtainium 直接从 github 更新安卓应用，绕开应用商店 get android app updates straight from the source. dart 移动端 应用商店 mobile app store 安卓应用更新">
+  <button class="fav" data-fav="obtainium" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/ImranR98.png?size=96" alt="" loading="lazy"
+         data-initial="O" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/obtainium/">Obtainium</a></h3>
+      <div class="card-repo">ImranR98/Obtainium</div>
+      <div class="tier tier-setup">需要自己配置</div>
+    </div>
+  </div>
+  <p class="card-desc">直接从 GitHub 更新安卓应用，绕开应用商店</p>
+  <div class="tags"><span class="tag plat">Android</span><span class="tag">移动端</span><span class="tag">应用商店</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">19.9k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#00B4AB"></i>Dart</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/ImranR98/Obtainium" target="_blank" rel="noopener">仓库</a><a class="btn-secondary" href="https://github.com/ImranR98/Obtainium" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+    </div>
+  </section>
+  <p class="back-link"><a href="/">← 全部工具</a></p>
+</main>
+
+<footer class="footer wrap">
+  <p>开源工具集 · 星数会持续变化，由 GitHub Actions 每周自动同步。</p>
+  <p class="footer-links"><a href="/online/">在线工具</a><a href="/categories/">分类总览</a><a href="/about/">关于本站</a><a href="/disclaimer/">免责声明</a><a href="/en/">English</a></p>
+</footer>
+<script src="/app.js?v=b0fafb04"></script>
+</body>
+</html>

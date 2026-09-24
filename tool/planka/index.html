@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Planka · 项目与任务管理 · 开源工具集</title>
+<meta name="description" content="界面精致的看板工具，Trello 的自托管替代 ⭐ 12.6k · JavaScript · AGPL-3.0">
+<meta name="theme-color" content="#2563eb">
+<link rel="canonical" href="https://tools.lfun.cloud/tool/planka/">
+<link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/tool/planka/">
+<link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/en/tool/planka/">
+<link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/planka/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Planka · 项目与任务管理 · 开源工具集">
+<meta property="og:description" content="界面精致的看板工具，Trello 的自托管替代 ⭐ 12.6k · JavaScript · AGPL-3.0">
+<meta property="og:url" content="https://tools.lfun.cloud/tool/planka/">
+<meta property="og:image" content="https://tools.lfun.cloud/og.png">
+<meta property="og:site_name" content="开源工具集">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Planka","description":"界面精致的看板工具，Trello 的自托管替代","url":"https://tools.lfun.cloud/tool/planka/","inLanguage":"zh-CN","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","codeRepository":"https://github.com/plankanban/planka","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"plankanban"},"keywords":"任务管理, 看板, 可自托管"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"全部工具","item":"https://tools.lfun.cloud/"},{"@type":"ListItem","position":2,"name":"项目与任务管理","item":"https://tools.lfun.cloud/category/project/"},{"@type":"ListItem","position":3,"name":"Planka","item":"https://tools.lfun.cloud/tool/planka/"}]}</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧰</text></svg>">
+<link rel="stylesheet" href="/styles.css?v=b0fafb04">
+<script>window.__LANG__="zh";window.__I18N__={"htmlLang":"zh-CN","siteName":"开源工具集","brandSub":"标注清楚<strong>怎么用<\/strong>：在线即用 / 可自托管 / 桌面应用 / 命令行","homeTitle":"开源工具集 · {n} 个精选 GitHub 开源项目","homeDesc":"{n} 个精选 GitHub 开源项目，标注清楚怎么用：在线即用、可自托管、桌面应用、命令行。含出海辅助专题：多语言、合规、支付、邮件、客服。","searchPlaceholder":"搜索工具名、用途、标签…  按 / 聚焦","scenes":{"all":"全部","general":"通用工具","overseas":"🌏 出海辅助"},"usages":{"online":"🌐 在线即用","desktop":"💻 桌面应用","cli":"⌨️ 命令行","selfhost":"🐳 可自托管","lib":"📦 开发库","list":"📚 清单资源","extension":"🧩 扩展插件","mobile":"📱 移动应用"},"categories":{"watermark":"水印处理","video":"视频制作","social":"社媒运营","ai":"AI 工具","diagram":"白板绘图","image":"图片图形","doc":"文档 PDF","dev":"开发工具","design":"设计","utility":"效率工具","fun":"有趣好玩","system":"系统增强","download":"下载工具","capture":"截图录屏","media":"音乐媒体","writing":"写作笔记","filesearch":"搜索与文件","security":"安全隐私","analytics":"数据分析","experiment":"A/B 实验","i18n":"多语言本地化","payment":"支付计费","commerce":"电商建站","email":"邮件触达","notify":"通知短信","support":"客服工单","crm":"CRM 销售","auth":"认证授权","compliance":"合规签署","sitesearch":"站内搜索","finance":"财务发票","promo":"推广获客","agent":"AI 智能体","game":"游戏","storage":"存储与同步","notes":"笔记与知识库","mediaserver":"媒体服务器","monitor":"监控与运维","network":"网络与代理","learn":"学习资源","mobile":"移动端","iot":"硬件与物联网","editor":"编辑器与终端","lowcode":"低代码与内部工具","project":"项目与任务管理","team":"团队沟通","form":"表单与问卷","database":"数据库与 API","browser":"浏览器"},"allCategories":"全部分类","allUsage":"全部","sortStars":"按星数排序","sortName":"按名称排序","sortUpdated":"按最近更新","btnOnline":"在线使用","btnDeploy":"部署","btnDownload":"下载","btnDocs":"文档","btnAddon":"获取扩展","btnRepo":"仓库","btnNoOnline":"暂无在线版","archived":"已归档","cautions":{"隐私":"隐私","版权":"版权","系统修改":"系统修改","许可":"许可待确认"},"countTemplate":"显示 {n} / {total} 个工具","emptyFav":"还没有收藏任何工具","emptyMatch":"没有匹配的工具","clearFilters":"清除筛选条件","favTitle":"收藏","themeTitle":"切换主题","favOnly":"只看收藏","backToAll":"全部工具","related":"同类工具","detailTitle":"详情","specStars":"星数","specLang":"语言","specLicense":"许可证","specUpdated":"最近更新","specCategory":"分类","specScene":"场景","noLicense":"未标注","footerNote":"星数会持续变化，由 GitHub Actions 每周自动同步。","langSwitch":"English","langSwitchHref":"/en/","categoriesHeading":"分类总览","catPageSub":"共 {n} 个精选开源项目","catPageLink":"查看分类","readmeHeading":"项目简介（摘自 README）","aboutLabel":"关于本站","disclaimerLabel":"免责声明","onlineHeading":"在线工具","onlineSub":"浏览器里直接可用的小工具，数据不上传服务器","privacyNote":"🔒 全部在浏览器本地运行，文件和内容不会上传到任何服务器。","aboutThisTool":"关于这个工具","sideScene":"场景","sideUsage":"使用方式","sideCategory":"分类","sideSort":"排序","menuToggle":"筛选菜单","filterHint":"筛选条件"};</script>
+</head>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="/">
+      <span class="brand-mark">🧰</span>
+      <div>
+        <span class="brand-name">开源工具集</span>
+        <p class="brand-sub">标注清楚<strong>怎么用</strong>：在线即用 / 可自托管 / 桌面应用 / 命令行</p>
+      </div>
+    </a>
+    <div class="topbar-actions">
+
+      <a class="btn-ghost" href="/en/">English</a>
+      <button id="theme-toggle" class="btn-ghost" title="切换主题">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs">
+    <a href="/">全部工具</a>
+    <span>/</span><a href="/category/project/">项目与任务管理</a>
+    <span>/</span><strong>Planka</strong>
+  </nav>
+  <article class="detail">
+    <header class="detail-head">
+      <img class="icon icon-lg" src="https://github.com/plankanban.png?size=160" alt="" data-initial="P" onerror="iconFail(this)">
+      <div>
+        <h1 class="detail-name">Planka</h1>
+        <div class="card-repo">plankanban/planka</div>
+      </div>
+      <button class="fav fav-lg" data-fav="planka" title="收藏">☆</button>
+    </header>
+    <div class="tier-banner tier-setup">
+      <strong>需要自己配置</strong>
+      <span>需要一台自己的服务器，而且要配置数据库、环境变量、域名或邮件等，建议先看官方部署文档。</span>
+    </div>
+    <p class="detail-desc">界面精致的看板工具，Trello 的自托管替代</p>
+    <div class="tags"><span class="tag">任务管理</span><span class="tag">看板</span><span class="tag">可自托管</span></div>
+    <figure class="repo-card-wrap"><img class="repo-card" src="https://s0.wp.com/mshots/v1/https%3A%2F%2Fplanka.app?w=1200" alt="Planka 网站截图" width="1200" height="675" loading="lazy" referrerpolicy="no-referrer"></figure>
+
+    <div class="readme"><h2>项目简介（摘自 README）</h2><p>PLANKA is easy to install using multiple methods - learn more in the installation guide.</p></div>
+    <dl class="specs">
+    <div class="spec"><dt>星数</dt><dd>★ 12.6k</dd></div>
+    <div class="spec"><dt>语言</dt><dd>JavaScript</dd></div>
+    <div class="spec"><dt>许可证</dt><dd>AGPL-3.0</dd></div>
+    <div class="spec"><dt>最近更新</dt><dd>2026-09-17</dd></div>
+    <div class="spec"><dt>分类</dt><dd>项目与任务管理</dd></div>
+    <div class="spec"><dt>场景</dt><dd>通用工具</dd></div>
+    </dl>
+    <div class="detail-actions">
+      <a class="btn-primary btn-lg" href="https://planka.app" target="_blank" rel="noopener">部署</a>
+      <a class="btn-secondary btn-lg" href="https://github.com/plankanban/planka" target="_blank" rel="noopener">仓库</a>
+    </div>
+  </article>
+  <section class="related">
+    <h2>同类工具</h2>
+    <div class="grid">
+<article class="card" data-id="cal-com" data-scene="general"
+  data-usage="online selfhost" data-category="project"
+  data-stars="48628" data-name="Cal.com"
+  data-updated="2026-09-20" data-search="cal.com calcom/cal.com 日程预约系统，把可预约时间做成链接发出去 scheduling infrastructure for absolutely everyone. typescript 日程 会议 可自托管 scheduling meetings self-hostable 预约系统 日程管理">
+  <button class="fav" data-fav="cal-com" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/calcom.png?size=96" alt="" loading="lazy"
+         data-initial="C" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/cal-com/">Cal.com</a></h3>
+      <div class="card-repo">calcom/cal.com</div>
+      <div class="tier tier-ready">打开就能用</div>
+    </div>
+  </div>
+  <p class="card-desc">日程预约系统，把可预约时间做成链接发出去</p>
+  <div class="tags"><span class="tag">日程</span><span class="tag">会议</span><span class="tag">可自托管</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">48.6k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3178c6"></i>TypeScript</span>
+    <span class="actions"><a class="btn-primary" href="https://cal.com" target="_blank" rel="noopener">在线使用</a><a class="btn-secondary" href="https://github.com/calcom/cal.com" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="huly" data-scene="general"
+  data-usage="selfhost" data-category="project"
+  data-stars="27760" data-name="Huly"
+  data-updated="2026-09-22" data-search="huly hcengineering/platform 把项目管理、聊天、文档、hr 合成一体的团队工作台 huly — all-in-one project management platform (alternative to linear, jira, slack, notion, motion) typescript 任务管理 团队沟通 可自托管 task management team chat self-hostable ">
+  <button class="fav" data-fav="huly" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/hcengineering.png?size=96" alt="" loading="lazy"
+         data-initial="H" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/huly/">Huly</a></h3>
+      <div class="card-repo">hcengineering/platform</div>
+      <div class="tier tier-onecmd">一条命令部署</div>
+    </div>
+  </div>
+  <p class="card-desc">把项目管理、聊天、文档、HR 合成一体的团队工作台</p>
+  <div class="tags"><span class="tag">任务管理</span><span class="tag">团队沟通</span><span class="tag">可自托管</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">27.8k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3178c6"></i>TypeScript</span>
+    <span class="actions"><a class="btn-primary" href="https://huly.io" target="_blank" rel="noopener">部署</a><a class="btn-secondary" href="https://github.com/hcengineering/platform" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="focalboard" data-scene="general"
+  data-usage="selfhost desktop" data-category="project"
+  data-stars="26483" data-name="Focalboard"
+  data-updated="2026-05-18" data-search="focalboard mattermost/focalboard 开源版 trello，看板加表格，团队和个人的项目面板 focalboard is an open source, self-hosted alternative to trello, notion, and asana. typescript 任务管理 看板 可自托管 task management kanban self-hostable trello替代 看板">
+  <button class="fav" data-fav="focalboard" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/mattermost.png?size=96" alt="" loading="lazy"
+         data-initial="F" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/focalboard/">Focalboard</a></h3>
+      <div class="card-repo">mattermost/focalboard</div>
+      <div class="tier tier-install">需下载安装</div>
+    </div>
+  </div>
+  <p class="card-desc">开源版 Trello，看板加表格，团队和个人的项目面板</p>
+  <div class="tags"><span class="tag">任务管理</span><span class="tag">看板</span><span class="tag">可自托管</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">26.5k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3178c6"></i>TypeScript</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/mattermost/focalboard/releases" target="_blank" rel="noopener">下载</a><a class="btn-secondary" href="https://github.com/mattermost/focalboard" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="super-productivity" data-scene="general"
+  data-usage="desktop online" data-category="project"
+  data-stars="22220" data-name="Super Productivity"
+  data-updated="2026-09-23" data-search="super productivity johannesjo/super-productivity 把待办、时间追踪和番茄钟合成一个应用的效率工具 super productivity is an advanced todo list app with integrated timeboxing and time tracking capabilities. it also comes with integrations for jira, gitlab, github and open project. typescript 任务管理 时间追踪 task management time tracking 番茄钟 时间管理">
+  <button class="fav" data-fav="super-productivity" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/johannesjo.png?size=96" alt="" loading="lazy"
+         data-initial="S" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/super-productivity/">Super Productivity</a></h3>
+      <div class="card-repo">johannesjo/super-productivity</div>
+      <div class="tier tier-ready">打开就能用</div>
+    </div>
+  </div>
+  <p class="card-desc">把待办、时间追踪和番茄钟合成一个应用的效率工具</p>
+  <div class="tags"><span class="tag">任务管理</span><span class="tag">时间追踪</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">22.2k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3178c6"></i>TypeScript</span>
+    <span class="actions"><a class="btn-primary" href="https://super-productivity.com" target="_blank" rel="noopener">在线使用</a><a class="btn-secondary" href="https://github.com/johannesjo/super-productivity" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="wekan" data-scene="general"
+  data-usage="selfhost" data-category="project"
+  data-stars="21095" data-name="Wekan"
+  data-updated="2026-09-23" data-search="wekan wekan/wekan 老牌开源看板，功能非常多，适合流程复杂的团队 the open source kanban, built with meteor. github issues/prs are only for floss developers, not for support, support is at https://wekan.fi/commercial-support/ . pr source translation to imports/i18n/data/en.i18n.json, other translations at https://app.transifex.com/wekan/wekan . no telemetry. javascript 任务管理 看板 可自托管 task management kanban self-hostable trello替代 看板">
+  <button class="fav" data-fav="wekan" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/wekan.png?size=96" alt="" loading="lazy"
+         data-initial="W" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/wekan/">Wekan</a></h3>
+      <div class="card-repo">wekan/wekan</div>
+      <div class="tier tier-setup">需要自己配置</div>
+    </div>
+  </div>
+  <p class="card-desc">老牌开源看板，功能非常多，适合流程复杂的团队</p>
+  <div class="tags"><span class="tag">任务管理</span><span class="tag">看板</span><span class="tag">可自托管</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">21.1k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#f1e05a"></i>JavaScript</span>
+    <span class="actions"><a class="btn-primary" href="https://wekan.github.io" target="_blank" rel="noopener">部署</a><a class="btn-secondary" href="https://github.com/wekan/wekan" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="mealie" data-scene="general"
+  data-usage="selfhost" data-category="project"
+  data-stars="13302" data-name="Mealie"
+  data-updated="2026-09-23" data-search="mealie mealie-recipes/mealie 家庭菜谱管理，存菜谱、生成购物清单、按周排餐 mealie is a self hosted recipe manager and meal planner with a restapi backend and a reactive frontend application built in vue for a pleasant user experience for the whole family. easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the ui editor python 生活 可自托管 home &amp; life self-hostable 菜谱管理 家庭菜谱">
+  <button class="fav" data-fav="mealie" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/mealie-recipes.png?size=96" alt="" loading="lazy"
+         data-initial="M" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/mealie/">Mealie</a></h3>
+      <div class="card-repo">mealie-recipes/mealie</div>
+      <div class="tier tier-setup">需要自己配置</div>
+    </div>
+  </div>
+  <p class="card-desc">家庭菜谱管理，存菜谱、生成购物清单、按周排餐</p>
+  <div class="tags"><span class="tag">生活</span><span class="tag">可自托管</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">13.3k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3572A5"></i>Python</span>
+    <span class="actions"><a class="btn-primary" href="https://mealie.io" target="_blank" rel="noopener">部署</a><a class="btn-secondary" href="https://github.com/mealie-recipes/mealie" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+    </div>
+  </section>
+  <p class="back-link"><a href="/">← 全部工具</a></p>
+</main>
+
+<footer class="footer wrap">
+  <p>开源工具集 · 星数会持续变化，由 GitHub Actions 每周自动同步。</p>
+  <p class="footer-links"><a href="/online/">在线工具</a><a href="/categories/">分类总览</a><a href="/about/">关于本站</a><a href="/disclaimer/">免责声明</a><a href="/en/">English</a></p>
+</footer>
+<script src="/app.js?v=b0fafb04"></script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Starship · Editors &amp; terminals · Open Source Toolkit</title>
+<meta name="description" content="☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell! ⭐ 60.0k · Rust · ISC">
+<meta name="theme-color" content="#2563eb">
+<link rel="canonical" href="https://tools.lfun.cloud/en/tool/starship/">
+<link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/tool/starship/">
+<link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/en/tool/starship/">
+<link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/starship/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Starship · Editors &amp; terminals · Open Source Toolkit">
+<meta property="og:description" content="☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell! ⭐ 60.0k · Rust · ISC">
+<meta property="og:url" content="https://tools.lfun.cloud/en/tool/starship/">
+<meta property="og:image" content="https://tools.lfun.cloud/og.png">
+<meta property="og:site_name" content="Open Source Toolkit">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Starship","description":"☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!","url":"https://tools.lfun.cloud/en/tool/starship/","inLanguage":"en","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","codeRepository":"https://github.com/starship/starship","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"starship"},"keywords":"Terminal, Command line"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"All tools","item":"https://tools.lfun.cloud/en/"},{"@type":"ListItem","position":2,"name":"Editors & terminals","item":"https://tools.lfun.cloud/en/category/editor/"},{"@type":"ListItem","position":3,"name":"Starship","item":"https://tools.lfun.cloud/en/tool/starship/"}]}</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧰</text></svg>">
+<link rel="stylesheet" href="/styles.css?v=b0fafb04">
+<script>window.__LANG__="en";window.__I18N__={"htmlLang":"en","siteName":"Open Source Toolkit","brandSub":"Know <strong>how to use it<\/strong> before you click: online, self-hosted, desktop, CLI","homeTitle":"Open Source Toolkit · {n} curated GitHub projects","homeDesc":"{n} curated open-source GitHub projects with clear notes on how to use them: online, self-hosted, desktop app or CLI. Includes a Going-Global section: localization, compliance, payments, email and support.","searchPlaceholder":"Search name, purpose, tag…  press / to focus","scenes":{"all":"All","general":"General","overseas":"🌏 Going global"},"usages":{"online":"🌐 Online","desktop":"💻 Desktop","cli":"⌨️ CLI","selfhost":"🐳 Self-hosted","lib":"📦 Library","list":"📚 Lists","extension":"🧩 Extensions","mobile":"📱 Mobile app"},"categories":{"watermark":"Watermarks","video":"Video production","social":"Social media","ai":"AI tools","diagram":"Whiteboards & diagrams","image":"Image & graphics","doc":"Documents & PDF","dev":"Developer tools","design":"Design","utility":"Utilities","fun":"Fun","system":"System tweaks","download":"Downloaders","capture":"Screenshot & recording","media":"Music & media","writing":"Writing & notes","filesearch":"Search & files","security":"Security & privacy","analytics":"Analytics","experiment":"A/B testing & flags","i18n":"Localization","payment":"Payments & billing","commerce":"E-commerce","email":"Email & marketing","notify":"Notifications & SMS","support":"Customer support","crm":"CRM & sales","auth":"Auth & identity","compliance":"Compliance & e-signing","sitesearch":"Site search","finance":"Finance & invoicing","promo":"Growth & SEO","agent":"AI agents","game":"Games","storage":"File sync & storage","notes":"Notes & knowledge base","mediaserver":"Media servers","monitor":"Monitoring & ops","network":"Networking & proxy","learn":"Learning resources","mobile":"Mobile","iot":"Hardware & IoT","editor":"Editors & terminals","lowcode":"Low-code & internal tools","project":"Project & task management","team":"Team communication","form":"Forms & surveys","database":"Databases & API tools","browser":"Browsers"},"allCategories":"All categories","allUsage":"All","sortStars":"By stars","sortName":"By name","sortUpdated":"By last update","btnOnline":"Open online","btnDeploy":"Deploy","btnDownload":"Download","btnDocs":"Docs","btnAddon":"Get the add-on","btnRepo":"Repository","btnNoOnline":"No online version","archived":"Archived","cautions":{"隐私":"Privacy","版权":"Copyright","系统修改":"System changes","许可":"License unclear"},"countTemplate":"Showing {n} of {total} tools","emptyFav":"No favourites yet","emptyMatch":"No matching tools","clearFilters":"Clear filters","favTitle":"Save","themeTitle":"Toggle theme","favOnly":"Favourites only","backToAll":"All tools","related":"Similar tools","detailTitle":"Details","specStars":"Stars","specLang":"Language","specLicense":"License","specUpdated":"Last updated","specCategory":"Category","specScene":"Section","noLicense":"Not specified","footerNote":"Star counts change over time; synced weekly by GitHub Actions.","langSwitch":"中文","langSwitchHref":"/","categoriesHeading":"All categories","catPageSub":"{n} curated open-source projects","catPageLink":"Browse categories","readmeHeading":"From the README","aboutLabel":"About","disclaimerLabel":"Disclaimer","onlineHeading":"Online tools","onlineSub":"Small tools that run right here in your browser. Nothing is uploaded.","privacyNote":"🔒 Everything runs locally in your browser. Files and content are never uploaded.","aboutThisTool":"About this tool","sideScene":"Section","sideUsage":"How to use","sideCategory":"Category","sideSort":"Sort","menuToggle":"Filter menu","filterHint":"Filters"};</script>
+</head>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="/en/">
+      <span class="brand-mark">🧰</span>
+      <div>
+        <span class="brand-name">Open Source Toolkit</span>
+        <p class="brand-sub">Know <strong>how to use it</strong> before you click: online, self-hosted, desktop, CLI</p>
+      </div>
+    </a>
+    <div class="topbar-actions">
+
+      <a class="btn-ghost" href="/">中文</a>
+      <button id="theme-toggle" class="btn-ghost" title="Toggle theme">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs">
+    <a href="/en/">All tools</a>
+    <span>/</span><a href="/en/category/editor/">Editors &amp; terminals</a>
+    <span>/</span><strong>Starship</strong>
+  </nav>
+  <article class="detail">
+    <header class="detail-head">
+      <img class="icon icon-lg" src="https://github.com/starship.png?size=160" alt="" data-initial="S" onerror="iconFail(this)">
+      <div>
+        <h1 class="detail-name">Starship</h1>
+        <div class="card-repo">starship/starship</div>
+      </div>
+      <button class="fav fav-lg" data-fav="starship" title="Save">☆</button>
+    </header>
+    <div class="tier-banner tier-install">
+      <strong>Download &amp; install</strong>
+      <span>Download and install locally. No server needed.</span>
+    </div>
+    <p class="detail-desc">☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!</p>
+    <div class="tags"><span class="tag">Terminal</span><span class="tag">Command line</span></div>
+    <figure class="repo-card-wrap"><img class="repo-card" src="https://s0.wp.com/mshots/v1/https%3A%2F%2Fstarship.rs?w=1200" alt="Starship website screenshot" width="1200" height="675" loading="lazy" referrerpolicy="no-referrer"></figure>
+
+
+    <dl class="specs">
+    <div class="spec"><dt>Stars</dt><dd>★ 60.0k</dd></div>
+    <div class="spec"><dt>Language</dt><dd>Rust</dd></div>
+    <div class="spec"><dt>License</dt><dd>ISC</dd></div>
+    <div class="spec"><dt>Last updated</dt><dd>2026-09-23</dd></div>
+    <div class="spec"><dt>Category</dt><dd>Editors &amp; terminals</dd></div>
+    <div class="spec"><dt>Section</dt><dd>General</dd></div>
+    </dl>
+    <div class="detail-actions">
+      <a class="btn-primary btn-lg" href="https://github.com/starship/starship/releases" target="_blank" rel="noopener">Download</a>
+      <a class="btn-secondary btn-lg" href="https://github.com/starship/starship" target="_blank" rel="noopener">Repository</a>
+    </div>
+  </article>
+  <section class="related">
+    <h2>Similar tools</h2>
+    <div class="grid">
+<article class="card" data-id="neovim" data-scene="general"
+  data-usage="cli desktop" data-category="editor"
+  data-stars="102537" data-name="Neovim"
+  data-updated="2026-09-23" data-search="neovim neovim/neovim vim 的现代化重构，lua 配置加异步插件，终端编辑器天花板 vim-fork focused on extensibility and usability c 编辑器 命令行 editor command line vim增强 终端编辑器">
+  <button class="fav" data-fav="neovim" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/neovim.png?size=96" alt="" loading="lazy"
+         data-initial="N" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/neovim/">Neovim</a></h3>
+      <div class="card-repo">neovim/neovim</div>
+      <div class="tier tier-install">Download &amp; install</div>
+    </div>
+  </div>
+  <p class="card-desc">Vim-fork focused on extensibility and usability</p>
+  <div class="tags"><span class="tag">Editor</span><span class="tag">Command line</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">102.5k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#555555"></i>C</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/neovim/neovim/releases" target="_blank" rel="noopener">Download</a><a class="btn-secondary" href="https://github.com/neovim/neovim" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="zed" data-scene="general"
+  data-usage="desktop" data-category="editor"
+  data-stars="90786" data-name="Zed"
+  data-updated="2026-09-24" data-search="zed zed-industries/zed 用 rust 写的高性能协作编辑器，启动和响应极快 code at the speed of thought – zed is a high-performance, multiplayer code editor from the creators of atom and tree-sitter. rust 编辑器 协作 editor collaboration ">
+  <button class="fav" data-fav="zed" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/zed-industries.png?size=96" alt="" loading="lazy"
+         data-initial="Z" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/zed/">Zed</a></h3>
+      <div class="card-repo">zed-industries/zed</div>
+      <div class="tier tier-install">Download &amp; install</div>
+    </div>
+  </div>
+  <p class="card-desc">Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.</p>
+  <div class="tags"><span class="tag">Editor</span><span class="tag">Collaboration</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">90.8k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#dea584"></i>Rust</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/zed-industries/zed/releases" target="_blank" rel="noopener">Download</a><a class="btn-secondary" href="https://github.com/zed-industries/zed" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="alacritty" data-scene="general"
+  data-usage="cli desktop" data-category="editor"
+  data-stars="65801" data-name="Alacritty"
+  data-updated="2026-08-31" data-search="alacritty alacritty/alacritty 专注速度的 gpu 终端，简单到只有配置文件 a cross-platform, opengl terminal emulator. rust 终端 terminal ">
+  <button class="fav" data-fav="alacritty" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/alacritty.png?size=96" alt="" loading="lazy"
+         data-initial="A" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/alacritty/">Alacritty</a></h3>
+      <div class="card-repo">alacritty/alacritty</div>
+      <div class="tier tier-install">Download &amp; install</div>
+    </div>
+  </div>
+  <p class="card-desc">A cross-platform, OpenGL terminal emulator.</p>
+  <div class="tags"><span class="tag">Terminal</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">65.8k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#dea584"></i>Rust</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/alacritty/alacritty/releases" target="_blank" rel="noopener">Download</a><a class="btn-secondary" href="https://github.com/alacritty/alacritty" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="ghostty" data-scene="general"
+  data-usage="desktop" data-category="editor"
+  data-stars="61477" data-name="Ghostty"
+  data-updated="2026-09-24" data-search="ghostty ghostty-org/ghostty 原生 gpu 终端，启动快、支持终端图形协议 👻 ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native ui and gpu acceleration. zig 终端 terminal ">
+  <button class="fav" data-fav="ghostty" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/ghostty-org.png?size=96" alt="" loading="lazy"
+         data-initial="G" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/ghostty/">Ghostty</a></h3>
+      <div class="card-repo">ghostty-org/ghostty</div>
+      <div class="tier tier-install">Download &amp; install</div>
+    </div>
+  </div>
+  <p class="card-desc">👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.</p>
+  <div class="tags"><span class="tag">Terminal</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">61.5k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#8b949e"></i>Zig</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/ghostty-org/ghostty/releases" target="_blank" rel="noopener">Download</a><a class="btn-secondary" href="https://github.com/ghostty-org/ghostty" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="helix" data-scene="general"
+  data-usage="cli" data-category="editor"
+  data-stars="46313" data-name="Helix"
+  data-updated="2026-09-22" data-search="helix helix-editor/helix 开箱即用的模态编辑器，多选和内置 lsp 是它的招牌 a post-modern modal text editor. rust 编辑器 命令行 editor command line 终端编辑器">
+  <button class="fav" data-fav="helix" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/helix-editor.png?size=96" alt="" loading="lazy"
+         data-initial="H" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/helix/">Helix</a></h3>
+      <div class="card-repo">helix-editor/helix</div>
+      <div class="tier tier-install">Download &amp; install</div>
+    </div>
+  </div>
+  <p class="card-desc">A post-modern modal text editor.</p>
+  <div class="tags"><span class="tag">Editor</span><span class="tag">Command line</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">46.3k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#dea584"></i>Rust</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/helix-editor/helix/releases" target="_blank" rel="noopener">Download</a><a class="btn-secondary" href="https://github.com/helix-editor/helix" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="lapce" data-scene="general"
+  data-usage="desktop" data-category="editor"
+  data-stars="38864" data-name="Lapce"
+  data-updated="2026-09-24" data-search="lapce lapce/lapce rust 写的轻量编辑器，带内置 lsp 和远程开发 lightning-fast and powerful code editor written in rust rust 编辑器 editor ">
+  <button class="fav" data-fav="lapce" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/lapce.png?size=96" alt="" loading="lazy"
+         data-initial="L" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/lapce/">Lapce</a></h3>
+      <div class="card-repo">lapce/lapce</div>
+      <div class="tier tier-install">Download &amp; install</div>
+    </div>
+  </div>
+  <p class="card-desc">Lightning-fast and Powerful Code Editor written in Rust</p>
+  <div class="tags"><span class="tag">Editor</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">38.9k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#dea584"></i>Rust</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/lapce/lapce/releases" target="_blank" rel="noopener">Download</a><a class="btn-secondary" href="https://github.com/lapce/lapce" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+    </div>
+  </section>
+  <p class="back-link"><a href="/en/">← All tools</a></p>
+</main>
+
+<footer class="footer wrap">
+  <p>Open Source Toolkit · Star counts change over time; synced weekly by GitHub Actions.</p>
+  <p class="footer-links"><a href="/en/online/">Online tools</a><a href="/en/categories/">All categories</a><a href="/en/about/">About</a><a href="/en/disclaimer/">Disclaimer</a><a href="/">中文</a></p>
+</footer>
+<script src="/app.js?v=b0fafb04"></script>
+</body>
+</html>

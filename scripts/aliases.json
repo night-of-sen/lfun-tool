@@ -10,9 +10,17 @@
     "zapier替代",
     "开源自动化"
   ],
+  "adguardhome": [
+    "广告拦截dns",
+    "去广告"
+  ],
   "adk-python": [
     "谷歌智能体",
     "adk"
+  ],
+  "affine": [
+    "notion替代",
+    "知识库"
   ],
   "agno": [
     "智能体框架",
@@ -33,9 +41,24 @@
     "本地知识库",
     "文档问答"
   ],
+  "anytype": [
+    "本地知识管理",
+    "notion替代"
+  ],
+  "appflowy": [
+    "开源notion",
+    "notion替代"
+  ],
+  "appsmith": [
+    "低代码平台",
+    "内部工具"
+  ],
   "asciiquarium": [
     "字符水族箱",
     "终端鱼"
+  ],
+  "audiobookshelf": [
+    "有声书服务器"
   ],
   "authelia": [
     "单点登录",
@@ -63,15 +86,25 @@
     "mcp大全",
     "mcp清单"
   ],
+  "awesome-selfhosted": [
+    "自托管清单"
+  ],
   "backgroundremover": [
     "视频抠图",
     "批量抠图"
+  ],
+  "baserow": [
+    "airtable替代",
+    "在线表格"
   ],
   "bat": [
     "cat 替代"
   ],
   "beets": [
     "音乐库管理"
+  ],
+  "beszel": [
+    "服务器监控"
   ],
   "bitwarden": [
     "密码管理器",
@@ -86,17 +119,52 @@
     "键盘猫",
     "桌面猫"
   ],
+  "bookstack": [
+    "文档系统",
+    "wiki"
+  ],
+  "brave-browser": [
+    "隐私浏览器"
+  ],
   "browser-use": [
     "浏览器智能体",
     "ai操作浏览器"
+  ],
+  "bruno": [
+    "api调试",
+    "postman替代"
+  ],
+  "budibase": [
+    "低代码平台"
+  ],
+  "build-your-own-x": [
+    "从零实现"
   ],
   "buster": [
     "验证码识别",
     "过验证码"
   ],
+  "bytebase": [
+    "数据库变更管理"
+  ],
+  "caddy": [
+    "反向代理",
+    "web服务器"
+  ],
+  "cal-com": [
+    "预约系统",
+    "日程管理"
+  ],
+  "calibre-web": [
+    "在线书库",
+    "电子书管理"
+  ],
   "cap": [
     "录屏",
     "loom 替代"
+  ],
+  "caprover": [
+    "应用托管"
   ],
   "carbon": [
     "代码截图"
@@ -122,6 +190,14 @@
     "智能体界面",
     "对话界面"
   ],
+  "changedetection": [
+    "网页监控",
+    "比价监控"
+  ],
+  "chartdb": [
+    "er图",
+    "数据库设计"
+  ],
   "chatwoot": [
     "客服系统",
     "在线客服"
@@ -141,6 +217,10 @@
     "变量命名",
     "起名"
   ],
+  "coding-interview-university": [
+    "面试准备",
+    "刷题路线"
+  ],
   "comfyui": [
     "ai绘画",
     "节点式出图"
@@ -148,6 +228,10 @@
   "continue": [
     "ai编程助手",
     "代码补全"
+  ],
+  "coolify": [
+    "自建vercel",
+    "部署平台"
   ],
   "copilotkit": [
     "智能体前端",
@@ -183,6 +267,13 @@
     "夜间模式",
     "暗黑模式"
   ],
+  "dbeaver": [
+    "数据库客户端"
+  ],
+  "developer-roadmap": [
+    "学习路线",
+    "roadmap"
+  ],
   "devilutionx": [
     "暗黑破坏神",
     "暗黑1"
@@ -197,6 +288,10 @@
     "ai应用平台",
     "大模型应用"
   ],
+  "directus": [
+    "无头cms",
+    "后台管理"
+  ],
   "discourse": [
     "论坛系统",
     "社区系统"
@@ -207,9 +302,23 @@
   "docker-mailserver": [
     "邮件服务器"
   ],
+  "dockge": [
+    "docker管理"
+  ],
+  "docling": [
+    "pdf解析"
+  ],
+  "docmost": [
+    "confluence替代",
+    "知识库"
+  ],
   "documenso": [
     "电子签名",
     "docusign 替代"
+  ],
+  "dokploy": [
+    "部署平台",
+    "paas"
   ],
   "dolphin": [
     "wii模拟器",
@@ -218,6 +327,10 @@
   "doocs-md": [
     "微信排版",
     "公众号排版"
+  ],
+  "drawdb": [
+    "er图",
+    "建表语句"
   ],
   "drawio": [
     "流程图",
@@ -230,12 +343,19 @@
   "dufs": [
     "文件服务器"
   ],
+  "duplicati": [
+    "备份工具"
+  ],
   "e2b": [
     "代码沙箱",
     "agent沙箱"
   ],
   "editor-md": [
     "markdown 编辑器"
+  ],
+  "element": [
+    "matrix客户端",
+    "加密聊天"
   ],
   "endless-sky": [
     "太空贸易"
@@ -244,13 +364,22 @@
     "截屏ocr",
     "截图搜索"
   ],
+  "esphome": [
+    "智能家居固件"
+  ],
   "excalidraw": [
     "在线白板",
     "手绘白板",
     "画流程图"
   ],
+  "exercism": [
+    "编程练习"
+  ],
   "fd": [
     "find 替代"
+  ],
+  "fdroid": [
+    "安卓开源应用商店"
   ],
   "ffmpeg": [
     "视频转码",
@@ -263,6 +392,10 @@
     "英雄无敌2",
     "英雄无敌"
   ],
+  "filebrowser": [
+    "网页文件管理",
+    "自建网盘"
+  ],
   "firecrawl": [
     "网页抓取",
     "爬虫转markdown"
@@ -271,18 +404,50 @@
     "记账软件",
     "个人财务"
   ],
+  "firefox": [
+    "火狐浏览器"
+  ],
   "flameshot": [
     "截图标注"
   ],
   "flarum": [
     "轻论坛"
   ],
+  "floorp": [
+    "firefox分支"
+  ],
+  "focalboard": [
+    "trello替代",
+    "看板"
+  ],
+  "fontsource": [
+    "自托管字体"
+  ],
   "fooocus": [
     "ai绘画",
     "一键出图"
   ],
+  "formbricks": [
+    "用户调研",
+    "问卷"
+  ],
   "frappe-books": [
     "记账"
+  ],
+  "free-programming-books": [
+    "编程书单",
+    "免费电子书"
+  ],
+  "freecodecamp": [
+    "免费学编程"
+  ],
+  "frigate": [
+    "监控识别",
+    "nvr"
+  ],
+  "frp": [
+    "内网穿透",
+    "端口映射"
   ],
   "fzf": [
     "模糊查找"
@@ -290,6 +455,10 @@
   "gallery-dl": [
     "图集下载",
     "批量下载图片"
+  ],
+  "gatus": [
+    "状态页",
+    "服务监控"
   ],
   "gdevelop": [
     "做游戏",
@@ -303,6 +472,10 @@
     "老照片修复",
     "人脸修复"
   ],
+  "gitleaks": [
+    "密钥扫描",
+    "泄露检测"
+  ],
   "goose": [
     "本地编码智能体"
   ],
@@ -311,6 +484,14 @@
   ],
   "gpt-pilot": [
     "ai开发团队"
+  ],
+  "grafana": [
+    "监控面板",
+    "可视化大屏"
+  ],
+  "grocy": [
+    "家庭库存",
+    "冰箱管理"
   ],
   "gzdoom": [
     "doom",
@@ -324,13 +505,35 @@
     "英文语法检查",
     "语法检查"
   ],
+  "headscale": [
+    "自建tailscale",
+    "组网"
+  ],
+  "hedgedoc": [
+    "协作markdown",
+    "在线md"
+  ],
   "hedgewars": [
     "百战天虫",
     "刺猬大战"
   ],
+  "helix": [
+    "终端编辑器"
+  ],
+  "heroicons": [
+    "图标库"
+  ],
+  "heyform": [
+    "表单搭建",
+    "问卷"
+  ],
   "hollywood": [
     "黑客终端",
     "好莱坞"
+  ],
+  "home-assistant": [
+    "智能家居",
+    "homeassistant"
   ],
   "hoppscotch": [
     "api 调试",
@@ -349,6 +552,9 @@
   "i18next": [
     "国际化框架"
   ],
+  "iconify": [
+    "图标库"
+  ],
   "imagemagick": [
     "图片命令行",
     "imagemagick"
@@ -357,6 +563,15 @@
     "沉浸式翻译",
     "双语翻译",
     "网页翻译"
+  ],
+  "immich": [
+    "谷歌相册替代",
+    "相册备份",
+    "照片备份"
+  ],
+  "infisical": [
+    "密钥管理",
+    "配置中心"
   ],
   "inpaint-web": [
     "在线去水印",
@@ -382,8 +597,21 @@
     "本地ai",
     "离线ai"
   ],
+  "jellyfin": [
+    "家庭影院",
+    "影视库",
+    "emby替代"
+  ],
   "jimp": [
     "js图像处理"
+  ],
+  "jitsi-meet": [
+    "视频会议",
+    "在线会议"
+  ],
+  "joplin": [
+    "开源印象笔记",
+    "笔记软件"
   ],
   "jq": [
     "json 处理"
@@ -391,12 +619,40 @@
   "jsoncrack": [
     "json 可视化"
   ],
+  "k6": [
+    "压测",
+    "性能测试"
+  ],
+  "kanboard": [
+    "看板"
+  ],
+  "kavita": [
+    "自建漫画"
+  ],
+  "kde-connect": [
+    "手机电脑互联"
+  ],
   "kdenlive": [
     "剪辑软件"
   ],
   "kimai": [
     "工时统计",
     "计时"
+  ],
+  "klipper": [
+    "3d打印机固件"
+  ],
+  "koel": [
+    "音乐流媒体"
+  ],
+  "komga": [
+    "漫画服务器"
+  ],
+  "kopia": [
+    "备份工具"
+  ],
+  "ladybird": [
+    "独立浏览器引擎"
   ],
   "lago": [
     "计费系统",
@@ -431,9 +687,15 @@
   "librechat": [
     "多模型聊天"
   ],
+  "librephotos": [
+    "相册管理"
+  ],
   "libretranslate": [
     "翻译api",
     "自建翻译"
+  ],
+  "libretube": [
+    "youtube客户端"
   ],
   "libvips": [
     "图片处理库"
@@ -478,6 +740,17 @@
     "本地api",
     "openai替代"
   ],
+  "localsend": [
+    "局域网传文件",
+    "隔空投送替代"
+  ],
+  "locust": [
+    "压测"
+  ],
+  "logseq": [
+    "大纲笔记",
+    "双向链接笔记"
+  ],
   "logto": [
     "auth0 替代"
   ],
@@ -488,6 +761,12 @@
   "luanti": [
     "minetest",
     "我的世界开源版"
+  ],
+  "lucide": [
+    "图标库"
+  ],
+  "magisk": [
+    "安卓root"
   ],
   "mailcow": [
     "自建邮局"
@@ -500,6 +779,9 @@
   ],
   "markedit": [
     "mac markdown"
+  ],
+  "marker": [
+    "pdf转markdown"
   ],
   "markmap": [
     "markdown 思维导图"
@@ -518,12 +800,20 @@
     "网站统计",
     "ga 替代"
   ],
+  "mattermost": [
+    "团队聊天",
+    "slack替代"
+  ],
   "mautic": [
     "营销自动化"
   ],
   "mcp-servers": [
     "mcp服务器",
     "模型上下文协议"
+  ],
+  "mealie": [
+    "菜谱管理",
+    "家庭菜谱"
   ],
   "medusa": [
     "开源电商",
@@ -541,9 +831,17 @@
     "网页高亮",
     "网页笔记"
   ],
+  "memos": [
+    "碎片笔记",
+    "自建推特"
+  ],
   "mermaid": [
     "文本画图",
     "流程图代码"
+  ],
+  "meshtastic": [
+    "离网通信",
+    "lora"
   ],
   "metabase": [
     "bi 工具",
@@ -560,6 +858,14 @@
     "妙言",
     "mac 写作"
   ],
+  "microg": [
+    "谷歌服务替代",
+    "去谷歌"
+  ],
+  "mihomo": [
+    "clash内核",
+    "代理"
+  ],
   "mind-elixir": [
     "思维导图库"
   ],
@@ -567,8 +873,15 @@
     "工厂塔防",
     "mindustry"
   ],
+  "mineru": [
+    "pdf解析"
+  ],
   "misskey": [
     "联邦微博"
+  ],
+  "mitmproxy": [
+    "抓包",
+    "代理调试"
   ],
   "mixpost": [
     "社媒排期",
@@ -577,6 +890,10 @@
   "mkcert": [
     "本地证书",
     "https 证书"
+  ],
+  "mockoon": [
+    "假接口",
+    "mock数据"
   ],
   "moonlight": [
     "串流客户端"
@@ -592,6 +909,9 @@
     "python剪视频",
     "脚本剪视频"
   ],
+  "mumble": [
+    "语音通话"
+  ],
   "n8n": [
     "自动化工作流",
     "zapier替代"
@@ -604,19 +924,54 @@
     "合成软件",
     "ae替代"
   ],
+  "navidrome": [
+    "自建音乐",
+    "音乐服务器"
+  ],
   "nb": [
     "命令行笔记"
   ],
   "neofetch": [
     "系统信息"
   ],
+  "neovim": [
+    "vim增强",
+    "终端编辑器"
+  ],
+  "netbird": [
+    "组网",
+    "wireguard"
+  ],
+  "netdata": [
+    "系统监控"
+  ],
+  "newpipe": [
+    "油管客户端",
+    "youtube替代"
+  ],
   "nextai-translator": [
     "划词翻译",
     "翻译插件"
   ],
+  "nextcloud": [
+    "私有云盘",
+    "自建网盘"
+  ],
+  "nginx-proxy-manager": [
+    "反向代理面板",
+    "nginx面板"
+  ],
+  "nmap": [
+    "端口扫描",
+    "网络扫描"
+  ],
   "no-more-secrets": [
     "解密特效",
     "sneakers"
+  ],
+  "nocodb": [
+    "airtable替代",
+    "表格数据库"
   ],
   "novu": [
     "消息通知",
@@ -625,10 +980,23 @@
   "nuclear": [
     "免费音乐播放器"
   ],
+  "nuclei": [
+    "漏洞扫描"
+  ],
   "obs-studio": [
     "录屏软件",
     "直播推流",
     "obs"
+  ],
+  "obtainium": [
+    "安卓应用更新"
+  ],
+  "ocrmypdf": [
+    "pdf ocr",
+    "扫描件识别"
+  ],
+  "octoprint": [
+    "3d打印控制"
   ],
   "ollama": [
     "本地大模型",
@@ -643,6 +1011,9 @@
   "oneko-js": [
     "像素猫",
     "跟随鼠标的猫"
+  ],
+  "open-color": [
+    "配色板"
   ],
   "open-interpreter": [
     "自然语言执行代码",
@@ -698,6 +1069,16 @@
     "幽浮",
     "xcom"
   ],
+  "opnform": [
+    "表单"
+  ],
+  "orcaslicer": [
+    "切片软件"
+  ],
+  "outline": [
+    "团队知识库",
+    "wiki"
+  ],
   "owncast": [
     "自建直播"
   ],
@@ -712,8 +1093,19 @@
   "pakeplus": [
     "网页打包app"
   ],
+  "pandoc": [
+    "文档格式转换"
+  ],
+  "paperless-ngx": [
+    "纸质文档归档",
+    "发票管理"
+  ],
   "pcsx2": [
     "ps2模拟器"
+  ],
+  "pdfarranger": [
+    "pdf合并",
+    "pdf拆分"
   ],
   "pear": [
     "youtube music 客户端"
@@ -730,9 +1122,19 @@
     "ai搜索",
     "开源perplexity"
   ],
+  "pgadmin": [
+    "postgres客户端"
+  ],
   "photodemon": [
     "修图软件",
     "windows修图"
+  ],
+  "photoprism": [
+    "照片管理"
+  ],
+  "pi-hole": [
+    "广告拦截",
+    "去广告"
   ],
   "pipes-sh": [
     "管道动画",
@@ -745,6 +1147,10 @@
   "pixelorama": [
     "像素画",
     "像素编辑器"
+  ],
+  "planka": [
+    "trello替代",
+    "看板"
   ],
   "plantuml": [
     "uml 图"
@@ -761,6 +1167,10 @@
     "后端框架",
     "单文件后端"
   ],
+  "portainer": [
+    "docker面板",
+    "容器管理"
+  ],
   "postal": [
     "邮件投递"
   ],
@@ -775,6 +1185,13 @@
   "profile-summary": [
     "github 分析"
   ],
+  "prometheus": [
+    "监控系统",
+    "指标采集"
+  ],
+  "prusaslicer": [
+    "切片软件"
+  ],
   "puter": [
     "浏览器操作系统",
     "云桌面"
@@ -785,9 +1202,19 @@
   "pyxel": [
     "像素游戏引擎"
   ],
+  "qmk": [
+    "客制化键盘固件"
+  ],
+  "radix-ui": [
+    "无样式组件"
+  ],
   "ragflow": [
     "rag引擎",
     "知识库问答"
+  ],
+  "rclone": [
+    "云盘挂载",
+    "云存储同步"
   ],
   "reactive-resume": [
     "在线简历",
@@ -796,6 +1223,9 @@
   "real-esrgan": [
     "图片超分",
     "画质修复"
+  ],
+  "refine": [
+    "react后台"
   ],
   "refined-github": [
     "github增强",
@@ -809,12 +1239,22 @@
     "代码做视频",
     "react视频"
   ],
+  "restic": [
+    "加密备份"
+  ],
   "retroarch": [
     "模拟器前端",
     "复古模拟器"
   ],
+  "revolt": [
+    "discord替代"
+  ],
   "ripgrep": [
     "代码搜索"
+  ],
+  "rocketchat": [
+    "自建im",
+    "团队聊天"
   ],
   "rsshub": [
     "rss生成",
@@ -831,6 +1271,10 @@
     "沙粒游戏",
     "流沙"
   ],
+  "scrcpy": [
+    "手机投屏",
+    "安卓投屏"
+  ],
   "screenity": [
     "浏览器录屏",
     "网页录屏"
@@ -844,11 +1288,26 @@
     "ai绘画",
     "文生图"
   ],
+  "seafile": [
+    "自建网盘",
+    "文件同步"
+  ],
+  "seal": [
+    "安卓视频下载"
+  ],
   "self-operating-computer": [
     "ai看屏幕操作电脑"
   ],
   "semantic-kernel": [
     "微软ai框架"
+  ],
+  "semgrep": [
+    "静态分析",
+    "代码扫描"
+  ],
+  "shadcn-ui": [
+    "组件库",
+    "ui组件"
   ],
   "sharex": [
     "截图工具",
@@ -863,13 +1322,30 @@
   "sherlock": [
     "用户名搜索"
   ],
+  "shizuku": [
+    "安卓权限管理"
+  ],
   "shotcut": [
     "视频剪辑软件"
+  ],
+  "simple-icons": [
+    "品牌图标"
+  ],
+  "sing-box": [
+    "代理内核"
   ],
   "singlefile": [
     "网页保存",
     "保存网页",
     "单文件保存"
+  ],
+  "sioyek": [
+    "pdf阅读器",
+    "论文阅读"
+  ],
+  "siyuan": [
+    "思源笔记",
+    "块级笔记"
   ],
   "skyvern": [
     "浏览器自动化智能体"
@@ -908,6 +1384,9 @@
   "spree": [
     "电商平台"
   ],
+  "sqlmap": [
+    "sql注入检测"
+  ],
   "squoosh": [
     "图片压缩",
     "在线压缩"
@@ -922,10 +1401,17 @@
   "stalwart": [
     "邮件服务器"
   ],
+  "starship": [
+    "命令行美化",
+    "终端提示符"
+  ],
   "stirling-pdf": [
     "pdf工具",
     "pdf编辑器",
     "pdf合并"
+  ],
+  "strapi": [
+    "无头cms"
   ],
   "strudel": [
     "在线编曲",
@@ -939,6 +1425,10 @@
     "游戏串流",
     "串流服务端"
   ],
+  "super-productivity": [
+    "番茄钟",
+    "时间管理"
+  ],
   "supertokens": [
     "登录认证"
   ],
@@ -950,13 +1440,44 @@
     "合成器",
     "音源"
   ],
+  "surveyjs": [
+    "表单引擎"
+  ],
   "swe-agent": [
     "自动修issue",
     "swe-bench"
   ],
+  "synapse": [
+    "matrix服务器"
+  ],
+  "syncthing": [
+    "文件同步",
+    "点对点同步"
+  ],
+  "system-design-primer": [
+    "系统设计面试"
+  ],
   "tab-session-manager": [
     "标签页管理",
     "会话恢复"
+  ],
+  "tabler-icons": [
+    "图标库"
+  ],
+  "tasmota": [
+    "esp固件",
+    "智能家居固件"
+  ],
+  "teable": [
+    "airtable替代",
+    "多维表格"
+  ],
+  "termux": [
+    "安卓终端",
+    "手机linux"
+  ],
+  "the-odin-project": [
+    "web开发课程"
   ],
   "the-powder-toy": [
     "粉末游戏",
@@ -983,8 +1504,21 @@
   "tolgee": [
     "多语言管理"
   ],
+  "tooljet": [
+    "低代码平台"
+  ],
+  "traefik": [
+    "反向代理"
+  ],
   "transform": [
     "格式转换"
+  ],
+  "trilium": [
+    "个人知识库"
+  ],
+  "trivy": [
+    "镜像扫描",
+    "漏洞扫描"
   ],
   "twenty": [
     "crm 系统"
@@ -992,6 +1526,10 @@
   "twikit": [
     "推特接口",
     "twitter接口"
+  ],
+  "typebot": [
+    "对话式表单",
+    "聊天机器人"
   ],
   "typesense": [
     "搜索引擎"
@@ -1018,10 +1556,21 @@
     "文明5",
     "文明"
   ],
+  "ungoogled-chromium": [
+    "去谷歌chromium"
+  ],
   "upscayl": [
     "图片放大",
     "ai放大",
     "图片变清晰"
+  ],
+  "uptime-kuma": [
+    "站点监控",
+    "服务监控"
+  ],
+  "vaultwarden": [
+    "密码管理器",
+    "bitwarden服务端"
   ],
   "veloren": [
     "体素rpg"
@@ -1034,6 +1583,10 @@
     "视频去字幕",
     "去硬字幕"
   ],
+  "vikunja": [
+    "待办事项",
+    "任务管理"
+  ],
   "violentmonkey": [
     "油猴",
     "用户脚本管理器",
@@ -1042,6 +1595,9 @@
   "vllm": [
     "推理引擎",
     "大模型部署"
+  ],
+  "vscodium": [
+    "纯净vscode"
   ],
   "watermark-js-plus": [
     "网页水印",
@@ -1068,6 +1624,10 @@
     "翻译平台",
     "本地化"
   ],
+  "wekan": [
+    "trello替代",
+    "看板"
+  ],
   "wepush": [
     "微信推送",
     "批量推送工具"
@@ -1075,6 +1635,10 @@
   "wesnoth": [
     "韦诺之战",
     "战棋"
+  ],
+  "wg-easy": [
+    "wireguard面板",
+    "vpn"
   ],
   "whisky": [
     "mac 玩windows游戏"
@@ -1086,9 +1650,23 @@
   "whisper-cpp": [
     "本地语音转文字"
   ],
+  "wikijs": [
+    "维基系统",
+    "wiki"
+  ],
   "win11debloat": [
     "win11 优化",
     "卸载预装"
+  ],
+  "wiremock": [
+    "mock服务"
+  ],
+  "wireshark": [
+    "抓包分析"
+  ],
+  "wled": [
+    "灯带控制",
+    "氛围灯"
   ],
   "yesplaymusic": [
     "网易云播放器",
@@ -1098,7 +1676,23 @@
     "视频下载",
     "youtube 下载"
   ],
+  "zellij": [
+    "tmux替代",
+    "终端复用"
+  ],
+  "zen-browser": [
+    "firefox分支"
+  ],
+  "zigbee2mqtt": [
+    "zigbee网关"
+  ],
   "zitadel": [
     "身份管理"
+  ],
+  "zmk": [
+    "无线键盘固件"
+  ],
+  "zulip": [
+    "团队聊天"
   ]
 }

@@ -2489,5 +2489,1258 @@
     "source": "README.md",
     "rawLength": 5926,
     "fetchedAt": "2026-09-23T08:42:35.282Z"
+  },
+  "build-your-own-x": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 46643,
+    "fetchedAt": "2026-09-24T01:09:37.520Z"
+  },
+  "freecodecamp": {
+    "summary": "freeCodeCamp.org is a friendly community where you can learn to code for free. It is run by a donor-supported 501(c)(3) charity to help millions of busy adults transition into tech. Our community has already helped more than 100,000 people get their first developer job.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6565,
+    "fetchedAt": "2026-09-24T01:09:37.521Z"
+  },
+  "free-programming-books": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15270,
+    "fetchedAt": "2026-09-24T01:09:37.521Z"
+  },
+  "system-design-primer": {
+    "summary": "System design is a broad topic. There are a vast number of resources scattered throughout the web on system design principles.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 109682,
+    "fetchedAt": "2026-09-24T01:09:37.521Z"
+  },
+  "developer-roadmap": {
+    "summary": "",
+    "docker": "",
+    "source": "",
+    "fetchedAt": "2026-09-24T01:09:37.521Z",
+    "missing": true
+  },
+  "coding-interview-university": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 136469,
+    "fetchedAt": "2026-09-24T01:09:37.521Z"
+  },
+  "awesome-selfhosted": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 329318,
+    "fetchedAt": "2026-09-24T01:09:38.518Z"
+  },
+  "project-based-learning": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 52340,
+    "fetchedAt": "2026-09-24T01:09:38.518Z"
+  },
+  "ossu": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 29246,
+    "fetchedAt": "2026-09-24T01:09:38.518Z"
+  },
+  "scrcpy": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8136,
+    "fetchedAt": "2026-09-24T01:09:38.518Z"
+  },
+  "shadcn-ui": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 467,
+    "fetchedAt": "2026-09-24T01:09:38.518Z"
+  },
+  "immich": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5442,
+    "fetchedAt": "2026-09-24T01:09:38.518Z"
+  },
+  "frp": {
+    "summary": "frp is an open source project with its ongoing development made possible entirely by the support of our awesome sponsors. If you'd like to join them, please consider sponsoring frp's development.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 45004,
+    "fetchedAt": "2026-09-24T01:10:00.440Z"
+  },
+  "neovim": {
+    "summary": "Neovim contributions since [b17d96][license-commit] are licensed under the Apache 2.0 license, except for contributions copied from Vim (identified by the vim-patch token). See LICENSE.txt for details.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5183,
+    "fetchedAt": "2026-09-24T01:10:00.440Z"
+  },
+  "localsend": {
+    "summary": "LocalSend is a free, open-source app that allows you to securely share files and messages with nearby devices over your local network without needing an internet connection.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14351,
+    "fetchedAt": "2026-09-24T01:10:00.440Z"
+  },
+  "uptime-kuma": {
+    "summary": "Uptime Kuma is now running on all network interfaces (e.g. http://localhost:3001 or http://your-ip:3001).",
+    "docker": "mkdir uptime-kuma\ncd uptime-kuma\ncurl -o compose.yaml https://raw.githubusercontent.com/louislam/uptime-kuma/master/compose.yaml\ndocker compose up -d",
+    "source": "README.md",
+    "rawLength": 7930,
+    "fetchedAt": "2026-09-24T01:10:00.440Z"
+  },
+  "home-assistant": {
+    "summary": "",
+    "docker": "",
+    "source": "README.rst",
+    "rawLength": 1964,
+    "fetchedAt": "2026-09-24T01:10:00.440Z"
+  },
+  "zed": {
+    "summary": "Zed source code is licensed primarily under GPL-3.0-or-later, with Apache-2.0 components where marked.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2852,
+    "fetchedAt": "2026-09-24T01:10:01.352Z"
+  },
+  "syncthing": {
+    "summary": "Syncthing should run on every common computer. We are mindful that the latest technology is not always available to every individual.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3997,
+    "fetchedAt": "2026-09-24T01:10:01.352Z"
+  },
+  "netdata": {
+    "summary": "Netdata is an open-source, real-time infrastructure monitoring platform. Monitor, detect, and act across your entire infrastructure.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 26186,
+    "fetchedAt": "2026-09-24T01:10:01.352Z"
+  },
+  "mineru": {
+    "summary": "MinerU 4.0 brings document parsing, a local document library, and service tools into one workflow for document conversion, application integration, and agent reading.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 55795,
+    "fetchedAt": "2026-09-24T01:10:01.352Z"
+  },
+  "appflowy": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8549,
+    "fetchedAt": "2026-09-24T01:10:01.352Z"
+  },
+  "grafana": {
+    "summary": "Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share dashboards with your team and foster a data-driven culture:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3114,
+    "fetchedAt": "2026-09-24T01:10:01.352Z"
+  },
+  "caddy": {
+    "summary": "Caddy is most often used as an HTTPS server, but it is suitable for any long-running Go program. First and foremost, it is a platform to run Go applications. Caddy \"apps\" are just Go programs that are implemented as Caddy modules. Two apps -- tls and http -- ship standard with Caddy.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12657,
+    "fetchedAt": "2026-09-24T01:10:02.132Z"
+  },
+  "strapi": {
+    "summary": "Strapi is an open-source, self-hosted headless CMS that lets developers build content APIs fast while giving content creators a friendly editing interface. Define your content models and Strapi generates a full API, ready to consume from any frontend, mobile app, or IoT device.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8866,
+    "fetchedAt": "2026-09-24T01:10:02.132Z"
+  },
+  "affine": {
+    "summary": "AFFiNE is an open-source, all-in-one workspace and an operating system for all the building blocks that assemble your knowledge base and much more -- wiki, knowledge management, presentation and digital assets. It's a better alternative to Notion and Miro.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16255,
+    "fetchedAt": "2026-09-24T01:10:02.132Z"
+  },
+  "vaultwarden": {
+    "summary": "",
+    "docker": "docker pull vaultwarden/server:latest\ndocker run --detach --name vaultwarden \\\n  --env DOMAIN=\"https://vw.domain.tld\" \\\n  --volume /vw-data/:/data/ \\\n  --restart unless-stopped \\\n  --publish 127.0.0.1:8000:80 \\\n  vaultwarden/server:latest",
+    "source": "README.md",
+    "rawLength": 11157,
+    "fetchedAt": "2026-09-24T01:10:02.132Z"
+  },
+  "docling": {
+    "summary": "Docling simplifies document processing by parsing diverse formats — including advanced PDF understanding — and providing seamless integrations with the generative AI ecosystem.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8473,
+    "fetchedAt": "2026-09-24T01:10:02.132Z"
+  },
+  "ladybird": {
+    "summary": "Ladybird is a truly independent web browser, using a novel engine based on web standards.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2082,
+    "fetchedAt": "2026-09-24T01:10:02.132Z"
+  },
+  "prometheus": {
+    "summary": "Prometheus, a Cloud Native Computing Foundation project, is a systems and service monitoring system. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts when specified conditions are observed.",
+    "docker": "docker run --name prometheus -d -p 127.0.0.1:9090:9090 prom/prometheus",
+    "source": "README.md",
+    "rawLength": 9689,
+    "fetchedAt": "2026-09-24T01:10:41.298Z"
+  },
+  "alacritty": {
+    "summary": "Alacritty is a modern terminal emulator that comes with sensible defaults, but allows for extensive configuration. By integrating with other applications, rather than reimplementing their functionality, it manages to provide a flexible set of features with high performance. The supported platforms c…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4365,
+    "fetchedAt": "2026-09-24T01:10:41.298Z"
+  },
+  "nocodb": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11656,
+    "fetchedAt": "2026-09-24T01:10:41.298Z"
+  },
+  "traefik": {
+    "summary": "Traefik (pronounced traffic) is a modern HTTP reverse proxy and load balancer that makes deploying microservices easy. Traefik integrates with your existing infrastructure components (Docker, Swarm mode, Kubernetes, Consul, Etcd, Rancher v2, Amazon ECS, ...) and configures itself automatically and d…",
+    "docker": "docker run -d -p 8080:8080 -p 80:80 -v $PWD/traefik.toml:/etc/traefik/traefik.toml traefik",
+    "source": "README.md",
+    "rawLength": 7865,
+    "fetchedAt": "2026-09-24T01:10:41.298Z"
+  },
+  "memos": {
+    "summary": "Memos is an open-source, self-hosted home for short-form thinking. Daily notes, links, work logs, and snippets flow into a chronological Markdown timeline—on infrastructure you control, without the overhead of an all-in-one workspace.",
+    "docker": "docker run -d \\\n  --name memos \\\n  -p 5230:5230 \\\n  -v ~/.memos:/var/opt/memos \\\n  neosmemo/memos:stable",
+    "source": "README.md",
+    "rawLength": 5318,
+    "fetchedAt": "2026-09-24T01:10:41.298Z"
+  },
+  "magisk": {
+    "summary": "",
+    "docker": "",
+    "source": "",
+    "fetchedAt": "2026-09-24T01:10:41.299Z",
+    "missing": true
+  },
+  "coolify": {
+    "summary": "Coolify is an open-source and self-hostable alternative to Heroku, Netlify, and Vercel. It helps you manage servers, applications, and databases on your own hardware. You only need an SSH connection.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14828,
+    "fetchedAt": "2026-09-24T01:10:42.214Z"
+  },
+  "ghostty": {
+    "summary": "Ghostty is a terminal emulator that differentiates itself by being fast, feature-rich, and native. While there are many excellent terminal emulators available, they all force you to choose between speed, features, or native UIs. Ghostty provides all three.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10485,
+    "fetchedAt": "2026-09-24T01:10:42.215Z"
+  },
+  "termux": {
+    "summary": "Termux can be obtained through various sources listed below for only Android >= 7 with full support for apps and packages.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 25586,
+    "fetchedAt": "2026-09-24T01:10:42.215Z"
+  },
+  "pi-hole": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9418,
+    "fetchedAt": "2026-09-24T01:10:42.215Z"
+  },
+  "starship": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16155,
+    "fetchedAt": "2026-09-24T01:10:42.215Z"
+  },
+  "rclone": {
+    "summary": "Rclone (\"rsync for cloud storage\") is a command-line program to sync files and directories to and from different cloud storage providers.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11653,
+    "fetchedAt": "2026-09-24T01:10:42.215Z"
+  },
+  "jellyfin": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13335,
+    "fetchedAt": "2026-09-24T01:10:48.635Z"
+  },
+  "joplin": {
+    "summary": "Joplin is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks. The notes are searchable, can be copied, tagged and modified either from the applications directly or from your own text editor. The notes are in Markdown format.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 62392,
+    "fetchedAt": "2026-09-24T01:10:48.635Z"
+  },
+  "dbeaver": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9538,
+    "fetchedAt": "2026-09-24T01:10:48.635Z"
+  },
+  "cal-com": {
+    "summary": "Cal.diy is the community-driven, fully open-source scheduling platform — a fork of Cal.com with all enterprise/commercial code removed.",
+    "docker": "docker pull mailhog/mailhog\n   docker run -d -p 8025:8025 -p 1025:1025 mailhog/mailhog",
+    "source": "README.md",
+    "rawLength": 36808,
+    "fetchedAt": "2026-09-24T01:10:48.635Z"
+  },
+  "bruno": {
+    "summary": "Bruno is a new and innovative API client, aimed at revolutionizing the status quo represented by Postman and similar tools out there.",
+    "docker": "# Pull from Docker Hub\ndocker pull usebruno/cli:latest\n\n# Or pull from the GitHub Container Registry\ndocker pull ghcr.io/usebruno/cli:latest\n\n# Run a collection by mounting the current directory\ndocker run -v $(pwd):/bruno usebruno/cli run",
+    "source": "readme.md",
+    "rawLength": 8279,
+    "fetchedAt": "2026-09-24T01:10:48.635Z"
+  },
+  "siyuan": {
+    "summary": "SiYuan is a privacy-first personal knowledge management system, supporting fine-grained block-level reference and Markdown WYSIWYG.",
+    "docker": "docker run -d \\\n  -v workspace_dir_host:workspace_dir_container \\\n  -p 6806:6806 \\\n  -e PUID=1001 -e PGID=1002 \\\n  b3log/siyuan \\\n  serve \\\n  --workspace=workspace_dir_container \\\n  --accessAuthCode=xxx",
+    "source": "README.md",
+    "rawLength": 30442,
+    "fetchedAt": "2026-09-24T01:10:48.635Z"
+  },
+  "pandoc": {
+    "summary": "Pandoc is a Haskell library for converting from one markup format to another, and a command-line tool that uses this library.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13596,
+    "fetchedAt": "2026-09-24T01:10:50.333Z"
+  },
+  "helix": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2697,
+    "fetchedAt": "2026-09-24T01:10:50.333Z"
+  },
+  "rocketchat": {
+    "summary": "Rocket.Chat is an open-source, secure, fully customizable communications platform developed in TypeScript for organizations with high standards of data protection.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8881,
+    "fetchedAt": "2026-09-24T01:10:50.333Z"
+  },
+  "paperless-ngx": {
+    "summary": "Paperless-ngx is a document management system that transforms your physical documents into a searchable online archive so you can keep, well, less paper.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7093,
+    "fetchedAt": "2026-09-24T01:10:50.333Z"
+  },
+  "mitmproxy": {
+    "summary": "mitmproxy is an interactive, SSL/TLS-capable intercepting proxy with a console interface for HTTP/1, HTTP/2, and WebSockets.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4015,
+    "fetchedAt": "2026-09-24T01:10:50.333Z"
+  },
+  "logseq": {
+    "summary": "Logseq provides a plugin API that enables developers to create custom plugins and extend the functionality of Logseq. The plugin API documentation is available at plugins-doc.logseq.com, where you can find everything needed to get started with plugin development.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15481,
+    "fetchedAt": "2026-09-24T01:10:50.333Z"
+  },
+  "zen-browser": {
+    "summary": "Zen is a firefox-based browser with the aim of pushing your productivity to a new level!",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2019,
+    "fetchedAt": "2026-09-24T01:10:51.089Z"
+  },
+  "headscale": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6520,
+    "fetchedAt": "2026-09-24T01:10:51.089Z"
+  },
+  "tooljet": {
+    "summary": "ToolJet is an open-source platform for building internal tools: admin panels, dashboards, and operational apps that run on your existing databases, APIs, and SaaS systems.",
+    "docker": "docker run \\\n  --name tooljet \\\n  --restart unless-stopped \\\n  -p 80:80 \\\n  --platform linux/amd64 \\\n  -v tooljet_data:/var/lib/postgresql/13/main \\\n  tooljet/try:ee-lts-latest",
+    "source": "README.md",
+    "rawLength": 9810,
+    "fetchedAt": "2026-09-24T01:10:51.089Z"
+  },
+  "appsmith": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 54343,
+    "fetchedAt": "2026-09-24T01:10:51.089Z"
+  },
+  "outline": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5843,
+    "fetchedAt": "2026-09-24T01:10:51.089Z"
+  },
+  "photoprism": {
+    "summary": "PhotoPrism® is an AI-powered, privacy-first app for browsing, organizing, and sharing photos and videos. It helps tag, search, and rediscover media without getting in your way, whether self-hosted or in the cloud.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14279,
+    "fetchedAt": "2026-09-24T01:10:51.089Z"
+  },
+  "marker": {
+    "summary": "Marker converts documents to markdown, JSON, chunks, and HTML quickly and accurately.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 35358,
+    "fetchedAt": "2026-09-24T01:10:52.250Z"
+  },
+  "newpipe": {
+    "summary": "NewPipe is Free Software: You can use, study, share, and improve it at will. Specifically you can redistribute and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13714,
+    "fetchedAt": "2026-09-24T01:10:52.250Z"
+  },
+  "drawdb": {
+    "summary": "DrawDB is a robust and user-friendly database entity relationship diagram (ERD) editor right in your browser. Build diagrams with a few clicks, export and import SQL scripts, generate migrations, customize your editor, and more without creating an account. See the full set of features on here.",
+    "docker": "docker build -t drawdb .\ndocker run -p 3000:80 drawdb",
+    "source": "README.md",
+    "rawLength": 2018,
+    "fetchedAt": "2026-09-24T01:10:52.250Z"
+  },
+  "mattermost": {
+    "summary": "Mattermost is an open core, self-hosted collaboration platform that offers chat, workflow automation, voice calling, screen sharing, and AI integration. This repo is the primary source for core development on the Mattermost platform; it's written in Go and React, runs as a single Linux binary, and r…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7423,
+    "fetchedAt": "2026-09-24T01:10:52.250Z"
+  },
+  "lapce": {
+    "summary": "Lapce (IPA: /læps/) is written in pure Rust, with a UI in Floem. It is designed with Rope Science from the Xi-Editor, enabling lightning-fast computation, and leverages wgpu for rendering. More information about the features of Lapce can be found on the main website and user documentation can be fou…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3781,
+    "fetchedAt": "2026-09-24T01:10:52.250Z"
+  },
+  "portainer": {
+    "summary": "Portainer Community Edition is a free, lightweight container management UI for Docker, Swarm, Podman, Kubernetes, and ACI environments. It is provided as-is, at no cost, for the convenience of homelab operators, hobbyists, students, and anyone experimenting with containers on their own hardware.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4087,
+    "fetchedAt": "2026-09-24T01:10:52.250Z"
+  },
+  "sqlmap": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5629,
+    "fetchedAt": "2026-09-24T01:10:57.487Z"
+  },
+  "sing-box": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1032,
+    "fetchedAt": "2026-09-24T01:10:57.487Z"
+  },
+  "trivy": {
+    "summary": "Trivy ([pronunciation][pronunciation]) is a comprehensive and versatile security scanner. Trivy has scanners that look for security issues, and targets where it can find those issues.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5588,
+    "fetchedAt": "2026-09-24T01:10:57.487Z"
+  },
+  "directus": {
+    "summary": "",
+    "docker": "",
+    "source": "readme.md",
+    "rawLength": 18,
+    "fetchedAt": "2026-09-24T01:10:57.487Z"
+  },
+  "trilium": {
+    "summary": "Trilium Notes is a free and open-source, cross-platform hierarchical note taking application with focus on building large personal knowledge bases.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16165,
+    "fetchedAt": "2026-09-24T01:10:57.487Z"
+  },
+  "dokploy": {
+    "summary": "Dokploy is a free, self-hostable Platform as a Service (PaaS) that simplifies the deployment and management of applications and databases.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2653,
+    "fetchedAt": "2026-09-24T01:10:57.487Z"
+  },
+  "adguardhome": {
+    "summary": "AdGuard Home is a network-wide software for blocking ads and tracking. After you set it up, it'll cover ALL your home devices, and you don't need any client-side software for that.",
+    "docker": "docker run --rm --privileged multiarch/qemu-user-static --reset -p yes --credential yes",
+    "source": "README.md",
+    "rawLength": 22681,
+    "fetchedAt": "2026-09-24T01:10:58.415Z"
+  },
+  "nextcloud": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6472,
+    "fetchedAt": "2026-09-24T01:10:58.415Z"
+  },
+  "restic": {
+    "summary": "restic is a backup program that is fast, efficient and secure. It supports the three major operating systems (Linux, macOS, Windows) and a few smaller ones (FreeBSD, OpenBSD).",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5670,
+    "fetchedAt": "2026-09-24T01:10:58.415Z"
+  },
+  "frigate": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3673,
+    "fetchedAt": "2026-09-24T01:10:58.415Z"
+  },
+  "filebrowser": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2618,
+    "fetchedAt": "2026-09-24T01:10:58.415Z"
+  },
+  "refine": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 23,
+    "fetchedAt": "2026-09-24T01:10:58.416Z"
+  },
+  "zellij": {
+    "summary": "Zellij is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. Similar programs are sometimes called \"Terminal Multiplexers\".",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6717,
+    "fetchedAt": "2026-09-24T01:11:13.655Z"
+  },
+  "ocrmypdf": {
+    "summary": "OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched or copy-pasted.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9893,
+    "fetchedAt": "2026-09-24T01:11:13.655Z"
+  },
+  "changedetection": {
+    "summary": "ChangeDetection.io supports a massive amount of notifications (including email, office365, custom APIs, etc) when a web-page has a change detected thanks to the apprise library. Simply set one or more notification URL's in the [edit] tab of that watch.",
+    "docker": "docker pull dgtlmoon/changedetection.io\ndocker kill $(docker ps -a -f name=changedetection.io -q)\ndocker rm $(docker ps -a -f name=changedetection.io -q)\ndocker run -d --restart always -p \"127.0.0.1:5000:5000\" -v datastore-volume:/datastore --name changedetection.io dgtlmoon/changedetection.io",
+    "source": "README.md",
+    "rawLength": 22250,
+    "fetchedAt": "2026-09-24T01:11:13.655Z"
+  },
+  "mihomo": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3626,
+    "fetchedAt": "2026-09-24T01:11:13.655Z"
+  },
+  "fish-shell": {
+    "summary": "fish is a smart and user-friendly command line shell for macOS, Linux, and the rest of the family. fish includes features like syntax highlighting, autosuggest-as-you-type, and fancy tab completions that just work, with no configuration required.",
+    "docker": "",
+    "source": "README.rst",
+    "rawLength": 9152,
+    "fetchedAt": "2026-09-24T01:11:13.655Z"
+  },
+  "nginx-proxy-manager": {
+    "summary": "",
+    "docker": "docker compose up -d",
+    "source": "README.md",
+    "rawLength": 4391,
+    "fetchedAt": "2026-09-24T01:11:13.655Z"
+  },
+  "vscodium": {
+    "summary": "VSCodium is available in the Snap Store as Codium, thanks to the help of the Snapcrafters community. If your GNU/Linux distribution has support for snaps:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11800,
+    "fetchedAt": "2026-09-24T01:11:14.538Z"
+  },
+  "k6": {
+    "summary": "k6 is a modern load-testing tool, built on our years of experience in the performance and testing industries. It's built to be powerful, extensible, and full-featured. The key design goal is to provide the best developer experience.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7308,
+    "fetchedAt": "2026-09-24T01:11:14.538Z"
+  },
+  "nuclei": {
+    "summary": "Nuclei is a modern, high-performance vulnerability scanner that leverages simple YAML-based templates. It empowers you to design custom vulnerability detection scenarios that mimic real-world conditions, leading to zero false positives.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 61305,
+    "fetchedAt": "2026-09-24T01:11:14.538Z"
+  },
+  "shizuku": {
+    "summary": "Shizuku guides users to run a process, Shizuku server, with root or ADB first. When the app starts, the binder to Shizuku server will also be sent to the app.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5244,
+    "fetchedAt": "2026-09-24T01:11:14.538Z"
+  },
+  "jitsi-meet": {
+    "summary": "Jitsi Meet is a set of Open Source projects which empower users to use and deploy video conferencing platforms with state-of-the-art video quality and features.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3599,
+    "fetchedAt": "2026-09-24T01:11:14.538Z"
+  },
+  "netbird": {
+    "summary": "NetBird combines a configuration-free peer-to-peer private network and a centralized access control system in a single platform, making it easy to create secure private networks for your organization or home.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10819,
+    "fetchedAt": "2026-09-24T01:11:14.538Z"
+  },
+  "gitleaks": {
+    "summary": "Gitleaks is a tool for detecting secrets like passwords, API keys, and tokens in git repos, files, and whatever else you wanna throw at it via stdin. If you wanna learn more about how the detection engine works check out this blog: Regex is (almost) all you need.",
+    "docker": "# MacOS\nbrew install gitleaks\n\n# Docker (DockerHub)\ndocker pull zricethezav/gitleaks:latest\ndocker run -v ${path_to_host_folder_to_scan}:/path zricethezav/gitleaks:latest [COMMAND] [OPTIONS] [SOURCE_PATH]\n\n# Docker (ghcr.io)\ndocker pull ghcr.io/gitleaks/gitleaks:latest\ndocker run -v ${path_to_host_folder_to_scan}:/path ghcr.io/gitleaks/gitleaks:latest [COMMAND] [OPTIONS] [SOURCE_PATH]\n\n# From Source (make sure `go` is installed)\ngit clone https://github.com/gitleaks/gitleaks.git\ncd gitleaks\nmake build",
+    "source": "README.md",
+    "rawLength": 27690,
+    "fetchedAt": "2026-09-24T01:11:15.242Z"
+  },
+  "infisical": {
+    "summary": "Infisical is the open source security infrastructure platform that teams use for secrets, certificates, and privileged access management.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16004,
+    "fetchedAt": "2026-09-24T01:11:15.242Z"
+  },
+  "seal": {
+    "summary": "Seal will be always free and open source for everyone. If you like it, please consider sponsoring me!",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10107,
+    "fetchedAt": "2026-09-24T01:11:15.242Z"
+  },
+  "wezterm": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1871,
+    "fetchedAt": "2026-09-24T01:11:15.242Z"
+  },
+  "wikijs": {
+    "summary": "Wiki.js is an open source project that has been made possible due to the generous contributions by community backers. If you are interested in supporting this project, please consider becoming a sponsor, becoming a patron, donating to our OpenCollective, via Paypal or via Ethereum (0xe1d55c19ae86f6b…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 29527,
+    "fetchedAt": "2026-09-24T01:11:15.242Z"
+  },
+  "budibase": {
+    "summary": "Budibase agents don’t just answer questions. They run workflows across your business - creating records, routing approvals, updating apps, and notifying teams automatically.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8395,
+    "fetchedAt": "2026-09-24T01:11:15.242Z"
+  },
+  "locust": {
+    "summary": "Locust is an open source performance/load testing tool for HTTP and other protocols. Its developer-friendly approach lets you define your tests in regular Python code.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8919,
+    "fetchedAt": "2026-09-24T01:11:15.965Z"
+  },
+  "ungoogled-chromium": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12349,
+    "fetchedAt": "2026-09-24T01:11:15.965Z"
+  },
+  "huly": {
+    "summary": "",
+    "docker": "docker --version\ndocker compose version",
+    "source": "README.md",
+    "rawLength": 13105,
+    "fetchedAt": "2026-09-24T01:11:15.965Z"
+  },
+  "lazyvim": {
+    "summary": "LazyVim is a Neovim setup powered by 💤 lazy.nvim to make it easy to customize and extend your config. Rather than having to choose between starting from scratch or using a pre-made distro, LazyVim offers the best of both worlds - the flexibility to tweak your config as needed, along with the conven…",
+    "docker": "docker run -w /root -it --rm alpine:edge sh -uelic '\n  apk add git lazygit fzf curl neovim ripgrep alpine-sdk --update\n  git clone https://github.com/LazyVim/starter ~/.config/nvim\n  cd ~/.config/nvim\n  nvim\n'",
+    "source": "README.md",
+    "rawLength": 5317,
+    "fetchedAt": "2026-09-24T01:11:15.965Z"
+  },
+  "wg-easy": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4658,
+    "fetchedAt": "2026-09-24T01:11:15.965Z"
+  },
+  "focalboard": {
+    "summary": "Focalboard is an open source, multilingual, self-hosted project management tool that's an alternative to Trello, Notion, and Asana.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6453,
+    "fetchedAt": "2026-09-24T01:11:15.965Z"
+  },
+  "zulip": {
+    "summary": "Zulip is an open-source organized team chat app with unique [topic-based threading][why-zulip] that combines the best of email and chat to make remote work productive and delightful. Fortune 500 companies, [leading open source projects][rust-case-study], and thousands of other organizations use Zuli…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4867,
+    "fetchedAt": "2026-09-24T01:11:22.286Z"
+  },
+  "simple-icons": {
+    "summary": "Icons can be downloaded as SVGs directly from simpleicons.org - simply click the download button of the icon you want, and the download will start automatically.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 22468,
+    "fetchedAt": "2026-09-24T01:11:22.286Z"
+  },
+  "beszel": {
+    "summary": "Beszel is a lightweight server monitoring platform that includes Docker statistics, historical data, and alert functions.",
+    "docker": "",
+    "source": "readme.md",
+    "rawLength": 4331,
+    "fetchedAt": "2026-09-24T01:11:22.286Z"
+  },
+  "tasmota": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12668,
+    "fetchedAt": "2026-09-24T01:11:22.286Z"
+  },
+  "lucide": {
+    "summary": "Lucide is an open-source icon library that provides 1600+ vector (svg) files for displaying icons and symbols in digital and non-digital projects. The library aims to make it easier for designers and developers to incorporate icons into their projects by providing several official packages to make i…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8355,
+    "fetchedAt": "2026-09-24T01:11:22.286Z"
+  },
+  "dockge": {
+    "summary": "\"Dockge\" is a coinage word which is created by myself. I originally hoped it sounds like Dodge, but apparently many people called it Dockage, it is also acceptable.",
+    "docker": "# Create directories that store your stacks and stores Dockge's stack\nmkdir -p /opt/stacks /opt/dockge\ncd /opt/dockge\n\n# Download the compose.yaml\ncurl https://raw.githubusercontent.com/louislam/dockge/master/compose.yaml --output compose.yaml\n\n# Start the server\ndocker compose up -d\n\n# If you are using docker-compose V1 or Podman\n# docker-compose up -d",
+    "source": "README.md",
+    "rawLength": 7915,
+    "fetchedAt": "2026-09-24T01:11:22.286Z"
+  },
+  "heroicons": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4167,
+    "fetchedAt": "2026-09-24T01:11:40.929Z"
+  },
+  "navidrome": {
+    "summary": "Navidrome is an open source web-based music collection server and streamer. It gives you freedom to listen to your music collection from any browser or mobile device. It's like your personal Spotify!",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6143,
+    "fetchedAt": "2026-09-24T01:11:40.929Z"
+  },
+  "brave-browser": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2068,
+    "fetchedAt": "2026-09-24T01:11:40.929Z"
+  },
+  "chartdb": {
+    "summary": "ChartDB is a powerful, web-based database diagramming editor. Instantly visualize your database schema with a single \"Smart Query.\" Customize diagrams, export SQL scripts, and access all features—no account required. Experience seamless database design here.",
+    "docker": "docker run -e OPENAI_API_KEY=<YOUR_OPEN_AI_KEY> -p 8080:80 ghcr.io/chartdb/chartdb:latest",
+    "source": "README.md",
+    "rawLength": 6086,
+    "fetchedAt": "2026-09-24T01:11:40.929Z"
+  },
+  "super-productivity": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 17585,
+    "fetchedAt": "2026-09-24T01:11:40.929Z"
+  },
+  "teable": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9594,
+    "fetchedAt": "2026-09-24T01:11:43.834Z"
+  },
+  "obsidian-releases": {
+    "summary": "Obsidian is not open source software and this repo DOES NOT contain the source code of Obsidian. However, if you wish to contribute to Obsidian, you can easily do so with our extensive plugin system. A plugin guide can be found here: https://docs.obsidian.md",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2877,
+    "fetchedAt": "2026-09-24T01:11:43.834Z"
+  },
+  "tabler-icons": {
+    "summary": "Tabler Icons is distributed as a set of official packages, one for each format and framework. All packages are published to npm from this repository and share the same version number. The full documentation is available at tabler.io/docs/icons.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14110,
+    "fetchedAt": "2026-09-24T01:11:43.834Z"
+  },
+  "docmost": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1931,
+    "fetchedAt": "2026-09-24T01:11:43.834Z"
+  },
+  "wekan": {
+    "summary": "WeKan ® is a completely [Open Source][opensource] and [Free software][freesoftware] collaborative kanban board application with MIT license.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8299,
+    "fetchedAt": "2026-09-24T01:11:43.834Z"
+  },
+  "qmk": {
+    "summary": "qmk.fm is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.",
+    "docker": "",
+    "source": "readme.md",
+    "rawLength": 2298,
+    "fetchedAt": "2026-09-24T01:11:43.834Z"
+  },
+  "obtainium": {
+    "summary": "Obtainium allows you to install and update apps directly from their releases pages, and receive notifications when new releases are made available.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5480,
+    "fetchedAt": "2026-09-24T01:11:49.498Z"
+  },
+  "radix-ui": {
+    "summary": "Radix Primitives is a low-level UI component library with a focus on accessibility, customization and developer experience. You can use these components either as the base layer of your design system, or adopt them incrementally.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1703,
+    "fetchedAt": "2026-09-24T01:11:49.498Z"
+  },
+  "bookstack": {
+    "summary": "BookStack is an opinionated documentation platform that provides a pleasant and simple out-of-the-box experience. New users to an instance should find the experience intuitive and only basic word-processing skills should be required to get involved in creating content on BookStack. The platform shou…",
+    "docker": "",
+    "source": "readme.md",
+    "rawLength": 15121,
+    "fetchedAt": "2026-09-24T01:11:49.498Z"
+  },
+  "wled": {
+    "summary": "",
+    "docker": "",
+    "source": "readme.md",
+    "rawLength": 7061,
+    "fetchedAt": "2026-09-24T01:11:49.498Z"
+  },
+  "calibre-web": {
+    "summary": "Calibre-Web is a web app that offers a clean and intuitive interface for browsing, reading, and downloading eBooks using a valid Calibre database.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9863,
+    "fetchedAt": "2026-09-24T01:11:49.498Z"
+  },
+  "koel": {
+    "summary": "Koel (also stylized as koel, with a lowercase k) is a free, open-source music streaming solution that turns your personal collection into a sleek, web-based listening experience.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5986,
+    "fetchedAt": "2026-09-24T01:11:49.498Z"
+  },
+  "semgrep": {
+    "summary": "Semgrep is a fast, open-source, static analysis tool that searches code, finds bugs, and enforces secure guardrails and coding standards. Semgrep supports 30+ languages and can run in an IDE, as a pre-commit check, and as part of CI/CD workflows.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20194,
+    "fetchedAt": "2026-09-24T01:12:01.052Z"
+  },
+  "orcaslicer": {
+    "summary": "OrcaSlicer: an open source Next-Gen Slicing Software for Precision 3D Prints. Optimize your prints with ultra-fast slicing, intelligent support generation, and seamless printer compatibility—engineered for perfection.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14751,
+    "fetchedAt": "2026-09-24T01:12:01.052Z"
+  },
+  "zigbee2mqtt": {
+    "summary": "Zigbee2MQTT integrates well with (almost) every home automation solution because it uses MQTT. However the following integrations are worth mentioning:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7511,
+    "fetchedAt": "2026-09-24T01:12:01.052Z"
+  },
+  "seafile": {
+    "summary": "Seafile is an open source cloud storage system with privacy protection and teamwork features. Collections of files are called libraries. Each library can be synced separately. A library can also be encrypted with a user chosen password. Seafile also allows users to create groups and easily sharing f…",
+    "docker": "",
+    "source": "README.markdown",
+    "rawLength": 4408,
+    "fetchedAt": "2026-09-24T01:12:01.052Z"
+  },
+  "caprover": {
+    "summary": "CapRover is an extremely easy to use app/database deployment & web server manager for your NodeJS, Python, PHP, ASP.NET, Ruby, MariaDB, MySQL, MongoDB, Postgres, WordPress (and etc...) applications!",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3253,
+    "fetchedAt": "2026-09-24T01:12:01.052Z"
+  },
+  "duplicati": {
+    "summary": "Duplicati is a free, open-source backup client that securely stores encrypted, incremental, and compressed backups on cloud storage services and remote file servers. It supports:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6962,
+    "fetchedAt": "2026-09-24T01:12:01.052Z"
+  },
+  "microg": {
+    "summary": "microG Services is a FLOSS (Free/Libre Open Source Software) framework to allow applications designed for Google Play Services to run on systems, where Play Services is not available.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1311,
+    "fetchedAt": "2026-09-24T01:12:04.473Z"
+  },
+  "bytebase": {
+    "summary": "Bytebase supports PostgreSQL, MySQL, SQL Server, Oracle, MongoDB, Redis, MariaDB, TiDB, Snowflake, ClickHouse, Spanner, OceanBase, and more — plus integrations spanning IaC, AI, identity providers, collaboration, ITSM, log streaming, and secret managers.",
+    "docker": "docker run --init \\\n  --name bytebase \\\n  --publish 8080:8080 \\\n  --volume ~/.bytebase/data:/var/opt/bytebase \\\n  bytebase/bytebase:latest",
+    "source": "README.md",
+    "rawLength": 5755,
+    "fetchedAt": "2026-09-24T01:12:04.473Z"
+  },
+  "audiobookshelf": {
+    "summary": "",
+    "docker": "",
+    "source": "readme.md",
+    "rawLength": 8020,
+    "fetchedAt": "2026-09-24T01:12:04.473Z"
+  },
+  "kopia": {
+    "summary": "Kopia is a fast and secure open-source backup/restore tool that allows you to create encrypted snapshots of your data and save the snapshots to remote or cloud storage of your choice, to network-attached storage or server, or locally on your machine. Kopia does not 'image' your whole machine. Rather…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6334,
+    "fetchedAt": "2026-09-24T01:12:04.473Z"
+  },
+  "nmap": {
+    "summary": "Nmap is released under a custom license, which is based on (but not compatible with) GPLv2. The Nmap license allows free usage by end users, and we also offer a commercial license for companies that wish to redistribute Nmap technology with their products. See Nmap Copyright and Licensing for full d…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1706,
+    "fetchedAt": "2026-09-24T01:12:04.473Z"
+  },
+  "element": {
+    "summary": "Element (formerly known as Vector and Riot) is a Matrix web & desktop client built using the Matrix JS SDK.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6292,
+    "fetchedAt": "2026-09-24T01:12:04.473Z"
+  },
+  "mealie": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6139,
+    "fetchedAt": "2026-09-24T01:12:17.028Z"
+  },
+  "firefox": {
+    "summary": "Firefox is a fast, reliable and private web browser from the non-profit Mozilla organization.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1054,
+    "fetchedAt": "2026-09-24T01:12:17.028Z"
+  },
+  "the-odin-project": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2006,
+    "fetchedAt": "2026-09-24T01:12:17.028Z"
+  },
+  "formbricks": {
+    "summary": "Formbricks provides a free and open source surveying platform. Gather feedback at every point in the user journey with beautiful in-app, website, link and email surveys. Build on top of Formbricks or leverage prebuilt data analysis capabilities.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10137,
+    "fetchedAt": "2026-09-24T01:12:17.028Z"
+  },
+  "libretube": {
+    "summary": "LibreTube's main difference to NewPipe is that it has a much stronger focus on user experience. LibreTube uses the modern Material 3 Expressive design, supports external APIs such as SponsorBlock, ReturnYouTubeDislike, or DeArrow, and allows you to synchronize your user data across devices, e.g. via…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8954,
+    "fetchedAt": "2026-09-24T01:12:17.028Z"
+  },
+  "planka": {
+    "summary": "PLANKA is easy to install using multiple methods - learn more in the installation guide.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6479,
+    "fetchedAt": "2026-09-24T01:12:17.936Z"
+  },
+  "gatus": {
+    "summary": "Gatus, on the other hand, allows you to configure health checks for each of your features, which in turn allows it to monitor these features and potentially alert you before any clients are impacted.",
+    "docker": "docker run -p 8080:8080 --name gatus ghcr.io/twin/gatus:stable",
+    "source": "README.md",
+    "rawLength": 214936,
+    "fetchedAt": "2026-09-24T01:12:17.936Z"
+  },
+  "klipper": {
+    "summary": "Klipper software is Free Software. See the license or read the documentation. We depend on the generous support from our sponsors.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 716,
+    "fetchedAt": "2026-09-24T01:12:17.936Z"
+  },
+  "kavita": {
+    "summary": "Kavita is a fast, feature rich, cross-platform reading server. Built with a focus for being a full solution for all your reading needs. Set up your own server and share your reading collection with your friends and family!",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7206,
+    "fetchedAt": "2026-09-24T01:12:17.936Z"
+  },
+  "esphome": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 933,
+    "fetchedAt": "2026-09-24T01:12:17.936Z"
+  },
+  "typebot": {
+    "summary": "Typebot makes it easy to create advanced chatbots. It provides the building blocks that are adaptable to any business use case. I improve Typebot regularly with bug fixes, new features, and performance improvements.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5067,
+    "fetchedAt": "2026-09-24T01:12:17.936Z"
+  },
+  "wireshark": {
+    "summary": "Wireshark can read packets from a number of different file types. See the Wireshark man page or the Wireshark User's Guide for a list of supported file formats.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10429,
+    "fetchedAt": "2026-09-24T01:12:18.751Z"
+  },
+  "sioyek": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8400,
+    "fetchedAt": "2026-09-24T01:12:18.751Z"
+  },
+  "kanboard": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1809,
+    "fetchedAt": "2026-09-24T01:12:18.751Z"
+  },
+  "grocy": {
+    "summary": "Grocy is fully localizable - the default language is English (integrated into code), a German localization is always maintained by me.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12036,
+    "fetchedAt": "2026-09-24T01:12:18.751Z"
+  },
+  "prusaslicer": {
+    "summary": "PrusaSlicer is originally based on Slic3r by Alessandro Ranellucci and the RepRap community.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4050,
+    "fetchedAt": "2026-09-24T01:12:18.751Z"
+  },
+  "octoprint": {
+    "summary": "OctoPrint provides a snappy web interface for controlling consumer 3D printers. It is Free Software and released under the GNU Affero General Public License V3[^1].",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6721,
+    "fetchedAt": "2026-09-24T01:12:18.751Z"
+  },
+  "heyform": {
+    "summary": "HeyForm simplifies the creation of conversational forms, making it accessible for anyone to gather information or feedback through engaging surveys, quizzes, and polls. We are committed to enhancing HeyForm with regular updates, including bug fixes, new features, and performance improvements.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5299,
+    "fetchedAt": "2026-09-24T01:12:19.719Z"
+  },
+  "anytype": {
+    "summary": "Anytype is a personal knowledge base—your digital brain—that lets you gather, connect and remix all kinds of information. Create pages, tasks, wikis, journals—even entire apps—and define your own data model while your data stays offline‑first, private and encrypted across devices.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8658,
+    "fetchedAt": "2026-09-24T01:12:19.719Z"
+  },
+  "mockoon": {
+    "summary": "Mockoon is the easiest and quickest way to design and run mock APIs. No remote deployment, no account required, free and open-source.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9331,
+    "fetchedAt": "2026-09-24T01:12:19.719Z"
+  },
+  "floorp": {
+    "summary": "Floorp Browser is a free and open-source project. If you like Floorp Browser, please consider sponsoring us. Your sponsorship will help us to continue development and pay for the server costs. You may advertise if you continuously sponsor a minimum of $100 per month.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9932,
+    "fetchedAt": "2026-09-24T01:12:19.719Z"
+  },
+  "meshtastic": {
+    "summary": "Meshtastic enables text messaging, location sharing, and telemetry over a decentralized mesh network, making it ideal for outdoor adventures, emergency preparedness, and remote operations.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2319,
+    "fetchedAt": "2026-09-24T01:12:19.719Z"
+  },
+  "mumble": {
+    "summary": "Mumble is an Open Source, low-latency and high-quality voice-chat program written on top of Qt and Opus.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6719,
+    "fetchedAt": "2026-09-24T01:12:19.719Z"
+  },
+  "librephotos": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6381,
+    "fetchedAt": "2026-09-24T01:12:20.450Z"
+  },
+  "exercism": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1061,
+    "fetchedAt": "2026-09-24T01:12:20.450Z"
+  },
+  "hedgedoc": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4561,
+    "fetchedAt": "2026-09-24T01:12:20.450Z"
+  },
+  "wiremock": {
+    "summary": "WireMock is the popular open source tool for API mocking, with over 6 million downloads per month, and powers WireMock Cloud.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5186,
+    "fetchedAt": "2026-09-24T01:12:20.450Z"
+  },
+  "rowy": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5448,
+    "fetchedAt": "2026-09-24T01:12:20.450Z"
+  },
+  "komga": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3059,
+    "fetchedAt": "2026-09-24T01:12:20.450Z"
+  },
+  "iconify": {
+    "summary": "Iconify API provides data for over 200,000 open source icons! API is hosted on publicly available servers, spread out geographically to make sure visitors from all over the world have the fastest possible connection with redundancies in place to make sure it is always online.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11550,
+    "fetchedAt": "2026-09-24T01:12:21.211Z"
+  },
+  "fontsource": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3606,
+    "fetchedAt": "2026-09-24T01:12:21.211Z"
+  },
+  "baserow": {
+    "summary": "Baserow has moved from GitLab to GitHub. All issues have been successfully migrated, but merged and closed merge requests (PRs) were not imported. You can still browse the old repository and its history at: https://gitlab.com/baserow/baserow.",
+    "docker": "docker run -v baserow_data:/baserow/data -p 80:80 -p 443:443 baserow/baserow:2.3.4",
+    "source": "README.md",
+    "rawLength": 5438,
+    "fetchedAt": "2026-09-24T01:12:21.211Z"
+  },
+  "pdfarranger": {
+    "summary": "PDF Arranger is a small python-gtk application, which helps the user to merge or split PDF documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface. It is a front end for pikepdf.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6099,
+    "fetchedAt": "2026-09-24T01:12:21.211Z"
+  },
+  "open-color": {
+    "summary": "Open color is an open-source color scheme optimized for UI like font, background, border, etc.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2635,
+    "fetchedAt": "2026-09-24T01:12:21.211Z"
+  },
+  "vikunja": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3136,
+    "fetchedAt": "2026-09-24T01:12:21.211Z"
+  },
+  "surveyjs": {
+    "summary": "SurveyJS Form Library is a free and open-source JavaScript form library for rendering dynamic, JSON-based forms and surveys in React, Angular, Vue, and plain JavaScript applications. It collects responses in the browser and lets you send submitted data to any backend or database.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9607,
+    "fetchedAt": "2026-09-24T01:12:34.676Z"
+  },
+  "synapse": {
+    "summary": "Synapse is an open source Matrix homeserver implementation, written and maintained by Element . Matrix is the open standard for secure and interoperable real-time communications. You can directly run and manage the source code in this repository, available under an AGPL license (or alternatively und…",
+    "docker": "",
+    "source": "README.rst",
+    "rawLength": 6666,
+    "fetchedAt": "2026-09-24T01:12:34.676Z"
+  },
+  "zmk": {
+    "summary": "ZMK Firmware is an open source (MIT) keyboard firmware built on the Zephyr™ Project Real Time Operating System (RTOS). ZMK's goal is to provide a modern, wireless, and powerful firmware free of licensing issues.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1176,
+    "fetchedAt": "2026-09-24T01:12:34.676Z"
+  },
+  "kde-connect": {
+    "summary": "KDE Connect is a multi-platform app that allows your devices to communicate (eg: your phone and your computer).",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5647,
+    "fetchedAt": "2026-09-24T01:12:34.676Z"
+  },
+  "pgadmin": {
+    "summary": "pgAdmin 4 is a rewrite of the popular pgAdmin3 management tool for the PostgreSQL (http://www.postgresql.org) database.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8403,
+    "fetchedAt": "2026-09-24T01:12:34.676Z"
+  },
+  "opnform": {
+    "summary": "OpnForm's remote MCP server lets AI agents create and preview a private form draft without requiring a login. OAuth adds workspace-aware form management and read-only submission search, statistics, and exports. The installable portable and native plugin package lives in plugins/opnform/. See the MCP…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6700,
+    "fetchedAt": "2026-09-24T01:12:34.676Z"
+  },
+  "fdroid": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3098,
+    "fetchedAt": "2026-09-24T01:12:47.985Z"
+  },
+  "revolt": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 251,
+    "fetchedAt": "2026-09-24T01:12:47.985Z"
   }
 }

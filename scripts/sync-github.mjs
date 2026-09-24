@@ -122,7 +122,7 @@ const outItems = items.map((it) => {
     // 本轮失败 -> 沿用上次结果，并保留上次的 syncOk（不要假装也是失败）
     return { ...base,
       homepage: resolveHome(it, p.homepage),
-      stars: p.stars != null ? p.stars : it.seed.stars,
+      stars: p.stars > 0 ? p.stars : it.seed.stars,
       language: p.language || it.seed.language,
       license: p.license || it.seed.license,
       archived: typeof it.archived === "boolean" ? it.archived : !!p.archived,
@@ -137,7 +137,7 @@ const outItems = items.map((it) => {
   skippedN++;
   return { ...base,
     homepage: resolveHome(it, p.homepage),
-    stars: p.stars != null ? p.stars : it.seed.stars,
+    stars: p.stars > 0 ? p.stars : it.seed.stars,
     language: p.language || it.seed.language,
     license: p.license || it.seed.license,
     archived: typeof it.archived === "boolean" ? it.archived : !!p.archived,

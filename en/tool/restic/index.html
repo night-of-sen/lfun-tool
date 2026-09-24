@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Restic · File sync &amp; storage · Open Source Toolkit</title>
+<meta name="description" content="Fast, secure, efficient backup program ⭐ 36.2k · Go · BSD-2-Clause">
+<meta name="theme-color" content="#2563eb">
+<link rel="canonical" href="https://tools.lfun.cloud/en/tool/restic/">
+<link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/tool/restic/">
+<link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/en/tool/restic/">
+<link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/restic/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Restic · File sync &amp; storage · Open Source Toolkit">
+<meta property="og:description" content="Fast, secure, efficient backup program ⭐ 36.2k · Go · BSD-2-Clause">
+<meta property="og:url" content="https://tools.lfun.cloud/en/tool/restic/">
+<meta property="og:image" content="https://tools.lfun.cloud/og.png">
+<meta property="og:site_name" content="Open Source Toolkit">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Restic","description":"Fast, secure, efficient backup program","url":"https://tools.lfun.cloud/en/tool/restic/","inLanguage":"en","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","codeRepository":"https://github.com/restic/restic","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"restic"},"keywords":"Backup, Encryption, Command line"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"All tools","item":"https://tools.lfun.cloud/en/"},{"@type":"ListItem","position":2,"name":"File sync & storage","item":"https://tools.lfun.cloud/en/category/storage/"},{"@type":"ListItem","position":3,"name":"Restic","item":"https://tools.lfun.cloud/en/tool/restic/"}]}</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧰</text></svg>">
+<link rel="stylesheet" href="/styles.css?v=b0fafb04">
+<script>window.__LANG__="en";window.__I18N__={"htmlLang":"en","siteName":"Open Source Toolkit","brandSub":"Know <strong>how to use it<\/strong> before you click: online, self-hosted, desktop, CLI","homeTitle":"Open Source Toolkit · {n} curated GitHub projects","homeDesc":"{n} curated open-source GitHub projects with clear notes on how to use them: online, self-hosted, desktop app or CLI. Includes a Going-Global section: localization, compliance, payments, email and support.","searchPlaceholder":"Search name, purpose, tag…  press / to focus","scenes":{"all":"All","general":"General","overseas":"🌏 Going global"},"usages":{"online":"🌐 Online","desktop":"💻 Desktop","cli":"⌨️ CLI","selfhost":"🐳 Self-hosted","lib":"📦 Library","list":"📚 Lists","extension":"🧩 Extensions","mobile":"📱 Mobile app"},"categories":{"watermark":"Watermarks","video":"Video production","social":"Social media","ai":"AI tools","diagram":"Whiteboards & diagrams","image":"Image & graphics","doc":"Documents & PDF","dev":"Developer tools","design":"Design","utility":"Utilities","fun":"Fun","system":"System tweaks","download":"Downloaders","capture":"Screenshot & recording","media":"Music & media","writing":"Writing & notes","filesearch":"Search & files","security":"Security & privacy","analytics":"Analytics","experiment":"A/B testing & flags","i18n":"Localization","payment":"Payments & billing","commerce":"E-commerce","email":"Email & marketing","notify":"Notifications & SMS","support":"Customer support","crm":"CRM & sales","auth":"Auth & identity","compliance":"Compliance & e-signing","sitesearch":"Site search","finance":"Finance & invoicing","promo":"Growth & SEO","agent":"AI agents","game":"Games","storage":"File sync & storage","notes":"Notes & knowledge base","mediaserver":"Media servers","monitor":"Monitoring & ops","network":"Networking & proxy","learn":"Learning resources","mobile":"Mobile","iot":"Hardware & IoT","editor":"Editors & terminals","lowcode":"Low-code & internal tools","project":"Project & task management","team":"Team communication","form":"Forms & surveys","database":"Databases & API tools","browser":"Browsers"},"allCategories":"All categories","allUsage":"All","sortStars":"By stars","sortName":"By name","sortUpdated":"By last update","btnOnline":"Open online","btnDeploy":"Deploy","btnDownload":"Download","btnDocs":"Docs","btnAddon":"Get the add-on","btnRepo":"Repository","btnNoOnline":"No online version","archived":"Archived","cautions":{"隐私":"Privacy","版权":"Copyright","系统修改":"System changes","许可":"License unclear"},"countTemplate":"Showing {n} of {total} tools","emptyFav":"No favourites yet","emptyMatch":"No matching tools","clearFilters":"Clear filters","favTitle":"Save","themeTitle":"Toggle theme","favOnly":"Favourites only","backToAll":"All tools","related":"Similar tools","detailTitle":"Details","specStars":"Stars","specLang":"Language","specLicense":"License","specUpdated":"Last updated","specCategory":"Category","specScene":"Section","noLicense":"Not specified","footerNote":"Star counts change over time; synced weekly by GitHub Actions.","langSwitch":"中文","langSwitchHref":"/","categoriesHeading":"All categories","catPageSub":"{n} curated open-source projects","catPageLink":"Browse categories","readmeHeading":"From the README","aboutLabel":"About","disclaimerLabel":"Disclaimer","onlineHeading":"Online tools","onlineSub":"Small tools that run right here in your browser. Nothing is uploaded.","privacyNote":"🔒 Everything runs locally in your browser. Files and content are never uploaded.","aboutThisTool":"About this tool","sideScene":"Section","sideUsage":"How to use","sideCategory":"Category","sideSort":"Sort","menuToggle":"Filter menu","filterHint":"Filters"};</script>
+</head>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="/en/">
+      <span class="brand-mark">🧰</span>
+      <div>
+        <span class="brand-name">Open Source Toolkit</span>
+        <p class="brand-sub">Know <strong>how to use it</strong> before you click: online, self-hosted, desktop, CLI</p>
+      </div>
+    </a>
+    <div class="topbar-actions">
+
+      <a class="btn-ghost" href="/">中文</a>
+      <button id="theme-toggle" class="btn-ghost" title="Toggle theme">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs">
+    <a href="/en/">All tools</a>
+    <span>/</span><a href="/en/category/storage/">File sync &amp; storage</a>
+    <span>/</span><strong>Restic</strong>
+  </nav>
+  <article class="detail">
+    <header class="detail-head">
+      <img class="icon icon-lg" src="https://github.com/restic.png?size=160" alt="" data-initial="R" onerror="iconFail(this)">
+      <div>
+        <h1 class="detail-name">Restic</h1>
+        <div class="card-repo">restic/restic</div>
+      </div>
+      <button class="fav fav-lg" data-fav="restic" title="Save">☆</button>
+    </header>
+    <div class="tier-banner tier-install">
+      <strong>Download &amp; install</strong>
+      <span>Download and install locally. No server needed.</span>
+    </div>
+    <p class="detail-desc">Fast, secure, efficient backup program</p>
+    <div class="tags"><span class="tag">Backup</span><span class="tag">Encryption</span><span class="tag">Command line</span></div>
+    <figure class="repo-card-wrap"><img class="repo-card" src="https://s0.wp.com/mshots/v1/https%3A%2F%2Frestic.net?w=1200" alt="Restic website screenshot" width="1200" height="675" loading="lazy" referrerpolicy="no-referrer"></figure>
+
+    <div class="readme"><h2>From the README</h2><p>restic is a backup program that is fast, efficient and secure. It supports the three major operating systems (Linux, macOS, Windows) and a few smaller ones (FreeBSD, OpenBSD).</p></div>
+    <dl class="specs">
+    <div class="spec"><dt>Stars</dt><dd>★ 36.2k</dd></div>
+    <div class="spec"><dt>Language</dt><dd>Go</dd></div>
+    <div class="spec"><dt>License</dt><dd>BSD-2-Clause</dd></div>
+    <div class="spec"><dt>Last updated</dt><dd>2026-09-20</dd></div>
+    <div class="spec"><dt>Category</dt><dd>File sync &amp; storage</dd></div>
+    <div class="spec"><dt>Section</dt><dd>General</dd></div>
+    </dl>
+    <div class="detail-actions">
+      <a class="btn-primary btn-lg" href="https://github.com/restic/restic/releases" target="_blank" rel="noopener">Download</a>
+      <a class="btn-secondary btn-lg" href="https://github.com/restic/restic" target="_blank" rel="noopener">Repository</a>
+    </div>
+  </article>
+  <section class="related">
+    <h2>Similar tools</h2>
+    <div class="grid">
+<article class="card" data-id="immich" data-scene="general"
+  data-usage="selfhost" data-category="storage"
+  data-stars="114843" data-name="Immich"
+  data-updated="2026-09-23" data-search="immich immich-app/immich 自建版 google photos，手机自动备份、人脸识别、地图相册 high performance self-hosted photo and video management solution. typescript 照片管理 同步 可自托管 photo management sync self-hostable 谷歌相册替代 相册备份 照片备份">
+  <button class="fav" data-fav="immich" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/immich-app.png?size=96" alt="" loading="lazy"
+         data-initial="I" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/immich/">Immich</a></h3>
+      <div class="card-repo">immich-app/immich</div>
+      <div class="tier tier-setup">Needs setup</div>
+    </div>
+  </div>
+  <p class="card-desc">High performance self-hosted photo and video management solution.</p>
+  <div class="tags"><span class="tag">Photo management</span><span class="tag">Sync</span><span class="tag">Self-hostable</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">114.8k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3178c6"></i>TypeScript</span>
+    <span class="actions"><a class="btn-primary" href="https://immich.app" target="_blank" rel="noopener">Deploy</a><a class="btn-secondary" href="https://github.com/immich-app/immich" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="localsend" data-scene="general"
+  data-usage="desktop" data-category="storage"
+  data-stars="92557" data-name="LocalSend"
+  data-updated="2026-09-24" data-search="localsend localsend/localsend 跨平台局域网传文件，替代 airdrop，手机电脑互通 an open-source cross-platform alternative to airdrop dart 文件传输 离线 file transfer offline 局域网传文件 隔空投送替代">
+  <button class="fav" data-fav="localsend" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/localsend.png?size=96" alt="" loading="lazy"
+         data-initial="L" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/localsend/">LocalSend</a></h3>
+      <div class="card-repo">localsend/localsend</div>
+      <div class="tier tier-install">Download &amp; install</div>
+    </div>
+  </div>
+  <p class="card-desc">An open-source cross-platform alternative to AirDrop</p>
+  <div class="tags"><span class="tag">File transfer</span><span class="tag">Offline</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">92.6k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#00B4AB"></i>Dart</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/localsend/localsend/releases" target="_blank" rel="noopener">Download</a><a class="btn-secondary" href="https://github.com/localsend/localsend" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="syncthing" data-scene="general"
+  data-usage="desktop selfhost" data-category="storage"
+  data-stars="88875" data-name="Syncthing"
+  data-updated="2026-09-23" data-search="syncthing syncthing/syncthing 点对点文件同步，不经过任何中心服务器，两端直连 open source continuous file synchronization go 同步 隐私 可自托管 sync privacy self-hostable 文件同步 点对点同步">
+  <button class="fav" data-fav="syncthing" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/syncthing.png?size=96" alt="" loading="lazy"
+         data-initial="S" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/syncthing/">Syncthing</a></h3>
+      <div class="card-repo">syncthing/syncthing</div>
+      <div class="tier tier-install">Download &amp; install</div>
+    </div>
+  </div>
+  <p class="card-desc">Open Source Continuous File Synchronization</p>
+  <div class="tags"><span class="tag">Sync</span><span class="tag">Privacy</span><span class="tag">Self-hostable</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">88.9k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#00ADD8"></i>Go</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/syncthing/syncthing/releases" target="_blank" rel="noopener">Download</a><a class="btn-secondary" href="https://github.com/syncthing/syncthing" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="rclone" data-scene="general"
+  data-usage="cli" data-category="storage"
+  data-stars="59916" data-name="rclone"
+  data-updated="2026-09-23" data-search="rclone rclone/rclone 命令行操作几十种云存储，同步、挂载、迁移全靠它 &quot;rsync for cloud storage&quot; - google drive, s3, dropbox, backblaze b2, one drive, swift, hubic, wasabi, google cloud storage, azure blob, azure files, yandex files go 同步 命令行 云存储 sync command line cloud storage 云盘挂载 云存储同步">
+  <button class="fav" data-fav="rclone" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/rclone.png?size=96" alt="" loading="lazy"
+         data-initial="r" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/rclone/">rclone</a></h3>
+      <div class="card-repo">rclone/rclone</div>
+      <div class="tier tier-install">Download &amp; install</div>
+    </div>
+  </div>
+  <p class="card-desc">&quot;rsync for cloud storage&quot; - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files</p>
+  <div class="tags"><span class="tag">Sync</span><span class="tag">Command line</span><span class="tag">Cloud storage</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">59.9k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#00ADD8"></i>Go</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/rclone/rclone/releases" target="_blank" rel="noopener">Download</a><a class="btn-secondary" href="https://github.com/rclone/rclone" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="paperless-ngx" data-scene="general"
+  data-usage="selfhost" data-category="storage"
+  data-stars="45954" data-name="Paperless-ngx"
+  data-updated="2026-09-24" data-search="paperless-ngx paperless-ngx/paperless-ngx 把纸质文件扫进来做 ocr 归档，之后按内容全文搜索 a community-supported supercharged document management system: scan, index and archive all your documents python 文档管理 ocr 可自托管 document management ocr self-hostable 纸质文档归档 发票管理">
+  <button class="fav" data-fav="paperless-ngx" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/paperless-ngx.png?size=96" alt="" loading="lazy"
+         data-initial="P" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/paperless-ngx/">Paperless-ngx</a></h3>
+      <div class="card-repo">paperless-ngx/paperless-ngx</div>
+      <div class="tier tier-setup">Needs setup</div>
+    </div>
+  </div>
+  <p class="card-desc">A community-supported supercharged document management system: scan, index and archive all your documents</p>
+  <div class="tags"><span class="tag">Document management</span><span class="tag">OCR</span><span class="tag">Self-hostable</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">46.0k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3572A5"></i>Python</span>
+    <span class="actions"><a class="btn-primary" href="https://docs.paperless-ngx.com" target="_blank" rel="noopener">Deploy</a><a class="btn-secondary" href="https://github.com/paperless-ngx/paperless-ngx" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="nextcloud" data-scene="general"
+  data-usage="selfhost" data-category="storage"
+  data-stars="36893" data-name="Nextcloud"
+  data-updated="2026-09-24" data-search="nextcloud nextcloud/server 自建网盘加协作平台，文件同步、日历、在线文档、视频通话都在里面 ☁️ nextcloud server, a safe home for all your data php 网盘 同步 协作 可自托管 cloud drive sync collaboration self-hostable 私有云盘 自建网盘">
+  <button class="fav" data-fav="nextcloud" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/nextcloud.png?size=96" alt="" loading="lazy"
+         data-initial="N" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/nextcloud/">Nextcloud</a></h3>
+      <div class="card-repo">nextcloud/server</div>
+      <div class="tier tier-setup">Needs setup</div>
+    </div>
+  </div>
+  <p class="card-desc">☁️ Nextcloud server, a safe home for all your data</p>
+  <div class="tags"><span class="tag">Cloud drive</span><span class="tag">Sync</span><span class="tag">Collaboration</span><span class="tag">Self-hostable</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">36.9k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#4F5D95"></i>PHP</span>
+    <span class="actions"><a class="btn-primary" href="https://nextcloud.com" target="_blank" rel="noopener">Deploy</a><a class="btn-secondary" href="https://github.com/nextcloud/server" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+    </div>
+  </section>
+  <p class="back-link"><a href="/en/">← All tools</a></p>
+</main>
+
+<footer class="footer wrap">
+  <p>Open Source Toolkit · Star counts change over time; synced weekly by GitHub Actions.</p>
+  <p class="footer-links"><a href="/en/online/">Online tools</a><a href="/en/categories/">All categories</a><a href="/en/about/">About</a><a href="/en/disclaimer/">Disclaimer</a><a href="/">中文</a></p>
+</footer>
+<script src="/app.js?v=b0fafb04"></script>
+</body>
+</html>

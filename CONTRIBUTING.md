@@ -65,6 +65,8 @@
 
 通用工具：`diagram` `image` `doc` `dev` `design` `utility` `fun` `system` `download` `capture` `media` `writing` `filesearch` `security` `watermark` `video` `social` `ai` `agent` `game`
 
+新增（第二批）：`storage` `notes` `mediaserver` `monitor` `network` `learn` `mobile` `iot` `editor` `lowcode` `project` `team` `form` `database` `browser`
+
 出海辅助：`analytics` `experiment` `i18n` `payment` `commerce` `email` `notify` `support` `crm` `auth` `compliance` `sitesearch` `finance` `promo`
 
 **第二步：如果有中文俗称，同步加别名**

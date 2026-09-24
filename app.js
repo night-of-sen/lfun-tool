@@ -4,7 +4,7 @@
 
   var L = window.__I18N__ || {};
   var LANG = window.__LANG__ || "zh";
-  var USAGE_ORDER = ["online", "selfhost", "desktop", "extension", "cli", "lib", "list"];
+  var USAGE_ORDER = ["online", "selfhost", "desktop", "extension", "mobile", "cli", "lib", "list"];
   var CATEGORY_ORDER = Object.keys(L.categories || {});
   var FAV_KEY = "gh-tools:favs";
   var THEME_KEY = "gh-tools:theme";

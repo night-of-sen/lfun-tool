@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ChartDB · 数据库与 API · 开源工具集</title>
+<meta name="description" content="贴一条建表语句就自动画出 ER 图，不用连数据库 ⭐ 22.9k · TypeScript · AGPL-3.0">
+<meta name="theme-color" content="#2563eb">
+<link rel="canonical" href="https://tools.lfun.cloud/tool/chartdb/">
+<link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/tool/chartdb/">
+<link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/en/tool/chartdb/">
+<link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/chartdb/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ChartDB · 数据库与 API · 开源工具集">
+<meta property="og:description" content="贴一条建表语句就自动画出 ER 图，不用连数据库 ⭐ 22.9k · TypeScript · AGPL-3.0">
+<meta property="og:url" content="https://tools.lfun.cloud/tool/chartdb/">
+<meta property="og:image" content="https://tools.lfun.cloud/og.png">
+<meta property="og:site_name" content="开源工具集">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"ChartDB","description":"贴一条建表语句就自动画出 ER 图，不用连数据库","url":"https://tools.lfun.cloud/tool/chartdb/","inLanguage":"zh-CN","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","codeRepository":"https://github.com/chartdb/chartdb","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"chartdb"},"keywords":"数据库, 可视化, 在线即用"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"全部工具","item":"https://tools.lfun.cloud/"},{"@type":"ListItem","position":2,"name":"数据库与 API","item":"https://tools.lfun.cloud/category/database/"},{"@type":"ListItem","position":3,"name":"ChartDB","item":"https://tools.lfun.cloud/tool/chartdb/"}]}</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧰</text></svg>">
+<link rel="stylesheet" href="/styles.css?v=b0fafb04">
+<script>window.__LANG__="zh";window.__I18N__={"htmlLang":"zh-CN","siteName":"开源工具集","brandSub":"标注清楚<strong>怎么用<\/strong>：在线即用 / 可自托管 / 桌面应用 / 命令行","homeTitle":"开源工具集 · {n} 个精选 GitHub 开源项目","homeDesc":"{n} 个精选 GitHub 开源项目，标注清楚怎么用：在线即用、可自托管、桌面应用、命令行。含出海辅助专题：多语言、合规、支付、邮件、客服。","searchPlaceholder":"搜索工具名、用途、标签…  按 / 聚焦","scenes":{"all":"全部","general":"通用工具","overseas":"🌏 出海辅助"},"usages":{"online":"🌐 在线即用","desktop":"💻 桌面应用","cli":"⌨️ 命令行","selfhost":"🐳 可自托管","lib":"📦 开发库","list":"📚 清单资源","extension":"🧩 扩展插件","mobile":"📱 移动应用"},"categories":{"watermark":"水印处理","video":"视频制作","social":"社媒运营","ai":"AI 工具","diagram":"白板绘图","image":"图片图形","doc":"文档 PDF","dev":"开发工具","design":"设计","utility":"效率工具","fun":"有趣好玩","system":"系统增强","download":"下载工具","capture":"截图录屏","media":"音乐媒体","writing":"写作笔记","filesearch":"搜索与文件","security":"安全隐私","analytics":"数据分析","experiment":"A/B 实验","i18n":"多语言本地化","payment":"支付计费","commerce":"电商建站","email":"邮件触达","notify":"通知短信","support":"客服工单","crm":"CRM 销售","auth":"认证授权","compliance":"合规签署","sitesearch":"站内搜索","finance":"财务发票","promo":"推广获客","agent":"AI 智能体","game":"游戏","storage":"存储与同步","notes":"笔记与知识库","mediaserver":"媒体服务器","monitor":"监控与运维","network":"网络与代理","learn":"学习资源","mobile":"移动端","iot":"硬件与物联网","editor":"编辑器与终端","lowcode":"低代码与内部工具","project":"项目与任务管理","team":"团队沟通","form":"表单与问卷","database":"数据库与 API","browser":"浏览器"},"allCategories":"全部分类","allUsage":"全部","sortStars":"按星数排序","sortName":"按名称排序","sortUpdated":"按最近更新","btnOnline":"在线使用","btnDeploy":"部署","btnDownload":"下载","btnDocs":"文档","btnAddon":"获取扩展","btnRepo":"仓库","btnNoOnline":"暂无在线版","archived":"已归档","cautions":{"隐私":"隐私","版权":"版权","系统修改":"系统修改","许可":"许可待确认"},"countTemplate":"显示 {n} / {total} 个工具","emptyFav":"还没有收藏任何工具","emptyMatch":"没有匹配的工具","clearFilters":"清除筛选条件","favTitle":"收藏","themeTitle":"切换主题","favOnly":"只看收藏","backToAll":"全部工具","related":"同类工具","detailTitle":"详情","specStars":"星数","specLang":"语言","specLicense":"许可证","specUpdated":"最近更新","specCategory":"分类","specScene":"场景","noLicense":"未标注","footerNote":"星数会持续变化，由 GitHub Actions 每周自动同步。","langSwitch":"English","langSwitchHref":"/en/","categoriesHeading":"分类总览","catPageSub":"共 {n} 个精选开源项目","catPageLink":"查看分类","readmeHeading":"项目简介（摘自 README）","aboutLabel":"关于本站","disclaimerLabel":"免责声明","onlineHeading":"在线工具","onlineSub":"浏览器里直接可用的小工具，数据不上传服务器","privacyNote":"🔒 全部在浏览器本地运行，文件和内容不会上传到任何服务器。","aboutThisTool":"关于这个工具","sideScene":"场景","sideUsage":"使用方式","sideCategory":"分类","sideSort":"排序","menuToggle":"筛选菜单","filterHint":"筛选条件"};</script>
+</head>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="/">
+      <span class="brand-mark">🧰</span>
+      <div>
+        <span class="brand-name">开源工具集</span>
+        <p class="brand-sub">标注清楚<strong>怎么用</strong>：在线即用 / 可自托管 / 桌面应用 / 命令行</p>
+      </div>
+    </a>
+    <div class="topbar-actions">
+
+      <a class="btn-ghost" href="/en/">English</a>
+      <button id="theme-toggle" class="btn-ghost" title="切换主题">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs">
+    <a href="/">全部工具</a>
+    <span>/</span><a href="/category/database/">数据库与 API</a>
+    <span>/</span><strong>ChartDB</strong>
+  </nav>
+  <article class="detail">
+    <header class="detail-head">
+      <img class="icon icon-lg" src="https://github.com/chartdb.png?size=160" alt="" data-initial="C" onerror="iconFail(this)">
+      <div>
+        <h1 class="detail-name">ChartDB</h1>
+        <div class="card-repo">chartdb/chartdb</div>
+      </div>
+      <button class="fav fav-lg" data-fav="chartdb" title="收藏">☆</button>
+    </header>
+    <div class="tier-banner tier-ready">
+      <strong>打开就能用</strong>
+      <span>有官方在线版，点开就能用，不用安装也不用部署。</span>
+    </div>
+    <p class="detail-desc">贴一条建表语句就自动画出 ER 图，不用连数据库</p>
+    <div class="tags"><span class="tag">数据库</span><span class="tag">可视化</span><span class="tag">在线即用</span></div>
+    <figure class="repo-card-wrap"><img class="repo-card" src="https://s0.wp.com/mshots/v1/https%3A%2F%2Fchartdb.io?w=1200" alt="ChartDB 网站截图" width="1200" height="675" loading="lazy" referrerpolicy="no-referrer"></figure>
+    <div class="deploy-block"><div class="deploy-head"><h2>部署命令</h2><button class="copy-btn" type="button" data-copy="docker run -e OPENAI_API_KEY=&lt;YOUR_OPEN_AI_KEY&gt; -p 8080:80 ghcr.io/chartdb/chartdb:latest">复制</button></div><pre><code>docker run -e OPENAI_API_KEY=&lt;YOUR_OPEN_AI_KEY&gt; -p 8080:80 ghcr.io/chartdb/chartdb:latest</code></pre><p class="deploy-note">摘自项目 README。需要一台装了 Docker 的服务器，命令可能还需补充环境变量。</p></div>
+    <div class="readme"><h2>项目简介（摘自 README）</h2><p>ChartDB is a powerful, web-based database diagramming editor. Instantly visualize your database schema with a single &quot;Smart Query.&quot; Customize diagrams, export SQL scripts, and access all features—no account required. Experience seamless database design here.</p></div>
+    <dl class="specs">
+    <div class="spec"><dt>星数</dt><dd>★ 22.9k</dd></div>
+    <div class="spec"><dt>语言</dt><dd>TypeScript</dd></div>
+    <div class="spec"><dt>许可证</dt><dd>AGPL-3.0</dd></div>
+    <div class="spec"><dt>最近更新</dt><dd>2026-09-13</dd></div>
+    <div class="spec"><dt>分类</dt><dd>数据库与 API</dd></div>
+    <div class="spec"><dt>场景</dt><dd>通用工具</dd></div>
+    </dl>
+    <div class="detail-actions">
+      <a class="btn-primary btn-lg" href="https://chartdb.io" target="_blank" rel="noopener">在线使用</a>
+      <a class="btn-secondary btn-lg" href="https://github.com/chartdb/chartdb" target="_blank" rel="noopener">仓库</a>
+    </div>
+  </article>
+  <section class="related">
+    <h2>同类工具</h2>
+    <div class="grid">
+<article class="card" data-id="dbeaver" data-scene="general"
+  data-usage="desktop" data-category="database"
+  data-stars="51854" data-name="DBeaver"
+  data-updated="2026-09-23" data-search="dbeaver dbeaver/dbeaver 通用数据库客户端，几十种数据库一个界面管完 free universal database tool and sql client java 数据库 桌面 开发者 database desktop developer 数据库客户端">
+  <button class="fav" data-fav="dbeaver" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/dbeaver.png?size=96" alt="" loading="lazy"
+         data-initial="D" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/dbeaver/">DBeaver</a></h3>
+      <div class="card-repo">dbeaver/dbeaver</div>
+      <div class="tier tier-install">需下载安装</div>
+    </div>
+  </div>
+  <p class="card-desc">通用数据库客户端，几十种数据库一个界面管完</p>
+  <div class="tags"><span class="tag">数据库</span><span class="tag">桌面</span><span class="tag">开发者</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">51.9k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#b07219"></i>Java</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/dbeaver/dbeaver/releases" target="_blank" rel="noopener">下载</a><a class="btn-secondary" href="https://github.com/dbeaver/dbeaver" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="bruno" data-scene="general"
+  data-usage="desktop" data-category="database"
+  data-stars="47142" data-name="Bruno"
+  data-updated="2026-09-23" data-search="bruno usebruno/bruno 离线优先的 api 调试工具，请求存成纯文本文件可进 git opensource ide for exploring and testing api&#39;s (lightweight alternative to postman/insomnia) javascript api测试 开发者 离线 api testing developer offline api调试 postman替代">
+  <button class="fav" data-fav="bruno" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/usebruno.png?size=96" alt="" loading="lazy"
+         data-initial="B" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/bruno/">Bruno</a></h3>
+      <div class="card-repo">usebruno/bruno</div>
+      <div class="tier tier-install">需下载安装</div>
+    </div>
+  </div>
+  <p class="card-desc">离线优先的 API 调试工具，请求存成纯文本文件可进 git</p>
+  <div class="tags"><span class="tag">API测试</span><span class="tag">开发者</span><span class="tag">离线</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">47.1k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#f1e05a"></i>JavaScript</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/usebruno/bruno/releases" target="_blank" rel="noopener">下载</a><a class="btn-secondary" href="https://github.com/usebruno/bruno" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="drawdb" data-scene="general"
+  data-usage="online selfhost" data-category="database"
+  data-stars="39691" data-name="DrawDB"
+  data-updated="2026-09-21" data-search="drawdb drawdb-io/drawdb 浏览器里画数据库关系图，直接导出建表 sql free, simple, and intuitive online database diagram editor and sql generator. javascript 数据库 可视化 在线即用 database visualization ready online er图 建表语句">
+  <button class="fav" data-fav="drawdb" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/drawdb-io.png?size=96" alt="" loading="lazy"
+         data-initial="D" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/drawdb/">DrawDB</a></h3>
+      <div class="card-repo">drawdb-io/drawdb</div>
+      <div class="tier tier-ready">打开就能用</div>
+    </div>
+  </div>
+  <p class="card-desc">浏览器里画数据库关系图，直接导出建表 SQL</p>
+  <div class="tags"><span class="tag">数据库</span><span class="tag">可视化</span><span class="tag">在线即用</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">39.7k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#f1e05a"></i>JavaScript</span>
+    <span class="actions"><a class="btn-primary" href="https://drawdb.app" target="_blank" rel="noopener">在线使用</a><a class="btn-secondary" href="https://github.com/drawdb-io/drawdb" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="k6" data-scene="general"
+  data-usage="cli" data-category="database"
+  data-stars="31556" data-name="k6"
+  data-updated="2026-09-23" data-search="k6 grafana/k6 用 js 写压测脚本，命令行跑，适合放进 ci a modern load testing tool, using go and javascript go 压测 命令行 开发者 load testing command line developer 压测 性能测试">
+  <button class="fav" data-fav="k6" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/grafana.png?size=96" alt="" loading="lazy"
+         data-initial="k" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/k6/">k6</a></h3>
+      <div class="card-repo">grafana/k6</div>
+      <div class="tier tier-install">需下载安装</div>
+    </div>
+  </div>
+  <p class="card-desc">用 JS 写压测脚本，命令行跑，适合放进 CI</p>
+  <div class="tags"><span class="tag">压测</span><span class="tag">命令行</span><span class="tag">开发者</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">31.6k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#00ADD8"></i>Go</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/grafana/k6/releases" target="_blank" rel="noopener">下载</a><a class="btn-secondary" href="https://github.com/grafana/k6" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="locust" data-scene="general"
+  data-usage="cli lib" data-category="database"
+  data-stars="28178" data-name="Locust"
+  data-updated="2026-09-21" data-search="locust locustio/locust 用 python 写压测场景，分布式发起海量请求 write scalable load tests in plain python 🚗💨 python 压测 开发者 load testing developer 压测">
+  <button class="fav" data-fav="locust" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/locustio.png?size=96" alt="" loading="lazy"
+         data-initial="L" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/locust/">Locust</a></h3>
+      <div class="card-repo">locustio/locust</div>
+      <div class="tier tier-install">需下载安装</div>
+    </div>
+  </div>
+  <p class="card-desc">用 Python 写压测场景，分布式发起海量请求</p>
+  <div class="tags"><span class="tag">压测</span><span class="tag">开发者</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">28.2k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3572A5"></i>Python</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/locustio/locust/releases" target="_blank" rel="noopener">下载</a><a class="btn-secondary" href="https://github.com/locustio/locust" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="bytebase" data-scene="general"
+  data-usage="selfhost" data-category="database"
+  data-stars="14505" data-name="Bytebase"
+  data-updated="2026-09-23" data-search="bytebase bytebase/bytebase 数据库变更和权限管理的协作平台，适合团队走 sql 审核 database governance built for humans and agents — controlling changes and access across every major database. go 数据库 运维 可自托管 database ops self-hostable 数据库变更管理">
+  <button class="fav" data-fav="bytebase" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/bytebase.png?size=96" alt="" loading="lazy"
+         data-initial="B" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/bytebase/">Bytebase</a></h3>
+      <div class="card-repo">bytebase/bytebase</div>
+      <div class="tier tier-onecmd">一条命令部署</div>
+    </div>
+  </div>
+  <p class="card-desc">数据库变更和权限管理的协作平台，适合团队走 SQL 审核</p>
+  <div class="tags"><span class="tag">数据库</span><span class="tag">运维</span><span class="tag">可自托管</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">14.5k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#00ADD8"></i>Go</span>
+    <span class="actions"><a class="btn-primary" href="https://www.bytebase.com" target="_blank" rel="noopener">部署</a><a class="btn-secondary" href="https://github.com/bytebase/bytebase" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+    </div>
+  </section>
+  <p class="back-link"><a href="/">← 全部工具</a></p>
+</main>
+
+<footer class="footer wrap">
+  <p>开源工具集 · 星数会持续变化，由 GitHub Actions 每周自动同步。</p>
+  <p class="footer-links"><a href="/online/">在线工具</a><a href="/categories/">分类总览</a><a href="/about/">关于本站</a><a href="/disclaimer/">免责声明</a><a href="/en/">English</a></p>
+</footer>
+<script src="/app.js?v=b0fafb04"></script>
+</body>
+</html>

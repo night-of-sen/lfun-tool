@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZMK · Hardware &amp; IoT · Open Source Toolkit</title>
+<meta name="description" content="ZMK Firmware Repository ⭐ 4.3k · C · MIT">
+<meta name="theme-color" content="#2563eb">
+<link rel="canonical" href="https://tools.lfun.cloud/en/tool/zmk/">
+<link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/tool/zmk/">
+<link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/en/tool/zmk/">
+<link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/zmk/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ZMK · Hardware &amp; IoT · Open Source Toolkit">
+<meta property="og:description" content="ZMK Firmware Repository ⭐ 4.3k · C · MIT">
+<meta property="og:url" content="https://tools.lfun.cloud/en/tool/zmk/">
+<meta property="og:image" content="https://tools.lfun.cloud/og.png">
+<meta property="og:site_name" content="Open Source Toolkit">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"ZMK","description":"ZMK Firmware Repository","url":"https://tools.lfun.cloud/en/tool/zmk/","inLanguage":"en","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","codeRepository":"https://github.com/zmkfirmware/zmk","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"zmkfirmware"},"keywords":"Keyboards, Embedded, Firmware"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"All tools","item":"https://tools.lfun.cloud/en/"},{"@type":"ListItem","position":2,"name":"Hardware & IoT","item":"https://tools.lfun.cloud/en/category/iot/"},{"@type":"ListItem","position":3,"name":"ZMK","item":"https://tools.lfun.cloud/en/tool/zmk/"}]}</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧰</text></svg>">
+<link rel="stylesheet" href="/styles.css?v=b0fafb04">
+<script>window.__LANG__="en";window.__I18N__={"htmlLang":"en","siteName":"Open Source Toolkit","brandSub":"Know <strong>how to use it<\/strong> before you click: online, self-hosted, desktop, CLI","homeTitle":"Open Source Toolkit · {n} curated GitHub projects","homeDesc":"{n} curated open-source GitHub projects with clear notes on how to use them: online, self-hosted, desktop app or CLI. Includes a Going-Global section: localization, compliance, payments, email and support.","searchPlaceholder":"Search name, purpose, tag…  press / to focus","scenes":{"all":"All","general":"General","overseas":"🌏 Going global"},"usages":{"online":"🌐 Online","desktop":"💻 Desktop","cli":"⌨️ CLI","selfhost":"🐳 Self-hosted","lib":"📦 Library","list":"📚 Lists","extension":"🧩 Extensions","mobile":"📱 Mobile app"},"categories":{"watermark":"Watermarks","video":"Video production","social":"Social media","ai":"AI tools","diagram":"Whiteboards & diagrams","image":"Image & graphics","doc":"Documents & PDF","dev":"Developer tools","design":"Design","utility":"Utilities","fun":"Fun","system":"System tweaks","download":"Downloaders","capture":"Screenshot & recording","media":"Music & media","writing":"Writing & notes","filesearch":"Search & files","security":"Security & privacy","analytics":"Analytics","experiment":"A/B testing & flags","i18n":"Localization","payment":"Payments & billing","commerce":"E-commerce","email":"Email & marketing","notify":"Notifications & SMS","support":"Customer support","crm":"CRM & sales","auth":"Auth & identity","compliance":"Compliance & e-signing","sitesearch":"Site search","finance":"Finance & invoicing","promo":"Growth & SEO","agent":"AI agents","game":"Games","storage":"File sync & storage","notes":"Notes & knowledge base","mediaserver":"Media servers","monitor":"Monitoring & ops","network":"Networking & proxy","learn":"Learning resources","mobile":"Mobile","iot":"Hardware & IoT","editor":"Editors & terminals","lowcode":"Low-code & internal tools","project":"Project & task management","team":"Team communication","form":"Forms & surveys","database":"Databases & API tools","browser":"Browsers"},"allCategories":"All categories","allUsage":"All","sortStars":"By stars","sortName":"By name","sortUpdated":"By last update","btnOnline":"Open online","btnDeploy":"Deploy","btnDownload":"Download","btnDocs":"Docs","btnAddon":"Get the add-on","btnRepo":"Repository","btnNoOnline":"No online version","archived":"Archived","cautions":{"隐私":"Privacy","版权":"Copyright","系统修改":"System changes","许可":"License unclear"},"countTemplate":"Showing {n} of {total} tools","emptyFav":"No favourites yet","emptyMatch":"No matching tools","clearFilters":"Clear filters","favTitle":"Save","themeTitle":"Toggle theme","favOnly":"Favourites only","backToAll":"All tools","related":"Similar tools","detailTitle":"Details","specStars":"Stars","specLang":"Language","specLicense":"License","specUpdated":"Last updated","specCategory":"Category","specScene":"Section","noLicense":"Not specified","footerNote":"Star counts change over time; synced weekly by GitHub Actions.","langSwitch":"中文","langSwitchHref":"/","categoriesHeading":"All categories","catPageSub":"{n} curated open-source projects","catPageLink":"Browse categories","readmeHeading":"From the README","aboutLabel":"About","disclaimerLabel":"Disclaimer","onlineHeading":"Online tools","onlineSub":"Small tools that run right here in your browser. Nothing is uploaded.","privacyNote":"🔒 Everything runs locally in your browser. Files and content are never uploaded.","aboutThisTool":"About this tool","sideScene":"Section","sideUsage":"How to use","sideCategory":"Category","sideSort":"Sort","menuToggle":"Filter menu","filterHint":"Filters"};</script>
+</head>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="/en/">
+      <span class="brand-mark">🧰</span>
+      <div>
+        <span class="brand-name">Open Source Toolkit</span>
+        <p class="brand-sub">Know <strong>how to use it</strong> before you click: online, self-hosted, desktop, CLI</p>
+      </div>
+    </a>
+    <div class="topbar-actions">
+
+      <a class="btn-ghost" href="/">中文</a>
+      <button id="theme-toggle" class="btn-ghost" title="Toggle theme">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs">
+    <a href="/en/">All tools</a>
+    <span>/</span><a href="/en/category/iot/">Hardware &amp; IoT</a>
+    <span>/</span><strong>ZMK</strong>
+  </nav>
+  <article class="detail">
+    <header class="detail-head">
+      <img class="icon icon-lg" src="https://github.com/zmkfirmware.png?size=160" alt="" data-initial="Z" onerror="iconFail(this)">
+      <div>
+        <h1 class="detail-name">ZMK</h1>
+        <div class="card-repo">zmkfirmware/zmk</div>
+      </div>
+      <button class="fav fav-lg" data-fav="zmk" title="Save">☆</button>
+    </header>
+    <div class="tier-banner tier-install">
+      <strong>Download &amp; install</strong>
+      <span>Download and install locally. No server needed.</span>
+    </div>
+    <p class="detail-desc">ZMK Firmware Repository</p>
+    <div class="tags"><span class="tag">Keyboards</span><span class="tag">Embedded</span><span class="tag">Firmware</span></div>
+    <figure class="repo-card-wrap"><img class="repo-card" src="https://s0.wp.com/mshots/v1/https%3A%2F%2Fzmk.dev?w=1200" alt="ZMK website screenshot" width="1200" height="675" loading="lazy" referrerpolicy="no-referrer"></figure>
+
+    <div class="readme"><h2>From the README</h2><p>ZMK Firmware is an open source (MIT) keyboard firmware built on the Zephyr™ Project Real Time Operating System (RTOS). ZMK&#39;s goal is to provide a modern, wireless, and powerful firmware free of licensing issues.</p></div>
+    <dl class="specs">
+    <div class="spec"><dt>Stars</dt><dd>★ 4.3k</dd></div>
+    <div class="spec"><dt>Language</dt><dd>C</dd></div>
+    <div class="spec"><dt>License</dt><dd>MIT</dd></div>
+    <div class="spec"><dt>Last updated</dt><dd>2026-09-21</dd></div>
+    <div class="spec"><dt>Category</dt><dd>Hardware &amp; IoT</dd></div>
+    <div class="spec"><dt>Section</dt><dd>General</dd></div>
+    </dl>
+    <div class="detail-actions">
+      <a class="btn-primary btn-lg" href="https://github.com/zmkfirmware/zmk/releases" target="_blank" rel="noopener">Download</a>
+      <a class="btn-secondary btn-lg" href="https://github.com/zmkfirmware/zmk" target="_blank" rel="noopener">Repository</a>
+    </div>
+  </article>
+  <section class="related">
+    <h2>Similar tools</h2>
+    <div class="grid">
+<article class="card" data-id="home-assistant" data-scene="general"
+  data-usage="selfhost" data-category="iot"
+  data-stars="91123" data-name="Home Assistant"
+  data-updated="2026-09-23" data-search="home assistant home-assistant/core 本地优先的智能家居中枢，把各家设备统一到一个界面 :house_with_garden: open source home automation that puts local control and privacy first. python 智能家居 自动化 可自托管 smart home automation self-hostable 智能家居 homeassistant">
+  <button class="fav" data-fav="home-assistant" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/home-assistant.png?size=96" alt="" loading="lazy"
+         data-initial="H" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/home-assistant/">Home Assistant</a></h3>
+      <div class="card-repo">home-assistant/core</div>
+      <div class="tier tier-setup">Needs setup</div>
+    </div>
+  </div>
+  <p class="card-desc">:house_with_garden: Open source home automation that puts local control and privacy first.</p>
+  <div class="tags"><span class="tag">Smart home</span><span class="tag">Automation</span><span class="tag">Self-hostable</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">91.1k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3572A5"></i>Python</span>
+    <span class="actions"><a class="btn-primary" href="https://www.home-assistant.io" target="_blank" rel="noopener">Deploy</a><a class="btn-secondary" href="https://github.com/home-assistant/core" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="frigate" data-scene="general"
+  data-usage="selfhost" data-category="iot"
+  data-stars="36071" data-name="Frigate"
+  data-updated="2026-09-23" data-search="frigate blakeblackshear/frigate 本地跑的 nvr，用 ai 识别摄像头里的人、车、动物 nvr with realtime local object detection for ip cameras python 监控 智能家居 可自托管 monitoring smart home self-hostable 监控识别 nvr">
+  <button class="fav" data-fav="frigate" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/blakeblackshear.png?size=96" alt="" loading="lazy"
+         data-initial="F" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/frigate/">Frigate</a></h3>
+      <div class="card-repo">blakeblackshear/frigate</div>
+      <div class="tier tier-setup">Needs setup</div>
+    </div>
+  </div>
+  <p class="card-desc">NVR with realtime local object detection for IP cameras</p>
+  <div class="tags"><span class="tag">Monitoring</span><span class="tag">Smart home</span><span class="tag">Self-hostable</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">36.1k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3572A5"></i>Python</span>
+    <span class="actions"><a class="btn-primary" href="https://frigate.video" target="_blank" rel="noopener">Deploy</a><a class="btn-secondary" href="https://github.com/blakeblackshear/frigate" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="tasmota" data-scene="general"
+  data-usage="cli" data-category="iot"
+  data-stars="24772" data-name="Tasmota"
+  data-updated="2026-09-22" data-search="tasmota arendst/tasmota 刷进 esp 设备里的通用固件，插座灯泡都能脱离厂商云 alternative firmware for esp8266 and esp32 based devices with easy configuration using webui, ota updates, automation using timers or rules, expandability and entirely local control over mqtt, http, serial or knx. full documentation at c 智能家居 固件 smart home firmware esp固件 智能家居固件">
+  <button class="fav" data-fav="tasmota" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/arendst.png?size=96" alt="" loading="lazy"
+         data-initial="T" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/tasmota/">Tasmota</a></h3>
+      <div class="card-repo">arendst/Tasmota</div>
+      <div class="tier tier-install">Download &amp; install</div>
+    </div>
+  </div>
+  <p class="card-desc">Alternative firmware for ESP8266 and ESP32 based devices with easy configuration using webUI, OTA updates, automation using timers or rules, expandability and entirely local control over MQTT, HTTP, Serial or KNX. Full documentation at</p>
+  <div class="tags"><span class="tag">Smart home</span><span class="tag">Firmware</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">24.8k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#555555"></i>C</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/arendst/Tasmota/releases" target="_blank" rel="noopener">Download</a><a class="btn-secondary" href="https://github.com/arendst/Tasmota" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="qmk" data-scene="general"
+  data-usage="cli" data-category="iot"
+  data-stars="20728" data-name="QMK Firmware"
+  data-updated="2026-09-20" data-search="qmk firmware qmk/qmk_firmware 开源键盘固件，自定义键位、宏和分层 open-source keyboard firmware for atmel avr and arm usb families c 键盘 嵌入式 固件 keyboards embedded firmware 客制化键盘固件">
+  <button class="fav" data-fav="qmk" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/qmk.png?size=96" alt="" loading="lazy"
+         data-initial="Q" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/qmk/">QMK Firmware</a></h3>
+      <div class="card-repo">qmk/qmk_firmware</div>
+      <div class="tier tier-install">Download &amp; install</div>
+    </div>
+  </div>
+  <p class="card-desc">Open-source keyboard firmware for Atmel AVR and Arm USB families</p>
+  <div class="tags"><span class="tag">Keyboards</span><span class="tag">Embedded</span><span class="tag">Firmware</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">20.7k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#555555"></i>C</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/qmk/qmk_firmware/releases" target="_blank" rel="noopener">Download</a><a class="btn-secondary" href="https://github.com/qmk/qmk_firmware" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="wled" data-scene="general"
+  data-usage="cli" data-category="iot"
+  data-stars="18710" data-name="WLED"
+  data-updated="2026-09-23" data-search="wled aircoookie/wled 把灯带变成可编程的灯光装置，有几百种效果和音乐律动 control ws2812b and many more types of digital rgb leds with an esp32 over wifi! c++ 智能家居 灯光 smart home lighting 灯带控制 氛围灯">
+  <button class="fav" data-fav="wled" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/Aircoookie.png?size=96" alt="" loading="lazy"
+         data-initial="W" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/wled/">WLED</a></h3>
+      <div class="card-repo">Aircoookie/WLED</div>
+      <div class="tier tier-install">Download &amp; install</div>
+    </div>
+  </div>
+  <p class="card-desc">Control WS2812B and many more types of digital RGB LEDs with an ESP32 over WiFi!</p>
+  <div class="tags"><span class="tag">Smart home</span><span class="tag">Lighting</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">18.7k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#f34b7d"></i>C++</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/Aircoookie/WLED/releases" target="_blank" rel="noopener">Download</a><a class="btn-secondary" href="https://github.com/Aircoookie/WLED" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="orcaslicer" data-scene="general"
+  data-usage="desktop" data-category="iot"
+  data-stars="15757" data-name="OrcaSlicer"
+  data-updated="2026-09-24" data-search="orcaslicer softfever/orcaslicer prusaslicer 的增强分支，参数调校和校准工具更全 g-code generator for 3d printers (bambu, prusa, voron, vzbot, ratrig, creality, etc.) c++ 3d打印 桌面 3d printing desktop 切片软件">
+  <button class="fav" data-fav="orcaslicer" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/SoftFever.png?size=96" alt="" loading="lazy"
+         data-initial="O" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/orcaslicer/">OrcaSlicer</a></h3>
+      <div class="card-repo">SoftFever/OrcaSlicer</div>
+      <div class="tier tier-install">Download &amp; install</div>
+    </div>
+  </div>
+  <p class="card-desc">G-code generator for 3D printers (Bambu, Prusa, Voron, VzBot, RatRig, Creality, etc.)</p>
+  <div class="tags"><span class="tag">3D printing</span><span class="tag">Desktop</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">15.8k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#f34b7d"></i>C++</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/SoftFever/OrcaSlicer/releases" target="_blank" rel="noopener">Download</a><a class="btn-secondary" href="https://github.com/SoftFever/OrcaSlicer" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+    </div>
+  </section>
+  <p class="back-link"><a href="/en/">← All tools</a></p>
+</main>
+
+<footer class="footer wrap">
+  <p>Open Source Toolkit · Star counts change over time; synced weekly by GitHub Actions.</p>
+  <p class="footer-links"><a href="/en/online/">Online tools</a><a href="/en/categories/">All categories</a><a href="/en/about/">About</a><a href="/en/disclaimer/">Disclaimer</a><a href="/">中文</a></p>
+</footer>
+<script src="/app.js?v=b0fafb04"></script>
+</body>
+</html>

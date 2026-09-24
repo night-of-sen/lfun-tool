@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pi-hole · 网络与代理 · 开源工具集</title>
+<meta name="description" content="网络级广告拦截的鼻祖，一个树莓派就能拦住全家广告 ⭐ 61.0k · Shell · MIT">
+<meta name="theme-color" content="#2563eb">
+<link rel="canonical" href="https://tools.lfun.cloud/tool/pi-hole/">
+<link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/tool/pi-hole/">
+<link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/en/tool/pi-hole/">
+<link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/pi-hole/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Pi-hole · 网络与代理 · 开源工具集">
+<meta property="og:description" content="网络级广告拦截的鼻祖，一个树莓派就能拦住全家广告 ⭐ 61.0k · Shell · MIT">
+<meta property="og:url" content="https://tools.lfun.cloud/tool/pi-hole/">
+<meta property="og:image" content="https://tools.lfun.cloud/og.png">
+<meta property="og:site_name" content="开源工具集">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Pi-hole","description":"网络级广告拦截的鼻祖，一个树莓派就能拦住全家广告","url":"https://tools.lfun.cloud/tool/pi-hole/","inLanguage":"zh-CN","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","codeRepository":"https://github.com/pi-hole/pi-hole","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"pi-hole"},"keywords":"DNS, 广告拦截, 可自托管"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"全部工具","item":"https://tools.lfun.cloud/"},{"@type":"ListItem","position":2,"name":"网络与代理","item":"https://tools.lfun.cloud/category/network/"},{"@type":"ListItem","position":3,"name":"Pi-hole","item":"https://tools.lfun.cloud/tool/pi-hole/"}]}</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧰</text></svg>">
+<link rel="stylesheet" href="/styles.css?v=b0fafb04">
+<script>window.__LANG__="zh";window.__I18N__={"htmlLang":"zh-CN","siteName":"开源工具集","brandSub":"标注清楚<strong>怎么用<\/strong>：在线即用 / 可自托管 / 桌面应用 / 命令行","homeTitle":"开源工具集 · {n} 个精选 GitHub 开源项目","homeDesc":"{n} 个精选 GitHub 开源项目，标注清楚怎么用：在线即用、可自托管、桌面应用、命令行。含出海辅助专题：多语言、合规、支付、邮件、客服。","searchPlaceholder":"搜索工具名、用途、标签…  按 / 聚焦","scenes":{"all":"全部","general":"通用工具","overseas":"🌏 出海辅助"},"usages":{"online":"🌐 在线即用","desktop":"💻 桌面应用","cli":"⌨️ 命令行","selfhost":"🐳 可自托管","lib":"📦 开发库","list":"📚 清单资源","extension":"🧩 扩展插件","mobile":"📱 移动应用"},"categories":{"watermark":"水印处理","video":"视频制作","social":"社媒运营","ai":"AI 工具","diagram":"白板绘图","image":"图片图形","doc":"文档 PDF","dev":"开发工具","design":"设计","utility":"效率工具","fun":"有趣好玩","system":"系统增强","download":"下载工具","capture":"截图录屏","media":"音乐媒体","writing":"写作笔记","filesearch":"搜索与文件","security":"安全隐私","analytics":"数据分析","experiment":"A/B 实验","i18n":"多语言本地化","payment":"支付计费","commerce":"电商建站","email":"邮件触达","notify":"通知短信","support":"客服工单","crm":"CRM 销售","auth":"认证授权","compliance":"合规签署","sitesearch":"站内搜索","finance":"财务发票","promo":"推广获客","agent":"AI 智能体","game":"游戏","storage":"存储与同步","notes":"笔记与知识库","mediaserver":"媒体服务器","monitor":"监控与运维","network":"网络与代理","learn":"学习资源","mobile":"移动端","iot":"硬件与物联网","editor":"编辑器与终端","lowcode":"低代码与内部工具","project":"项目与任务管理","team":"团队沟通","form":"表单与问卷","database":"数据库与 API","browser":"浏览器"},"allCategories":"全部分类","allUsage":"全部","sortStars":"按星数排序","sortName":"按名称排序","sortUpdated":"按最近更新","btnOnline":"在线使用","btnDeploy":"部署","btnDownload":"下载","btnDocs":"文档","btnAddon":"获取扩展","btnRepo":"仓库","btnNoOnline":"暂无在线版","archived":"已归档","cautions":{"隐私":"隐私","版权":"版权","系统修改":"系统修改","许可":"许可待确认"},"countTemplate":"显示 {n} / {total} 个工具","emptyFav":"还没有收藏任何工具","emptyMatch":"没有匹配的工具","clearFilters":"清除筛选条件","favTitle":"收藏","themeTitle":"切换主题","favOnly":"只看收藏","backToAll":"全部工具","related":"同类工具","detailTitle":"详情","specStars":"星数","specLang":"语言","specLicense":"许可证","specUpdated":"最近更新","specCategory":"分类","specScene":"场景","noLicense":"未标注","footerNote":"星数会持续变化，由 GitHub Actions 每周自动同步。","langSwitch":"English","langSwitchHref":"/en/","categoriesHeading":"分类总览","catPageSub":"共 {n} 个精选开源项目","catPageLink":"查看分类","readmeHeading":"项目简介（摘自 README）","aboutLabel":"关于本站","disclaimerLabel":"免责声明","onlineHeading":"在线工具","onlineSub":"浏览器里直接可用的小工具，数据不上传服务器","privacyNote":"🔒 全部在浏览器本地运行，文件和内容不会上传到任何服务器。","aboutThisTool":"关于这个工具","sideScene":"场景","sideUsage":"使用方式","sideCategory":"分类","sideSort":"排序","menuToggle":"筛选菜单","filterHint":"筛选条件"};</script>
+</head>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="/">
+      <span class="brand-mark">🧰</span>
+      <div>
+        <span class="brand-name">开源工具集</span>
+        <p class="brand-sub">标注清楚<strong>怎么用</strong>：在线即用 / 可自托管 / 桌面应用 / 命令行</p>
+      </div>
+    </a>
+    <div class="topbar-actions">
+
+      <a class="btn-ghost" href="/en/">English</a>
+      <button id="theme-toggle" class="btn-ghost" title="切换主题">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs">
+    <a href="/">全部工具</a>
+    <span>/</span><a href="/category/network/">网络与代理</a>
+    <span>/</span><strong>Pi-hole</strong>
+  </nav>
+  <article class="detail">
+    <header class="detail-head">
+      <img class="icon icon-lg" src="https://github.com/pi-hole.png?size=160" alt="" data-initial="P" onerror="iconFail(this)">
+      <div>
+        <h1 class="detail-name">Pi-hole</h1>
+        <div class="card-repo">pi-hole/pi-hole</div>
+      </div>
+      <button class="fav fav-lg" data-fav="pi-hole" title="收藏">☆</button>
+    </header>
+    <div class="tier-banner tier-setup">
+      <strong>需要自己配置</strong>
+      <span>需要一台自己的服务器，而且要配置数据库、环境变量、域名或邮件等，建议先看官方部署文档。</span>
+    </div>
+    <p class="detail-desc">网络级广告拦截的鼻祖，一个树莓派就能拦住全家广告</p>
+    <div class="tags"><span class="tag">DNS</span><span class="tag">广告拦截</span><span class="tag">可自托管</span></div>
+    <figure class="repo-card-wrap"><img class="repo-card" src="https://s0.wp.com/mshots/v1/https%3A%2F%2Fpi-hole.net?w=1200" alt="Pi-hole 网站截图" width="1200" height="675" loading="lazy" referrerpolicy="no-referrer"></figure>
+
+
+    <dl class="specs">
+    <div class="spec"><dt>星数</dt><dd>★ 61.0k</dd></div>
+    <div class="spec"><dt>语言</dt><dd>Shell</dd></div>
+    <div class="spec"><dt>许可证</dt><dd>MIT</dd></div>
+    <div class="spec"><dt>最近更新</dt><dd>2026-09-23</dd></div>
+    <div class="spec"><dt>分类</dt><dd>网络与代理</dd></div>
+    <div class="spec"><dt>场景</dt><dd>通用工具</dd></div>
+    </dl>
+    <div class="detail-actions">
+      <a class="btn-primary btn-lg" href="https://pi-hole.net" target="_blank" rel="noopener">部署</a>
+      <a class="btn-secondary btn-lg" href="https://github.com/pi-hole/pi-hole" target="_blank" rel="noopener">仓库</a>
+    </div>
+  </article>
+  <section class="related">
+    <h2>同类工具</h2>
+    <div class="grid">
+<article class="card" data-id="frp" data-scene="general"
+  data-usage="selfhost cli" data-category="network"
+  data-stars="109593" data-name="frp"
+  data-updated="2026-09-15" data-search="frp fatedier/frp 内网穿透神器，把家里或公司的服务暴露到公网 a fast reverse proxy to help you expose a local server behind a nat or firewall to the internet. go 内网穿透 可自托管 tunneling self-hostable 内网穿透 端口映射">
+  <button class="fav" data-fav="frp" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/fatedier.png?size=96" alt="" loading="lazy"
+         data-initial="f" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/frp/">frp</a></h3>
+      <div class="card-repo">fatedier/frp</div>
+      <div class="tier tier-install">需下载安装</div>
+    </div>
+  </div>
+  <p class="card-desc">内网穿透神器，把家里或公司的服务暴露到公网</p>
+  <div class="tags"><span class="tag">内网穿透</span><span class="tag">可自托管</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">109.6k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#00ADD8"></i>Go</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/fatedier/frp/releases" target="_blank" rel="noopener">下载</a><a class="btn-secondary" href="https://github.com/fatedier/frp" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="caddy" data-scene="general"
+  data-usage="selfhost cli" data-category="network"
+  data-stars="76035" data-name="Caddy"
+  data-updated="2026-09-23" data-search="caddy caddyserver/caddy 自动申请续期 https 证书的 web 服务器，配置文件极简 fast and extensible multi-platform http/1-2-3 web server with automatic https go 反向代理 可自托管 reverse proxy self-hostable 反向代理 web服务器">
+  <button class="fav" data-fav="caddy" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/caddyserver.png?size=96" alt="" loading="lazy"
+         data-initial="C" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/caddy/">Caddy</a></h3>
+      <div class="card-repo">caddyserver/caddy</div>
+      <div class="tier tier-install">需下载安装</div>
+    </div>
+  </div>
+  <p class="card-desc">自动申请续期 HTTPS 证书的 Web 服务器，配置文件极简</p>
+  <div class="tags"><span class="tag">反向代理</span><span class="tag">可自托管</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">76.0k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#00ADD8"></i>Go</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/caddyserver/caddy/releases" target="_blank" rel="noopener">下载</a><a class="btn-secondary" href="https://github.com/caddyserver/caddy" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="traefik" data-scene="general"
+  data-usage="selfhost" data-category="network"
+  data-stars="64938" data-name="Traefik"
+  data-updated="2026-09-23" data-search="traefik traefik/traefik 云原生反向代理，容器一起来路由自动就绪 the cloud native application proxy go 反向代理 容器 可自托管 reverse proxy containers self-hostable 反向代理">
+  <button class="fav" data-fav="traefik" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/traefik.png?size=96" alt="" loading="lazy"
+         data-initial="T" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/traefik/">Traefik</a></h3>
+      <div class="card-repo">traefik/traefik</div>
+      <div class="tier tier-onecmd">一条命令部署</div>
+    </div>
+  </div>
+  <p class="card-desc">云原生反向代理，容器一起来路由自动就绪</p>
+  <div class="tags"><span class="tag">反向代理</span><span class="tag">容器</span><span class="tag">可自托管</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">64.9k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#00ADD8"></i>Go</span>
+    <span class="actions"><a class="btn-primary" href="https://traefik.io" target="_blank" rel="noopener">部署</a><a class="btn-secondary" href="https://github.com/traefik/traefik" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="headscale" data-scene="general"
+  data-usage="selfhost cli" data-category="network"
+  data-stars="44069" data-name="Headscale"
+  data-updated="2026-09-23" data-search="headscale juanfont/headscale tailscale 控制平面的自托管实现，组自己的虚拟内网 an open source, self-hosted implementation of the tailscale control server go vpn 内网穿透 可自托管 vpn tunneling self-hostable 自建tailscale 组网">
+  <button class="fav" data-fav="headscale" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/juanfont.png?size=96" alt="" loading="lazy"
+         data-initial="H" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/headscale/">Headscale</a></h3>
+      <div class="card-repo">juanfont/headscale</div>
+      <div class="tier tier-install">需下载安装</div>
+    </div>
+  </div>
+  <p class="card-desc">Tailscale 控制平面的自托管实现，组自己的虚拟内网</p>
+  <div class="tags"><span class="tag">VPN</span><span class="tag">内网穿透</span><span class="tag">可自托管</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">44.1k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#00ADD8"></i>Go</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/juanfont/headscale/releases" target="_blank" rel="noopener">下载</a><a class="btn-secondary" href="https://github.com/juanfont/headscale" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="sing-box" data-scene="general"
+  data-usage="selfhost cli" data-category="network"
+  data-stars="38249" data-name="sing-box"
+  data-updated="2026-09-23" data-search="sing-box sagernet/sing-box 通用代理平台，一个内核支持各种协议 the universal proxy platform go 代理 命令行 proxy command line 代理内核">
+  <button class="fav" data-fav="sing-box" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/SagerNet.png?size=96" alt="" loading="lazy"
+         data-initial="s" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/sing-box/">sing-box</a></h3>
+      <div class="card-repo">SagerNet/sing-box</div>
+      <div class="tier tier-install">需下载安装</div>
+    </div>
+  </div>
+  <p class="card-desc">通用代理平台，一个内核支持各种协议</p>
+  <div class="tags"><span class="tag">代理</span><span class="tag">命令行</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">38.2k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#00ADD8"></i>Go</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/SagerNet/sing-box/releases" target="_blank" rel="noopener">下载</a><a class="btn-secondary" href="https://github.com/SagerNet/sing-box" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="adguardhome" data-scene="general"
+  data-usage="selfhost" data-category="network"
+  data-stars="37043" data-name="AdGuard Home"
+  data-updated="2026-09-23" data-search="adguard home adguardteam/adguardhome 全网 dns 层广告拦截，家里所有设备都干净 network-wide ads &amp; trackers blocking dns server go dns 广告拦截 可自托管 dns ad blocking self-hostable 广告拦截dns 去广告">
+  <button class="fav" data-fav="adguardhome" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/AdguardTeam.png?size=96" alt="" loading="lazy"
+         data-initial="A" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/adguardhome/">AdGuard Home</a></h3>
+      <div class="card-repo">AdguardTeam/AdGuardHome</div>
+      <div class="tier tier-onecmd">一条命令部署</div>
+    </div>
+  </div>
+  <p class="card-desc">全网 DNS 层广告拦截，家里所有设备都干净</p>
+  <div class="tags"><span class="tag">DNS</span><span class="tag">广告拦截</span><span class="tag">可自托管</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">37.0k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#00ADD8"></i>Go</span>
+    <span class="actions"><a class="btn-primary" href="https://adguard.com/adguard-home/overview.html" target="_blank" rel="noopener">部署</a><a class="btn-secondary" href="https://github.com/AdguardTeam/AdGuardHome" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+    </div>
+  </section>
+  <p class="back-link"><a href="/">← 全部工具</a></p>
+</main>
+
+<footer class="footer wrap">
+  <p>开源工具集 · 星数会持续变化，由 GitHub Actions 每周自动同步。</p>
+  <p class="footer-links"><a href="/online/">在线工具</a><a href="/categories/">分类总览</a><a href="/about/">关于本站</a><a href="/disclaimer/">免责声明</a><a href="/en/">English</a></p>
+</footer>
+<script src="/app.js?v=b0fafb04"></script>
+</body>
+</html>

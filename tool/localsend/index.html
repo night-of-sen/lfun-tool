@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LocalSend · 存储与同步 · 开源工具集</title>
+<meta name="description" content="跨平台局域网传文件，替代 AirDrop，手机电脑互通 ⭐ 92.6k · Dart · MIT">
+<meta name="theme-color" content="#2563eb">
+<link rel="canonical" href="https://tools.lfun.cloud/tool/localsend/">
+<link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/tool/localsend/">
+<link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/en/tool/localsend/">
+<link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/localsend/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="LocalSend · 存储与同步 · 开源工具集">
+<meta property="og:description" content="跨平台局域网传文件，替代 AirDrop，手机电脑互通 ⭐ 92.6k · Dart · MIT">
+<meta property="og:url" content="https://tools.lfun.cloud/tool/localsend/">
+<meta property="og:image" content="https://tools.lfun.cloud/og.png">
+<meta property="og:site_name" content="开源工具集">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"LocalSend","description":"跨平台局域网传文件，替代 AirDrop，手机电脑互通","url":"https://tools.lfun.cloud/tool/localsend/","inLanguage":"zh-CN","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","codeRepository":"https://github.com/localsend/localsend","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"localsend"},"keywords":"文件传输, 离线"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"全部工具","item":"https://tools.lfun.cloud/"},{"@type":"ListItem","position":2,"name":"存储与同步","item":"https://tools.lfun.cloud/category/storage/"},{"@type":"ListItem","position":3,"name":"LocalSend","item":"https://tools.lfun.cloud/tool/localsend/"}]}</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧰</text></svg>">
+<link rel="stylesheet" href="/styles.css?v=b0fafb04">
+<script>window.__LANG__="zh";window.__I18N__={"htmlLang":"zh-CN","siteName":"开源工具集","brandSub":"标注清楚<strong>怎么用<\/strong>：在线即用 / 可自托管 / 桌面应用 / 命令行","homeTitle":"开源工具集 · {n} 个精选 GitHub 开源项目","homeDesc":"{n} 个精选 GitHub 开源项目，标注清楚怎么用：在线即用、可自托管、桌面应用、命令行。含出海辅助专题：多语言、合规、支付、邮件、客服。","searchPlaceholder":"搜索工具名、用途、标签…  按 / 聚焦","scenes":{"all":"全部","general":"通用工具","overseas":"🌏 出海辅助"},"usages":{"online":"🌐 在线即用","desktop":"💻 桌面应用","cli":"⌨️ 命令行","selfhost":"🐳 可自托管","lib":"📦 开发库","list":"📚 清单资源","extension":"🧩 扩展插件","mobile":"📱 移动应用"},"categories":{"watermark":"水印处理","video":"视频制作","social":"社媒运营","ai":"AI 工具","diagram":"白板绘图","image":"图片图形","doc":"文档 PDF","dev":"开发工具","design":"设计","utility":"效率工具","fun":"有趣好玩","system":"系统增强","download":"下载工具","capture":"截图录屏","media":"音乐媒体","writing":"写作笔记","filesearch":"搜索与文件","security":"安全隐私","analytics":"数据分析","experiment":"A/B 实验","i18n":"多语言本地化","payment":"支付计费","commerce":"电商建站","email":"邮件触达","notify":"通知短信","support":"客服工单","crm":"CRM 销售","auth":"认证授权","compliance":"合规签署","sitesearch":"站内搜索","finance":"财务发票","promo":"推广获客","agent":"AI 智能体","game":"游戏","storage":"存储与同步","notes":"笔记与知识库","mediaserver":"媒体服务器","monitor":"监控与运维","network":"网络与代理","learn":"学习资源","mobile":"移动端","iot":"硬件与物联网","editor":"编辑器与终端","lowcode":"低代码与内部工具","project":"项目与任务管理","team":"团队沟通","form":"表单与问卷","database":"数据库与 API","browser":"浏览器"},"allCategories":"全部分类","allUsage":"全部","sortStars":"按星数排序","sortName":"按名称排序","sortUpdated":"按最近更新","btnOnline":"在线使用","btnDeploy":"部署","btnDownload":"下载","btnDocs":"文档","btnAddon":"获取扩展","btnRepo":"仓库","btnNoOnline":"暂无在线版","archived":"已归档","cautions":{"隐私":"隐私","版权":"版权","系统修改":"系统修改","许可":"许可待确认"},"countTemplate":"显示 {n} / {total} 个工具","emptyFav":"还没有收藏任何工具","emptyMatch":"没有匹配的工具","clearFilters":"清除筛选条件","favTitle":"收藏","themeTitle":"切换主题","favOnly":"只看收藏","backToAll":"全部工具","related":"同类工具","detailTitle":"详情","specStars":"星数","specLang":"语言","specLicense":"许可证","specUpdated":"最近更新","specCategory":"分类","specScene":"场景","noLicense":"未标注","footerNote":"星数会持续变化，由 GitHub Actions 每周自动同步。","langSwitch":"English","langSwitchHref":"/en/","categoriesHeading":"分类总览","catPageSub":"共 {n} 个精选开源项目","catPageLink":"查看分类","readmeHeading":"项目简介（摘自 README）","aboutLabel":"关于本站","disclaimerLabel":"免责声明","onlineHeading":"在线工具","onlineSub":"浏览器里直接可用的小工具，数据不上传服务器","privacyNote":"🔒 全部在浏览器本地运行，文件和内容不会上传到任何服务器。","aboutThisTool":"关于这个工具","sideScene":"场景","sideUsage":"使用方式","sideCategory":"分类","sideSort":"排序","menuToggle":"筛选菜单","filterHint":"筛选条件"};</script>
+</head>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="/">
+      <span class="brand-mark">🧰</span>
+      <div>
+        <span class="brand-name">开源工具集</span>
+        <p class="brand-sub">标注清楚<strong>怎么用</strong>：在线即用 / 可自托管 / 桌面应用 / 命令行</p>
+      </div>
+    </a>
+    <div class="topbar-actions">
+
+      <a class="btn-ghost" href="/en/">English</a>
+      <button id="theme-toggle" class="btn-ghost" title="切换主题">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs">
+    <a href="/">全部工具</a>
+    <span>/</span><a href="/category/storage/">存储与同步</a>
+    <span>/</span><strong>LocalSend</strong>
+  </nav>
+  <article class="detail">
+    <header class="detail-head">
+      <img class="icon icon-lg" src="https://github.com/localsend.png?size=160" alt="" data-initial="L" onerror="iconFail(this)">
+      <div>
+        <h1 class="detail-name">LocalSend</h1>
+        <div class="card-repo">localsend/localsend</div>
+      </div>
+      <button class="fav fav-lg" data-fav="localsend" title="收藏">☆</button>
+    </header>
+    <div class="tier-banner tier-install">
+      <strong>需下载安装</strong>
+      <span>下载安装到本机使用，不需要服务器。</span>
+    </div>
+    <p class="detail-desc">跨平台局域网传文件，替代 AirDrop，手机电脑互通</p>
+    <div class="tags"><span class="tag">文件传输</span><span class="tag">离线</span></div>
+    <figure class="repo-card-wrap"><img class="repo-card" src="https://s0.wp.com/mshots/v1/https%3A%2F%2Flocalsend.org?w=1200" alt="LocalSend 网站截图" width="1200" height="675" loading="lazy" referrerpolicy="no-referrer"></figure>
+
+    <div class="readme"><h2>项目简介（摘自 README）</h2><p>LocalSend is a free, open-source app that allows you to securely share files and messages with nearby devices over your local network without needing an internet connection.</p></div>
+    <dl class="specs">
+    <div class="spec"><dt>星数</dt><dd>★ 92.6k</dd></div>
+    <div class="spec"><dt>语言</dt><dd>Dart</dd></div>
+    <div class="spec"><dt>许可证</dt><dd>MIT</dd></div>
+    <div class="spec"><dt>最近更新</dt><dd>2026-09-24</dd></div>
+    <div class="spec"><dt>分类</dt><dd>存储与同步</dd></div>
+    <div class="spec"><dt>场景</dt><dd>通用工具</dd></div>
+    </dl>
+    <div class="detail-actions">
+      <a class="btn-primary btn-lg" href="https://github.com/localsend/localsend/releases" target="_blank" rel="noopener">下载</a>
+      <a class="btn-secondary btn-lg" href="https://github.com/localsend/localsend" target="_blank" rel="noopener">仓库</a>
+    </div>
+  </article>
+  <section class="related">
+    <h2>同类工具</h2>
+    <div class="grid">
+<article class="card" data-id="immich" data-scene="general"
+  data-usage="selfhost" data-category="storage"
+  data-stars="114843" data-name="Immich"
+  data-updated="2026-09-23" data-search="immich immich-app/immich 自建版 google photos，手机自动备份、人脸识别、地图相册 high performance self-hosted photo and video management solution. typescript 照片管理 同步 可自托管 photo management sync self-hostable 谷歌相册替代 相册备份 照片备份">
+  <button class="fav" data-fav="immich" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/immich-app.png?size=96" alt="" loading="lazy"
+         data-initial="I" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/immich/">Immich</a></h3>
+      <div class="card-repo">immich-app/immich</div>
+      <div class="tier tier-setup">需要自己配置</div>
+    </div>
+  </div>
+  <p class="card-desc">自建版 Google Photos，手机自动备份、人脸识别、地图相册</p>
+  <div class="tags"><span class="tag">照片管理</span><span class="tag">同步</span><span class="tag">可自托管</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">114.8k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3178c6"></i>TypeScript</span>
+    <span class="actions"><a class="btn-primary" href="https://immich.app" target="_blank" rel="noopener">部署</a><a class="btn-secondary" href="https://github.com/immich-app/immich" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="syncthing" data-scene="general"
+  data-usage="desktop selfhost" data-category="storage"
+  data-stars="88875" data-name="Syncthing"
+  data-updated="2026-09-23" data-search="syncthing syncthing/syncthing 点对点文件同步，不经过任何中心服务器，两端直连 open source continuous file synchronization go 同步 隐私 可自托管 sync privacy self-hostable 文件同步 点对点同步">
+  <button class="fav" data-fav="syncthing" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/syncthing.png?size=96" alt="" loading="lazy"
+         data-initial="S" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/syncthing/">Syncthing</a></h3>
+      <div class="card-repo">syncthing/syncthing</div>
+      <div class="tier tier-install">需下载安装</div>
+    </div>
+  </div>
+  <p class="card-desc">点对点文件同步，不经过任何中心服务器，两端直连</p>
+  <div class="tags"><span class="tag">同步</span><span class="tag">隐私</span><span class="tag">可自托管</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">88.9k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#00ADD8"></i>Go</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/syncthing/syncthing/releases" target="_blank" rel="noopener">下载</a><a class="btn-secondary" href="https://github.com/syncthing/syncthing" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="rclone" data-scene="general"
+  data-usage="cli" data-category="storage"
+  data-stars="59916" data-name="rclone"
+  data-updated="2026-09-23" data-search="rclone rclone/rclone 命令行操作几十种云存储，同步、挂载、迁移全靠它 &quot;rsync for cloud storage&quot; - google drive, s3, dropbox, backblaze b2, one drive, swift, hubic, wasabi, google cloud storage, azure blob, azure files, yandex files go 同步 命令行 云存储 sync command line cloud storage 云盘挂载 云存储同步">
+  <button class="fav" data-fav="rclone" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/rclone.png?size=96" alt="" loading="lazy"
+         data-initial="r" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/rclone/">rclone</a></h3>
+      <div class="card-repo">rclone/rclone</div>
+      <div class="tier tier-install">需下载安装</div>
+    </div>
+  </div>
+  <p class="card-desc">命令行操作几十种云存储，同步、挂载、迁移全靠它</p>
+  <div class="tags"><span class="tag">同步</span><span class="tag">命令行</span><span class="tag">云存储</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">59.9k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#00ADD8"></i>Go</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/rclone/rclone/releases" target="_blank" rel="noopener">下载</a><a class="btn-secondary" href="https://github.com/rclone/rclone" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="paperless-ngx" data-scene="general"
+  data-usage="selfhost" data-category="storage"
+  data-stars="45954" data-name="Paperless-ngx"
+  data-updated="2026-09-24" data-search="paperless-ngx paperless-ngx/paperless-ngx 把纸质文件扫进来做 ocr 归档，之后按内容全文搜索 a community-supported supercharged document management system: scan, index and archive all your documents python 文档管理 ocr 可自托管 document management ocr self-hostable 纸质文档归档 发票管理">
+  <button class="fav" data-fav="paperless-ngx" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/paperless-ngx.png?size=96" alt="" loading="lazy"
+         data-initial="P" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/paperless-ngx/">Paperless-ngx</a></h3>
+      <div class="card-repo">paperless-ngx/paperless-ngx</div>
+      <div class="tier tier-setup">需要自己配置</div>
+    </div>
+  </div>
+  <p class="card-desc">把纸质文件扫进来做 OCR 归档，之后按内容全文搜索</p>
+  <div class="tags"><span class="tag">文档管理</span><span class="tag">OCR</span><span class="tag">可自托管</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">46.0k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3572A5"></i>Python</span>
+    <span class="actions"><a class="btn-primary" href="https://docs.paperless-ngx.com" target="_blank" rel="noopener">部署</a><a class="btn-secondary" href="https://github.com/paperless-ngx/paperless-ngx" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="nextcloud" data-scene="general"
+  data-usage="selfhost" data-category="storage"
+  data-stars="36893" data-name="Nextcloud"
+  data-updated="2026-09-24" data-search="nextcloud nextcloud/server 自建网盘加协作平台，文件同步、日历、在线文档、视频通话都在里面 ☁️ nextcloud server, a safe home for all your data php 网盘 同步 协作 可自托管 cloud drive sync collaboration self-hostable 私有云盘 自建网盘">
+  <button class="fav" data-fav="nextcloud" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/nextcloud.png?size=96" alt="" loading="lazy"
+         data-initial="N" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/nextcloud/">Nextcloud</a></h3>
+      <div class="card-repo">nextcloud/server</div>
+      <div class="tier tier-setup">需要自己配置</div>
+    </div>
+  </div>
+  <p class="card-desc">自建网盘加协作平台，文件同步、日历、在线文档、视频通话都在里面</p>
+  <div class="tags"><span class="tag">网盘</span><span class="tag">同步</span><span class="tag">协作</span><span class="tag">可自托管</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">36.9k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#4F5D95"></i>PHP</span>
+    <span class="actions"><a class="btn-primary" href="https://nextcloud.com" target="_blank" rel="noopener">部署</a><a class="btn-secondary" href="https://github.com/nextcloud/server" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="restic" data-scene="general"
+  data-usage="cli" data-category="storage"
+  data-stars="36209" data-name="Restic"
+  data-updated="2026-09-20" data-search="restic restic/restic 增量加密备份工具，去重做得好，备份到任何地方都行 fast, secure, efficient backup program go 备份 加密 命令行 backup encryption command line 加密备份">
+  <button class="fav" data-fav="restic" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/restic.png?size=96" alt="" loading="lazy"
+         data-initial="R" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/restic/">Restic</a></h3>
+      <div class="card-repo">restic/restic</div>
+      <div class="tier tier-install">需下载安装</div>
+    </div>
+  </div>
+  <p class="card-desc">增量加密备份工具，去重做得好，备份到任何地方都行</p>
+  <div class="tags"><span class="tag">备份</span><span class="tag">加密</span><span class="tag">命令行</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">36.2k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#00ADD8"></i>Go</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/restic/restic/releases" target="_blank" rel="noopener">下载</a><a class="btn-secondary" href="https://github.com/restic/restic" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+    </div>
+  </section>
+  <p class="back-link"><a href="/">← 全部工具</a></p>
+</main>
+
+<footer class="footer wrap">
+  <p>开源工具集 · 星数会持续变化，由 GitHub Actions 每周自动同步。</p>
+  <p class="footer-links"><a href="/online/">在线工具</a><a href="/categories/">分类总览</a><a href="/about/">关于本站</a><a href="/disclaimer/">免责声明</a><a href="/en/">English</a></p>
+</footer>
+<script src="/app.js?v=b0fafb04"></script>
+</body>
+</html>

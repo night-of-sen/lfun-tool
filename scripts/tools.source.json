@@ -8144,7 +8144,7 @@
         "自主规划"
       ],
       "seed": {
-        "stars": 0,
+        "stars": 9819,
         "language": "Python",
         "license": "MIT"
       },
@@ -8155,7 +8155,7 @@
       "cloud": "",
       "platforms": [],
       "caution": "",
-      "pushedAt": ""
+      "pushedAt": "2026-09-22"
     },
     {
       "id": "copilotkit",
@@ -8171,7 +8171,7 @@
         "开发者"
       ],
       "seed": {
-        "stars": 0,
+        "stars": 37511,
         "language": "TypeScript",
         "license": "MIT"
       },
@@ -8182,7 +8182,7 @@
       "cloud": "",
       "platforms": [],
       "caution": "",
-      "pushedAt": ""
+      "pushedAt": "2026-09-24"
     },
     {
       "id": "chainlit",
@@ -8198,7 +8198,7 @@
         "开发者"
       ],
       "seed": {
-        "stars": 0,
+        "stars": 12473,
         "language": "Python",
         "license": "Apache-2.0"
       },
@@ -8209,7 +8209,7 @@
       "cloud": "",
       "platforms": [],
       "caution": "",
-      "pushedAt": ""
+      "pushedAt": "2026-09-18"
     },
     {
       "id": "openrct2",
@@ -9352,6 +9352,4790 @@
         "stars": 4321,
         "language": "C#",
         "license": "MIT"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "nextcloud",
+      "name": "Nextcloud",
+      "repo": "nextcloud/server",
+      "homepage": "https://nextcloud.com",
+      "category": "storage",
+      "desc": "自建网盘加协作平台，文件同步、日历、在线文档、视频通话都在里面",
+      "descEn": "☁️ Nextcloud server, a safe home for all your data",
+      "tags": [
+        "网盘",
+        "同步",
+        "协作",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 36893,
+        "language": "PHP",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "syncthing",
+      "name": "Syncthing",
+      "repo": "syncthing/syncthing",
+      "homepage": "https://syncthing.net",
+      "category": "storage",
+      "desc": "点对点文件同步，不经过任何中心服务器，两端直连",
+      "descEn": "Open Source Continuous File Synchronization",
+      "tags": [
+        "同步",
+        "隐私",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 88875,
+        "language": "Go",
+        "license": "MPL-2.0"
+      },
+      "usage": [
+        "desktop",
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "seafile",
+      "name": "Seafile",
+      "repo": "haiwen/seafile",
+      "homepage": "https://www.seafile.com",
+      "category": "storage",
+      "desc": "专注文件同步与共享，断点续传和大文件表现好",
+      "descEn": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views",
+      "tags": [
+        "网盘",
+        "同步",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 15272,
+        "language": "C",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-18"
+    },
+    {
+      "id": "immich",
+      "name": "Immich",
+      "repo": "immich-app/immich",
+      "homepage": "https://immich.app",
+      "category": "storage",
+      "desc": "自建版 Google Photos，手机自动备份、人脸识别、地图相册",
+      "descEn": "High performance self-hosted photo and video management solution.",
+      "tags": [
+        "照片管理",
+        "同步",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 114843,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "paperless-ngx",
+      "name": "Paperless-ngx",
+      "repo": "paperless-ngx/paperless-ngx",
+      "homepage": "https://docs.paperless-ngx.com",
+      "category": "storage",
+      "desc": "把纸质文件扫进来做 OCR 归档，之后按内容全文搜索",
+      "descEn": "A community-supported supercharged document management system: scan, index and archive all your documents",
+      "tags": [
+        "文档管理",
+        "OCR",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 45954,
+        "language": "Python",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "rclone",
+      "name": "rclone",
+      "repo": "rclone/rclone",
+      "homepage": "https://rclone.org",
+      "category": "storage",
+      "desc": "命令行操作几十种云存储，同步、挂载、迁移全靠它",
+      "descEn": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
+      "tags": [
+        "同步",
+        "命令行",
+        "云存储"
+      ],
+      "seed": {
+        "stars": 59916,
+        "language": "Go",
+        "license": "MIT"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "restic",
+      "name": "Restic",
+      "repo": "restic/restic",
+      "homepage": "https://restic.net",
+      "category": "storage",
+      "desc": "增量加密备份工具，去重做得好，备份到任何地方都行",
+      "descEn": "Fast, secure, efficient backup program",
+      "tags": [
+        "备份",
+        "加密",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 36209,
+        "language": "Go",
+        "license": "BSD-2-Clause"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-20"
+    },
+    {
+      "id": "kopia",
+      "name": "Kopia",
+      "repo": "kopia/kopia",
+      "homepage": "https://kopia.io",
+      "category": "storage",
+      "desc": "快速增量备份，带图形界面和快照策略，能挂载历史版本",
+      "descEn": "Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.",
+      "tags": [
+        "备份",
+        "加密",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 14188,
+        "language": "Go",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "cli",
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-20"
+    },
+    {
+      "id": "duplicati",
+      "name": "Duplicati",
+      "repo": "duplicati/duplicati",
+      "homepage": "https://duplicati.com",
+      "category": "storage",
+      "desc": "带网页界面的备份工具，支持增量加密和多种云存储",
+      "descEn": "Store securely encrypted backups in the cloud!",
+      "tags": [
+        "备份",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 15020,
+        "language": "C#",
+        "license": "LGPL-2.1"
+      },
+      "usage": [
+        "selfhost",
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "filebrowser",
+      "name": "File Browser",
+      "repo": "filebrowser/filebrowser",
+      "homepage": "https://filebrowser.org",
+      "category": "storage",
+      "desc": "把任意目录变成一个网页版文件管理器",
+      "descEn": "File Browser provides a file managing interface within a specified directory and it can be used to upload, delete, preview and edit your files.",
+      "tags": [
+        "网盘",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 35937,
+        "language": "Go",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-07-31",
+      "archived": true
+    },
+    {
+      "id": "localsend",
+      "name": "LocalSend",
+      "repo": "localsend/localsend",
+      "homepage": "https://localsend.org",
+      "category": "storage",
+      "desc": "跨平台局域网传文件，替代 AirDrop，手机电脑互通",
+      "descEn": "An open-source cross-platform alternative to AirDrop",
+      "tags": [
+        "文件传输",
+        "离线"
+      ],
+      "seed": {
+        "stars": 92557,
+        "language": "Dart",
+        "license": "MIT"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "logseq",
+      "name": "Logseq",
+      "repo": "logseq/logseq",
+      "homepage": "https://logseq.com",
+      "category": "notes",
+      "desc": "大纲式双向链接笔记，本地纯文本存储，适合做知识网络",
+      "descEn": "A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV",
+      "tags": [
+        "笔记",
+        "知识库"
+      ],
+      "seed": {
+        "stars": 45036,
+        "language": "Clojure",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "joplin",
+      "name": "Joplin",
+      "repo": "laurent22/joplin",
+      "homepage": "https://joplinapp.org",
+      "category": "notes",
+      "desc": "跨平台笔记应用，端到端加密，可同步到自己的网盘",
+      "descEn": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
+      "tags": [
+        "笔记",
+        "加密"
+      ],
+      "seed": {
+        "stars": 56478,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "trilium",
+      "name": "Trilium",
+      "repo": "TriliumNext/Trilium",
+      "homepage": "https://trilium.rocks",
+      "category": "notes",
+      "desc": "层级式个人知识库，笔记之间可脚本化，适合长期积累",
+      "descEn": "Build your personal knowledge base with Trilium Notes",
+      "tags": [
+        "笔记",
+        "知识库"
+      ],
+      "seed": {
+        "stars": 37951,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "desktop",
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "appflowy",
+      "name": "AppFlowy",
+      "repo": "AppFlowy-IO/AppFlowy",
+      "homepage": "https://appflowy.io",
+      "category": "notes",
+      "desc": "开源版 Notion，文档、看板、数据库视图都有",
+      "descEn": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
+      "tags": [
+        "笔记",
+        "协作",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 76903,
+        "language": "Rust",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "desktop",
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "affine",
+      "name": "AFFiNE",
+      "repo": "toeverything/AFFiNE",
+      "homepage": "https://affine.pro",
+      "category": "notes",
+      "desc": "文档、白板和表格融合在一起的知识库，Notion 加 Miro 的组合",
+      "descEn": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
+      "tags": [
+        "笔记",
+        "协作",
+        "白板"
+      ],
+      "seed": {
+        "stars": 72910,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "desktop",
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "siyuan",
+      "name": "SiYuan",
+      "repo": "siyuan-note/siyuan",
+      "homepage": "https://b3log.org/siyuan/",
+      "category": "notes",
+      "desc": "块级引用笔记，中文友好，数据完全存在本地",
+      "descEn": "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
+      "tags": [
+        "笔记",
+        "知识库"
+      ],
+      "seed": {
+        "stars": 46469,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "desktop",
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "memos",
+      "name": "Memos",
+      "repo": "usememos/memos",
+      "homepage": "https://www.usememos.com",
+      "category": "notes",
+      "desc": "轻量碎片笔记，像自建的推特，随手记想法",
+      "descEn": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
+      "tags": [
+        "笔记",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 63287,
+        "language": "Go",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "outline",
+      "name": "Outline",
+      "repo": "outline/outline",
+      "homepage": "https://www.getoutline.com",
+      "category": "notes",
+      "desc": "团队知识库和文档协作，界面干净，支持全文搜索",
+      "descEn": "The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.",
+      "tags": [
+        "知识库",
+        "协作",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 40678,
+        "language": "TypeScript",
+        "license": "BSL-1.1"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "wikijs",
+      "name": "Wiki.js",
+      "repo": "requarks/wiki",
+      "homepage": "https://js.wiki",
+      "category": "notes",
+      "desc": "基于 Markdown 的维基系统，权限和多语言都做得细",
+      "descEn": "Wiki.js | Next Generation Open Source Wiki",
+      "tags": [
+        "知识库",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 28957,
+        "language": "JavaScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "bookstack",
+      "name": "BookStack",
+      "repo": "BookStackApp/BookStack",
+      "homepage": "https://www.bookstackapp.com",
+      "category": "notes",
+      "desc": "把文档按书、章、页组织，适合写内部手册",
+      "descEn": "NOW MANAGED ON CODEBERG",
+      "tags": [
+        "知识库",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 19049,
+        "language": "PHP",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "docmost",
+      "name": "Docmost",
+      "repo": "docmost/docmost",
+      "homepage": "https://docmost.com",
+      "category": "notes",
+      "desc": "协作型知识库，实时共同编辑，Confluence 的开源替代",
+      "descEn": "Docmost is an open-source collaborative wiki and documentation software. It is an open-source alternative to Confluence and Notion.",
+      "tags": [
+        "知识库",
+        "协作",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 21771,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "hedgedoc",
+      "name": "HedgeDoc",
+      "repo": "hedgedoc/hedgedoc",
+      "homepage": "https://hedgedoc.org",
+      "category": "notes",
+      "desc": "实时协作 Markdown 编辑器，边写边出预览，适合开会记录",
+      "descEn": "HedgeDoc - Ideas grow better together",
+      "tags": [
+        "笔记",
+        "协作",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 7443,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "anytype",
+      "name": "Anytype",
+      "repo": "anyproto/anytype-ts",
+      "homepage": "https://anytype.io",
+      "category": "notes",
+      "desc": "本地优先的知识管理，对象化组织内容，端到端加密",
+      "descEn": "Official Anytype client for MacOS, Linux, and Windows",
+      "tags": [
+        "笔记",
+        "加密"
+      ],
+      "seed": {
+        "stars": 8846,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "obsidian-releases",
+      "name": "Obsidian",
+      "repo": "obsidianmd/obsidian-releases",
+      "homepage": "https://obsidian.md",
+      "category": "notes",
+      "desc": "笔记软件的发版仓库，插件和主题生态的入口",
+      "descEn": "Community plugins list, theme list, and releases of Obsidian.",
+      "tags": [
+        "笔记",
+        "知识库"
+      ],
+      "seed": {
+        "stars": 21796,
+        "language": ""
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "jellyfin",
+      "name": "Jellyfin",
+      "repo": "jellyfin/jellyfin",
+      "homepage": "https://jellyfin.org",
+      "category": "mediaserver",
+      "desc": "自建影视库，刮削海报、转码播放、多端客户端全都有",
+      "descEn": "The Free Software Media System - Server Backend & API",
+      "tags": [
+        "媒体服务器",
+        "影视",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 57440,
+        "language": "C#",
+        "license": "GPL-2.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "navidrome",
+      "name": "Navidrome",
+      "repo": "navidrome/navidrome",
+      "homepage": "https://www.navidrome.org",
+      "category": "mediaserver",
+      "desc": "自建音乐流媒体，兼容 Subsonic 协议的客户端都能连",
+      "descEn": "🎧 Your Personal Streaming Service ",
+      "tags": [
+        "媒体服务器",
+        "音乐库",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 23758,
+        "language": "Go",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "audiobookshelf",
+      "name": "Audiobookshelf",
+      "repo": "advplyr/audiobookshelf",
+      "homepage": "https://www.audiobookshelf.org",
+      "category": "mediaserver",
+      "desc": "有声书和播客服务器，进度跨设备同步",
+      "descEn": "Self-hosted audiobook and podcast server",
+      "tags": [
+        "媒体服务器",
+        "有声书",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 14420,
+        "language": "JavaScript",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "kavita",
+      "name": "Kavita",
+      "repo": "Kareadita/Kavita",
+      "homepage": "https://www.kavitareader.com",
+      "category": "mediaserver",
+      "desc": "自建漫画、轻小说服务器，元数据刮削和阅读进度都有",
+      "descEn": "Kavita is a fast, feature rich, cross platform reading server. Built with the goal of being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family.",
+      "tags": [
+        "媒体服务器",
+        "漫画",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 11728,
+        "language": "C#",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "komga",
+      "name": "Komga",
+      "repo": "gotson/komga",
+      "homepage": "https://komga.org",
+      "category": "mediaserver",
+      "desc": "漫画和电子书服务器，支持 OPDS 和各种阅读器",
+      "descEn": "Media server for comics/mangas/BDs/magazines/eBooks with API, OPDS, Kobo Sync and KOReader Sync support",
+      "tags": [
+        "媒体服务器",
+        "漫画",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 6688,
+        "language": "Kotlin",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "calibre-web",
+      "name": "Calibre-Web",
+      "repo": "janeczku/calibre-web",
+      "homepage": "https://calibre-ebook.com",
+      "category": "mediaserver",
+      "desc": "给 Calibre 书库套一个网页界面，在线阅读和推送",
+      "descEn": ":books: Web app for browsing, reading and downloading eBooks stored in a Calibre database",
+      "tags": [
+        "媒体服务器",
+        "电子书",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 18231,
+        "language": "Python",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-20"
+    },
+    {
+      "id": "koel",
+      "name": "Koel",
+      "repo": "koel/koel",
+      "homepage": "https://koel.dev",
+      "category": "mediaserver",
+      "desc": "个人音乐流媒体服务，界面现代，扫码听自己的歌单",
+      "descEn": "Music streaming solution that works.",
+      "tags": [
+        "媒体服务器",
+        "音乐库",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 17262,
+        "language": "PHP",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "photoprism",
+      "name": "PhotoPrism",
+      "repo": "photoprism/photoprism",
+      "homepage": "https://photoprism.app",
+      "category": "mediaserver",
+      "desc": "照片管理服务器，自动分类、人脸和地点识别",
+      "descEn": "AI-Powered Photos App 🌈💎✨",
+      "tags": [
+        "照片管理",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 40229,
+        "language": "Go",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "librephotos",
+      "name": "LibrePhotos",
+      "repo": "LibrePhotos/librephotos",
+      "homepage": "https://librephotos.com",
+      "category": "mediaserver",
+      "desc": "自托管相册，用机器学习做自动标签和人物归类",
+      "descEn": "A self-hosted open source photo management service. ",
+      "tags": [
+        "照片管理",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 8083,
+        "language": "Python",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-21"
+    },
+    {
+      "id": "uptime-kuma",
+      "name": "Uptime Kuma",
+      "repo": "louislam/uptime-kuma",
+      "homepage": "https://uptime.kuma.pet",
+      "category": "monitor",
+      "desc": "自建站点监控，HTTP、Ping、端口都能盯，挂了发通知",
+      "descEn": "A fancy self-hosted monitoring tool",
+      "tags": [
+        "监控",
+        "告警",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 91745,
+        "language": "JavaScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "grafana",
+      "name": "Grafana",
+      "repo": "grafana/grafana",
+      "homepage": "https://grafana.com",
+      "category": "monitor",
+      "desc": "指标可视化平台，接上数据源就能拼出专业监控大盘",
+      "descEn": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
+      "tags": [
+        "监控",
+        "可视化",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 76872,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "prometheus",
+      "name": "Prometheus",
+      "repo": "prometheus/prometheus",
+      "homepage": "https://prometheus.io",
+      "category": "monitor",
+      "desc": "指标采集与时序数据库，云原生监控的事实标准",
+      "descEn": "The Prometheus monitoring system and time series database.",
+      "tags": [
+        "监控",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 66196,
+        "language": "Go",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "selfhost",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "netdata",
+      "name": "Netdata",
+      "repo": "netdata/netdata",
+      "homepage": "https://www.netdata.cloud",
+      "category": "monitor",
+      "desc": "开箱即用的系统监控，装完就有秒级粒度的实时图表",
+      "descEn": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "tags": [
+        "监控",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 80632,
+        "language": "C",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "gatus",
+      "name": "Gatus",
+      "repo": "TwiN/gatus",
+      "homepage": "https://gatus.io",
+      "category": "monitor",
+      "desc": "用一份 YAML 声明要监控的服务，附带一个状态页",
+      "descEn": "Automated developer-oriented status page with alerting and incident support",
+      "tags": [
+        "监控",
+        "告警",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 12136,
+        "language": "Go",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "beszel",
+      "name": "Beszel",
+      "repo": "henrygd/beszel",
+      "homepage": "https://beszel.dev",
+      "category": "monitor",
+      "desc": "轻量服务器监控，界面清爽，资源占用比 Grafana 那套低得多",
+      "descEn": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "tags": [
+        "监控",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 25680,
+        "language": "Go",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "changedetection",
+      "name": "changedetection.io",
+      "repo": "dgtlmoon/changedetection.io",
+      "homepage": "https://changedetection.io",
+      "category": "monitor",
+      "desc": "盯着网页变化，改了就通知你，抢票和比价都用得上",
+      "descEn": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!",
+      "tags": [
+        "监控",
+        "告警",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 34493,
+        "language": "Python",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-21"
+    },
+    {
+      "id": "dockge",
+      "name": "Dockge",
+      "repo": "louislam/dockge",
+      "homepage": "https://dockge.kuma.pet",
+      "category": "monitor",
+      "desc": "管理 docker-compose 栈的网页界面，能看日志能改配置",
+      "descEn": "A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager",
+      "tags": [
+        "运维",
+        "容器",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 24435,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-04-25"
+    },
+    {
+      "id": "portainer",
+      "name": "Portainer",
+      "repo": "portainer/portainer",
+      "homepage": "https://www.portainer.io",
+      "category": "monitor",
+      "desc": "Docker 和 Kubernetes 的图形管理面板，老牌好用",
+      "descEn": "Making Docker and Kubernetes management easy.",
+      "tags": [
+        "运维",
+        "容器",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 38547,
+        "language": "TypeScript",
+        "license": "Zlib"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "coolify",
+      "name": "Coolify",
+      "repo": "coollabsio/coolify",
+      "homepage": "https://coolify.io",
+      "category": "monitor",
+      "desc": "自托管版 Vercel，从 Git 一键部署应用和数据库",
+      "descEn": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.",
+      "tags": [
+        "运维",
+        "部署",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 62201,
+        "language": "PHP",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "dokploy",
+      "name": "Dokploy",
+      "repo": "dokploy/dokploy",
+      "homepage": "https://dokploy.com",
+      "category": "monitor",
+      "desc": "开源 PaaS，管部署、证书、备份，界面现代",
+      "descEn": "Open Source Alternative to Vercel, Netlify and Heroku.",
+      "tags": [
+        "运维",
+        "部署",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 37486,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "caprover",
+      "name": "CapRover",
+      "repo": "caprover/caprover",
+      "homepage": "https://caprover.com",
+      "category": "monitor",
+      "desc": "一条命令把服务器变成应用托管平台，带网页控制台",
+      "descEn": "Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids",
+      "tags": [
+        "运维",
+        "部署",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 15166,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "adguardhome",
+      "name": "AdGuard Home",
+      "repo": "AdguardTeam/AdGuardHome",
+      "homepage": "https://adguard.com/adguard-home/overview.html",
+      "category": "network",
+      "desc": "全网 DNS 层广告拦截，家里所有设备都干净",
+      "descEn": "Network-wide ads & trackers blocking DNS server",
+      "tags": [
+        "DNS",
+        "广告拦截",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 37043,
+        "language": "Go",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "pi-hole",
+      "name": "Pi-hole",
+      "repo": "pi-hole/pi-hole",
+      "homepage": "https://pi-hole.net",
+      "category": "network",
+      "desc": "网络级广告拦截的鼻祖，一个树莓派就能拦住全家广告",
+      "descEn": "A black hole for Internet advertisements",
+      "tags": [
+        "DNS",
+        "广告拦截",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 61041,
+        "language": "Shell",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "caddy",
+      "name": "Caddy",
+      "repo": "caddyserver/caddy",
+      "homepage": "https://caddyserver.com",
+      "category": "network",
+      "desc": "自动申请续期 HTTPS 证书的 Web 服务器，配置文件极简",
+      "descEn": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "tags": [
+        "反向代理",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 76035,
+        "language": "Go",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "selfhost",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "traefik",
+      "name": "Traefik",
+      "repo": "traefik/traefik",
+      "homepage": "https://traefik.io",
+      "category": "network",
+      "desc": "云原生反向代理，容器一起来路由自动就绪",
+      "descEn": "The Cloud Native Application Proxy",
+      "tags": [
+        "反向代理",
+        "容器",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 64938,
+        "language": "Go",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "nginx-proxy-manager",
+      "name": "Nginx Proxy Manager",
+      "repo": "NginxProxyManager/nginx-proxy-manager",
+      "homepage": "https://nginxproxymanager.com",
+      "category": "network",
+      "desc": "给 Nginx 套上网页界面，点几下就配好反代和证书",
+      "descEn": "Docker container for managing Nginx proxy hosts with a simple, powerful interface",
+      "tags": [
+        "反向代理",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 34213,
+        "language": "JavaScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "headscale",
+      "name": "Headscale",
+      "repo": "juanfont/headscale",
+      "homepage": "https://headscale.net",
+      "category": "network",
+      "desc": "Tailscale 控制平面的自托管实现，组自己的虚拟内网",
+      "descEn": "An open source, self-hosted implementation of the Tailscale control server",
+      "tags": [
+        "VPN",
+        "内网穿透",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 44069,
+        "language": "Go",
+        "license": "BSD-3-Clause"
+      },
+      "usage": [
+        "selfhost",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "netbird",
+      "name": "NetBird",
+      "repo": "netbirdio/netbird",
+      "homepage": "https://netbird.io",
+      "category": "network",
+      "desc": "基于 WireGuard 的零配置组网，把分散的机器连成内网",
+      "descEn": "Connect your devices, users, and agents into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+      "tags": [
+        "VPN",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 29456,
+        "language": "Go",
+        "license": "BSD-3-Clause"
+      },
+      "usage": [
+        "selfhost",
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "frp",
+      "name": "frp",
+      "repo": "fatedier/frp",
+      "homepage": "https://gofrp.org",
+      "category": "network",
+      "desc": "内网穿透神器，把家里或公司的服务暴露到公网",
+      "descEn": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+      "tags": [
+        "内网穿透",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 109593,
+        "language": "Go",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "selfhost",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-15"
+    },
+    {
+      "id": "sing-box",
+      "name": "sing-box",
+      "repo": "SagerNet/sing-box",
+      "homepage": "https://sing-box.sagernet.org",
+      "category": "network",
+      "desc": "通用代理平台，一个内核支持各种协议",
+      "descEn": "The universal proxy platform",
+      "tags": [
+        "代理",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 38249,
+        "language": "Go",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "selfhost",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "mihomo",
+      "name": "Mihomo",
+      "repo": "MetaCubeX/mihomo",
+      "homepage": "https://wiki.metacubex.one",
+      "category": "network",
+      "desc": "Clash 内核的持续维护版，规则分流和订阅管理都强",
+      "descEn": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
+      "tags": [
+        "代理",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 34356,
+        "language": "Go",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "selfhost",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "wg-easy",
+      "name": "wg-easy",
+      "repo": "wg-easy/wg-easy",
+      "homepage": "",
+      "category": "network",
+      "desc": "WireGuard 的网页管理界面，扫码就能加设备",
+      "descEn": "The easiest way to run WireGuard VPN + Web-based Admin UI.",
+      "tags": [
+        "VPN",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 26986,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "freecodecamp",
+      "name": "freeCodeCamp",
+      "repo": "freeCodeCamp/freeCodeCamp",
+      "homepage": "https://www.freecodecamp.org",
+      "category": "learn",
+      "desc": "免费学编程的完整课程体系，边写边练还有认证",
+      "descEn": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "tags": [
+        "学习",
+        "编程教学"
+      ],
+      "seed": {
+        "stars": 456046,
+        "language": "TypeScript",
+        "license": "BSD-3-Clause"
+      },
+      "usage": [
+        "online"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "developer-roadmap",
+      "name": "Developer Roadmaps",
+      "repo": "kamranahmedse/developer-roadmap",
+      "homepage": "https://roadmap.sh",
+      "category": "learn",
+      "desc": "各方向的学习路线图，从入门到进阶该学什么都画清楚了",
+      "descEn": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+      "tags": [
+        "学习",
+        "路线图"
+      ],
+      "seed": {
+        "stars": 367981,
+        "language": "TypeScript"
+      },
+      "usage": [
+        "online"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "system-design-primer",
+      "name": "System Design Primer",
+      "repo": "donnemartin/system-design-primer",
+      "homepage": "",
+      "category": "learn",
+      "desc": "系统设计面试必读，把分布式系统的核心概念讲透了",
+      "descEn": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+      "tags": [
+        "学习",
+        "面试",
+        "系统设计"
+      ],
+      "seed": {
+        "stars": 371470,
+        "language": "Python"
+      },
+      "usage": [
+        "list"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-15"
+    },
+    {
+      "id": "build-your-own-x",
+      "name": "Build Your Own X",
+      "repo": "codecrafters-io/build-your-own-x",
+      "homepage": "",
+      "category": "learn",
+      "desc": "从零手写各种东西的教程合集：数据库、编译器、操作系统、Git",
+      "descEn": "Master programming by recreating your favorite technologies from scratch.",
+      "tags": [
+        "学习",
+        "编程教学"
+      ],
+      "seed": {
+        "stars": 549073,
+        "language": "Markdown"
+      },
+      "usage": [
+        "list"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-07-14"
+    },
+    {
+      "id": "project-based-learning",
+      "name": "Project Based Learning",
+      "repo": "practical-tutorials/project-based-learning",
+      "homepage": "",
+      "category": "learn",
+      "desc": "按项目学编程的教程合集，从写一个计算器到写一个操作系统",
+      "descEn": "Curated list of project-based tutorials",
+      "tags": [
+        "学习",
+        "编程教学"
+      ],
+      "seed": {
+        "stars": 284372,
+        "language": "Markdown"
+      },
+      "usage": [
+        "list"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-21"
+    },
+    {
+      "id": "coding-interview-university",
+      "name": "Coding Interview University",
+      "repo": "jwasham/coding-interview-university",
+      "homepage": "",
+      "category": "learn",
+      "desc": "一个人从零准备大厂面试的完整学习计划，被 star 了十几万次",
+      "descEn": "A complete computer science study plan to become a software engineer.",
+      "tags": [
+        "学习",
+        "面试"
+      ],
+      "seed": {
+        "stars": 361778,
+        "language": "Markdown"
+      },
+      "usage": [
+        "list"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2025-08-28"
+    },
+    {
+      "id": "exercism",
+      "name": "Exercism",
+      "repo": "exercism/exercism",
+      "homepage": "https://exercism.org",
+      "category": "learn",
+      "desc": "几十种语言的练习题，每道题都有真人导师给你改代码",
+      "descEn": "Crowd-sourced code mentorship. Practice having thoughtful conversations about code.",
+      "tags": [
+        "学习",
+        "编程教学"
+      ],
+      "seed": {
+        "stars": 7588,
+        "language": "JavaScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "online"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "the-odin-project",
+      "name": "The Odin Project",
+      "repo": "TheOdinProject/curriculum",
+      "homepage": "https://www.theodinproject.com",
+      "category": "learn",
+      "desc": "免费的 Web 开发全栈课程，以做项目为主线",
+      "descEn": "The open curriculum for learning web development",
+      "tags": [
+        "学习",
+        "编程教学"
+      ],
+      "seed": {
+        "stars": 13069,
+        "language": "Markdown"
+      },
+      "usage": [
+        "online"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "ossu",
+      "name": "Open Source Society University",
+      "repo": "ossu/computer-science",
+      "homepage": "https://ossu.dev",
+      "category": "learn",
+      "desc": "用免费课程自学一个完整的计算机科学本科",
+      "descEn": "🎓 Path to a free self-taught education in Computer Science!",
+      "tags": [
+        "学习",
+        "计算机科学"
+      ],
+      "seed": {
+        "stars": 209406,
+        "language": "Markdown"
+      },
+      "usage": [
+        "list"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-07-14"
+    },
+    {
+      "id": "free-programming-books",
+      "name": "Free Programming Books",
+      "repo": "EbookFoundation/free-programming-books",
+      "homepage": "https://ebookfoundation.github.io/free-programming-books/",
+      "category": "learn",
+      "desc": "各种语言的免费编程书单，按语言和主题分好类",
+      "descEn": ":books: Freely available programming books",
+      "tags": [
+        "学习",
+        "清单"
+      ],
+      "seed": {
+        "stars": 397532,
+        "language": "Markdown"
+      },
+      "usage": [
+        "list"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "awesome-selfhosted",
+      "name": "Awesome Selfhosted",
+      "repo": "awesome-selfhosted/awesome-selfhosted",
+      "homepage": "https://awesome-selfhosted.net",
+      "category": "learn",
+      "desc": "可自托管服务的总目录，按用途分类，找替代品的起点",
+      "descEn": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "tags": [
+        "清单",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 321317,
+        "language": "Markdown"
+      },
+      "usage": [
+        "list"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "fdroid",
+      "name": "F-Droid",
+      "repo": "f-droid/fdroidclient",
+      "homepage": "https://f-droid.org",
+      "category": "mobile",
+      "desc": "只收录自由软件的安卓应用商店，替代 Google Play",
+      "descEn": "Android client application.",
+      "tags": [
+        "移动端",
+        "应用商店",
+        "隐私"
+      ],
+      "seed": {
+        "stars": 3062,
+        "language": "Java",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "mobile"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [
+        "android"
+      ],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "obtainium",
+      "name": "Obtainium",
+      "repo": "ImranR98/Obtainium",
+      "homepage": "https://obtainium.imranr.dev",
+      "category": "mobile",
+      "desc": "直接从 GitHub 更新安卓应用，绕开应用商店",
+      "descEn": "Get Android app updates straight from the source.",
+      "tags": [
+        "移动端",
+        "应用商店"
+      ],
+      "seed": {
+        "stars": 19905,
+        "language": "Dart",
+        "license": "MIT"
+      },
+      "usage": [
+        "mobile"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [
+        "android"
+      ],
+      "caution": "",
+      "pushedAt": "2026-09-13"
+    },
+    {
+      "id": "termux",
+      "name": "Termux",
+      "repo": "termux/termux-app",
+      "homepage": "https://termux.dev",
+      "category": "mobile",
+      "desc": "安卓上的终端和 Linux 环境，手机上跑 Python 和 git",
+      "descEn": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+      "tags": [
+        "移动端",
+        "命令行",
+        "终端"
+      ],
+      "seed": {
+        "stars": 61297,
+        "language": "Java",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "mobile"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [
+        "android"
+      ],
+      "caution": "",
+      "pushedAt": "2026-09-16"
+    },
+    {
+      "id": "kde-connect",
+      "name": "KDE Connect",
+      "repo": "KDE/kdeconnect-kde",
+      "homepage": "https://kdeconnect.kde.org",
+      "category": "mobile",
+      "desc": "手机和电脑互通：传文件、共享剪贴板、手机当遥控器",
+      "descEn": "Multi-platform app that allows your devices to communicate",
+      "tags": [
+        "文件传输",
+        "移动端",
+        "协作"
+      ],
+      "seed": {
+        "stars": 4018,
+        "language": "C++",
+        "license": "GPL-2.0"
+      },
+      "usage": [
+        "desktop",
+        "mobile"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [
+        "android",
+        "linux"
+      ],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "scrcpy",
+      "name": "scrcpy",
+      "repo": "Genymobile/scrcpy",
+      "homepage": "",
+      "category": "mobile",
+      "desc": "用电脑控制安卓手机，画面流畅延迟低，不用装手机端应用",
+      "descEn": "Display and control your Android device",
+      "tags": [
+        "移动端",
+        "投屏",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 150280,
+        "language": "C",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [
+        "android"
+      ],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "newpipe",
+      "name": "NewPipe",
+      "repo": "TeamNewPipe/NewPipe",
+      "homepage": "https://newpipe.net",
+      "category": "mobile",
+      "desc": "安卓上的 YouTube 客户端，后台播放、免广告、可下载",
+      "descEn": "A libre lightweight streaming front-end for Android.",
+      "tags": [
+        "移动端",
+        "影音",
+        "隐私"
+      ],
+      "seed": {
+        "stars": 39762,
+        "language": "Java",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "mobile"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [
+        "android"
+      ],
+      "caution": "",
+      "pushedAt": "2026-09-21"
+    },
+    {
+      "id": "libretube",
+      "name": "LibreTube",
+      "repo": "libre-tube/LibreTube",
+      "homepage": "https://libretube.dev",
+      "category": "mobile",
+      "desc": "更现代的 YouTube 安卓客户端，支持 SponsorBlock 跳广告",
+      "descEn": "An alternative frontend for YouTube, for Android.",
+      "tags": [
+        "移动端",
+        "影音",
+        "隐私"
+      ],
+      "seed": {
+        "stars": 12722,
+        "language": "Kotlin",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "mobile"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [
+        "android"
+      ],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "seal",
+      "name": "Seal",
+      "repo": "JunkFood02/Seal",
+      "homepage": "",
+      "category": "mobile",
+      "desc": "安卓上的音视频下载器，基于 yt-dlp，界面好看",
+      "descEn": "🦭 Video/Audio Downloader for Android, based on yt-dlp",
+      "tags": [
+        "移动端",
+        "下载"
+      ],
+      "seed": {
+        "stars": 29174,
+        "language": "Kotlin",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "mobile"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [
+        "android"
+      ],
+      "caution": "",
+      "pushedAt": "2026-08-25"
+    },
+    {
+      "id": "shizuku",
+      "name": "Shizuku",
+      "repo": "RikkaApps/Shizuku",
+      "homepage": "https://shizuku.rikka.app",
+      "category": "mobile",
+      "desc": "让普通应用借用系统权限，不用 root 也能用高级功能",
+      "descEn": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
+      "tags": [
+        "移动端",
+        "系统增强"
+      ],
+      "seed": {
+        "stars": 30530,
+        "language": "Java",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "mobile"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [
+        "android"
+      ],
+      "caution": "",
+      "pushedAt": "2025-06-18"
+    },
+    {
+      "id": "microg",
+      "name": "microG",
+      "repo": "microG/GmsCore",
+      "homepage": "https://microg.org",
+      "category": "mobile",
+      "desc": "开源的 Google 服务替代实现，去掉谷歌全家桶还能用推送",
+      "descEn": "Free implementation of Play Services",
+      "tags": [
+        "移动端",
+        "去谷歌化",
+        "隐私"
+      ],
+      "seed": {
+        "stars": 14671,
+        "language": "Java",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "mobile"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [
+        "android"
+      ],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "magisk",
+      "name": "Magisk",
+      "repo": "topjohnwu/Magisk",
+      "homepage": "https://github.com/topjohnwu/Magisk",
+      "category": "mobile",
+      "desc": "安卓 root 方案的事实标准，支持模块化和隐藏 root",
+      "descEn": "The Magic Mask for Android",
+      "tags": [
+        "移动端",
+        "系统增强"
+      ],
+      "seed": {
+        "stars": 62911,
+        "language": "Kotlin",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "mobile"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [
+        "android"
+      ],
+      "caution": "系统修改",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "esphome",
+      "name": "ESPHome",
+      "repo": "esphome/esphome",
+      "homepage": "https://esphome.io",
+      "category": "iot",
+      "desc": "写 YAML 就能给 ESP 芯片编译固件，把普通设备接入智能家居",
+      "descEn": "ESPHome is a system to control your ESP32, ESP8266, BK72xx, RP2040 by simple yet powerful configuration files and control them remotely through Home Automation systems.",
+      "tags": [
+        "智能家居",
+        "嵌入式",
+        "固件"
+      ],
+      "seed": {
+        "stars": 11722,
+        "language": "C++",
+        "license": "MIT"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "tasmota",
+      "name": "Tasmota",
+      "repo": "arendst/Tasmota",
+      "homepage": "https://tasmota.github.io/docs/",
+      "category": "iot",
+      "desc": "刷进 ESP 设备里的通用固件，插座灯泡都能脱离厂商云",
+      "descEn": "Alternative firmware for ESP8266 and ESP32 based devices with easy configuration using webUI, OTA updates, automation using timers or rules, expandability and entirely local control over MQTT, HTTP, Serial or KNX. Full documentation at",
+      "tags": [
+        "智能家居",
+        "固件"
+      ],
+      "seed": {
+        "stars": 24772,
+        "language": "C",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "wled",
+      "name": "WLED",
+      "repo": "Aircoookie/WLED",
+      "homepage": "https://kno.wled.ge",
+      "category": "iot",
+      "desc": "把灯带变成可编程的灯光装置，有几百种效果和音乐律动",
+      "descEn": "Control WS2812B and many more types of digital RGB LEDs with an ESP32 over WiFi!",
+      "tags": [
+        "智能家居",
+        "灯光"
+      ],
+      "seed": {
+        "stars": 18710,
+        "language": "C++",
+        "license": "EUPL-1.2"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "home-assistant",
+      "name": "Home Assistant",
+      "repo": "home-assistant/core",
+      "homepage": "https://www.home-assistant.io",
+      "category": "iot",
+      "desc": "本地优先的智能家居中枢，把各家设备统一到一个界面",
+      "descEn": ":house_with_garden: Open source home automation that puts local control and privacy first.",
+      "tags": [
+        "智能家居",
+        "自动化",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 91123,
+        "language": "Python",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "zigbee2mqtt",
+      "name": "Zigbee2MQTT",
+      "repo": "Koenkk/zigbee2mqtt",
+      "homepage": "https://www.zigbee2mqtt.io",
+      "category": "iot",
+      "desc": "让 Zigbee 设备脱离厂商网关，直连自己的 MQTT",
+      "descEn": "Zigbee 🐝 to MQTT bridge 🌉, get rid of your proprietary Zigbee bridges 🔨",
+      "tags": [
+        "智能家居",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 15660,
+        "language": "JavaScript",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "frigate",
+      "name": "Frigate",
+      "repo": "blakeblackshear/frigate",
+      "homepage": "https://frigate.video",
+      "category": "iot",
+      "desc": "本地跑的 NVR，用 AI 识别摄像头里的人、车、动物",
+      "descEn": "NVR with realtime local object detection for IP cameras",
+      "tags": [
+        "监控",
+        "智能家居",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 36071,
+        "language": "Python",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "meshtastic",
+      "name": "Meshtastic",
+      "repo": "meshtastic/firmware",
+      "homepage": "https://meshtastic.org",
+      "category": "iot",
+      "desc": "用 LoRa 组一张不依赖运营商的离网通信网",
+      "descEn": "The official firmware for Meshtastic, an open-source, off-grid mesh communication system.",
+      "tags": [
+        "嵌入式",
+        "通信"
+      ],
+      "seed": {
+        "stars": 8340,
+        "language": "C++",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "qmk",
+      "name": "QMK Firmware",
+      "repo": "qmk/qmk_firmware",
+      "homepage": "https://qmk.fm",
+      "category": "iot",
+      "desc": "开源键盘固件，自定义键位、宏和分层",
+      "descEn": "Open-source keyboard firmware for Atmel AVR and Arm USB families",
+      "tags": [
+        "键盘",
+        "嵌入式",
+        "固件"
+      ],
+      "seed": {
+        "stars": 20728,
+        "language": "C",
+        "license": "GPL-2.0"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-20"
+    },
+    {
+      "id": "zmk",
+      "name": "ZMK",
+      "repo": "zmkfirmware/zmk",
+      "homepage": "https://zmk.dev",
+      "category": "iot",
+      "desc": "无线分体键盘的固件，基于 Zephyr，低功耗",
+      "descEn": "ZMK Firmware Repository",
+      "tags": [
+        "键盘",
+        "嵌入式",
+        "固件"
+      ],
+      "seed": {
+        "stars": 4276,
+        "language": "C",
+        "license": "MIT"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-21"
+    },
+    {
+      "id": "klipper",
+      "name": "Klipper",
+      "repo": "Klipper3d/klipper",
+      "homepage": "https://www.klipper3d.org",
+      "category": "iot",
+      "desc": "让 3D 打印机跑得更快更准的固件，把运算挪到上位机",
+      "descEn": "Klipper is a 3d-printer firmware",
+      "tags": [
+        "3D打印",
+        "嵌入式"
+      ],
+      "seed": {
+        "stars": 11895,
+        "language": "C",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-19"
+    },
+    {
+      "id": "octoprint",
+      "name": "OctoPrint",
+      "repo": "OctoPrint/OctoPrint",
+      "homepage": "https://octoprint.org",
+      "category": "iot",
+      "desc": "给 3D 打印机加一个网页控制台，远程看摄像头和发打印任务",
+      "descEn": "OctoPrint is the snappy web interface for your 3D printer!",
+      "tags": [
+        "3D打印",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 9108,
+        "language": "Python",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "prusaslicer",
+      "name": "PrusaSlicer",
+      "repo": "prusa3d/PrusaSlicer",
+      "homepage": "https://www.prusa3d.com/prusaslicer/",
+      "category": "iot",
+      "desc": "开源切片软件，把 3D 模型转成打印机认识的指令",
+      "descEn": "G-code generator for 3D printers (RepRap, Makerbot, Ultimaker etc.)",
+      "tags": [
+        "3D打印",
+        "桌面"
+      ],
+      "seed": {
+        "stars": 9365,
+        "language": "C++",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-21"
+    },
+    {
+      "id": "orcaslicer",
+      "name": "OrcaSlicer",
+      "repo": "SoftFever/OrcaSlicer",
+      "homepage": "",
+      "category": "iot",
+      "desc": "PrusaSlicer 的增强分支，参数调校和校准工具更全",
+      "descEn": "G-code generator for 3D printers (Bambu, Prusa, Voron, VzBot, RatRig, Creality, etc.)",
+      "tags": [
+        "3D打印",
+        "桌面"
+      ],
+      "seed": {
+        "stars": 15757,
+        "language": "C++",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "neovim",
+      "name": "Neovim",
+      "repo": "neovim/neovim",
+      "homepage": "https://neovim.io",
+      "category": "editor",
+      "desc": "Vim 的现代化重构，Lua 配置加异步插件，终端编辑器天花板",
+      "descEn": "Vim-fork focused on extensibility and usability",
+      "tags": [
+        "编辑器",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 102537,
+        "language": "C",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "cli",
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "helix",
+      "name": "Helix",
+      "repo": "helix-editor/helix",
+      "homepage": "https://helix-editor.com",
+      "category": "editor",
+      "desc": "开箱即用的模态编辑器，多选和内置 LSP 是它的招牌",
+      "descEn": "A post-modern modal text editor.",
+      "tags": [
+        "编辑器",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 46313,
+        "language": "Rust",
+        "license": "MPL-2.0"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "zed",
+      "name": "Zed",
+      "repo": "zed-industries/zed",
+      "homepage": "https://zed.dev",
+      "category": "editor",
+      "desc": "用 Rust 写的高性能协作编辑器，启动和响应极快",
+      "descEn": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "tags": [
+        "编辑器",
+        "协作"
+      ],
+      "seed": {
+        "stars": 90786,
+        "language": "Rust",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "lapce",
+      "name": "Lapce",
+      "repo": "lapce/lapce",
+      "homepage": "https://lapce.dev",
+      "category": "editor",
+      "desc": "Rust 写的轻量编辑器，带内置 LSP 和远程开发",
+      "descEn": "Lightning-fast and Powerful Code Editor written in Rust",
+      "tags": [
+        "编辑器"
+      ],
+      "seed": {
+        "stars": 38864,
+        "language": "Rust",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "vscodium",
+      "name": "VSCodium",
+      "repo": "VSCodium/vscodium",
+      "homepage": "https://vscodium.com",
+      "category": "editor",
+      "desc": "把 VS Code 的遥测和微软品牌去掉的纯净构建",
+      "descEn": "binary releases of VS Code without MS branding/telemetry/licensing",
+      "tags": [
+        "编辑器",
+        "隐私"
+      ],
+      "seed": {
+        "stars": 33354,
+        "language": "Shell",
+        "license": "MIT"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "starship",
+      "name": "Starship",
+      "repo": "starship/starship",
+      "homepage": "https://starship.rs",
+      "category": "editor",
+      "desc": "极快的跨 shell 提示符，自动显示 git 分支和语言版本",
+      "descEn": "☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
+      "tags": [
+        "终端",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 60021,
+        "language": "Rust",
+        "license": "ISC"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "zellij",
+      "name": "Zellij",
+      "repo": "zellij-org/zellij",
+      "homepage": "https://zellij.dev",
+      "category": "editor",
+      "desc": "终端复用器，界面友好、布局可保存，tmux 的现代替代",
+      "descEn": "A terminal workspace with batteries included",
+      "tags": [
+        "终端",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 35516,
+        "language": "Rust",
+        "license": "MIT"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "wezterm",
+      "name": "WezTerm",
+      "repo": "wezterm/wezterm",
+      "homepage": "https://wezfurlong.org/wezterm/",
+      "category": "editor",
+      "desc": "GPU 加速的跨平台终端，配置用 Lua 写，支持多路复用",
+      "descEn": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust",
+      "tags": [
+        "终端"
+      ],
+      "seed": {
+        "stars": 29006,
+        "language": "Rust",
+        "license": "MIT"
+      },
+      "usage": [
+        "cli",
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-21"
+    },
+    {
+      "id": "alacritty",
+      "name": "Alacritty",
+      "repo": "alacritty/alacritty",
+      "homepage": "https://alacritty.org",
+      "category": "editor",
+      "desc": "专注速度的 GPU 终端，简单到只有配置文件",
+      "descEn": "A cross-platform, OpenGL terminal emulator.",
+      "tags": [
+        "终端"
+      ],
+      "seed": {
+        "stars": 65801,
+        "language": "Rust",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "cli",
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-08-31"
+    },
+    {
+      "id": "ghostty",
+      "name": "Ghostty",
+      "repo": "ghostty-org/ghostty",
+      "homepage": "https://ghostty.org",
+      "category": "editor",
+      "desc": "原生 GPU 终端，启动快、支持终端图形协议",
+      "descEn": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+      "tags": [
+        "终端"
+      ],
+      "seed": {
+        "stars": 61477,
+        "language": "Zig",
+        "license": "MIT"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "fish-shell",
+      "name": "Fish Shell",
+      "repo": "fish-shell/fish-shell",
+      "homepage": "https://fishshell.com",
+      "category": "editor",
+      "desc": "对用户友好的 shell，自动补全和语法高亮开箱就有",
+      "descEn": "The user-friendly command line shell.",
+      "tags": [
+        "终端",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 34228,
+        "language": "Rust",
+        "license": "GPL-2.0"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "lazyvim",
+      "name": "LazyVim",
+      "repo": "LazyVim/LazyVim",
+      "homepage": "https://lazyvim.org",
+      "category": "editor",
+      "desc": "Neovim 的现成配置发行版，装完就是顺手的 IDE",
+      "descEn": "Neovim config for the lazy",
+      "tags": [
+        "编辑器",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 27536,
+        "language": "Lua",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-08"
+    },
+    {
+      "id": "appsmith",
+      "name": "Appsmith",
+      "repo": "appsmithorg/appsmith",
+      "homepage": "https://www.appsmith.com",
+      "category": "lowcode",
+      "desc": "拖拽搭内部管理后台，连上数据库就能出现表格和表单",
+      "descEn": "Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.",
+      "tags": [
+        "低代码",
+        "内部工具",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 40930,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "tooljet",
+      "name": "ToolJet",
+      "repo": "ToolJet/ToolJet",
+      "homepage": "https://tooljet.com",
+      "category": "lowcode",
+      "desc": "低代码搭内部工具，支持多种数据源和自建部署",
+      "descEn": "Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business applications, workflows and AI agents. Build visually, from a prompt, or from Claude Code, Codex and Cursor over MCP 🚀",
+      "tags": [
+        "低代码",
+        "内部工具",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 40984,
+        "language": "JavaScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "budibase",
+      "name": "Budibase",
+      "repo": "Budibase/budibase",
+      "homepage": "https://budibase.com",
+      "category": "lowcode",
+      "desc": "搭内部工具和审批流，自带数据库和自动化",
+      "descEn": "AI agents, automations and apps that run your operations. Model agnostic.",
+      "tags": [
+        "低代码",
+        "内部工具",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 28300,
+        "language": "TypeScript",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "baserow",
+      "name": "Baserow",
+      "repo": "baserow/baserow",
+      "homepage": "https://baserow.io",
+      "category": "lowcode",
+      "desc": "开源版 Airtable，自建表格数据库和视图",
+      "descEn": "Build databases, automations, apps & agents with AI — no code.  Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative.",
+      "tags": [
+        "低代码",
+        "数据库",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 5981,
+        "language": "Python",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "nocodb",
+      "name": "NocoDB",
+      "repo": "nocodb/nocodb",
+      "homepage": "https://nocodb.com",
+      "category": "lowcode",
+      "desc": "把任意数据库变成 Airtable 式的表格界面",
+      "descEn": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative",
+      "tags": [
+        "低代码",
+        "数据库",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 65054,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "directus",
+      "name": "Directus",
+      "repo": "directus/directus",
+      "homepage": "https://directus.io",
+      "category": "lowcode",
+      "desc": "给现有 SQL 数据库自动生成 API 和管理后台",
+      "descEn": "The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.",
+      "tags": [
+        "低代码",
+        "数据库",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 37955,
+        "language": "TypeScript",
+        "license": "BSL-1.1"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "strapi",
+      "name": "Strapi",
+      "repo": "strapi/strapi",
+      "homepage": "https://strapi.io",
+      "category": "lowcode",
+      "desc": "可定制的无头 CMS，内容建模和 API 生成都是自动的",
+      "descEn": "🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.",
+      "tags": [
+        "低代码",
+        "内容管理",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 73220,
+        "language": "TypeScript"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "refine",
+      "name": "Refine",
+      "repo": "refinedev/refine",
+      "homepage": "https://refine.dev",
+      "category": "lowcode",
+      "desc": "用 React 快速搭管理后台的框架，不用被平台锁定",
+      "descEn": "A React Framework for building  internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.",
+      "tags": [
+        "低代码",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 35716,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-10"
+    },
+    {
+      "id": "teable",
+      "name": "Teable",
+      "repo": "teableio/teable",
+      "homepage": "https://teable.io",
+      "category": "lowcode",
+      "desc": "数据库形态的表格协作工具，百万行数据也不卡",
+      "descEn": "✨ AI Spreadsheet for Business",
+      "tags": [
+        "低代码",
+        "数据库",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 21815,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "rowy",
+      "name": "Rowy",
+      "repo": "rowyio/rowy",
+      "homepage": "https://www.rowy.io",
+      "category": "lowcode",
+      "desc": "在表格里写云函数的后端管理面板",
+      "descEn": "Low-code backend platform. Manage database on spreadsheet-like UI and build cloud functions workflows in JS/TS, all in your browser.",
+      "tags": [
+        "低代码",
+        "内部工具"
+      ],
+      "seed": {
+        "stars": 6842,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2024-11-23"
+    },
+    {
+      "id": "dbeaver",
+      "name": "DBeaver",
+      "repo": "dbeaver/dbeaver",
+      "homepage": "https://dbeaver.io",
+      "category": "database",
+      "desc": "通用数据库客户端，几十种数据库一个界面管完",
+      "descEn": "Free universal database tool and SQL client",
+      "tags": [
+        "数据库",
+        "桌面",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 51854,
+        "language": "Java",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "bytebase",
+      "name": "Bytebase",
+      "repo": "bytebase/bytebase",
+      "homepage": "https://www.bytebase.com",
+      "category": "database",
+      "desc": "数据库变更和权限管理的协作平台，适合团队走 SQL 审核",
+      "descEn": "Database governance built for humans and agents — controlling changes and access across every major database.",
+      "tags": [
+        "数据库",
+        "运维",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 14505,
+        "language": "Go"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "chartdb",
+      "name": "ChartDB",
+      "repo": "chartdb/chartdb",
+      "homepage": "https://chartdb.io",
+      "category": "database",
+      "desc": "贴一条建表语句就自动画出 ER 图，不用连数据库",
+      "descEn": "Database diagrams editor that allows you to visualize and design your DB with a single query.",
+      "tags": [
+        "数据库",
+        "可视化",
+        "在线即用"
+      ],
+      "seed": {
+        "stars": 22948,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "online",
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-13"
+    },
+    {
+      "id": "drawdb",
+      "name": "DrawDB",
+      "repo": "drawdb-io/drawdb",
+      "homepage": "https://drawdb.app",
+      "category": "database",
+      "desc": "浏览器里画数据库关系图，直接导出建表 SQL",
+      "descEn": "Free, simple, and intuitive online database diagram editor and SQL generator.",
+      "tags": [
+        "数据库",
+        "可视化",
+        "在线即用"
+      ],
+      "seed": {
+        "stars": 39691,
+        "language": "JavaScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "online",
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-21"
+    },
+    {
+      "id": "pgadmin",
+      "name": "pgAdmin",
+      "repo": "pgadmin-org/pgadmin4",
+      "homepage": "https://www.pgadmin.org",
+      "category": "database",
+      "desc": "PostgreSQL 官方管理工具，查询、备份、性能分析都齐",
+      "descEn": "pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.",
+      "tags": [
+        "数据库",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 3820,
+        "language": "Python",
+        "license": "PostgreSQL"
+      },
+      "usage": [
+        "selfhost",
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "bruno",
+      "name": "Bruno",
+      "repo": "usebruno/bruno",
+      "homepage": "https://www.usebruno.com",
+      "category": "database",
+      "desc": "离线优先的 API 调试工具，请求存成纯文本文件可进 git",
+      "descEn": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+      "tags": [
+        "API测试",
+        "开发者",
+        "离线"
+      ],
+      "seed": {
+        "stars": 47142,
+        "language": "JavaScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "mockoon",
+      "name": "Mockoon",
+      "repo": "mockoon/mockoon",
+      "homepage": "https://mockoon.com",
+      "category": "database",
+      "desc": "几秒起一个假接口服务，前端不等后端也能开发",
+      "descEn": "Mockoon is the easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source.",
+      "tags": [
+        "API测试",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 8419,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-20"
+    },
+    {
+      "id": "k6",
+      "name": "k6",
+      "repo": "grafana/k6",
+      "homepage": "https://k6.io",
+      "category": "database",
+      "desc": "用 JS 写压测脚本，命令行跑，适合放进 CI",
+      "descEn": "A modern load testing tool, using Go and JavaScript",
+      "tags": [
+        "压测",
+        "命令行",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 31556,
+        "language": "Go",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "locust",
+      "name": "Locust",
+      "repo": "locustio/locust",
+      "homepage": "https://locust.io",
+      "category": "database",
+      "desc": "用 Python 写压测场景，分布式发起海量请求",
+      "descEn": "Write scalable load tests in plain Python 🚗💨",
+      "tags": [
+        "压测",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 28178,
+        "language": "Python",
+        "license": "MIT"
+      },
+      "usage": [
+        "cli",
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-21"
+    },
+    {
+      "id": "wiremock",
+      "name": "WireMock",
+      "repo": "wiremock/wiremock",
+      "homepage": "https://wiremock.org",
+      "category": "database",
+      "desc": "模拟 HTTP 服务的测试工具，能录能放能改响应",
+      "descEn": "A tool for mocking HTTP services",
+      "tags": [
+        "API测试",
+        "开发者",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 7378,
+        "language": "Java",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "selfhost",
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "mattermost",
+      "name": "Mattermost",
+      "repo": "mattermost/mattermost",
+      "homepage": "https://mattermost.com",
+      "category": "team",
+      "desc": "自托管的团队协作平台，频道、文件、机器人一应俱全",
+      "descEn": "Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
+      "tags": [
+        "团队沟通",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 39164,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "zulip",
+      "name": "Zulip",
+      "repo": "zulip/zulip",
+      "homepage": "https://zulip.com",
+      "category": "team",
+      "desc": "按话题组织的聊天工具，异步讨论不会串味",
+      "descEn": "Zulip server and web application. Open-source team chat that helps teams stay productive and focused.",
+      "tags": [
+        "团队沟通",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 25943,
+        "language": "Python",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "rocketchat",
+      "name": "Rocket.Chat",
+      "repo": "RocketChat/Rocket.Chat",
+      "homepage": "https://rocket.chat",
+      "category": "team",
+      "desc": "功能全的自托管 IM，支持联邦和大量集成",
+      "descEn": "The Secure CommsOS™ for mission-critical operations",
+      "tags": [
+        "团队沟通",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 46158,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "element",
+      "name": "Element",
+      "repo": "element-hq/element-web",
+      "homepage": "https://element.io",
+      "category": "team",
+      "desc": "Matrix 协议的网页客户端，端到端加密，可自建服务器",
+      "descEn": "A glossy Matrix collaboration client for the web.",
+      "tags": [
+        "团队沟通",
+        "加密",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 13502,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "online",
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "jitsi-meet",
+      "name": "Jitsi Meet",
+      "repo": "jitsi/jitsi-meet",
+      "homepage": "https://meet.jit.si",
+      "category": "team",
+      "desc": "开箱即用的视频会议，不注册就能开房间，也能自己部署",
+      "descEn": "Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.",
+      "tags": [
+        "会议",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 29975,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "online",
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "revolt",
+      "name": "Revolt",
+      "repo": "revoltchat/revolt",
+      "homepage": "https://revolt.chat",
+      "category": "team",
+      "desc": "长得像 Discord 的开源替代，界面和体验都很接近",
+      "descEn": "Repository for miscellaneous repository management and discussions: https://github.com/revoltchat/revolt/discussions",
+      "tags": [
+        "团队沟通",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 2320,
+        "language": "Rust",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-02-16"
+    },
+    {
+      "id": "mumble",
+      "name": "Mumble",
+      "repo": "mumble-voip/mumble",
+      "homepage": "https://www.mumble.info",
+      "category": "team",
+      "desc": "低延迟语音通话，游戏开黑和老牌社区还在用",
+      "descEn": "Mumble is an open-source, low-latency, high quality voice chat software.",
+      "tags": [
+        "语音通话",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 8302,
+        "language": "C++",
+        "license": "BSD-3-Clause"
+      },
+      "usage": [
+        "desktop",
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "synapse",
+      "name": "Synapse",
+      "repo": "element-hq/synapse",
+      "homepage": "https://matrix.org",
+      "category": "team",
+      "desc": "Matrix 协议的服务器实现，自己搭一个去中心化聊天网",
+      "descEn": "Synapse: Matrix homeserver written in Python/Twisted + Rust",
+      "tags": [
+        "团队沟通",
+        "联邦宇宙",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 4642,
+        "language": "Python",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "vikunja",
+      "name": "Vikunja",
+      "repo": "go-vikunja/vikunja",
+      "homepage": "https://vikunja.io",
+      "category": "project",
+      "desc": "自托管待办与项目工具，看板、列表、甘特图都有",
+      "descEn": "The task manager you actually own.",
+      "tags": [
+        "任务管理",
+        "看板",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 5494,
+        "language": "Go",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "focalboard",
+      "name": "Focalboard",
+      "repo": "mattermost/focalboard",
+      "homepage": "",
+      "category": "project",
+      "desc": "开源版 Trello，看板加表格，团队和个人的项目面板",
+      "descEn": "Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.",
+      "tags": [
+        "任务管理",
+        "看板",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 26483,
+        "language": "TypeScript"
+      },
+      "usage": [
+        "selfhost",
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-05-18"
+    },
+    {
+      "id": "planka",
+      "name": "Planka",
+      "repo": "plankanban/planka",
+      "homepage": "https://planka.app",
+      "category": "project",
+      "desc": "界面精致的看板工具，Trello 的自托管替代",
+      "descEn": "Elegant open source project tracking. Self-hosted Kanban for teams — free Community edition, with PLANKA Pro for organisations.",
+      "tags": [
+        "任务管理",
+        "看板",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 12576,
+        "language": "JavaScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-17"
+    },
+    {
+      "id": "wekan",
+      "name": "Wekan",
+      "repo": "wekan/wekan",
+      "homepage": "https://wekan.github.io",
+      "category": "project",
+      "desc": "老牌开源看板，功能非常多，适合流程复杂的团队",
+      "descEn": "The Open Source kanban, built with Meteor. GitHub issues/PRs are only for FLOSS Developers, not for support, support is at https://wekan.fi/commercial-support/ . PR source translation to imports/i18n/data/en.i18n.json, other translations at https://app.transifex.com/wekan/wekan . No telemetry.",
+      "tags": [
+        "任务管理",
+        "看板",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 21095,
+        "language": "JavaScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "kanboard",
+      "name": "Kanboard",
+      "repo": "kanboard/kanboard",
+      "homepage": "https://kanboard.org",
+      "category": "project",
+      "desc": "极简看板，PHP 单程序部署，资源占用极低",
+      "descEn": "Kanban project management software",
+      "tags": [
+        "任务管理",
+        "看板",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 9881,
+        "language": "PHP",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "super-productivity",
+      "name": "Super Productivity",
+      "repo": "johannesjo/super-productivity",
+      "homepage": "https://super-productivity.com",
+      "category": "project",
+      "desc": "把待办、时间追踪和番茄钟合成一个应用的效率工具",
+      "descEn": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, GitLab, GitHub and Open Project.",
+      "tags": [
+        "任务管理",
+        "时间追踪"
+      ],
+      "seed": {
+        "stars": 22220,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "desktop",
+        "online"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "cal-com",
+      "name": "Cal.com",
+      "repo": "calcom/cal.com",
+      "homepage": "https://cal.com",
+      "category": "project",
+      "desc": "日程预约系统，把可预约时间做成链接发出去",
+      "descEn": "Scheduling infrastructure for absolutely everyone.",
+      "tags": [
+        "日程",
+        "会议",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 48628,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "online",
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-20"
+    },
+    {
+      "id": "mealie",
+      "name": "Mealie",
+      "repo": "mealie-recipes/mealie",
+      "homepage": "https://mealie.io",
+      "category": "project",
+      "desc": "家庭菜谱管理，存菜谱、生成购物清单、按周排餐",
+      "descEn": "Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor",
+      "tags": [
+        "生活",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 13302,
+        "language": "Python",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "grocy",
+      "name": "Grocy",
+      "repo": "grocy/grocy",
+      "homepage": "https://grocy.info",
+      "category": "project",
+      "desc": "家里的库存管家：冰箱剩什么、什么时候过期、该买什么",
+      "descEn": "ERP beyond your fridge - Grocy is a web-based self-hosted groceries & household management solution for your home",
+      "tags": [
+        "生活",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 9523,
+        "language": "PHP",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-16"
+    },
+    {
+      "id": "huly",
+      "name": "Huly",
+      "repo": "hcengineering/platform",
+      "homepage": "https://huly.io",
+      "category": "project",
+      "desc": "把项目管理、聊天、文档、HR 合成一体的团队工作台",
+      "descEn": "Huly — All-in-One Project Management Platform (alternative to Linear, Jira, Slack, Notion, Motion)",
+      "tags": [
+        "任务管理",
+        "团队沟通",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 27760,
+        "language": "TypeScript",
+        "license": "EPL-2.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "formbricks",
+      "name": "Formbricks",
+      "repo": "formbricks/formbricks",
+      "homepage": "https://formbricks.com",
+      "category": "form",
+      "desc": "自托管问卷和用户调研，可在产品里做微调研",
+      "descEn": "Open Source Qualtrics Alternative",
+      "tags": [
+        "表单",
+        "问卷",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 13009,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "heyform",
+      "name": "HeyForm",
+      "repo": "heyform/heyform",
+      "homepage": "https://heyform.net",
+      "category": "form",
+      "desc": "开源表单搭建器，拖拽出问卷和报名表",
+      "descEn": "Open-Source Form Builder",
+      "tags": [
+        "表单",
+        "问卷",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 8986,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-09"
+    },
+    {
+      "id": "opnform",
+      "name": "OpnForm",
+      "repo": "JhumanJ/OpnForm",
+      "homepage": "https://opnform.com",
+      "category": "form",
+      "desc": "轻量表单工具，界面干净，支持逻辑跳转",
+      "descEn": "Beautiful Open-Source Form Builder",
+      "tags": [
+        "表单",
+        "问卷",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 3744,
+        "language": "PHP",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "typebot",
+      "name": "Typebot",
+      "repo": "baptisteArno/typebot.io",
+      "homepage": "https://typebot.io",
+      "category": "form",
+      "desc": "对话式表单和聊天机器人，比传统问卷更愿意让人填完",
+      "descEn": "💬 Typebot is a powerful chatbot builder that you can self-host.",
+      "tags": [
+        "表单",
+        "聊天机器人",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 10361,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "surveyjs",
+      "name": "SurveyJS",
+      "repo": "surveyjs/survey-library",
+      "homepage": "https://surveyjs.io",
+      "category": "form",
+      "desc": "把问卷设计器嵌进自己的应用，JSON 驱动的表单引擎",
+      "descEn": "Open-source JavaScript form library for React, Angular, Vue, and plain JavaScript. Render dynamic JSON-driven forms, multi-step form wizards, surveys, quizzes, and other data-entry tools.",
+      "tags": [
+        "表单",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 4878,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "pandoc",
+      "name": "Pandoc",
+      "repo": "jgm/pandoc",
+      "homepage": "https://pandoc.org",
+      "category": "doc",
+      "desc": "万能文档转换器，几十种标记格式之间互转，学术写作必备",
+      "descEn": "Universal markup converter",
+      "tags": [
+        "文档",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 46387,
+        "language": "Haskell",
+        "license": "GPL-2.0"
+      },
+      "usage": [
+        "cli",
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "ocrmypdf",
+      "name": "OCRmyPDF",
+      "repo": "ocrmypdf/OCRmyPDF",
+      "homepage": "https://ocrmypdf.readthedocs.io",
+      "category": "doc",
+      "desc": "给扫描版 PDF 加上可搜索的文字层，还能顺便矫正和压缩",
+      "descEn": "OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched",
+      "tags": [
+        "OCR",
+        "文档",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 34863,
+        "language": "Python",
+        "license": "MPL-2.0"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "docling",
+      "name": "Docling",
+      "repo": "docling-project/docling",
+      "homepage": "https://docling-project.github.io/docling/",
+      "category": "doc",
+      "desc": "把 PDF 和 Office 文档解析成结构化数据，喂给大模型用",
+      "descEn": "Get your documents ready for gen AI",
+      "tags": [
+        "文档",
+        "AI",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 67731,
+        "language": "Python",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "marker",
+      "name": "Marker",
+      "repo": "datalab-to/marker",
+      "homepage": "https://www.datalab.to",
+      "category": "doc",
+      "desc": "PDF 转 Markdown 的高精度工具，公式表格都能保住",
+      "descEn": "Convert PDF to markdown + JSON quickly with high accuracy",
+      "tags": [
+        "文档",
+        "AI"
+      ],
+      "seed": {
+        "stars": 39928,
+        "language": "Python",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-13"
+    },
+    {
+      "id": "mineru",
+      "name": "MinerU",
+      "repo": "opendatalab/MinerU",
+      "homepage": "https://mineru.net",
+      "category": "doc",
+      "desc": "把 PDF 变成适合大模型读的 Markdown 和 JSON，中文文档效果好",
+      "descEn": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+      "tags": [
+        "文档",
+        "AI"
+      ],
+      "seed": {
+        "stars": 80502,
+        "language": "Python",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "sioyek",
+      "name": "Sioyek",
+      "repo": "ahrm/sioyek",
+      "homepage": "https://sioyek.info",
+      "category": "doc",
+      "desc": "为读论文设计的 PDF 阅读器，跳转和引用跳转特别快",
+      "descEn": "Sioyek is a PDF viewer with a focus on textbooks and research papers",
+      "tags": [
+        "文档",
+        "桌面"
+      ],
+      "seed": {
+        "stars": 9886,
+        "language": "C++",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-19"
+    },
+    {
+      "id": "pdfarranger",
+      "name": "PDF Arranger",
+      "repo": "pdfarranger/pdfarranger",
+      "homepage": "https://github.com/pdfarranger/pdfarranger",
+      "category": "doc",
+      "desc": "拖拽合并、拆分、旋转、重排 PDF 页面",
+      "descEn": "Small python-gtk application, which helps the user to merge or split PDF documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface.",
+      "tags": [
+        "文档",
+        "桌面"
+      ],
+      "seed": {
+        "stars": 5920,
+        "language": "Python",
+        "license": "GPL-3.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-01"
+    },
+    {
+      "id": "nuclei",
+      "name": "Nuclei",
+      "repo": "projectdiscovery/nuclei",
+      "homepage": "https://nuclei.projectdiscovery.io",
+      "category": "security",
+      "desc": "基于模板的漏洞扫描器，社区模板库每天都在更新",
+      "descEn": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+      "tags": [
+        "安全",
+        "漏洞扫描",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 31468,
+        "language": "Go",
+        "license": "MIT"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "trivy",
+      "name": "Trivy",
+      "repo": "aquasecurity/trivy",
+      "homepage": "https://trivy.dev",
+      "category": "security",
+      "desc": "扫容器镜像、代码仓库和依赖里的已知漏洞",
+      "descEn": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "tags": [
+        "安全",
+        "漏洞扫描",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 38048,
+        "language": "Go",
+        "license": "Apache-2.0"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "gitleaks",
+      "name": "Gitleaks",
+      "repo": "gitleaks/gitleaks",
+      "homepage": "https://gitleaks.io",
+      "category": "security",
+      "desc": "扫 git 仓库里误提交的密钥和令牌，适合放进提交钩子",
+      "descEn": "Find secrets with Gitleaks 🔑",
+      "tags": [
+        "安全",
+        "密钥管理",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 29455,
+        "language": "Go",
+        "license": "MIT"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "semgrep",
+      "name": "Semgrep",
+      "repo": "semgrep/semgrep",
+      "homepage": "https://semgrep.dev",
+      "category": "security",
+      "desc": "按语义而不是正则做代码扫描，自己写规则也简单",
+      "descEn": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
+      "tags": [
+        "安全",
+        "代码审计",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 16741,
+        "language": "OCaml",
+        "license": "LGPL-2.1"
+      },
+      "usage": [
+        "cli",
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "mitmproxy",
+      "name": "mitmproxy",
+      "repo": "mitmproxy/mitmproxy",
+      "homepage": "https://mitmproxy.org",
+      "category": "security",
+      "desc": "交互式抓包和改包工具，调试 App 和接口很好用",
+      "descEn": "An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.",
+      "tags": [
+        "安全",
+        "抓包",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 45135,
+        "language": "Python",
+        "license": "MIT"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-10"
+    },
+    {
+      "id": "nmap",
+      "name": "Nmap",
+      "repo": "nmap/nmap",
+      "homepage": "https://nmap.org",
+      "category": "security",
+      "desc": "网络扫描和端口探测的老牌工具，运维和安全都用它",
+      "descEn": "Nmap - the Network Mapper. Github mirror of official SVN repository.",
+      "tags": [
+        "安全",
+        "网络",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 13660,
+        "language": "C++"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "wireshark",
+      "name": "Wireshark",
+      "repo": "wireshark/wireshark",
+      "homepage": "https://www.wireshark.org",
+      "category": "security",
+      "desc": "抓包分析的标准工具，协议解析支持得极广",
+      "descEn": "Read-only mirror of Wireshark's Git repository at https://gitlab.com/wireshark/wireshark. You're welcome to submit pull requests there.",
+      "tags": [
+        "安全",
+        "抓包",
+        "网络"
+      ],
+      "seed": {
+        "stars": 9922,
+        "language": "C",
+        "license": "GPL-2.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "sqlmap",
+      "name": "sqlmap",
+      "repo": "sqlmapproject/sqlmap",
+      "homepage": "https://sqlmap.org",
+      "category": "security",
+      "desc": "自动检测和利用 SQL 注入漏洞，渗透测试常用",
+      "descEn": "Automatic SQL injection and database takeover tool",
+      "tags": [
+        "安全",
+        "渗透测试",
+        "命令行"
+      ],
+      "seed": {
+        "stars": 38504,
+        "language": "Python",
+        "license": "GPL-2.0"
+      },
+      "usage": [
+        "cli"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "vaultwarden",
+      "name": "Vaultwarden",
+      "repo": "dani-garcia/vaultwarden",
+      "homepage": "",
+      "category": "security",
+      "desc": "Bitwarden 服务端的轻量 Rust 实现，一台小机器就能自建密码库",
+      "descEn": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "tags": [
+        "密码管理",
+        "加密",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 68076,
+        "language": "Rust",
+        "license": "AGPL-3.0"
+      },
+      "usage": [
+        "selfhost"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "infisical",
+      "name": "Infisical",
+      "repo": "Infisical/infisical",
+      "homepage": "https://infisical.com",
+      "category": "security",
+      "desc": "密钥和配置管理中心，团队共享环境变量不用再发聊天记录",
+      "descEn": "Infisical is the open-source platform for secrets, certificates, and privileged access management.",
+      "tags": [
+        "密钥管理",
+        "可自托管"
+      ],
+      "seed": {
+        "stars": 29388,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "selfhost",
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "lucide",
+      "name": "Lucide",
+      "repo": "lucide-icons/lucide",
+      "homepage": "https://lucide.dev",
+      "category": "design",
+      "desc": "风格统一的图标库，一千多个图标，各种前端框架都有包",
+      "descEn": "Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.",
+      "tags": [
+        "图标",
+        "设计",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 24688,
+        "language": "TypeScript",
+        "license": "ISC"
+      },
+      "usage": [
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "tabler-icons",
+      "name": "Tabler Icons",
+      "repo": "tabler/tabler-icons",
+      "homepage": "https://tabler.io/icons",
+      "category": "design",
+      "desc": "五千多个免费图标，笔画粗细可调，成套使用很整齐",
+      "descEn": "A set of over 6200 free MIT-licensed high-quality SVG icons for you to use in your web projects.",
+      "tags": [
+        "图标",
+        "设计",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 21775,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "iconify",
+      "name": "Iconify",
+      "repo": "iconify/iconify",
+      "homepage": "https://iconify.design",
+      "category": "design",
+      "desc": "一个接口统一访问几十个图标集，二十万图标随取随用",
+      "descEn": "Universal icon framework. One syntax for FontAwesome, Material Design Icons, DashIcons, Feather Icons, EmojiOne, Noto Emoji and many other open source icon sets (over 200 icon sets and ~300k icons). SVG framework, React, Vue and Svelte components!",
+      "tags": [
+        "图标",
+        "设计"
+      ],
+      "seed": {
+        "stars": 6330,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib",
+        "online"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "fontsource",
+      "name": "Fontsource",
+      "repo": "fontsource/fontsource",
+      "homepage": "https://fontsource.org",
+      "category": "design",
+      "desc": "把开源字体做成 npm 包自己托管，不依赖 Google Fonts",
+      "descEn": "Self-host Open Source fonts in neatly bundled NPM packages.",
+      "tags": [
+        "字体",
+        "设计",
+        "隐私"
+      ],
+      "seed": {
+        "stars": 6137,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "shadcn-ui",
+      "name": "shadcn/ui",
+      "repo": "shadcn-ui/ui",
+      "homepage": "https://ui.shadcn.com",
+      "category": "design",
+      "desc": "复制粘贴就能用的 React 组件，代码在你自己的仓库里",
+      "descEn": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.",
+      "tags": [
+        "设计系统",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 124446,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-21"
+    },
+    {
+      "id": "radix-ui",
+      "name": "Radix UI",
+      "repo": "radix-ui/primitives",
+      "homepage": "https://www.radix-ui.com",
+      "category": "design",
+      "desc": "无样式的 React 无障碍组件底座，很多 UI 库都建在它上面",
+      "descEn": "Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.",
+      "tags": [
+        "设计系统",
+        "开发者"
+      ],
+      "seed": {
+        "stars": 19321,
+        "language": "TypeScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-08-08"
+    },
+    {
+      "id": "heroicons",
+      "name": "Heroicons",
+      "repo": "tailwindlabs/heroicons",
+      "homepage": "https://heroicons.com",
+      "category": "design",
+      "desc": "Tailwind 团队出的图标集，两套风格，直接复制 SVG",
+      "descEn": "A set of free MIT-licensed high-quality SVG icons for UI development.",
+      "tags": [
+        "图标",
+        "设计"
+      ],
+      "seed": {
+        "stars": 23816,
+        "language": "JavaScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-05-12"
+    },
+    {
+      "id": "open-color",
+      "name": "Open Color",
+      "repo": "yeun/open-color",
+      "homepage": "https://yeun.github.io/open-color/",
+      "category": "design",
+      "desc": "配色方案生成器，给出成体系的调色板",
+      "descEn": "Color scheme for UI design.",
+      "tags": [
+        "设计",
+        "配色"
+      ],
+      "seed": {
+        "stars": 5568,
+        "language": "JavaScript",
+        "license": "MIT"
+      },
+      "usage": [
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2023-12-10"
+    },
+    {
+      "id": "simple-icons",
+      "name": "Simple Icons",
+      "repo": "simple-icons/simple-icons",
+      "homepage": "https://simpleicons.org",
+      "category": "design",
+      "desc": "三千多个品牌和技术的 SVG 图标，写文档做落地页常用",
+      "descEn": "SVG icons for popular brands",
+      "tags": [
+        "图标",
+        "设计"
+      ],
+      "seed": {
+        "stars": 25901,
+        "language": "JavaScript",
+        "license": "CC0-1.0"
+      },
+      "usage": [
+        "lib"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-20"
+    },
+    {
+      "id": "firefox",
+      "name": "Firefox",
+      "repo": "mozilla-firefox/firefox",
+      "homepage": "https://www.mozilla.org/firefox/",
+      "category": "browser",
+      "desc": "唯一还在独立开发的主流浏览器引擎，隐私保护和扩展生态都强",
+      "descEn": "The official repository of Mozilla's Firefox web browser.",
+      "tags": [
+        "浏览器",
+        "隐私"
+      ],
+      "seed": {
+        "stars": 13221,
+        "language": "C++",
+        "license": "MPL-2.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "brave-browser",
+      "name": "Brave",
+      "repo": "brave/brave-browser",
+      "homepage": "https://brave.com",
+      "category": "browser",
+      "desc": "自带广告拦截的 Chromium 分支，还带奖励和 Tor 窗口",
+      "descEn": "Brave browser for Android, iOS, Linux, macOS, Windows.",
+      "tags": [
+        "浏览器",
+        "广告拦截",
+        "隐私"
+      ],
+      "seed": {
+        "stars": 23695,
+        "language": "JavaScript",
+        "license": "MPL-2.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "zen-browser",
+      "name": "Zen Browser",
+      "repo": "zen-browser/desktop",
+      "homepage": "https://zen-browser.app",
+      "category": "browser",
+      "desc": "基于 Firefox 的现代浏览器，侧边栏和工作区设计很舒服",
+      "descEn": "Welcome to a calmer internet",
+      "tags": [
+        "浏览器"
+      ],
+      "seed": {
+        "stars": 44562,
+        "language": "TypeScript",
+        "license": "MPL-2.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "floorp",
+      "name": "Floorp",
+      "repo": "Floorp-Projects/Floorp",
+      "homepage": "https://floorp.app",
+      "category": "browser",
+      "desc": "日本团队做的 Firefox 分支，可定制性极高",
+      "descEn": "All of source code of Floorp 12, the most Advanced and Fastest Firefox derivative 🦊",
+      "tags": [
+        "浏览器"
+      ],
+      "seed": {
+        "stars": 8391,
+        "language": "TypeScript",
+        "license": "MPL-2.0"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "ungoogled-chromium",
+      "name": "ungoogled-chromium",
+      "repo": "ungoogled-software/ungoogled-chromium",
+      "homepage": "",
+      "category": "browser",
+      "desc": "把 Chromium 里所有谷歌服务和遥测都摘掉的构建",
+      "descEn": "Google Chromium, sans integration with Google",
+      "tags": [
+        "浏览器",
+        "隐私",
+        "去谷歌化"
+      ],
+      "seed": {
+        "stars": 27771,
+        "language": "Python",
+        "license": "BSD-3-Clause"
+      },
+      "usage": [
+        "desktop"
+      ],
+      "scene": "",
+      "cloud": "",
+      "platforms": [],
+      "caution": "",
+      "pushedAt": "2026-09-21"
+    },
+    {
+      "id": "ladybird",
+      "name": "Ladybird",
+      "repo": "LadybirdBrowser/ladybird",
+      "homepage": "https://ladybird.org",
+      "category": "browser",
+      "desc": "从零写的独立浏览器引擎，不做 Chromium 的附庸",
+      "descEn": "Truly independent web browser",
+      "tags": [
+        "浏览器"
+      ],
+      "seed": {
+        "stars": 66286,
+        "language": "C++",
+        "license": "BSD-2-Clause"
       },
       "usage": [
         "desktop"

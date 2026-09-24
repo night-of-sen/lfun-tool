@@ -1,7 +1,217 @@
 {
-  "generatedAt": "2026-09-23T08:40:50.394Z",
-  "count": 356,
+  "generatedAt": "2026-09-24T01:08:57.466Z",
+  "count": 535,
   "items": [
+    {
+      "id": "build-your-own-x",
+      "name": "Build Your Own X",
+      "repo": "codecrafters-io/build-your-own-x",
+      "category": "learn",
+      "desc": "从零手写各种东西的教程合集：数据库、编译器、操作系统、Git",
+      "tags": [
+        "学习",
+        "编程教学"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 549073,
+      "language": "Markdown",
+      "archived": false,
+      "pushedAt": "2026-07-14",
+      "descEn": "Master programming by recreating your favorite technologies from scratch.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "freecodecamp",
+      "name": "freeCodeCamp",
+      "repo": "freeCodeCamp/freeCodeCamp",
+      "category": "learn",
+      "desc": "免费学编程的完整课程体系，边写边练还有认证",
+      "tags": [
+        "学习",
+        "编程教学"
+      ],
+      "usage": [
+        "online"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.freecodecamp.org",
+      "stars": 456046,
+      "language": "TypeScript",
+      "license": "BSD-3-Clause",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "free-programming-books",
+      "name": "Free Programming Books",
+      "repo": "EbookFoundation/free-programming-books",
+      "category": "learn",
+      "desc": "各种语言的免费编程书单，按语言和主题分好类",
+      "tags": [
+        "学习",
+        "清单"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://ebookfoundation.github.io/free-programming-books/",
+      "stars": 397532,
+      "language": "Markdown",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": ":books: Freely available programming books",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "system-design-primer",
+      "name": "System Design Primer",
+      "repo": "donnemartin/system-design-primer",
+      "category": "learn",
+      "desc": "系统设计面试必读，把分布式系统的核心概念讲透了",
+      "tags": [
+        "学习",
+        "面试",
+        "系统设计"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 371470,
+      "language": "Python",
+      "archived": false,
+      "pushedAt": "2026-09-15",
+      "descEn": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "developer-roadmap",
+      "name": "Developer Roadmaps",
+      "repo": "kamranahmedse/developer-roadmap",
+      "category": "learn",
+      "desc": "各方向的学习路线图，从入门到进阶该学什么都画清楚了",
+      "tags": [
+        "学习",
+        "路线图"
+      ],
+      "usage": [
+        "online"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://roadmap.sh",
+      "stars": 367981,
+      "language": "TypeScript",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "coding-interview-university",
+      "name": "Coding Interview University",
+      "repo": "jwasham/coding-interview-university",
+      "category": "learn",
+      "desc": "一个人从零准备大厂面试的完整学习计划，被 star 了十几万次",
+      "tags": [
+        "学习",
+        "面试"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 361778,
+      "language": "Markdown",
+      "archived": false,
+      "pushedAt": "2025-08-28",
+      "descEn": "A complete computer science study plan to become a software engineer.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "awesome-selfhosted",
+      "name": "Awesome Selfhosted",
+      "repo": "awesome-selfhosted/awesome-selfhosted",
+      "category": "learn",
+      "desc": "可自托管服务的总目录，按用途分类，找替代品的起点",
+      "tags": [
+        "清单",
+        "可自托管"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://awesome-selfhosted.net",
+      "stars": 321317,
+      "language": "Markdown",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "project-based-learning",
+      "name": "Project Based Learning",
+      "repo": "practical-tutorials/project-based-learning",
+      "category": "learn",
+      "desc": "按项目学编程的教程合集，从写一个计算器到写一个操作系统",
+      "tags": [
+        "学习",
+        "编程教学"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 284372,
+      "language": "Markdown",
+      "archived": false,
+      "pushedAt": "2026-09-21",
+      "descEn": "Curated list of project-based tutorials",
+      "syncOk": false,
+      "syncedAt": ""
+    },
     {
       "id": "opencode",
       "name": "OpenCode",
@@ -28,6 +238,32 @@
       "descEn": "The open source coding agent.",
       "syncOk": true,
       "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
+      "id": "ossu",
+      "name": "Open Source Society University",
+      "repo": "ossu/computer-science",
+      "category": "learn",
+      "desc": "用免费课程自学一个完整的计算机科学本科",
+      "tags": [
+        "学习",
+        "计算机科学"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://ossu.dev",
+      "stars": 209406,
+      "language": "Markdown",
+      "archived": false,
+      "pushedAt": "2026-07-14",
+      "descEn": "🎓 Path to a free self-taught education in Computer Science!",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "n8n",
@@ -78,14 +314,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "",
-      "stars": 192757,
+      "stars": 193226,
       "language": "Python",
       "license": "Unlicense",
       "archived": false,
       "pushedAt": "2026-09-16",
       "descEn": "A feature-rich command-line audio/video downloader",
       "syncOk": true,
-      "syncedAt": "2026-09-22T07:10:42.651Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "autogpt",
@@ -279,6 +515,36 @@
       "syncedAt": ""
     },
     {
+      "id": "scrcpy",
+      "name": "scrcpy",
+      "repo": "Genymobile/scrcpy",
+      "category": "mobile",
+      "desc": "用电脑控制安卓手机，画面流畅延迟低，不用装手机端应用",
+      "tags": [
+        "移动端",
+        "投屏",
+        "命令行"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 150280,
+      "language": "C",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Display and control your Android device",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "langchain",
       "name": "LangChain",
       "repo": "langchain-ai/langchain",
@@ -326,14 +592,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "",
-      "stars": 138919,
+      "stars": 138946,
       "language": "C",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-23",
       "descEn": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "comfyui",
@@ -382,14 +648,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://excalidraw.com",
-      "stars": 132690,
+      "stars": 132740,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "2026-09-22",
+      "pushedAt": "2026-09-23",
       "descEn": "Virtual whiteboard for sketching hand-drawn like diagrams",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "llama-cpp",
@@ -416,6 +682,33 @@
       "archived": false,
       "pushedAt": "2026-09-23",
       "descEn": "LLM inference in C/C++",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "shadcn-ui",
+      "name": "shadcn/ui",
+      "repo": "shadcn-ui/ui",
+      "category": "design",
+      "desc": "复制粘贴就能用的 React 组件，代码在你自己的仓库里",
+      "tags": [
+        "设计系统",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://ui.shadcn.com",
+      "stars": 124446,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-21",
+      "descEn": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -447,6 +740,62 @@
       "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
+      "id": "immich",
+      "name": "Immich",
+      "repo": "immich-app/immich",
+      "category": "storage",
+      "desc": "自建版 Google Photos，手机自动备份、人脸识别、地图相册",
+      "tags": [
+        "照片管理",
+        "同步",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://immich.app",
+      "stars": 114843,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "High performance self-hosted photo and video management solution.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "frp",
+      "name": "frp",
+      "repo": "fatedier/frp",
+      "category": "network",
+      "desc": "内网穿透神器，把家里或公司的服务暴露到公网",
+      "tags": [
+        "内网穿透",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost",
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://gofrp.org",
+      "stars": 109593,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-15",
+      "descEn": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "whisper",
       "name": "Whisper",
       "repo": "openai/whisper",
@@ -471,6 +820,34 @@
       "archived": false,
       "pushedAt": "2026-08-31",
       "descEn": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "neovim",
+      "name": "Neovim",
+      "repo": "neovim/neovim",
+      "category": "editor",
+      "desc": "Vim 的现代化重构，Lua 配置加异步插件，终端编辑器天花板",
+      "tags": [
+        "编辑器",
+        "命令行"
+      ],
+      "usage": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://neovim.io",
+      "stars": 102537,
+      "language": "C",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Vim-fork focused on extensibility and usability",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -520,13 +897,40 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://stirlingpdf.com",
-      "stars": 92832,
-      "language": "TypeScript",
+      "stars": 92907,
+      "language": "Java",
       "archived": false,
       "pushedAt": "2026-09-23",
       "descEn": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "localsend",
+      "name": "LocalSend",
+      "repo": "localsend/localsend",
+      "category": "storage",
+      "desc": "跨平台局域网传文件，替代 AirDrop，手机电脑互通",
+      "tags": [
+        "文件传输",
+        "离线"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://localsend.org",
+      "stars": 92557,
+      "language": "Dart",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "An open-source cross-platform alternative to AirDrop",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "sherlock",
@@ -588,6 +992,62 @@
       "syncedAt": ""
     },
     {
+      "id": "uptime-kuma",
+      "name": "Uptime Kuma",
+      "repo": "louislam/uptime-kuma",
+      "category": "monitor",
+      "desc": "自建站点监控，HTTP、Ping、端口都能盯，挂了发通知",
+      "tags": [
+        "监控",
+        "告警",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://uptime.kuma.pet",
+      "stars": 91745,
+      "language": "JavaScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "A fancy self-hosted monitoring tool",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "home-assistant",
+      "name": "Home Assistant",
+      "repo": "home-assistant/core",
+      "category": "iot",
+      "desc": "本地优先的智能家居中枢，把各家设备统一到一个界面",
+      "tags": [
+        "智能家居",
+        "自动化",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.home-assistant.io",
+      "stars": 91123,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": ":house_with_garden: Open source home automation that puts local control and privacy first.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "ragflow",
       "name": "RAGFlow",
       "repo": "infiniflow/ragflow",
@@ -611,6 +1071,33 @@
       "archived": false,
       "pushedAt": "2026-09-22",
       "descEn": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "zed",
+      "name": "Zed",
+      "repo": "zed-industries/zed",
+      "category": "editor",
+      "desc": "用 Rust 写的高性能协作编辑器，启动和响应极快",
+      "tags": [
+        "编辑器",
+        "协作"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://zed.dev",
+      "stars": 90786,
+      "language": "Rust",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -660,14 +1147,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://mermaid.live",
-      "stars": 90368,
+      "stars": 90391,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-21",
       "descEn": "Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "openhands",
@@ -694,6 +1181,35 @@
       "archived": false,
       "pushedAt": "2026-09-23",
       "descEn": "🙌 OpenHands: AI-Driven Development",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "syncthing",
+      "name": "Syncthing",
+      "repo": "syncthing/syncthing",
+      "category": "storage",
+      "desc": "点对点文件同步，不经过任何中心服务器，两端直连",
+      "tags": [
+        "同步",
+        "隐私",
+        "可自托管"
+      ],
+      "usage": [
+        "desktop",
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://syncthing.net",
+      "stars": 88875,
+      "language": "Go",
+      "license": "MPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Open Source Continuous File Synchronization",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -787,6 +1303,61 @@
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
     {
+      "id": "netdata",
+      "name": "Netdata",
+      "repo": "netdata/netdata",
+      "category": "monitor",
+      "desc": "开箱即用的系统监控，装完就有秒级粒度的实时图表",
+      "tags": [
+        "监控",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.netdata.cloud",
+      "stars": 80632,
+      "language": "C",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "mineru",
+      "name": "MinerU",
+      "repo": "opendatalab/MinerU",
+      "category": "doc",
+      "desc": "把 PDF 变成适合大模型读的 Markdown 和 JSON，中文文档效果好",
+      "tags": [
+        "文档",
+        "AI"
+      ],
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://mineru.net",
+      "stars": 80502,
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "hoppscotch",
       "name": "Hoppscotch",
       "repo": "hoppscotch/hoppscotch",
@@ -804,14 +1375,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://hoppscotch.io",
-      "stars": 80470,
+      "stars": 80482,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "2026-09-21",
+      "pushedAt": "2026-09-23",
       "descEn": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "ventoy",
@@ -834,14 +1405,71 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://www.ventoy.net",
-      "stars": 79478,
+      "stars": 79504,
       "language": "C",
       "license": "GPL-3.0",
       "archived": false,
       "pushedAt": "2026-08-06",
       "descEn": "A new bootable USB solution.",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "appflowy",
+      "name": "AppFlowy",
+      "repo": "AppFlowy-IO/AppFlowy",
+      "category": "notes",
+      "desc": "开源版 Notion，文档、看板、数据库视图都有",
+      "tags": [
+        "笔记",
+        "协作",
+        "可自托管"
+      ],
+      "usage": [
+        "desktop",
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://appflowy.io",
+      "stars": 76903,
+      "language": "Rust",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "grafana",
+      "name": "Grafana",
+      "repo": "grafana/grafana",
+      "category": "monitor",
+      "desc": "指标可视化平台，接上数据源就能拼出专业监控大盘",
+      "tags": [
+        "监控",
+        "可视化",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://grafana.com",
+      "stars": 76872,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "obs-studio",
@@ -867,6 +1495,90 @@
       "archived": false,
       "pushedAt": "2026-09-23",
       "descEn": "OBS Studio - Free and open source software for live streaming and screen recording",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "caddy",
+      "name": "Caddy",
+      "repo": "caddyserver/caddy",
+      "category": "network",
+      "desc": "自动申请续期 HTTPS 证书的 Web 服务器，配置文件极简",
+      "tags": [
+        "反向代理",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost",
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://caddyserver.com",
+      "stars": 76035,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "strapi",
+      "name": "Strapi",
+      "repo": "strapi/strapi",
+      "category": "lowcode",
+      "desc": "可定制的无头 CMS，内容建模和 API 生成都是自动的",
+      "tags": [
+        "低代码",
+        "内容管理",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://strapi.io",
+      "stars": 73220,
+      "language": "TypeScript",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "affine",
+      "name": "AFFiNE",
+      "repo": "toeverything/AFFiNE",
+      "category": "notes",
+      "desc": "文档、白板和表格融合在一起的知识库，Notion 加 Miro 的组合",
+      "tags": [
+        "笔记",
+        "协作",
+        "白板"
+      ],
+      "usage": [
+        "desktop",
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://affine.pro",
+      "stars": 72910,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -986,6 +1698,34 @@
       "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
+      "id": "vaultwarden",
+      "name": "Vaultwarden",
+      "repo": "dani-garcia/vaultwarden",
+      "category": "security",
+      "desc": "Bitwarden 服务端的轻量 Rust 实现，一台小机器就能自建密码库",
+      "tags": [
+        "密码管理",
+        "加密",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 68076,
+      "language": "Rust",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "ublock-origin",
       "name": "uBlock Origin",
       "repo": "gorhill/uBlock",
@@ -1012,6 +1752,35 @@
       "descEn": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
       "syncOk": true,
       "syncedAt": "2026-09-23T03:15:04.641Z"
+    },
+    {
+      "id": "docling",
+      "name": "Docling",
+      "repo": "docling-project/docling",
+      "category": "doc",
+      "desc": "把 PDF 和 Office 文档解析成结构化数据，喂给大模型用",
+      "tags": [
+        "文档",
+        "AI",
+        "开发者"
+      ],
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://docling-project.github.io/docling/",
+      "stars": 67731,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Get your documents ready for gen AI",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "anything-llm",
@@ -1042,6 +1811,60 @@
       "syncedAt": ""
     },
     {
+      "id": "ladybird",
+      "name": "Ladybird",
+      "repo": "LadybirdBrowser/ladybird",
+      "category": "browser",
+      "desc": "从零写的独立浏览器引擎，不做 Chromium 的附庸",
+      "tags": [
+        "浏览器"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://ladybird.org",
+      "stars": 66286,
+      "language": "C++",
+      "license": "BSD-2-Clause",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Truly independent web browser",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "prometheus",
+      "name": "Prometheus",
+      "repo": "prometheus/prometheus",
+      "category": "monitor",
+      "desc": "指标采集与时序数据库，云原生监控的事实标准",
+      "tags": [
+        "监控",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost",
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://prometheus.io",
+      "stars": 66196,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "The Prometheus monitoring system and time series database.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "mem0",
       "name": "Mem0",
       "repo": "mem0ai/mem0",
@@ -1068,6 +1891,89 @@
       "descEn": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
       "syncOk": true,
       "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
+      "id": "alacritty",
+      "name": "Alacritty",
+      "repo": "alacritty/alacritty",
+      "category": "editor",
+      "desc": "专注速度的 GPU 终端，简单到只有配置文件",
+      "tags": [
+        "终端"
+      ],
+      "usage": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://alacritty.org",
+      "stars": 65801,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-08-31",
+      "descEn": "A cross-platform, OpenGL terminal emulator.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "nocodb",
+      "name": "NocoDB",
+      "repo": "nocodb/nocodb",
+      "category": "lowcode",
+      "desc": "把任意数据库变成 Airtable 式的表格界面",
+      "tags": [
+        "低代码",
+        "数据库",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://nocodb.com",
+      "stars": 65054,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "traefik",
+      "name": "Traefik",
+      "repo": "traefik/traefik",
+      "category": "network",
+      "desc": "云原生反向代理，容器一起来路由自动就绪",
+      "tags": [
+        "反向代理",
+        "容器",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://traefik.io",
+      "stars": 64938,
+      "language": "Go",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "The Cloud Native Application Proxy",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "ffmpeg",
@@ -1128,6 +2034,90 @@
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
     {
+      "id": "memos",
+      "name": "Memos",
+      "repo": "usememos/memos",
+      "category": "notes",
+      "desc": "轻量碎片笔记，像自建的推特，随手记想法",
+      "tags": [
+        "笔记",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.usememos.com",
+      "stars": 63287,
+      "language": "Go",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "magisk",
+      "name": "Magisk",
+      "repo": "topjohnwu/Magisk",
+      "category": "mobile",
+      "desc": "安卓 root 方案的事实标准，支持模块化和隐藏 root",
+      "tags": [
+        "移动端",
+        "系统增强"
+      ],
+      "usage": [
+        "mobile"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "caution": "系统修改",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://github.com/topjohnwu/Magisk",
+      "stars": 62911,
+      "language": "Kotlin",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "The Magic Mask for Android",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "coolify",
+      "name": "Coolify",
+      "repo": "coollabsio/coolify",
+      "category": "monitor",
+      "desc": "自托管版 Vercel，从 Git 一键部署应用和数据库",
+      "tags": [
+        "运维",
+        "部署",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://coolify.io",
+      "stars": 62201,
+      "language": "PHP",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "marktext",
       "name": "MarkText",
       "repo": "marktext/marktext",
@@ -1149,14 +2139,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://www.marktext.me",
-      "stars": 61746,
+      "stars": 61790,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-23",
       "descEn": "📝A simple and elegant markdown editor, available for Linux, macOS and Windows.",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "pake",
@@ -1180,14 +2170,70 @@
       "scene": "",
       "cloud": "",
       "homepage": "",
-      "stars": 61590,
+      "stars": 61687,
       "language": "Rust",
       "license": "GPL-3.0",
       "archived": false,
-      "pushedAt": "2026-09-20",
+      "pushedAt": "2026-09-22",
       "descEn": "🤱🏻 Turn any webpage into a desktop app with one command.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T07:10:42.651Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "ghostty",
+      "name": "Ghostty",
+      "repo": "ghostty-org/ghostty",
+      "category": "editor",
+      "desc": "原生 GPU 终端，启动快、支持终端图形协议",
+      "tags": [
+        "终端"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://ghostty.org",
+      "stars": 61477,
+      "language": "Zig",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "termux",
+      "name": "Termux",
+      "repo": "termux/termux-app",
+      "category": "mobile",
+      "desc": "安卓上的终端和 Linux 环境，手机上跑 Python 和 git",
+      "tags": [
+        "移动端",
+        "命令行",
+        "终端"
+      ],
+      "usage": [
+        "mobile"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://termux.dev",
+      "stars": 61297,
+      "language": "Java",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-16",
+      "descEn": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "pocketbase",
@@ -1245,6 +2291,34 @@
       "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
+      "id": "pi-hole",
+      "name": "Pi-hole",
+      "repo": "pi-hole/pi-hole",
+      "category": "network",
+      "desc": "网络级广告拦截的鼻祖，一个树莓派就能拦住全家广告",
+      "tags": [
+        "DNS",
+        "广告拦截",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://pi-hole.net",
+      "stars": 61041,
+      "language": "Shell",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "A black hole for Internet advertisements",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "bat",
       "name": "bat",
       "repo": "sharkdp/bat",
@@ -1293,14 +2367,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://penpot.app",
-      "stars": 60277,
+      "stars": 60309,
       "language": "Clojure",
       "license": "MPL-2.0",
       "archived": false,
-      "pushedAt": "2026-09-22",
+      "pushedAt": "2026-09-23",
       "descEn": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "remotion",
@@ -1326,6 +2400,61 @@
       "archived": false,
       "pushedAt": "2026-09-22",
       "descEn": "🎥      Make videos programmatically with React",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "starship",
+      "name": "Starship",
+      "repo": "starship/starship",
+      "category": "editor",
+      "desc": "极快的跨 shell 提示符，自动显示 git 分支和语言版本",
+      "tags": [
+        "终端",
+        "命令行"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://starship.rs",
+      "stars": 60021,
+      "language": "Rust",
+      "license": "ISC",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "rclone",
+      "name": "rclone",
+      "repo": "rclone/rclone",
+      "category": "storage",
+      "desc": "命令行操作几十种云存储，同步、挂载、迁移全靠它",
+      "tags": [
+        "同步",
+        "命令行",
+        "云存储"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://rclone.org",
+      "stars": 59916,
+      "language": "Go",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -1465,14 +2594,42 @@
       "scene": "",
       "cloud": "",
       "homepage": "",
-      "stars": 57494,
+      "stars": 57532,
       "language": "PowerShell",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-10",
       "descEn": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "jellyfin",
+      "name": "Jellyfin",
+      "repo": "jellyfin/jellyfin",
+      "category": "mediaserver",
+      "desc": "自建影视库，刮削海报、转码播放、多端客户端全都有",
+      "tags": [
+        "媒体服务器",
+        "影视",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://jellyfin.org",
+      "stars": 57440,
+      "language": "C#",
+      "license": "GPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "The Free Software Media System - Server Backend & API",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "twenty",
@@ -1503,6 +2660,33 @@
       "syncedAt": "2026-09-22T08:42:38.435Z"
     },
     {
+      "id": "joplin",
+      "name": "Joplin",
+      "repo": "laurent22/joplin",
+      "category": "notes",
+      "desc": "跨平台笔记应用，端到端加密，可同步到自己的网盘",
+      "tags": [
+        "笔记",
+        "加密"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://joplinapp.org",
+      "stars": 56478,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "motrix",
       "name": "Motrix",
       "repo": "agalwood/Motrix",
@@ -1524,14 +2708,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://motrix.app",
-      "stars": 55778,
+      "stars": 55804,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-23",
       "descEn": "A full-featured download manager.",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "dive",
@@ -1648,6 +2832,34 @@
       "syncedAt": ""
     },
     {
+      "id": "dbeaver",
+      "name": "DBeaver",
+      "repo": "dbeaver/dbeaver",
+      "category": "database",
+      "desc": "通用数据库客户端，几十种数据库一个界面管完",
+      "tags": [
+        "数据库",
+        "桌面",
+        "开发者"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://dbeaver.io",
+      "stars": 51854,
+      "language": "Java",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Free universal database tool and SQL client",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "tldraw",
       "name": "tldraw",
       "repo": "tldraw/tldraw",
@@ -1665,13 +2877,13 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://tldraw.com",
-      "stars": 50524,
+      "stars": 50537,
       "language": "TypeScript",
       "archived": false,
       "pushedAt": "2026-09-23",
       "descEn": "Build infinite canvas apps in React with the tldraw SDK. World's best, top-most agent recommended #1 five star SDK.",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "mastodon",
@@ -1729,6 +2941,39 @@
       "syncedAt": ""
     },
     {
+      "id": "spotube",
+      "name": "Spotube",
+      "repo": "KRTirtho/spotube",
+      "category": "media",
+      "desc": "开源音乐流客户端，跨桌面和移动端",
+      "tags": [
+        "音乐",
+        "跨平台"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://spotube.cc/",
+      "stars": 49368,
+      "language": "Dart",
+      "license": "BSD-4-Clause",
+      "archived": false,
+      "pushedAt": "2026-09-12",
+      "descEn": "🎧 Open source music streaming app! Available for both desktop & mobile!",
+      "syncOk": true,
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
       "id": "metabase",
       "name": "Metabase",
       "repo": "metabase/metabase",
@@ -1755,39 +3000,6 @@
       "descEn": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
-    },
-    {
-      "id": "spotube",
-      "name": "Spotube",
-      "repo": "KRTirtho/spotube",
-      "category": "media",
-      "desc": "开源音乐流客户端，跨桌面和移动端",
-      "tags": [
-        "音乐",
-        "跨平台"
-      ],
-      "usage": [
-        "desktop"
-      ],
-      "platforms": [
-        "windows",
-        "macos",
-        "linux",
-        "android",
-        "ios"
-      ],
-      "caution": "",
-      "scene": "",
-      "cloud": "",
-      "homepage": "https://spotube.cc/",
-      "stars": 49353,
-      "language": "Dart",
-      "license": "BSD-4-Clause",
-      "archived": false,
-      "pushedAt": "2026-09-12",
-      "descEn": "🎧 Open source music streaming app! Available for both desktop & mobile!",
-      "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
     },
     {
       "id": "localai",
@@ -1861,14 +3073,43 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://sli.dev",
-      "stars": 48803,
+      "stars": 48820,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-16",
       "descEn": "Presentation Slides for Developers",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "cal-com",
+      "name": "Cal.com",
+      "repo": "calcom/cal.com",
+      "category": "project",
+      "desc": "日程预约系统，把可预约时间做成链接发出去",
+      "tags": [
+        "日程",
+        "会议",
+        "可自托管"
+      ],
+      "usage": [
+        "online",
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://cal.com",
+      "stars": 48628,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-20",
+      "descEn": "Scheduling infrastructure for absolutely everyone.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "discourse",
@@ -1916,14 +3157,125 @@
       "scene": "",
       "cloud": "",
       "homepage": "",
-      "stars": 47448,
+      "stars": 47466,
       "language": "Python",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2025-11-20",
       "descEn": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "bruno",
+      "name": "Bruno",
+      "repo": "usebruno/bruno",
+      "category": "database",
+      "desc": "离线优先的 API 调试工具，请求存成纯文本文件可进 git",
+      "tags": [
+        "API测试",
+        "开发者",
+        "离线"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.usebruno.com",
+      "stars": 47142,
+      "language": "JavaScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "siyuan",
+      "name": "SiYuan",
+      "repo": "siyuan-note/siyuan",
+      "category": "notes",
+      "desc": "块级引用笔记，中文友好，数据完全存在本地",
+      "tags": [
+        "笔记",
+        "知识库"
+      ],
+      "usage": [
+        "desktop",
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://b3log.org/siyuan/",
+      "stars": 46469,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "pandoc",
+      "name": "Pandoc",
+      "repo": "jgm/pandoc",
+      "category": "doc",
+      "desc": "万能文档转换器，几十种标记格式之间互转，学术写作必备",
+      "tags": [
+        "文档",
+        "命令行"
+      ],
+      "usage": [
+        "cli",
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://pandoc.org",
+      "stars": 46387,
+      "language": "Haskell",
+      "license": "GPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Universal markup converter",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "helix",
+      "name": "Helix",
+      "repo": "helix-editor/helix",
+      "category": "editor",
+      "desc": "开箱即用的模态编辑器，多选和内置 LSP 是它的招牌",
+      "tags": [
+        "编辑器",
+        "命令行"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://helix-editor.com",
+      "stars": 46313,
+      "language": "Rust",
+      "license": "MPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "A post-modern modal text editor.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "rsshub",
@@ -1950,6 +3302,116 @@
       "archived": false,
       "pushedAt": "2026-09-22",
       "descEn": "🧡 Everything is RSSible",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "rocketchat",
+      "name": "Rocket.Chat",
+      "repo": "RocketChat/Rocket.Chat",
+      "category": "team",
+      "desc": "功能全的自托管 IM，支持联邦和大量集成",
+      "tags": [
+        "团队沟通",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://rocket.chat",
+      "stars": 46158,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "The Secure CommsOS™ for mission-critical operations",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "paperless-ngx",
+      "name": "Paperless-ngx",
+      "repo": "paperless-ngx/paperless-ngx",
+      "category": "storage",
+      "desc": "把纸质文件扫进来做 OCR 归档，之后按内容全文搜索",
+      "tags": [
+        "文档管理",
+        "OCR",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://docs.paperless-ngx.com",
+      "stars": 45954,
+      "language": "Python",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "A community-supported supercharged document management system: scan, index and archive all your documents",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "mitmproxy",
+      "name": "mitmproxy",
+      "repo": "mitmproxy/mitmproxy",
+      "category": "security",
+      "desc": "交互式抓包和改包工具，调试 App 和接口很好用",
+      "tags": [
+        "安全",
+        "抓包",
+        "命令行"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://mitmproxy.org",
+      "stars": 45135,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-10",
+      "descEn": "An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "logseq",
+      "name": "Logseq",
+      "repo": "logseq/logseq",
+      "category": "notes",
+      "desc": "大纲式双向链接笔记，本地纯文本存储，适合做知识网络",
+      "tags": [
+        "笔记",
+        "知识库"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://logseq.com",
+      "stars": 45036,
+      "language": "Clojure",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -2008,6 +3470,32 @@
       "syncedAt": ""
     },
     {
+      "id": "zen-browser",
+      "name": "Zen Browser",
+      "repo": "zen-browser/desktop",
+      "category": "browser",
+      "desc": "基于 Firefox 的现代浏览器，侧边栏和工作区设计很舒服",
+      "tags": [
+        "浏览器"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://zen-browser.app",
+      "stars": 44562,
+      "language": "TypeScript",
+      "license": "MPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Welcome to a calmer internet",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "fd",
       "name": "fd",
       "repo": "sharkdp/fd",
@@ -2056,14 +3544,43 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://jsoncrack.com",
-      "stars": 44442,
+      "stars": 44449,
       "language": "TypeScript",
       "license": "Apache-2.0",
       "archived": false,
       "pushedAt": "2026-09-14",
       "descEn": "✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML and CSV into interactive graphs.",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "headscale",
+      "name": "Headscale",
+      "repo": "juanfont/headscale",
+      "category": "network",
+      "desc": "Tailscale 控制平面的自托管实现，组自己的虚拟内网",
+      "tags": [
+        "VPN",
+        "内网穿透",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost",
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://headscale.net",
+      "stars": 44069,
+      "language": "Go",
+      "license": "BSD-3-Clause",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "An open source, self-hosted implementation of the Tailscale control server",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "lossless-cut",
@@ -2166,14 +3683,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://rxresu.me",
-      "stars": 43339,
+      "stars": 43372,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-22",
       "descEn": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "agno",
@@ -2260,6 +3777,90 @@
       "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
+      "id": "tooljet",
+      "name": "ToolJet",
+      "repo": "ToolJet/ToolJet",
+      "category": "lowcode",
+      "desc": "低代码搭内部工具，支持多种数据源和自建部署",
+      "tags": [
+        "低代码",
+        "内部工具",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://tooljet.com",
+      "stars": 40984,
+      "language": "JavaScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business applications, workflows and AI agents. Build visually, from a prompt, or from Claude Code, Codex and Cursor over MCP 🚀",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "appsmith",
+      "name": "Appsmith",
+      "repo": "appsmithorg/appsmith",
+      "category": "lowcode",
+      "desc": "拖拽搭内部管理后台，连上数据库就能出现表格和表单",
+      "tags": [
+        "低代码",
+        "内部工具",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.appsmith.com",
+      "stars": 40930,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "outline",
+      "name": "Outline",
+      "repo": "outline/outline",
+      "category": "notes",
+      "desc": "团队知识库和文档协作，界面干净，支持全文搜索",
+      "tags": [
+        "知识库",
+        "协作",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.getoutline.com",
+      "stars": 40678,
+      "language": "TypeScript",
+      "license": "BSL-1.1",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "it-tools",
       "name": "IT-Tools",
       "repo": "CorentinTh/it-tools",
@@ -2277,14 +3878,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://it-tools.tech",
-      "stars": 40667,
+      "stars": 40671,
       "language": "Vue",
       "license": "GPL-3.0",
       "archived": false,
-      "pushedAt": "2026-09-16",
+      "pushedAt": "2026-09-23",
       "descEn": "Collection of handy online tools for developers, with great UX. ",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "croc",
@@ -2318,6 +3919,33 @@
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
     {
+      "id": "photoprism",
+      "name": "PhotoPrism",
+      "repo": "photoprism/photoprism",
+      "category": "mediaserver",
+      "desc": "照片管理服务器，自动分类、人脸和地点识别",
+      "tags": [
+        "照片管理",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://photoprism.app",
+      "stars": 40229,
+      "language": "Go",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "AI-Powered Photos App 🌈💎✨",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "novu",
       "name": "Novu",
       "repo": "novuhq/novu",
@@ -2344,6 +3972,34 @@
       "descEn": "The open-source communication infrastructure for agents and products",
       "syncOk": true,
       "syncedAt": "2026-09-22T08:42:38.435Z"
+    },
+    {
+      "id": "marker",
+      "name": "Marker",
+      "repo": "datalab-to/marker",
+      "category": "doc",
+      "desc": "PDF 转 Markdown 的高精度工具，公式表格都能保住",
+      "tags": [
+        "文档",
+        "AI"
+      ],
+      "usage": [
+        "lib",
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.datalab.to",
+      "stars": 39928,
+      "language": "Python",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-13",
+      "descEn": "Convert PDF to markdown + JSON quickly with high accuracy",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "posthog",
@@ -2374,6 +4030,36 @@
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
     {
+      "id": "newpipe",
+      "name": "NewPipe",
+      "repo": "TeamNewPipe/NewPipe",
+      "category": "mobile",
+      "desc": "安卓上的 YouTube 客户端，后台播放、免广告、可下载",
+      "tags": [
+        "移动端",
+        "影音",
+        "隐私"
+      ],
+      "usage": [
+        "mobile"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://newpipe.net",
+      "stars": 39762,
+      "language": "Java",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-21",
+      "descEn": "A libre lightweight streaming front-end for Android.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "sharex",
       "name": "ShareX",
       "repo": "ShareX/ShareX",
@@ -2394,14 +4080,70 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://getsharex.com",
-      "stars": 39697,
+      "stars": 39718,
       "language": "C#",
       "license": "GPL-3.0",
       "archived": false,
-      "pushedAt": "2026-09-22",
+      "pushedAt": "2026-09-23",
       "descEn": "ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types to a wide range of destinations.",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "drawdb",
+      "name": "DrawDB",
+      "repo": "drawdb-io/drawdb",
+      "category": "database",
+      "desc": "浏览器里画数据库关系图，直接导出建表 SQL",
+      "tags": [
+        "数据库",
+        "可视化",
+        "在线即用"
+      ],
+      "usage": [
+        "online",
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://drawdb.app",
+      "stars": 39691,
+      "language": "JavaScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-21",
+      "descEn": "Free, simple, and intuitive online database diagram editor and SQL generator.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "mattermost",
+      "name": "Mattermost",
+      "repo": "mattermost/mattermost",
+      "category": "team",
+      "desc": "自托管的团队协作平台，频道、文件、机器人一应俱全",
+      "tags": [
+        "团队沟通",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://mattermost.com",
+      "stars": 39164,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "umami",
@@ -2430,6 +4172,32 @@
       "descEn": "Umami is a privacy-first analytics platform. Traffic, campaigns, behavior, conversions, and revenue in one place — no cookies, no surveillance, self-hosted or in the cloud.",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "lapce",
+      "name": "Lapce",
+      "repo": "lapce/lapce",
+      "category": "editor",
+      "desc": "Rust 写的轻量编辑器，带内置 LSP 和远程开发",
+      "tags": [
+        "编辑器"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://lapce.dev",
+      "stars": 38864,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "Lightning-fast and Powerful Code Editor written in Rust",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "httpie",
@@ -2463,6 +4231,174 @@
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
     {
+      "id": "portainer",
+      "name": "Portainer",
+      "repo": "portainer/portainer",
+      "category": "monitor",
+      "desc": "Docker 和 Kubernetes 的图形管理面板，老牌好用",
+      "tags": [
+        "运维",
+        "容器",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.portainer.io",
+      "stars": 38547,
+      "language": "TypeScript",
+      "license": "Zlib",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Making Docker and Kubernetes management easy.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "sqlmap",
+      "name": "sqlmap",
+      "repo": "sqlmapproject/sqlmap",
+      "category": "security",
+      "desc": "自动检测和利用 SQL 注入漏洞，渗透测试常用",
+      "tags": [
+        "安全",
+        "渗透测试",
+        "命令行"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://sqlmap.org",
+      "stars": 38504,
+      "language": "Python",
+      "license": "GPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Automatic SQL injection and database takeover tool",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "sing-box",
+      "name": "sing-box",
+      "repo": "SagerNet/sing-box",
+      "category": "network",
+      "desc": "通用代理平台，一个内核支持各种协议",
+      "tags": [
+        "代理",
+        "命令行"
+      ],
+      "usage": [
+        "selfhost",
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://sing-box.sagernet.org",
+      "stars": 38249,
+      "language": "Go",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "The universal proxy platform",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "trivy",
+      "name": "Trivy",
+      "repo": "aquasecurity/trivy",
+      "category": "security",
+      "desc": "扫容器镜像、代码仓库和依赖里的已知漏洞",
+      "tags": [
+        "安全",
+        "漏洞扫描",
+        "命令行"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://trivy.dev",
+      "stars": 38048,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "directus",
+      "name": "Directus",
+      "repo": "directus/directus",
+      "category": "lowcode",
+      "desc": "给现有 SQL 数据库自动生成 API 和管理后台",
+      "tags": [
+        "低代码",
+        "数据库",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://directus.io",
+      "stars": 37955,
+      "language": "TypeScript",
+      "license": "BSL-1.1",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "trilium",
+      "name": "Trilium",
+      "repo": "TriliumNext/Trilium",
+      "category": "notes",
+      "desc": "层级式个人知识库，笔记之间可脚本化，适合长期积累",
+      "tags": [
+        "笔记",
+        "知识库"
+      ],
+      "usage": [
+        "desktop",
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://trilium.rocks",
+      "stars": 37951,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Build your personal knowledge base with Trilium Notes",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "gfpgan",
       "name": "GFPGAN",
       "repo": "TencentARC/GFPGAN",
@@ -2486,6 +4422,62 @@
       "archived": false,
       "pushedAt": "2024-07-26",
       "descEn": "GFPGAN aims at developing Practical Algorithms for Real-world Face Restoration.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "copilotkit",
+      "name": "CopilotKit",
+      "repo": "CopilotKit/CopilotKit",
+      "category": "agent",
+      "desc": "给自家产品加智能体前端：侧边栏助手、生成式 UI、应用内动作调用",
+      "tags": [
+        "智能体",
+        "对话界面",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.copilotkit.ai",
+      "stars": 37511,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "dokploy",
+      "name": "Dokploy",
+      "repo": "dokploy/dokploy",
+      "category": "monitor",
+      "desc": "开源 PaaS，管部署、证书、备份，界面现代",
+      "tags": [
+        "运维",
+        "部署",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://dokploy.com",
+      "stars": 37486,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Open Source Alternative to Vercel, Netlify and Heroku.",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -2518,6 +4510,34 @@
       "syncedAt": "2026-09-22T08:42:38.435Z"
     },
     {
+      "id": "adguardhome",
+      "name": "AdGuard Home",
+      "repo": "AdguardTeam/AdGuardHome",
+      "category": "network",
+      "desc": "全网 DNS 层广告拦截，家里所有设备都干净",
+      "tags": [
+        "DNS",
+        "广告拦截",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://adguard.com/adguard-home/overview.html",
+      "stars": 37043,
+      "language": "Go",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Network-wide ads & trackers blocking DNS server",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "linux-command",
       "name": "Linux Command",
       "repo": "jaywcjlove/linux-command",
@@ -2535,14 +4555,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://wangchujiang.com/linux-command/",
-      "stars": 36938,
+      "stars": 36944,
       "language": "Markdown",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-06",
       "descEn": "Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "perplexica",
@@ -2568,6 +4588,35 @@
       "archived": false,
       "pushedAt": "2026-09-01",
       "descEn": "Vane is an AI-powered answering engine.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "nextcloud",
+      "name": "Nextcloud",
+      "repo": "nextcloud/server",
+      "category": "storage",
+      "desc": "自建网盘加协作平台，文件同步、日历、在线文档、视频通话都在里面",
+      "tags": [
+        "网盘",
+        "同步",
+        "协作",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://nextcloud.com",
+      "stars": 36893,
+      "language": "PHP",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "☁️ Nextcloud server, a safe home for all your data",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -2654,6 +4703,34 @@
       "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
+      "id": "restic",
+      "name": "Restic",
+      "repo": "restic/restic",
+      "category": "storage",
+      "desc": "增量加密备份工具，去重做得好，备份到任何地方都行",
+      "tags": [
+        "备份",
+        "加密",
+        "命令行"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://restic.net",
+      "stars": 36209,
+      "language": "Go",
+      "license": "BSD-2-Clause",
+      "archived": false,
+      "pushedAt": "2026-09-20",
+      "descEn": "Fast, secure, efficient backup program",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "carbon",
       "name": "Carbon",
       "repo": "carbon-app/carbon",
@@ -2670,14 +4747,42 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://carbon.now.sh",
-      "stars": 36105,
+      "stars": 36106,
       "language": "JavaScript",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-02-10",
       "descEn": ":black_heart: Create and share beautiful images of your source code",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "frigate",
+      "name": "Frigate",
+      "repo": "blakeblackshear/frigate",
+      "category": "iot",
+      "desc": "本地跑的 NVR，用 AI 识别摄像头里的人、车、动物",
+      "tags": [
+        "监控",
+        "智能家居",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://frigate.video",
+      "stars": 36071,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "NVR with realtime local object detection for IP cameras",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "continue",
@@ -2724,14 +4829,68 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://gchq.github.io/CyberChef/",
-      "stars": 35916,
+      "stars": 35939,
       "language": "JavaScript",
       "license": "Apache-2.0",
       "archived": false,
-      "pushedAt": "2026-09-21",
+      "pushedAt": "2026-09-23",
       "descEn": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "filebrowser",
+      "name": "File Browser",
+      "repo": "filebrowser/filebrowser",
+      "category": "storage",
+      "desc": "把任意目录变成一个网页版文件管理器",
+      "tags": [
+        "网盘",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://filebrowser.org",
+      "stars": 35937,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "archived": true,
+      "pushedAt": "2026-07-31",
+      "descEn": "File Browser provides a file managing interface within a specified directory and it can be used to upload, delete, preview and edit your files.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "refine",
+      "name": "Refine",
+      "repo": "refinedev/refine",
+      "category": "lowcode",
+      "desc": "用 React 快速搭管理后台的框架，不用被平台锁定",
+      "tags": [
+        "低代码",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://refine.dev",
+      "stars": 35716,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-10",
+      "descEn": "A React Framework for building  internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "jq",
@@ -2765,6 +4924,33 @@
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
     {
+      "id": "zellij",
+      "name": "Zellij",
+      "repo": "zellij-org/zellij",
+      "category": "editor",
+      "desc": "终端复用器，界面友好、布局可保存，tmux 的现代替代",
+      "tags": [
+        "终端",
+        "命令行"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://zellij.dev",
+      "stars": 35516,
+      "language": "Rust",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "A terminal workspace with batteries included",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "langfuse",
       "name": "Langfuse",
       "repo": "langfuse/langfuse",
@@ -2793,6 +4979,34 @@
       "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
+      "id": "ocrmypdf",
+      "name": "OCRmyPDF",
+      "repo": "ocrmypdf/OCRmyPDF",
+      "category": "doc",
+      "desc": "给扫描版 PDF 加上可搜索的文字层，还能顺便矫正和压缩",
+      "tags": [
+        "OCR",
+        "文档",
+        "命令行"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://ocrmypdf.readthedocs.io",
+      "stars": 34863,
+      "language": "Python",
+      "license": "MPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "diffusers",
       "name": "Diffusers",
       "repo": "huggingface/diffusers",
@@ -2816,6 +5030,116 @@
       "archived": false,
       "pushedAt": "2026-09-22",
       "descEn": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "changedetection",
+      "name": "changedetection.io",
+      "repo": "dgtlmoon/changedetection.io",
+      "category": "monitor",
+      "desc": "盯着网页变化，改了就通知你，抢票和比价都用得上",
+      "tags": [
+        "监控",
+        "告警",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://changedetection.io",
+      "stars": 34493,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-21",
+      "descEn": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "mihomo",
+      "name": "Mihomo",
+      "repo": "MetaCubeX/mihomo",
+      "category": "network",
+      "desc": "Clash 内核的持续维护版，规则分流和订阅管理都强",
+      "tags": [
+        "代理",
+        "命令行"
+      ],
+      "usage": [
+        "selfhost",
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://wiki.metacubex.one",
+      "stars": 34356,
+      "language": "Go",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "fish-shell",
+      "name": "Fish Shell",
+      "repo": "fish-shell/fish-shell",
+      "category": "editor",
+      "desc": "对用户友好的 shell，自动补全和语法高亮开箱就有",
+      "tags": [
+        "终端",
+        "命令行"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://fishshell.com",
+      "stars": 34228,
+      "language": "Rust",
+      "license": "GPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "The user-friendly command line shell.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "nginx-proxy-manager",
+      "name": "Nginx Proxy Manager",
+      "repo": "NginxProxyManager/nginx-proxy-manager",
+      "category": "network",
+      "desc": "给 Nginx 套上网页界面，点几下就配好反代和证书",
+      "tags": [
+        "反向代理",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://nginxproxymanager.com",
+      "stars": 34213,
+      "language": "JavaScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "Docker container for managing Nginx proxy hosts with a simple, powerful interface",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -2868,14 +5192,41 @@
       "scene": "",
       "cloud": "",
       "homepage": "",
-      "stars": 33559,
+      "stars": 33568,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-22",
       "descEn": "Pear 🍐 is extension for music player",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "vscodium",
+      "name": "VSCodium",
+      "repo": "VSCodium/vscodium",
+      "category": "editor",
+      "desc": "把 VS Code 的遥测和微软品牌去掉的纯净构建",
+      "tags": [
+        "编辑器",
+        "隐私"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://vscodium.com",
+      "stars": 33354,
+      "language": "Shell",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "binary releases of VS Code without MS branding/telemetry/licensing",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "yesplaymusic",
@@ -2899,14 +5250,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "",
-      "stars": 33310,
+      "stars": 33314,
       "language": "Vue",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-06-14",
       "descEn": "高颜值的第三方网易云播放器，支持 Windows / macOS / Linux :electron: ",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "sharp",
@@ -2984,14 +5335,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://devtoys.app/",
-      "stars": 32025,
+      "stars": 32026,
       "language": "C#",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-02-25",
       "descEn": "A Swiss Army knife for developers.",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "html2canvas",
@@ -3018,7 +5369,63 @@
       "pushedAt": "2024-07-18",
       "descEn": "Screenshots with JavaScript",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "k6",
+      "name": "k6",
+      "repo": "grafana/k6",
+      "category": "database",
+      "desc": "用 JS 写压测脚本，命令行跑，适合放进 CI",
+      "tags": [
+        "压测",
+        "命令行",
+        "开发者"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://k6.io",
+      "stars": 31556,
+      "language": "Go",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "A modern load testing tool, using Go and JavaScript",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "nuclei",
+      "name": "Nuclei",
+      "repo": "projectdiscovery/nuclei",
+      "category": "security",
+      "desc": "基于模板的漏洞扫描器，社区模板库每天都在更新",
+      "tags": [
+        "安全",
+        "漏洞扫描",
+        "命令行"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://nuclei.projectdiscovery.io",
+      "stars": 31468,
+      "language": "Go",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "flameshot",
@@ -3042,14 +5449,43 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://flameshot.org",
-      "stars": 30909,
+      "stars": 30921,
       "language": "C++",
       "license": "GPL-3.0",
       "archived": false,
       "pushedAt": "2026-09-17",
       "descEn": "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "shizuku",
+      "name": "Shizuku",
+      "repo": "RikkaApps/Shizuku",
+      "category": "mobile",
+      "desc": "让普通应用借用系统权限，不用 root 也能用高级功能",
+      "tags": [
+        "移动端",
+        "系统增强"
+      ],
+      "usage": [
+        "mobile"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://shizuku.rikka.app",
+      "stars": 30530,
+      "language": "Java",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2025-06-18",
+      "descEn": "Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "better-auth",
@@ -3076,6 +5512,34 @@
       "descEn": "The most comprehensive authentication framework",
       "syncOk": true,
       "syncedAt": "2026-09-22T08:42:38.435Z"
+    },
+    {
+      "id": "jitsi-meet",
+      "name": "Jitsi Meet",
+      "repo": "jitsi/jitsi-meet",
+      "category": "team",
+      "desc": "开箱即用的视频会议，不注册就能开房间，也能自己部署",
+      "tags": [
+        "会议",
+        "可自托管"
+      ],
+      "usage": [
+        "online",
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://meet.jit.si",
+      "stars": 29975,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "openai-agents",
@@ -3106,6 +5570,62 @@
       "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
+      "id": "netbird",
+      "name": "NetBird",
+      "repo": "netbirdio/netbird",
+      "category": "network",
+      "desc": "基于 WireGuard 的零配置组网，把分散的机器连成内网",
+      "tags": [
+        "VPN",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost",
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://netbird.io",
+      "stars": 29456,
+      "language": "Go",
+      "license": "BSD-3-Clause",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Connect your devices, users, and agents into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "gitleaks",
+      "name": "Gitleaks",
+      "repo": "gitleaks/gitleaks",
+      "category": "security",
+      "desc": "扫 git 仓库里误提交的密钥和令牌，适合放进提交钩子",
+      "tags": [
+        "安全",
+        "密钥管理",
+        "命令行"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://gitleaks.io",
+      "stars": 29455,
+      "language": "Go",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Find secrets with Gitleaks 🔑",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "smolagents",
       "name": "smolagents",
       "repo": "huggingface/smolagents",
@@ -3134,6 +5654,34 @@
       "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
+      "id": "infisical",
+      "name": "Infisical",
+      "repo": "Infisical/infisical",
+      "category": "security",
+      "desc": "密钥和配置管理中心，团队共享环境变量不用再发聊天记录",
+      "tags": [
+        "密钥管理",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost",
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://infisical.com",
+      "stars": 29388,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Infisical is the open-source platform for secrets, certificates, and privileged access management.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "plausible",
       "name": "Plausible",
       "repo": "plausible/analytics",
@@ -3159,6 +5707,35 @@
       "descEn": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "seal",
+      "name": "Seal",
+      "repo": "JunkFood02/Seal",
+      "category": "mobile",
+      "desc": "安卓上的音视频下载器，基于 yt-dlp，界面好看",
+      "tags": [
+        "移动端",
+        "下载"
+      ],
+      "usage": [
+        "mobile"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 29174,
+      "language": "Kotlin",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-08-25",
+      "descEn": "🦭 Video/Audio Downloader for Android, based on yt-dlp",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "mindustry",
@@ -3214,6 +5791,60 @@
       "descEn": "The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptography Ready.",
       "syncOk": true,
       "syncedAt": "2026-09-22T08:42:38.435Z"
+    },
+    {
+      "id": "wezterm",
+      "name": "WezTerm",
+      "repo": "wezterm/wezterm",
+      "category": "editor",
+      "desc": "GPU 加速的跨平台终端，配置用 Lua 写，支持多路复用",
+      "tags": [
+        "终端"
+      ],
+      "usage": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://wezfurlong.org/wezterm/",
+      "stars": 29006,
+      "language": "Rust",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-21",
+      "descEn": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "wikijs",
+      "name": "Wiki.js",
+      "repo": "requarks/wiki",
+      "category": "notes",
+      "desc": "基于 Markdown 的维基系统，权限和多语言都做得细",
+      "tags": [
+        "知识库",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://js.wiki",
+      "stars": 28957,
+      "language": "JavaScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Wiki.js | Next Generation Open Source Wiki",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "hyperfine",
@@ -3301,6 +5932,34 @@
       "syncedAt": "2026-09-22T08:42:38.435Z"
     },
     {
+      "id": "budibase",
+      "name": "Budibase",
+      "repo": "Budibase/budibase",
+      "category": "lowcode",
+      "desc": "搭内部工具和审批流，自带数据库和自动化",
+      "tags": [
+        "低代码",
+        "内部工具",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://budibase.com",
+      "stars": 28300,
+      "language": "TypeScript",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "AI agents, automations and apps that run your operations. Model agnostic.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "mastra",
       "name": "Mastra",
       "repo": "mastra-ai/mastra",
@@ -3328,6 +5987,34 @@
       "descEn": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
       "syncOk": true,
       "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
+      "id": "locust",
+      "name": "Locust",
+      "repo": "locustio/locust",
+      "category": "database",
+      "desc": "用 Python 写压测场景，分布式发起海量请求",
+      "tags": [
+        "压测",
+        "开发者"
+      ],
+      "usage": [
+        "cli",
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://locust.io",
+      "stars": 28178,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-21",
+      "descEn": "Write scalable load tests in plain Python 🚗💨",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "smsforwarder",
@@ -3359,6 +6046,116 @@
       "syncedAt": "2026-09-22T08:42:38.435Z"
     },
     {
+      "id": "ungoogled-chromium",
+      "name": "ungoogled-chromium",
+      "repo": "ungoogled-software/ungoogled-chromium",
+      "category": "browser",
+      "desc": "把 Chromium 里所有谷歌服务和遥测都摘掉的构建",
+      "tags": [
+        "浏览器",
+        "隐私",
+        "去谷歌化"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 27771,
+      "language": "Python",
+      "license": "BSD-3-Clause",
+      "archived": false,
+      "pushedAt": "2026-09-21",
+      "descEn": "Google Chromium, sans integration with Google",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "huly",
+      "name": "Huly",
+      "repo": "hcengineering/platform",
+      "category": "project",
+      "desc": "把项目管理、聊天、文档、HR 合成一体的团队工作台",
+      "tags": [
+        "任务管理",
+        "团队沟通",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://huly.io",
+      "stars": 27760,
+      "language": "TypeScript",
+      "license": "EPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Huly — All-in-One Project Management Platform (alternative to Linear, Jira, Slack, Notion, Motion)",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "lazyvim",
+      "name": "LazyVim",
+      "repo": "LazyVim/LazyVim",
+      "category": "editor",
+      "desc": "Neovim 的现成配置发行版，装完就是顺手的 IDE",
+      "tags": [
+        "编辑器",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://lazyvim.org",
+      "stars": 27536,
+      "language": "Lua",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-08",
+      "descEn": "Neovim config for the lazy",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "wg-easy",
+      "name": "wg-easy",
+      "repo": "wg-easy/wg-easy",
+      "category": "network",
+      "desc": "WireGuard 的网页管理界面，扫码就能加设备",
+      "tags": [
+        "VPN",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 26986,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "The easiest way to run WireGuard VPN + Web-based Admin UI.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "gdevelop",
       "name": "GDevelop",
       "repo": "4ian/GDevelop",
@@ -3376,13 +6173,13 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://gdevelop.io",
-      "stars": 26758,
+      "stars": 26786,
       "language": "JavaScript",
       "archived": false,
-      "pushedAt": "2026-09-22",
+      "pushedAt": "2026-09-23",
       "descEn": "🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone.",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "typesense",
@@ -3411,6 +6208,34 @@
       "descEn": "Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences",
       "syncOk": true,
       "syncedAt": "2026-09-22T08:42:38.435Z"
+    },
+    {
+      "id": "focalboard",
+      "name": "Focalboard",
+      "repo": "mattermost/focalboard",
+      "category": "project",
+      "desc": "开源版 Trello，看板加表格，团队和个人的项目面板",
+      "tags": [
+        "任务管理",
+        "看板",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost",
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 26483,
+      "language": "TypeScript",
+      "archived": false,
+      "pushedAt": "2026-05-18",
+      "descEn": "Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "spotdl",
@@ -3444,6 +6269,33 @@
       "syncedAt": "2026-09-22T06:16:49.944Z"
     },
     {
+      "id": "zulip",
+      "name": "Zulip",
+      "repo": "zulip/zulip",
+      "category": "team",
+      "desc": "按话题组织的聊天工具，异步讨论不会串味",
+      "tags": [
+        "团队沟通",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://zulip.com",
+      "stars": 25943,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Zulip server and web application. Open-source team chat that helps teams stay productive and focused.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "squoosh",
       "name": "Squoosh",
       "repo": "GoogleChromeLabs/squoosh",
@@ -3461,14 +6313,68 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://squoosh.app",
-      "stars": 25937,
+      "stars": 25940,
       "language": "TypeScript",
       "license": "Apache-2.0",
       "archived": false,
-      "pushedAt": "2026-09-14",
+      "pushedAt": "2026-09-23",
       "descEn": "Make images smaller using best-in-class codecs, right in the browser.",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "simple-icons",
+      "name": "Simple Icons",
+      "repo": "simple-icons/simple-icons",
+      "category": "design",
+      "desc": "三千多个品牌和技术的 SVG 图标，写文档做落地页常用",
+      "tags": [
+        "图标",
+        "设计"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://simpleicons.org",
+      "stars": 25901,
+      "language": "JavaScript",
+      "license": "CC0-1.0",
+      "archived": false,
+      "pushedAt": "2026-09-20",
+      "descEn": "SVG icons for popular brands",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "beszel",
+      "name": "Beszel",
+      "repo": "henrygd/beszel",
+      "category": "monitor",
+      "desc": "轻量服务器监控，界面清爽，资源占用比 Grafana 那套低得多",
+      "tags": [
+        "监控",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://beszel.dev",
+      "stars": 25680,
+      "language": "Go",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "authentik",
@@ -3664,6 +6570,33 @@
       "syncedAt": ""
     },
     {
+      "id": "tasmota",
+      "name": "Tasmota",
+      "repo": "arendst/Tasmota",
+      "category": "iot",
+      "desc": "刷进 ESP 设备里的通用固件，插座灯泡都能脱离厂商云",
+      "tags": [
+        "智能家居",
+        "固件"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://tasmota.github.io/docs/",
+      "stars": 24772,
+      "language": "C",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Alternative firmware for ESP8266 and ESP32 based devices with easy configuration using webUI, OTA updates, automation using timers or rules, expandability and entirely local control over MQTT, HTTP, Serial or KNX. Full documentation at",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "firefly-iii",
       "name": "Firefly III",
       "repo": "firefly-iii/firefly-iii",
@@ -3689,6 +6622,34 @@
       "descEn": "Firefly III: a personal finances manager",
       "syncOk": true,
       "syncedAt": "2026-09-22T08:42:38.435Z"
+    },
+    {
+      "id": "lucide",
+      "name": "Lucide",
+      "repo": "lucide-icons/lucide",
+      "category": "design",
+      "desc": "风格统一的图标库，一千多个图标，各种前端框架都有包",
+      "tags": [
+        "图标",
+        "设计",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://lucide.dev",
+      "stars": 24688,
+      "language": "TypeScript",
+      "license": "ISC",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "activepieces",
@@ -3746,6 +6707,34 @@
       "syncedAt": ""
     },
     {
+      "id": "dockge",
+      "name": "Dockge",
+      "repo": "louislam/dockge",
+      "category": "monitor",
+      "desc": "管理 docker-compose 栈的网页界面，能看日志能改配置",
+      "tags": [
+        "运维",
+        "容器",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://dockge.kuma.pet",
+      "stars": 24435,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-04-25",
+      "descEn": "A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "nocobase",
       "name": "NocoBase",
       "repo": "nocobase/nocobase",
@@ -3790,13 +6779,13 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://haqr.eu/tinyrenderer/",
-      "stars": 24285,
+      "stars": 24293,
       "language": "C++",
       "archived": false,
       "pushedAt": "2026-07-29",
       "descEn": "A brief computer graphics / rendering course",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "p5js",
@@ -3816,14 +6805,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://editor.p5js.org/",
-      "stars": 24024,
+      "stars": 24029,
       "language": "JavaScript",
       "license": "LGPL-2.1",
       "archived": false,
-      "pushedAt": "2026-09-22",
+      "pushedAt": "2026-09-24",
       "descEn": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "krayin",
@@ -3851,6 +6840,89 @@
       "descEn": "Krayin CRM is Free & Open Source CRM Built with Laravel for Customer, Lead, and Sales Management.",
       "syncOk": true,
       "syncedAt": "2026-09-22T08:42:38.435Z"
+    },
+    {
+      "id": "heroicons",
+      "name": "Heroicons",
+      "repo": "tailwindlabs/heroicons",
+      "category": "design",
+      "desc": "Tailwind 团队出的图标集，两套风格，直接复制 SVG",
+      "tags": [
+        "图标",
+        "设计"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://heroicons.com",
+      "stars": 23816,
+      "language": "JavaScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-05-12",
+      "descEn": "A set of free MIT-licensed high-quality SVG icons for UI development.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "navidrome",
+      "name": "Navidrome",
+      "repo": "navidrome/navidrome",
+      "category": "mediaserver",
+      "desc": "自建音乐流媒体，兼容 Subsonic 协议的客户端都能连",
+      "tags": [
+        "媒体服务器",
+        "音乐库",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.navidrome.org",
+      "stars": 23758,
+      "language": "Go",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "🎧 Your Personal Streaming Service ",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "brave-browser",
+      "name": "Brave",
+      "repo": "brave/brave-browser",
+      "category": "browser",
+      "desc": "自带广告拦截的 Chromium 分支，还带奖励和 Tor 窗口",
+      "tags": [
+        "浏览器",
+        "广告拦截",
+        "隐私"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://brave.com",
+      "stars": 23695,
+      "language": "JavaScript",
+      "license": "MPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "Brave browser for Android, iOS, Linux, macOS, Windows.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "neofetch",
@@ -3883,6 +6955,37 @@
       "syncedAt": "2026-09-22T06:16:49.944Z"
     },
     {
+      "id": "bongocat",
+      "name": "BongoCat",
+      "repo": "ayangweb/BongoCat",
+      "category": "fun",
+      "desc": "跟着你敲键盘的桌面宠物猫，纯娱乐治愈系",
+      "tags": [
+        "桌宠",
+        "有趣"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://github.com/ayangweb/Awesome-BongoCat",
+      "stars": 23560,
+      "language": "Vue",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "🐱跨平台互动桌宠 BongoCat，为桌面增添乐趣！",
+      "syncOk": true,
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
       "id": "listmonk",
       "name": "Listmonk",
       "repo": "knadh/listmonk",
@@ -3906,37 +7009,6 @@
       "archived": false,
       "pushedAt": "2026-09-13",
       "descEn": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.",
-      "syncOk": true,
-      "syncedAt": "2026-09-22T07:10:42.651Z"
-    },
-    {
-      "id": "bongocat",
-      "name": "BongoCat",
-      "repo": "ayangweb/BongoCat",
-      "category": "fun",
-      "desc": "跟着你敲键盘的桌面宠物猫，纯娱乐治愈系",
-      "tags": [
-        "桌宠",
-        "有趣"
-      ],
-      "usage": [
-        "desktop"
-      ],
-      "platforms": [
-        "windows",
-        "macos",
-        "linux"
-      ],
-      "caution": "",
-      "scene": "",
-      "cloud": "",
-      "homepage": "https://github.com/ayangweb/Awesome-BongoCat",
-      "stars": 23499,
-      "language": "Vue",
-      "license": "MIT",
-      "archived": false,
-      "pushedAt": "2026-09-22",
-      "descEn": "🐱跨平台互动桌宠 BongoCat，为桌面增添乐趣！",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
@@ -4025,6 +7097,35 @@
       "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
+      "id": "chartdb",
+      "name": "ChartDB",
+      "repo": "chartdb/chartdb",
+      "category": "database",
+      "desc": "贴一条建表语句就自动画出 ER 图，不用连数据库",
+      "tags": [
+        "数据库",
+        "可视化",
+        "在线即用"
+      ],
+      "usage": [
+        "online",
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://chartdb.io",
+      "stars": 22948,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-13",
+      "descEn": "Database diagrams editor that allows you to visualize and design your DB with a single query.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "cap",
       "name": "Cap",
       "repo": "CapSoftware/Cap",
@@ -4045,14 +7146,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://cap.so",
-      "stars": 22640,
+      "stars": 22674,
       "language": "Rust",
       "license": "AGPL-3.0",
       "archived": false,
-      "pushedAt": "2026-09-22",
+      "pushedAt": "2026-09-23",
       "descEn": "Open source Loom alternative. Beautiful, shareable screen recordings.",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "singlefile",
@@ -4136,6 +7237,34 @@
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
     {
+      "id": "super-productivity",
+      "name": "Super Productivity",
+      "repo": "johannesjo/super-productivity",
+      "category": "project",
+      "desc": "把待办、时间追踪和番茄钟合成一个应用的效率工具",
+      "tags": [
+        "任务管理",
+        "时间追踪"
+      ],
+      "usage": [
+        "desktop",
+        "online"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://super-productivity.com",
+      "stars": 22220,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, GitLab, GitHub and Open Project.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "cat-catch",
       "name": "猫抓",
       "repo": "xifangczy/cat-catch",
@@ -4190,6 +7319,116 @@
       "descEn": "Empowering People Ethically 🚀 — Matomo is hiring! Join us → https://matomo.org/jobs Matomo is the leading open-source alternative to Google Analytics, giving you complete control and built-in privacy. Easily collect, visualise, and analyse data from websites & apps. Star us on GitHub ⭐️  – Pull Requests welcome! ",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "teable",
+      "name": "Teable",
+      "repo": "teableio/teable",
+      "category": "lowcode",
+      "desc": "数据库形态的表格协作工具，百万行数据也不卡",
+      "tags": [
+        "低代码",
+        "数据库",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://teable.io",
+      "stars": 21815,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "✨ AI Spreadsheet for Business",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "obsidian-releases",
+      "name": "Obsidian",
+      "repo": "obsidianmd/obsidian-releases",
+      "category": "notes",
+      "desc": "笔记软件的发版仓库，插件和主题生态的入口",
+      "tags": [
+        "笔记",
+        "知识库"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://obsidian.md",
+      "stars": 21796,
+      "language": "",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "Community plugins list, theme list, and releases of Obsidian.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "tabler-icons",
+      "name": "Tabler Icons",
+      "repo": "tabler/tabler-icons",
+      "category": "design",
+      "desc": "五千多个免费图标，笔画粗细可调，成套使用很整齐",
+      "tags": [
+        "图标",
+        "设计",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://tabler.io/icons",
+      "stars": 21775,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "A set of over 6200 free MIT-licensed high-quality SVG icons for you to use in your web projects.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "docmost",
+      "name": "Docmost",
+      "repo": "docmost/docmost",
+      "category": "notes",
+      "desc": "协作型知识库，实时共同编辑，Confluence 的开源替代",
+      "tags": [
+        "知识库",
+        "协作",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://docmost.com",
+      "stars": 21771,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Docmost is an open-source collaborative wiki and documentation software. It is an open-source alternative to Confluence and Notion.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "automa",
@@ -4271,6 +7510,62 @@
       "descEn": "🦔 Fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM.",
       "syncOk": true,
       "syncedAt": "2026-09-22T08:42:38.435Z"
+    },
+    {
+      "id": "wekan",
+      "name": "Wekan",
+      "repo": "wekan/wekan",
+      "category": "project",
+      "desc": "老牌开源看板，功能非常多，适合流程复杂的团队",
+      "tags": [
+        "任务管理",
+        "看板",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://wekan.github.io",
+      "stars": 21095,
+      "language": "JavaScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "The Open Source kanban, built with Meteor. GitHub issues/PRs are only for FLOSS Developers, not for support, support is at https://wekan.fi/commercial-support/ . PR source translation to imports/i18n/data/en.i18n.json, other translations at https://app.transifex.com/wekan/wekan . No telemetry.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "qmk",
+      "name": "QMK Firmware",
+      "repo": "qmk/qmk_firmware",
+      "category": "iot",
+      "desc": "开源键盘固件，自定义键位、宏和分层",
+      "tags": [
+        "键盘",
+        "嵌入式",
+        "固件"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://qmk.fm",
+      "stars": 20728,
+      "language": "C",
+      "license": "GPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-20",
+      "descEn": "Open-source keyboard firmware for Atmel AVR and Arm USB families",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "casbin",
@@ -4434,7 +7729,36 @@
       "pushedAt": "2026-02-22",
       "descEn": "Tool for visualizing GitHub profiles",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "obtainium",
+      "name": "Obtainium",
+      "repo": "ImranR98/Obtainium",
+      "category": "mobile",
+      "desc": "直接从 GitHub 更新安卓应用，绕开应用商店",
+      "tags": [
+        "移动端",
+        "应用商店"
+      ],
+      "usage": [
+        "mobile"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://obtainium.imranr.dev",
+      "stars": 19905,
+      "language": "Dart",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-13",
+      "descEn": "Get Android app updates straight from the source.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "gallery-dl",
@@ -4492,6 +7816,33 @@
       "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
+      "id": "radix-ui",
+      "name": "Radix UI",
+      "repo": "radix-ui/primitives",
+      "category": "design",
+      "desc": "无样式的 React 无障碍组件底座，很多 UI 库都建在它上面",
+      "tags": [
+        "设计系统",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.radix-ui.com",
+      "stars": 19321,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-08-08",
+      "descEn": "Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "motion-canvas",
       "name": "Motion Canvas",
       "repo": "motion-canvas/motion-canvas",
@@ -4516,6 +7867,33 @@
       "archived": false,
       "pushedAt": "2026-07-02",
       "descEn": "Visualize Your Ideas With Code",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "bookstack",
+      "name": "BookStack",
+      "repo": "BookStackApp/BookStack",
+      "category": "notes",
+      "desc": "把文档按书、章、页组织，适合写内部手册",
+      "tags": [
+        "知识库",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.bookstackapp.com",
+      "stars": 19049,
+      "language": "PHP",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "NOW MANAGED ON CODEBERG",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -4588,14 +7966,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://lichess.org",
-      "stars": 18760,
+      "stars": 18759,
       "language": "Scala",
       "license": "AGPL-3.0",
       "archived": false,
-      "pushedAt": "2026-09-22",
+      "pushedAt": "2026-09-24",
       "descEn": "♞ lichess.org: the forever free, adless and open source chess server ♞",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "moonlight",
@@ -4653,6 +8031,33 @@
       "syncedAt": "2026-09-23T03:15:04.641Z"
     },
     {
+      "id": "wled",
+      "name": "WLED",
+      "repo": "Aircoookie/WLED",
+      "category": "iot",
+      "desc": "把灯带变成可编程的灯光装置，有几百种效果和音乐律动",
+      "tags": [
+        "智能家居",
+        "灯光"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://kno.wled.ge",
+      "stars": 18710,
+      "language": "C++",
+      "license": "EUPL-1.2",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Control WS2812B and many more types of digital RGB LEDs with an ESP32 over WiFi!",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "nuclear",
       "name": "Nuclear",
       "repo": "nukeop/nuclear",
@@ -4674,14 +8079,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://nuclearplayer.com",
-      "stars": 18491,
+      "stars": 18506,
       "language": "TypeScript",
       "license": "AGPL-3.0",
       "archived": false,
-      "pushedAt": "2026-09-22",
+      "pushedAt": "2026-09-23",
       "descEn": "Streaming music player that finds free music for you",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "bluesky",
@@ -4708,6 +8113,34 @@
       "archived": false,
       "pushedAt": "2026-09-23",
       "descEn": "The Bluesky Social application for Web, iOS, and Android",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "calibre-web",
+      "name": "Calibre-Web",
+      "repo": "janeczku/calibre-web",
+      "category": "mediaserver",
+      "desc": "给 Calibre 书库套一个网页界面，在线阅读和推送",
+      "tags": [
+        "媒体服务器",
+        "电子书",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://calibre-ebook.com",
+      "stars": 18231,
+      "language": "Python",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-20",
+      "descEn": ":books: Web app for browsing, reading and downloading eBooks stored in a Calibre database",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -4760,14 +8193,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://abdownloadmanager.com",
-      "stars": 18039,
+      "stars": 18054,
       "language": "Kotlin",
       "license": "Apache-2.0",
       "archived": false,
-      "pushedAt": "2026-09-08",
+      "pushedAt": "2026-09-23",
       "descEn": "A Download Manager that speeds up your downloads",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "pyxel",
@@ -4787,13 +8220,13 @@
       "scene": "",
       "cloud": "",
       "homepage": "",
-      "stars": 17887,
+      "stars": 17905,
       "language": "Rust",
       "archived": false,
-      "pushedAt": "2026-09-22",
+      "pushedAt": "2026-09-23",
       "descEn": "A retro game engine for Python",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "imagemagick",
@@ -4851,6 +8284,34 @@
       "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
+      "id": "koel",
+      "name": "Koel",
+      "repo": "koel/koel",
+      "category": "mediaserver",
+      "desc": "个人音乐流媒体服务，界面现代，扫码听自己的歌单",
+      "tags": [
+        "媒体服务器",
+        "音乐库",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://koel.dev",
+      "stars": 17262,
+      "language": "PHP",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Music streaming solution that works.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "postal",
       "name": "Postal",
       "repo": "postalserver/postal",
@@ -4898,14 +8359,43 @@
       "scene": "",
       "cloud": "",
       "homepage": "",
-      "stars": 16786,
+      "stars": 16796,
       "language": "Vue",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-19",
       "descEn": "一个第三方音乐播放器、本地服务、桌面歌词、音乐下载、远程控制",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "semgrep",
+      "name": "Semgrep",
+      "repo": "semgrep/semgrep",
+      "category": "security",
+      "desc": "按语义而不是正则做代码扫描，自己写规则也简单",
+      "tags": [
+        "安全",
+        "代码审计",
+        "开发者"
+      ],
+      "usage": [
+        "cli",
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://semgrep.dev",
+      "stars": 16741,
+      "language": "OCaml",
+      "license": "LGPL-2.1",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "libretranslate",
@@ -5072,6 +8562,33 @@
       "syncedAt": "2026-09-23T03:15:04.641Z"
     },
     {
+      "id": "orcaslicer",
+      "name": "OrcaSlicer",
+      "repo": "SoftFever/OrcaSlicer",
+      "category": "iot",
+      "desc": "PrusaSlicer 的增强分支，参数调校和校准工具更全",
+      "tags": [
+        "3D打印",
+        "桌面"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 15757,
+      "language": "C++",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "G-code generator for 3D printers (Bambu, Prusa, Voron, VzBot, RatRig, Creality, etc.)",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "spree",
       "name": "Spree",
       "repo": "spree/spree",
@@ -5128,6 +8645,33 @@
       "descEn": "music library manager and MusicBrainz tagger",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "zigbee2mqtt",
+      "name": "Zigbee2MQTT",
+      "repo": "Koenkk/zigbee2mqtt",
+      "category": "iot",
+      "desc": "让 Zigbee 设备脱离厂商网关，直连自己的 MQTT",
+      "tags": [
+        "智能家居",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.zigbee2mqtt.io",
+      "stars": 15660,
+      "language": "JavaScript",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Zigbee 🐝 to MQTT bridge 🌉, get rid of your proprietary Zigbee bridges 🔨",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "billionmail",
@@ -5293,6 +8837,34 @@
       "syncedAt": "2026-09-22T08:42:38.435Z"
     },
     {
+      "id": "seafile",
+      "name": "Seafile",
+      "repo": "haiwen/seafile",
+      "category": "storage",
+      "desc": "专注文件同步与共享，断点续传和大文件表现好",
+      "tags": [
+        "网盘",
+        "同步",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.seafile.com",
+      "stars": 15272,
+      "language": "C",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-18",
+      "descEn": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "shotcut",
       "name": "Shotcut",
       "repo": "mltframework/shotcut",
@@ -5316,6 +8888,34 @@
       "archived": false,
       "pushedAt": "2026-09-22",
       "descEn": "cross-platform (Qt), open-source (GPLv3) video editor",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "caprover",
+      "name": "CapRover",
+      "repo": "caprover/caprover",
+      "category": "monitor",
+      "desc": "一条命令把服务器变成应用托管平台，带网页控制台",
+      "tags": [
+        "运维",
+        "部署",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://caprover.com",
+      "stars": 15166,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -5373,7 +8973,7 @@
       "pushedAt": "2025-05-11",
       "descEn": "A modern Wine wrapper for macOS built with SwiftUI",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "zitadel",
@@ -5402,6 +9002,34 @@
       "descEn": "ZITADEL - Identity infrastructure, simplified for you.",
       "syncOk": true,
       "syncedAt": "2026-09-22T08:42:38.435Z"
+    },
+    {
+      "id": "duplicati",
+      "name": "Duplicati",
+      "repo": "duplicati/duplicati",
+      "category": "storage",
+      "desc": "带网页界面的备份工具，支持增量加密和多种云存储",
+      "tags": [
+        "备份",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost",
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://duplicati.com",
+      "stars": 15020,
+      "language": "C#",
+      "license": "LGPL-2.1",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Store securely encrypted backups in the cloud!",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "moviepy",
@@ -5453,14 +9081,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://pakeplus.com",
-      "stars": 14877,
+      "stars": 14904,
       "language": "HTML",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-01",
       "descEn": "Turn any webpage/HTML/Vue/React and so on into desktop and mobile app under 5M with easy in few minutes. 轻松将任意网站/HTML/Vue/React等项目构建为轻量级(小于5M)多端桌面应用和手机应用仅需几分钟. https://ppofficial.netlify.app",
       "syncOk": true,
-      "syncedAt": "2026-09-22T07:10:42.651Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "stalwart",
@@ -5514,6 +9142,36 @@
       "descEn": "The monorepo home to all of the FormatJS related libraries, most notably react-intl.",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "microg",
+      "name": "microG",
+      "repo": "microG/GmsCore",
+      "category": "mobile",
+      "desc": "开源的 Google 服务替代实现，去掉谷歌全家桶还能用推送",
+      "tags": [
+        "移动端",
+        "去谷歌化",
+        "隐私"
+      ],
+      "usage": [
+        "mobile"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://microg.org",
+      "stars": 14671,
+      "language": "Java",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Free implementation of Play Services",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "jimp",
@@ -5598,6 +9256,61 @@
       "syncedAt": ""
     },
     {
+      "id": "bytebase",
+      "name": "Bytebase",
+      "repo": "bytebase/bytebase",
+      "category": "database",
+      "desc": "数据库变更和权限管理的协作平台，适合团队走 SQL 审核",
+      "tags": [
+        "数据库",
+        "运维",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.bytebase.com",
+      "stars": 14505,
+      "language": "Go",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Database governance built for humans and agents — controlling changes and access across every major database.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "audiobookshelf",
+      "name": "Audiobookshelf",
+      "repo": "advplyr/audiobookshelf",
+      "category": "mediaserver",
+      "desc": "有声书和播客服务器，进度跨设备同步",
+      "tags": [
+        "媒体服务器",
+        "有声书",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.audiobookshelf.org",
+      "stars": 14420,
+      "language": "JavaScript",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Self-hosted audiobook and podcast server",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "editor-md",
       "name": "editor.md",
       "repo": "pandao/editor.md",
@@ -5621,7 +9334,7 @@
       "pushedAt": "2024-04-26",
       "descEn": "The open source embeddable online markdown editor (component).",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "subtitleedit",
@@ -5647,6 +9360,35 @@
       "archived": false,
       "pushedAt": "2026-09-22",
       "descEn": "the subtitle editor :)",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "kopia",
+      "name": "Kopia",
+      "repo": "kopia/kopia",
+      "category": "storage",
+      "desc": "快速增量备份，带图形界面和快照策略，能挂载历史版本",
+      "tags": [
+        "备份",
+        "加密",
+        "命令行"
+      ],
+      "usage": [
+        "cli",
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://kopia.io",
+      "stars": 14188,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-20",
+      "descEn": "Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -5846,6 +9588,33 @@
       "syncedAt": "2026-09-23T03:15:04.641Z"
     },
     {
+      "id": "nmap",
+      "name": "Nmap",
+      "repo": "nmap/nmap",
+      "category": "security",
+      "desc": "网络扫描和端口探测的老牌工具，运维和安全都用它",
+      "tags": [
+        "安全",
+        "网络",
+        "命令行"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://nmap.org",
+      "stars": 13660,
+      "language": "C++",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "Nmap - the Network Mapper. Github mirror of official SVN repository.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "luanti",
       "name": "Luanti",
       "repo": "luanti-org/luanti",
@@ -5873,6 +9642,35 @@
       "descEn": "Luanti (formerly Minetest) is an open source voxel game-creation platform with easy modding and game creation",
       "syncOk": true,
       "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
+      "id": "element",
+      "name": "Element",
+      "repo": "element-hq/element-web",
+      "category": "team",
+      "desc": "Matrix 协议的网页客户端，端到端加密，可自建服务器",
+      "tags": [
+        "团队沟通",
+        "加密",
+        "可自托管"
+      ],
+      "usage": [
+        "online",
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://element.io",
+      "stars": 13502,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "A glossy Matrix collaboration client for the web.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "mailcow",
@@ -5946,14 +9744,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://md.doocs.org/",
-      "stars": 13365,
+      "stars": 13371,
       "language": "TypeScript",
       "license": "WTFPL",
       "archived": false,
-      "pushedAt": "2026-09-22",
+      "pushedAt": "2026-09-23",
       "descEn": "✍ WeChat Markdown Editor | 一款高度简洁的微信 Markdown 编辑器：支持 Markdown 语法、自定义主题样式、内容管理、多图床、AI 助手等特性",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "plantuml",
@@ -5973,14 +9771,41 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://www.plantuml.com/plantuml",
-      "stars": 13330,
+      "stars": 13335,
       "language": "Java",
       "license": "LGPL-3.0",
       "archived": false,
       "pushedAt": "2026-09-22",
       "descEn": "Generate diagrams from textual description",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "mealie",
+      "name": "Mealie",
+      "repo": "mealie-recipes/mealie",
+      "category": "project",
+      "desc": "家庭菜谱管理，存菜谱、生成购物清单、按周排餐",
+      "tags": [
+        "生活",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://mealie.io",
+      "stars": 13302,
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "cataclysm-dda",
@@ -6009,6 +9834,33 @@
       "descEn": "Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world.",
       "syncOk": true,
       "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
+      "id": "firefox",
+      "name": "Firefox",
+      "repo": "mozilla-firefox/firefox",
+      "category": "browser",
+      "desc": "唯一还在独立开发的主流浏览器引擎，隐私保护和扩展生态都强",
+      "tags": [
+        "浏览器",
+        "隐私"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.mozilla.org/firefox/",
+      "stars": 13221,
+      "language": "C++",
+      "license": "MPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "The official repository of Mozilla's Firefox web browser.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "plasmo",
@@ -6057,14 +9909,40 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://markmap.js.org/repl",
-      "stars": 13131,
+      "stars": 13132,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-12",
       "descEn": "Build mindmaps with plain text",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "the-odin-project",
+      "name": "The Odin Project",
+      "repo": "TheOdinProject/curriculum",
+      "category": "learn",
+      "desc": "免费的 Web 开发全栈课程，以做项目为主线",
+      "tags": [
+        "学习",
+        "编程教学"
+      ],
+      "usage": [
+        "online"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.theodinproject.com",
+      "stars": 13069,
+      "language": "Markdown",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "The open curriculum for learning web development",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "video-subtitle-remover",
@@ -6095,6 +9973,34 @@
       "syncedAt": ""
     },
     {
+      "id": "formbricks",
+      "name": "Formbricks",
+      "repo": "formbricks/formbricks",
+      "category": "form",
+      "desc": "自托管问卷和用户调研，可在产品里做微调研",
+      "tags": [
+        "表单",
+        "问卷",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://formbricks.com",
+      "stars": 13009,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Open Source Qualtrics Alternative",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "openreplay",
       "name": "OpenReplay",
       "repo": "openreplay/openreplay",
@@ -6119,6 +10025,92 @@
       "descEn": "Session replay, cobrowsing and product analytics you can self-host. Best for reproducing issues and iterating on your product.",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "libretube",
+      "name": "LibreTube",
+      "repo": "libre-tube/LibreTube",
+      "category": "mobile",
+      "desc": "更现代的 YouTube 安卓客户端，支持 SponsorBlock 跳广告",
+      "tags": [
+        "移动端",
+        "影音",
+        "隐私"
+      ],
+      "usage": [
+        "mobile"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://libretube.dev",
+      "stars": 12722,
+      "language": "Kotlin",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "An alternative frontend for YouTube, for Android.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "planka",
+      "name": "Planka",
+      "repo": "plankanban/planka",
+      "category": "project",
+      "desc": "界面精致的看板工具，Trello 的自托管替代",
+      "tags": [
+        "任务管理",
+        "看板",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://planka.app",
+      "stars": 12576,
+      "language": "JavaScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-17",
+      "descEn": "Elegant open source project tracking. Self-hosted Kanban for teams — free Community edition, with PLANKA Pro for organisations.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "chainlit",
+      "name": "Chainlit",
+      "repo": "chainlit/chainlit",
+      "category": "agent",
+      "desc": "几行 Python 就能给智能体套上对话界面，带中间步骤展示和引用来源",
+      "tags": [
+        "对话界面",
+        "智能体",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://chainlit.io",
+      "stars": 12473,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-18",
+      "descEn": "Build Conversational AI in minutes ⚡️",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "genact",
@@ -6175,6 +10167,34 @@
       "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
+      "id": "gatus",
+      "name": "Gatus",
+      "repo": "TwiN/gatus",
+      "category": "monitor",
+      "desc": "用一份 YAML 声明要监控的服务，附带一个状态页",
+      "tags": [
+        "监控",
+        "告警",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://gatus.io",
+      "stars": 12136,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Automated developer-oriented status page with alerting and incident support",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "onefetch",
       "name": "onefetch",
       "repo": "o2sh/onefetch",
@@ -6204,6 +10224,89 @@
       "descEn": "Command-line Git information tool",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "klipper",
+      "name": "Klipper",
+      "repo": "Klipper3d/klipper",
+      "category": "iot",
+      "desc": "让 3D 打印机跑得更快更准的固件，把运算挪到上位机",
+      "tags": [
+        "3D打印",
+        "嵌入式"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.klipper3d.org",
+      "stars": 11895,
+      "language": "C",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-19",
+      "descEn": "Klipper is a 3d-printer firmware",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "kavita",
+      "name": "Kavita",
+      "repo": "Kareadita/Kavita",
+      "category": "mediaserver",
+      "desc": "自建漫画、轻小说服务器，元数据刮削和阅读进度都有",
+      "tags": [
+        "媒体服务器",
+        "漫画",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.kavitareader.com",
+      "stars": 11728,
+      "language": "C#",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Kavita is a fast, feature rich, cross platform reading server. Built with the goal of being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "esphome",
+      "name": "ESPHome",
+      "repo": "esphome/esphome",
+      "category": "iot",
+      "desc": "写 YAML 就能给 ESP 芯片编译固件，把普通设备接入智能家居",
+      "tags": [
+        "智能家居",
+        "嵌入式",
+        "固件"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://esphome.io",
+      "stars": 11722,
+      "language": "C++",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "ESPHome is a system to control your ESP32, ESP8266, BK72xx, RP2040 by simple yet powerful configuration files and control them remotely through Home Automation systems.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "libvips",
@@ -6282,14 +10385,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "http://listen1.github.io/listen1",
-      "stars": 11405,
+      "stars": 11404,
       "language": "JavaScript",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-04-07",
       "descEn": "one for all free music in china (Windows, Mac, Linux desktop)",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "misskey",
@@ -6458,6 +10561,34 @@
       "syncedAt": ""
     },
     {
+      "id": "typebot",
+      "name": "Typebot",
+      "repo": "baptisteArno/typebot.io",
+      "category": "form",
+      "desc": "对话式表单和聊天机器人，比传统问卷更愿意让人填完",
+      "tags": [
+        "表单",
+        "聊天机器人",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://typebot.io",
+      "stars": 10361,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "💬 Typebot is a powerful chatbot builder that you can self-host.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "pixelorama",
       "name": "Pixelorama",
       "repo": "Orama-Interactive/Pixelorama",
@@ -6529,14 +10660,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://omnitools.app",
-      "stars": 10240,
+      "stars": 10243,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "2026-09-22",
+      "pushedAt": "2026-09-23",
       "descEn": "Self-hosted collection of powerful web-based tools for everyday tasks. No ads, no tracking, just fast, accessible utilities right from your browser!",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "nopcommerce",
@@ -6613,14 +10744,125 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://rubickcenter.github.io/docs",
-      "stars": 10028,
+      "stars": 10027,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-01-14",
       "descEn": "🔧  Electron based open source toolbox, free integration of rich plug-ins. 基于 electron 的开源工具箱，自由集成丰富插件。",
       "syncOk": true,
-      "syncedAt": "2026-09-22T06:16:49.944Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "wireshark",
+      "name": "Wireshark",
+      "repo": "wireshark/wireshark",
+      "category": "security",
+      "desc": "抓包分析的标准工具，协议解析支持得极广",
+      "tags": [
+        "安全",
+        "抓包",
+        "网络"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.wireshark.org",
+      "stars": 9922,
+      "language": "C",
+      "license": "GPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Read-only mirror of Wireshark's Git repository at https://gitlab.com/wireshark/wireshark. You're welcome to submit pull requests there.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "sioyek",
+      "name": "Sioyek",
+      "repo": "ahrm/sioyek",
+      "category": "doc",
+      "desc": "为读论文设计的 PDF 阅读器，跳转和引用跳转特别快",
+      "tags": [
+        "文档",
+        "桌面"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://sioyek.info",
+      "stars": 9886,
+      "language": "C++",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-19",
+      "descEn": "Sioyek is a PDF viewer with a focus on textbooks and research papers",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "kanboard",
+      "name": "Kanboard",
+      "repo": "kanboard/kanboard",
+      "category": "project",
+      "desc": "极简看板，PHP 单程序部署，资源占用极低",
+      "tags": [
+        "任务管理",
+        "看板",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://kanboard.org",
+      "stars": 9881,
+      "language": "PHP",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Kanban project management software",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "ufo",
+      "name": "UFO",
+      "repo": "microsoft/UFO",
+      "category": "agent",
+      "desc": "微软的 Windows 智能体，跨应用操作图形界面完成任务，比如改系统设置、整理文件",
+      "tags": [
+        "智能体",
+        "桌面",
+        "自主规划"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 9819,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "UFO³: Weaving the Digital Agent Galaxy",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "devilutionx",
@@ -6649,6 +10891,60 @@
       "descEn": "Diablo build for modern operating systems",
       "syncOk": true,
       "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
+      "id": "grocy",
+      "name": "Grocy",
+      "repo": "grocy/grocy",
+      "category": "project",
+      "desc": "家里的库存管家：冰箱剩什么、什么时候过期、该买什么",
+      "tags": [
+        "生活",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://grocy.info",
+      "stars": 9523,
+      "language": "PHP",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-16",
+      "descEn": "ERP beyond your fridge - Grocy is a web-based self-hosted groceries & household management solution for your home",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "prusaslicer",
+      "name": "PrusaSlicer",
+      "repo": "prusa3d/PrusaSlicer",
+      "category": "iot",
+      "desc": "开源切片软件，把 3D 模型转成打印机认识的指令",
+      "tags": [
+        "3D打印",
+        "桌面"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.prusa3d.com/prusaslicer/",
+      "stars": 9365,
+      "language": "C++",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-21",
+      "descEn": "G-code generator for 3D printers (RepRap, Makerbot, Ultimaker etc.)",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "buster",
@@ -6695,14 +10991,69 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://transform.tools/",
-      "stars": 9238,
+      "stars": 9237,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-01-28",
       "descEn": "A polyglot web converter.",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "octoprint",
+      "name": "OctoPrint",
+      "repo": "OctoPrint/OctoPrint",
+      "category": "iot",
+      "desc": "给 3D 打印机加一个网页控制台，远程看摄像头和发打印任务",
+      "tags": [
+        "3D打印",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://octoprint.org",
+      "stars": 9108,
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "OctoPrint is the snappy web interface for your 3D printer!",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "heyform",
+      "name": "HeyForm",
+      "repo": "heyform/heyform",
+      "category": "form",
+      "desc": "开源表单搭建器，拖拽出问卷和报名表",
+      "tags": [
+        "表单",
+        "问卷",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://heyform.net",
+      "stars": 8986,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-09",
+      "descEn": "Open-Source Form Builder",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "violentmonkey",
@@ -6732,6 +11083,33 @@
       "syncedAt": "2026-09-23T03:15:04.641Z"
     },
     {
+      "id": "anytype",
+      "name": "Anytype",
+      "repo": "anyproto/anytype-ts",
+      "category": "notes",
+      "desc": "本地优先的知识管理，对象化组织内容，端到端加密",
+      "tags": [
+        "笔记",
+        "加密"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://anytype.io",
+      "stars": 8846,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Official Anytype client for MacOS, Linux, and Windows",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "miaoyan",
       "name": "MiaoYan",
       "repo": "tw93/MiaoYan",
@@ -6751,14 +11129,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://miaoyan.app",
-      "stars": 8653,
+      "stars": 8652,
       "language": "Swift",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "2026-09-20",
+      "pushedAt": "2026-09-22",
       "descEn": "⛷ Lightweight Markdown app to help you write great sentences.",
       "syncOk": true,
-      "syncedAt": "2026-09-22T07:10:42.651Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "i18next",
@@ -6786,6 +11164,33 @@
       "descEn": " i18next: learn once - translate everywhere",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "mockoon",
+      "name": "Mockoon",
+      "repo": "mockoon/mockoon",
+      "category": "database",
+      "desc": "几秒起一个假接口服务，前端不等后端也能开发",
+      "tags": [
+        "API测试",
+        "开发者"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://mockoon.com",
+      "stars": 8419,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-20",
+      "descEn": "Mockoon is the easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "growthbook",
@@ -6847,6 +11252,32 @@
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
     {
+      "id": "floorp",
+      "name": "Floorp",
+      "repo": "Floorp-Projects/Floorp",
+      "category": "browser",
+      "desc": "日本团队做的 Firefox 分支，可定制性极高",
+      "tags": [
+        "浏览器"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://floorp.app",
+      "stars": 8391,
+      "language": "TypeScript",
+      "license": "MPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "All of source code of Floorp 12, the most Advanced and Fastest Firefox derivative 🦊",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "crater",
       "name": "Crater",
       "repo": "crater-invoice-inc/crater",
@@ -6872,6 +11303,89 @@
       "descEn": "Open Source Invoicing Solution for Individuals & Businesses",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "meshtastic",
+      "name": "Meshtastic",
+      "repo": "meshtastic/firmware",
+      "category": "iot",
+      "desc": "用 LoRa 组一张不依赖运营商的离网通信网",
+      "tags": [
+        "嵌入式",
+        "通信"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://meshtastic.org",
+      "stars": 8340,
+      "language": "C++",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "The official firmware for Meshtastic, an open-source, off-grid mesh communication system.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "drawio",
+      "name": "draw.io",
+      "repo": "jgraph/drawio",
+      "category": "diagram",
+      "desc": "专业流程图工具，免费替代 Visio，支持导出多种格式",
+      "tags": [
+        "流程图",
+        "UML",
+        "替代Visio"
+      ],
+      "usage": [
+        "online"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://app.diagrams.net",
+      "stars": 8309,
+      "language": "JavaScript",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "draw.io is a JavaScript, client-side editor for general diagramming.",
+      "syncOk": true,
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "mumble",
+      "name": "Mumble",
+      "repo": "mumble-voip/mumble",
+      "category": "team",
+      "desc": "低延迟语音通话，游戏开黑和老牌社区还在用",
+      "tags": [
+        "语音通话",
+        "可自托管"
+      ],
+      "usage": [
+        "desktop",
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.mumble.info",
+      "stars": 8302,
+      "language": "C++",
+      "license": "BSD-3-Clause",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Mumble is an open-source, low-latency, high quality voice chat software.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "openttd",
@@ -6902,34 +11416,6 @@
       "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
-      "id": "drawio",
-      "name": "draw.io",
-      "repo": "jgraph/drawio",
-      "category": "diagram",
-      "desc": "专业流程图工具，免费替代 Visio，支持导出多种格式",
-      "tags": [
-        "流程图",
-        "UML",
-        "替代Visio"
-      ],
-      "usage": [
-        "online"
-      ],
-      "platforms": [],
-      "caution": "",
-      "scene": "",
-      "cloud": "",
-      "homepage": "https://app.diagrams.net",
-      "stars": 8293,
-      "language": "JavaScript",
-      "license": "Apache-2.0",
-      "archived": false,
-      "pushedAt": "2026-09-16",
-      "descEn": "draw.io is a JavaScript, client-side editor for general diagramming.",
-      "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
-    },
-    {
       "id": "snapdom",
       "name": "snapdom",
       "repo": "zumerlab/snapdom",
@@ -6947,14 +11433,41 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://snapdom.dev/",
-      "stars": 8152,
+      "stars": 8153,
       "language": "JavaScript",
       "license": "MIT",
       "archived": false,
-      "pushedAt": "2026-09-22",
+      "pushedAt": "2026-09-23",
       "descEn": "High-performance engine for capturing, modifying, and converting DOM elements into any format.",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
+    },
+    {
+      "id": "librephotos",
+      "name": "LibrePhotos",
+      "repo": "LibrePhotos/librephotos",
+      "category": "mediaserver",
+      "desc": "自托管相册，用机器学习做自动标签和人物归类",
+      "tags": [
+        "照片管理",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://librephotos.com",
+      "stars": 8083,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-21",
+      "descEn": "A self-hosted open source photo management service. ",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "backgroundremover",
@@ -7064,6 +11577,33 @@
       "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
+      "id": "exercism",
+      "name": "Exercism",
+      "repo": "exercism/exercism",
+      "category": "learn",
+      "desc": "几十种语言的练习题，每道题都有真人导师给你改代码",
+      "tags": [
+        "学习",
+        "编程教学"
+      ],
+      "usage": [
+        "online"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://exercism.org",
+      "stars": 7588,
+      "language": "JavaScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Crowd-sourced code mentorship. Practice having thoughtful conversations about code.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "veloren",
       "name": "Veloren",
       "repo": "veloren/veloren",
@@ -7146,6 +11686,34 @@
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
     {
+      "id": "hedgedoc",
+      "name": "HedgeDoc",
+      "repo": "hedgedoc/hedgedoc",
+      "category": "notes",
+      "desc": "实时协作 Markdown 编辑器，边写边出预览，适合开会记录",
+      "tags": [
+        "笔记",
+        "协作",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://hedgedoc.org",
+      "stars": 7443,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "HedgeDoc - Ideas grow better together",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "mgba",
       "name": "mGBA",
       "repo": "mgba-emu/mgba",
@@ -7205,6 +11773,35 @@
       "syncedAt": "2026-09-22T06:16:49.944Z"
     },
     {
+      "id": "wiremock",
+      "name": "WireMock",
+      "repo": "wiremock/wiremock",
+      "category": "database",
+      "desc": "模拟 HTTP 服务的测试工具，能录能放能改响应",
+      "tags": [
+        "API测试",
+        "开发者",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost",
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://wiremock.org",
+      "stars": 7378,
+      "language": "Java",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "A tool for mocking HTTP services",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "html-to-image",
       "name": "html-to-image",
       "repo": "bubkoo/html-to-image",
@@ -7222,14 +11819,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://html-to-image.netlify.app/",
-      "stars": 7239,
+      "stars": 7240,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-05-28",
       "descEn": "✂️ Generates an image from a DOM node using HTML5 canvas and SVG.",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "esearch",
@@ -7254,14 +11851,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://esearch-app.netlify.app/",
-      "stars": 7200,
+      "stars": 7203,
       "language": "TypeScript",
       "license": "GPL-3.0",
       "archived": false,
       "pushedAt": "2026-09-15",
       "descEn": "截屏 离线OCR 搜索翻译 以图搜图 贴图 录屏 万向滚动截屏 屏幕翻译   Screenshot  Offline OCR   Search   Translate   Search for picture   Paste the picture on the screen   Screen recorder   Omnidirectional scrolling screenshot   Screen translator  支持Windows Linux macOS",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "gopass",
@@ -7350,6 +11947,33 @@
       "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
+      "id": "rowy",
+      "name": "Rowy",
+      "repo": "rowyio/rowy",
+      "category": "lowcode",
+      "desc": "在表格里写云函数的后端管理面板",
+      "tags": [
+        "低代码",
+        "内部工具"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.rowy.io",
+      "stars": 6842,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2024-11-23",
+      "descEn": "Low-code backend platform. Manage database on spreadsheet-like UI and build cloud functions workflows in JS/TS, all in your browser.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "instagrapi",
       "name": "instagrapi",
       "repo": "subzeroid/instagrapi",
@@ -7373,6 +11997,34 @@
       "archived": false,
       "pushedAt": "2026-09-22",
       "descEn": "🔥 The fastest and powerful Python library for Instagram Private API 2026 with HikerAPI SaaS",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "komga",
+      "name": "Komga",
+      "repo": "gotson/komga",
+      "category": "mediaserver",
+      "desc": "漫画和电子书服务器，支持 OPDS 和各种阅读器",
+      "tags": [
+        "媒体服务器",
+        "漫画",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://komga.org",
+      "stars": 6688,
+      "language": "Kotlin",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Media server for comics/mangas/BDs/magazines/eBooks with API, OPDS, Kobo Sync and KOReader Sync support",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -7541,6 +12193,62 @@
       "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
+      "id": "iconify",
+      "name": "Iconify",
+      "repo": "iconify/iconify",
+      "category": "design",
+      "desc": "一个接口统一访问几十个图标集，二十万图标随取随用",
+      "tags": [
+        "图标",
+        "设计"
+      ],
+      "usage": [
+        "lib",
+        "online"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://iconify.design",
+      "stars": 6330,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Universal icon framework. One syntax for FontAwesome, Material Design Icons, DashIcons, Feather Icons, EmojiOne, Noto Emoji and many other open source icon sets (over 200 icon sets and ~300k icons). SVG framework, React, Vue and Svelte components!",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "fontsource",
+      "name": "Fontsource",
+      "repo": "fontsource/fontsource",
+      "category": "design",
+      "desc": "把开源字体做成 npm 包自己托管，不依赖 Google Fonts",
+      "tags": [
+        "字体",
+        "设计",
+        "隐私"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://fontsource.org",
+      "stars": 6137,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Self-host Open Source fonts in neatly bundled NPM packages.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "weblate",
       "name": "Weblate",
       "repo": "WeblateOrg/weblate",
@@ -7596,6 +12304,34 @@
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
     {
+      "id": "baserow",
+      "name": "Baserow",
+      "repo": "baserow/baserow",
+      "category": "lowcode",
+      "desc": "开源版 Airtable，自建表格数据库和视图",
+      "tags": [
+        "低代码",
+        "数据库",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://baserow.io",
+      "stars": 5981,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Build databases, automations, apps & agents with AI — no code.  Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "zammad",
       "name": "Zammad",
       "repo": "zammad/zammad",
@@ -7646,6 +12382,33 @@
       "archived": false,
       "pushedAt": "2025-12-23",
       "descEn": "A free and open-source inpainting & image-upscaling tool powered by webgpu and wasm on the browser。|   基于 Webgpu 技术和 wasm 技术的免费开源 inpainting & image-upscaling 工具, 纯浏览器端实现。",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "pdfarranger",
+      "name": "PDF Arranger",
+      "repo": "pdfarranger/pdfarranger",
+      "category": "doc",
+      "desc": "拖拽合并、拆分、旋转、重排 PDF 页面",
+      "tags": [
+        "文档",
+        "桌面"
+      ],
+      "usage": [
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://github.com/pdfarranger/pdfarranger",
+      "stars": 5920,
+      "language": "Python",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-01",
+      "descEn": "Small python-gtk application, which helps the user to merge or split PDF documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface.",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -7721,14 +12484,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://60s.viki.moe",
-      "stars": 5763,
+      "stars": 5762,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-10",
       "descEn": "⏰ 60s API 免费接口。每天 60 秒看世界、奥运奖牌榜、小红书/B站/微博/抖音/知乎热搜、金价、油价、天气、翻译、壁纸、Epic 游戏、二维码、猫眼票房｜一系列 高质量、开源、可靠、全球 CDN 加速 的开放 API 集合，支持 Docker / Deno / Bun / Cloudflare Workers / Node.js 部署",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "killbill",
@@ -7803,14 +12566,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "http://tiny.cc/markedit",
-      "stars": 5718,
+      "stars": 5722,
       "language": "Swift",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-23",
       "descEn": "Just like TextEdit on Mac but dedicated to Markdown.",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "cookieconsent",
@@ -7840,6 +12603,33 @@
       "syncedAt": "2026-09-22T08:42:38.435Z"
     },
     {
+      "id": "open-color",
+      "name": "Open Color",
+      "repo": "yeun/open-color",
+      "category": "design",
+      "desc": "配色方案生成器，给出成体系的调色板",
+      "tags": [
+        "设计",
+        "配色"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://yeun.github.io/open-color/",
+      "stars": 5568,
+      "language": "JavaScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2023-12-10",
+      "descEn": "Color scheme for UI design.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "natron",
       "name": "Natron",
       "repo": "NatronGitHub/Natron",
@@ -7867,6 +12657,34 @@
       "syncedAt": ""
     },
     {
+      "id": "vikunja",
+      "name": "Vikunja",
+      "repo": "go-vikunja/vikunja",
+      "category": "project",
+      "desc": "自托管待办与项目工具，看板、列表、甘特图都有",
+      "tags": [
+        "任务管理",
+        "看板",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://vikunja.io",
+      "stars": 5494,
+      "language": "Go",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "The task manager you actually own.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "tinyraytracer",
       "name": "tinyraytracer",
       "repo": "ssloy/tinyraytracer",
@@ -7890,7 +12708,7 @@
       "pushedAt": "2023-07-07",
       "descEn": "A brief computer graphics / rendering course",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "supertuxkart",
@@ -8001,7 +12819,7 @@
       "pushedAt": "2026-07-14",
       "descEn": "A full open source 3D graphics editor in the browser, with scene editor, coding pad, graph editor, virtual file system, and many features more.",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "cmatrix",
@@ -8172,6 +12990,33 @@
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
     {
+      "id": "surveyjs",
+      "name": "SurveyJS",
+      "repo": "surveyjs/survey-library",
+      "category": "form",
+      "desc": "把问卷设计器嵌进自己的应用，JSON 驱动的表单引擎",
+      "tags": [
+        "表单",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://surveyjs.io",
+      "stars": 4878,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Open-source JavaScript form library for React, Angular, Vue, and plain JavaScript. Render dynamic JSON-driven forms, multi-step form wizards, surveys, quizzes, and other data-entry tools.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "memex",
       "name": "Memex",
       "repo": "WorldBrain/Memex",
@@ -8256,6 +13101,34 @@
       "syncedAt": "2026-09-22T08:42:38.435Z"
     },
     {
+      "id": "synapse",
+      "name": "Synapse",
+      "repo": "element-hq/synapse",
+      "category": "team",
+      "desc": "Matrix 协议的服务器实现，自己搭一个去中心化聊天网",
+      "tags": [
+        "团队沟通",
+        "联邦宇宙",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://matrix.org",
+      "stars": 4642,
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Synapse: Matrix homeserver written in Python/Twisted + Rust",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "corsixth",
       "name": "CorsixTH",
       "repo": "CorsixTH/CorsixTH",
@@ -8337,6 +13210,34 @@
       "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
+      "id": "zmk",
+      "name": "ZMK",
+      "repo": "zmkfirmware/zmk",
+      "category": "iot",
+      "desc": "无线分体键盘的固件，基于 Zephyr，低功耗",
+      "tags": [
+        "键盘",
+        "嵌入式",
+        "固件"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://zmk.dev",
+      "stars": 4276,
+      "language": "C",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-21",
+      "descEn": "ZMK Firmware Repository",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "tolgee",
       "name": "Tolgee",
       "repo": "tolgee/tolgee-platform",
@@ -8392,6 +13293,38 @@
       "syncedAt": "2026-09-23T08:38:43.481Z"
     },
     {
+      "id": "kde-connect",
+      "name": "KDE Connect",
+      "repo": "KDE/kdeconnect-kde",
+      "category": "mobile",
+      "desc": "手机和电脑互通：传文件、共享剪贴板、手机当遥控器",
+      "tags": [
+        "文件传输",
+        "移动端",
+        "协作"
+      ],
+      "usage": [
+        "desktop",
+        "mobile"
+      ],
+      "platforms": [
+        "android",
+        "linux"
+      ],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://kdeconnect.kde.org",
+      "stars": 4018,
+      "language": "C++",
+      "license": "GPL-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Multi-platform app that allows your devices to communicate",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "linkstack",
       "name": "LinkStack",
       "repo": "LinkStackOrg/LinkStack",
@@ -8415,6 +13348,62 @@
       "archived": false,
       "pushedAt": "2026-07-21",
       "descEn": "LinkStack - the ultimate solution for creating a personalized & professional profile page. Showcase all your important links in one place, forget the limitation of one link on social media. Set up your personal site on your own server with just a few clicks.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "pgadmin",
+      "name": "pgAdmin",
+      "repo": "pgadmin-org/pgadmin4",
+      "category": "database",
+      "desc": "PostgreSQL 官方管理工具，查询、备份、性能分析都齐",
+      "tags": [
+        "数据库",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost",
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.pgadmin.org",
+      "stars": 3820,
+      "language": "Python",
+      "license": "PostgreSQL",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "opnform",
+      "name": "OpnForm",
+      "repo": "JhumanJ/OpnForm",
+      "category": "form",
+      "desc": "轻量表单工具，界面干净，支持逻辑跳转",
+      "tags": [
+        "表单",
+        "问卷",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://opnform.com",
+      "stars": 3744,
+      "language": "PHP",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Beautiful Open-Source Form Builder",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -8622,14 +13611,14 @@
       "scene": "",
       "cloud": "",
       "homepage": "https://mind-elixir.com/",
-      "stars": 3163,
+      "stars": 3164,
       "language": "TypeScript",
       "license": "MIT",
       "archived": false,
       "pushedAt": "2026-09-16",
       "descEn": "⚗ Mind Elixir is a JavaScript, framework-agnostic mind map core.",
       "syncOk": true,
-      "syncedAt": "2026-09-23T02:14:32.897Z"
+      "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
       "id": "gzdoom",
@@ -8685,6 +13674,36 @@
       "descEn": "Open-source AI agent for B2B lead generation — describe your product, it finds the people who fit, explains why each one does, and emails them from your mailbox. Self-hosted CLI, one install.",
       "syncOk": true,
       "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
+      "id": "fdroid",
+      "name": "F-Droid",
+      "repo": "f-droid/fdroidclient",
+      "category": "mobile",
+      "desc": "只收录自由软件的安卓应用商店，替代 Google Play",
+      "tags": [
+        "移动端",
+        "应用商店",
+        "隐私"
+      ],
+      "usage": [
+        "mobile"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://f-droid.org",
+      "stars": 3062,
+      "language": "Java",
+      "license": "GPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Android client application.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "strudel",
@@ -9005,6 +14024,33 @@
       "descEn": "Metering and Billing for AI, API and DevOps. Collect and aggregate millions of usage events in real-time and enable usage-based billing.",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "revolt",
+      "name": "Revolt",
+      "repo": "revoltchat/revolt",
+      "category": "team",
+      "desc": "长得像 Discord 的开源替代，界面和体验都很接近",
+      "tags": [
+        "团队沟通",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://revolt.chat",
+      "stars": 2320,
+      "language": "Rust",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-02-16",
+      "descEn": "Repository for miscellaneous repository management and discussions: https://github.com/revoltchat/revolt/discussions",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "openxcom",
@@ -9794,90 +14840,6 @@
       "descEn": "Open list of 921 directories, communities & review sites to list your SaaS or AI product — with domain ratings, link type, and a phased submission plan. CSV, free, no signup.",
       "syncOk": true,
       "syncedAt": "2026-09-23T05:49:41.377Z"
-    },
-    {
-      "id": "ufo",
-      "name": "UFO",
-      "repo": "microsoft/UFO",
-      "category": "agent",
-      "desc": "微软的 Windows 智能体，跨应用操作图形界面完成任务，比如改系统设置、整理文件",
-      "tags": [
-        "智能体",
-        "桌面",
-        "自主规划"
-      ],
-      "usage": [
-        "cli"
-      ],
-      "platforms": [],
-      "caution": "",
-      "scene": "",
-      "cloud": "",
-      "homepage": "",
-      "stars": 0,
-      "language": "Python",
-      "license": "MIT",
-      "archived": false,
-      "pushedAt": "",
-      "descEn": "UFO³: Weaving the Digital Agent Galaxy",
-      "syncOk": false,
-      "syncedAt": ""
-    },
-    {
-      "id": "copilotkit",
-      "name": "CopilotKit",
-      "repo": "CopilotKit/CopilotKit",
-      "category": "agent",
-      "desc": "给自家产品加智能体前端：侧边栏助手、生成式 UI、应用内动作调用",
-      "tags": [
-        "智能体",
-        "对话界面",
-        "开发者"
-      ],
-      "usage": [
-        "lib"
-      ],
-      "platforms": [],
-      "caution": "",
-      "scene": "",
-      "cloud": "",
-      "homepage": "https://www.copilotkit.ai",
-      "stars": 0,
-      "language": "TypeScript",
-      "license": "MIT",
-      "archived": false,
-      "pushedAt": "",
-      "descEn": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
-      "syncOk": false,
-      "syncedAt": ""
-    },
-    {
-      "id": "chainlit",
-      "name": "Chainlit",
-      "repo": "chainlit/chainlit",
-      "category": "agent",
-      "desc": "几行 Python 就能给智能体套上对话界面，带中间步骤展示和引用来源",
-      "tags": [
-        "对话界面",
-        "智能体",
-        "开发者"
-      ],
-      "usage": [
-        "lib"
-      ],
-      "platforms": [],
-      "caution": "",
-      "scene": "",
-      "cloud": "",
-      "homepage": "https://chainlit.io",
-      "stars": 0,
-      "language": "Python",
-      "license": "Apache-2.0",
-      "archived": false,
-      "pushedAt": "",
-      "descEn": "Build Conversational AI in minutes ⚡️",
-      "syncOk": false,
-      "syncedAt": ""
     }
   ]
 }
