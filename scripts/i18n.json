@@ -70,7 +70,8 @@
       "team": "团队沟通",
       "form": "表单与问卷",
       "database": "数据库与 API",
-      "browser": "浏览器"
+      "browser": "浏览器",
+      "skill": "技能与提示词"
     },
     "allCategories": "全部分类",
     "allUsage": "全部",
@@ -199,7 +200,8 @@
       "team": "Team communication",
       "form": "Forms & surveys",
       "database": "Databases & API tools",
-      "browser": "Browsers"
+      "browser": "Browsers",
+      "skill": "Skills & prompts"
     },
     "allCategories": "All categories",
     "allUsage": "All",
@@ -572,6 +574,16 @@
     "图标": "Icons",
     "字体": "Fonts",
     "设计系统": "Design system",
-    "配色": "Color palettes"
+    "配色": "Color palettes",
+    "技能包": "Skill pack",
+    "提示词": "Prompts",
+    "开发方法": "Dev methodology",
+    "系统提示词": "System prompts",
+    "规则集": "Rulesets",
+    "子智能体": "Subagents",
+    "方法论": "Methodology",
+    "深度研究": "Deep research",
+    "个人助理": "Personal assistant",
+    "模拟": "Simulation"
   }
 }

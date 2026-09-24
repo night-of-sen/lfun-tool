@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-24T01:08:57.466Z",
-  "count": 535,
+  "generatedAt": "2026-09-24T01:33:00.758Z",
+  "count": 570,
   "items": [
     {
       "id": "build-your-own-x",
@@ -183,6 +183,34 @@
       "archived": false,
       "pushedAt": "2026-09-23",
       "descEn": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "superpowers",
+      "name": "Superpowers",
+      "repo": "obra/superpowers",
+      "category": "skill",
+      "desc": "给编码智能体装上一整套软件开发方法论，含头脑风暴、TDD、调试等技能",
+      "tags": [
+        "技能包",
+        "开发方法",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 290654,
+      "language": "Shell",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "An agentic skills framework & software development methodology that works.",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -408,6 +436,61 @@
       "syncedAt": ""
     },
     {
+      "id": "anthropic-skills",
+      "name": "Anthropic Skills",
+      "repo": "anthropics/skills",
+      "category": "skill",
+      "desc": "Anthropic 官方 Agent Skills 仓库，可直接装进 Claude 使用的技能包",
+      "tags": [
+        "技能包",
+        "提示词",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 177832,
+      "language": "Python",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "Public repository for Agent Skills",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "awesome-chatgpt-prompts",
+      "name": "Awesome ChatGPT Prompts",
+      "repo": "f/awesome-chatgpt-prompts",
+      "category": "skill",
+      "desc": "最出圈的提示词大全，按角色分类几百条现成提示词",
+      "tags": [
+        "提示词",
+        "清单"
+      ],
+      "usage": [
+        "online",
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://prompts.chat",
+      "stars": 171127,
+      "language": "HTML",
+      "license": "CC0-1.0",
+      "archived": false,
+      "pushedAt": "2026-09-09",
+      "descEn": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "sd-webui",
       "name": "Stable Diffusion WebUI",
       "repo": "AUTOMATIC1111/stable-diffusion-webui",
@@ -571,6 +654,32 @@
       "descEn": "The agent engineering platform.",
       "syncOk": true,
       "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
+      "id": "system-prompts",
+      "name": "System Prompts Collection",
+      "repo": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "category": "skill",
+      "desc": "各家 AI 编程工具的系统提示词合集，学习怎么写 agent 提示词",
+      "tags": [
+        "系统提示词",
+        "提示词"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 143835,
+      "language": "",
+      "archived": false,
+      "pushedAt": "2026-08-11",
+      "descEn": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "powertoys",
@@ -1245,6 +1354,35 @@
       "syncedAt": "2026-09-22T07:10:42.651Z"
     },
     {
+      "id": "deer-flow",
+      "name": "DeerFlow",
+      "repo": "bytedance/deer-flow",
+      "category": "agent",
+      "desc": "字节的长任务智能体框架，一个任务能自己搜资料、写代码、出报告",
+      "tags": [
+        "智能体",
+        "深度研究",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost",
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 82919,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "lobe-chat",
       "name": "LobeChat",
       "repo": "lobehub/lobe-chat",
@@ -1415,6 +1553,34 @@
       "syncedAt": "2026-09-24T00:50:29.904Z"
     },
     {
+      "id": "prompt-engineering-guide",
+      "name": "Prompt Engineering Guide",
+      "repo": "dair-ai/Prompt-Engineering-Guide",
+      "category": "skill",
+      "desc": "提示工程系统性指南，从基础技巧到论文和课程全都有",
+      "tags": [
+        "提示词",
+        "教程"
+      ],
+      "usage": [
+        "online",
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://www.promptingguide.ai",
+      "stars": 78579,
+      "language": "MDX",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-03-11",
+      "descEn": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "appflowy",
       "name": "AppFlowy",
       "repo": "AppFlowy-IO/AppFlowy",
@@ -1499,6 +1665,35 @@
       "syncedAt": ""
     },
     {
+      "id": "openai-cookbook",
+      "name": "OpenAI Cookbook",
+      "repo": "openai/openai-cookbook",
+      "category": "skill",
+      "desc": "OpenAI 官方示例与最佳实践，照着抄就能跑通",
+      "tags": [
+        "提示词",
+        "教程",
+        "开发者"
+      ],
+      "usage": [
+        "online",
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://cookbook.openai.com",
+      "stars": 76146,
+      "language": "Jupyter Notebook",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Examples and guides for using the OpenAI API",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "caddy",
       "name": "Caddy",
       "repo": "caddyserver/caddy",
@@ -1523,6 +1718,34 @@
       "archived": false,
       "pushedAt": "2026-09-23",
       "descEn": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "ai-agents-for-beginners",
+      "name": "AI Agents for Beginners",
+      "repo": "microsoft/ai-agents-for-beginners",
+      "category": "skill",
+      "desc": "微软出的 18 课智能体入门课，从零到能自己写 agent",
+      "tags": [
+        "教程",
+        "智能体",
+        "开发者"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 75527,
+      "language": "Jupyter Notebook",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-19",
+      "descEn": "18 Lessons to Get Started Building AI Agents",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -2777,6 +3000,32 @@
       "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
+      "id": "awesome-claude-code",
+      "name": "Awesome Claude Code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "category": "skill",
+      "desc": "Claude Code 生态资源精选：命令、工作流、工具和配置",
+      "tags": [
+        "清单",
+        "提示词"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 54516,
+      "language": "",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "whisper-cpp",
       "name": "whisper.cpp",
       "repo": "ggml-org/whisper.cpp",
@@ -2828,6 +3077,34 @@
       "archived": false,
       "pushedAt": "2025-12-01",
       "descEn": "Focus on prompting and generating",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "anthropic-cookbook",
+      "name": "Anthropic Cookbook",
+      "repo": "anthropics/anthropic-cookbook",
+      "category": "skill",
+      "desc": "Anthropic 官方食谱，工具调用、RAG、视觉等实战示例",
+      "tags": [
+        "提示词",
+        "教程",
+        "开发者"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 52936,
+      "language": "Jupyter Notebook",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -3833,6 +4110,33 @@
       "syncedAt": ""
     },
     {
+      "id": "awesome-cursorrules",
+      "name": "Awesome Cursor Rules",
+      "repo": "PatrickJS/awesome-cursorrules",
+      "category": "skill",
+      "desc": "给 Cursor 编辑器用的规则文件合集，按技术栈挑一条就用",
+      "tags": [
+        "规则集",
+        "提示词",
+        "开发者"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 40828,
+      "language": "JavaScript",
+      "archived": false,
+      "pushedAt": "2026-05-30",
+      "descEn": "📄  Configuration files that enhance Cursor AI editor experience with custom rules and behaviors",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "outline",
       "name": "Outline",
       "repo": "outline/outline",
@@ -3998,6 +4302,34 @@
       "archived": false,
       "pushedAt": "2026-09-13",
       "descEn": "Convert PDF to markdown + JSON quickly with high accuracy",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "wshobson-agents",
+      "name": "Claude Agents Marketplace",
+      "repo": "wshobson/agents",
+      "category": "skill",
+      "desc": "Claude Code 的插件与子智能体市场，装完就有几十个专精角色",
+      "tags": [
+        "子智能体",
+        "技能包",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 39912,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-21",
+      "descEn": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -4287,6 +4619,32 @@
       "syncedAt": ""
     },
     {
+      "id": "prompt-eng-tutorial",
+      "name": "Prompt Engineering Tutorial",
+      "repo": "anthropics/prompt-eng-interactive-tutorial",
+      "category": "skill",
+      "desc": "Anthropic 官方交互式提示工程课，九章带练习",
+      "tags": [
+        "提示词",
+        "教程"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 38269,
+      "language": "Jupyter Notebook",
+      "archived": false,
+      "pushedAt": "2026-08-28",
+      "descEn": "Anthropic's Interactive Prompt Engineering Tutorial",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "sing-box",
       "name": "sing-box",
       "repo": "SagerNet/sing-box",
@@ -4311,6 +4669,34 @@
       "archived": false,
       "pushedAt": "2026-09-23",
       "descEn": "The universal proxy platform",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "dspy",
+      "name": "DSPy",
+      "repo": "stanfordnlp/dspy",
+      "category": "agent",
+      "desc": "用编程而不是调提示词来构建 LLM 系统，斯坦福出品",
+      "tags": [
+        "智能体",
+        "框架",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://dspy.ai",
+      "stars": 38241,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "DSPy: The framework for programming—not prompting—language models",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -4478,6 +4864,35 @@
       "archived": false,
       "pushedAt": "2026-09-23",
       "descEn": "Open Source Alternative to Vercel, Netlify and Heroku.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "khoj",
+      "name": "Khoj",
+      "repo": "khoj-ai/khoj",
+      "category": "agent",
+      "desc": "个人 AI 第二大脑，能搜自己的文档、邮件和笔记并回答问题",
+      "tags": [
+        "个人助理",
+        "智能体",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost",
+        "desktop"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://khoj.dev",
+      "stars": 37483,
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "archived": false,
+      "pushedAt": "2026-08-02",
+      "descEn": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -5062,6 +5477,35 @@
       "syncedAt": ""
     },
     {
+      "id": "chatdev",
+      "name": "ChatDev",
+      "repo": "OpenBMB/ChatDev",
+      "category": "agent",
+      "desc": "用多个智能体模拟一家公司，从需求到代码自动走完开发流程",
+      "tags": [
+        "多智能体",
+        "智能体",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost",
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 34379,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-07-24",
+      "descEn": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "mihomo",
       "name": "Mihomo",
       "repo": "MetaCubeX/mihomo",
@@ -5488,6 +5932,32 @@
       "syncedAt": ""
     },
     {
+      "id": "awesome-ai-agents",
+      "name": "Awesome AI Agents",
+      "repo": "e2b-dev/awesome-ai-agents",
+      "category": "skill",
+      "desc": "自主智能体项目清单，按类型分好类，找同类产品省事",
+      "tags": [
+        "清单",
+        "智能体"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 30136,
+      "language": "",
+      "archived": false,
+      "pushedAt": "2026-08-21",
+      "descEn": "A list of AI autonomous agents",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "better-auth",
       "name": "Better Auth",
       "repo": "better-auth/better-auth",
@@ -5568,6 +6038,35 @@
       "descEn": "A lightweight, powerful framework for multi-agent workflows",
       "syncOk": true,
       "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
+      "id": "gpt-researcher",
+      "name": "GPT Researcher",
+      "repo": "assafelovic/gpt-researcher",
+      "category": "agent",
+      "desc": "深度研究智能体，自己上网查资料然后写出带引用的报告",
+      "tags": [
+        "深度研究",
+        "智能体",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost",
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://gptr.dev",
+      "stars": 29591,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-08-27",
+      "descEn": "An autonomous agent that conducts deep research on any data using any LLM providers",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "netbird",
@@ -6129,6 +6628,34 @@
       "syncedAt": ""
     },
     {
+      "id": "agentic-seek",
+      "name": "AgenticSeek",
+      "repo": "Fosowl/agenticSeek",
+      "category": "agent",
+      "desc": "完全本地运行的 Manus 替代，不用 API Key，搜索写代码都能做",
+      "tags": [
+        "智能体",
+        "本地大模型",
+        "隐私"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 27292,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-21",
+      "descEn": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "wg-easy",
       "name": "wg-easy",
       "repo": "wg-easy/wg-easy",
@@ -6234,6 +6761,32 @@
       "archived": false,
       "pushedAt": "2026-05-18",
       "descEn": "Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "12-factor-agents",
+      "name": "12-Factor Agents",
+      "repo": "humanlayer/12-factor-agents",
+      "category": "skill",
+      "desc": "构建可靠 LLM 产品的十二条原则，想清楚 agent 该怎么设计",
+      "tags": [
+        "方法论",
+        "智能体"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 26366,
+      "language": "",
+      "archived": false,
+      "pushedAt": "2025-09-21",
+      "descEn": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -6428,6 +6981,33 @@
       "descEn": "Personal CRM. Remember everything about your friends, family and business relationships.",
       "syncOk": true,
       "syncedAt": "2026-09-22T08:42:38.435Z"
+    },
+    {
+      "id": "claude-subagents",
+      "name": "Awesome Claude Code Subagents",
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "category": "skill",
+      "desc": "100 多个专用子智能体定义，开发、运维、安全、文档全覆盖",
+      "tags": [
+        "子智能体",
+        "技能包"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 25285,
+      "language": "Shell",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-21",
+      "descEn": "A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "stagehand",
@@ -7622,6 +8202,33 @@
       "syncedAt": "2026-09-23T05:49:41.377Z"
     },
     {
+      "id": "suna",
+      "name": "Suna",
+      "repo": "kortix-ai/suna",
+      "category": "agent",
+      "desc": "通用 AI 助手平台，浏览器操作、文件处理、数据分析一体",
+      "tags": [
+        "智能体",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 20233,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "The open-source AI Management System",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "open-seo",
       "name": "Open SEO",
       "repo": "every-app/open-seo",
@@ -7648,6 +8255,34 @@
       "descEn": "Open source alternative to Semrush and Ahrefs",
       "syncOk": true,
       "syncedAt": "2026-09-23T05:49:41.377Z"
+    },
+    {
+      "id": "owl",
+      "name": "OWL",
+      "repo": "camel-ai/owl",
+      "category": "agent",
+      "desc": "多智能体协作处理真实世界任务，浏览器和工具调用都支持",
+      "tags": [
+        "多智能体",
+        "智能体"
+      ],
+      "usage": [
+        "lib",
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 20145,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-20",
+      "descEn": "🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "pydantic-ai",
@@ -7839,6 +8474,33 @@
       "archived": false,
       "pushedAt": "2026-08-08",
       "descEn": "Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "agent-zero",
+      "name": "Agent Zero",
+      "repo": "frdel/agent-zero",
+      "category": "agent",
+      "desc": "通用自主智能体，能写代码、操作终端、自己调用工具完成目标",
+      "tags": [
+        "智能体",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 19252,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Agent Zero AI framework",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -10085,6 +10747,33 @@
       "syncedAt": ""
     },
     {
+      "id": "langgpt",
+      "name": "LangGPT",
+      "repo": "langgptai/LangGPT",
+      "category": "skill",
+      "desc": "结构化提示词框架，把提示词写成模板，团队可以复用和版本管理",
+      "tags": [
+        "提示词",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 12548,
+      "language": "Markdown",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-09-11",
+      "descEn": "LangGPT: Empowering everyone to become a prompt expert! 🚀  📌 结构化提示词（Structured Prompt）提出者 📌 元提示词（Meta-Prompt）发起者   📌 最流行的提示词落地范式 | Language of GPT  The pioneering framework for structured & meta-prompt design 10,000+ ⭐ | Battle-tested by thousands of users worldwide  Created by 云中江树",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "chainlit",
       "name": "Chainlit",
       "repo": "chainlit/chainlit",
@@ -10109,6 +10798,32 @@
       "archived": false,
       "pushedAt": "2026-09-18",
       "descEn": "Build Conversational AI in minutes ⚡️",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "marketing-agents",
+      "name": "Contains Studio Agents",
+      "repo": "contains-studio/agents",
+      "category": "skill",
+      "desc": "一套面向营销、产品和运营的 agent 配置，拿来就能用",
+      "tags": [
+        "子智能体",
+        "技能包"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 12420,
+      "language": "",
+      "archived": false,
+      "pushedAt": "2025-07-28",
+      "descEn": "sharing current agents in use",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -10448,6 +11163,33 @@
       "descEn": "Open-source Android/Desktop remake of Civ V",
       "syncOk": true,
       "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
+      "id": "mcp-inspector",
+      "name": "MCP Inspector",
+      "repo": "modelcontextprotocol/inspector",
+      "category": "skill",
+      "desc": "MCP 服务器的可视化调试工具，开发和排查连接问题必备",
+      "tags": [
+        "工具协议",
+        "开发者"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 10937,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-24",
+      "descEn": "Visual testing tool for MCP servers",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "dufs",
@@ -11056,6 +11798,33 @@
       "syncedAt": ""
     },
     {
+      "id": "claude-code-action",
+      "name": "Claude Code Action",
+      "repo": "anthropics/claude-code-action",
+      "category": "skill",
+      "desc": "把 Claude Code 接进 GitHub，让它在 PR 和 Issue 里自动干活",
+      "tags": [
+        "自动化",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 8932,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-23",
+      "descEn": "Run Claude Code inside GitHub Actions to handle pull requests and issues automatically",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "violentmonkey",
       "name": "Violentmonkey",
       "repo": "violentmonkey/violentmonkey",
@@ -11164,6 +11933,34 @@
       "descEn": " i18next: learn once - translate everywhere",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "xagent",
+      "name": "XAgent",
+      "repo": "OpenBMB/XAgent",
+      "category": "agent",
+      "desc": "面向复杂任务的自主智能体，会自己拆解步骤并反思",
+      "tags": [
+        "智能体",
+        "可自托管"
+      ],
+      "usage": [
+        "selfhost",
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 8550,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-07-31",
+      "descEn": "An Autonomous LLM Agent for Complex Task Solving",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "mockoon",
@@ -11658,6 +12455,34 @@
       "descEn": "Space exploration, trading, and combat game.",
       "syncOk": true,
       "syncedAt": "2026-09-23T08:38:43.481Z"
+    },
+    {
+      "id": "tiny-troupe",
+      "name": "TinyTroupe",
+      "repo": "microsoft/TinyTroupe",
+      "category": "agent",
+      "desc": "微软的虚拟人群模拟，用 LLM 生成多个角色做市场调研推演",
+      "tags": [
+        "智能体",
+        "模拟",
+        "开发者"
+      ],
+      "usage": [
+        "lib"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 7571,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-07-03",
+      "descEn": "LLM-powered multiagent persona simulation for imagination enhancement and business insights.",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "mailu",
@@ -12437,6 +13262,35 @@
       "descEn": "Countly is a privacy-first, AI-powered analytics and engagement platform for understanding and optimizing customer journeys across digital applications, from desktop and mobile to IoT and connected environments.",
       "syncOk": true,
       "syncedAt": "2026-09-22T07:10:42.651Z"
+    },
+    {
+      "id": "agentops",
+      "name": "AgentOps",
+      "repo": "AgentOps-AI/agentops",
+      "category": "agent",
+      "desc": "智能体可观测性 SDK，监控每一步调用、成本和失败原因",
+      "tags": [
+        "可观测性",
+        "智能体",
+        "开发者"
+      ],
+      "usage": [
+        "lib",
+        "selfhost"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://agentops.ai",
+      "stars": 5837,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-06-25",
+      "descEn": "Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most LLMs and agent frameworks including CrewAI, Agno, OpenAI Agents SDK, Langchain, Autogen, AG2, and CamelAI",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "android-sms-gateway",
@@ -13325,6 +14179,32 @@
       "syncedAt": ""
     },
     {
+      "id": "claude-hooks-mastery",
+      "name": "Claude Code Hooks Mastery",
+      "repo": "disler/claude-code-hooks-mastery",
+      "category": "skill",
+      "desc": "Claude Code Hooks 的完整用法，用钩子把流程管起来",
+      "tags": [
+        "教程",
+        "开发者"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 3928,
+      "language": "Python",
+      "archived": false,
+      "pushedAt": "2026-03-04",
+      "descEn": "Master Claude Code Hooks",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
       "id": "linkstack",
       "name": "LinkStack",
       "repo": "LinkStackOrg/LinkStack",
@@ -13430,6 +14310,60 @@
       "archived": false,
       "pushedAt": "2026-03-16",
       "descEn": "📅 Schedule, 📢 publish, and ⚡ manage your social media content on your server. No subscriptions, no limits. (Buffer alternative)",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "cursor-rules-mdc",
+      "name": "Awesome Cursor Rules MDC",
+      "repo": "sanjeed5/awesome-cursor-rules-mdc",
+      "category": "skill",
+      "desc": "Cursor Rules 的 .mdc 格式合集，前端后端各种栈都有",
+      "tags": [
+        "规则集",
+        "开发者"
+      ],
+      "usage": [
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 3574,
+      "language": "",
+      "archived": false,
+      "pushedAt": "2026-05-19",
+      "descEn": "Curated list of awesome Cursor Rules .mdc files",
+      "syncOk": false,
+      "syncedAt": ""
+    },
+    {
+      "id": "claude-subagents-hub",
+      "name": "Claude Code Subagents Collection",
+      "repo": "davepoon/claude-code-subagents-collection",
+      "category": "skill",
+      "desc": "找 Claude 技能、智能体、命令的统一入口，持续更新",
+      "tags": [
+        "子智能体",
+        "技能包"
+      ],
+      "usage": [
+        "lib",
+        "list"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "",
+      "stars": 3533,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-22",
+      "descEn": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw",
       "syncOk": false,
       "syncedAt": ""
     },
@@ -14406,6 +15340,32 @@
       "descEn": "Open-source JavaScript cookie consent manager for GDPR / RGPD. Customizable banner, service-level controls and Google Consent Mode v2 support.",
       "syncOk": true,
       "syncedAt": "2026-09-22T08:42:38.435Z"
+    },
+    {
+      "id": "smithery-cli",
+      "name": "Smithery CLI",
+      "repo": "smithery-ai/cli",
+      "category": "skill",
+      "desc": "一条命令安装管理 MCP 服务器和技能，不用自己折腾配置",
+      "tags": [
+        "工具协议",
+        "命令行"
+      ],
+      "usage": [
+        "cli"
+      ],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "homepage": "https://smithery.ai",
+      "stars": 836,
+      "language": "TypeScript",
+      "archived": false,
+      "pushedAt": "2026-05-31",
+      "descEn": "Install, manage and develop MCP servers and skills for agents",
+      "syncOk": false,
+      "syncedAt": ""
     },
     {
       "id": "seo-audits-toolkit",

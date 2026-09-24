@@ -3742,5 +3742,250 @@
     "source": "README.md",
     "rawLength": 251,
     "fetchedAt": "2026-09-24T01:12:47.985Z"
+  },
+  "superpowers": {
+    "summary": "Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14377,
+    "fetchedAt": "2026-09-24T01:35:27.860Z"
+  },
+  "anthropic-skills": {
+    "summary": "Skills are simple to create - just a folder with a SKILL.md file containing YAML frontmatter and instructions. You can use the template-skill in this repository as a starting point:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5552,
+    "fetchedAt": "2026-09-24T01:35:27.861Z"
+  },
+  "awesome-chatgpt-prompts": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11308,
+    "fetchedAt": "2026-09-24T01:35:27.861Z"
+  },
+  "system-prompts": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2052,
+    "fetchedAt": "2026-09-24T01:35:27.861Z"
+  },
+  "deer-flow": {
+    "summary": "DeerFlow (Deep Exploration and Efficient Research Flow) is an open-source super agent harness that orchestrates sub-agents, memory, and sandboxes to do almost anything — powered by extensible skills.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 189648,
+    "fetchedAt": "2026-09-24T01:37:50.474Z"
+  },
+  "prompt-engineering-guide": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10937,
+    "fetchedAt": "2026-09-24T01:37:50.474Z"
+  },
+  "openai-cookbook": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1209,
+    "fetchedAt": "2026-09-24T01:37:50.474Z"
+  },
+  "ai-agents-for-beginners": {
+    "summary": "For more information on running the code for this course, go to the Course Setup.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20293,
+    "fetchedAt": "2026-09-24T01:37:50.474Z"
+  },
+  "awesome-claude-code": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 194345,
+    "fetchedAt": "2026-09-24T01:37:50.474Z"
+  },
+  "anthropic-cookbook": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6083,
+    "fetchedAt": "2026-09-24T01:38:17.552Z"
+  },
+  "awesome-cursorrules": {
+    "summary": "Cursor Project Rules enhance Cursor AI editor behavior with project-specific guidance and reusable coding standards.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 51858,
+    "fetchedAt": "2026-09-24T01:38:17.552Z"
+  },
+  "wshobson-agents": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10363,
+    "fetchedAt": "2026-09-24T01:38:17.552Z"
+  },
+  "prompt-eng-tutorial": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2689,
+    "fetchedAt": "2026-09-24T01:38:17.552Z"
+  },
+  "dspy": {
+    "summary": "DSPy is the framework for programming—rather than prompting—language models. It allows you to iterate fast on building modular AI systems and offers algorithms for optimizing their prompts and weights, whether you're building simple classifiers, sophisticated RAG pipelines, or Agent loops.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4778,
+    "fetchedAt": "2026-09-24T01:38:17.552Z"
+  },
+  "khoj": {
+    "summary": "Khoj is a personal AI app to extend your capabilities. It smoothly scales up from an on-device personal AI to a cloud-scale enterprise AI.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4665,
+    "fetchedAt": "2026-09-24T01:38:17.552Z"
+  },
+  "chatdev": {
+    "summary": "",
+    "docker": "# From the project root\n    docker compose up --build",
+    "source": "README.md",
+    "rawLength": 24194,
+    "fetchedAt": "2026-09-24T01:38:46.343Z"
+  },
+  "awesome-ai-agents": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 211963,
+    "fetchedAt": "2026-09-24T01:38:46.343Z"
+  },
+  "gpt-researcher": {
+    "summary": "GPT Researcher the first open deep research agent designed for both web and local research on any given task.",
+    "docker": "docker-compose up --build",
+    "source": "README.md",
+    "rawLength": 17707,
+    "fetchedAt": "2026-09-24T01:38:46.343Z"
+  },
+  "agentic-seek": {
+    "summary": "",
+    "docker": "docker compose exec backend curl -sS http://host.docker.internal:11434/api/tags",
+    "source": "README.md",
+    "rawLength": 39598,
+    "fetchedAt": "2026-09-24T01:38:46.343Z"
+  },
+  "12-factor-agents": {
+    "summary": "Agents, at least the good ones, don't follow the \"here's your prompt, here's a bag of tools, loop until you hit the goal\" pattern. Rather, they are comprised of mostly just software.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 21571,
+    "fetchedAt": "2026-09-24T01:38:46.343Z"
+  },
+  "claude-subagents": {
+    "summary": "Subagents are specialized AI assistants that enhance Claude Code's capabilities by providing task-specific expertise. They act as dedicated helpers that Claude Code can call upon when encountering particular types of work.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 35911,
+    "fetchedAt": "2026-09-24T01:38:46.343Z"
+  },
+  "suna": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8869,
+    "fetchedAt": "2026-09-24T01:39:16.844Z"
+  },
+  "owl": {
+    "summary": "🦉 OWL is a cutting-edge framework for multi-agent collaboration that pushes the boundaries of task automation, built on top of the CAMEL-AI Framework.",
+    "docker": "# This option downloads a ready-to-use image from Docker Hub\n# Fastest and recommended for most users\ndocker compose up -d\n\n# Run OWL inside the container\ndocker compose exec owl bash\ncd .. && source .venv/bin/activate\nplaywright install-deps\nxvfb-python examples/run.py",
+    "source": "README.md",
+    "rawLength": 29130,
+    "fetchedAt": "2026-09-24T01:39:16.844Z"
+  },
+  "agent-zero": {
+    "summary": "Agent Zero is an open agent framework for work that needs more than chat: a Dockerized Linux desktop, a browser with DOM annotation, live document cowork, projects, skills, plugins, and a bridge back to your host machine.",
+    "docker": "docker run -p 80:80 -v a0_usr:/a0/usr agent0ai/agent-zero",
+    "source": "README.md",
+    "rawLength": 19781,
+    "fetchedAt": "2026-09-24T01:39:16.844Z"
+  },
+  "langgpt": {
+    "summary": "LangGPT is a structured, reusable prompt design framework that enables anyone to create high-quality prompts for Large Language Models. Think of it as a \"programming language for prompts\" — systematic, template-based, and infinitely scalable.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 23608,
+    "fetchedAt": "2026-09-24T01:39:16.844Z"
+  },
+  "marketing-agents": {
+    "summary": "Agents are automatically available in Claude Code. Simply describe your task and the appropriate agent will be triggered. You can also explicitly request an agent by mentioning their name.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10977,
+    "fetchedAt": "2026-09-24T01:39:17.782Z"
+  },
+  "mcp-inspector": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9561,
+    "fetchedAt": "2026-09-24T01:39:17.782Z"
+  },
+  "claude-code-action": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4836,
+    "fetchedAt": "2026-09-24T01:39:17.782Z"
+  },
+  "xagent": {
+    "summary": "XAgent is an open-source experimental Large Language Model (LLM) driven autonomous agent that can automatically solve various tasks. It is designed to be a general-purpose agent that can be applied to a wide range of tasks. XAgent is still in its early stages, and we are working hard to improve it.",
+    "docker": "docker compose up",
+    "source": "README.md",
+    "rawLength": 12053,
+    "fetchedAt": "2026-09-24T01:39:17.782Z"
+  },
+  "tiny-troupe": {
+    "summary": "TinyTroupe started as an internal Microsoft hackathon project, and expanded over time. The TinyTroupe core team currently consists of: - Paulo Salem (TinyTroupe's creator and current lead) - Christopher Olsen (Engineering/Science) - Yi Ding (Product Management) - Prerit Saxena (Engineering/Science)",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 52247,
+    "fetchedAt": "2026-09-24T01:39:17.782Z"
+  },
+  "agentops": {
+    "summary": "AgentOps helps developers build, evaluate, and monitor AI agents. From prototype to production.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 31038,
+    "fetchedAt": "2026-09-24T01:39:17.782Z"
+  },
+  "claude-hooks-mastery": {
+    "summary": "Claude Code Hooks - Quickly master how to use Claude Code hooks to add deterministic (or non-deterministic) control over Claude Code's behavior. Plus learn about Claude Code Sub-Agents, the powerful Meta-Agent, and Team-Based Validation with agent orchestration.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 41208,
+    "fetchedAt": "2026-09-24T01:39:29.577Z"
+  },
+  "cursor-rules-mdc": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4162,
+    "fetchedAt": "2026-09-24T01:39:29.577Z"
+  },
+  "claude-subagents-hub": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6917,
+    "fetchedAt": "2026-09-24T01:39:29.577Z"
+  },
+  "smithery-cli": {
+    "summary": "Smithery CLI connects your agents to thousands of skills and MCP servers directly from the command line. To get started, simply run npx skills add smithery/cli.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2849,
+    "fetchedAt": "2026-09-24T01:39:29.577Z"
   }
 }

@@ -1,4 +1,7 @@
 {
+  "12-factor-agents": [
+    "agent设计原则"
+  ],
   "60s": [
     "每日60秒",
     "60秒读懂世界"
@@ -22,9 +25,24 @@
     "notion替代",
     "知识库"
   ],
+  "agent-zero": [
+    "通用智能体",
+    "自主agent"
+  ],
+  "agentic-seek": [
+    "本地manus",
+    "本地ai助手"
+  ],
+  "agentops": [
+    "agent监控"
+  ],
   "agno": [
     "智能体框架",
     "phidata"
+  ],
+  "ai-agents-for-beginners": [
+    "智能体入门",
+    "agent教程"
   ],
   "aider": [
     "ai结对编程",
@@ -36,6 +54,13 @@
   "alger": [
     "音乐播放器",
     "桌面歌词"
+  ],
+  "anthropic-cookbook": [
+    "claude示例"
+  ],
+  "anthropic-skills": [
+    "claude技能",
+    "agent技能"
   ],
   "anything-llm": [
     "本地知识库",
@@ -81,6 +106,19 @@
   "automa": [
     "浏览器自动化",
     "网页自动化"
+  ],
+  "awesome-ai-agents": [
+    "ai智能体清单"
+  ],
+  "awesome-chatgpt-prompts": [
+    "提示词大全",
+    "chatgpt提示词"
+  ],
+  "awesome-claude-code": [
+    "claude code资源"
+  ],
+  "awesome-cursorrules": [
+    "cursor规则"
   ],
   "awesome-mcp-servers": [
     "mcp大全",
@@ -198,9 +236,26 @@
     "er图",
     "数据库设计"
   ],
+  "chatdev": [
+    "多智能体开发",
+    "ai软件公司"
+  ],
   "chatwoot": [
     "客服系统",
     "在线客服"
+  ],
+  "claude-code-action": [
+    "claude code自动化"
+  ],
+  "claude-hooks-mastery": [
+    "claude hooks"
+  ],
+  "claude-subagents": [
+    "子智能体合集"
+  ],
+  "claude-subagents-hub": [
+    "技能市场",
+    "子智能体集散地"
   ],
   "cline": [
     "vscode智能体",
@@ -254,6 +309,9 @@
     "春松",
     "春松客服系统"
   ],
+  "cursor-rules-mdc": [
+    "cursor规则文件"
+  ],
   "cyberchef": [
     "编解码",
     "加解密工具"
@@ -269,6 +327,10 @@
   ],
   "dbeaver": [
     "数据库客户端"
+  ],
+  "deer-flow": [
+    "深度研究智能体",
+    "长任务智能体"
   ],
   "developer-roadmap": [
     "学习路线",
@@ -335,6 +397,10 @@
   "drawio": [
     "流程图",
     "visio 替代"
+  ],
+  "dspy": [
+    "编程式提示",
+    "dspy框架"
   ],
   "dub": [
     "短链平台",
@@ -484,6 +550,10 @@
   ],
   "gpt-pilot": [
     "ai开发团队"
+  ],
+  "gpt-researcher": [
+    "深度研究",
+    "自动写报告"
   ],
   "grafana": [
     "监控面板",
@@ -635,6 +705,10 @@
   "kdenlive": [
     "剪辑软件"
   ],
+  "khoj": [
+    "ai第二大脑",
+    "个人知识助手"
+  ],
   "kimai": [
     "工时统计",
     "计时"
@@ -668,6 +742,10 @@
   "langfuse": [
     "llm可观测",
     "agent监控"
+  ],
+  "langgpt": [
+    "结构化提示词",
+    "提示词模板"
   ],
   "langgraph": [
     "智能体状态机",
@@ -783,6 +861,9 @@
   "marker": [
     "pdf转markdown"
   ],
+  "marketing-agents": [
+    "营销智能体"
+  ],
   "markmap": [
     "markdown 思维导图"
   ],
@@ -806,6 +887,9 @@
   ],
   "mautic": [
     "营销自动化"
+  ],
+  "mcp-inspector": [
+    "mcp调试"
   ],
   "mcp-servers": [
     "mcp服务器",
@@ -1030,6 +1114,9 @@
   "openai-agents": [
     "openai智能体sdk"
   ],
+  "openai-cookbook": [
+    "openai示例"
+  ],
   "opencode": [
     "终端智能体",
     "命令行ai编程"
@@ -1078,6 +1165,9 @@
   "outline": [
     "团队知识库",
     "wiki"
+  ],
+  "owl": [
+    "多智能体协作"
   ],
   "owncast": [
     "自建直播"
@@ -1188,6 +1278,13 @@
   "prometheus": [
     "监控系统",
     "指标采集"
+  ],
+  "prompt-eng-tutorial": [
+    "提示工程教程"
+  ],
+  "prompt-engineering-guide": [
+    "提示工程",
+    "prompt指南"
   ],
   "prusaslicer": [
     "切片软件"
@@ -1354,6 +1451,10 @@
     "markdown ppt",
     "做ppt"
   ],
+  "smithery-cli": [
+    "mcp安装",
+    "技能安装"
+  ],
   "smolagents": [
     "轻量智能体"
   ],
@@ -1421,6 +1522,10 @@
     "字幕编辑",
     "字幕工具"
   ],
+  "suna": [
+    "通用ai助手",
+    "manus替代"
+  ],
   "sunshine": [
     "游戏串流",
     "串流服务端"
@@ -1428,6 +1533,10 @@
   "super-productivity": [
     "番茄钟",
     "时间管理"
+  ],
+  "superpowers": [
+    "claude技能库",
+    "编码技能包"
   ],
   "supertokens": [
     "登录认证"
@@ -1456,6 +1565,10 @@
   ],
   "system-design-primer": [
     "系统设计面试"
+  ],
+  "system-prompts": [
+    "系统提示词",
+    "提示词合集"
   ],
   "tab-session-manager": [
     "标签页管理",
@@ -1489,6 +1602,10 @@
   "tiktok-api": [
     "tiktok抓取",
     "抖音数据"
+  ],
+  "tiny-troupe": [
+    "虚拟人群",
+    "角色模拟"
   ],
   "tinyrenderer": [
     "手写渲染器",
@@ -1667,6 +1784,13 @@
   "wled": [
     "灯带控制",
     "氛围灯"
+  ],
+  "wshobson-agents": [
+    "claude插件",
+    "子智能体市场"
+  ],
+  "xagent": [
+    "自主智能体"
   ],
   "yesplaymusic": [
     "网易云播放器",

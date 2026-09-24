@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude Code Hooks Mastery · Skills &amp; prompts · Open Source Toolkit</title>
+<meta name="description" content="Master Claude Code Hooks ⭐ 3.9k · Python · ">
+<meta name="theme-color" content="#2563eb">
+<link rel="canonical" href="https://tools.lfun.cloud/en/tool/claude-hooks-mastery/">
+<link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/tool/claude-hooks-mastery/">
+<link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/en/tool/claude-hooks-mastery/">
+<link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/claude-hooks-mastery/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Claude Code Hooks Mastery · Skills &amp; prompts · Open Source Toolkit">
+<meta property="og:description" content="Master Claude Code Hooks ⭐ 3.9k · Python · ">
+<meta property="og:url" content="https://tools.lfun.cloud/en/tool/claude-hooks-mastery/">
+<meta property="og:image" content="https://tools.lfun.cloud/og.png">
+<meta property="og:site_name" content="Open Source Toolkit">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Claude Code Hooks Mastery","description":"Master Claude Code Hooks","url":"https://tools.lfun.cloud/en/tool/claude-hooks-mastery/","inLanguage":"en","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","codeRepository":"https://github.com/disler/claude-code-hooks-mastery","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"disler"},"keywords":"Tutorial, Developer"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"All tools","item":"https://tools.lfun.cloud/en/"},{"@type":"ListItem","position":2,"name":"Skills & prompts","item":"https://tools.lfun.cloud/en/category/skill/"},{"@type":"ListItem","position":3,"name":"Claude Code Hooks Mastery","item":"https://tools.lfun.cloud/en/tool/claude-hooks-mastery/"}]}</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧰</text></svg>">
+<link rel="stylesheet" href="/styles.css?v=b0fafb04">
+<script>window.__LANG__="en";window.__I18N__={"htmlLang":"en","siteName":"Open Source Toolkit","brandSub":"Know <strong>how to use it<\/strong> before you click: online, self-hosted, desktop, CLI","homeTitle":"Open Source Toolkit · {n} curated GitHub projects","homeDesc":"{n} curated open-source GitHub projects with clear notes on how to use them: online, self-hosted, desktop app or CLI. Includes a Going-Global section: localization, compliance, payments, email and support.","searchPlaceholder":"Search name, purpose, tag…  press / to focus","scenes":{"all":"All","general":"General","overseas":"🌏 Going global"},"usages":{"online":"🌐 Online","desktop":"💻 Desktop","cli":"⌨️ CLI","selfhost":"🐳 Self-hosted","lib":"📦 Library","list":"📚 Lists","extension":"🧩 Extensions","mobile":"📱 Mobile app"},"categories":{"watermark":"Watermarks","video":"Video production","social":"Social media","ai":"AI tools","diagram":"Whiteboards & diagrams","image":"Image & graphics","doc":"Documents & PDF","dev":"Developer tools","design":"Design","utility":"Utilities","fun":"Fun","system":"System tweaks","download":"Downloaders","capture":"Screenshot & recording","media":"Music & media","writing":"Writing & notes","filesearch":"Search & files","security":"Security & privacy","analytics":"Analytics","experiment":"A/B testing & flags","i18n":"Localization","payment":"Payments & billing","commerce":"E-commerce","email":"Email & marketing","notify":"Notifications & SMS","support":"Customer support","crm":"CRM & sales","auth":"Auth & identity","compliance":"Compliance & e-signing","sitesearch":"Site search","finance":"Finance & invoicing","promo":"Growth & SEO","agent":"AI agents","game":"Games","storage":"File sync & storage","notes":"Notes & knowledge base","mediaserver":"Media servers","monitor":"Monitoring & ops","network":"Networking & proxy","learn":"Learning resources","mobile":"Mobile","iot":"Hardware & IoT","editor":"Editors & terminals","lowcode":"Low-code & internal tools","project":"Project & task management","team":"Team communication","form":"Forms & surveys","database":"Databases & API tools","browser":"Browsers","skill":"Skills & prompts"},"allCategories":"All categories","allUsage":"All","sortStars":"By stars","sortName":"By name","sortUpdated":"By last update","btnOnline":"Open online","btnDeploy":"Deploy","btnDownload":"Download","btnDocs":"Docs","btnAddon":"Get the add-on","btnRepo":"Repository","btnNoOnline":"No online version","archived":"Archived","cautions":{"隐私":"Privacy","版权":"Copyright","系统修改":"System changes","许可":"License unclear"},"countTemplate":"Showing {n} of {total} tools","emptyFav":"No favourites yet","emptyMatch":"No matching tools","clearFilters":"Clear filters","favTitle":"Save","themeTitle":"Toggle theme","favOnly":"Favourites only","backToAll":"All tools","related":"Similar tools","detailTitle":"Details","specStars":"Stars","specLang":"Language","specLicense":"License","specUpdated":"Last updated","specCategory":"Category","specScene":"Section","noLicense":"Not specified","footerNote":"Star counts change over time; synced weekly by GitHub Actions.","langSwitch":"中文","langSwitchHref":"/","categoriesHeading":"All categories","catPageSub":"{n} curated open-source projects","catPageLink":"Browse categories","readmeHeading":"From the README","aboutLabel":"About","disclaimerLabel":"Disclaimer","onlineHeading":"Online tools","onlineSub":"Small tools that run right here in your browser. Nothing is uploaded.","privacyNote":"🔒 Everything runs locally in your browser. Files and content are never uploaded.","aboutThisTool":"About this tool","sideScene":"Section","sideUsage":"How to use","sideCategory":"Category","sideSort":"Sort","menuToggle":"Filter menu","filterHint":"Filters"};</script>
+</head>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="/en/">
+      <span class="brand-mark">🧰</span>
+      <div>
+        <span class="brand-name">Open Source Toolkit</span>
+        <p class="brand-sub">Know <strong>how to use it</strong> before you click: online, self-hosted, desktop, CLI</p>
+      </div>
+    </a>
+    <div class="topbar-actions">
+
+      <a class="btn-ghost" href="/">中文</a>
+      <button id="theme-toggle" class="btn-ghost" title="Toggle theme">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs">
+    <a href="/en/">All tools</a>
+    <span>/</span><a href="/en/category/skill/">Skills &amp; prompts</a>
+    <span>/</span><strong>Claude Code Hooks Mastery</strong>
+  </nav>
+  <article class="detail">
+    <header class="detail-head">
+      <img class="icon icon-lg" src="https://github.com/disler.png?size=160" alt="" data-initial="C" onerror="iconFail(this)">
+      <div>
+        <h1 class="detail-name">Claude Code Hooks Mastery</h1>
+        <div class="card-repo">disler/claude-code-hooks-mastery</div>
+      </div>
+      <button class="fav fav-lg" data-fav="claude-hooks-mastery" title="Save">☆</button>
+    </header>
+    <div class="tier-banner tier-resource">
+      <strong>Read or browse</strong>
+      <span>A curated list, reference or prompt collection. Nothing to install or deploy — just open the repository.</span>
+    </div>
+    <p class="detail-desc">Master Claude Code Hooks</p>
+    <div class="tags"><span class="tag">Tutorial</span><span class="tag">Developer</span></div>
+    <figure class="repo-card-wrap"><img class="repo-card" src="https://opengraph.githubassets.com/1/disler/claude-code-hooks-mastery" alt="Claude Code Hooks Mastery repository card" width="1200" height="675" loading="lazy"></figure>
+
+    <div class="readme"><h2>From the README</h2><p>Claude Code Hooks - Quickly master how to use Claude Code hooks to add deterministic (or non-deterministic) control over Claude Code&#39;s behavior. Plus learn about Claude Code Sub-Agents, the powerful Meta-Agent, and Team-Based Validation with agent orchestration.</p></div>
+    <dl class="specs">
+    <div class="spec"><dt>Stars</dt><dd>★ 3.9k</dd></div>
+    <div class="spec"><dt>Language</dt><dd>Python</dd></div>
+    <div class="spec"><dt>License</dt><dd>Not specified</dd></div>
+    <div class="spec"><dt>Last updated</dt><dd>2026-03-04</dd></div>
+    <div class="spec"><dt>Category</dt><dd>Skills &amp; prompts</dd></div>
+    <div class="spec"><dt>Section</dt><dd>General</dd></div>
+    </dl>
+    <div class="detail-actions">
+      <a class="btn-primary btn-lg" href="https://github.com/disler/claude-code-hooks-mastery" target="_blank" rel="noopener">Repository</a>
+      <a class="btn-secondary btn-lg" href="https://github.com/disler/claude-code-hooks-mastery" target="_blank" rel="noopener">Repository</a>
+    </div>
+  </article>
+  <section class="related">
+    <h2>Similar tools</h2>
+    <div class="grid">
+<article class="card" data-id="superpowers" data-scene="general"
+  data-usage="lib" data-category="skill"
+  data-stars="290654" data-name="Superpowers"
+  data-updated="2026-09-22" data-search="superpowers obra/superpowers 给编码智能体装上一整套软件开发方法论，含头脑风暴、tdd、调试等技能 an agentic skills framework &amp; software development methodology that works. shell 技能包 开发方法 开发者 skill pack dev methodology developer claude技能库 编码技能包">
+  <button class="fav" data-fav="superpowers" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/obra.png?size=96" alt="" loading="lazy"
+         data-initial="S" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/superpowers/">Superpowers</a></h3>
+      <div class="card-repo">obra/superpowers</div>
+      <div class="tier tier-library">Library</div>
+    </div>
+  </div>
+  <p class="card-desc">An agentic skills framework &amp; software development methodology that works.</p>
+  <div class="tags"><span class="tag">Skill pack</span><span class="tag">Dev methodology</span><span class="tag">Developer</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">290.7k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#89e051"></i>Shell</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/obra/superpowers" target="_blank" rel="noopener">Docs</a><a class="btn-secondary" href="https://github.com/obra/superpowers" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="anthropic-skills" data-scene="general"
+  data-usage="lib" data-category="skill"
+  data-stars="177832" data-name="Anthropic Skills"
+  data-updated="2026-09-22" data-search="anthropic skills anthropics/skills anthropic 官方 agent skills 仓库，可直接装进 claude 使用的技能包 public repository for agent skills python 技能包 提示词 开发者 skill pack prompts developer claude技能 agent技能">
+  <button class="fav" data-fav="anthropic-skills" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/anthropics.png?size=96" alt="" loading="lazy"
+         data-initial="A" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/anthropic-skills/">Anthropic Skills</a></h3>
+      <div class="card-repo">anthropics/skills</div>
+      <div class="tier tier-library">Library</div>
+    </div>
+  </div>
+  <p class="card-desc">Public repository for Agent Skills</p>
+  <div class="tags"><span class="tag">Skill pack</span><span class="tag">Prompts</span><span class="tag">Developer</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">177.8k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3572A5"></i>Python</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/anthropics/skills" target="_blank" rel="noopener">Docs</a><a class="btn-secondary" href="https://github.com/anthropics/skills" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="awesome-chatgpt-prompts" data-scene="general"
+  data-usage="online list" data-category="skill"
+  data-stars="171127" data-name="Awesome ChatGPT Prompts"
+  data-updated="2026-09-09" data-search="awesome chatgpt prompts f/awesome-chatgpt-prompts 最出圈的提示词大全，按角色分类几百条现成提示词 f.k.a. awesome chatgpt prompts. share, discover, and collect prompts from the community. free and open source — self-host for your organization with complete privacy. html 提示词 清单 prompts curated list 提示词大全 chatgpt提示词">
+  <button class="fav" data-fav="awesome-chatgpt-prompts" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/f.png?size=96" alt="" loading="lazy"
+         data-initial="A" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/awesome-chatgpt-prompts/">Awesome ChatGPT Prompts</a></h3>
+      <div class="card-repo">f/awesome-chatgpt-prompts</div>
+      <div class="tier tier-ready">Ready to use</div>
+    </div>
+  </div>
+  <p class="card-desc">f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.</p>
+  <div class="tags"><span class="tag">Prompts</span><span class="tag">Curated list</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">171.1k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#e34c26"></i>HTML</span>
+    <span class="actions"><a class="btn-primary" href="https://prompts.chat" target="_blank" rel="noopener">Open online</a><a class="btn-secondary" href="https://github.com/f/awesome-chatgpt-prompts" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="system-prompts" data-scene="general"
+  data-usage="list" data-category="skill"
+  data-stars="143835" data-name="System Prompts Collection"
+  data-updated="2026-08-11" data-search="system prompts collection x1xhlol/system-prompts-and-models-of-ai-tools 各家 ai 编程工具的系统提示词合集，学习怎么写 agent 提示词 full augment code, claude code, cluely, codebuddy, comet, cursor, devin ai, junie, kiro, leap.new, lovable, manus, notionai, orchids.app, perplexity, poke, qoder, replit, same.dev, trae, traycer ai, vscode agent, warp.dev, windsurf, xcode, z.ai code, dia &amp; v0. (and other open sourced) system prompts, internal tools &amp; ai models  系统提示词 提示词 system prompts prompts 系统提示词 提示词合集">
+  <button class="fav" data-fav="system-prompts" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/x1xhlol.png?size=96" alt="" loading="lazy"
+         data-initial="S" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/system-prompts/">System Prompts Collection</a></h3>
+      <div class="card-repo">x1xhlol/system-prompts-and-models-of-ai-tools</div>
+      <div class="tier tier-resource">Read or browse</div>
+    </div>
+  </div>
+  <p class="card-desc">FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia &amp; v0. (And other Open Sourced) System Prompts, Internal Tools &amp; AI Models</p>
+  <div class="tags"><span class="tag">System prompts</span><span class="tag">Prompts</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">143.8k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#8b949e"></i>—</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools" target="_blank" rel="noopener">Repository</a><a class="btn-secondary" href="https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="prompt-engineering-guide" data-scene="general"
+  data-usage="online list" data-category="skill"
+  data-stars="78579" data-name="Prompt Engineering Guide"
+  data-updated="2026-03-11" data-search="prompt engineering guide dair-ai/prompt-engineering-guide 提示工程系统性指南，从基础技巧到论文和课程全都有 🐙 guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, rag, and ai agents. mdx 提示词 教程 prompts tutorial 提示工程 prompt指南">
+  <button class="fav" data-fav="prompt-engineering-guide" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/dair-ai.png?size=96" alt="" loading="lazy"
+         data-initial="P" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/prompt-engineering-guide/">Prompt Engineering Guide</a></h3>
+      <div class="card-repo">dair-ai/Prompt-Engineering-Guide</div>
+      <div class="tier tier-ready">Ready to use</div>
+    </div>
+  </div>
+  <p class="card-desc">🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.</p>
+  <div class="tags"><span class="tag">Prompts</span><span class="tag">Tutorial</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">78.6k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#8b949e"></i>MDX</span>
+    <span class="actions"><a class="btn-primary" href="https://www.promptingguide.ai" target="_blank" rel="noopener">Open online</a><a class="btn-secondary" href="https://github.com/dair-ai/Prompt-Engineering-Guide" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+<article class="card" data-id="openai-cookbook" data-scene="general"
+  data-usage="online list" data-category="skill"
+  data-stars="76146" data-name="OpenAI Cookbook"
+  data-updated="2026-09-23" data-search="openai cookbook openai/openai-cookbook openai 官方示例与最佳实践，照着抄就能跑通 examples and guides for using the openai api jupyter notebook 提示词 教程 开发者 prompts tutorial developer openai示例">
+  <button class="fav" data-fav="openai-cookbook" title="Save">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/openai.png?size=96" alt="" loading="lazy"
+         data-initial="O" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/en/tool/openai-cookbook/">OpenAI Cookbook</a></h3>
+      <div class="card-repo">openai/openai-cookbook</div>
+      <div class="tier tier-ready">Ready to use</div>
+    </div>
+  </div>
+  <p class="card-desc">Examples and guides for using the OpenAI API</p>
+  <div class="tags"><span class="tag">Prompts</span><span class="tag">Tutorial</span><span class="tag">Developer</span></div>
+  <div class="card-foot">
+    <span class="stat" title="Stars">★ <span class="star-n">76.1k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#8b949e"></i>Jupyter Notebook</span>
+    <span class="actions"><a class="btn-primary" href="https://cookbook.openai.com" target="_blank" rel="noopener">Open online</a><a class="btn-secondary" href="https://github.com/openai/openai-cookbook" target="_blank" rel="noopener">Repository</a></span>
+  </div>
+</article>
+    </div>
+  </section>
+  <p class="back-link"><a href="/en/">← All tools</a></p>
+</main>
+
+<footer class="footer wrap">
+  <p>Open Source Toolkit · Star counts change over time; synced weekly by GitHub Actions.</p>
+  <p class="footer-links"><a href="/en/online/">Online tools</a><a href="/en/categories/">All categories</a><a href="/en/about/">About</a><a href="/en/disclaimer/">Disclaimer</a><a href="/">中文</a></p>
+</footer>
+<script src="/app.js?v=b0fafb04"></script>
+</body>
+</html>

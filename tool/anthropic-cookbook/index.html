@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anthropic Cookbook · 技能与提示词 · 开源工具集</title>
+<meta name="description" content="Anthropic 官方食谱，工具调用、RAG、视觉等实战示例 ⭐ 52.9k · Jupyter Notebook · MIT">
+<meta name="theme-color" content="#2563eb">
+<link rel="canonical" href="https://tools.lfun.cloud/tool/anthropic-cookbook/">
+<link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/tool/anthropic-cookbook/">
+<link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/en/tool/anthropic-cookbook/">
+<link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/anthropic-cookbook/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Anthropic Cookbook · 技能与提示词 · 开源工具集">
+<meta property="og:description" content="Anthropic 官方食谱，工具调用、RAG、视觉等实战示例 ⭐ 52.9k · Jupyter Notebook · MIT">
+<meta property="og:url" content="https://tools.lfun.cloud/tool/anthropic-cookbook/">
+<meta property="og:image" content="https://tools.lfun.cloud/og.png">
+<meta property="og:site_name" content="开源工具集">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Anthropic Cookbook","description":"Anthropic 官方食谱，工具调用、RAG、视觉等实战示例","url":"https://tools.lfun.cloud/tool/anthropic-cookbook/","inLanguage":"zh-CN","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","codeRepository":"https://github.com/anthropics/anthropic-cookbook","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"anthropics"},"keywords":"提示词, 教程, 开发者"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"全部工具","item":"https://tools.lfun.cloud/"},{"@type":"ListItem","position":2,"name":"技能与提示词","item":"https://tools.lfun.cloud/category/skill/"},{"@type":"ListItem","position":3,"name":"Anthropic Cookbook","item":"https://tools.lfun.cloud/tool/anthropic-cookbook/"}]}</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧰</text></svg>">
+<link rel="stylesheet" href="/styles.css?v=b0fafb04">
+<script>window.__LANG__="zh";window.__I18N__={"htmlLang":"zh-CN","siteName":"开源工具集","brandSub":"标注清楚<strong>怎么用<\/strong>：在线即用 / 可自托管 / 桌面应用 / 命令行","homeTitle":"开源工具集 · {n} 个精选 GitHub 开源项目","homeDesc":"{n} 个精选 GitHub 开源项目，标注清楚怎么用：在线即用、可自托管、桌面应用、命令行。含出海辅助专题：多语言、合规、支付、邮件、客服。","searchPlaceholder":"搜索工具名、用途、标签…  按 / 聚焦","scenes":{"all":"全部","general":"通用工具","overseas":"🌏 出海辅助"},"usages":{"online":"🌐 在线即用","desktop":"💻 桌面应用","cli":"⌨️ 命令行","selfhost":"🐳 可自托管","lib":"📦 开发库","list":"📚 清单资源","extension":"🧩 扩展插件","mobile":"📱 移动应用"},"categories":{"watermark":"水印处理","video":"视频制作","social":"社媒运营","ai":"AI 工具","diagram":"白板绘图","image":"图片图形","doc":"文档 PDF","dev":"开发工具","design":"设计","utility":"效率工具","fun":"有趣好玩","system":"系统增强","download":"下载工具","capture":"截图录屏","media":"音乐媒体","writing":"写作笔记","filesearch":"搜索与文件","security":"安全隐私","analytics":"数据分析","experiment":"A/B 实验","i18n":"多语言本地化","payment":"支付计费","commerce":"电商建站","email":"邮件触达","notify":"通知短信","support":"客服工单","crm":"CRM 销售","auth":"认证授权","compliance":"合规签署","sitesearch":"站内搜索","finance":"财务发票","promo":"推广获客","agent":"AI 智能体","game":"游戏","storage":"存储与同步","notes":"笔记与知识库","mediaserver":"媒体服务器","monitor":"监控与运维","network":"网络与代理","learn":"学习资源","mobile":"移动端","iot":"硬件与物联网","editor":"编辑器与终端","lowcode":"低代码与内部工具","project":"项目与任务管理","team":"团队沟通","form":"表单与问卷","database":"数据库与 API","browser":"浏览器","skill":"技能与提示词"},"allCategories":"全部分类","allUsage":"全部","sortStars":"按星数排序","sortName":"按名称排序","sortUpdated":"按最近更新","btnOnline":"在线使用","btnDeploy":"部署","btnDownload":"下载","btnDocs":"文档","btnAddon":"获取扩展","btnRepo":"仓库","btnNoOnline":"暂无在线版","archived":"已归档","cautions":{"隐私":"隐私","版权":"版权","系统修改":"系统修改","许可":"许可待确认"},"countTemplate":"显示 {n} / {total} 个工具","emptyFav":"还没有收藏任何工具","emptyMatch":"没有匹配的工具","clearFilters":"清除筛选条件","favTitle":"收藏","themeTitle":"切换主题","favOnly":"只看收藏","backToAll":"全部工具","related":"同类工具","detailTitle":"详情","specStars":"星数","specLang":"语言","specLicense":"许可证","specUpdated":"最近更新","specCategory":"分类","specScene":"场景","noLicense":"未标注","footerNote":"星数会持续变化，由 GitHub Actions 每周自动同步。","langSwitch":"English","langSwitchHref":"/en/","categoriesHeading":"分类总览","catPageSub":"共 {n} 个精选开源项目","catPageLink":"查看分类","readmeHeading":"项目简介（摘自 README）","aboutLabel":"关于本站","disclaimerLabel":"免责声明","onlineHeading":"在线工具","onlineSub":"浏览器里直接可用的小工具，数据不上传服务器","privacyNote":"🔒 全部在浏览器本地运行，文件和内容不会上传到任何服务器。","aboutThisTool":"关于这个工具","sideScene":"场景","sideUsage":"使用方式","sideCategory":"分类","sideSort":"排序","menuToggle":"筛选菜单","filterHint":"筛选条件"};</script>
+</head>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="/">
+      <span class="brand-mark">🧰</span>
+      <div>
+        <span class="brand-name">开源工具集</span>
+        <p class="brand-sub">标注清楚<strong>怎么用</strong>：在线即用 / 可自托管 / 桌面应用 / 命令行</p>
+      </div>
+    </a>
+    <div class="topbar-actions">
+
+      <a class="btn-ghost" href="/en/">English</a>
+      <button id="theme-toggle" class="btn-ghost" title="切换主题">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="crumbs">
+    <a href="/">全部工具</a>
+    <span>/</span><a href="/category/skill/">技能与提示词</a>
+    <span>/</span><strong>Anthropic Cookbook</strong>
+  </nav>
+  <article class="detail">
+    <header class="detail-head">
+      <img class="icon icon-lg" src="https://github.com/anthropics.png?size=160" alt="" data-initial="A" onerror="iconFail(this)">
+      <div>
+        <h1 class="detail-name">Anthropic Cookbook</h1>
+        <div class="card-repo">anthropics/anthropic-cookbook</div>
+      </div>
+      <button class="fav fav-lg" data-fav="anthropic-cookbook" title="收藏">☆</button>
+    </header>
+    <div class="tier-banner tier-resource">
+      <strong>可直接查阅</strong>
+      <span>这是清单、资料或提示词集合，不用安装也不用部署，打开仓库直接看就行。</span>
+    </div>
+    <p class="detail-desc">Anthropic 官方食谱，工具调用、RAG、视觉等实战示例</p>
+    <div class="tags"><span class="tag">提示词</span><span class="tag">教程</span><span class="tag">开发者</span></div>
+    <figure class="repo-card-wrap"><img class="repo-card" src="https://opengraph.githubassets.com/1/anthropics/anthropic-cookbook" alt="Anthropic Cookbook 仓库概览卡片" width="1200" height="675" loading="lazy"></figure>
+
+
+    <dl class="specs">
+    <div class="spec"><dt>星数</dt><dd>★ 52.9k</dd></div>
+    <div class="spec"><dt>语言</dt><dd>Jupyter Notebook</dd></div>
+    <div class="spec"><dt>许可证</dt><dd>MIT</dd></div>
+    <div class="spec"><dt>最近更新</dt><dd>2026-09-23</dd></div>
+    <div class="spec"><dt>分类</dt><dd>技能与提示词</dd></div>
+    <div class="spec"><dt>场景</dt><dd>通用工具</dd></div>
+    </dl>
+    <div class="detail-actions">
+      <a class="btn-primary btn-lg" href="https://github.com/anthropics/anthropic-cookbook" target="_blank" rel="noopener">仓库</a>
+      <a class="btn-secondary btn-lg" href="https://github.com/anthropics/anthropic-cookbook" target="_blank" rel="noopener">仓库</a>
+    </div>
+  </article>
+  <section class="related">
+    <h2>同类工具</h2>
+    <div class="grid">
+<article class="card" data-id="superpowers" data-scene="general"
+  data-usage="lib" data-category="skill"
+  data-stars="290654" data-name="Superpowers"
+  data-updated="2026-09-22" data-search="superpowers obra/superpowers 给编码智能体装上一整套软件开发方法论，含头脑风暴、tdd、调试等技能 an agentic skills framework &amp; software development methodology that works. shell 技能包 开发方法 开发者 skill pack dev methodology developer claude技能库 编码技能包">
+  <button class="fav" data-fav="superpowers" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/obra.png?size=96" alt="" loading="lazy"
+         data-initial="S" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/superpowers/">Superpowers</a></h3>
+      <div class="card-repo">obra/superpowers</div>
+      <div class="tier tier-library">写代码时引用</div>
+    </div>
+  </div>
+  <p class="card-desc">给编码智能体装上一整套软件开发方法论，含头脑风暴、TDD、调试等技能</p>
+  <div class="tags"><span class="tag">技能包</span><span class="tag">开发方法</span><span class="tag">开发者</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">290.7k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#89e051"></i>Shell</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/obra/superpowers" target="_blank" rel="noopener">文档</a><a class="btn-secondary" href="https://github.com/obra/superpowers" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="anthropic-skills" data-scene="general"
+  data-usage="lib" data-category="skill"
+  data-stars="177832" data-name="Anthropic Skills"
+  data-updated="2026-09-22" data-search="anthropic skills anthropics/skills anthropic 官方 agent skills 仓库，可直接装进 claude 使用的技能包 public repository for agent skills python 技能包 提示词 开发者 skill pack prompts developer claude技能 agent技能">
+  <button class="fav" data-fav="anthropic-skills" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/anthropics.png?size=96" alt="" loading="lazy"
+         data-initial="A" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/anthropic-skills/">Anthropic Skills</a></h3>
+      <div class="card-repo">anthropics/skills</div>
+      <div class="tier tier-library">写代码时引用</div>
+    </div>
+  </div>
+  <p class="card-desc">Anthropic 官方 Agent Skills 仓库，可直接装进 Claude 使用的技能包</p>
+  <div class="tags"><span class="tag">技能包</span><span class="tag">提示词</span><span class="tag">开发者</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">177.8k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#3572A5"></i>Python</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/anthropics/skills" target="_blank" rel="noopener">文档</a><a class="btn-secondary" href="https://github.com/anthropics/skills" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="awesome-chatgpt-prompts" data-scene="general"
+  data-usage="online list" data-category="skill"
+  data-stars="171127" data-name="Awesome ChatGPT Prompts"
+  data-updated="2026-09-09" data-search="awesome chatgpt prompts f/awesome-chatgpt-prompts 最出圈的提示词大全，按角色分类几百条现成提示词 f.k.a. awesome chatgpt prompts. share, discover, and collect prompts from the community. free and open source — self-host for your organization with complete privacy. html 提示词 清单 prompts curated list 提示词大全 chatgpt提示词">
+  <button class="fav" data-fav="awesome-chatgpt-prompts" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/f.png?size=96" alt="" loading="lazy"
+         data-initial="A" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/awesome-chatgpt-prompts/">Awesome ChatGPT Prompts</a></h3>
+      <div class="card-repo">f/awesome-chatgpt-prompts</div>
+      <div class="tier tier-ready">打开就能用</div>
+    </div>
+  </div>
+  <p class="card-desc">最出圈的提示词大全，按角色分类几百条现成提示词</p>
+  <div class="tags"><span class="tag">提示词</span><span class="tag">清单</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">171.1k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#e34c26"></i>HTML</span>
+    <span class="actions"><a class="btn-primary" href="https://prompts.chat" target="_blank" rel="noopener">在线使用</a><a class="btn-secondary" href="https://github.com/f/awesome-chatgpt-prompts" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="system-prompts" data-scene="general"
+  data-usage="list" data-category="skill"
+  data-stars="143835" data-name="System Prompts Collection"
+  data-updated="2026-08-11" data-search="system prompts collection x1xhlol/system-prompts-and-models-of-ai-tools 各家 ai 编程工具的系统提示词合集，学习怎么写 agent 提示词 full augment code, claude code, cluely, codebuddy, comet, cursor, devin ai, junie, kiro, leap.new, lovable, manus, notionai, orchids.app, perplexity, poke, qoder, replit, same.dev, trae, traycer ai, vscode agent, warp.dev, windsurf, xcode, z.ai code, dia &amp; v0. (and other open sourced) system prompts, internal tools &amp; ai models  系统提示词 提示词 system prompts prompts 系统提示词 提示词合集">
+  <button class="fav" data-fav="system-prompts" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/x1xhlol.png?size=96" alt="" loading="lazy"
+         data-initial="S" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/system-prompts/">System Prompts Collection</a></h3>
+      <div class="card-repo">x1xhlol/system-prompts-and-models-of-ai-tools</div>
+      <div class="tier tier-resource">可直接查阅</div>
+    </div>
+  </div>
+  <p class="card-desc">各家 AI 编程工具的系统提示词合集，学习怎么写 agent 提示词</p>
+  <div class="tags"><span class="tag">系统提示词</span><span class="tag">提示词</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">143.8k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#8b949e"></i>—</span>
+    <span class="actions"><a class="btn-primary" href="https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools" target="_blank" rel="noopener">仓库</a><a class="btn-secondary" href="https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="prompt-engineering-guide" data-scene="general"
+  data-usage="online list" data-category="skill"
+  data-stars="78579" data-name="Prompt Engineering Guide"
+  data-updated="2026-03-11" data-search="prompt engineering guide dair-ai/prompt-engineering-guide 提示工程系统性指南，从基础技巧到论文和课程全都有 🐙 guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, rag, and ai agents. mdx 提示词 教程 prompts tutorial 提示工程 prompt指南">
+  <button class="fav" data-fav="prompt-engineering-guide" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/dair-ai.png?size=96" alt="" loading="lazy"
+         data-initial="P" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/prompt-engineering-guide/">Prompt Engineering Guide</a></h3>
+      <div class="card-repo">dair-ai/Prompt-Engineering-Guide</div>
+      <div class="tier tier-ready">打开就能用</div>
+    </div>
+  </div>
+  <p class="card-desc">提示工程系统性指南，从基础技巧到论文和课程全都有</p>
+  <div class="tags"><span class="tag">提示词</span><span class="tag">教程</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">78.6k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#8b949e"></i>MDX</span>
+    <span class="actions"><a class="btn-primary" href="https://www.promptingguide.ai" target="_blank" rel="noopener">在线使用</a><a class="btn-secondary" href="https://github.com/dair-ai/Prompt-Engineering-Guide" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+<article class="card" data-id="openai-cookbook" data-scene="general"
+  data-usage="online list" data-category="skill"
+  data-stars="76146" data-name="OpenAI Cookbook"
+  data-updated="2026-09-23" data-search="openai cookbook openai/openai-cookbook openai 官方示例与最佳实践，照着抄就能跑通 examples and guides for using the openai api jupyter notebook 提示词 教程 开发者 prompts tutorial developer openai示例">
+  <button class="fav" data-fav="openai-cookbook" title="收藏">☆</button>
+  <div class="card-head">
+    <img class="icon" src="https://github.com/openai.png?size=96" alt="" loading="lazy"
+         data-initial="O" onerror="iconFail(this)">
+    <div class="card-titles">
+      <h3 class="card-name"><a href="/tool/openai-cookbook/">OpenAI Cookbook</a></h3>
+      <div class="card-repo">openai/openai-cookbook</div>
+      <div class="tier tier-ready">打开就能用</div>
+    </div>
+  </div>
+  <p class="card-desc">OpenAI 官方示例与最佳实践，照着抄就能跑通</p>
+  <div class="tags"><span class="tag">提示词</span><span class="tag">教程</span><span class="tag">开发者</span></div>
+  <div class="card-foot">
+    <span class="stat" title="星数">★ <span class="star-n">76.1k</span></span>
+    <span class="stat"><i class="lang-dot" style="background:#8b949e"></i>Jupyter Notebook</span>
+    <span class="actions"><a class="btn-primary" href="https://cookbook.openai.com" target="_blank" rel="noopener">在线使用</a><a class="btn-secondary" href="https://github.com/openai/openai-cookbook" target="_blank" rel="noopener">仓库</a></span>
+  </div>
+</article>
+    </div>
+  </section>
+  <p class="back-link"><a href="/">← 全部工具</a></p>
+</main>
+
+<footer class="footer wrap">
+  <p>开源工具集 · 星数会持续变化，由 GitHub Actions 每周自动同步。</p>
+  <p class="footer-links"><a href="/online/">在线工具</a><a href="/categories/">分类总览</a><a href="/about/">关于本站</a><a href="/disclaimer/">免责声明</a><a href="/en/">English</a></p>
+</footer>
+<script src="/app.js?v=b0fafb04"></script>
+</body>
+</html>
