@@ -1,0 +1,59 @@
+{
+  "note": "PRD §7 定价配置表：全部可配置、不 hardcode。/partner 页与后台录入都从这里读。",
+  "currency": "USD",
+  "items": [
+    {
+      "key": "featured_homepage_monthly",
+      "zh": "Featured 首页推荐 / 月",
+      "en": "Featured homepage / month",
+      "price": 49
+    },
+    {
+      "key": "featured_homepage_quarterly",
+      "zh": "Featured 首页推荐 / 季度",
+      "en": "Featured homepage / quarter",
+      "price": 129
+    },
+    {
+      "key": "featured_homepage_yearly",
+      "zh": "Featured 首页推荐 / 年",
+      "en": "Featured homepage / year",
+      "price": 399
+    },
+    {
+      "key": "featured_category_monthly",
+      "zh": "Featured 分类页推荐 / 月",
+      "en": "Featured category / month",
+      "price": 39
+    },
+    {
+      "key": "fast_review",
+      "zh": "快速审核（48 小时内）",
+      "en": "Fast review (within 48h)",
+      "price": 29
+    },
+    {
+      "key": "spotlight",
+      "zh": "加精推荐（含 7 天首页展示）",
+      "en": "Spotlight (incl. 7 days on homepage)",
+      "price": 49
+    },
+    {
+      "key": "newsletter_sponsorship",
+      "zh": "Newsletter 赞助 / 期",
+      "en": "Newsletter sponsorship / issue",
+      "price": 150
+    }
+  ],
+  "partner": {
+    "contact_email": "",
+    "form_action": ""
+  },
+  "ads": {
+    "provider": "none",
+    "carbon_id": "",
+    "ethicalads_id": "",
+    "adsense_client": "",
+    "infeed_every": 12
+  }
+}

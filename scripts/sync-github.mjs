@@ -99,6 +99,9 @@ const outItems = items.map((it) => {
     caution: it.caution || "",
     scene: it.scene || "",
     cloud: it.cloud || "",
+    // 盈利化字段（PRD 模块二）：可空，向后兼容
+    affiliate_url: it.affiliate_url || "",
+    affiliate_enabled: it.affiliate_enabled === true,
   };
   const d = fetched.get(it.id);
 

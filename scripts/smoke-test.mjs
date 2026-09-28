@@ -1,5 +1,5 @@
 /* 冒烟测试：解析生成的静态 HTML，用最小 DOM 桩真实执行 app.js */
-import { readFileSync } from "node:fs";
+import { readFileSync, existsSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -244,6 +244,36 @@ console.log("\n[7] 主题");
 check("默认深色", document.documentElement.getAttribute("data-theme"), "dark");
 getEl("theme-toggle").dispatch("click");
 check("切换到浅色", document.documentElement.getAttribute("data-theme"), "light");
+
+console.log("\n[8] 盈利化脚手架（PRD）");
+// 联盟链路：无联盟数据时必须安静地不生效，有数据时走 /go/ 且带 sponsored nofollow
+const affMap = JSON.parse(readFileSync(resolve(ROOT, "go/affiliates.json"), "utf8"));
+const htaccess = readFileSync(resolve(ROOT, ".htaccess"), "utf8");
+check("go/affiliates.json 是合法映射", typeof affMap, "object");
+check("/go/ 交给 api/go.php", /RewriteRule \^go\//.test(htaccess), true);
+check("go.php 存在", existsSync(resolve(ROOT, "api/go.php")), true);
+// .htaccess 是 Apache 正则，里面写的是 config\.local\.php，不能按普通文本匹配
+check("config.local.php 被保护", /RedirectMatch 404[^\n]*config/.test(htaccess), true);
+check("后台入口存在", existsSync(resolve(ROOT, "admin/index.php")), true);
+check("赞助位容器（首页）", /id="sponsor-home"/.test(html), true);
+check("赞助位默认隐藏", /id="sponsor-home"[^>]*hidden/.test(html), true);
+check("sponsors.js 已引用", /sponsors\.js/.test(html), true);
+check("slots.php 存在", existsSync(resolve(ROOT, "api/slots.php")), true);
+check("sitemap 不含 /go/", /<loc>[^<]*\/go\//.test(readFileSync(resolve(ROOT, "sitemap.xml"), "utf8")), false);
+check("sitemap 含 /partner/", /<loc>[^<]*\/partner\//.test(readFileSync(resolve(ROOT, "sitemap.xml"), "utf8")), true);
+const partnerHtml = readFileSync(resolve(ROOT, "partner/index.html"), "utf8");
+check("合作页定价行数", (partnerHtml.match(/class="price"/g) || []).length, 7);
+check("合作页合作方式块", (partnerHtml.match(/class="way"/g) || []).length, 4);
+check("合作页可索引", /noindex/.test(partnerHtml), false);
+check("页脚有商务合作入口", /\/partner\//.test(html), true);
+check("页脚有联盟披露", /联盟链接/.test(html), true);
+const affTools = items.filter((t) => t.affiliate_enabled && t.affiliate_url);
+check("有联盟链接的工具都走 /go/", affTools.length, Object.keys(affMap).length);
+const sponsored = affTools.filter((t) => {
+  const c = html.match(new RegExp('<article class="card" data-id="' + t.id + '"[\\s\\S]*?</article>'));
+  return c && /rel="sponsored nofollow noopener"/.test(c[0]) && c[0].indexOf("/go/" + t.id + "/") !== -1;
+}).length;
+check("联盟卡片带 sponsored 且走 /go/", sponsored, affTools.length);
 
 console.log("\n结果: " + pass + " 通过 / " + fail + " 失败");
 process.exit(fail ? 1 : 0);

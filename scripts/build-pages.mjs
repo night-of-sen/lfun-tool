@@ -15,7 +15,7 @@ const LANGS = ["zh", "en"];
 // （.htaccess 给 CSS/JS 设了 1 小时缓存，不加版本号的话改完样式用户要等一小时才看到）
 const ASSET_V = await (async function () {
   const h = createHash("sha1");
-  for (const f of ["styles.css", "app.js", "online.js"]) {
+  for (const f of ["styles.css", "app.js", "online.js", "sponsors.js"]) {
     try { h.update(await readFile(join(ROOT, f))); } catch (e) {}
   }
   return h.digest("hex").slice(0, 8);
@@ -25,6 +25,8 @@ const data = JSON.parse(await readFile(join(ROOT, "data/tools.json"), "utf8"));
 const T = JSON.parse(await readFile(join(ROOT, "scripts/i18n.json"), "utf8"));
 const items = data.items;
 const syncedAt = (data.generatedAt || "").slice(0, 10);
+// 定价与广告位配置（PRD §7：全部可配置，不 hardcode）
+const PRICING = JSON.parse(await readFile(join(ROOT, "scripts", "pricing.json"), "utf8"));
 
 // README 摘要缓存（由 scripts/fetch-readmes.mjs 生成）
 let readmes = {};
@@ -122,7 +124,15 @@ function tagLabel(lang, tag) {
   return (T.tagTranslations && T.tagTranslations[tag]) || tag;
 }
 
-function primaryAction(t, lang) {
+/* ---------- 盈利化：联盟链接与跳转（PRD 模块二） ---------- */
+// affiliate_url / affiliate_enabled 都是可空字段，向后兼容：
+// 两个字段都不存在时，行为与改造前完全一致。
+function affiliateOf(t) { return (t.affiliate_enabled && t.affiliate_url) ? t.affiliate_url : ""; }
+function goPathFor(id) { return "/go/" + id + "/"; }
+// 有联盟链接的外链一律带 sponsored nofollow（PRD 总体原则 2）
+function outRel(t) { return affiliateOf(t) ? "sponsored nofollow noopener" : "noopener"; }
+
+function baseAction(t, lang) {
   var L = T[lang];
   var repoUrl = "https://github.com/" + t.repo;
   var releases = repoUrl + "/releases";
@@ -136,6 +146,13 @@ function primaryAction(t, lang) {
   if (has(t, "selfhost")) return { label: L.btnDeploy, url: t.homepage || releases };
   if (has(t, "lib")) return { label: L.btnDocs, url: t.homepage || repoUrl };
   return { label: L.btnRepo, url: repoUrl };
+}
+
+// 联盟链接优先：外链统一改走 /go/[tool_id]（PRD 模块二）
+function primaryAction(t, lang) {
+  var act = baseAction(t, lang);
+  if (affiliateOf(t) && act.url) return { label: act.label, url: goPathFor(t.id), sponsored: true };
+  return act;
 }
 
 /* ---------------- 页面骨架 ---------------- */
@@ -240,7 +257,7 @@ function card(t, lang) {
   var tags = (t.tags || []).map(function (x) { return '<span class="tag">' + esc(tagLabel(lang, x)) + "</span>"; }).join("");
   var a = primaryAction(t, lang);
   var primaryBtn = a.url
-    ? '<a class="btn-primary" href="' + esc(a.url) + '" target="_blank" rel="noopener">' + esc(a.label) + "</a>"
+    ? '<a class="btn-primary" href="' + esc(a.url) + '" target="_blank" rel="' + outRel(t) + '">' + esc(a.label) + "</a>"
     : '<span class="btn-secondary is-muted">' + esc(a.label) + "</span>";
 
   return [
@@ -364,6 +381,13 @@ function homePage(lang) {
     '    <span class="sync-time">' + esc(todayLabel(lang)) + "</span>",
     "  </div>",
     "</section>",
+    // 赞助位：数据在数据库里，构建期读不到，所以留空容器由 sponsors.js 运行时注入。
+    // 没有生效赞助时容器保持 hidden —— 不留空位（PRD 5.3 的精神）。
+    '<section class="sponsor-block" id="sponsor-home" data-slot="homepage" hidden>',
+    '  <h2 class="sponsor-title">' + esc(L.weeklyPicks) + "</h2>",
+    '  <div class="grid" id="sponsor-home-grid"></div>',
+    "</section>",
+    '<script src="/sponsors.js?v=' + ASSET_V + '" defer></script>',
     '    <div id="grid" class="grid">',
     cards,
     "    </div>",
@@ -396,8 +420,10 @@ function footer(lang) {
     '  <p class="footer-links"><a href="' + onlineIndexPath(lang) + '">' + esc(L.onlineHeading) + "</a>" +
       '<a href="' + categoriesPath(lang) + '">' + esc(L.categoriesHeading) + "</a>" +
       '<a href="' + contentPath(lang, "about") + '">' + esc(L.aboutLabel) + "</a>" +
+      '<a href="' + contentPath(lang, "partner") + '">' + esc(L.navPartner) + "</a>" +
       '<a href="' + contentPath(lang, "disclaimer") + '">' + esc(L.disclaimerLabel) + "</a>" +
       '<a href="' + L.langSwitchHref + '">' + esc(L.langSwitch) + "</a></p>",
+    '  <p class="footer-disclosure">' + esc(L.affiliateDisclosure) + "</p>",
     "</footer>"
   ].join("\n");
 }
@@ -509,7 +535,7 @@ function toolPage(t, lang) {
     specs,
     "    </dl>",
     '    <div class="detail-actions">',
-    (a.url ? '      <a class="btn-primary btn-lg" href="' + esc(a.url) + '" target="_blank" rel="noopener">' + esc(a.label) + "</a>" : ""),
+    (a.url ? '      <a class="btn-primary btn-lg" href="' + esc(a.url) + '" target="_blank" rel="' + outRel(t) + '">' + esc(a.label) + "</a>" : ""),
     '      <a class="btn-secondary btn-lg" href="https://github.com/' + esc(t.repo) + '" target="_blank" rel="noopener">' + esc(L.btnRepo) + "</a>",
     "    </div>",
     "  </article>"
@@ -963,6 +989,10 @@ function categoryPage(lang, key) {
     "  </nav>",
     '  <h1 class="hero-title">' + esc(label) + "</h1>",
     '  <p class="hero-sub">' + esc(L.catPageSub.replace("{n}", String(list.length))) + "</p>",
+    '<section class="sponsor-block" id="sponsor-cat" data-slot="category" data-category="' + esc(key) + '" hidden>',
+    '  <div class="grid" id="sponsor-cat-grid"></div>',
+    "</section>",
+    '<script src="/sponsors.js?v=' + ASSET_V + '" defer></script>',
     '  <div class="grid">',
     cards,
     "  </div>",
@@ -1075,7 +1105,7 @@ function sitemap() {
       urls.push({ loc: abs(onlinePath(l, a.id)), paths: { zh: onlinePath("zh", a.id), en: onlinePath("en", a.id) }, pri: "0.9", freq: "monthly", mod: codeMod });
     });
   });
-  ["about", "disclaimer"].forEach(function (key) {
+  ["about", "disclaimer", "partner"].forEach(function (key) {
     LANGS.forEach(function (l) {
       urls.push({ loc: abs(contentPath(l, key)), paths: { zh: contentPath("zh", key), en: contentPath("en", key) }, pri: "0.5", freq: "monthly", mod: codeMod });
     });
@@ -1120,12 +1150,89 @@ function robots() {
   ].join("\n");
 }
 
+/* ---------------- 商务合作页（PRD 模块一） ---------------- */
+function partnerPage(lang) {
+  var L = T[lang];
+  var paths = {};
+  LANGS.forEach(function (l) { paths[l] = contentPath(l, "partner"); });
+  var jsonld = [{
+    "@context": "https://schema.org", "@type": "WebPage",
+    "name": L.partnerTitle, "url": abs(paths[lang]), "inLanguage": L.htmlLang, "description": L.partnerDesc
+  }, {
+    "@context": "https://schema.org", "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": L.backToAll, "item": abs(homePath(lang)) },
+      { "@type": "ListItem", "position": 2, "name": L.partnerH1, "item": abs(paths[lang]) }
+    ]
+  }];
+  var ways = (L.ways || []).map(function (w) {
+    return '    <div class="way"><h3>' + esc(w[0]) + "</h3><p>" + esc(w[1]) + "</p></div>";
+  }).join("\n");
+  var rows = (PRICING.items || []).map(function (it) {
+    return "      <tr><td>" + esc(lang === "zh" ? it.zh : it.en) + "</td><td class=\"price\">$" + it.price + "</td></tr>";
+  }).join("\n");
+  var action = (PRICING.partner && PRICING.partner.form_action) || "";
+  var mail = (PRICING.partner && PRICING.partner.contact_email) || "";
+  var types = (L.partnerTypes || []).map(function (x) { return "<option>" + esc(x) + "</option>"; }).join("");
+  // 表单后端尚未接入：action 为空时不假装能提交，改为提示 + 邮件兜底
+  var form = action
+    ? '    <form class="partner-form" method="POST" action="' + esc(action) + '">' +
+      '<input type="text" name="_hp" class="hp" tabindex="-1" autocomplete="off">' +
+      '<label>' + esc(L.partnerName) + '<input name="name" required></label>' +
+      '<label>' + esc(L.partnerCompany) + '<input name="company"></label>' +
+      '<label>' + esc(L.partnerEmail) + '<input type="email" name="email" required></label>' +
+      '<label>' + esc(L.partnerType) + '<select name="type">' + types + "</select></label>" +
+      '<label>' + esc(L.partnerMessage) + '<textarea name="message" rows="4"></textarea></label>' +
+      '<button class="btn-primary btn-lg" type="submit">' + esc(L.partnerSubmit) + "</button></form>"
+    : '    <p class="partner-note">' + esc(L.partnerNoBackend) +
+      (mail ? ' <a href="mailto:' + esc(mail) + '">' + esc(mail) + "</a>" : "") + "</p>";
+
+  return [
+    head(lang, { title: L.partnerTitle + " · " + L.siteName, desc: L.partnerDesc, paths: paths, jsonld: jsonld, ogType: "website" }),
+    "",
+    header(lang, false),
+    '<main class="wrap partner-page">',
+    '  <nav class="crumbs"><a href="' + homePath(lang) + '">' + esc(L.backToAll) + "</a><span>/</span><strong>" + esc(L.partnerH1) + "</strong></nav>",
+    '  <h1 class="partner-h1">' + esc(L.partnerH1) + "</h1>",
+    '  <p class="partner-intro">' + esc(L.partnerIntro) + "</p>",
+    '  <h2 class="partner-h2">' + esc(L.partnerWays) + "</h2>",
+    '  <div class="ways">',
+    ways,
+    "  </div>",
+    '  <h2 class="partner-h2">' + esc(L.partnerPricing) + "</h2>",
+    '  <table class="price-table"><thead><tr><th>' + esc(L.partnerPriceCol) + "</th><th>" + esc(L.partnerPriceVal) + "</th></tr></thead>",
+    "    <tbody>",
+    rows,
+    "    </tbody></table>",
+    '  <h2 class="partner-h2">' + esc(L.partnerForm) + "</h2>",
+    '  <p class="partner-hint">' + esc(L.partnerFormHint) + "</p>",
+    form,
+    "</main>",
+    "",
+    footer(lang),
+    '<script src="/app.js?v=' + ASSET_V + '"></script>',
+    "</div>",
+    "</body>",
+    "</html>"
+  ].join("\n");
+}
+
+/* ---------------- /go/[tool_id] 跳转器（PRD 模块二） ---------------- */
+// 纯静态实现：一个页面处理全部 /go/ 路径（.htaccess 重写进来），
+// 跳转表由构建期生成在 /go/affiliates.js，浏览器缓存一次即可。
+function affiliatesMap() {
+  var o = {};
+  items.forEach(function (t) { var u = affiliateOf(t); if (u) o[t.id] = u; });
+  return o;
+}
+
 /* ---------------- 写盘 ---------------- */
 await rm(join(ROOT, "tool"), { recursive: true, force: true });
 await rm(join(ROOT, "category"), { recursive: true, force: true });
 await rm(join(ROOT, "categories"), { recursive: true, force: true });
 await rm(join(ROOT, "compare"), { recursive: true, force: true });
 await rm(join(ROOT, "online"), { recursive: true, force: true });
+await rm(join(ROOT, "go"), { recursive: true, force: true });
 await rm(join(ROOT, "about"), { recursive: true, force: true });
 await rm(join(ROOT, "disclaimer"), { recursive: true, force: true });
 await rm(join(ROOT, "en"), { recursive: true, force: true });
@@ -1190,7 +1297,17 @@ for (var li = 0; li < LANGS.length; li++) {
     await writeFile(join(pdir, "index.html"), contentPage(lang, pk), "utf8");
     written++;
   }
+  // 商务合作页（PRD 模块一）自带定价表，不走 pages.json
+  var partnerDir = join(ROOT, contentPath(lang, "partner").replace(/^[/]/, ""));
+  await mkdir(partnerDir, { recursive: true });
+  await writeFile(join(partnerDir, "index.html"), partnerPage(lang), "utf8");
+  written++;
 }
+// /go/ 跳转器（一个页面处理全部 /go/<tool_id>，靠 .htaccess 重写进来）
+await mkdir(join(ROOT, "go"), { recursive: true });
+// /go/<tool_id> 由 api/go.php 处理（.htaccess 重写），这里只放构建期的联盟跳转表，
+// 供 PHP 在数据库里没有该工具时兜底。
+await writeFile(join(ROOT, "go", "affiliates.json"), JSON.stringify(affiliatesMap()), "utf8");
 await writeFile(join(ROOT, "sitemap.xml"), sitemap(), "utf8");
 await writeFile(join(ROOT, "robots.txt"), robots(), "utf8");
 

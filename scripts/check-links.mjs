@@ -70,6 +70,22 @@ for (let i = 0; i < targets.length; i += CONC) {
   if (done % 40 === 0 || done === targets.length) process.stdout.write("  进度 " + done + "/" + targets.length + "\n");
 }
 
+// 高并发会产生假 error：本轮实测并发 10 时 GitHub 仓库地址被限流，
+// 一次跑出 81 条「fetch failed」，温和复查后 81/81 其实都能访问。
+// 所以对 error 的条目降并发再查一遍，避免月度报告满屏误报。
+const errs = results.filter((r) => r.verdict === "error");
+if (errs.length) {
+  console.log("复查 " + errs.length + " 条 error（并发 3，带间隔）…");
+  const RETRY_CONC = 3;
+  for (let i = 0; i < errs.length; i += RETRY_CONC) {
+    const batch = errs.slice(i, i + RETRY_CONC);
+    const out = await Promise.all(batch.map((t) => probe(t.url)));
+    out.forEach((r, j) => { if (r.verdict !== "error") Object.assign(batch[j], r); });
+    if (i + RETRY_CONC < errs.length) await new Promise((s) => setTimeout(s, 1200));
+  }
+  console.log("复查后仍为 error: " + errs.filter((r) => r.verdict === "error").length + "（多为域名被墙，非死链）");
+}
+
 const byVerdict = {};
 for (const r of results) byVerdict[r.verdict] = (byVerdict[r.verdict] || 0) + 1;
 

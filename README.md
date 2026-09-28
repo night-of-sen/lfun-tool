@@ -411,10 +411,63 @@ hPanel → **SSL** → 给 `tools.lfun.cloud` 装 Let's Encrypt → 开 Force HT
 | `Esc` | 清空搜索并失焦 |
 | 点 ☆ | 收藏（存 localStorage，不需要登录） |
 
+## 盈利化改造（PRD）
+
+按 `tools-monetization-prd.pdf` 推进。原则：**自然排序（按星数）的公信力是核心资产，付费能力不得污染排序**；
+所有付费曝光带明确「赞助」标识；所有联盟外链 `rel="sponsored nofollow"`；定价全部可配置。
+
+**已落地（纯静态可做的部分）**
+
+| 项 | 位置 | 说明 |
+|---|---|---|
+| 定价配置 | `scripts/pricing.json` | PRD §7 的 7 条定价 + 广告位配置，页面上不 hardcode |
+| 商务合作页 | `/partner/` `/en/partner/` | 合作方式、定价表、联系表单；表单 `action` 为空时显示「后端未接入」提示，不假装能提交 |
+| 联盟数据模型 | `affiliate_url` / `affiliate_enabled` | 可空字段，向后兼容；`sync-github.mjs` 已透传，不会被同步覆盖 |
+| 联盟跳转 | `/go/<tool_id>/` | 纯静态实现：一个 `go/index.html` 处理全部路径（`.htaccess` 重写进来），跳转表在 `go/affiliates.js`，浏览器缓存一次 |
+| sponsored 标注 | 卡片与工具页主按钮 | 有联盟链接时自动改走 `/go/` 并加 `sponsored nofollow noopener`；没有时行为与改造前完全一致 |
+| 联盟披露 | 页脚 + About | 「本站部分外链为联盟链接，不影响排序与收录」 |
+| 广告位配置 | `scripts/pricing.json` 的 `ads` | `provider: none` 时版位完全不渲染，不占位 |
+
+**后端（PHP + MySQL，零依赖）**
+
+有状态的部分用 PHP 实现，本地用 `php-parser` 做过语法校验（14 个文件 0 错误），但**没有 PHP 运行时可供功能测试**，需在线上验证。
+
+| 端点 / 页面 | 作用 |
+|---|---|
+| `GET /go/<tool_id>` | 302 跳转 + 记录点击（`api/go.php`）；目标优先取数据库，其次构建期 `go/affiliates.json`；日志写失败不影响跳转 |
+| `POST /api/inquiry.php` | 合作表单落库 + 邮件通知站长；蜜罐 + 限流 |
+| `POST /api/subscribe.php` | 订阅（pending）→ 发确认邮件 |
+| `GET /api/confirm.php` `GET /api/unsubscribe.php` | 双重确认激活 / 一键退订即时生效 |
+| `GET /api/slots.php` | 返回生效赞助卡片 HTML；到期自动下架；首页最多 3 个、每分类最多 1 个 |
+| `GET /api/stats.php` | 点击统计（需管理员登录） |
+| `GET /api/selftest.php?token=` | 部署自检：PHP 版本、扩展、数据库连通、建表、邮件通道 |
+| `/admin/` | 后台：概览 / 赞助排期 / 联盟链接 / 合作咨询 / 提交队列 / 订阅者 |
+
+数据库表（首次访问 selftest 时自动创建，不用手工导 SQL）：`partner_inquiries` `clicks` `sponsorships` `submissions` `subscribers` `affiliates`。
+
+**赞助位为什么是运行时注入**：赞助排期存在数据库里，而页面由 GitHub Actions 构建、构建期连不上数据库。
+所以页面留一个空的隐藏容器，由 `sponsors.js` 拉 `/api/slots.php` 填充——改排期即时生效，
+自然排序完全不受影响，没有生效赞助时容器保持 `hidden`，页面与改造前像素级一致。
+
+### 上线后端（一次性）
+
+1. Hostinger 面板建 MySQL 数据库，记下库名/用户名/密码
+2. `cp config.local.example.php config.local.php` 并填好（**该文件已加入 .gitignore，不会提交**）
+3. 生成后台密码散列：`php -r "echo password_hash('你的密码', PASSWORD_DEFAULT);"`，填进 `admin_pass_hash`
+4. 设一个 `selftest_token`，访问 `/api/selftest.php?token=xxx` 应返回 `"schema_ok": true`
+5. 登录 `/admin/` 录入赞助排期与联盟链接
+
+**仍未落地**：`/submit` 付费收录页（模块四）、Newsletter 订阅入口与周报发送（模块六）、Stripe（PRD 标注为 v2）。
+表结构已就绪，接 UI 即可。
+
+**另一处与 PRD 不符的地方**：PRD 模块四写着「在现有免费提交基础上增加付费快速通道」「免费提交流程与现有完全一致」，
+但本站**没有 `/submit` 页面**，现在的收录入口只有 GitHub Issue 表单和 PR。付费通道落地前需要先决定是新建 `/submit` 还是直接指向 GitHub 表单。
+
 ## 已知取舍
 
 - **搜索是子串匹配**：搜 "OCR" 会匹配到 EspoCRM（名字里含 ocr），属于预期行为。
-- **首页 HTML 约 968 KB**：570 张卡片全在 HTML 里是为了 SEO。开 gzip 后约 145 KB。
+- **首页 HTML 约 864 KB**：570 张卡片全在 HTML 里是为了 SEO。开 gzip 后约 135 KB。
+  搜索索引已从 `data-search` 属性移到 `data-extra`（只留 DOM 里没有的字段）+ 前端读 DOM，省了约 110 KB。
 - **出海收款和海外短信没有像样的开源替代**：Stripe / Paddle / Twilio 都是闭源的，
   Hyperswitch 只是编排层。详见 `02-出海辅助工具清单.md`。
 - **自建邮件服务器慎用**：开源自建发信 IP 的信誉极难维护，生产环境建议用

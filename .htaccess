@@ -45,5 +45,13 @@ ErrorDocument 404 /404.html
 
   RewriteCond %{THE_REQUEST} \s/+(.+)/index\.html[\s?] [NC]
   RewriteRule ^ /%1/ [R=301,L,NE]
+
+  # /go/<tool_id> 交给 PHP：302 跳转 + 记录点击（PRD 模块二）
+  RewriteRule ^go/([^/]+)/?$ /api/go.php?id=$1 [L,QSA]
 </IfModule>
 
+
+# 后端内部文件不允许直接访问
+<IfModule mod_alias.c>
+  RedirectMatch 404 ^/(config\.local\.php|api/lib/)
+</IfModule>

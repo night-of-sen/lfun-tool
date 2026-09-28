@@ -39,8 +39,11 @@ for (const f of htmlFiles) {
   const url = rel.endsWith("/index.html") ? rel.slice(0, -"index.html".length) : rel;
   pages.push({ file: f, rel, url, html: await readFile(f, "utf8") });
 }
-const indexPages = pages.filter((p) => p.rel.endsWith("/index.html"));
-console.log("扫描页面 " + pages.length + "（其中可索引的目录页 " + indexPages.length + "）\n");
+// /go/ 跳转器这类页面故意带 noindex，不该参与可索引性检查，也不该进 sitemap
+const isNoindex = (h) => /<meta name="robots"[^>]*noindex/i.test(h);
+const dirPages = pages.filter((p) => p.rel.endsWith("/index.html"));
+const indexPages = dirPages.filter((p) => !isNoindex(p.html));
+console.log("扫描页面 " + pages.length + "（目录页 " + dirPages.length + "，其中可索引 " + indexPages.length + "，noindex " + (dirPages.length - indexPages.length) + "）\n");
 
 console.log("[1] canonical / title / description / hreflang");
 const noCanon = [], badCanon = [], noTitle = [], noDesc = [], badHl = [];
@@ -67,7 +70,7 @@ check("标题重复", [...titles.values()].filter((n) => n > 1).length, 0);
 check("描述重复", [...descs.values()].filter((n) => n > 1).length, 0);
 
 console.log("\n[2] 内链完整性（指向不存在页面的链接会被 GSC 记为 404）");
-const exists = new Set(indexPages.map((p) => p.url));
+const exists = new Set(dirPages.map((p) => p.url));   // 内链检查要认 noindex 页（如 /go/）
 const assetExists = allFiles;
 const broken = new Map();
 for (const p of pages) {

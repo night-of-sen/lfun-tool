@@ -1347,7 +1347,7 @@
       "id": "markedit",
       "name": "MarkEdit",
       "repo": "MarkEdit-app/MarkEdit",
-      "homepage": null,
+      "homepage": "https://markedit.app",
       "category": "writing",
       "usage": [
         "desktop"
@@ -4211,7 +4211,7 @@
       "id": "growchief",
       "name": "GrowChief",
       "repo": "growchief/growchief",
-      "homepage": null,
+      "homepage": "",
       "category": "promo",
       "usage": [
         "selfhost"

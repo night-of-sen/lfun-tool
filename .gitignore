@@ -22,3 +22,7 @@ desktop.ini
 # 注意：data/tools.json 必须提交，它是线上站点读取的数据
 # 死链检测报告是临时产物，按需生成
 link-report.json
+config.local.php
+_php/
+_phpcheck/
+data/link-report.json

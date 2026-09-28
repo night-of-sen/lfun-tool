@@ -133,7 +133,53 @@
     "navOnline": "在线工具",
     "navCategories": "分类总览",
     "navAbout": "关于",
-    "navDisclaimer": "免责声明"
+    "navDisclaimer": "免责声明",
+    "navPartner": "商务合作",
+    "partnerTitle": "商务合作",
+    "partnerH1": "商务合作",
+    "partnerDesc": "在本站投放赞助位、联盟推广或付费收录。本站收录 570 个 GitHub 开源工具，面向开发者与效率工具用户，每周自动更新星数与活跃度。",
+    "partnerIntro": "本站收录 570 个 GitHub 开源工具，中英双语，每周由 GitHub Actions 自动同步星数、许可与更新时间。读者以开发者、独立开发者和效率工具重度用户为主。",
+    "partnerWays": "合作方式",
+    "partnerPricing": "定价",
+    "partnerPriceCol": "项目",
+    "partnerPriceVal": "价格",
+    "partnerForm": "联系我们",
+    "partnerFormHint": "请说明合作类型与预算，我们会在 2 个工作日内回复。",
+    "partnerName": "姓名",
+    "partnerCompany": "公司",
+    "partnerEmail": "邮箱",
+    "partnerType": "合作类型",
+    "partnerMessage": "留言",
+    "partnerSubmit": "提交",
+    "partnerNoBackend": "表单后端尚未接入，暂请直接邮件联系。",
+    "affiliateDisclosure": "本站部分外链为联盟链接，不影响排序与收录。",
+    "sponsored": "赞助",
+    "ways": [
+      [
+        "联盟推广",
+        "把你的产品放进相关工具页的推荐位，按点击或转化结算。"
+      ],
+      [
+        "Featured 赞助位",
+        "首页「本周推荐」或分类页顶部卡片，带明确「赞助」标识。"
+      ],
+      [
+        "付费收录",
+        "在免费提交之外购买快速审核与加精推荐，买的是速度与曝光，不是收录资格。"
+      ],
+      [
+        "Newsletter 赞助",
+        "每周一封的工具周报顶部赞助位。"
+      ]
+    ],
+    "partnerTypes": [
+      "联盟推广",
+      "Featured 赞助位",
+      "付费收录",
+      "Newsletter 赞助",
+      "其他"
+    ],
+    "weeklyPicks": "本周推荐"
   },
   "en": {
     "htmlLang": "en",
@@ -269,7 +315,53 @@
     "navOnline": "Online tools",
     "navCategories": "Categories",
     "navAbout": "About",
-    "navDisclaimer": "Disclaimer"
+    "navDisclaimer": "Disclaimer",
+    "navPartner": "Partnerships",
+    "partnerTitle": "Partnerships",
+    "partnerH1": "Work with us",
+    "partnerDesc": "Sponsor a slot, run an affiliate placement, or pay for a fast review. 570 curated open-source GitHub tools, updated weekly.",
+    "partnerIntro": "This directory lists 570 open-source GitHub tools in English and Chinese, with stars, licence and last-commit dates synced weekly by GitHub Actions. Readers are mostly developers and power users of productivity tooling.",
+    "partnerWays": "Ways to work together",
+    "partnerPricing": "Pricing",
+    "partnerPriceCol": "Item",
+    "partnerPriceVal": "Price",
+    "partnerForm": "Get in touch",
+    "partnerFormHint": "Tell us the placement and your budget — we reply within two working days.",
+    "partnerName": "Name",
+    "partnerCompany": "Company",
+    "partnerEmail": "Email",
+    "partnerType": "Type",
+    "partnerMessage": "Message",
+    "partnerSubmit": "Send",
+    "partnerNoBackend": "The form backend is not wired up yet — please email us directly for now.",
+    "affiliateDisclosure": "Some outbound links on this site are affiliate links. They never affect ranking or inclusion.",
+    "sponsored": "Sponsored",
+    "ways": [
+      [
+        "Affiliate placement",
+        "Get your product recommended on relevant tool pages, paid per click or conversion."
+      ],
+      [
+        "Featured slot",
+        "The homepage recommendations block or the top card of a category page, always clearly labelled."
+      ],
+      [
+        "Paid review",
+        "Buy a faster review and a spotlight on top of free submission. You pay for speed and exposure, never for inclusion."
+      ],
+      [
+        "Newsletter sponsorship",
+        "The top slot of the weekly digest."
+      ]
+    ],
+    "partnerTypes": [
+      "Affiliate",
+      "Featured slot",
+      "Paid review",
+      "Newsletter",
+      "Other"
+    ],
+    "weeklyPicks": "This week's picks"
   },
   "tagTranslations": {
     "去水印": "Watermark removal",
