@@ -253,7 +253,11 @@ check("go/affiliates.json 是合法映射", typeof affMap, "object");
 check("/go/ 交给 api/go.php", /RewriteRule \^go\//.test(htaccess), true);
 check("go.php 存在", existsSync(resolve(ROOT, "api/go.php")), true);
 // .htaccess 是 Apache 正则，里面写的是 config\.local\.php，不能按普通文本匹配
-check("config.local.php 被保护", /RedirectMatch 404[^\n]*config/.test(htaccess), true);
+check("内部文件被保护", /RedirectMatch 404 \^\/\(config\\\.local[^\n]*api\/lib\//.test(htaccess), true);
+// 只写 index.html 会让 /admin/ 这类目录 403（PHP 的 index.php 被挡掉）
+check("DirectoryIndex 含 index.php", /DirectoryIndex[^\n]*index\.php/.test(htaccess), true);
+// 兜底跳转表是静态文件，不能被 /go/ 重写吞掉
+check("/go/ 重写放过 affiliates.json", /REQUEST_URI[^\n]*affiliates\\\.json/.test(htaccess), true);
 check("后台入口存在", existsSync(resolve(ROOT, "admin/index.php")), true);
 check("赞助位容器（首页）", /id="sponsor-home"/.test(html), true);
 check("赞助位默认隐藏", /id="sponsor-home"[^>]*hidden/.test(html), true);
