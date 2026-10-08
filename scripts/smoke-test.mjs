@@ -4,7 +4,7 @@ import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-const html = readFileSync(resolve(ROOT, "index.html"), "utf8");
+const html = readFileSync(resolve(ROOT, "zh/index.html"), "utf8");
 const data = JSON.parse(readFileSync(resolve(ROOT, "data/tools.json"), "utf8"));
 const items = data.items;
 const has = (t, u) => (t.usage || []).includes(u);
@@ -160,11 +160,11 @@ const sceneOf = (t) => t.scene || "general";
 
 console.log("\n[1] 生成的静态 HTML（SEO 基础）");
 check("卡片总数", parsed.length, items.length);
-check("指向工具页的链接数", countIn(/href="\/tool\//g), items.length);
+check("指向工具页的链接数", countIn(/href="\/zh\/tool\//g), items.length);
 check("hreflang zh-CN", html.includes('hreflang="zh-CN"'), true);
 check("hreflang en", html.includes('hreflang="en"'), true);
 check("hreflang x-default", html.includes('hreflang="x-default"'), true);
-check("canonical", html.includes('<link rel="canonical" href="https://tools.lfun.cloud/">'), true);
+check("canonical", html.includes('<link rel="canonical" href="https://tools.lfun.cloud/zh/">'), true);
 check("JSON-LD 块数", countIn(/application\/ld\+json/g), 2);
 // primaryAction 里 cloud 分支优先于 online，所以这里必须排除有云版的
 check("在线使用按钮", countIn(/rel="noopener">在线使用<\/a>/g), items.filter((t) => !t.cloud && has(t, "online") && t.homepage).length);
@@ -278,6 +278,17 @@ const sponsored = affTools.filter((t) => {
   return c && /rel="sponsored nofollow noopener"/.test(c[0]) && c[0].indexOf("/go/" + t.id + "/") !== -1;
 }).length;
 check("联盟卡片带 sponsored 且走 /go/", sponsored, affTools.length);
+
+console.log("\n[9] 英文默认页（根路径）");
+const enHtml = readFileSync(resolve(ROOT, "index.html"), "utf8");
+check("英文页 html lang", enHtml.includes('<html lang="en"'), true);
+check("英文页 canonical 指向根路径", enHtml.includes('<link rel="canonical" href="https://tools.lfun.cloud/">'), true);
+check("英文页 x-default 指向根路径", enHtml.includes('hreflang="x-default" href="https://tools.lfun.cloud/"'), true);
+check("英文页 hreflang 齐全", enHtml.includes('hreflang="zh-CN"') && enHtml.includes('hreflang="en"'), true);
+check("英文页工具链接数", (enHtml.match(/href="\/tool\//g) || []).length, items.length);
+check("英文页语言切换指向 /zh/", enHtml.includes('href="/zh/"'), true);
+check("英文页无 /en/ 残留链接", /href="\/en\//.test(enHtml), false);
+check("英文页合作页在根路径", enHtml.includes('href="/partner/"'), true);
 
 console.log("\n结果: " + pass + " 通过 / " + fail + " 失败");
 process.exit(fail ? 1 : 0);
