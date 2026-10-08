@@ -29,7 +29,7 @@ function makeEl(id, attrs) {
 }
 
 function pageHtmlFor(appId, lang) {
-  const rel = (lang === "en" ? "en/online/" : "online/") + appId + "/index.html";
+  const rel = (lang === "en" ? "online/" : "zh/online/") + appId + "/index.html";
   return readFileSync(join(ROOT, rel), "utf8");
 }
 
