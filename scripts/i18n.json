@@ -181,6 +181,12 @@
     "partnerSubmit": "提交",
     "partnerNoBackend": "表单后端尚未接入，暂请直接邮件联系。",
     "affiliateDisclosure": "本站部分外链为联盟链接，不影响排序与收录。",
+    "newsTitle": "订阅周报",
+    "newsDesc": "每周一期：新收录 Top 5 ＋ 涨星榜，随时可退订。",
+    "newsBtn": "订阅",
+    "newsOk": "确认邮件已发送，请点击邮件中的链接完成订阅。",
+    "newsAlready": "这个邮箱已经订阅过了。",
+    "newsErr": "订阅失败，请稍后重试。",
     "sponsored": "赞助",
     "ways": [
       [
@@ -391,6 +397,12 @@
     "partnerSubmit": "Send",
     "partnerNoBackend": "The form backend is not wired up yet — please email us directly for now.",
     "affiliateDisclosure": "Some outbound links on this site are affiliate links. They never affect ranking or inclusion.",
+    "newsTitle": "Weekly digest",
+    "newsDesc": "One email a week: top 5 new tools + trending stars. Unsubscribe anytime.",
+    "newsBtn": "Subscribe",
+    "newsOk": "Confirmation email sent — click the link in it to finish subscribing.",
+    "newsAlready": "This email is already subscribed.",
+    "newsErr": "Subscription failed, please try again later.",
     "sponsored": "Sponsored",
     "ways": [
       [
