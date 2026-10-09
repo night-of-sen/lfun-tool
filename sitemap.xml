@@ -3047,7 +3047,7 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/directus/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/directus/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/directus/"/>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3056,7 +3056,7 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/directus/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/directus/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/directus/"/>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3461,7 +3461,7 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/zellij/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/zellij/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/zellij/"/>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3470,7 +3470,7 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/zellij/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/zellij/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/zellij/"/>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -4573,24 +4573,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://tools.lfun.cloud/zh/tool/nextai-translator/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/nextai-translator/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/nextai-translator/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/nextai-translator/"/>
-    <lastmod>2026-09-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://tools.lfun.cloud/tool/nextai-translator/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/nextai-translator/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/nextai-translator/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/nextai-translator/"/>
-    <lastmod>2026-09-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://tools.lfun.cloud/zh/tool/rembg/</loc>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/rembg/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/rembg/"/>
@@ -4605,6 +4587,24 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/rembg/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/rembg/"/>
     <lastmod>2026-09-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tools.lfun.cloud/zh/tool/nextai-translator/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/nextai-translator/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/nextai-translator/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/nextai-translator/"/>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tools.lfun.cloud/tool/nextai-translator/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/nextai-translator/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/nextai-translator/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/nextai-translator/"/>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -9149,7 +9149,7 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/tolgee/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/tolgee/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/tolgee/"/>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -9158,7 +9158,7 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/tolgee/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/tolgee/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/tolgee/"/>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
