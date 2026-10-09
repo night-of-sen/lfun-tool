@@ -304,6 +304,7 @@ check("PayPal 付款链接已接入", /paypal\.com\/ncp\/payment\//.test(submitH
 check("中文页 PayPal 付款链接已接入", /paypal\.com\/ncp\/payment\//.test(submitZhHtml), true);
 check("sitemap 含 /submit/", /<loc>[^<]*\/submit\//.test(readFileSync(resolve(ROOT, "sitemap.xml"), "utf8")), true);
 check("页脚有提交收录入口", /\/submit\//.test(html), true);
+check("顶栏导航有提交收录入口", /topnav[\s\S]*?\/submit\//.test(html), true);
 check("submit.php 存在", existsSync(resolve(ROOT, "api/submit.php")), true);
 check("submit-status.php 存在", existsSync(resolve(ROOT, "api/submit-status.php")), true);
 
