@@ -305,6 +305,11 @@ check("中文页 PayPal 付款链接已接入", /paypal\.com\/ncp\/payment\//.te
 check("sitemap 含 /submit/", /<loc>[^<]*\/submit\//.test(readFileSync(resolve(ROOT, "sitemap.xml"), "utf8")), true);
 check("页脚有提交收录入口", /\/submit\//.test(html), true);
 check("顶栏导航有提交收录入口", /topnav[\s\S]*?\/submit\//.test(html), true);
+check("页脚有 Newsletter 订阅框", /data-news-form/.test(html), true);
+check("页脚订阅指向 api/subscribe.php", /action="\/api\/subscribe\.php"/.test(html), true);
+check("中文页页脚有 Newsletter 订阅框", /data-news-form/.test(readFileSync(resolve(ROOT, "zh/index.html"), "utf8")), true);
+check("首页有 Newsletter 弹窗", /class="news-popup"/.test(html), true);
+check("工具页无 Newsletter 弹窗", !/class="news-popup"/.test(readFileSync(resolve(ROOT, "tool/60s/index.html"), "utf8")), true);
 check("submit.php 存在", existsSync(resolve(ROOT, "api/submit.php")), true);
 check("submit-status.php 存在", existsSync(resolve(ROOT, "api/submit-status.php")), true);
 
