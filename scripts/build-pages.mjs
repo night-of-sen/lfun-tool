@@ -10,6 +10,9 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 // 工具站部署在子域名；占卜站占用 lfun.cloud 主域名
 const DOMAIN = (process.argv[2] || process.env.SITE_DOMAIN || "https://tools.lfun.cloud").replace(/[/]+$/, "");
 const LANGS = ["zh", "en"];
+// 默认语言构建到根路径，另一种语言构建到 /<lang>/ 子目录
+// 改默认语言只改这里：URL 前缀、hreflang 的 x-default、写盘目录都会跟着变
+const DEFAULT_LANG = "en";
 
 // 静态资源加内容指纹，避免浏览器缓存旧 CSS/JS
 // （.htaccess 给 CSS/JS 设了 1 小时缓存，不加版本号的话改完样式用户要等一小时才看到）
@@ -72,8 +75,8 @@ var LANG_COLORS = {
 };
 var PLATFORM_LABELS = { windows:"Win", macos:"macOS", linux:"Linux", android:"Android", ios:"iOS" };
 
-function langPrefix(lang) { return lang === "zh" ? "" : "/en"; }
-function homePath(lang) { return lang === "zh" ? "/" : "/en/"; }
+function langPrefix(lang) { return lang === DEFAULT_LANG ? "" : "/" + lang; }
+function homePath(lang) { return lang === DEFAULT_LANG ? "/" : "/" + lang + "/"; }
 function toolPath(lang, id) { return langPrefix(lang) + "/tool/" + id + "/"; }
 function catPath(lang, key) { return langPrefix(lang) + "/category/" + key + "/"; }
 function categoriesPath(lang) { return langPrefix(lang) + "/categories/"; }
@@ -177,7 +180,7 @@ function head(lang, opt) {
     '<meta name="theme-color" content="#0b0b0b">',
     '<link rel="canonical" href="' + esc(abs(opt.paths[lang])) + '">',
     alts,
-    '<link rel="alternate" hreflang="x-default" href="' + esc(abs(opt.paths.zh)) + '">',
+    '<link rel="alternate" hreflang="x-default" href="' + esc(abs(opt.paths[DEFAULT_LANG])) + '">',
     '<meta property="og:type" content="' + (opt.ogType || "website") + '">',
     '<meta property="og:title" content="' + esc(opt.title) + '">',
     '<meta property="og:description" content="' + esc(opt.desc) + '">',
@@ -1124,7 +1127,7 @@ function sitemap() {
       "    <loc>" + esc(u.loc) + "</loc>",
       '    <xhtml:link rel="alternate" hreflang="zh-CN" href="' + esc(abs(u.paths.zh)) + '"/>',
       '    <xhtml:link rel="alternate" hreflang="en" href="' + esc(abs(u.paths.en)) + '"/>',
-      '    <xhtml:link rel="alternate" hreflang="x-default" href="' + esc(abs(u.paths.zh)) + '"/>',
+      '    <xhtml:link rel="alternate" hreflang="x-default" href="' + esc(abs(u.paths[DEFAULT_LANG])) + '"/>',
       "    <lastmod>" + u.mod + "</lastmod>",
       "    <changefreq>" + u.freq + "</changefreq>",
       "    <priority>" + u.pri + "</priority>",
@@ -1235,7 +1238,11 @@ await rm(join(ROOT, "online"), { recursive: true, force: true });
 await rm(join(ROOT, "go"), { recursive: true, force: true });
 await rm(join(ROOT, "about"), { recursive: true, force: true });
 await rm(join(ROOT, "disclaimer"), { recursive: true, force: true });
-await rm(join(ROOT, "en"), { recursive: true, force: true });
+// 各语言的子目录都要清理：默认语言构建在根路径，
+// 它的子目录如果存在一定是旧构建的残留（如从中文默认切换过来时的 /en/）
+for (var rmi = 0; rmi < LANGS.length; rmi++) {
+  await rm(join(ROOT, LANGS[rmi]), { recursive: true, force: true });
+}
 
 var written = 0;
 var allCatKeys = {};
@@ -1245,7 +1252,7 @@ var pairList = comparePairs();
 
 for (var li = 0; li < LANGS.length; li++) {
   var lang = LANGS[li];
-  var homeDir = lang === "zh" ? ROOT : join(ROOT, "en");
+  var homeDir = lang === DEFAULT_LANG ? ROOT : join(ROOT, lang);
   await mkdir(homeDir, { recursive: true });
   await writeFile(join(homeDir, "index.html"), homePage(lang), "utf8");
   written++;

@@ -77,14 +77,19 @@
 
 ## 页面结构（多语言）
 
-采用 **子目录 + 默认语言放根路径** 的方案：
+采用 **子目录 + 默认语言放根路径** 的方案。**默认语言是英文**（2026-09 由中文改为英文）：
 
 | 语言 | 首页 | 工具页 | 分类页 | 对比页 | 内容页 |
 |---|---|---|---|---|---|
-| 中文（默认） | `/` | `/tool/excalidraw/` | `/category/analytics/` | `/compare/excalidraw-vs-tldraw/` | `/about/` `/disclaimer/` |
-| English | `/en/` | `/en/tool/excalidraw/` | `/en/category/analytics/` | `/en/compare/...` | `/en/about/` … |
+| English（默认） | `/` | `/tool/excalidraw/` | `/category/analytics/` | `/compare/excalidraw-vs-tldraw/` | `/about/` `/disclaimer/` |
+| 中文 | `/zh/` | `/zh/tool/excalidraw/` | `/zh/category/analytics/` | `/zh/compare/...` | `/zh/about/` … |
 
-分类总览页：`/categories/` 与 `/en/categories/`。全站共 **570 个页面**。
+分类总览页：`/categories/` 与 `/zh/categories/`。切换默认语言只需改 `build-pages.mjs` 里的 `DEFAULT_LANG`，
+URL 前缀、hreflang 的 `x-default`、写盘目录都会跟着变。
+
+> **改默认语言的 SEO 影响**：英文页从 `/en/*` 搬到了 `/*`，`.htaccess` 里已加 301（`^en/(.*)$ → /$1`）。
+> 但**旧的中文 URL（原本在根路径）现在服务英文内容**，同一个 URL 换了语言——这些无法 301（它们仍是有效页面）。
+> Google 会按 hreflang 重新归类，中文流量短期会有波动。
 
 ## 界面与菜单
 
@@ -122,7 +127,7 @@
 **为什么这样设计**
 
 - Google 对 gTLD 的多语言站点推荐**子目录**方案：权重集中在同一域名，比子域名或独立域名更容易起量。
-- 默认语言（中文）直接放根路径，避免 `/zh/` 和 `/` 产生重复内容。
+- 默认语言（英文）直接放根路径，避免 `/en/` 和 `/` 产生重复内容。
 - 每页都有双向 `hreflang`（`zh-CN` / `en`）+ `x-default` 指向中文版。
 - **不做 IP / 浏览器语言的自动跳转**。Google 明确提示自动重定向会妨碍抓取、也可能让用户看不到另一种语言；改为顶部语言切换按钮。
 
@@ -421,7 +426,7 @@ hPanel → **SSL** → 给 `tools.lfun.cloud` 装 Let's Encrypt → 开 Force HT
 | 项 | 位置 | 说明 |
 |---|---|---|
 | 定价配置 | `scripts/pricing.json` | PRD §7 的 7 条定价 + 广告位配置，页面上不 hardcode |
-| 商务合作页 | `/partner/` `/en/partner/` | 合作方式、定价表、联系表单；表单 `action` 为空时显示「后端未接入」提示，不假装能提交 |
+| 商务合作页 | `/partner/` `/zh/partner/` | 合作方式、定价表、联系表单；表单 `action` 为空时显示「后端未接入」提示，不假装能提交 |
 | 联盟数据模型 | `affiliate_url` / `affiliate_enabled` | 可空字段，向后兼容；`sync-github.mjs` 已透传，不会被同步覆盖 |
 | 联盟跳转 | `/go/<tool_id>/` | 纯静态实现：一个 `go/index.html` 处理全部路径（`.htaccess` 重写进来），跳转表在 `go/affiliates.js`，浏览器缓存一次 |
 | sponsored 标注 | 卡片与工具页主按钮 | 有联盟链接时自动改走 `/go/` 并加 `sponsored nofollow noopener`；没有时行为与改造前完全一致 |

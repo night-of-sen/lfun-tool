@@ -46,6 +46,9 @@ ErrorDocument 404 /404.html
   RewriteCond %{THE_REQUEST} \s/+(.+)/index\.html[\s?] [NC]
   RewriteRule ^ /%1/ [R=301,L,NE]
 
+  # 默认语言改为英文：旧的 /en/* 301 到 /*（英文内容已搬到根路径）
+  RewriteRule ^en/(.*)$ /$1 [R=301,L]
+
   # /go/<tool_id> 交给 PHP：302 跳转 + 记录点击（PRD 模块二）
   # 放过构建期兜底跳转表，它由静态文件直接提供
   RewriteCond %{REQUEST_URI} !^/go/affiliates\.json$
