@@ -1246,6 +1246,7 @@ function submitPage(lang) {
   var formAction = cfg.form_action || "/api/submit.php";
   var statusAction = cfg.status_action || "/api/submit-status.php";
   var payHint = lang === "zh" ? (cfg.payment_hint_zh || "") : (cfg.payment_hint_en || "");
+  var payGo = L.submitPayGo || "";
   var tiers = [
     { key: "free", name: L.submitTierFree, desc: L.submitTierFreeDesc, price: 0 },
     { key: "fast", name: L.submitTierFast, desc: L.submitTierFastDesc, price: fastPrice },
@@ -1271,6 +1272,8 @@ function submitPage(lang) {
     "OK_FREE='" + esc(L.submitOkFree) + "',OK_PAID='" + esc(L.submitOkPaid) + "',",
     "PAY_TITLE='" + esc(L.submitPayTitle) + "',",
     "PAY_HINT='" + esc(payHint).replace(/\n/g, "\\n") + "',",
+    "PAY_GO='" + esc(payGo) + "',",
+    "PAY_URL={fast:'" + esc(cfg.pay_url_fast || "") + "',featured:'" + esc(cfg.pay_url_featured || "") + "'},",
     "PRICE={fast:" + fastPrice + ",featured:" + featPrice + "};",
     "form.addEventListener('submit',function(ev){",
     "ev.preventDefault();msg.textContent=SENDING;msg.className='form-msg';",
@@ -1283,6 +1286,8 @@ function submitPage(lang) {
     "var html='<h3>'+OK_TITLE+'</h3><p>'+CODE_LABEL+'：<code class=\"query-code\">'+d.query_code+'</code></p>';",
     "if(d.tier==='free'){html+='<p>'+OK_FREE+'</p>';}",
     "else{html+='<p>'+OK_PAID+'</p>';",
+    "var pu=PAY_URL[d.tier]||'';",
+    "if(pu){html+='<p><a class=\"btn-primary\" style=\"display:inline-block;text-decoration:none\" target=\"_blank\" rel=\"noopener\" href=\"'+pu+'\">'+PAY_GO+' · $'+(PRICE[d.tier]||'')+'</a></p>';}",
     "if(PAY_HINT){html+='<h4>'+PAY_TITLE+'</h4><p>'+PAY_HINT.replace('{price}','$'+(PRICE[d.tier]||''))",
     ".replace('{code}',d.query_code)+'</p>';}}",
     "done.innerHTML=html;done.hidden=false;done.scrollIntoView();",
