@@ -52,8 +52,10 @@
   "submit": {
     "form_action": "/api/submit.php",
     "status_action": "/api/submit-status.php",
-    "payment_hint_zh": "人工收款：请联系站长完成付款（快速审核 $29 / 加精推荐 $49），付款时备注你的查询码，确认收款后 48 小时内审核。",
-    "payment_hint_en": "Manual payment: please contact us to pay (Fast review $29 / Featured $49) and quote your query code; review within 48h after payment is confirmed."
+    "payment_hint_zh": "点击上方按钮通过 PayPal 完成付款（{price}）。付款时如有备注栏请填写你的查询码 {code}；若无备注栏，请确保 PayPal 付款邮箱与提交表单中的邮箱一致，确认收款后 48 小时内审核。",
+    "payment_hint_en": "Click the button above to pay via PayPal ({price}). If the checkout has a note field, include your query code {code}; otherwise make sure the PayPal payer email matches your submission email. Review within 48h after payment is confirmed.",
+    "pay_url_fast": "https://www.paypal.com/ncp/payment/XBE8CCS9RRGSA",
+    "pay_url_featured": "https://www.paypal.com/ncp/payment/35NHLKF8VPWV4"
   },
   "ads": {
     "provider": "none",
