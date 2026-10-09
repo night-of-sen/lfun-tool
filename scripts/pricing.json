@@ -49,6 +49,12 @@
     "contact_email": "",
     "form_action": ""
   },
+  "submit": {
+    "form_action": "/api/submit.php",
+    "status_action": "/api/submit-status.php",
+    "payment_hint_zh": "人工收款：请联系站长完成付款（快速审核 $29 / 加精推荐 $49），付款时备注你的查询码，确认收款后 48 小时内审核。",
+    "payment_hint_en": "Manual payment: please contact us to pay (Fast review $29 / Featured $49) and quote your query code; review within 48h after payment is confirmed."
+  },
   "ads": {
     "provider": "none",
     "carbon_id": "",

@@ -290,5 +290,20 @@ check("英文页语言切换指向 /zh/", enHtml.includes('href="/zh/"'), true);
 check("英文页无 /en/ 残留链接", /href="\/en\//.test(enHtml), false);
 check("英文页合作页在根路径", enHtml.includes('href="/partner/"'), true);
 
+console.log("\n[10] 收录提交页（PRD 模块四）");
+const submitHtml = readFileSync(resolve(ROOT, "submit/index.html"), "utf8");
+const submitZhHtml = readFileSync(resolve(ROOT, "zh/submit/index.html"), "utf8");
+check("英文提交页表单存在", submitHtml.includes('id="submit-form"'), true);
+check("中文提交页表单存在", submitZhHtml.includes('id="submit-form"'), true);
+check("表单提交到 api/submit.php", /action="\/api\/submit\.php"/.test(submitHtml), true);
+check("状态查询到 api/submit-status.php", /action="\/api\/submit-status\.php"/.test(submitHtml), true);
+check("三档齐全", (submitHtml.match(/name="tier"/g) || []).length, 3);
+check("快速审核定价 $29", submitHtml.includes("$29"), true);
+check("加精定价 $49", submitHtml.includes("$49"), true);
+check("sitemap 含 /submit/", /<loc>[^<]*\/submit\//.test(readFileSync(resolve(ROOT, "sitemap.xml"), "utf8")), true);
+check("页脚有提交收录入口", /\/submit\//.test(html), true);
+check("submit.php 存在", existsSync(resolve(ROOT, "api/submit.php")), true);
+check("submit-status.php 存在", existsSync(resolve(ROOT, "api/submit-status.php")), true);
+
 console.log("\n结果: " + pass + " 通过 / " + fail + " 失败");
 process.exit(fail ? 1 : 0);

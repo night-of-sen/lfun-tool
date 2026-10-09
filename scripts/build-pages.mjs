@@ -424,6 +424,7 @@ function footer(lang) {
       '<a href="' + categoriesPath(lang) + '">' + esc(L.categoriesHeading) + "</a>" +
       '<a href="' + contentPath(lang, "about") + '">' + esc(L.aboutLabel) + "</a>" +
       '<a href="' + contentPath(lang, "partner") + '">' + esc(L.navPartner) + "</a>" +
+      '<a href="' + contentPath(lang, "submit") + '">' + esc(L.navSubmit) + "</a>" +
       '<a href="' + contentPath(lang, "disclaimer") + '">' + esc(L.disclaimerLabel) + "</a>" +
       '<a href="' + L.langSwitchHref + '">' + esc(L.langSwitch) + "</a></p>",
     '  <p class="footer-disclosure">' + esc(L.affiliateDisclosure) + "</p>",
@@ -1108,7 +1109,7 @@ function sitemap() {
       urls.push({ loc: abs(onlinePath(l, a.id)), paths: { zh: onlinePath("zh", a.id), en: onlinePath("en", a.id) }, pri: "0.9", freq: "monthly", mod: codeMod });
     });
   });
-  ["about", "disclaimer", "partner"].forEach(function (key) {
+  ["about", "disclaimer", "partner", "submit"].forEach(function (key) {
     LANGS.forEach(function (l) {
       urls.push({ loc: abs(contentPath(l, key)), paths: { zh: contentPath("zh", key), en: contentPath("en", key) }, pri: "0.5", freq: "monthly", mod: codeMod });
     });
@@ -1220,6 +1221,119 @@ function partnerPage(lang) {
   ].join("\n");
 }
 
+/* ---------------- 收录提交页（PRD 模块四） ---------------- */
+function submitPage(lang) {
+  var L = T[lang];
+  var paths = {};
+  LANGS.forEach(function (l) { paths[l] = contentPath(l, "submit"); });
+  var jsonld = [{
+    "@context": "https://schema.org", "@type": "WebPage",
+    "name": L.submitTitle, "url": abs(paths[lang]), "inLanguage": L.htmlLang, "description": L.submitDesc
+  }, {
+    "@context": "https://schema.org", "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": L.backToAll, "item": abs(homePath(lang)) },
+      { "@type": "ListItem", "position": 2, "name": L.submitH1, "item": abs(paths[lang]) }
+    ]
+  }];
+  // 价格从配置读（PRD §7，不 hardcode）
+  var priceOf = function (key) {
+    var hit = (PRICING.items || []).filter(function (x) { return x.key === key; })[0];
+    return hit ? hit.price : 0;
+  };
+  var fastPrice = priceOf("fast_review"), featPrice = priceOf("spotlight");
+  var cfg = PRICING.submit || {};
+  var formAction = cfg.form_action || "/api/submit.php";
+  var statusAction = cfg.status_action || "/api/submit-status.php";
+  var payHint = lang === "zh" ? (cfg.payment_hint_zh || "") : (cfg.payment_hint_en || "");
+  var tiers = [
+    { key: "free", name: L.submitTierFree, desc: L.submitTierFreeDesc, price: 0 },
+    { key: "fast", name: L.submitTierFast, desc: L.submitTierFastDesc, price: fastPrice },
+    { key: "featured", name: L.submitTierFeatured, desc: L.submitTierFeaturedDesc, price: featPrice }
+  ];
+  var tierCards = tiers.map(function (t) {
+    var head = t.price ? t.name + " · $" + t.price : t.name;
+    return '    <div class="way"><h3>' + esc(head) + "</h3><p>" + esc(t.desc) + "</p></div>";
+  }).join("\n");
+  var tierOpts = tiers.map(function (t, i) {
+    var label = t.price ? t.name + " · $" + t.price : t.name;
+    return '      <label class="tier-opt"><input type="radio" name="tier" value="' + t.key + '"' +
+      (i === 0 ? " checked" : "") + "><span><strong>" + esc(label) + "</strong><span>" + esc(t.desc) + "</span></span></label>";
+  }).join("\n");
+  // 内联提交脚本：AJAX 提交，成功后展示查询码与（付费档的）付款指引
+  var js = [
+    "(function(){",
+    "var form=document.getElementById('submit-form');if(!form)return;",
+    "var msg=document.getElementById('submit-msg');",
+    "var done=document.getElementById('submit-done');",
+    "var SENDING='" + esc(L.submitSending) + "',ERR='" + esc(L.submitErr) + "',",
+    "OK_TITLE='" + esc(L.submitOkTitle) + "',CODE_LABEL='" + esc(L.submitCodeLabel) + "',",
+    "OK_FREE='" + esc(L.submitOkFree) + "',OK_PAID='" + esc(L.submitOkPaid) + "',",
+    "PAY_TITLE='" + esc(L.submitPayTitle) + "',",
+    "PAY_HINT='" + esc(payHint).replace(/\n/g, "\\n") + "',",
+    "PRICE={fast:" + fastPrice + ",featured:" + featPrice + "};",
+    "form.addEventListener('submit',function(ev){",
+    "ev.preventDefault();msg.textContent=SENDING;msg.className='form-msg';",
+    "fetch(form.action,{method:'POST',body:new FormData(form),credentials:'same-origin'})",
+    ".then(function(r){return r.json().then(function(d){return{ok:r.ok&&d&&d.ok,d:d};});})",
+    ".then(function(res){",
+    "var d=res.d||{};",
+    "if(res.ok&&d.ok){",
+    "form.style.display='none';msg.textContent='';",
+    "var html='<h3>'+OK_TITLE+'</h3><p>'+CODE_LABEL+'：<code class=\"query-code\">'+d.query_code+'</code></p>';",
+    "if(d.tier==='free'){html+='<p>'+OK_FREE+'</p>';}",
+    "else{html+='<p>'+OK_PAID+'</p>';",
+    "if(PAY_HINT){html+='<h4>'+PAY_TITLE+'</h4><p>'+PAY_HINT.replace('{price}','$'+(PRICE[d.tier]||''))",
+    ".replace('{code}',d.query_code)+'</p>';}}",
+    "done.innerHTML=html;done.hidden=false;done.scrollIntoView();",
+    "}else{msg.textContent=(d&&d.error)||ERR;msg.className='form-msg err';}",
+    "})",
+    ".catch(function(){msg.textContent=ERR;msg.className='form-msg err';});",
+    "});",
+    "})();"
+  ].join("\n");
+
+  return [
+    head(lang, { title: L.submitTitle + " · " + L.siteName, desc: L.submitDesc, paths: paths, jsonld: jsonld, ogType: "website" }),
+    "",
+    header(lang, false),
+    '<main class="wrap submit-page">',
+    '  <nav class="crumbs"><a href="' + homePath(lang) + '">' + esc(L.backToAll) + "</a><span>/</span><strong>" + esc(L.submitH1) + "</strong></nav>",
+    '  <h1 class="partner-h1">' + esc(L.submitH1) + "</h1>",
+    '  <p class="partner-intro">' + esc(L.submitIntro) + "</p>",
+    '  <div class="ways">',
+    tierCards,
+    "  </div>",
+    '  <h2 class="partner-h2">' + esc(L.submitH1) + "</h2>",
+    '  <form id="submit-form" class="partner-form" method="POST" action="' + esc(formAction) + '">',
+    '    <input type="text" name="_hp" class="hp" tabindex="-1" autocomplete="off">',
+    '    <label>' + esc(L.submitRepoLabel) + '<input name="repo_url" required placeholder="' + esc(L.submitRepoPh) + '" pattern=".{3,300}"></label>',
+    '    <label>' + esc(L.submitEmailLabel) + '<input type="email" name="email" required></label>',
+    '    <fieldset class="tier-field"><legend>' + esc(L.submitTierLabel) + "</legend>",
+    tierOpts,
+    "    </fieldset>",
+    '    <button class="btn-primary btn-lg" type="submit">' + esc(L.submitButton) + "</button>",
+    "  </form>",
+    '  <p id="submit-msg" class="form-msg" aria-live="polite"></p>',
+    '  <div id="submit-done" class="submit-done" hidden></div>',
+    '  <h2 class="partner-h2">' + esc(L.submitStatusTitle) + "</h2>",
+    '  <form class="partner-form inline-form" method="GET" action="' + esc(statusAction) + '">',
+    '    <input type="hidden" name="lang" value="' + lang + '">',
+    '    <label class="sr-only">' + esc(L.submitStatusTitle) + '<input name="code" required minlength="12" maxlength="12" placeholder="' + esc(L.submitStatusPh) + '" style="text-transform:uppercase"></label>',
+    '    <button class="btn-primary" type="submit">' + esc(L.submitStatusButton) + "</button>",
+    "  </form>",
+    '  <p class="partner-hint">' + esc(L.submitFreeAlt) + "</p>",
+    "</main>",
+    "",
+    footer(lang),
+    "<script>" + js + "</script>",
+    '<script src="/app.js?v=' + ASSET_V + '"></script>',
+    "</div>",
+    "</body>",
+    "</html>"
+  ].join("\n");
+}
+
 /* ---------------- /go/[tool_id] 跳转器（PRD 模块二） ---------------- */
 // 纯静态实现：一个页面处理全部 /go/ 路径（.htaccess 重写进来），
 // 跳转表由构建期生成在 /go/affiliates.js，浏览器缓存一次即可。
@@ -1308,6 +1422,11 @@ for (var li = 0; li < LANGS.length; li++) {
   var partnerDir = join(ROOT, contentPath(lang, "partner").replace(/^[/]/, ""));
   await mkdir(partnerDir, { recursive: true });
   await writeFile(join(partnerDir, "index.html"), partnerPage(lang), "utf8");
+  written++;
+  // 收录提交页（PRD 模块四）
+  var submitDir = join(ROOT, contentPath(lang, "submit").replace(/^[/]/, ""));
+  await mkdir(submitDir, { recursive: true });
+  await writeFile(join(submitDir, "index.html"), submitPage(lang), "utf8");
   written++;
 }
 // /go/ 跳转器（一个页面处理全部 /go/<tool_id>，靠 .htaccess 重写进来）
