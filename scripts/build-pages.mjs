@@ -406,6 +406,7 @@ function homePage(lang) {
     "</div>",
     "",
     footer(lang),
+    newsPopup(lang),
     '<script src="/app.js?v=' + ASSET_V + '"></script>',
     "</div>",
     "</body>",
@@ -418,11 +419,79 @@ function todayLabel(lang) {
                        : items.length + " tools · data synced " + syncedAt;
 }
 
+/* ---------------- Newsletter 订阅（PRD 模块六）：页脚订阅框 + 首页弹窗 ---------------- */
+function newsForm(lang, ctx) {
+  var L = T[lang];
+  return [
+    '<form class="news-form" data-news-form data-ctx="' + ctx + '" method="POST" action="/api/subscribe.php">',
+    '  <input type="text" name="_hp" class="hp" tabindex="-1" autocomplete="off">',
+    '  <div class="news-row">',
+    '    <input type="email" name="email" required placeholder="you@example.com" aria-label="' + esc(L.newsTitle) + '">',
+    '    <button type="submit" class="btn-primary">' + esc(L.newsBtn) + "</button>",
+    "  </div>",
+    '  <p class="news-msg" data-news-msg aria-live="polite" hidden></p>',
+    "</form>"
+  ].join("\n");
+}
+
+function newsPopup(lang) {
+  var L = T[lang];
+  return [
+    '<div class="news-popup" data-news-popup hidden>',
+    '  <div class="news-popup-card" role="dialog" aria-modal="true" aria-label="' + esc(L.newsTitle) + '">',
+    '    <button class="news-popup-close" data-news-close aria-label="✕">✕</button>',
+    "    <h3>" + esc(L.newsTitle) + "</h3>",
+    "    <p>" + esc(L.newsDesc) + "</p>",
+    newsForm(lang, "popup"),
+    "  </div>",
+    "</div>"
+  ].join("\n");
+}
+
+function newsScript(lang) {
+  var L = T[lang];
+  var js = [
+    "(function(){",
+    "var OK=" + JSON.stringify(L.newsOk) + ",ALREADY=" + JSON.stringify(L.newsAlready) + ",ERR=" + JSON.stringify(L.newsErr) + ";",
+    "function stamp(){try{localStorage.setItem('nl_ts',String(Date.now()));}catch(e){}}",
+    "function bind(form){",
+    "var msg=form.querySelector('[data-news-msg]');",
+    "form.addEventListener('submit',function(ev){",
+    "ev.preventDefault();",
+    "fetch(form.action,{method:'POST',body:new FormData(form),credentials:'same-origin'})",
+    ".then(function(r){return r.json().then(function(d){return{ok:r.ok&&d&&d.ok,already:!!(d&&d.already),err:d&&d.error};});})",
+    ".then(function(res){",
+    "msg.hidden=false;",
+    "if(res.ok){msg.textContent=res.already?ALREADY:OK;msg.className='news-msg ok';stamp();form.querySelector('input[type=email]').value='';}",
+    "else{msg.textContent=res.err||ERR;msg.className='news-msg err';}",
+    "})",
+    ".catch(function(){msg.hidden=false;msg.textContent=ERR;msg.className='news-msg err';});",
+    "});}",
+    "var forms=document.querySelectorAll('[data-news-form]');",
+    "for(var i=0;i<forms.length;i++)bind(forms[i]);",
+    "var pop=document.querySelector('[data-news-popup]');",
+    "if(pop){",
+    "var last=0;try{last=parseInt(localStorage.getItem('nl_ts')||'0',10)||0;}catch(e){}",
+    "function hide(){pop.hidden=true;stamp();}",
+    "var closeBtn=pop.querySelector('[data-news-close]');",
+    "if(closeBtn)closeBtn.addEventListener('click',hide);",
+    "pop.addEventListener('click',function(ev){if(ev.target===pop)hide();});",
+    "if(Date.now()-last>30*24*3600*1000){setTimeout(function(){pop.hidden=false;},10000);}",
+    "}",
+    "})();"
+  ].join("\n");
+  return "<script>" + js + "</script>";
+}
+
 function footer(lang) {
   var L = T[lang];
   return [
     '<footer class="footer wrap">',
     "  <p>" + esc(L.siteName) + " · " + esc(L.footerNote) + "</p>",
+    '  <div class="news-block">',
+    '    <div class="news-text"><strong>' + esc(L.newsTitle) + "</strong><span>" + esc(L.newsDesc) + "</span></div>",
+    newsForm(lang, "footer"),
+    "  </div>",
     '  <p class="footer-links"><a href="' + onlineIndexPath(lang) + '">' + esc(L.onlineHeading) + "</a>" +
       '<a href="' + categoriesPath(lang) + '">' + esc(L.categoriesHeading) + "</a>" +
       '<a href="' + contentPath(lang, "about") + '">' + esc(L.aboutLabel) + "</a>" +
@@ -431,7 +500,8 @@ function footer(lang) {
       '<a href="' + contentPath(lang, "disclaimer") + '">' + esc(L.disclaimerLabel) + "</a>" +
       '<a href="' + L.langSwitchHref + '">' + esc(L.langSwitch) + "</a></p>",
     '  <p class="footer-disclosure">' + esc(L.affiliateDisclosure) + "</p>",
-    "</footer>"
+    "</footer>",
+    newsScript(lang)
   ].join("\n");
 }
 

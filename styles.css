@@ -416,6 +416,25 @@ html[data-theme="dark"] .re-hl mark{background:#a16207;color:#fff}
 .partner-form .tier-opt>span strong{color:var(--text)}
 .partner-note{padding:14px 16px;background:var(--panel-2);border:1px solid var(--border);border-radius:var(--radius);font-size:13.5px;color:var(--muted)}
 .footer-disclosure{margin-top:6px;font-size:12px;color:var(--muted);opacity:.85}
+
+/* ===== Newsletter（PRD 模块六）：页脚订阅框 + 首页弹窗 ===== */
+.news-block{margin:14px 0;padding:14px 16px;background:var(--panel-2);border:1px solid var(--border);border-radius:var(--radius)}
+.news-text{display:flex;flex-direction:column;gap:2px;margin-bottom:10px}
+.news-text strong{font-size:14px}
+.news-text span{font-size:12.5px;color:var(--muted)}
+.news-form .hp{position:absolute;left:-9999px;width:1px;height:1px}
+.news-row{display:flex;gap:8px}
+.news-row input[type=email]{flex:1;min-width:0;background:var(--panel);border:1px solid var(--border);border-radius:9px;padding:8px 12px;color:var(--text);font:inherit;font-size:14px}
+.news-row input[type=email]:focus{outline:none;border-color:var(--muted)}
+.news-msg{margin:8px 0 0;font-size:13px}
+.news-msg.ok{color:#16a34a}
+.news-msg.err{color:#dc2626}
+.news-popup{position:fixed;inset:0;z-index:90;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.45);padding:20px}
+.news-popup[hidden]{display:none}
+.news-popup-card{position:relative;width:100%;max-width:380px;background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:26px 22px;box-shadow:0 18px 50px rgba(0,0,0,.25)}
+.news-popup-card h3{margin:0 0 6px;font-size:18px}
+.news-popup-card p{margin:0 0 14px;font-size:13.5px;color:var(--muted)}
+.news-popup-close{position:absolute;top:10px;right:12px;border:0;background:none;color:var(--muted);font-size:16px;cursor:pointer;padding:4px}
 @media(max-width:640px){.partner-h1{font-size:24px}}
 
 /* ===== 赞助位（PRD 模块三）：没有生效赞助时容器 hidden，不留空位 ===== */
