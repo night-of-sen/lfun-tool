@@ -375,10 +375,27 @@
     });
   }
 
+  // 运行时定价（PRD §7 实时生效）：拉取站根 pricing.json，用实时价格覆盖页面上的 baked 价格；
+  // 改价只需更新站根 pricing.json，无需重建。失败时静默保留构建期价格。
+  function refreshPricing() {
+    if (!document.querySelector("[data-price-key]") && !document.getElementById("submit-form")) return;
+    fetch("/pricing.json", { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (p) {
+      var map = {};
+      (p.items || []).forEach(function (it) { map[it.key] = it.price; });
+      window.__PRICING_MAP__ = map;
+      window.__PRICING__ = { fast: map.fast_review, featured: map.spotlight };
+      document.querySelectorAll("[data-price-key]").forEach(function (el) {
+        var k = el.getAttribute("data-price-key");
+        if (map[k] != null) el.textContent = "$" + map[k];
+      });
+    }).catch(function () {});
+  }
+
   initTheme();
   bind();
   bindCopyButtons();
   bindSidebar();
+  refreshPricing();
 
   if (document.getElementById("grid")) {
     cards = readCards();

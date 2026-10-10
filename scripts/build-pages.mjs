@@ -1251,7 +1251,7 @@ function partnerPage(lang) {
     return '    <div class="way"><h3>' + esc(w[0]) + "</h3><p>" + esc(w[1]) + "</p></div>";
   }).join("\n");
   var rows = (PRICING.items || []).map(function (it) {
-    return "      <tr><td>" + esc(lang === "zh" ? it.zh : it.en) + "</td><td class=\"price\">$" + it.price + "</td></tr>";
+    return "      <tr><td>" + esc(lang === "zh" ? it.zh : it.en) + "</td><td class=\"price\" data-price-key=\"" + esc(it.key) + "\">$" + it.price + "</td></tr>";
   }).join("\n");
   var action = (PRICING.partner && PRICING.partner.form_action) || "";
   var mail = (PRICING.partner && PRICING.partner.contact_email) || "";
@@ -1326,18 +1326,18 @@ function submitPage(lang) {
   var payHint = lang === "zh" ? (cfg.payment_hint_zh || "") : (cfg.payment_hint_en || "");
   var payGo = L.submitPayGo || "";
   var tiers = [
-    { key: "free", name: L.submitTierFree, desc: L.submitTierFreeDesc, price: 0 },
-    { key: "fast", name: L.submitTierFast, desc: L.submitTierFastDesc, price: fastPrice },
-    { key: "featured", name: L.submitTierFeatured, desc: L.submitTierFeaturedDesc, price: featPrice }
+    { key: "free", pkey: "", name: L.submitTierFree, desc: L.submitTierFreeDesc, price: 0 },
+    { key: "fast", pkey: "fast_review", name: L.submitTierFast, desc: L.submitTierFastDesc, price: fastPrice },
+    { key: "featured", pkey: "spotlight", name: L.submitTierFeatured, desc: L.submitTierFeaturedDesc, price: featPrice }
   ];
   var tierCards = tiers.map(function (t) {
-    var head = t.price ? t.name + " · $" + t.price : t.name;
-    return '    <div class="way"><h3>' + esc(head) + "</h3><p>" + esc(t.desc) + "</p></div>";
+    var head = t.price ? esc(t.name) + ' · <span data-price-key="' + t.pkey + '">$' + t.price + "</span>" : esc(t.name);
+    return '    <div class="way"><h3>' + head + "</h3><p>" + esc(t.desc) + "</p></div>";
   }).join("\n");
   var tierOpts = tiers.map(function (t, i) {
-    var label = t.price ? t.name + " · $" + t.price : t.name;
+    var label = t.price ? esc(t.name) + ' · <span data-price-key="' + t.pkey + '">$' + t.price + "</span>" : esc(t.name);
     return '      <label class="tier-opt"><input type="radio" name="tier" value="' + t.key + '"' +
-      (i === 0 ? " checked" : "") + "><span><strong>" + esc(label) + "</strong><span>" + esc(t.desc) + "</span></span></label>";
+      (i === 0 ? " checked" : "") + "><span><strong>" + label + "</strong><span>" + esc(t.desc) + "</span></span></label>";
   }).join("\n");
   // 内联提交脚本：AJAX 提交，成功后展示查询码与（付费档的）付款指引
   var js = [
@@ -1352,7 +1352,9 @@ function submitPage(lang) {
     "PAY_HINT='" + esc(payHint).replace(/\n/g, "\\n") + "',",
     "PAY_GO='" + esc(payGo) + "',",
     "PAY_URL={fast:'" + esc(cfg.pay_url_fast || "") + "',featured:'" + esc(cfg.pay_url_featured || "") + "'},",
-    "PRICE={fast:" + fastPrice + ",featured:" + featPrice + "};",
+    "PRICE={fast:" + fastPrice + ",featured:" + featPrice + "},",
+    // 运行时定价覆盖：app.js 拉取 /pricing.json 后写入 window.__PRICING__，此处优先读实时值
+    "function px(t){var w=window.__PRICING__||{};return (w[t]!=null?w[t]:PRICE[t]);}",
     "form.addEventListener('submit',function(ev){",
     "ev.preventDefault();msg.textContent=SENDING;msg.className='form-msg';",
     "fetch(form.action,{method:'POST',body:new FormData(form),credentials:'same-origin'})",
@@ -1365,8 +1367,8 @@ function submitPage(lang) {
     "if(d.tier==='free'){html+='<p>'+OK_FREE+'</p>';}",
     "else{html+='<p>'+OK_PAID+'</p>';",
     "var pu=PAY_URL[d.tier]||'';",
-    "if(pu){html+='<p><a class=\"btn-primary\" style=\"display:inline-block;text-decoration:none\" target=\"_blank\" rel=\"noopener\" href=\"'+pu+'\">'+PAY_GO+' · $'+(PRICE[d.tier]||'')+'</a></p>';}",
-    "if(PAY_HINT){html+='<h4>'+PAY_TITLE+'</h4><p>'+PAY_HINT.replace('{price}','$'+(PRICE[d.tier]||''))",
+    "if(pu){html+='<p><a class=\"btn-primary\" style=\"display:inline-block;text-decoration:none\" target=\"_blank\" rel=\"noopener\" href=\"'+pu+'\">'+PAY_GO+' · $'+px(d.tier)+'</a></p>';}",
+    "if(PAY_HINT){html+='<h4>'+PAY_TITLE+'</h4><p>'+PAY_HINT.replace('{price}','$'+px(d.tier))",
     ".replace('{code}',d.query_code)+'</p>';}}",
     "done.innerHTML=html;done.hidden=false;done.scrollIntoView();",
     "}else{msg.textContent=(d&&d.error)||ERR;msg.className='form-msg err';}",
@@ -1517,6 +1519,9 @@ await mkdir(join(ROOT, "go"), { recursive: true });
 // /go/<tool_id> 由 api/go.php 处理（.htaccess 重写），这里只放构建期的联盟跳转表，
 // 供 PHP 在数据库里没有该工具时兜底。
 await writeFile(join(ROOT, "go", "affiliates.json"), JSON.stringify(affiliatesMap()), "utf8");
+// 定价运行时读取（PRD §7 实时生效）：发布 pricing.json 到站根，前端 app.js 运行时 fetch 覆盖价格；
+// 改价只需更新站根 pricing.json，无需重建。构建期仍 bake 一份，保证 SEO 与无 JS 兜底。
+await writeFile(join(ROOT, "pricing.json"), JSON.stringify(PRICING), "utf8");
 await writeFile(join(ROOT, "sitemap.xml"), sitemap(), "utf8");
 await writeFile(join(ROOT, "robots.txt"), robots(), "utf8");
 
