@@ -224,6 +224,6 @@ form.inline{display:contents}
 <?php else: ?>
 <div class="card"><h3>订阅者</h3>
 <p>活跃订阅：<b><?= (int) ($subscribers[0]['n'] ?? 0) ?></b></p>
-<p class="muted">模块六的订阅入口与周报发送尚未接入；表结构已就绪。</p></div>
+<p class="muted">订阅入口已上线（页脚订阅框 / 首页弹窗 + 双重确认）；周报定时发送尚未接入。</p></div>
 <?php endif; ?>
 </main></body></html>
