@@ -30,6 +30,11 @@ const items = data.items;
 const syncedAt = (data.generatedAt || "").slice(0, 10);
 // 定价与广告位配置（PRD §7：全部可配置，不 hardcode）
 const PRICING = JSON.parse(await readFile(join(ROOT, "scripts", "pricing.json"), "utf8"));
+// 联盟链接配置（tool_id -> 联盟 URL；运行时 /go/ 优先读数据库，此处用于构建期卡片 Sponsored 版位）
+const AFFILIATES = JSON.parse(await readFile(join(ROOT, "scripts", "affiliates.json"), "utf8"));
+for (const t of items) {
+  if (AFFILIATES[t.id]) { t.affiliate_url = AFFILIATES[t.id]; t.affiliate_enabled = true; }
+}
 
 // README 摘要缓存（由 scripts/fetch-readmes.mjs 生成）
 let readmes = {};
