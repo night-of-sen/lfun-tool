@@ -29,6 +29,7 @@ try {
 } catch (Throwable $e) { fail('保存失败，请稍后再试', 500); }
 
 $url = rtrim((string) cfg('site_url'), '/') . '/api/confirm.php?token=' . $token;
+$unsubUrl = rtrim((string) cfg('site_url'), '/') . '/api/unsubscribe.php?token=' . $unsub;
 send_mail($email, '确认订阅 / Confirm your subscription',
-  mail_template('还差一步', '<p>点下面的按钮确认订阅。若不是你本人操作，忽略本邮件即可。</p>', '确认订阅', $url));
+  mail_template('还差一步', '<p>点下面的按钮确认订阅。若不是你本人操作，忽略本邮件即可。</p><p style="color:#888;font-size:12px;margin-top:16px">不想再收到邮件？可随时<a href="' . h($unsubUrl) . '">退订</a>。</p>', '确认订阅', $url));
 json_out(['ok' => true]);
