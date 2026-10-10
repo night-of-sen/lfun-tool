@@ -2,7 +2,7 @@
   "zh": {
     "htmlLang": "zh-CN",
     "siteName": "开源工具集",
-    "brandSub": "标注清楚<strong>怎么用</strong>：在线即用 / 可自托管 / 桌面应用 / 命令行",
+    "brandSub": "在线即用 / 可自托管 / 桌面应用 / 命令行",
     "homeTitle": "开源工具集 · {n} 个精选 GitHub 开源项目",
     "homeDesc": "{n} 个精选 GitHub 开源项目，标注清楚怎么用：在线即用、可自托管、桌面应用、命令行。含出海辅助专题：多语言、合规、支付、邮件、客服。",
     "searchPlaceholder": "搜索工具名、用途、标签…  按 / 聚焦",
@@ -218,7 +218,7 @@
   "en": {
     "htmlLang": "en",
     "siteName": "Open Source Toolkit",
-    "brandSub": "Know <strong>how to use it</strong> before you click: online, self-hosted, desktop, CLI",
+    "brandSub": "online, self-hosted, desktop, CLI",
     "homeTitle": "Open Source Toolkit · {n} curated GitHub projects",
     "homeDesc": "{n} curated open-source GitHub projects with clear notes on how to use them: online, self-hosted, desktop app or CLI. Includes a Going-Global section: localization, compliance, payments, email and support.",
     "searchPlaceholder": "Search name, purpose, tag…  press / to focus",
