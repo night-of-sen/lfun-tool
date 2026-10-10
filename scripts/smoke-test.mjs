@@ -8,6 +8,9 @@ const html = readFileSync(resolve(ROOT, "zh/index.html"), "utf8");
 const data = JSON.parse(readFileSync(resolve(ROOT, "data/tools.json"), "utf8"));
 const items = data.items;
 const has = (t, u) => (t.usage || []).includes(u);
+// 与 build-pages.mjs 同步：联盟链接配置合并进 items
+const AFF = JSON.parse(readFileSync(resolve(ROOT, "scripts/affiliates.json"), "utf8"));
+for (const t of items) { if (AFF[t.id]) { t.affiliate_url = AFF[t.id]; t.affiliate_enabled = true; } }
 
 /* 取出内联的 i18n */
 const i18nStart = html.indexOf("window.__I18N__=");
@@ -168,8 +171,8 @@ check("canonical", html.includes('<link rel="canonical" href="https://tools.lfun
 check("JSON-LD 块数", countIn(/application\/ld\+json/g), 2);
 // primaryAction 里 cloud 分支优先于 online，所以这里必须排除有云版的
 check("在线使用按钮", countIn(/rel="noopener">在线使用<\/a>/g), items.filter((t) => !t.cloud && has(t, "online") && t.homepage).length);
-check("云版按钮", countIn(/rel="noopener">云版<\/a>/g), items.filter((t) => t.cloud).length);
-check("部署按钮", countIn(/rel="noopener">部署<\/a>/g), items.filter((t) => !t.cloud && !has(t, "online") && !has(t, "extension") && !has(t, "desktop") && !has(t, "cli") && has(t, "selfhost")).length);
+check("云版按钮", countIn(/rel="noopener">云版<\/a>/g), items.filter((t) => t.cloud && !(t.affiliate_enabled && t.affiliate_url)).length);
+check("部署按钮", countIn(/rel="noopener">部署<\/a>/g), items.filter((t) => !t.cloud && !has(t, "online") && !has(t, "extension") && !has(t, "desktop") && !has(t, "cli") && has(t, "selfhost") && !(t.affiliate_enabled && t.affiliate_url)).length);
 check("下载按钮", countIn(/rel="noopener">下载<\/a>/g), items.filter((t) => !t.cloud && !has(t, "online") && !has(t, "extension") && (has(t, "desktop") || has(t, "cli"))).length);
 check("获取扩展按钮", countIn(/rel="noopener">获取扩展<\/a>/g), items.filter((t) => !t.cloud && !has(t, "online") && has(t, "extension")).length);
 check("文档按钮", countIn(/rel="noopener">文档<\/a>/g), items.filter((t) => !t.cloud && !has(t, "online") && !has(t, "extension") && !has(t, "desktop") && !has(t, "cli") && !has(t, "selfhost") && has(t, "lib")).length);

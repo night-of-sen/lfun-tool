@@ -71,12 +71,20 @@ check("描述重复", [...descs.values()].filter((n) => n > 1).length, 0);
 
 console.log("\n[2] 内链完整性（指向不存在页面的链接会被 GSC 记为 404）");
 const exists = new Set(dirPages.map((p) => p.url));   // 内链检查要认 noindex 页（如 /go/）
+// /go/<id>/ 由 api/go.php 运行时处理，无静态页面；以 go/affiliates.json 为准
+let affIds = new Set();
+try { affIds = new Set(Object.keys(JSON.parse(await readFile(join(ROOT, "go", "affiliates.json"), "utf8")))); } catch (e) {}
 const assetExists = allFiles;
 const broken = new Map();
 for (const p of pages) {
   for (const raw of p.html.match(/href="(\/[^"#]*)"/g) || []) {
     const target = raw.slice(6, -1).replace(/[?#].*$/, "");
     if (target.startsWith("/scripts") || target.startsWith("/.git")) continue;
+    if (target.startsWith("/go/")) {
+      const id = target.slice(4).replace(/\/$/, "");
+      if (!affIds.has(id)) broken.set(target, (broken.get(target) || 0) + 1);
+      continue;
+    }
     if (target.includes(".") && !target.endsWith("/")) {
       if (!assetExists.has(target)) { broken.set(target, (broken.get(target) || 0) + 1); }
       continue;
