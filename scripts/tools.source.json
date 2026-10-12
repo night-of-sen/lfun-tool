@@ -15705,6 +15705,680 @@
       "cloud": "",
       "descEn": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
       "pushedAt": "2026-10-11"
+    },
+    {
+      "id": "opencut",
+      "name": "OpenCut",
+      "repo": "OpenCut-app/OpenCut",
+      "homepage": "https://opencut.app",
+      "category": "video",
+      "desc": "",
+      "tags": [
+        "editor",
+        "oss",
+        "videoeditor"
+      ],
+      "seed": {
+        "stars": 93685,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The open-source CapCut alternative",
+      "pushedAt": "2026-09-24"
+    },
+    {
+      "id": "odysseus",
+      "name": "Odysseus",
+      "repo": "odysseus-dev/odysseus",
+      "homepage": "https://odysseus-dev.github.io/odysseus",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 92901,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Self-hosted AI workspace.",
+      "pushedAt": "2026-10-08"
+    },
+    {
+      "id": "orca",
+      "name": "Orca",
+      "repo": "stablyai/orca",
+      "homepage": "https://onOrca.dev",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ade",
+        "agent-ide",
+        "ai-agents",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 90055,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "worldmonitor",
+      "name": "Worldmonitor",
+      "repo": "koala73/worldmonitor",
+      "homepage": "https://worldmonitor.app",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai",
+        "dashboard",
+        "geopolitics"
+      ],
+      "seed": {
+        "stars": 88272,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "understand-anything",
+      "name": "Understand Anything",
+      "repo": "Egonex-AI/Understand-Anything",
+      "homepage": "https://understand-anything.com/",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "antigravity-skills",
+        "business-knowledge",
+        "claude-code",
+        "claude-skills"
+      ],
+      "seed": {
+        "stars": 85969,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, ",
+      "pushedAt": "2026-10-10"
+    },
+    {
+      "id": "rtk",
+      "name": "Rtk",
+      "repo": "rtk-ai/rtk",
+      "homepage": "https://www.rtk-ai.app",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agentic-coding",
+        "ai-coding",
+        "anthropic",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 83000,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "pushedAt": "2026-10-11"
+    },
+    {
+      "id": "hello-agents",
+      "name": "Hello Agents",
+      "repo": "datawhalechina/hello-agents",
+      "homepage": "https://hello-agents.datawhale.cc",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent",
+        "llm",
+        "rag",
+        "tutorial"
+      ],
+      "seed": {
+        "stars": 82636,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "pushedAt": "2026-10-08"
+    },
+    {
+      "id": "archify",
+      "name": "Archify",
+      "repo": "tt-a1i/archify",
+      "homepage": "https://archify.si",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "architecture-diagram",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 82221,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "impeccable",
+      "name": "Impeccable",
+      "repo": "pbakaus/impeccable",
+      "homepage": "https://impeccable.style",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 79987,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The design language that makes your AI harness better at design.",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "learn-claude-code",
+      "name": "Learn Claude Code",
+      "repo": "shareAI-lab/learn-claude-code",
+      "homepage": "https://learn.shareai.run",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agent-development",
+        "ai-agent",
+        "claude"
+      ],
+      "seed": {
+        "stars": 78395,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1",
+      "pushedAt": "2026-09-28"
+    },
+    {
+      "id": "mirofish",
+      "name": "MiroFish",
+      "repo": "666ghj/MiroFish",
+      "homepage": "https://mirofish.ai",
+      "category": "agent",
+      "desc": "",
+      "tags": [
+        "agent-memory",
+        "financial-forecasting",
+        "future-prediction",
+        "knowledge-graph"
+      ],
+      "seed": {
+        "stars": 78219,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "pushedAt": "2026-10-01"
+    },
+    {
+      "id": "awesome-claude-skills",
+      "name": "Awesome Claude Skills",
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "homepage": "",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "antigravity",
+        "automation"
+      ],
+      "seed": {
+        "stars": 76901,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "pushedAt": "2026-09-18"
+    },
+    {
+      "id": "omniroute",
+      "name": "OmniRoute",
+      "repo": "diegosouzapw/OmniRoute",
+      "homepage": "https://omniroute.online",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "a2a",
+        "ai-agents",
+        "ai-gateway",
+        "anthropic"
+      ],
+      "seed": {
+        "stars": 75426,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Curs",
+      "pushedAt": "2026-10-11"
+    },
+    {
+      "id": "headroom",
+      "name": "Headroom",
+      "repo": "headroomlabs-ai/headroom",
+      "homepage": "https://docs.headroomlabs.ai/docs",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai",
+        "anthropic",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 75090,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP se",
+      "pushedAt": "2026-10-11"
+    },
+    {
+      "id": "ruflo",
+      "name": "Ruflo",
+      "repo": "ruvnet/ruflo",
+      "homepage": "https://Cognitum.One",
+      "category": "agent",
+      "desc": "",
+      "tags": [
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "agents"
+      ],
+      "seed": {
+        "stars": 74380,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "career-ops",
+      "name": "Career Ops",
+      "repo": "career-ops-hq/career-ops",
+      "homepage": "https://career-ops.org",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-agent",
+        "ai-job-search",
+        "ats"
+      ],
+      "seed": {
+        "stars": 74091,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview ",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "codegraph",
+      "name": "Codegraph",
+      "repo": "colbymchenry/codegraph",
+      "homepage": "https://colbymchenry.github.io/codegraph/",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 73767,
+        "language": "C"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer t",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "openspec",
+      "name": "OpenSpec",
+      "repo": "Fission-AI/OpenSpec",
+      "homepage": "https://openspec.dev/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "context-engineering",
+        "engineering",
+        "planning"
+      ],
+      "seed": {
+        "stars": 71676,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Spec-driven development (SDD) for AI coding assistants.",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "mole",
+      "name": "Mole",
+      "repo": "tw93/Mole",
+      "homepage": "https://mole.fit",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "analyzer",
+        "appcleaner",
+        "clean",
+        "cleaner"
+      ],
+      "seed": {
+        "stars": 69982,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🐹 Keep your Mac clean, light, and running like new. Fast open-source CLI, plus a native Mac app.",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "oh-my-openagent",
+      "name": "Oh My Openagent",
+      "repo": "code-yeongyu/oh-my-openagent",
+      "homepage": "https://omo.dev",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "chatgpt"
+      ],
+      "seed": {
+        "stars": 69967,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "OmO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering.",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "system-prompts-leaks",
+      "name": "System Prompts Leaks",
+      "repo": "asgeirtj/system_prompts_leaks",
+      "homepage": "",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "ai-prompts",
+        "anthropic"
+      ],
+      "seed": {
+        "stars": 69435,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Documented system prompts from Anthropic - Claude Fable 5.1, Opus 5.5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigrav",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "strix",
+      "name": "Strix",
+      "repo": "usestrix/strix",
+      "homepage": "https://strix.ai",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agents",
+        "ai-hacking",
+        "ai-penetration-testing",
+        "ai-pentesting"
+      ],
+      "seed": {
+        "stars": 68015,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "pushedAt": "2026-10-11"
+    },
+    {
+      "id": "ai-engineering-from-scratch",
+      "name": "Ai Engineering From Scratch",
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "homepage": "https://aiengineeringfromscratch.com",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-engineering"
+      ],
+      "seed": {
+        "stars": 67669,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
+      "pushedAt": "2026-10-11"
+    },
+    {
+      "id": "claude-code-best-practice",
+      "name": "Claude Code Best Practice",
+      "repo": "shanraisshan/claude-code-best-practice",
+      "homepage": "https://linkedin.com/in/shanraisshan",
+      "category": "agent",
+      "desc": "",
+      "tags": [
+        "agentic-ai",
+        "agentic-coding",
+        "agentic-engineering",
+        "agentic-workflow"
+      ],
+      "seed": {
+        "stars": 67426,
+        "language": "HTML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "from vibe coding to agentic engineering - practice makes claude perfect",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "openmontage",
+      "name": "OpenMontage",
+      "repo": "calesthio/OpenMontage",
+      "homepage": "https://www.openmontage.video/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agentic-ai",
+        "ai",
+        "claude"
+      ],
+      "seed": {
+        "stars": 67145,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into",
+      "pushedAt": "2026-10-03"
+    },
+    {
+      "id": "daily-stock-analysis",
+      "name": "Daily Stock Analysis",
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "homepage": "https://dsa.zhulinsen.tech",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "a-stock",
+        "ai-agent",
+        "aigc",
+        "llm"
+      ],
+      "seed": {
+        "stars": 66204,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifi",
+      "pushedAt": "2026-10-11"
+    },
+    {
+      "id": "last30days-skill",
+      "name": "Last30days Skill",
+      "repo": "mvanhorn/last30days-skill",
+      "homepage": "",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-prompts",
+        "ai-skill",
+        "bluesky",
+        "claude"
+      ],
+      "seed": {
+        "stars": 64003,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "pushedAt": "2026-10-11"
+    },
+    {
+      "id": "context7",
+      "name": "Context7",
+      "repo": "upstash/context7",
+      "homepage": "https://context7.com",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "llm",
+        "mcp",
+        "mcp-server",
+        "vibe-coding"
+      ],
+      "seed": {
+        "stars": 62912,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
+      "pushedAt": "2026-10-10"
+    },
+    {
+      "id": "trendradar",
+      "name": "TrendRadar",
+      "repo": "sansan0/TrendRadar",
+      "homepage": "https://trendradar.sandev.cc",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "bark",
+        "data-analysis",
+        "docker"
+      ],
+      "seed": {
+        "stars": 62820,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简",
+      "pushedAt": "2026-10-10"
+    },
+    {
+      "id": "hyperframes",
+      "name": "Hyperframes",
+      "repo": "heygen-com/hyperframes",
+      "homepage": "https://hyperframes.dev",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "animation",
+        "ffmpeg",
+        "framework"
+      ],
+      "seed": {
+        "stars": 61202,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Write HTML. Render video. Built for agents.",
+      "pushedAt": "2026-10-12"
     }
   ]
 }

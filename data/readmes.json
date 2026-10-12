@@ -4197,5 +4197,215 @@
     "source": "README.md",
     "rawLength": 18881,
     "fetchedAt": "2026-10-12T05:32:01.758Z"
+  },
+  "opencut": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2661,
+    "fetchedAt": "2026-10-12T07:00:25.674Z"
+  },
+  "odysseus": {
+    "summary": "Odysseus is a self-hosted workspace with powerful local tools. Keep auth enabled, keep private data out of Git, and do not expose raw model/service ports publicly.",
+    "docker": "git clone https://github.com/odysseus-dev/odysseus.git\ncd odysseus\ncp .env.example .env\ndocker compose up -d --build",
+    "source": "README.md",
+    "rawLength": 4088,
+    "fetchedAt": "2026-10-12T07:00:25.674Z"
+  },
+  "orca": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 17477,
+    "fetchedAt": "2026-10-12T07:00:25.674Z"
+  },
+  "worldmonitor": {
+    "summary": "WorldMonitor aggregates attributed upstream sources across geopolitics, finance, energy, climate, aviation, cyber, military, infrastructure, and news intelligence. Curated feeds and freshness-tracked source groups are published in the full data sources catalog, with provider, feed-tier, license-post…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13144,
+    "fetchedAt": "2026-10-12T07:00:25.674Z"
+  },
+  "understand-anything": {
+    "summary": "Understand Anything is a Claude Code Plugin that analyzes your project with a multi-agent pipeline, builds a knowledge graph of every file, function, class, and dependency, then gives you an interactive dashboard to explore it all visually. Stop reading code blind. Start seeing the big picture.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20409,
+    "fetchedAt": "2026-10-12T07:00:26.220Z"
+  },
+  "rtk": {
+    "summary": "rtk filters and compresses command outputs before they reach your LLM context. Single Rust binary, 100+ supported commands, <10ms overhead.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 30500,
+    "fetchedAt": "2026-10-12T07:00:26.220Z"
+  },
+  "hello-agents": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13626,
+    "fetchedAt": "2026-10-12T07:00:26.220Z"
+  },
+  "archify": {
+    "summary": "Archify × Kimi Work. Find Archify in the Kimi Work plugin store as Interactive Architecture Diagram. Describe your system in one sentence to create an interactive diagram. Try it in Kimi Work →",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 31759,
+    "fetchedAt": "2026-10-12T07:00:26.220Z"
+  },
+  "impeccable": {
+    "summary": "Impeccable adds: - One setup flow. /impeccable init records durable product truth in PRODUCT.md, so later commands know the audience, purpose, operating context, constraints, voice, and evidence without confusing those facts with surface-level visual direction. - 24 commands. A shared design vocabul…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 27151,
+    "fetchedAt": "2026-10-12T07:00:26.220Z"
+  },
+  "learn-claude-code": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 25310,
+    "fetchedAt": "2026-10-12T07:00:26.220Z"
+  },
+  "mirofish": {
+    "summary": "MiroFish is a next-generation AI prediction engine powered by multi-agent technology. By extracting seed information from the real world (such as breaking news, policy drafts, or financial signals), it automatically constructs a high-fidelity parallel digital world. Within this space, thousands of i…",
+    "docker": "# 1. Configure environment variables (same as source deployment)\ncp .env.example .env\n\n# 2. Pull image and start\ndocker compose up -d",
+    "source": "README.md",
+    "rawLength": 8808,
+    "fetchedAt": "2026-10-12T07:00:26.827Z"
+  },
+  "awesome-claude-skills": {
+    "summary": "Skills tell your agent how to work. An MCP Gateway gives it secure access to the tools it needs.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 40536,
+    "fetchedAt": "2026-10-12T07:00:26.827Z"
+  },
+  "omniroute": {
+    "summary": "OmniRoute is MIT-licensed and maintained in the open. If it saves you time or money, here's how to keep it independent — pick whatever fits you. Sponsorship never affects routing priority; it buys visibility, not ranking.",
+    "docker": "docker run -d --name omniroute --restart unless-stopped --stop-timeout 40 \\\n  -p 127.0.0.1:20128:20128 -v omniroute-data:/app/data diegosouzapw/omniroute:latest",
+    "source": "README.md",
+    "rawLength": 135040,
+    "fetchedAt": "2026-10-12T07:00:26.827Z"
+  },
+  "headroom": {
+    "summary": "Headroom compresses everything your AI agent reads — tool outputs, logs, RAG chunks, files, and conversation history — before it reaches the LLM. Same answers, fraction of the tokens. Compression runs on your machine; no prompt or file content is sent anywhere to be compressed.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 34323,
+    "fetchedAt": "2026-10-12T07:00:26.827Z"
+  },
+  "ruflo": {
+    "summary": "📖 RuFlo Explained — Build an AI Team That Plans, Remembers, Tests, and Improves A 14-chapter guide: from the basic idea to a first useful task, then memory, agent teams, plugins, cost and verification.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 31023,
+    "fetchedAt": "2026-10-12T07:00:26.827Z"
+  },
+  "career-ops": {
+    "summary": "career-ops uses a shared command router. In CLIs that register slash commands, it looks like this:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 46356,
+    "fetchedAt": "2026-10-12T07:00:26.827Z"
+  },
+  "codegraph": {
+    "summary": "CodeGraph bundles its own runtime — nothing to compile, no native build, works the same everywhere. The installer puts codegraph on your PATH but doesn't change your current shell — open a new terminal before the next step so the command resolves.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 69838,
+    "fetchedAt": "2026-10-12T07:00:27.390Z"
+  },
+  "openspec": {
+    "summary": "OpenSpec is built with OpenSpec — browse this repo's live specs and in-flight changes for real examples at scale.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11693,
+    "fetchedAt": "2026-10-12T07:00:27.390Z"
+  },
+  "mole": {
+    "summary": "Mole requires macOS 12 or newer and supports both Intel and Apple Silicon Macs. If Homebrew no longer supports your macOS version, use the script install instead.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 22916,
+    "fetchedAt": "2026-10-12T07:00:27.390Z"
+  },
+  "oh-my-openagent": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10005,
+    "fetchedAt": "2026-10-12T07:00:27.390Z"
+  },
+  "system-prompts-leaks": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 24653,
+    "fetchedAt": "2026-10-12T07:00:27.390Z"
+  },
+  "strix": {
+    "summary": "Strix are autonomous AI penetration testing agents that act just like real hackers - they run your code dynamically, find vulnerabilities, and validate them through actual proofs-of-concept. Built for developers and security teams who need fast, accurate security testing without the overhead of manu…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 17909,
+    "fetchedAt": "2026-10-12T07:00:27.390Z"
+  },
+  "ai-engineering-from-scratch": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 111546,
+    "fetchedAt": "2026-10-12T07:00:36.863Z"
+  },
+  "claude-code-best-practice": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 73931,
+    "fetchedAt": "2026-10-12T07:00:36.863Z"
+  },
+  "openmontage": {
+    "summary": "OpenMontage uses an agent-first architecture. There is no code orchestrator. Your AI coding assistant IS the orchestrator.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 44068,
+    "fetchedAt": "2026-10-12T07:00:36.863Z"
+  },
+  "daily-stock-analysis": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10430,
+    "fetchedAt": "2026-10-12T07:00:36.863Z"
+  },
+  "last30days-skill": {
+    "summary": "/last30days is now a native Codex plugin with guided setup - not a port, a first-class citizen. Renderer-aware citations mean Codex output reads like a brief instead of URL soup (#694), and the same engine runs on Claude Code, Cursor, Copilot, Gemini CLI, Claude Desktop, OpenClaw, and 50+ Agent Skil…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 33818,
+    "fetchedAt": "2026-10-12T07:00:36.863Z"
+  },
+  "context7": {
+    "summary": "Context7 pulls up-to-date, version-specific documentation and code examples straight from the source — and places them directly into your prompt.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9553,
+    "fetchedAt": "2026-10-12T07:00:47.600Z"
+  },
+  "trendradar": {
+    "summary": "",
+    "docker": "docker run -d \\\n     --name ntfy \\\n     -p 80:80 \\\n     -v /var/cache/ntfy:/var/cache/ntfy \\\n     binwiederhier/ntfy \\\n     serve --cache-file /var/cache/ntfy/cache.db",
+    "source": "README.md",
+    "rawLength": 96785,
+    "fetchedAt": "2026-10-12T07:00:47.600Z"
+  },
+  "hyperframes": {
+    "summary": "HyperFrames is an open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 28880,
+    "fetchedAt": "2026-10-12T07:00:47.600Z"
   }
 }
