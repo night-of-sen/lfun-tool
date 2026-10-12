@@ -15070,6 +15070,641 @@
       "platforms": [],
       "caution": "",
       "pushedAt": "2026-07-03"
+    },
+    {
+      "id": "openclaw",
+      "name": "Openclaw",
+      "repo": "openclaw/openclaw",
+      "homepage": "https://openclaw.ai",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "assistant",
+        "crustacean",
+        "molty"
+      ],
+      "seed": {
+        "stars": 391717,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "skills",
+      "name": "Skills",
+      "repo": "mattpocock/skills",
+      "homepage": "https://aihero.dev/skills",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 286600,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Skills for Real Engineers. Straight from my .agents directory.",
+      "pushedAt": "2026-10-09"
+    },
+    {
+      "id": "ecc",
+      "name": "ECC",
+      "repo": "affaan-m/ECC",
+      "homepage": "https://ecc.tools",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 277350,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "hermes-agent",
+      "name": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "homepage": "https://hermes-agent.nousresearch.com",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic"
+      ],
+      "seed": {
+        "stars": 252864,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The agent that grows with you",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "deepseek-harness",
+      "name": "Deepseek Harness",
+      "repo": "deepseek-ai/deepseek-harness",
+      "homepage": "https://deepseek.com/harness",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "cordis",
+        "dsh",
+        "dsh-plugin"
+      ],
+      "seed": {
+        "stars": 247701,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "DeepSeek Harness: Everything is a Plugin.",
+      "pushedAt": "2026-10-09"
+    },
+    {
+      "id": "andrej-karpathy-skills",
+      "name": "Andrej Karpathy Skills",
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 218981,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "pushedAt": "2026-04-20"
+    },
+    {
+      "id": "opencode-2",
+      "name": "Opencode",
+      "repo": "anomalyco/opencode",
+      "homepage": "https://opencode.ai",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 212774,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The open source coding agent.",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "claw-code",
+      "name": "Claw Code",
+      "repo": "ultraworkers/claw-code",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 194971,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
+      "pushedAt": "2026-10-11"
+    },
+    {
+      "id": "ponytail",
+      "name": "Ponytail",
+      "repo": "DietrichGebert/ponytail",
+      "homepage": "https://ponytail.dev",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 161244,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "pushedAt": "2026-10-10"
+    },
+    {
+      "id": "agency-agents",
+      "name": "Agency Agents",
+      "repo": "msitarzewski/agency-agents",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 159198,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with perso",
+      "pushedAt": "2026-10-07"
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "homepage": "https://code.claude.com/docs/en/overview",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 150270,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and han",
+      "pushedAt": "2026-10-11"
+    },
+    {
+      "id": "cc-switch",
+      "name": "Cc Switch",
+      "repo": "farion1231/cc-switch",
+      "homepage": "https://ccswitch.io",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-tools",
+        "claude-code",
+        "codex",
+        "desktop-app"
+      ],
+      "seed": {
+        "stars": 142954,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "spec-kit",
+      "name": "Spec Kit",
+      "repo": "github/spec-kit",
+      "homepage": "https://github.github.com/spec-kit/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "copilot",
+        "development",
+        "engineering"
+      ],
+      "seed": {
+        "stars": 140863,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "💫 Toolkit to help you get started with SDD or any other process!",
+      "pushedAt": "2026-10-10"
+    },
+    {
+      "id": "gstack",
+      "name": "Gstack",
+      "repo": "garrytan/gstack",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 136049,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "ui-ux-pro-max-skill",
+      "name": "Ui Ux Pro Max Skill",
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "homepage": "https://www.uupm.cc/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-skills",
+        "antigravity",
+        "claude",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 134900,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "repo": "openai/codex",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 128713,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Lightweight coding agent that runs in your terminal",
+      "pushedAt": "2026-10-11"
+    },
+    {
+      "id": "graphify",
+      "name": "Graphify",
+      "repo": "Graphify-Labs/graphify",
+      "homepage": "https://www.graphify.com",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "antigravity",
+        "ast",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 125613,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local determin",
+      "pushedAt": "2026-10-11"
+    },
+    {
+      "id": "awesome-design-md",
+      "name": "Awesome Design Md",
+      "repo": "VoltAgent/awesome-design-md",
+      "homepage": "https://getdesign.md/",
+      "category": "design",
+      "desc": "",
+      "tags": [
+        "awesome-list",
+        "design-md",
+        "design-system",
+        "design-tokens"
+      ],
+      "seed": {
+        "stars": 120375,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
+      "pushedAt": "2026-10-05"
+    },
+    {
+      "id": "rea",
+      "name": "Rea",
+      "repo": "morluto/rea",
+      "homepage": "https://rea.tools",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "binary-analysis",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 115527,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "pi",
+      "name": "Pi",
+      "repo": "earendil-works/pi",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 114389,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "caveman",
+      "name": "Caveman",
+      "repo": "JuliusBrussee/caveman",
+      "homepage": "https://docs.caveman.so/caveman",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "anthropic",
+        "caveman",
+        "claude"
+      ],
+      "seed": {
+        "stars": 111093,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini Cli",
+      "repo": "google-gemini/gemini-cli",
+      "homepage": "https://geminicli.com",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "cli",
+        "gemini"
+      ],
+      "seed": {
+        "stars": 107293,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "agent-skills",
+      "name": "Agent Skills",
+      "repo": "addyosmani/agent-skills",
+      "homepage": "https://skills.addy.ie",
+      "category": "agent",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "codex"
+      ],
+      "seed": {
+        "stars": 105149,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Production-grade engineering skills for AI coding agents.",
+      "pushedAt": "2026-10-10"
+    },
+    {
+      "id": "open-design",
+      "name": "Open Design",
+      "repo": "nexu-io/open-design",
+      "homepage": "https://open-design.ai",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-design",
+        "byok",
+        "claude-code-for-design"
+      ],
+      "seed": {
+        "stars": 100624,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "paperclip",
+      "name": "Paperclip",
+      "repo": "paperclipai/paperclip",
+      "homepage": "https://paperclip.ing",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 100483,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The open-source app everyone uses to manage agents at work",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "claude-mem",
+      "name": "Claude Mem",
+      "repo": "thedotmack/claude-mem",
+      "homepage": "https://claude-mem.ai",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "anthropic"
+      ],
+      "seed": {
+        "stars": 99803,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessi",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "autoresearch",
+      "name": "Autoresearch",
+      "repo": "karpathy/autoresearch",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 97711,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AI agents running research on single-GPU nanochat training automatically",
+      "pushedAt": "2026-03-26"
+    },
+    {
+      "id": "ruview",
+      "name": "RuView",
+      "repo": "ruvnet/RuView",
+      "homepage": "https://Cognitum.One/RuView",
+      "category": "learn",
+      "desc": "",
+      "tags": [
+        "awesome",
+        "claude",
+        "densepose",
+        "esp32"
+      ],
+      "seed": {
+        "stars": 97400,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "agent-reach",
+      "name": "Agent Reach",
+      "repo": "Panniantong/Agent-Reach",
+      "homepage": "",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-infrastructure",
+        "ai-agent",
+        "ai-search",
+        "automation"
+      ],
+      "seed": {
+        "stars": 96162,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "pushedAt": "2026-10-08"
+    },
+    {
+      "id": "taste-skill",
+      "name": "Taste Skill",
+      "repo": "Leonxlnx/taste-skill",
+      "homepage": "https://tasteskill.dev",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai",
+        "claude",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 94817,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "pushedAt": "2026-10-11"
     }
   ]
 }

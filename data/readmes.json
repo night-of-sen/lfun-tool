@@ -3987,5 +3987,215 @@
     "source": "README.md",
     "rawLength": 2849,
     "fetchedAt": "2026-09-24T01:39:29.577Z"
+  },
+  "openclaw": {
+    "summary": "OpenClaw is an open-source AI assistant that runs on your own computer and meets you in the channels you already use: Discord, iMessage, Slack, Teams, Telegram, WhatsApp, and 20+ more, plus native apps for macOS, iOS, Android, Windows, and Linux. One Gateway runs it as a personal assistant on a lapt…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 113115,
+    "fetchedAt": "2026-10-12T05:31:44.036Z"
+  },
+  "skills": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16449,
+    "fetchedAt": "2026-10-12T05:31:44.036Z"
+  },
+  "ecc": {
+    "summary": "ECC is MIT-licensed open source. It works best with Claude Code today, has native Codex and Qoder plugin paths, and provides capability-limited adapters for Cursor, OpenCode, Gemini, Zed, GitHub Copilot, Antigravity, Qwen, and other harnesses. See the support status matrix before assuming feature pa…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 115490,
+    "fetchedAt": "2026-10-12T05:31:44.036Z"
+  },
+  "hermes-agent": {
+    "summary": "Hermes works with whatever provider you want — that's not changing. But if you'd rather not collect five separate API keys for the model, web search, image generation, TTS, and a cloud browser, Nous Portal covers all of them under one subscription:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16824,
+    "fetchedAt": "2026-10-12T05:31:44.036Z"
+  },
+  "deepseek-harness": {
+    "summary": "DeepSeek Harness (dsh) is an open-source agent harness developed by DeepSeek AI.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2669,
+    "fetchedAt": "2026-10-12T05:31:44.036Z"
+  },
+  "andrej-karpathy-skills": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6162,
+    "fetchedAt": "2026-10-12T05:31:44.656Z"
+  },
+  "opencode-2": {
+    "summary": "OpenCode is also available as a desktop application. Download directly from the releases page or opencode.ai/download.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5317,
+    "fetchedAt": "2026-10-12T05:31:44.656Z"
+  },
+  "claw-code": {
+    "summary": "Claw Code is the public Rust implementation of the claw CLI agent harness. The canonical implementation lives in rust/, and the current source of truth for this repository is ultraworkers/claw-code.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14082,
+    "fetchedAt": "2026-10-12T05:31:44.656Z"
+  },
+  "ponytail": {
+    "summary": "/ponytail-review used to look only for code to cut. Now it reviews like the senior dev who gets paged when it breaks: it reads the code your change touches, not just the diff, and checks bugs, security, real load, missing tests, speed, and what to cut. Each finding says what the code does, what goes…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12617,
+    "fetchedAt": "2026-10-12T05:31:44.656Z"
+  },
+  "agency-agents": {
+    "summary": "Agents are copied directly from the repo into /.claude/agents/ -- no conversion needed.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 85131,
+    "fetchedAt": "2026-10-12T05:31:44.656Z"
+  },
+  "claude-code": {
+    "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands. Use it in your terminal, IDE, or tag @claude on Github.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2873,
+    "fetchedAt": "2026-10-12T05:31:44.656Z"
+  },
+  "cc-switch": {
+    "summary": "Switch API providers in one click and manage MCP, Skills, and Prompts in one place — no more hand-editing JSON / TOML / YAML config files.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 67353,
+    "fetchedAt": "2026-10-12T05:31:45.233Z"
+  },
+  "spec-kit": {
+    "summary": "Spec Kit is an open source toolkit that gives AI coding agents structured processes, reusable templates, and documented outcomes. Start with one of the three processes below, customize it, or bring your own.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9135,
+    "fetchedAt": "2026-10-12T05:31:45.233Z"
+  },
+  "gstack": {
+    "summary": "gstack is my answer. I've been building products for twenty years, and right now I'm shipping more products than I ever have. In the last 60 days: 3 production services, 40+ shipped features, part-time, while running YC full-time. On logical code change — not raw LOC, which AI inflates — my 2026 run…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 88246,
+    "fetchedAt": "2026-10-12T05:31:45.233Z"
+  },
+  "ui-ux-pro-max-skill": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 36597,
+    "fetchedAt": "2026-10-12T05:31:45.233Z"
+  },
+  "codex": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3334,
+    "fetchedAt": "2026-10-12T05:31:45.233Z"
+  },
+  "graphify": {
+    "summary": "graphify parses 40 programming languages locally with tree-sitter AST, and maps docs, PDFs, images, and audio/video through an optional semantic pass. Full list: Supported inputs.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 32542,
+    "fetchedAt": "2026-10-12T05:31:45.233Z"
+  },
+  "awesome-design-md": {
+    "summary": "DESIGN.md is a new concept introduced by Google Stitch. A plain-text design system document that AI agents read to generate consistent UI.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16191,
+    "fetchedAt": "2026-10-12T05:31:45.884Z"
+  },
+  "rea": {
+    "summary": "REA connects your agent to tools for inspecting native binaries, JavaScript and Electron apps, .NET assemblies, and websites. You can also use the same tools from your terminal. Analysis runs locally, and results include the evidence and limitations behind each conclusion.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18582,
+    "fetchedAt": "2026-10-12T05:31:45.884Z"
+  },
+  "pi": {
+    "summary": "Pi ships with powerful defaults but skips features like sub-agents and plan mode. Ask Pi to build what you want, or install a package that does it your way.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10627,
+    "fetchedAt": "2026-10-12T05:31:45.884Z"
+  },
+  "caveman": {
+    "summary": "Caveman make your AI agent say less and read less. Code stay exact. Brain still big.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16601,
+    "fetchedAt": "2026-10-12T05:31:45.884Z"
+  },
+  "gemini-cli": {
+    "summary": "Gemini CLI is an open-source AI agent that brings the power of Gemini directly into your terminal. It provides lightweight access to Gemini, giving you the most direct path from your prompt to our model.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13447,
+    "fetchedAt": "2026-10-12T05:31:45.884Z"
+  },
+  "agent-skills": {
+    "summary": "Skills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 25022,
+    "fetchedAt": "2026-10-12T05:31:45.884Z"
+  },
+  "open-design": {
+    "summary": "OpenDesign is a collaborative design agent workspace. Start with a brief, then use your coding agent or OpenDesign Cloud to create a prototype that follows your design system. Share it with your team for feedback, and let your agent refine it in the same project.",
+    "docker": "git clone https://github.com/nexu-io/open-design.git\ncd open-design/deploy\ncp .env.example .env\necho \"OD_API_TOKEN=$(openssl rand -hex 32)\" >> .env\ndocker compose up -d\n# open http://127.0.0.1:7456",
+    "source": "README.md",
+    "rawLength": 55931,
+    "fetchedAt": "2026-10-12T05:31:46.574Z"
+  },
+  "paperclip": {
+    "summary": "Paperclip is a full control plane, not a wrapper. Before you build any of this yourself, know that it already exists:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 34285,
+    "fetchedAt": "2026-10-12T05:31:46.574Z"
+  },
+  "claude-mem": {
+    "summary": "Claude-Mem ships from three branches: main (stable), core-dev, and community-edge. Only main is published to npm; the others are run from source. See Release Branches for the strategy and local run instructions.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 19625,
+    "fetchedAt": "2026-10-12T05:31:46.574Z"
+  },
+  "autoresearch": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8023,
+    "fetchedAt": "2026-10-12T05:31:46.574Z"
+  },
+  "ruview": {
+    "summary": "RuView's Claude Code plugin and Codex prompt mirror cover onboarding, ESP32 setup, sensing apps, model training, advanced sensing, CLI/API/WASM, mmWave radar, and witness verification. The source lives in plugins/ruview/; the marketplace manifest is .claude-plugin/marketplace.json.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 72282,
+    "fetchedAt": "2026-10-12T05:31:46.574Z"
+  },
+  "agent-reach": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15086,
+    "fetchedAt": "2026-10-12T05:31:46.574Z"
+  },
+  "taste-skill": {
+    "summary": "Taste Skill has no official token, coin, or crypto project. Any token using my name, image, or project is unaffiliated and not endorsed by me.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18881,
+    "fetchedAt": "2026-10-12T05:32:01.758Z"
   }
 }
