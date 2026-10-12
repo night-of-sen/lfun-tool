@@ -17,6 +17,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
+      - name: 自动发现高星新项目（零依赖，无需 npm install）
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/discover.mjs --min-stars=8000
 
       - name: 同步星数（零依赖，无需 npm install）
         env:
