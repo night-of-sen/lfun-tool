@@ -261,6 +261,8 @@ function card(t, lang) {
   var badges = "";
   if (t.archived) badges += '<span class="badge">' + esc(L.archived) + "</span>";
   if (t.caution) badges += '<span class="badge warn">' + esc(L.cautions[t.caution] || t.caution) + "</span>";
+  // 联盟卡片：明确标注 Sponsored/赞助（PRD 总体原则 2）
+  if (affiliateOf(t)) badges += '<span class="badge sponsored">' + esc(lang === "zh" ? "赞助" : "Sponsored") + "</span>";
 
   var plats = (t.platforms || []).filter(function (p) { return PLATFORM_LABELS[p]; })
     .map(function (p) { return '<span class="tag plat">' + PLATFORM_LABELS[p] + "</span>"; }).join("");
@@ -271,7 +273,7 @@ function card(t, lang) {
     : '<span class="btn-secondary is-muted">' + esc(a.label) + "</span>";
 
   return [
-    '<article class="card" data-id="' + esc(t.id) + '" data-scene="' + sceneKey(t) + '"',
+    '<article class="card" data-id="' + esc(t.id) + '" data-scene="' + sceneKey(t) + '"' + (affiliateOf(t) ? ' data-sponsored="1"' : ""),
     '  data-usage="' + esc((t.usage || []).join(" ")) + '" data-category="' + esc(t.category) + '"',
     '  data-stars="' + (t.stars || 0) + '" data-name="' + esc(t.name) + '"',
     '  data-updated="' + esc(t.pushedAt || "") + '" data-extra="' + esc(extraStr) + '">',
@@ -309,7 +311,12 @@ function countFilled(L) {
 
 function homePage(lang) {
   var L = countFilled(T[lang]);
-  var cards = items.map(function (t) { return card(t, lang); }).join("\n");
+  // 联盟赞助卡片置顶（首屏可见），其余保持原顺序；运行时 sortCards() 会做同样处理
+  var sorted = items.slice().sort(function (a, b) {
+    var sa = affiliateOf(a) ? 1 : 0, sb = affiliateOf(b) ? 1 : 0;
+    return sb - sa;
+  });
+  var cards = sorted.map(function (t) { return card(t, lang); }).join("\n");
   var scenes = ["all", "general", "overseas"].map(function (k) {
     return '<button class="scene-btn' + (k === "all" ? " active" : "") + '" data-scene="' + k + '">' + esc(L.scenes[k]) + "</button>";
   }).join("");
@@ -523,6 +530,8 @@ function toolPage(t, lang) {
   var badges = "";
   if (t.archived) badges += '<span class="badge">' + esc(L.archived) + "</span>";
   if (t.caution) badges += '<span class="badge warn">' + esc(L.cautions[t.caution] || t.caution) + "</span>";
+  // 联盟卡片：明确标注 Sponsored/赞助（PRD 总体原则 2）
+  if (affiliateOf(t)) badges += '<span class="badge sponsored">' + esc(lang === "zh" ? "赞助" : "Sponsored") + "</span>";
 
   var plats = (t.platforms || []).filter(function (p) { return PLATFORM_LABELS[p]; })
     .map(function (p) { return '<span class="tag plat">' + PLATFORM_LABELS[p] + "</span>"; }).join("");

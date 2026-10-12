@@ -63,6 +63,7 @@
         usage: (el.getAttribute("data-usage") || "").split(" ").filter(Boolean),
         category: el.getAttribute("data-category") || "",
         stars: Number(el.getAttribute("data-stars")) || 0,
+        sponsored: el.getAttribute("data-sponsored") === "1",
         name: el.getAttribute("data-name") || "",
         updated: el.getAttribute("data-updated") || "",
         // 可见文本直接从 DOM 读，避免在 HTML 里再存一份；
@@ -104,7 +105,11 @@
     } else if (state.sort === "updated") {
       cards.sort(function (a, b) { return b.updated.localeCompare(a.updated); });
     } else {
-      cards.sort(function (a, b) { return b.stars - a.stars; });
+      // 默认按星数排序时，联盟赞助卡片置顶（首屏可见），其余按星数
+      cards.sort(function (a, b) {
+        if (!!a.sponsored !== !!b.sponsored) return a.sponsored ? -1 : 1;
+        return b.stars - a.stars;
+      });
     }
     cards.forEach(function (c) { grid.appendChild(c.el); });
   }
