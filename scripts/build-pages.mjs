@@ -584,7 +584,10 @@ function toolPage(t, lang) {
   var title = lang === "zh"
     ? t.name + " · " + catLabel(lang, t.category) + " · " + L.siteName
     : t.name + " · " + catLabel(lang, t.category) + " · " + L.siteName;
-  var desc = (descOf(t, lang) + " ⭐ " + fmtStars(t.stars) + " · " + (t.language || "") + " · " + (t.license || "")).slice(0, 300);
+  var descBase = descOf(t, lang);
+  // 中文页无中文描述时回退用英文：前面加上工具名，避免与英文页 meta 描述完全重复
+  if (lang !== "en" && !t.desc && t.descEn) descBase = t.name + " - " + descBase;
+  var desc = (descBase + " ⭐ " + fmtStars(t.stars) + " · " + (t.language || "") + " · " + (t.license || "")).slice(0, 300);
 
   var lines = [
     head(lang, { title: title, desc: desc, paths: paths, jsonld: jsonld, ogType: "article" }),
