@@ -34,7 +34,9 @@ while ((mm = cardRe.exec(html))) {
   const get = (k) => { const r = new RegExp('data-' + k + '="([^"]*)"').exec(a); return r ? r[1] : ""; };
   // app.js 现在从卡片 DOM 读可见文本，垫片也得能返回这些节点
   const pick = (cls) => {
-    const r = new RegExp('<[^>]*class="' + cls + '"[^>]*>([\\s\\S]*?)<\\/').exec(body);
+    // tags div 内有多个 span，取到 </div> 才停；其他取到第一个闭合标签即可
+    const end = cls === "tags" ? "<\\/div>" : "<\\/";
+    const r = new RegExp('<[^>]*class="' + cls + '"[^>]*>([\\s\\S]*?)' + end).exec(body);
     return r ? r[1].replace(/<[^>]+>/g, " ") : "";
   };
   parsed.push({
@@ -237,8 +239,10 @@ check("清空搜索", visible(), items.length);
 console.log("\n[6] 排序与收藏");
 const sort = getEl("sort");
 sort.value = "stars"; sort.dispatch("change");
-const topStarName = items.slice().sort((a, b) => (b.stars || 0) - (a.stars || 0))[0].name;
-check("按星数排序首条", grid._children[0].getAttribute("data-name"), topStarName);
+// 联盟赞助卡片置顶（PR #14）：期望首条为星数最高的联盟工具；无联盟时为星数最高工具
+const affItems = items.filter((t) => t.affiliate_enabled && t.affiliate_url);
+const expectTop = (affItems.length ? affItems : items).slice().sort((a, b) => (b.stars || 0) - (a.stars || 0))[0].name;
+check("按星数排序首条", grid._children[0].getAttribute("data-name"), expectTop);
 const favs = grid._children[0];
 getEl("grid");
 check("收藏持久化键存在", typeof store.get("gh-tools:favs"), "undefined");
