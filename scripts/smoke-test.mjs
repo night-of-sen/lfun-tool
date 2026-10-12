@@ -34,7 +34,9 @@ while ((mm = cardRe.exec(html))) {
   const get = (k) => { const r = new RegExp('data-' + k + '="([^"]*)"').exec(a); return r ? r[1] : ""; };
   // app.js 现在从卡片 DOM 读可见文本，垫片也得能返回这些节点
   const pick = (cls) => {
-    const r = new RegExp('<[^>]*class="' + cls + '"[^>]*>([\\s\\S]*?)<\\/').exec(body);
+    // tags div 内有多个 span，取到 </div> 才停；其他取到第一个闭合标签即可
+    const end = cls === "tags" ? "<\\/div>" : "<\\/";
+    const r = new RegExp('<[^>]*class="' + cls + '"[^>]*>([\\s\\S]*?)' + end).exec(body);
     return r ? r[1].replace(/<[^>]+>/g, " ") : "";
   };
   parsed.push({
