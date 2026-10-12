@@ -120,8 +120,10 @@ a{color:inherit;text-decoration:none}
 .chips-usage{flex:1}
 .tag.plat{background:var(--accent-soft);border-color:transparent;color:var(--accent);font-weight:600}
 .badge.warn{color:#9a3412;background:#ffedd5}
+.badge.sponsored{color:#065f46;background:#d1fae5}
 html[data-theme="dark"] .badge{color:#fcd34d;background:#3a2e0a}
 html[data-theme="dark"] .badge.warn{color:#fdba74;background:#3b1d0a}
+html[data-theme="dark"] .badge.sponsored{color:#6ee7b7;background:#064e3b}
 /* 场景切换 */
 .scene-switch{display:flex;gap:4px;background:var(--panel);border:1px solid var(--border);border-radius:11px;padding:4px}
 .scene-btn{background:none;border:0;color:var(--muted);font-size:13.5px;font-weight:600;padding:7px 15px;border-radius:8px;cursor:pointer;transition:.15s;white-space:nowrap;font-family:inherit}
