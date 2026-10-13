@@ -4407,5 +4407,215 @@
     "source": "README.md",
     "rawLength": 28880,
     "fetchedAt": "2026-10-12T07:00:47.600Z"
+  },
+  "howtolivebetter": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 22379,
+    "fetchedAt": "2026-10-13T10:16:19.202Z"
+  },
+  "ppt-master": {
+    "summary": "PPT Master runs in any tool with agent capability — read/write files, execute commands, and sustain multi-turn conversation.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 32098,
+    "fetchedAt": "2026-10-13T10:16:19.202Z"
+  },
+  "voicestudio": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8160,
+    "fetchedAt": "2026-10-13T10:16:19.202Z"
+  },
+  "free-claude-code": {
+    "summary": "Free-tier availability and limits are controlled by each provider and may change.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 27501,
+    "fetchedAt": "2026-10-13T10:16:19.693Z"
+  },
+  "mempalace": {
+    "summary": "MemPalace stores your conversation history as verbatim text and retrieves it with semantic search. It does not summarize, extract, or paraphrase. The index is structured — people and projects become wings, topics become rooms, and original content lives in drawers — so searches can be scoped rather…",
+    "docker": "# MCP server over stdio — note the `-i` flag (JSON-RPC needs stdin)\ndocker run -i --rm -v mempalace-data:/data ghcr.io/mempalace/mempalace\n\n# Run any CLI command instead. The container only sees what you mount, so\n# mount the directory you want to mine — read-only is enough, mining never\n# writes to the source.\ndocker run --rm -v mempalace-data:/data -v /path/to/project:/work:ro \\\n  ghcr.io/mempalace/mempalace mine /work\ndocker run --rm -v mempalace-data:/data ghcr.io/mempalace/mempalace search \"why GraphQL\"",
+    "source": "README.md",
+    "rawLength": 16871,
+    "fetchedAt": "2026-10-13T10:16:19.693Z"
+  },
+  "openmanus": {
+    "summary": "OpenManus requires configuration for the LLM APIs it uses. Follow these steps to set up your configuration:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9103,
+    "fetchedAt": "2026-10-13T10:16:19.693Z"
+  },
+  "nanochat": {
+    "summary": "nanochat does not use torch.amp.autocast. Instead, precision is managed explicitly through a single global COMPUTEDTYPE (defined in nanochat/common.py). By default this is auto-detected based on your hardware:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16190,
+    "fetchedAt": "2026-10-13T10:16:19.693Z"
+  },
+  "voicebox": {
+    "summary": "Voicebox runs OpenAI Whisper for transcription — the same model that backs dictation, the Captures tab, and the /transcribe API. Running on MLX (Apple Silicon) or PyTorch (CUDA / ROCm / DirectML / CPU) depending on your platform.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 26346,
+    "fetchedAt": "2026-10-13T10:16:19.693Z"
+  },
+  "n8n-workflows": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7174,
+    "fetchedAt": "2026-10-13T10:16:19.693Z"
+  },
+  "i-have-adhd": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3829,
+    "fetchedAt": "2026-10-13T10:16:20.187Z"
+  },
+  "humanizer": {
+    "summary": "Humanizer makes AI-written text sound like a person wrote it, without changing what it says. It is built on Wikipedia's Signs of AI writing, the guide Wikipedia editors use to catch AI-generated text, and it works in Claude Code, Codex, and any other agent that supports skills.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12845,
+    "fetchedAt": "2026-10-13T10:16:20.187Z"
+  },
+  "photocraft": {
+    "summary": "PhotoCraft's PSD support is a standalone crate written from Adobe's public specification and tested against a corpus of real-world files.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 31546,
+    "fetchedAt": "2026-10-13T10:16:20.187Z"
+  },
+  "cliproxyapi": {
+    "summary": "CLIProxyAPI is a proxy server that provides OpenAI/Gemini/Claude/Codex/Grok compatible API interfaces for CLI.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 31562,
+    "fetchedAt": "2026-10-13T10:16:20.187Z"
+  },
+  "vibevoice": {
+    "summary": "VibeVoice is a family of open-source frontier voice AI models that includes both Text-to-Speech (TTS) and Automatic Speech Recognition (ASR) models.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12913,
+    "fetchedAt": "2026-10-13T10:16:20.187Z"
+  },
+  "marketingskills": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 23094,
+    "fetchedAt": "2026-10-13T10:16:20.187Z"
+  },
+  "gods-eye-view": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 58631,
+    "fetchedAt": "2026-10-13T10:16:20.673Z"
+  },
+  "bmad-method": {
+    "summary": "BMad ships on two lines. The stable release is v6.12, installed by the npm installer and frozen aside from bug fixes. V7 is in preview alpha on this branch: its skills, install path, and docs change often. The v7 release ETA is October 16, 2026, and it might be sooner. Both routes need uv for BMad s…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7918,
+    "fetchedAt": "2026-10-13T10:16:20.673Z"
+  },
+  "ai-agent-book": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 35800,
+    "fetchedAt": "2026-10-13T10:16:20.673Z"
+  },
+  "chrome-devtools-mcp": {
+    "summary": "Chrome DevTools for agents (chrome-devtools-mcp) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot) control and inspect a live Chrome browser. It acts as a Model-Context-Protocol (MCP) server, giving your AI coding assistant access to the full power of Chrome DevTools for reliab…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6445,
+    "fetchedAt": "2026-10-13T10:16:20.673Z"
+  },
+  "diagram-design": {
+    "summary": "Diagrams ship as self-contained HTML, but you can export the diagram itself for Figma, slides, or social cards. SVG export also carries CDATA-wrapped diagram CSS, including selectors bound to the original SVG root. Use the slash command for your agent:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 50838,
+    "fetchedAt": "2026-10-13T10:16:20.673Z"
+  },
+  "awesome-openclaw-skills": {
+    "summary": "OpenClaw is a locally-running AI assistant that operates directly on your machine. Skills extend its capabilities, allowing it to interact with external services, automate workflows, and perform specialized tasks. This collection helps you discover and install the right skills for your needs. It can…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 136014,
+    "fetchedAt": "2026-10-13T10:16:20.673Z"
+  },
+  "multica": {
+    "summary": "Multica is a source-available workspace where you assign work to AI coding agents the way you'd assign it to a teammate — they pick up the issue, report progress, raise blockers, and hand it back for review. Self-hostable, works with the agent CLIs you already use, no lock-in.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15780,
+    "fetchedAt": "2026-10-13T10:16:21.144Z"
+  },
+  "cli-anything": {
+    "summary": "🌐 CLI-Hub: pip install cli-anything-hub then cli-hub install — browse, install, and manage all community-built CLIs. Want to add your own? Open a PR — the hub updates instantly.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 80551,
+    "fetchedAt": "2026-10-13T10:16:21.144Z"
+  },
+  "academic-research-skills": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 45819,
+    "fetchedAt": "2026-10-13T10:16:21.144Z"
+  },
+  "cl4r1t4s": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1596,
+    "fetchedAt": "2026-10-13T10:16:21.144Z"
+  },
+  "pretext": {
+    "summary": "Pretext side-steps the need for DOM measurements (e.g. getBoundingClientRect, offsetHeight), which trigger layout reflow, one of the most expensive operations in the browser. It implements its own text measurement logic, using the browsers' own font engine as ground truth (very AI-friendly iteration…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 27913,
+    "fetchedAt": "2026-10-13T10:16:21.144Z"
+  },
+  "container": {
+    "summary": "container is a tool that you can use to create and run Linux containers as lightweight virtual machines on your Mac. It's written in Swift, and optimized for Apple silicon.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4853,
+    "fetchedAt": "2026-10-13T10:16:21.144Z"
+  },
+  "obsidian-skills": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3537,
+    "fetchedAt": "2026-10-13T10:16:30.991Z"
+  },
+  "hindsight": {
+    "summary": "Hindsight™ is an agent memory system built to create smarter agents that learn over time. Most agent memory systems focus on recalling conversation history. Hindsight is focused on making agents that learn, not just remember.",
+    "docker": "export OPENAI_API_KEY=sk-xxx\n\ndocker run -it --pull always --name hindsight --restart unless-stopped -p 8888:8888 -p 9999:9999 \\\n  -e HINDSIGHT_API_LLM_API_KEY=$OPENAI_API_KEY \\\n  -v hindsight-data:/home/hindsight/.pg0 \\\n  ghcr.io/vectorize-io/hindsight:latest",
+    "source": "README.md",
+    "rawLength": 24807,
+    "fetchedAt": "2026-10-13T10:16:30.991Z"
+  },
+  "nanobot": {
+    "summary": "🐈 nanobot is an ultra-lightweight, open-source, self-hosted personal AI agent framework written in Python. Use it in a browser, terminal, or chat app to work with files, remember preferences, and schedule tasks. Connect a supported model provider or local model server to supply the AI.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 91125,
+    "fetchedAt": "2026-10-13T10:16:30.991Z"
   }
 }

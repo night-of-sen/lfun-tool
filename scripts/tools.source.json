@@ -16379,6 +16379,646 @@
       "cloud": "",
       "descEn": "Write HTML. Render video. Built for agents.",
       "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "howtolivebetter",
+      "name": "HowToLiveBetter",
+      "repo": "eternity4719/HowToLiveBetter",
+      "homepage": "https://eternity4719.github.io/HowToLiveBetter/",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 61696,
+        "language": "HTML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "高性价比人生指南: 长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "ppt-master",
+      "name": "Ppt Master",
+      "repo": "hugohe3/ppt-master",
+      "homepage": "https://hugohe3.github.io/ppt-master-examples/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-agent",
+        "aippt",
+        "office",
+        "powerpoint"
+      ],
+      "seed": {
+        "stars": 61441,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speake",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "voicestudio",
+      "name": "VoiceStudio",
+      "repo": "debpalash/VoiceStudio",
+      "homepage": "https://voicestudio.sh",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "audiobook",
+        "cuda",
+        "dubbing"
+      ],
+      "seed": {
+        "stars": 61199,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "free-claude-code",
+      "name": "Free Claude Code",
+      "repo": "Alishahryar1/free-claude-code",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 59746,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native b",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "mempalace",
+      "name": "Mempalace",
+      "repo": "MemPalace/mempalace",
+      "homepage": "http://mempalaceofficial.com/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "chromadb",
+        "llm",
+        "mcp"
+      ],
+      "seed": {
+        "stars": 59539,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The best-benchmarked open-source AI memory system. And it's free.",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "openmanus",
+      "name": "OpenManus",
+      "repo": "FoundationAgents/OpenManus",
+      "homepage": "https://openmanus.github.io/",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 58637,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "No fortress, purely open ground. OpenManus is Coming.",
+      "pushedAt": "2026-09-30"
+    },
+    {
+      "id": "nanochat",
+      "name": "Nanochat",
+      "repo": "karpathy/nanochat",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 58601,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The best ChatGPT that $100 can buy.",
+      "pushedAt": "2026-09-07"
+    },
+    {
+      "id": "voicebox",
+      "name": "Voicebox",
+      "repo": "jamiepine/voicebox",
+      "homepage": "https://voicebox.sh",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "cuda",
+        "mlx",
+        "qwen3-tts"
+      ],
+      "seed": {
+        "stars": 57274,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The open-source AI voice studio. Clone, dictate, create.",
+      "pushedAt": "2026-10-07"
+    },
+    {
+      "id": "n8n-workflows",
+      "name": "N8n Workflows",
+      "repo": "Zie619/n8n-workflows",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 56961,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "all of the workflows of n8n i could find (also from the site itself)",
+      "pushedAt": "2026-06-24"
+    },
+    {
+      "id": "i-have-adhd",
+      "name": "I Have Adhd",
+      "repo": "ayghri/i-have-adhd",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "adhd",
+        "claude-",
+        "claude-code-plugin",
+        "claude-skills"
+      ],
+      "seed": {
+        "stars": 56804,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "pushedAt": "2026-10-11"
+    },
+    {
+      "id": "humanizer",
+      "name": "Humanizer",
+      "repo": "blader/humanizer",
+      "homepage": "https://skills.sh/blader/humanizer",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-humanizer",
+        "ai-writing",
+        "chatgpt"
+      ],
+      "seed": {
+        "stars": 56371,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Agent skill that removes signs of AI-generated writing from text",
+      "pushedAt": "2026-09-28"
+    },
+    {
+      "id": "photocraft",
+      "name": "Photocraft",
+      "repo": "storytold/photocraft",
+      "homepage": "https://getartcraft.com/apps/photocraft",
+      "category": "image",
+      "desc": "",
+      "tags": [
+        "art",
+        "image-editing",
+        "image-editing-software",
+        "image-editor"
+      ],
+      "seed": {
+        "stars": 55389,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "cliproxyapi",
+      "name": "CLIProxyAPI",
+      "repo": "router-for-me/CLIProxyAPI",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "antigravity",
+        "claude-code",
+        "cluade",
+        "codex"
+      ],
+      "seed": {
+        "stars": 55035,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GP",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "vibevoice",
+      "name": "VibeVoice",
+      "repo": "microsoft/VibeVoice",
+      "homepage": "https://microsoft.github.io/VibeVoice/",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 54800,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-Source Frontier Voice AI",
+      "pushedAt": "2026-10-08"
+    },
+    {
+      "id": "marketingskills",
+      "name": "Marketingskills",
+      "repo": "coreyhaines31/marketingskills",
+      "homepage": "https://marketing-skills.com",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "ai-seo",
+        "claude"
+      ],
+      "seed": {
+        "stars": 54465,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "gods-eye-view",
+      "name": "Gods Eye View",
+      "repo": "bilawalsidhu/gods-eye-view",
+      "homepage": "https://maptheworld.ai/",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "3d-globe",
+        "cesium",
+        "flight-tracking",
+        "geospatial"
+      ],
+      "seed": {
+        "stars": 54431,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "bmad-method",
+      "name": "BMAD METHOD",
+      "repo": "bmad-code-org/BMAD-METHOD",
+      "homepage": "",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agile",
+        "ai",
+        "context-engineering",
+        "sdlc"
+      ],
+      "seed": {
+        "stars": 54079,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Breakthrough Method for Agile Ai Driven Development",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "ai-agent-book",
+      "name": "Ai Agent Book",
+      "repo": "bojieli/ai-agent-book",
+      "homepage": "",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agent-memory",
+        "ai-agent",
+        "book"
+      ],
+      "seed": {
+        "stars": 53914,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "pushedAt": "2026-10-08"
+    },
+    {
+      "id": "chrome-devtools-mcp",
+      "name": "Chrome Devtools Mcp",
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "homepage": "https://developer.chrome.com/docs/devtools/agents",
+      "category": "browser",
+      "desc": "",
+      "tags": [
+        "browser",
+        "chrome",
+        "chrome-devtools",
+        "debugging"
+      ],
+      "seed": {
+        "stars": 53432,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Chrome DevTools for coding agents",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "diagram-design",
+      "name": "Diagram Design",
+      "repo": "cathrynlavery/diagram-design",
+      "homepage": "https://diagramdesign.dev",
+      "category": "agent",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "data-visualization"
+      ],
+      "seed": {
+        "stars": 53282,
+        "language": "HTML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "awesome-openclaw-skills",
+      "name": "Awesome Openclaw Skills",
+      "repo": "VoltAgent/awesome-openclaw-skills",
+      "homepage": "https://clawskills.sh/",
+      "category": "agent",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "awesome",
+        "awesome-list",
+        "awesome-lists"
+      ],
+      "seed": {
+        "stars": 53100,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞",
+      "pushedAt": "2026-10-11"
+    },
+    {
+      "id": "multica",
+      "name": "Multica",
+      "repo": "multica-ai/multica",
+      "homepage": "https://multica.ai",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 52661,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "cli-anything",
+      "name": "CLI Anything",
+      "repo": "HKUDS/CLI-Anything",
+      "homepage": "https://clianything.cc/",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 52050,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "academic-research-skills",
+      "name": "Academic Research Skills",
+      "repo": "Imbad0202/academic-research-skills",
+      "homepage": "https://buymeacoffee.com/crucify020v",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "academic-pipeline",
+        "academic-writing",
+        "ai-research",
+        "claude"
+      ],
+      "seed": {
+        "stars": 51698,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "cl4r1t4s",
+      "name": "CL4R1T4S",
+      "repo": "elder-plinius/CL4R1T4S",
+      "homepage": "",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agents",
+        "ai",
+        "chatgpt",
+        "gemini"
+      ],
+      "seed": {
+        "stars": 51181,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! 👐",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "pretext",
+      "name": "Pretext",
+      "repo": "chenglou/pretext",
+      "homepage": "http://chenglou.me/pretext/",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 50768,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Fast, accurate & comprehensive text measurement & layout",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "container",
+      "name": "Container",
+      "repo": "apple/container",
+      "homepage": "https://apple.github.io/container/documentation/",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 50647,
+        "language": "Swift"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "obsidian-skills",
+      "name": "Obsidian Skills",
+      "repo": "kepano/obsidian-skills",
+      "homepage": "",
+      "category": "agent",
+      "desc": "",
+      "tags": [
+        "agents",
+        "agentskills",
+        "bases",
+        "claude"
+      ],
+      "seed": {
+        "stars": 49483,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+      "pushedAt": "2026-09-15"
+    },
+    {
+      "id": "hindsight",
+      "name": "Hindsight",
+      "repo": "vectorize-io/hindsight",
+      "homepage": "https://hindsight.vectorize.io/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agentic-ai",
+        "agents",
+        "ai-memory",
+        "memory"
+      ],
+      "seed": {
+        "stars": 49000,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Hindsight: Agent Memory That Learns",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "nanobot",
+      "name": "Nanobot",
+      "repo": "HKUDS/nanobot",
+      "homepage": "https://nanobot.wiki",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-framework",
+        "ai-agent",
+        "ai-agents",
+        "chatbot"
+      ],
+      "seed": {
+        "stars": 48990,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps",
+      "pushedAt": "2026-10-13"
     }
   ]
 }
