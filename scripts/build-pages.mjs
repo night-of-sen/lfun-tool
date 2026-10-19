@@ -28,6 +28,17 @@ const data = JSON.parse(await readFile(join(ROOT, "data/tools.json"), "utf8"));
 const T = JSON.parse(await readFile(join(ROOT, "scripts/i18n.json"), "utf8"));
 const items = data.items;
 const syncedAt = (data.generatedAt || "").slice(0, 10);
+// 工具名+分类碰撞预计算：同名同分类的工具（如 skills/skills-2）title 必须加 repo 所有者区分，
+// 否则 seo-audit 的"标题重复"检查会失败（2026-10-14 起 workflow 因此连续失败）
+const titleKeyCount = {};
+for (const t of items) {
+  const k = (t.name || "") + "\0" + (t.category || "");
+  titleKeyCount[k] = (titleKeyCount[k] || 0) + 1;
+}
+function titleNeedsOwner(t) {
+  const k = (t.name || "") + "\0" + (t.category || "");
+  return (titleKeyCount[k] || 0) > 1;
+}
 // 定价与广告位配置（PRD §7：全部可配置，不 hardcode）
 const PRICING = JSON.parse(await readFile(join(ROOT, "scripts", "pricing.json"), "utf8"));
 // 联盟链接配置（tool_id -> 联盟 URL；运行时 /go/ 优先读数据库，此处用于构建期卡片 Sponsored 版位）
@@ -581,9 +592,10 @@ function toolPage(t, lang) {
     ]
   }];
 
+  var titleName = titleNeedsOwner(t) ? t.name + " (" + t.repo.split("/")[0] + ")" : t.name;
   var title = lang === "zh"
-    ? t.name + " · " + catLabel(lang, t.category) + " · " + L.siteName
-    : t.name + " · " + catLabel(lang, t.category) + " · " + L.siteName;
+    ? titleName + " · " + catLabel(lang, t.category) + " · " + L.siteName
+    : titleName + " · " + catLabel(lang, t.category) + " · " + L.siteName;
   var descBase = descOf(t, lang);
   // 工具名强制前缀：保证所有工具页 meta 描述全局唯一
   // （不同工具的 descEn 可能完全相同，如 tinyrenderer/tinyraytracer、opencode/opencode-2）
