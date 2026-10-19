@@ -4617,5 +4617,215 @@
     "source": "README.md",
     "rawLength": 91125,
     "fetchedAt": "2026-10-13T10:16:30.991Z"
+  },
+  "ai-job-search": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 33477,
+    "fetchedAt": "2026-10-19T03:21:58.476Z"
+  },
+  "scientific-agent-skills": {
+    "summary": "Agent hosts differ in install paths, discovery settings, and support for optional frontmatter fields. npx skills add (Option 1) commonly installs into the /.agents/skills/ convention, with project-scoped installs under .agents/skills/; confirm both paths against your host's current documentation. To…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 83744,
+    "fetchedAt": "2026-10-19T03:21:58.476Z"
+  },
+  "nature-skills": {
+    "summary": "在技能的操作菜单中可「检查更新」并按提示更新；有共享依赖时也要检查 nature-shared。如果 GitHub 扫描或下载失败，可从本仓库的「Code → Download ZIP」下载并解压，点击 Chatbox 的「打开技能文件夹」，将所需的完整技能目录及 nature-shared 放到该文件夹的同一级，然后刷新技能列表并启用。保留 references/、static/、脚本和资产；不要只复制 SKILL.md。手动复制时，目录名应与 SKILL.md 中的 name 一致（例如将 nature-proposal-writer 目录命名为 researchwrite）。手动复制的技…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 24091,
+    "fetchedAt": "2026-10-19T03:21:58.476Z"
+  },
+  "shannon": {
+    "summary": "Shannon is an autonomous AI pentester developed by Keygraph. It performs security testing of web applications and their underlying APIs by combining source-code analysis with live exploitation.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 26582,
+    "fetchedAt": "2026-10-19T03:21:59.037Z"
+  },
+  "gitnexus": {
+    "summary": "gitnexus setup auto-detects your editors and writes the correct global MCP config. Run it once. To configure only selected integrations, pass --coding-agent/-c with a comma-separated list, e.g. gitnexus setup -c cursor,codex.",
+    "docker": "docker compose up -d",
+    "source": "README.md",
+    "rawLength": 135846,
+    "fetchedAt": "2026-10-19T03:21:59.037Z"
+  },
+  "agentic-awesome-skills": {
+    "summary": "Agentic Awesome Skills is a library of 2,712+ installable SKILL.md playbooks. AAS Core helps Codex or Claude search the complete local catalog, record the skills the agent chooses, and preview a plan you can inspect before changing a target. Core does not rank or recommend skills.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 117937,
+    "fetchedAt": "2026-10-19T03:21:59.037Z"
+  },
+  "open-code-review": {
+    "summary": "Open Code Review is an AI-powered code review CLI tool. It originated as Alibaba Group's internal official AI code review assistant — over the past two years, it has served tens of thousands of developers and identified millions of code defects. After thorough validation at massive scale, we incubat…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13323,
+    "fetchedAt": "2026-10-19T03:21:59.037Z"
+  },
+  "skills-2": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4546,
+    "fetchedAt": "2026-10-19T03:21:59.037Z"
+  },
+  "codebase-memory-mcp": {
+    "summary": ".codebase-memory/graph.db.zst is a zstd-compressed snapshot of the knowledge graph that lives next to your source. The artifact is opt-in: indexrepository writes it only with persistence: true (the default is false), and once it exists later indexes refresh it. Local indexes persist regardless. When…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 108108,
+    "fetchedAt": "2026-10-19T03:21:59.037Z"
+  },
+  "omarchy": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2703,
+    "fetchedAt": "2026-10-19T03:21:59.561Z"
+  },
+  "herdr": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4944,
+    "fetchedAt": "2026-10-19T03:21:59.561Z"
+  },
+  "sub2api": {
+    "summary": "Sub2API is an AI API gateway platform designed to distribute and manage API quotas from AI product subscriptions. Users can access upstream AI services through platform-generated API Keys, while the platform handles authentication, billing, load balancing, and request forwarding.",
+    "docker": "# Create deployment directory\nmkdir -p sub2api-deploy && cd sub2api-deploy\n\n# Download and run deployment preparation script\ncurl -sSL https://raw.githubusercontent.com/Wei-Shaw/sub2api/main/deploy/docker-deploy.sh | bash\n\n# Start services\ndocker compose up -d\n\n# View logs\ndocker compose logs -f sub2api",
+    "source": "README.md",
+    "rawLength": 51782,
+    "fetchedAt": "2026-10-19T03:21:59.561Z"
+  },
+  "agent-browser": {
+    "summary": "Browser responses automatically announce WebMCP tools on first discovery and when the catalog changes. Summaries contain only names, brief descriptions, origins, and frame IDs. Choose a relevant tool, then fetch its full schema with agent-browser webmcp list --frame --json before invoking it. Schema…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 105313,
+    "fetchedAt": "2026-10-19T03:21:59.561Z"
+  },
+  "anyps5": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3039,
+    "fetchedAt": "2026-10-19T03:21:59.561Z"
+  },
+  "claude-plugins-official": {
+    "summary": "Plugins can be installed directly from this marketplace via Claude Code's plugin system.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3807,
+    "fetchedAt": "2026-10-19T03:21:59.561Z"
+  },
+  "colibri": {
+    "summary": "colibri started as a one-person project on a 12-core laptop with 25 GB of RAM; today its numbers come from a community of real machines. If it is useful to you:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 45023,
+    "fetchedAt": "2026-10-19T03:22:00.151Z"
+  },
+  "reverse-skill": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15914,
+    "fetchedAt": "2026-10-19T03:22:00.151Z"
+  },
+  "openhuman": {
+    "summary": "OpenHuman finished its tasks in less than half the median time, using 2.6x fewer tokens and an eighth of the memory and CPU. It made 114 model calls where the others made 134 to 212, and its whole run cost $0.05 where the others cost $0.08 to $0.35.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20985,
+    "fetchedAt": "2026-10-19T03:22:00.151Z"
+  },
+  "claude-howto": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 29336,
+    "fetchedAt": "2026-10-19T03:22:00.151Z"
+  },
+  "deeptutor": {
+    "summary": "DeepTutor is an agent-native learning workspace that connects tutoring, problem solving, quiz generation, research, visualization, and mastery practice in one extensible system.",
+    "docker": "docker run --rm --name deeptutor \\\n  -p 127.0.0.1:3782:3782 \\\n  -v deeptutor-data:/app/data \\\n  ghcr.io/hkuds/deeptutor:latest",
+    "source": "README.md",
+    "rawLength": 100692,
+    "fetchedAt": "2026-10-19T03:22:00.151Z"
+  },
+  "kronos": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16587,
+    "fetchedAt": "2026-10-19T03:22:00.151Z"
+  },
+  "codewhale": {
+    "summary": "Codewhale reads AGENTS.md on its own. Instruction files written for other tools, such as CLAUDE.md, .cursorrules, or .github/copilot-instructions.md, load only when you opt in with projectinstructionimports = [\"claude\"] (or \"cursor\", \"cline\", \"windsurf\", \"copilot\", \"all\") in your config; see config…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10925,
+    "fetchedAt": "2026-10-19T03:22:00.797Z"
+  },
+  "openmaic": {
+    "summary": "OpenMAIC (Open Multi-Agent Interactive Classroom) is an open-source AI platform that turns any topic or document into a rich, interactive classroom experience. Powered by multi-agent orchestration, it generates slides, quizzes, interactive simulations, and project-based learning activities — all del…",
+    "docker": "cp .env.example .env.local\n# Edit .env.local with your API keys, then:\ndocker compose up --build",
+    "source": "README.md",
+    "rawLength": 53502,
+    "fetchedAt": "2026-10-19T03:22:00.797Z"
+  },
+  "project-nomad": {
+    "summary": "Project NOMAD is a self-contained, offline-first knowledge and education server packed with critical tools, knowledge, and AI to keep you informed and empowered — anytime, anywhere.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15159,
+    "fetchedAt": "2026-10-19T03:22:00.797Z"
+  },
+  "openviking": {
+    "summary": "OpenViking is an open-source context database for AI agents — one filesystem for everything an agent knows: knowledge, memory, and skills.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 26605,
+    "fetchedAt": "2026-10-19T03:22:00.797Z"
+  },
+  "awesome-copilot": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 92093,
+    "fetchedAt": "2026-10-19T03:22:00.797Z"
+  },
+  "oh-my-claudecode": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 43665,
+    "fetchedAt": "2026-10-19T03:22:00.797Z"
+  },
+  "voxcpm": {
+    "summary": "VoxCPM is a tokenizer-free Text-to-Speech system that directly generates continuous speech representations via an end-to-end diffusion autoregressive architecture, bypassing discrete tokenization to achieve highly natural and expressive synthesis.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 41953,
+    "fetchedAt": "2026-10-19T03:22:08.802Z"
+  },
+  "ui-tars-desktop": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16142,
+    "fetchedAt": "2026-10-19T03:22:08.802Z"
+  },
+  "pageindex": {
+    "summary": "PageIndex is a vectorless , reasoning-based RAG engine that mirrors how humans read , delivering traceable , explainable , and context-aware retrieval, with no vector DBs or chunking .",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13324,
+    "fetchedAt": "2026-10-19T03:22:08.802Z"
   }
 }

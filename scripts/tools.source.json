@@ -17019,6 +17019,648 @@
       "cloud": "",
       "descEn": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps",
       "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "ai-job-search",
+      "name": "Ai Job Search",
+      "repo": "MadsLorentzen/ai-job-search",
+      "homepage": "",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "career",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 53678,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it",
+      "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "scientific-agent-skills",
+      "name": "Scientific Agent Skills",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "homepage": "https://arxiv.org/abs/2609.00065",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-scientist",
+        "bioinformatics",
+        "chemoinformatics"
+      ],
+      "seed": {
+        "stars": 52690,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific datab",
+      "pushedAt": "2026-10-15"
+    },
+    {
+      "id": "nature-skills",
+      "name": "Nature Skills",
+      "repo": "Yuan1z0825/nature-skills",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "codex-skills",
+        "nature",
+        "nature-skills"
+      ],
+      "seed": {
+        "stars": 49139,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "符合nature论文学术表达和科研绘图的Skill",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "shannon",
+      "name": "Shannon",
+      "repo": "KeygraphHQ/shannon",
+      "homepage": "https://keygraph.io/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-penetration-testing",
+        "ai-security",
+        "api-security",
+        "appsec"
+      ],
+      "seed": {
+        "stars": 49091,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they r",
+      "pushedAt": "2026-10-15"
+    },
+    {
+      "id": "gitnexus",
+      "name": "GitNexus",
+      "repo": "abhigyanpatwari/GitNexus",
+      "homepage": "https://gitnexus.vercel.app",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 47939,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "GitNexus: The Zero-Server Code Intelligence Engine",
+      "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "agentic-awesome-skills",
+      "name": "Agentic Awesome Skills",
+      "repo": "sickn33/agentic-awesome-skills",
+      "homepage": "https://aaskills.tech/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "agentic-skills",
+        "ai-agent-skills",
+        "ai-agents"
+      ],
+      "seed": {
+        "stars": 47900,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CL",
+      "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "open-code-review",
+      "name": "Open Code Review",
+      "repo": "alibaba/open-code-review",
+      "homepage": "https://open-codereview.ai",
+      "category": "agent",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agent-skills",
+        "code-review",
+        "code-review-assistant"
+      ],
+      "seed": {
+        "stars": 47599,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-la",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "skills-2",
+      "name": "Skills",
+      "repo": "emilkowalski/skills",
+      "homepage": "https://emilkowal.ski/skill",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 47411,
+        "language": "Markdown"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Skills for Designers and Engineers.",
+      "pushedAt": "2026-10-11"
+    },
+    {
+      "id": "codebase-memory-mcp",
+      "name": "Codebase Memory Mcp",
+      "repo": "DeusData/codebase-memory-mcp",
+      "homepage": "https://deusdata.github.io/codebase-memory-mcp/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "aider",
+        "ast",
+        "claude-code",
+        "code-analysis"
+      ],
+      "seed": {
+        "stars": 46869,
+        "language": "C"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 162 languages, sub-ms queries, 99% fewer tokens. ",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "omarchy",
+      "name": "Omarchy",
+      "repo": "omacom/omarchy",
+      "homepage": "https://omarchy.org",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 45128,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Beautiful, Modern & Opinionated Linux",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "herdr",
+      "name": "Herdr",
+      "repo": "herdrdev/herdr",
+      "homepage": "https://herdr.dev",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agent-orchestration",
+        "ai",
+        "ai-agents"
+      ],
+      "seed": {
+        "stars": 44666,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "the runtime your coding agents live on",
+      "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "sub2api",
+      "name": "Sub2api",
+      "repo": "Wei-Shaw/sub2api",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "2api",
+        "antigravity2api",
+        "cc2api",
+        "claude"
+      ],
+      "seed": {
+        "stars": 44315,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "agent-browser",
+      "name": "Agent Browser",
+      "repo": "vercel-labs/agent-browser",
+      "homepage": "https://agent-browser.dev",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 44209,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Browser automation CLI for AI agents",
+      "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "anyps5",
+      "name": "AnyPS5",
+      "repo": "boykopovar/AnyPS5",
+      "homepage": "https://boykopovar.github.io/AnyPS5/",
+      "category": "game",
+      "desc": "",
+      "tags": [
+        "anyps5",
+        "dynamic-library",
+        "game-porting",
+        "ps5"
+      ],
+      "seed": {
+        "stars": 43321,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "claude-plugins-official",
+      "name": "Claude Plugins Official",
+      "repo": "anthropics/claude-plugins-official",
+      "homepage": "https://code.claude.com/docs/en/plugins",
+      "category": "agent",
+      "desc": "",
+      "tags": [
+        "claude-code",
+        "mcp",
+        "skills"
+      ],
+      "seed": {
+        "stars": 42788,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "colibri",
+      "name": "Colibri",
+      "repo": "JustVugg/colibri",
+      "homepage": "https://justvugg.github.io/colibri",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 42764,
+        "language": "C"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "reverse-skill",
+      "name": "Reverse Skill",
+      "repo": "zhaoxuya520/reverse-skill",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 42575,
+        "language": "PowerShell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Sup",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "openhuman",
+      "name": "Openhuman",
+      "repo": "tinyhumansai/openhuman",
+      "homepage": "https://tinyhumans.ai/openhuman",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-orchestration",
+        "ai-agents",
+        "ai-assistant",
+        "desktop"
+      ],
+      "seed": {
+        "stars": 42154,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The fastest, cheapest, most efficient open-source agent harness. Run more than 500 agents on a $10 VPS.",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "claude-howto",
+      "name": "Claude Howto",
+      "repo": "luongnv89/claude-howto",
+      "homepage": "http://luongnv.com/claude-howto/",
+      "category": "learn",
+      "desc": "",
+      "tags": [
+        "claude-code",
+        "guide",
+        "tutorial"
+      ],
+      "seed": {
+        "stars": 41947,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "pushedAt": "2026-10-15"
+    },
+    {
+      "id": "deeptutor",
+      "name": "DeepTutor",
+      "repo": "HKUDS/DeepTutor",
+      "homepage": "http://arxiv.org/abs/2604.26962",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "ai-tutor",
+        "clawbot",
+        "cli-tool"
+      ],
+      "seed": {
+        "stars": 41667,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "kronos",
+      "name": "Kronos",
+      "repo": "shiyu-coder/Kronos",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 41165,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "pushedAt": "2026-04-13"
+    },
+    {
+      "id": "codewhale",
+      "name": "Codewhale",
+      "repo": "codewhale-hq/Codewhale",
+      "homepage": "https://codewhale.net/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-orchestration",
+        "ai-agent",
+        "cli",
+        "codewhale"
+      ],
+      "seed": {
+        "stars": 41101,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source Rust agent engine and terminal client for Codewhale, with provider choice, tools, approvals and receipts.",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "openmaic",
+      "name": "OpenMAIC",
+      "repo": "THU-MAIC/OpenMAIC",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 41013,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "project-nomad",
+      "name": "Project Nomad",
+      "repo": "Crosstalk-Solutions/project-nomad",
+      "homepage": "https://www.projectnomad.us",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 40539,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no inter",
+      "pushedAt": "2026-10-17"
+    },
+    {
+      "id": "openviking",
+      "name": "OpenViking",
+      "repo": "volcengine/OpenViking",
+      "homepage": "https://openviking.ai",
+      "category": "agent",
+      "desc": "",
+      "tags": [
+        "agent-context",
+        "agent-memory",
+        "agent-plugins",
+        "agentic-rag"
+      ],
+      "seed": {
+        "stars": 40274,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "awesome-copilot",
+      "name": "Awesome Copilot",
+      "repo": "github/awesome-copilot",
+      "homepage": "https://awesome-copilot.github.com/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "agents",
+        "ai",
+        "awesome"
+      ],
+      "seed": {
+        "stars": 40166,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
+      "pushedAt": "2026-10-16"
+    },
+    {
+      "id": "oh-my-claudecode",
+      "name": "Oh My Claudecode",
+      "repo": "Yeachan-Heo/oh-my-claudecode",
+      "homepage": "https://oh-my-claudecode.dev",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agentic-coding",
+        "ai-agents",
+        "automation",
+        "claude"
+      ],
+      "seed": {
+        "stars": 40053,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Teams-first Multi-agent orchestration for Claude Code",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "voxcpm",
+      "name": "VoxCPM",
+      "repo": "OpenBMB/VoxCPM",
+      "homepage": "https://voxcpm.com",
+      "category": "media",
+      "desc": "",
+      "tags": [
+        "audio",
+        "deeplearning",
+        "minicpm",
+        "multilingual"
+      ],
+      "seed": {
+        "stars": 39548,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "pushedAt": "2026-10-08"
+    },
+    {
+      "id": "ui-tars-desktop",
+      "name": "UI TARS Desktop",
+      "repo": "bytedance/UI-TARS-desktop",
+      "homepage": "https://agent-tars.com",
+      "category": "agent",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agent-tars",
+        "browser-use",
+        "computer-use"
+      ],
+      "seed": {
+        "stars": 39317,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "pushedAt": "2026-10-09"
+    },
+    {
+      "id": "pageindex",
+      "name": "PageIndex",
+      "repo": "VectifyAI/PageIndex",
+      "homepage": "https://pageindex.ai",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "ai-agents"
+      ],
+      "seed": {
+        "stars": 39265,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "pushedAt": "2026-10-18"
     }
   ]
 }
