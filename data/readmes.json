@@ -4827,5 +4827,215 @@
     "source": "README.md",
     "rawLength": 13324,
     "fetchedAt": "2026-10-19T03:22:08.802Z"
+  },
+  "langextract": {
+    "summary": "LangExtract is a Python library that uses LLMs to extract structured information from unstructured text documents based on user-defined instructions. It processes materials such as clinical notes or reports, identifying and organizing key details while ensuring the extracted data corresponds to the…",
+    "docker": "docker build -t langextract .\ndocker run --rm -e LANGEXTRACT_API_KEY=\"your-api-key\" langextract python your_script.py",
+    "source": "README.md",
+    "rawLength": 21950,
+    "fetchedAt": "2026-10-19T08:38:25.800Z"
+  },
+  "prompt-optimizer": {
+    "summary": "Prompt Optimizer is a powerful AI prompt optimization tool that helps you write better AI prompts and improve the quality of AI outputs. It supports four usage methods: web application, desktop application, Chrome extension, and Docker deployment.",
+    "docker": "# Run container (default configuration)\ndocker run -d -p 8081:80 --restart unless-stopped --name prompt-optimizer linshen/prompt-optimizer\n\n# Run container (with API key configuration and password protection)\ndocker run -d -p 8081:80 \\\n  -e VITE_OPENAI_API_KEY=your_key \\\n  -e ACCESS_USERNAME=your_username \\  # Optional, defaults to \"admin\"\n  -e ACCESS_PASSWORD=your_password \\  # Set access password\n  --restart unless-stopped \\\n  --name prompt-optimizer \\\n  linshen/prompt-optimizer",
+    "source": "README.md",
+    "rawLength": 26518,
+    "fetchedAt": "2026-10-19T08:38:25.800Z"
+  },
+  "playwright-mcp": {
+    "summary": "Playwright MCP server supports following arguments. They can be provided in the JSON configuration above, as a part of the \"args\" list:",
+    "docker": "docker run -d -i --rm --init --pull=always \\\n  --entrypoint node \\\n  --name playwright \\\n  -p 8931:8931 \\\n  mcr.microsoft.com/playwright/mcp \\\n  /app/cli.js --headless --browser chromium --no-sandbox --port 8931 --host 0.0.0.0",
+    "source": "README.md",
+    "rawLength": 66827,
+    "fetchedAt": "2026-10-19T08:38:25.800Z"
+  },
+  "llmfit": {
+    "summary": "llmfit provides a multi-architecture Docker image (ghcr.io/alexsjones/llmfit) supporting both interactive CLI/TUI and headless Web UI / API server modes.",
+    "docker": "docker run -it --rm ghcr.io/alexsjones/llmfit --tui",
+    "source": "README.md",
+    "rawLength": 12993,
+    "fetchedAt": "2026-10-19T08:38:26.459Z"
+  },
+  "claude-code-router": {
+    "summary": "Claude Code Router (CCR) is a local model gateway and control plane for coding agents. It gives Claude Code, Claude Design, Codex, Grok CLI, Kimi CLI, Kilo Code, OpenCode, Pi, ZCode, WorkBuddy, and compatible API clients one stable local endpoint, while you manage the providers, models, accounts, ro…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 22472,
+    "fetchedAt": "2026-10-19T08:38:26.459Z"
+  },
+  "freellmapi": {
+    "summary": "FreeLLMAPI is local-first and single-user by design. Your provider keys stay in your SQLite database, encrypted at rest, and requests go from your machine to the upstream providers you enabled.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 57753,
+    "fetchedAt": "2026-10-19T08:38:26.459Z"
+  },
+  "ai-website-cloner-template": {
+    "summary": "",
+    "docker": "docker compose up app --build # build and run the app\ndocker compose up dev --build # run the app in dev mode on port 3001",
+    "source": "README.md",
+    "rawLength": 7706,
+    "fetchedAt": "2026-10-19T08:38:26.459Z"
+  },
+  "bitchat": {
+    "summary": "BitChat's private-envelope format is proprietary and is not NIP-17, NIP-44, or NIP-59 compatible. It uses Nostr as a relay transport but only interoperates with BitChat clients: private payloads travel inside kind-1059 events whose v2:-prefixed content is a BitChat-specific XChaCha20-Poly1305 constr…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7397,
+    "fetchedAt": "2026-10-19T08:38:26.459Z"
+  },
+  "next-ai-draw-io": {
+    "summary": "draw.io has its own Generate tool (Arrange > Insert > Generate). It runs inside draw.io on a free hosted model or your own API key, and it can change a diagram, page or selection that you attach to its chat. Next AI Draw.io sends the current canvas, including your hand edits, with every message, tur…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12270,
+    "fetchedAt": "2026-10-19T08:38:26.459Z"
+  },
+  "buzz": {
+    "summary": "Buzz is a self-hostable workspace where humans and AI agents share the same rooms.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15164,
+    "fetchedAt": "2026-10-19T08:38:27.075Z"
+  },
+  "awesome-agent-skills": {
+    "summary": "Agent Skills for the Stitch MCP server, compatible with Claude Code, Gemini CLI, Cursor, and more.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 227078,
+    "fetchedAt": "2026-10-19T08:38:27.075Z"
+  },
+  "oh-my-pi": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 45449,
+    "fetchedAt": "2026-10-19T08:38:27.075Z"
+  },
+  "vibe-trading": {
+    "summary": "Vibe-Trading is an open-source research workspace for turning finance questions into runnable analysis. It connects natural-language prompts to market-data loaders, strategy generation, backtest engines, reports, exports, and persistent research memory.",
+    "docker": "git clone https://github.com/HKUDS/Vibe-Trading.git\ncd Vibe-Trading\ncp agent/.env.example agent/.env\n# Edit agent/.env — uncomment your LLM provider and set API key\ndocker compose up --build",
+    "source": "README.md",
+    "rawLength": 374774,
+    "fetchedAt": "2026-10-19T08:38:27.075Z"
+  },
+  "deepseek-reasonix": {
+    "summary": "Reasonix is an open-source AI coding assistant. The program runs on your computer; the AI model is a service you configure, which receives what it reads. You describe a task in plain language; it reads code, edits files and runs commands and tests inside the project folder you choose, and shows you…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 19356,
+    "fetchedAt": "2026-10-19T08:38:27.075Z"
+  },
+  "qwenpaw": {
+    "summary": "QwenPaw can run LLMs entirely on your machine — no API keys or cloud services required. See the official docs for details.",
+    "docker": "docker pull agentscope/qwenpaw:latest\ndocker run -p 127.0.0.1:8088:8088 \\\n  -v qwenpaw-data:/app/working \\\n  -v qwenpaw-secrets:/app/working.secret \\\n  -v qwenpaw-backups:/app/working.backups \\\n  agentscope/qwenpaw:latest",
+    "source": "README.md",
+    "rawLength": 34487,
+    "fetchedAt": "2026-10-19T08:38:27.075Z"
+  },
+  "heretic": {
+    "summary": "Heretic is a tool that removes censorship (aka \"safety alignment\") from transformer-based language models without expensive post-training. It combines an advanced implementation of directional ablation, also known as \"abliteration\" (Arditi et al. 2024, Lai 2025 (1, 2)), with a TPE-based parameter op…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12495,
+    "fetchedAt": "2026-10-19T08:38:27.716Z"
+  },
+  "skills-3": {
+    "summary": "skills use resolves sources the same way as skills add, writes the selected skill files to a temporary directory, and prints only the generated prompt to stdout unless --agent is provided. With --agent, it starts one supported agent interactively with the generated prompt.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 27274,
+    "fetchedAt": "2026-10-19T08:38:27.716Z"
+  },
+  "book-to-skill": {
+    "summary": "book-to-skill solves this by turning the book into a structured skill your agent loads on demand.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15037,
+    "fetchedAt": "2026-10-19T08:38:27.716Z"
+  },
+  "nuwa-skill": {
+    "summary": "Nuwa is an Agent Skill that extracts cognitive frameworks — mental models, decision heuristics, expression DNA — from any public figure into a runnable perspective skill. Works in Claude Code, Codex, Cursor, OpenClaw, Hermes Agent, CodeBuddy, Workbuddy, Gemini CLI, OpenCode, and 50+ skills-compatibl…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12116,
+    "fetchedAt": "2026-10-19T08:38:27.716Z"
+  },
+  "awesome-ai-research-writing": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 27440,
+    "fetchedAt": "2026-10-19T08:38:27.716Z"
+  },
+  "awesome-gpt-image-2": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 35989,
+    "fetchedAt": "2026-10-19T08:38:27.716Z"
+  },
+  "anthropic-cybersecurity-skills": {
+    "summary": "Anthropic Cybersecurity Skills is not a collection of scripts or checklists. It is an AI-native knowledge base built from the ground up for the agentskills.io standard — YAML frontmatter for sub-second discovery, structured Markdown for step-by-step execution, and reference files for deep technical…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 30810,
+    "fetchedAt": "2026-10-19T08:38:28.251Z"
+  },
+  "weknora": {
+    "summary": "WeKnora is an open-source, LLM-powered knowledge framework for enterprise document understanding, semantic retrieval and reasoning. It brings a team's documents together so they can be searched, reasoned over and kept up to date.",
+    "docker": "git clone https://github.com/Tencent/WeKnora.git\ncd WeKnora\ncp .env.example .env    # Edit .env as needed, see comments in the file\ndocker compose pull     # Pull the latest images\ndocker compose up -d    # Start core services",
+    "source": "README.md",
+    "rawLength": 36186,
+    "fetchedAt": "2026-10-19T08:38:28.251Z"
+  },
+  "recordly": {
+    "summary": "Recordly is a desktop app for recording and editing screen captures with motion-driven presentation tools built in. Instead of sending raw footage to a motion designer just to add zooms, cursor polish, or a styled background, Recordly handles that workflow in one place for free.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11555,
+    "fetchedAt": "2026-10-19T08:38:28.251Z"
+  },
+  "codex-plugin-cc": {
+    "summary": "/codex:setup will tell you whether Codex is ready. If Codex is missing and npm is available, it can offer to install Codex for you.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10907,
+    "fetchedAt": "2026-10-19T08:38:28.251Z"
+  },
+  "handy": {
+    "summary": "Handy is a cross-platform desktop application that provides simple, privacy-focused speech transcription. Press a shortcut, speak, and have your words appear in any text field. This happens on your own computer without sending any information to the cloud.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 25181,
+    "fetchedAt": "2026-10-19T08:38:28.251Z"
+  },
+  "openclaude": {
+    "summary": "OpenClaude is an open-source coding-agent CLI for cloud and local model providers.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 32515,
+    "fetchedAt": "2026-10-19T08:38:28.251Z"
+  },
+  "github-mcp-server": {
+    "summary": "GitHub Enterprise Server does not support remote server hosting. Please refer to GitHub Enterprise Server and Enterprise Cloud with data residency (ghe.com) from the local server configuration.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 120041,
+    "fetchedAt": "2026-10-19T08:38:45.442Z"
+  },
+  "agents-course": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5279,
+    "fetchedAt": "2026-10-19T08:38:45.442Z"
+  },
+  "x-algorithm": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 41120,
+    "fetchedAt": "2026-10-19T08:38:45.442Z"
   }
 }

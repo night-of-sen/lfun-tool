@@ -17661,6 +17661,652 @@
       "cloud": "",
       "descEn": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
       "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "langextract",
+      "name": "Langextract",
+      "repo": "google/langextract",
+      "homepage": "https://pypi.org/project/langextract/",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "gemini",
+        "gemini-ai",
+        "gemini-api",
+        "gemini-flash"
+      ],
+      "seed": {
+        "stars": 38973,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+      "pushedAt": "2026-10-17"
+    },
+    {
+      "id": "prompt-optimizer",
+      "name": "Prompt Optimizer",
+      "repo": "linshenkx/prompt-optimizer",
+      "homepage": "https://prompt.always200.com",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-prompts",
+        "ai-tools",
+        "llm",
+        "prompt"
+      ],
+      "seed": {
+        "stars": 38516,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An AI prompt optimizer for writing better prompts and getting better AI results.",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "playwright-mcp",
+      "name": "Playwright Mcp",
+      "repo": "microsoft/playwright-mcp",
+      "homepage": "https://www.npmjs.com/package/@playwright/mcp",
+      "category": "agent",
+      "desc": "",
+      "tags": [
+        "mcp",
+        "playwright"
+      ],
+      "seed": {
+        "stars": 38353,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Playwright MCP server",
+      "pushedAt": "2026-10-16"
+    },
+    {
+      "id": "llmfit",
+      "name": "Llmfit",
+      "repo": "AlexsJones/llmfit",
+      "homepage": "",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "gguf",
+        "llm",
+        "localai",
+        "mlx"
+      ],
+      "seed": {
+        "stars": 38102,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "claude-code-router",
+      "name": "Claude Code Router",
+      "repo": "musistudio/claude-code-router",
+      "homepage": "https://ccrdesk.top/",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 37748,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "One local control plane for every AI agent: route across models, fuse new capabilities, orchestrate tools, and stay fully in control.",
+      "pushedAt": "2026-10-10"
+    },
+    {
+      "id": "freellmapi",
+      "name": "Freellmapi",
+      "repo": "tashfeenahmed/freellmapi",
+      "homepage": "https://freellmapi.co",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 37259,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic fai",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "ai-website-cloner-template",
+      "name": "Ai Website Cloner Template",
+      "repo": "JCodesMore/ai-website-cloner-template",
+      "homepage": "https://dsc.gg/jcodesmore",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "ai-tools",
+        "automation"
+      ],
+      "seed": {
+        "stars": 36988,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Clone any website with one command using AI coding agents",
+      "pushedAt": "2026-10-05"
+    },
+    {
+      "id": "bitchat",
+      "name": "Bitchat",
+      "repo": "permissionlesstech/bitchat",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "bluetooth",
+        "bluetooth-le",
+        "decentralized",
+        "e2e-encryption"
+      ],
+      "seed": {
+        "stars": 36637,
+        "language": "Swift"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "bluetooth mesh chat, IRC vibes",
+      "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "next-ai-draw-io",
+      "name": "Next Ai Draw Io",
+      "repo": "DayuanJiang/next-ai-draw-io",
+      "homepage": "https://next-ai-drawio.jiang.jp/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "architecture-diagram",
+        "claude-code",
+        "diagram-generator"
+      ],
+      "seed": {
+        "stars": 36320,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Draw and edit draw.io diagrams by chatting with an AI. Web app, desktop app, and an MCP server for Claude Code, Cursor, Codex and VS Code.",
+      "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "buzz",
+      "name": "Buzz",
+      "repo": "block/buzz",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 36138,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A hive mind communication platform",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "awesome-agent-skills",
+      "name": "Awesome Agent Skills",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "homepage": "https://officialskills.sh/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "awesome",
+        "awesome-list"
+      ],
+      "seed": {
+        "stars": 35968,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "oh-my-pi",
+      "name": "Oh My Pi",
+      "repo": "can1357/oh-my-pi",
+      "homepage": "https://omp.sh",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-agent",
+        "ai-coding-agent",
+        "anthropic",
+        "bun"
+      ],
+      "seed": {
+        "stars": 35901,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "⌥ Coding agent with the IDE wired in. Built by Stencil Labs.",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "vibe-trading",
+      "name": "Vibe Trading",
+      "repo": "HKUDS/Vibe-Trading",
+      "homepage": "https://vibetrading.wiki/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-agent",
+        "algorithmic-trading",
+        "backtesting",
+        "fintech"
+      ],
+      "seed": {
+        "stars": 35868,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "deepseek-reasonix",
+      "name": "DeepSeek Reasonix",
+      "repo": "esengine/DeepSeek-Reasonix",
+      "homepage": "http://reasonix.io/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agent-framework",
+        "ai-agent",
+        "ai-coding"
+      ],
+      "seed": {
+        "stars": 35858,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A reliable coding agent for complex software engineering tasks.",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "qwenpaw",
+      "name": "QwenPaw",
+      "repo": "agentscope-ai/QwenPaw",
+      "homepage": "http://qwenpaw.agentscope.io/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agent-harness",
+        "agentscope",
+        "ai-agent"
+      ],
+      "seed": {
+        "stars": 35844,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "heretic",
+      "name": "Heretic",
+      "repo": "p-e-w/heretic",
+      "homepage": "https://heretic-project.org",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "abliteration",
+        "llm",
+        "transformer"
+      ],
+      "seed": {
+        "stars": 35809,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Fully automatic censorship removal for language models",
+      "pushedAt": "2026-10-17"
+    },
+    {
+      "id": "skills-3",
+      "name": "Skills",
+      "repo": "vercel-labs/skills",
+      "homepage": "https://skills.sh",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 35557,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The open agent skills tool - npx skills",
+      "pushedAt": "2026-10-09"
+    },
+    {
+      "id": "book-to-skill",
+      "name": "Book To Skill",
+      "repo": "virgiliojr94/book-to-skill",
+      "homepage": "",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "book-to-skill",
+        "context-engineering"
+      ],
+      "seed": {
+        "stars": 35313,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "nuwa-skill",
+      "name": "Nuwa Skill",
+      "repo": "alchaincyf/nuwa-skill",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 35008,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks.",
+      "pushedAt": "2026-10-17"
+    },
+    {
+      "id": "awesome-ai-research-writing",
+      "name": "Awesome Ai Research Writing",
+      "repo": "Leey21/awesome-ai-research-writing",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 34974,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Elevate your AI research writing, no more tedious polishing ✨",
+      "pushedAt": "2026-08-19"
+    },
+    {
+      "id": "awesome-gpt-image-2",
+      "name": "Awesome Gpt Image 2",
+      "repo": "freestylefly/awesome-gpt-image-2",
+      "homepage": "https://gpt-image2.canghe.ai",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agents",
+        "ai-image-generation",
+        "chatgpt",
+        "dsh-plugin"
+      ],
+      "seed": {
+        "stars": 34704,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
+      "pushedAt": "2026-10-14"
+    },
+    {
+      "id": "anthropic-cybersecurity-skills",
+      "name": "Anthropic Cybersecurity Skills",
+      "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+      "homepage": "https://mahipal.engineer/Anthropic-Cybersecurity-Skills/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "claude-code",
+        "cloud-security",
+        "cybersecurity"
+      ],
+      "seed": {
+        "stars": 34682,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io s",
+      "pushedAt": "2026-08-31"
+    },
+    {
+      "id": "weknora",
+      "name": "WeKnora",
+      "repo": "Tencent/WeKnora",
+      "homepage": "https://weknora.weixin.qq.com",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agentic",
+        "ai",
+        "chatbot"
+      ],
+      "seed": {
+        "stars": 34678,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "recordly",
+      "name": "Recordly",
+      "repo": "webadderallorg/Recordly",
+      "homepage": "https://recordly.dev",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "electron",
+        "free",
+        "linux",
+        "macos"
+      ],
+      "seed": {
+        "stars": 34433,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Create polished demo videos without editing skills. Mac/Windows/Linux",
+      "pushedAt": "2026-10-17"
+    },
+    {
+      "id": "codex-plugin-cc",
+      "name": "Codex Plugin Cc",
+      "repo": "openai/codex-plugin-cc",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 34373,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Use Codex from Claude Code to review code or delegate tasks.",
+      "pushedAt": "2026-07-08"
+    },
+    {
+      "id": "handy",
+      "name": "Handy",
+      "repo": "cjpais/Handy",
+      "homepage": "https://handy.computer",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "accessibility",
+        "cross-platform",
+        "speech-to-text",
+        "tauri-v2"
+      ],
+      "seed": {
+        "stars": 34118,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "openclaude",
+      "name": "Openclaude",
+      "repo": "Twigpine/openclaude",
+      "homepage": "https://openclaude.twigpine.com",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-agent",
+        "ai-tools",
+        "cli"
+      ],
+      "seed": {
+        "stars": 34005,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "runs anywhere. uses anything",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "github-mcp-server",
+      "name": "Github Mcp Server",
+      "repo": "github/github-mcp-server",
+      "homepage": "",
+      "category": "agent",
+      "desc": "",
+      "tags": [
+        "github",
+        "mcp",
+        "mcp-server"
+      ],
+      "seed": {
+        "stars": 33745,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "GitHub's official MCP Server",
+      "pushedAt": "2026-10-15"
+    },
+    {
+      "id": "agents-course",
+      "name": "Agents Course",
+      "repo": "huggingface/agents-course",
+      "homepage": "",
+      "category": "agent",
+      "desc": "",
+      "tags": [
+        "agentic-ai",
+        "agents",
+        "course",
+        "huggingface"
+      ],
+      "seed": {
+        "stars": 33743,
+        "language": "MDX"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "This repository contains the Hugging Face Agents Course.",
+      "pushedAt": "2026-10-14"
+    },
+    {
+      "id": "x-algorithm",
+      "name": "X Algorithm",
+      "repo": "xai-org/x-algorithm",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 33683,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Algorithm powering the For You feed on X",
+      "pushedAt": "2026-10-17"
     }
   ]
 }
