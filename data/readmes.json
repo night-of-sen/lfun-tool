@@ -5037,5 +5037,215 @@
     "source": "README.md",
     "rawLength": 41120,
     "fetchedAt": "2026-10-19T08:38:45.442Z"
+  },
+  "aionui": {
+    "summary": "AionUi is more than a chat client. It's a Cowork platform where AI agents work alongside you on your computer — reading files, writing code, browsing the web, and automating tasks. You see everything the agent does, and you're always in control.",
+    "docker": "",
+    "source": "readme.md",
+    "rawLength": 34833,
+    "fetchedAt": "2026-10-20T08:19:31.624Z"
+  },
+  "laya": {
+    "summary": "Laya evaluates typed questions (choice, score, noul) over any state (text, email, ticket or JSON document) in a single forward pass — 33 ms for one question, 7.2 ms/question batched, measured on a T4. No text generation, so nothing to parse and nothing to hallucinate.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 118490,
+    "fetchedAt": "2026-10-20T08:19:31.624Z"
+  },
+  "oh-my-codex": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 36790,
+    "fetchedAt": "2026-10-20T08:19:31.624Z"
+  },
+  "zeroclaw": {
+    "summary": "ZeroClaw is an agent runtime — a single Rust binary you configure and run. It talks to LLM providers (Anthropic, OpenAI, Ollama, and 20 others), reaches the world through 30+ channels (Discord, Telegram, Matrix, email, voice, webhooks, your own CLI), and acts through tools (shell, browser, HTTP, har…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12088,
+    "fetchedAt": "2026-10-20T08:19:32.135Z"
+  },
+  "security-audit-skill": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6946,
+    "fetchedAt": "2026-10-20T08:19:32.135Z"
+  },
+  "claude-code-templates": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9861,
+    "fetchedAt": "2026-10-20T08:19:32.135Z"
+  },
+  "agent-skills-2": {
+    "summary": "Skills are automatically available once installed. The agent will use them when relevant tasks are detected.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7838,
+    "fetchedAt": "2026-10-20T08:19:32.135Z"
+  },
+  "codexplusplus": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 17823,
+    "fetchedAt": "2026-10-20T08:19:32.135Z"
+  },
+  "antigravity-manager": {
+    "summary": "Antigravity Tools is an all-in-one desktop application designed for developers and AI enthusiasts. It perfectly combines multi-account management, protocol conversion, and smart request scheduling to provide you with a stable, high-speed, and low-cost Local AI Relay Station.",
+    "docker": "docker run -d --name antigravity-manager \\\n  -p 8045:8045 \\\n  -e API_KEY=sk-your-api-key \\\n  -e WEB_PASSWORD=your-login-password \\\n  -e ABV_MAX_BODY_SIZE=104857600 \\\n  -v ~/.antigravity_tools:/root/.antigravity_tools \\\n  lbjlaq/antigravity-manager:latest\n\n# Forgot keys? Run `docker logs antigravity-manager` or `grep -E '\"api_key\"|\"admin_password\"' ~/.antigravity_tools/gui_config.json`",
+    "source": "README.md",
+    "rawLength": 34614,
+    "fetchedAt": "2026-10-20T08:19:32.135Z"
+  },
+  "tradingagents-cn": {
+    "summary": "",
+    "docker": "docker run -d --name ta-mongo -p 27017:27017 \\\n  -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=<你的密码> mongo:8.0\ndocker run -d --name ta-redis -p 6379:6379 \\\n  redis:7-alpine redis-server --requirepass <你的密码>",
+    "source": "README.md",
+    "rawLength": 5514,
+    "fetchedAt": "2026-10-20T08:19:32.653Z"
+  },
+  "cloakbrowser": {
+    "summary": "CloakBrowser doesn't solve CAPTCHAs — it prevents them from appearing. No CAPTCHA-solving services, no proxy rotation built in — bring your own proxies, use the Playwright API you already know.",
+    "docker": "docker run --rm cloakhq/cloakbrowser cloaktest",
+    "source": "README.md",
+    "rawLength": 75222,
+    "fetchedAt": "2026-10-20T08:19:32.653Z"
+  },
+  "code-review-graph": {
+    "summary": "Review and impact tools attach a compact contextsavings estimate to their responses. The CLI shows the same figures in the Token Savings panel (see Usage below) and --verify compares them with OpenAI's cl100kbase tokenizer. Calibration across 222 sample files puts the estimate within about 1% of rea…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 42315,
+    "fetchedAt": "2026-10-20T08:19:32.653Z"
+  },
+  "officecli": {
+    "summary": "OfficeCLI's built-in HTML rendering engine reproduces documents with high fidelity — and that's what gives AI eyes. It renders .docx / .xlsx / .pptx to HTML or PNG, closing the render → look → fix loop.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 40718,
+    "fetchedAt": "2026-10-20T08:19:32.653Z"
+  },
+  "dsh-desktop": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13775,
+    "fetchedAt": "2026-10-20T08:19:32.653Z"
+  },
+  "mcp-for-blender": {
+    "summary": "formerly blender-mcp — the PyPI package is now mcp-for-blender. Existing setups keep working; no config change is required. Read more",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 36234,
+    "fetchedAt": "2026-10-20T08:19:32.653Z"
+  },
+  "cli": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20235,
+    "fetchedAt": "2026-10-20T08:19:33.191Z"
+  },
+  "awesome-openclaw-usecases": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10450,
+    "fetchedAt": "2026-10-20T08:19:33.191Z"
+  },
+  "pentagi": {
+    "summary": "PentAGI is an open-source, self-hosted multi-agent system for autonomous penetration testing. You describe a target and a goal in plain language; a team of specialized AI agents plans the work, runs 20+ professional tools such as nmap, Metasploit and sqlmap inside an isolated Docker sandbox, remembe…",
+    "docker": "curl -O https://raw.githubusercontent.com/vxcontrol/pentagi/master/docker-compose.yml\ndocker compose up -d",
+    "source": "README.md",
+    "rawLength": 253543,
+    "fetchedAt": "2026-10-20T08:19:33.191Z"
+  },
+  "context-mode": {
+    "summary": "context-mode runs as a native OpenClaw gateway plugin, targeting Pi Agent sessions (Read/Write/Edit/Bash tools). Unlike other platforms, there's no separate MCP server — the plugin registers directly into the gateway runtime via OpenClaw's plugin API.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 94435,
+    "fetchedAt": "2026-10-20T08:19:33.191Z"
+  },
+  "9router": {
+    "summary": "✅ 9Router software = FREE forever (open source, never charges) ✅ Dashboard \"costs\" = Display/tracking only (not actual bills) ✅ You pay providers directly (subscriptions or API fees) ✅ FREE providers stay FREE (Kiro 50 credits/mo, OpenCode Free, Vertex $300 credits = $0 within free-tier limits) — no…",
+    "docker": "docker run -d \\\n  --name 9router \\\n  -p 20128:20128 \\\n  -v \"$HOME/.9router:/app/data\" \\\n  -e DATA_DIR=/app/data \\\n  decolua/9router:latest",
+    "source": "README.md",
+    "rawLength": 58032,
+    "fetchedAt": "2026-10-20T08:19:33.191Z"
+  },
+  "gbrain": {
+    "summary": "gbrain search returns the top retrieved pages, ranked by hybrid scoring (vector + keyword + RRF + source-tier boost + reranker). Use it when you want raw material to skim: agent context windows, citation lookups, finding a specific quote.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 44776,
+    "fetchedAt": "2026-10-20T08:19:33.191Z"
+  },
+  "nanoclaw": {
+    "summary": "NanoClaw provides that same core functionality, but in a codebase small enough to understand: one process and a handful of files. Agents run in their own Linux containers with filesystem isolation, not merely behind permission checks.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18379,
+    "fetchedAt": "2026-10-20T08:19:33.683Z"
+  },
+  "frontend-slides": {
+    "summary": "Frontend Slides helps non-designers create beautiful web presentations without knowing CSS or JavaScript. It uses a \"show, don't tell\" approach: instead of asking you to describe your aesthetic preferences in words, it generates visual previews and lets you pick what you like.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 35285,
+    "fetchedAt": "2026-10-20T08:19:33.683Z"
+  },
+  "knowledge-work-plugins": {
+    "summary": "Plugins that turn Claude into a specialist for your role, team, and company. Built for Claude Cowork, also compatible with Claude Code.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6059,
+    "fetchedAt": "2026-10-20T08:19:33.683Z"
+  },
+  "qmd": {
+    "summary": "QMD combines BM25 full-text search, vector semantic search, and LLM re-ranking—all running locally via node-llama-cpp with GGUF models.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 63487,
+    "fetchedAt": "2026-10-20T08:19:33.683Z"
+  },
+  "opencli": {
+    "summary": "OpenCLI is a general-purpose browser automation CLI for AI agents and an agent-browser alternative. Navigate, inspect, click, fill forms, extract, and screenshot websites without a site adapter. Built-in adapters add reusable, deterministic site commands. See OpenCLI vs agent-browser and migration.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 22516,
+    "fetchedAt": "2026-10-20T08:19:33.683Z"
+  },
+  "deepagents": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6985,
+    "fetchedAt": "2026-10-20T08:19:33.683Z"
+  },
+  "hallmark": {
+    "summary": "Hallmark picks a macrostructure for the brief, dresses it in one of twenty-one themes, runs fifty-seven slop-test gates plus a pre-emit self-critique, and refuses the on-distribution defaults every LLM was trained into. Two pages by Hallmark for two different briefs feel like different sites, not co…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6302,
+    "fetchedAt": "2026-10-20T08:19:52.982Z"
+  },
+  "serena": {
+    "summary": "Serena's agent-first tool design involves robust high-level abstractions, distinguishing it from approaches that rely on low-level concepts like line numbers or primitive search patterns.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15298,
+    "fetchedAt": "2026-10-20T08:19:52.982Z"
+  },
+  "cua": {
+    "summary": "CUA-S1 is our family of small, specialized System 1 models for computer use. We use \"System 1\" as an engineering analogy for fast, bounded decisions, such as choosing which value belongs in a field or whether to leave an element alone. It is not a strict classification of model architectures or a re…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 21286,
+    "fetchedAt": "2026-10-20T08:19:52.982Z"
   }
 }

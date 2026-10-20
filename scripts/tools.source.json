@@ -18307,6 +18307,649 @@
       "cloud": "",
       "descEn": "Algorithm powering the For You feed on X",
       "pushedAt": "2026-10-17"
+    },
+    {
+      "id": "aionui",
+      "name": "AionUi",
+      "repo": "iOfficeAI/AionUi",
+      "homepage": "https://www.aionui.com",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "acp",
+        "agent-team",
+        "ai",
+        "ai-agent"
+      ],
+      "seed": {
+        "stars": 33653,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Customize your assistants | Team them up｜Star if you like it!",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "laya",
+      "name": "Laya",
+      "repo": "NandhaKishorM/laya",
+      "homepage": "https://huggingface.co/convaiinnovations/laya",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "calibration",
+        "classification",
+        "decision-model",
+        "huggingface"
+      ],
+      "seed": {
+        "stars": 33611,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right ",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "oh-my-codex",
+      "name": "Oh My Codex",
+      "repo": "Yeachan-Heo/oh-my-codex",
+      "homepage": "https://oh-my-codex.dev",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 33574,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "zeroclaw",
+      "name": "Zeroclaw",
+      "repo": "zeroclaw-labs/zeroclaw",
+      "homepage": "https://www.zeroclaw.com/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agentic",
+        "ai",
+        "infra"
+      ],
+      "seed": {
+        "stars": 33010,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "security-audit-skill",
+      "name": "Security Audit Skill",
+      "repo": "cloudflare/security-audit-skill",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 32873,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "pushedAt": "2026-09-14"
+    },
+    {
+      "id": "claude-code-templates",
+      "name": "Claude Code Templates",
+      "repo": "davila7/claude-code-templates",
+      "homepage": "https://aitmpl.com",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "anthropic",
+        "anthropic-claude",
+        "claude",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 32774,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "CLI tool for configuring and monitoring Claude Code",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "agent-skills-2",
+      "name": "Agent Skills",
+      "repo": "vercel-labs/agent-skills",
+      "homepage": "https://skills.sh/vercel-labs/agent-skills",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 32685,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Vercel's official collection of agent skills",
+      "pushedAt": "2026-10-14"
+    },
+    {
+      "id": "codexplusplus",
+      "name": "CodexPlusPlus",
+      "repo": "BigPizzaV3/CodexPlusPlus",
+      "homepage": "https://codexpp.cc/",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 32397,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "antigravity-manager",
+      "name": "Antigravity Manager",
+      "repo": "lbjlaq/Antigravity-Manager",
+      "homepage": "https://lbjlaq.github.io/Antigravity-Manager/",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "account-manager",
+        "antigravity"
+      ],
+      "seed": {
+        "stars": 32382,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Anti",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "tradingagents-cn",
+      "name": "TradingAgents CN",
+      "repo": "hsliuping/TradingAgents-CN",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 32363,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "cloakbrowser",
+      "name": "CloakBrowser",
+      "repo": "CloakHQ/CloakBrowser",
+      "homepage": "https://cloakbrowser.dev/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "anti-detect",
+        "antidetect-browser",
+        "bot-detection"
+      ],
+      "seed": {
+        "stars": 32336,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 50+ tests passed.",
+      "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "code-review-graph",
+      "name": "Code Review Graph",
+      "repo": "tirth8205/code-review-graph",
+      "homepage": "https://code-review-graph.com",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-coding",
+        "claude",
+        "claude-code",
+        "code-review"
+      ],
+      "seed": {
+        "stars": 32273,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on revi",
+      "pushedAt": "2026-10-16"
+    },
+    {
+      "id": "officecli",
+      "name": "OfficeCLI",
+      "repo": "iOfficeAI/OfficeCLI",
+      "homepage": "https://officecli.ai",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai",
+        "claude-code",
+        "cli"
+      ],
+      "seed": {
+        "stars": 32209,
+        "language": "C#"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office ",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "dsh-desktop",
+      "name": "Dsh Desktop",
+      "repo": "anywhere-labs/dsh-desktop",
+      "homepage": "https://dshdesktop.cn",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "cordis",
+        "cordis-plugin",
+        "deepseek",
+        "deepseek-harness"
+      ],
+      "seed": {
+        "stars": 31867,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "mcp-for-blender",
+      "name": "Mcp For Blender",
+      "repo": "ahujasid/mcp-for-blender",
+      "homepage": "https://www.mcp-for-blender.com/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "3d-modeling",
+        "ai",
+        "blender",
+        "blender-addon"
+      ],
+      "seed": {
+        "stars": 31735,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with the official Blender Foundation.",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "cli",
+      "name": "Cli",
+      "repo": "googleworkspace/cli",
+      "homepage": "https://developers.google.com/workspace",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-agent",
+        "automation",
+        "cli"
+      ],
+      "seed": {
+        "stars": 31708,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent ski",
+      "pushedAt": "2026-10-06"
+    },
+    {
+      "id": "awesome-openclaw-usecases",
+      "name": "Awesome Openclaw Usecases",
+      "repo": "hesamsheikh/awesome-openclaw-usecases",
+      "homepage": "",
+      "category": "learn",
+      "desc": "",
+      "tags": [
+        "awesome-list",
+        "clawdbot",
+        "moltbot",
+        "openclaw"
+      ],
+      "seed": {
+        "stars": 31655,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A community collection of OpenClaw use cases for making life easier.",
+      "pushedAt": "2026-03-24"
+    },
+    {
+      "id": "pentagi",
+      "name": "Pentagi",
+      "repo": "vxcontrol/pentagi",
+      "homepage": "https://pentagi.com",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "ai-security-tool",
+        "anthropic",
+        "autonomous-agents"
+      ],
+      "seed": {
+        "stars": 31410,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "pushedAt": "2026-10-17"
+    },
+    {
+      "id": "context-mode",
+      "name": "Context Mode",
+      "repo": "mksglu/context-mode",
+      "homepage": "https://context-mode.com",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "antigravity",
+        "claude",
+        "claude-code",
+        "claude-code-hooks"
+      ],
+      "seed": {
+        "stars": 31200,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "9router",
+      "name": "9router",
+      "repo": "decolua/9router",
+      "homepage": "https://9router.com",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "ai-gateway",
+        "anthropic",
+        "chatgpt"
+      ],
+      "seed": {
+        "stars": 31110,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit lim",
+      "pushedAt": "2026-10-15"
+    },
+    {
+      "id": "gbrain",
+      "name": "Gbrain",
+      "repo": "garrytan/gbrain",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 31013,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "nanoclaw",
+      "name": "Nanoclaw",
+      "repo": "nanocoai/nanoclaw",
+      "homepage": "https://nanoclaw.dev",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "ai-assistant",
+        "claude-code",
+        "claude-skills"
+      ],
+      "seed": {
+        "stars": 30977,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled j",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "frontend-slides",
+      "name": "Frontend Slides",
+      "repo": "zarazhangrui/frontend-slides",
+      "homepage": "",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-slides",
+        "anthropic",
+        "claude",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 30950,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Create beautiful slides on the web using a coding agent's frontend skills",
+      "pushedAt": "2026-06-23"
+    },
+    {
+      "id": "knowledge-work-plugins",
+      "name": "Knowledge Work Plugins",
+      "repo": "anthropics/knowledge-work-plugins",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 30578,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "qmd",
+      "name": "Qmd",
+      "repo": "tobi/qmd",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 30500,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
+      "pushedAt": "2026-10-15"
+    },
+    {
+      "id": "opencli",
+      "name": "OpenCLI",
+      "repo": "jackwener/OpenCLI",
+      "homepage": "https://opencli.info/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-agent",
+        "ai-agents",
+        "ai-tools",
+        "browser-automation"
+      ],
+      "seed": {
+        "stars": 30458,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Make Any Website into CLI & Use your logged-in browser by AI agent.",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "deepagents",
+      "name": "Deepagents",
+      "repo": "langchain-ai/deepagents",
+      "homepage": "https://docs.langchain.com/deepagents",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "deepagents",
+        "harness",
+        "harness-engineering"
+      ],
+      "seed": {
+        "stars": 30439,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The batteries-included agent harness.",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "hallmark",
+      "name": "Hallmark",
+      "repo": "Nutlope/hallmark",
+      "homepage": "https://www.usehallmark.com/",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 30417,
+        "language": "CSS"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "pushedAt": "2026-08-06"
+    },
+    {
+      "id": "serena",
+      "name": "Serena",
+      "repo": "oraios/serena",
+      "homepage": "https://oraios.github.io/serena",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai",
+        "ai-coding",
+        "claude"
+      ],
+      "seed": {
+        "stars": 30410,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities - the IDE for your agent",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "cua",
+      "name": "Cua",
+      "repo": "trycua/cua",
+      "homepage": "https://cua.ai",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai-agent",
+        "apple",
+        "computer-use"
+      ],
+      "seed": {
+        "stars": 30290,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation.",
+      "pushedAt": "2026-10-20"
     }
   ]
 }
