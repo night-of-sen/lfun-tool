@@ -5247,5 +5247,215 @@
     "source": "README.md",
     "rawLength": 21286,
     "fetchedAt": "2026-10-20T08:19:52.982Z"
+  },
+  "dsh-our-free-model": {
+    "summary": "独立服务默认使用 /.our-free-model 和端口 18900，拥有自己的 API Key， 不读取插件数据。支持匿名/Kilo、EAC 和十一个账号渠道，提供 Chat Completions、Responses API，以及独立网页管理（模型、统计、渠道、EAC、设置、API Key）。 启动后打开终端打印的一次性管理链接即可使用；账号在独立页面登录，也可手动导入插件账号备份。 启动、参数与验证见 独立服务说明。 独立服务的安装制品与 Release 尚未发布。",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 45163,
+    "fetchedAt": "2026-10-21T02:53:43.154Z"
+  },
+  "ifixai": {
+    "summary": "ifixai setup detects API keys already in your environment and surfaces them at the top of each prompt. No key found? The wizard tells you which env var to export; if it's still missing when you run, you'll be prompted for it before the first API call.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 27531,
+    "fetchedAt": "2026-10-21T02:53:43.154Z"
+  },
+  "picoclaw": {
+    "summary": "PicoClaw is an ultra-lightweight personal AI assistant inspired by NanoBot. It was rebuilt from the ground up in Go through a \"self-bootstrapping\" process — the AI Agent itself drove the architecture migration and code optimization.",
+    "docker": "# 1. Clone this repo\ngit clone https://github.com/sipeed/picoclaw.git\ncd picoclaw\n\n# 2. First run — auto-generates docker/data/config.json then exits\n#    (only triggers when both config.json and workspace/ are missing)\ndocker compose -f docker/docker-compose.yml --profile launcher up\n# The container prints \"First-run setup complete.\" and stops.\n\n# 3. Set your API keys\nvim docker/data/config.json\n\n# 4. Start\ndocker compose -f docker/docker-compose.yml --profile launcher up -d\n# Open http://localhost:18800",
+    "source": "README.md",
+    "rawLength": 31048,
+    "fetchedAt": "2026-10-21T02:53:43.154Z"
+  },
+  "sim": {
+    "summary": "Sim also supports local models via Ollama and vLLM. See the self-hosting docs for details.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10460,
+    "fetchedAt": "2026-10-21T02:53:43.710Z"
+  },
+  "opendataloader-pdf": {
+    "summary": "🔍 PDF parser for AI data extraction — Extract Markdown, JSON (with bounding boxes), and HTML from any PDF. #1 in benchmarks (0.907 overall). Deterministic local mode + AI hybrid mode for complex pages.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 42688,
+    "fetchedAt": "2026-10-21T02:53:43.710Z"
+  },
+  "agentmemory": {
+    "summary": "agentmemory pins iii-engine v0.22.1 and won't attach to a different version (the worker can't speak another engine's protocol). Stop the other engine, then run npx -y @agentmemory/agentmemory@latest. It installs and runs the pinned v0.22.1 in /.agentmemory/bin, leaving your own iii untouched.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 129354,
+    "fetchedAt": "2026-10-21T02:53:43.710Z"
+  },
+  "tencentdb-agent-memory": {
+    "summary": "Memory here means more than just \"remembering conversations.\" Any information that helps the next Agent avoid reinventing the wheel should be saved, organized, and reused.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 21556,
+    "fetchedAt": "2026-10-21T02:53:43.710Z"
+  },
+  "page-agent": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6531,
+    "fetchedAt": "2026-10-21T02:53:43.710Z"
+  },
+  "video-use": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5565,
+    "fetchedAt": "2026-10-21T02:53:43.710Z"
+  },
+  "strata": {
+    "summary": "Strata runs Qwen3.8-Flash-Next, a 125-billion-parameter model that normally needs a server, on a normal PC. It chats, writes code, reads pictures and works with your apps and coding agents. Your chats and files stay on your PC.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 25124,
+    "fetchedAt": "2026-10-21T02:53:44.283Z"
+  },
+  "pixelle-video": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14013,
+    "fetchedAt": "2026-10-21T02:53:44.283Z"
+  },
+  "obscura": {
+    "summary": "Obscura is a headless browser engine written in Rust, built for web scraping and AI agent automation. It runs real JavaScript via V8, supports the Chrome DevTools Protocol, and acts as a drop-in replacement for headless Chrome with Puppeteer and Playwright.",
+    "docker": "docker run -d --name obscura -p 127.0.0.1:9222:9222 \\\n  -e OBSCURA_CDP_TOKEN=\"$(openssl rand -hex 32)\" \\\n  h4ckf0r0day/obscura",
+    "source": "README.md",
+    "rawLength": 26075,
+    "fetchedAt": "2026-10-21T02:53:44.283Z"
+  },
+  "open-lovable": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2578,
+    "fetchedAt": "2026-10-21T02:53:44.283Z"
+  },
+  "crush": {
+    "summary": "Crush is available via the official Charm NUR in nur.repos.charmbracelet.crush, which is the most up-to-date way to get Crush in Nix.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 35265,
+    "fetchedAt": "2026-10-21T02:53:44.283Z"
+  },
+  "claude-hud": {
+    "summary": "/claude-hud:setup points your status line at the HUD. Claude Code reloads settings on its own, so the HUD appears right away. To customize it, ask Claude or run /claude-hud:configure.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 25977,
+    "fetchedAt": "2026-10-21T02:53:44.283Z"
+  },
+  "qwen-code": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11954,
+    "fetchedAt": "2026-10-21T02:53:44.858Z"
+  },
+  "vorssaint-utils": {
+    "summary": "Vorssaint is local-first, with no account, analytics or tracking. The network is touched only by things you can see: update checks, the speed test, Homebrew actions, optional online lyric lookup, temporary screenshot or recording links and feedback you explicitly send. The full story is in the priva…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16738,
+    "fetchedAt": "2026-10-21T02:53:44.858Z"
+  },
+  "claude-skills": {
+    "summary": "Claude Code skills (also called agent skills or coding agent plugins) are modular instruction packages that give AI coding agents domain expertise they don't have out of the box. Each skill includes:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 26017,
+    "fetchedAt": "2026-10-21T02:53:44.858Z"
+  },
+  "design-md": {
+    "summary": "DESIGN.md tokens are inspired by the W3C Design Token Format. The export command converts tokens to other formats:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13277,
+    "fetchedAt": "2026-10-21T02:53:44.858Z"
+  },
+  "vibe-kanban": {
+    "summary": "Vibe Kanban is built for this. Use kanban issues to plan work, either privately or with your team. When you're ready to begin, create workspaces where coding agents can execute.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7413,
+    "fetchedAt": "2026-10-21T02:53:44.858Z"
+  },
+  "guizang-ppt-skill": {
+    "summary": "Guizang PPT Skill 的持续迭代获得 360 安全龙虾、Kimi work、Cola Skill 金牌赞助和 真格 Token Grant 支持。更多信息见 SPONSORS.md。",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14767,
+    "fetchedAt": "2026-10-21T02:53:44.858Z"
+  },
+  "cmux": {
+    "summary": "cmux is not prescriptive about how developers hold their tools. It's a terminal and browser with a CLI, and the rest is up to you.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 28330,
+    "fetchedAt": "2026-10-21T02:53:45.430Z"
+  },
+  "claude-task-master": {
+    "summary": "Taskmaster utilizes AI across several commands, and those require a separate API key. You can use a variety of models from different AI providers provided you add your API keys. For example, if you want to use Claude 3.7, you'll need an Anthropic API key.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 17401,
+    "fetchedAt": "2026-10-21T02:53:45.430Z"
+  },
+  "skills-4": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1840,
+    "fetchedAt": "2026-10-21T02:53:45.430Z"
+  },
+  "beads": {
+    "summary": "Beads provides a persistent, structured memory for coding agents. It replaces messy markdown plans with a dependency-aware graph, allowing agents to handle long-horizon tasks without losing context.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20136,
+    "fetchedAt": "2026-10-21T02:53:45.430Z"
+  },
+  "unlimited-ocr": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11546,
+    "fetchedAt": "2026-10-21T02:53:45.430Z"
+  },
+  "symphony": {
+    "summary": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1777,
+    "fetchedAt": "2026-10-21T02:53:45.430Z"
+  },
+  "dexter": {
+    "summary": "Dexter is an autonomous financial research agent that thinks, plans, and learns as it works. It performs analysis using task planning, self-reflection, and real-time market data. Think Claude Code, but built specifically for financial research.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6599,
+    "fetchedAt": "2026-10-21T02:54:16.068Z"
+  },
+  "kilocode": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7735,
+    "fetchedAt": "2026-10-21T02:54:16.068Z"
+  },
+  "planning-with-files": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 106791,
+    "fetchedAt": "2026-10-21T02:54:16.068Z"
   }
 }

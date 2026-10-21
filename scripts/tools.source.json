@@ -18950,6 +18950,650 @@
       "cloud": "",
       "descEn": "Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation.",
       "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "dsh-our-free-model",
+      "name": "Dsh Our Free Model",
+      "repo": "Ebony-Vinyl/dsh-our-free-model",
+      "homepage": "",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools"
+      ],
+      "seed": {
+        "stars": 31030,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier mo",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "ifixai",
+      "name": "IFixAi",
+      "repo": "ifixai-ai/iFixAi",
+      "homepage": "https://www.ifixai.ai",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-evaluation",
+        "ai",
+        "ai-alignment",
+        "ai-evaluation"
+      ],
+      "seed": {
+        "stars": 30695,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iF",
+      "pushedAt": "2026-10-16"
+    },
+    {
+      "id": "picoclaw",
+      "name": "Picoclaw",
+      "repo": "sipeed/picoclaw",
+      "homepage": "https://picoclaw.io",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 30074,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity",
+      "pushedAt": "2026-10-15"
+    },
+    {
+      "id": "sim",
+      "name": "Sim",
+      "repo": "simstudioai/sim",
+      "homepage": "https://www.sim.ai",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-workflow",
+        "agentic-workflow",
+        "agents",
+        "ai"
+      ],
+      "seed": {
+        "stars": 29855,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders.",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "opendataloader-pdf",
+      "name": "Opendataloader Pdf",
+      "repo": "opendataloader-project/opendataloader-pdf",
+      "homepage": "https://opendataloader.org",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "a11y",
+        "accessibility",
+        "ai",
+        "bounding-box"
+      ],
+      "seed": {
+        "stars": 29751,
+        "language": "Java"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "agentmemory",
+      "name": "Agentmemory",
+      "repo": "rohitg00/agentmemory",
+      "homepage": "https://agent-memory.dev",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agentmemory",
+        "agents",
+        "ai",
+        "claude"
+      ],
+      "seed": {
+        "stars": 29723,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "tencentdb-agent-memory",
+      "name": "TencentDB Agent Memory",
+      "repo": "TencentCloud/TencentDB-Agent-Memory",
+      "homepage": "https://tencentcloud.github.io/TencentDB-Agent-Memory/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai-agent",
+        "embedding",
+        "llm"
+      ],
+      "seed": {
+        "stars": 29710,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) ",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "page-agent",
+      "name": "Page Agent",
+      "repo": "alibaba/page-agent",
+      "homepage": "https://alibaba.github.io/page-agent/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "browser-automation"
+      ],
+      "seed": {
+        "stars": 29521,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "video-use",
+      "name": "Video Use",
+      "repo": "browser-use/video-use",
+      "homepage": "https://video-use.com",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 29435,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Edit videos with coding agents",
+      "pushedAt": "2026-10-08"
+    },
+    {
+      "id": "strata",
+      "name": "Strata",
+      "repo": "Niko1221/Strata",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 29281,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "pixelle-video",
+      "name": "Pixelle Video",
+      "repo": "ATH-MaaS/Pixelle-Video",
+      "homepage": "https://aidc-ai.github.io/Pixelle-Video/zh",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "aigc",
+        "comfyui",
+        "image-generation",
+        "tts"
+      ],
+      "seed": {
+        "stars": 29212,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+      "pushedAt": "2026-06-14"
+    },
+    {
+      "id": "obscura",
+      "name": "Obscura",
+      "repo": "h4ckf0r0day/obscura",
+      "homepage": "https://obscura.sh",
+      "category": "browser",
+      "desc": "",
+      "tags": [
+        "antidetect",
+        "antidetect-browser",
+        "browser",
+        "browser-automation"
+      ],
+      "seed": {
+        "stars": 29084,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The headless browser for AI agents and web scraping",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "open-lovable",
+      "name": "Open Lovable",
+      "repo": "firecrawl/open-lovable",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 28749,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🔥 Clone and recreate any website as a modern React app in seconds",
+      "pushedAt": "2026-10-09"
+    },
+    {
+      "id": "crush",
+      "name": "Crush",
+      "repo": "charmbracelet/crush",
+      "homepage": "",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agentic-ai",
+        "ai",
+        "llms",
+        "ravishing"
+      ],
+      "seed": {
+        "stars": 28723,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Glamourous agentic coding for all 💘",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "claude-hud",
+      "name": "Claude Hud",
+      "repo": "jarrodwatts/claude-hud",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "anthropic",
+        "claude",
+        "claude-code",
+        "cli"
+      ],
+      "seed": {
+        "stars": 28693,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "qwen-code",
+      "name": "Qwen Code",
+      "repo": "QwenLM/qwen-code",
+      "homepage": "https://qwenlm.github.io/qwen-code-docs/en/users/overview",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agentic",
+        "ai",
+        "ai-agent",
+        "ai-coding"
+      ],
+      "seed": {
+        "stars": 28608,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An open-source AI coding agent that lives in your terminal.",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "vorssaint-utils",
+      "name": "Vorssaint Utils",
+      "repo": "vorssaint/vorssaint-utils",
+      "homepage": "https://vorssaint.com",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "alt-tab",
+        "app-uninstaller",
+        "appkit",
+        "finder"
+      ],
+      "seed": {
+        "stars": 28542,
+        "language": "Swift"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Free and open-source macOS menu bar toolkit.",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "claude-skills",
+      "name": "Claude Skills",
+      "repo": "alirezarezvani/claude-skills",
+      "homepage": "https://alirezarezvani.medium.com/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-plugins",
+        "agent-skills",
+        "agentic-ai",
+        "ai-coding-agent"
+      ],
+      "seed": {
+        "stars": 28451,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 mo",
+      "pushedAt": "2026-08-30"
+    },
+    {
+      "id": "design-md",
+      "name": "Design.md",
+      "repo": "google-labs-code/design.md",
+      "homepage": "https://stitch.withgoogle.com/docs/design-md/specification",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 28433,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "pushedAt": "2026-10-16"
+    },
+    {
+      "id": "vibe-kanban",
+      "name": "Vibe Kanban",
+      "repo": "BloopAI/vibe-kanban",
+      "homepage": "https://www.vibekanban.com/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai-agents",
+        "kanban",
+        "management"
+      ],
+      "seed": {
+        "stars": 28412,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Get 10X more out of Claude Code, Codex or any coding agent",
+      "pushedAt": "2026-09-19"
+    },
+    {
+      "id": "guizang-ppt-skill",
+      "name": "Guizang Ppt Skill",
+      "repo": "op7418/guizang-ppt-skill",
+      "homepage": "",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-agent",
+        "claude-code",
+        "codex",
+        "html-deck"
+      ],
+      "seed": {
+        "stars": 28342,
+        "language": "HTML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
+      "pushedAt": "2026-08-07"
+    },
+    {
+      "id": "cmux",
+      "name": "Cmux",
+      "repo": "manaflow-ai/cmux",
+      "homepage": "https://cmux.com",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "amp",
+        "claude-code",
+        "cli",
+        "codex"
+      ],
+      "seed": {
+        "stars": 28311,
+        "language": "Swift"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "claude-task-master",
+      "name": "Claude Task Master",
+      "repo": "eyaltoledano/claude-task-master",
+      "homepage": "https://tryhamster.com",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "cursor",
+        "cursor-ai",
+        "cursorai"
+      ],
+      "seed": {
+        "stars": 28257,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.",
+      "pushedAt": "2026-04-28"
+    },
+    {
+      "id": "skills-4",
+      "name": "Skills",
+      "repo": "openai/skills",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 28194,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Skills Catalog for Codex",
+      "pushedAt": "2026-09-08"
+    },
+    {
+      "id": "beads",
+      "name": "Beads",
+      "repo": "gastownhall/beads",
+      "homepage": "https://beads.gascity.com",
+      "category": "agent",
+      "desc": "",
+      "tags": [
+        "agents",
+        "claude-code",
+        "coding"
+      ],
+      "seed": {
+        "stars": 28060,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Beads - A memory upgrade for your coding agent",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "unlimited-ocr",
+      "name": "Unlimited OCR",
+      "repo": "baidu/Unlimited-OCR",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 27959,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "symphony",
+      "name": "Symphony",
+      "repo": "openai/symphony",
+      "homepage": "https://openai.com/index/open-source-codex-orchestration-symphony/",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 27760,
+        "language": "Elixir"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.",
+      "pushedAt": "2026-09-15"
+    },
+    {
+      "id": "dexter",
+      "name": "Dexter",
+      "repo": "virattt/dexter",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 27699,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An autonomous agent for deep financial research",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "kilocode",
+      "name": "Kilocode",
+      "repo": "Kilo-Org/kilocode",
+      "homepage": "https://kilo.ai/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-age",
+        "ai-coding",
+        "ai-developer-tools"
+      ],
+      "seed": {
+        "stars": 27679,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "planning-with-files",
+      "name": "Planning With Files",
+      "repo": "OthmanAdi/planning-with-files",
+      "homepage": "https://gilded-laurel-c7nj.here.now/",
+      "category": "agent",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "autonomous-agents",
+        "claude",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 27554,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against ",
+      "pushedAt": "2026-10-20"
     }
   ]
 }
