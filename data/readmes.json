@@ -5667,5 +5667,222 @@
     "source": "README.md",
     "rawLength": 7768,
     "fetchedAt": "2026-10-21T05:08:04.483Z"
+  },
+  "ds4": {
+    "summary": "ds4-agent runs inference directly, without a separate HTTP server. It keeps the token history and live model state together, shows prefill progress, and uses the model's native tool format. DeepSeek and GLM have their own templates.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13967,
+    "fetchedAt": "2026-10-21T09:41:40.057Z"
+  },
+  "rag-anything": {
+    "summary": "RAG-Anything implements an effective multi-stage multimodal pipeline that fundamentally extends traditional RAG architectures to seamlessly handle diverse content modalities through intelligent orchestration and cross-modal understanding.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 64405,
+    "fetchedAt": "2026-10-21T09:41:40.057Z"
+  },
+  "awesome-nano-banana-images": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 123942,
+    "fetchedAt": "2026-10-21T09:41:40.057Z"
+  },
+  "superclaude-framework": {
+    "summary": "SuperClaude is a meta-programming configuration framework that transforms Claude Code into a structured development platform through behavioral instruction injection and component orchestration. It provides systematic workflow automation with powerful tools and intelligent agents.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 19308,
+    "fetchedAt": "2026-10-21T09:41:40.629Z"
+  },
+  "openlogi": {
+    "summary": "openlogi@latest is maintained by OpenLogi's release workflow and may update before the official cask autobump lands. Install either openlogi or openlogi@latest, not both.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14885,
+    "fetchedAt": "2026-10-21T09:41:40.629Z"
+  },
+  "archon": {
+    "summary": "Archon is a factory builder. You describe how work should get done as YAML workflows, and Archon runs them with AI agents, scripts and your decisions in the places that need them. Software is the first factory: the bundled SDLC pack takes an issue to a merged pull request. The same engine runs any p…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16553,
+    "fetchedAt": "2026-10-21T09:41:40.629Z"
+  },
+  "anubis": {
+    "summary": "Anubis is a Web AI Firewall Utility that weighs the soul of your connection using one or more challenges in order to protect upstream resources from scraper bots.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7191,
+    "fetchedAt": "2026-10-21T09:41:40.629Z"
+  },
+  "jev-ultrafast": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8448,
+    "fetchedAt": "2026-10-21T09:41:40.629Z"
+  },
+  "winboat": {
+    "summary": "WinBoat is currently in beta, so expect to occasionally run into hiccups and bugs. You should be comfortable with some level of troubleshooting if you decide to try it, however we encourage you to give it a shot anyway.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9420,
+    "fetchedAt": "2026-10-21T09:41:40.629Z"
+  },
+  "n8n-mcp": {
+    "summary": "n8n-MCP serves as a bridge between n8n's workflow automation platform and AI models, enabling them to understand and work with n8n nodes effectively. It provides structured access to:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 24518,
+    "fetchedAt": "2026-10-21T09:41:41.182Z"
+  },
+  "exercises-dataset": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20754,
+    "fetchedAt": "2026-10-21T09:41:41.182Z"
+  },
+  "anydoc": {
+    "summary": "anydoc reads text-based PDFs locally but does no OCR, so a PDF with scanned or image-only pages fails with NeedsOcr. Opt in and those documents go to Firecrawl Parse, which OCRs them and returns the same Markdown. No signup needed; set FIRECRAWLAPIKEY for higher limits.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16909,
+    "fetchedAt": "2026-10-21T09:41:41.182Z"
+  },
+  "claude-code-2": {
+    "summary": "构建采用 code splitting 多文件打包（build.ts），产物输出到 dist/ 目录（入口 dist/cli.js + 约 450 个 chunk 文件）。",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11994,
+    "fetchedAt": "2026-10-21T09:41:41.182Z"
+  },
+  "omlx": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 25412,
+    "fetchedAt": "2026-10-21T09:41:41.182Z"
+  },
+  "ai-trader": {
+    "summary": "AI-Trader is an Agent-Native Trading Platform: Exchange ideas and sharpen trading skills through AI agents!",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8572,
+    "fetchedAt": "2026-10-21T09:41:41.182Z"
+  },
+  "nemoclaw": {
+    "summary": "NemoClaw's current priorities are maintained here as a public orientation point for contributors and community members. This list is not a delivery commitment, support promise, or fixed roadmap; priorities can change as maintainers respond to security, quality, platform readiness, and community feed…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10304,
+    "fetchedAt": "2026-10-21T09:41:57.957Z"
+  },
+  "witr": {
+    "summary": "witr is distributed as a single static binary for Linux, macOS, FreeBSD, and Windows.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 38919,
+    "fetchedAt": "2026-10-21T09:41:57.957Z"
+  },
+  "codexbar": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 29332,
+    "fetchedAt": "2026-10-21T09:41:57.957Z"
+  },
+  "opcode": {
+    "summary": "opcode is a powerful desktop application that transforms how you interact with Claude Code. Built with Tauri 2, it provides a beautiful GUI for managing your Claude Code sessions, creating custom agents, tracking usage, and much more.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12595,
+    "fetchedAt": "2026-10-21T09:41:57.957Z"
+  },
+  "prime-agent": {
+    "summary": "Prime Agent is an open-source coding and research agent for general and long-running work. It is designed around two core abstractions:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10430,
+    "fetchedAt": "2026-10-21T09:41:57.957Z"
+  },
+  "text-to-cad": {
+    "summary": "CAD shows models in the chat: ask Claude to show one and it appears as a viewer card you can orbit, add to your prompt, and open full size; Claude can read what you selected and see what you see. It runs locally through uv: add the server to Claude Desktop's config (Settings > Developer > Edit Confi…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18031,
+    "fetchedAt": "2026-10-21T09:41:58.598Z"
+  },
+  "ralph": {
+    "summary": "Ralph is an autonomous AI agent loop that runs AI coding tools (Amp or Claude Code) repeatedly until all PRD items are complete. Each iteration is a fresh instance with clean context. Memory persists via git history, progress.txt, and prd.json.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7377,
+    "fetchedAt": "2026-10-21T09:41:58.598Z"
+  },
+  "dyad": {
+    "summary": "Dyad is a local, open-source AI app builder. It's fast, private, and fully under your control — like Lovable, v0, or Bolt, but running right on your machine.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1334,
+    "fetchedAt": "2026-10-21T09:41:58.598Z"
+  },
+  "helium": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4478,
+    "fetchedAt": "2026-10-21T09:41:58.598Z"
+  },
+  "coze-studio": {
+    "summary": "Coze Studio is an all-in-one AI agent development tool. Providing the latest large models and tools, various development modes and frameworks, Coze Studio offers the most convenient AI agent development environment, from development to deployment.",
+    "docker": "cd coze-studio\n   # start service\n   # for macOS or Linux\n   make web  \n   # for windows\n   cp ./docker/.env.example ./docker/.env\n   docker compose -f ./docker/docker-compose.yml up",
+    "source": "README.md",
+    "rawLength": 11704,
+    "fetchedAt": "2026-10-21T09:41:58.598Z"
+  },
+  "agents-towards-production": {
+    "summary": "Agents Towards Production is your go‑to resource for building production‑ready GenAI agents that scale from prototype to enterprise. Tutorials cover stateful workflows, vector memory, real‑time web search APIs, Docker deployment, FastAPI endpoints, security guardrails, GPU scaling, browser automatio…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 44096,
+    "fetchedAt": "2026-10-21T09:41:58.598Z"
+  },
+  "paseo": {
+    "summary": "Paseo is an open source agentic development environment for desktop, mobile, web, and CLI. Open the desktop app and work: agents, editor, terminals, diffs, pull requests, and a browser in one window. Run many agents at once, each in its own worktree, on one machine or several. The mobile app is the…",
+    "docker": "docker run -d --name paseo \\\n  -p 6767:6767 \\\n  -e PASEO_PASSWORD=change-me \\\n  -v \"$PWD/paseo-home:/home/paseo\" \\\n  -v \"$PWD:/workspace\" \\\n  ghcr.io/getpaseo/paseo:latest",
+    "source": "README.md",
+    "rawLength": 9739,
+    "fetchedAt": "2026-10-21T09:42:13.335Z"
+  },
+  "khazix-skills": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8170,
+    "fetchedAt": "2026-10-21T09:42:13.335Z"
+  },
+  "agency-agents-zh": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 59253,
+    "fetchedAt": "2026-10-21T09:42:13.335Z"
+  },
+  "ai-guide": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9586,
+    "fetchedAt": "2026-10-21T09:42:13.335Z"
+  },
+  "hol-guard": {
+    "summary": "HOL Guard reviews agent actions before they run: shell commands, file access, package installs, and MCP tool calls. It detects secret exposure, destructive operations, prompt injection, and supply-chain risks, then allows, blocks, or requests approval according to your policy.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 33825,
+    "fetchedAt": "2026-10-21T09:42:13.881Z"
   }
 }
