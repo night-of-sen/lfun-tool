@@ -29,7 +29,7 @@ const headers = { "User-Agent": "gh-tools-collection", Accept: "application/vnd.
 if (token) headers.Authorization = "Bearer " + token;
 
 const source = JSON.parse(await readFile(SRC, "utf8"));
-const items = source.items;
+let items = source.items;
 
 // 上次同步结果
 const prevMap = {};
@@ -37,6 +37,118 @@ try {
   const prev = JSON.parse(await readFile(OUT, "utf8"));
   for (const t of prev.items) prevMap[t.id] = t;
 } catch (e) {}
+
+// ---- 已通过收录自动上架 ----
+// 后台改 approved 的提交由线上接口吐出，本脚本每天构建时合并进来，无需手动改 source.json。
+// 接口某天拉不到时，上次已上架的 approved 条目仍保留（不掉线）；下架需手动从 data/tools.json 删除。
+// 环境变量 LFUN_APPROVED_URL 可覆盖接口地址；本地文件路径可用于测试。
+const APPROVED_URL = process.env.LFUN_APPROVED_URL || "https://tools.lfun.cloud/api/approved-tools.php";
+
+function normalizeRepo(s) {
+  return String(s || "").trim().replace(/^https?:\/\/github\.com\//i, "").replace(/\/$/, "").toLowerCase();
+}
+function slugify(s) {
+  return String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || "tool";
+}
+function prettify(repoName) {
+  return String(repoName).split(/[-_]+/).map((w) => (w ? w.charAt(0).toUpperCase() + w.slice(1) : w)).join(" ");
+}
+// topics 关键词 -> 站内分类（与 discover.mjs 同一套规则，命中不了进 dev）
+const TOPIC_CAT = [
+  [/^(ai|llm|gpt|machine-learning|deep-learning|neural|diffusion|transformer)/, "ai"],
+  [/^(agent|agents|mcp|autonomous)/, "agent"],
+  [/^(game|gaming|godot|bevy)/, "game"],
+  [/^(video|ffmpeg|streaming|webrtc)/, "video"],
+  [/^(image|photo|screenshot|ocr)/, "image"],
+  [/^(audio|music|podcast|tts)/, "media"],
+  [/^(security|privacy|encryption|password|auth)/, "security"],
+  [/^(auth|oauth|login)/, "auth"],
+  [/^(database|sql|postgres|mysql|vector-database|sqlite)/, "database"],
+  [/^(docker|kubernetes|devops|homelab|selfhosted|self-hosted)/, "system"],
+  [/^(editor|ide|neovim|vscode)/, "editor"],
+  [/^(browser|chrome-extension|firefox)/, "browser"],
+  [/^(mobile|ios|android|flutter|react-native)/, "mobile"],
+  [/^(finance|trading|crypto|bitcoin|blockchain)/, "finance"],
+  [/^(email|smtp)/, "email"],
+  [/^(chat|messaging|discord|slack)/, "social"],
+  [/^(design|ui|css|tailwind|figma|component)/, "design"],
+  [/^(documentation|markdown|notes|note-taking|wiki)/, "doc"],
+  [/^(downloader|download)/, "download"],
+  [/^(monitoring|observability|logging|metrics)/, "monitor"],
+  [/^(network|proxy|vpn|dns|wireguard)/, "network"],
+  [/^(tutorial|course|learn|awesome|roadmap)/, "learn"],
+  [/^(payment|stripe|billing)/, "payment"],
+  [/^(iot|raspberry-pi|arduino|home-assistant|esp32)/, "iot"],
+  [/^(cli|terminal|shell|tui|command-line)/, "dev"],
+  [/^(diagram|whiteboard|mermaid|graph)/, "diagram"],
+  [/^(form|survey)/, "form"],
+  [/^(cms|blog|static-site)/, "doc"],
+];
+function categoryFor(topics) {
+  const ts = (topics || []).map((t) => String(t).toLowerCase());
+  for (const [re, cat] of TOPIC_CAT) {
+    if (ts.some((t) => re.test(t))) return cat;
+  }
+  return "dev";
+}
+
+async function fetchApproved() {
+  try {
+    let raw;
+    const local = APPROVED_URL.replace(/^file:\/\//, "");
+    if (local.startsWith("/")) {
+      raw = await readFile(local, "utf8");
+    } else {
+      const res = await fetch(APPROVED_URL, { headers: { "User-Agent": "lfun-tool-sync" }, signal: AbortSignal.timeout(10000) });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      raw = await res.text();
+    }
+    const data = JSON.parse(raw);
+    if (!data || !Array.isArray(data.items)) return [];
+    return data.items.map((x) => ({ repo: normalizeRepo(x.repo), tier: x.tier || "free" })).filter((x) => x.repo.includes("/"));
+  } catch (e) {
+    console.log("  已通过清单拉取失败，本轮只用上次缓存: " + e.message);
+    return [];
+  }
+}
+
+const approvedList = await fetchApproved();
+const existingRepos = new Set(items.map((t) => (t.repo || "").toLowerCase()));
+const existingIds = new Set(items.map((t) => t.id));
+function uniqueId(base) {
+  let id = base, n = 2;
+  while (existingIds.has(id)) id = base + "-" + n++;
+  return id;
+}
+const approvedIds = new Set();
+function pushApprovedSkeleton({ id, name, repo, category, desc, tags, usage, scene, cloud, seed, homepage, descEn, pushedAt }) {
+  items.push({
+    id, name, repo, category, desc: desc || "", tags: tags || [],
+    usage: usage || [], platforms: [], caution: "", scene: scene || "", cloud: cloud || "",
+    seed: seed || { stars: 0, language: "", license: "" },
+    homepage: homepage ?? null, descEn: descEn || "", pushedAt: pushedAt || "", _approved: true,
+  });
+  existingRepos.add(repo.toLowerCase());
+  existingIds.add(id);
+  approvedIds.add(id);
+}
+for (const a of approvedList) {
+  if (!a.repo || existingRepos.has(a.repo)) continue;
+  const repoName = a.repo.split("/")[1] || "tool";
+  pushApprovedSkeleton({ id: uniqueId(slugify(repoName)), name: prettify(repoName), repo: a.repo, category: "dev" });
+}
+// 上次已上架的 approved 条目：接口漏掉时也保留
+for (const p of Object.values(prevMap)) {
+  if (!p || p.approved !== true || !p.repo) continue;
+  if (existingRepos.has(String(p.repo).toLowerCase())) continue;
+  pushApprovedSkeleton({
+    id: p.id, name: p.name, repo: p.repo, category: p.category || "dev",
+    desc: p.desc, tags: p.tags, usage: p.usage, scene: p.scene, cloud: p.cloud,
+    seed: { stars: p.stars || 0, language: p.language || "", license: p.license || "" },
+    homepage: p.homepage, descEn: p.descEn, pushedAt: p.pushedAt,
+  });
+}
+console.log("  已通过收录合并: 接口 " + approvedList.length + " 条，本轮上架条目 " + approvedIds.size + " 个");
 
 // homepage 三态：null/undefined 从 GitHub 读，"" 表示确认没有，其他写死
 function resolveHome(it, gh) {
@@ -89,6 +201,24 @@ for (let i = 0; i < fetchList.length; i += CONCURRENCY) {
 const now = new Date().toISOString();
 let ok = 0, stale = 0, skippedN = 0;
 
+// 已通过条目：拉取成功时按 topics 定分类与标签；新条目拉取失败时本轮不上架（下次重试），
+// 已上架过的沿用缓存，不掉线
+for (const it of items) {
+  if (!it._approved) continue;
+  const d = fetched.get(it.id);
+  if (d && !d.__err) {
+    it.category = categoryFor(d.topics);
+    it.tags = (d.topics || []).slice(0, 4);
+  }
+}
+items = items.filter((it) => {
+  if (!it._approved) return true;
+  if (prevMap[it.id] && prevMap[it.id].approved === true) return true;
+  const d = fetched.get(it.id);
+  if (!d || d.__err) { console.log("  ✗ 已通过条目拉取失败，本轮不上架: " + it.repo); return false; }
+  return true;
+});
+
 const outItems = items.map((it) => {
   const p = prevMap[it.id] || {};
   const base = {
@@ -102,6 +232,7 @@ const outItems = items.map((it) => {
     // 盈利化字段（PRD 模块二）：可空，向后兼容
     affiliate_url: it.affiliate_url || "",
     affiliate_enabled: it.affiliate_enabled === true,
+    ...(it._approved ? { approved: true } : {}),
   };
   const d = fetched.get(it.id);
 
