@@ -34,6 +34,31 @@ function client_ip_hash(): string {
   return substr(hash('sha256', $salt . $ip), 0, 32);
 }
 
+// 提交时的客户端 IP：CDN/代理在前时优先取其转发的客户端 IP；仅用于国家解析，不入库
+function client_ip(): string {
+  $candidates = [];
+  if (!empty($_SERVER['HTTP_CF_CONNECTING_IP'])) { $candidates[] = (string) $_SERVER['HTTP_CF_CONNECTING_IP']; }
+  if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+    foreach (explode(',', (string) $_SERVER['HTTP_X_FORWARDED_FOR']) as $part) { $candidates[] = trim($part); }
+  }
+  $candidates[] = (string) ($_SERVER['REMOTE_ADDR'] ?? '');
+  foreach ($candidates as $ip) {
+    if (filter_var($ip, FILTER_VALIDATE_IP)) { return $ip; }
+  }
+  return '';
+}
+
+// IP 归属国家（ip-api.com 免费接口，无 key）：失败、内网 IP、接口不可用时返回 ''，绝不阻塞提交
+function ip_country(string $ip): string {
+  if ($ip === '' || !filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE)) { return ''; }
+  $ctx = stream_context_create(['http' => ['timeout' => 2, 'ignore_errors' => true]]);
+  $raw = @file_get_contents('http://ip-api.com/json/' . urlencode($ip) . '?fields=status,country', false, $ctx);
+  if ($raw === false) { return ''; }
+  $data = json_decode($raw, true);
+  if (!is_array($data) || ($data['status'] ?? '') !== 'success') { return ''; }
+  return mb_substr(trim((string) ($data['country'] ?? '')), 0, 80);
+}
+
 // 简易限流：同一 IP 在 $window 秒内最多 $limit 次
 function rate_limit(string $bucket, int $limit, int $window = 3600): void {
   $dir = sys_get_temp_dir() . '/lfun-rate';

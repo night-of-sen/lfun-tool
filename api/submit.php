@@ -42,9 +42,13 @@ $status = $paid ? 'paid_pending' : 'pending';
 // 付费档 SLA：提交起 48 小时（从站长确认收款后开始计算，见后台）
 $sla = $paid ? date('Y-m-d H:i:s', time() + 48 * 3600) : null;
 
+// 提交时间由 created_at 默认值记录；IP 国家提交时解析一次、只存国家不存原始 IP（PRD §10）
+ensure_submission_geo_columns();
+$submitCountry = ip_country(client_ip());
+
 try {
-  $st = db()->prepare('INSERT INTO submissions (repo_url, tier, contact_email, status, sla_deadline, query_code) VALUES (?,?,?,?,?,?)');
-  $st->execute([$repo_url, $tier, $email, $status, $sla, $query_code]);
+  $st = db()->prepare('INSERT INTO submissions (repo_url, tier, contact_email, status, sla_deadline, query_code, submitter_country) VALUES (?,?,?,?,?,?,?)');
+  $st->execute([$repo_url, $tier, $email, $status, $sla, $query_code, $submitCountry]);
 } catch (Throwable $e) { fail('保存失败，请稍后重试', 500); }
 
 $to = (string) cfg('notify_to');
@@ -52,6 +56,7 @@ if ($to !== '') {
   $tierLabel = ['free' => '免费提交', 'fast' => '快速审核($29)', 'featured' => '加精推荐($49)'][$tier] ?? $tier;
   $body = '<p><b>仓库</b>：' . h($repo_url) . '<br><b>档位</b>：' . h($tierLabel) .
     '<br><b>邮箱</b>：' . h($email) . '<br><b>查询码</b>：' . h($query_code) .
+    ($submitCountry !== '' ? '<br><b>IP 国家</b>：' . h($submitCountry) : '') .
     ($sla ? '<br><b>SLA 截止</b>：' . h($sla) : '') . '</p>';
   send_mail($to, '[收录提交] ' . $tier . ' / ' . $repo_url, mail_template('新的收录提交', $body), $email);
 }
