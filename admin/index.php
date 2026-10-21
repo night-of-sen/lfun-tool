@@ -92,11 +92,50 @@ if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') {
       $st->execute([in_array($_POST['status'] ?? '', ['new', 'contacted', 'closed'], true) ? $_POST['status'] : 'new', (int) ($_POST['id'] ?? 0)]);
       $msg = '已更新';
     } elseif ($do === 'submission_status') {
+      $newStatus = in_array($_POST['status'] ?? '', ['pending', 'paid_pending', 'approved', 'rejected'], true) ? $_POST['status'] : 'pending';
+      $sid = (int) ($_POST['id'] ?? 0);
+      // 状态变更通知：只在真正切到 approved / rejected 时给提交者发一封邮件，重复点“更新”不重发
+      $oldRow = null;
+      try {
+        $q = db()->prepare('SELECT contact_email, repo_url, tier, status FROM submissions WHERE id = ?');
+        $q->execute([$sid]);
+        $oldRow = $q->fetch();
+      } catch (Throwable $e) { $oldRow = null; }
       $st = db()->prepare('UPDATE submissions SET status = ? WHERE id = ?');
-      $st->execute([in_array($_POST['status'] ?? '', ['pending', 'paid_pending', 'approved', 'rejected'], true) ? $_POST['status'] : 'pending', (int) ($_POST['id'] ?? 0)]);
+      $st->execute([$newStatus, $sid]);
       $msg = '已更新';
+      if ($oldRow && $oldRow['status'] !== $newStatus && in_array($newStatus, ['approved', 'rejected'], true)) {
+        $sent = send_submission_decision_mail($oldRow['contact_email'], $oldRow['repo_url'], $oldRow['tier'], $newStatus);
+        $msg .= $sent ? '（通知邮件已发送）' : '（通知邮件发送失败）';
+      }
     }
   } catch (Throwable $ex) { $msg = '操作失败：' . $ex->getMessage(); }
+}
+
+// 审核结果通知邮件：approved / rejected 各一封，失败返回 false（不影响状态更新本身）。
+// 通过的邮件含赞助入口（featured 档已是加精展示，不再重复推销）；未通过的邮件只邀重新提交。
+function send_submission_decision_mail(string $to, string $repo, string $tier, string $status): bool {
+  if (!valid_email($to) || $repo === '') { return false; }
+  $site = rtrim((string) cfg('site_url'), '/');
+  if ($status === 'approved') {
+    $body = '<p>Good news — your submission <b>' . h($repo) . '</b> to tools.lfun.cloud has been approved. ' .
+      'It will appear on the site after the next daily rebuild (within 24 hours).</p>' .
+      '<p>好消息，你提交的 <b>' . h($repo) . '</b> 已通过 tools.lfun.cloud 审核，将在下次每日重建（24 小时内）后上线展示。</p>';
+    if ($tier !== 'featured') {
+      $body .= '<p>Want better visibility? Featured placements are available: homepage Featured from $49/mo, ' .
+        'category top $39/mo, Newsletter feature $150/issue. See our partnership page for details.<br>' .
+        '想要更好的展现效果？欢迎赞助：首页推荐 $49/月起、分类页置顶 $39/月、Newsletter 专期 $150/期，详见商务合作页。</p>';
+      return send_mail($to, '【tools.lfun.cloud】收录已通过 / Submission approved',
+        mail_template('收录已通过 / Submission approved', $body, '商务合作 / Partnership', $site . '/partner/'));
+    }
+    return send_mail($to, '【tools.lfun.cloud】收录已通过 / Submission approved',
+      mail_template('收录已通过 / Submission approved', $body));
+  }
+  $body = '<p>Thanks for submitting <b>' . h($repo) . '</b> to tools.lfun.cloud. It did not pass review this time, ' .
+    'but you are welcome to improve it and submit again.</p>' .
+    '<p>感谢你向 tools.lfun.cloud 提交 <b>' . h($repo) . '</b>，本次审核未通过。欢迎改进后重新提交。</p>';
+  return send_mail($to, '【tools.lfun.cloud】收录审核结果 / Submission review result',
+    mail_template('收录审核结果 / Submission review result', $body));
 }
 
 function rows(string $sql, array $args = []): array {
@@ -209,7 +248,7 @@ form.inline{display:contents}
 
 <?php elseif ($p === 'subs'): ?>
 <div class="card"><h3>收录提交队列（<?= count($subs) ?>）</h3>
-<p class="muted">付费队列置顶并显示 SLA；未付款的付费提交不会进入工具库。上线前提交的 IP 国家显示“未记录”（只存国家，不存原始 IP）。</p><table>
+<p class="muted">付费队列置顶并显示 SLA；未付款的付费提交不会进入工具库。上线前提交的 IP 国家显示“未记录”（只存国家，不存原始 IP）。改成 approved 后会自动发邮件通知提交者，并在下次每日重建时自动上架；改成 rejected 也会发邮件。</p><table>
 <tr><th>id</th><th>仓库</th><th>档位</th><th>联系</th><th>SLA</th><th>状态</th><th>查询码</th><th>提交时间</th><th>IP 国家</th><th></th></tr>
 <?php foreach ($subs as $r): ?><?php $slaOver = !empty($r['sla_deadline']) && $r['sla_deadline'] < date('Y-m-d H:i:s') && in_array($r['status'], ['pending', 'paid_pending'], true); ?><?php $sc = (string) ($r['submitter_country'] ?? ''); ?><tr>
 <td><?= (int) $r['id'] ?></td><td style="word-break:break-all"><?= h($r['repo_url']) ?></td><td><?= h($r['tier']) ?></td>
