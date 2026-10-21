@@ -19594,6 +19594,638 @@
       "cloud": "",
       "descEn": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against ",
       "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "grok-build",
+      "name": "Grok Build",
+      "repo": "xai-org/grok-build",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 27479,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
+      "pushedAt": "2026-09-29"
+    },
+    {
+      "id": "dbx",
+      "name": "Dbx",
+      "repo": "t8y2/dbx",
+      "homepage": "https://dbxio.com",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai",
+        "cli",
+        "clickhouse",
+        "database"
+      ],
+      "seed": {
+        "stars": 27399,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, C",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "pm-skills",
+      "name": "Pm Skills",
+      "repo": "phuryn/pm-skills",
+      "homepage": "https://www.productcompass.pm/p/pm-skills-2-red-team-ship",
+      "category": "agent",
+      "desc": "",
+      "tags": [
+        "agent-skill-repository",
+        "agent-skills",
+        "agentic-skills",
+        "claude-code-marketplace"
+      ],
+      "seed": {
+        "stars": 27246,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "pushedAt": "2026-10-16"
+    },
+    {
+      "id": "chatterbox",
+      "name": "Chatterbox",
+      "repo": "resemble-ai/chatterbox",
+      "homepage": "https://resemble-ai.github.io/chatterbox_demopage/",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 27122,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "SoTA open-source TTS",
+      "pushedAt": "2026-07-21"
+    },
+    {
+      "id": "plfm-radar",
+      "name": "PLFM RADAR",
+      "repo": "NawfalMotii79/PLFM_RADAR",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 27090,
+        "language": "PLSQL"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+      "pushedAt": "2026-10-14"
+    },
+    {
+      "id": "claude-code-game-studios",
+      "name": "Claude Code Game Studios",
+      "repo": "Donchitos/Claude-Code-Game-Studios",
+      "homepage": "",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "ai-assisted-development",
+        "anthropic",
+        "claude"
+      ],
+      "seed": {
+        "stars": 27004,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "floci",
+      "name": "Floci",
+      "repo": "floci-io/floci",
+      "homepage": "https://floci.io/floci/",
+      "category": "system",
+      "desc": "",
+      "tags": [
+        "aws",
+        "aws-emulation",
+        "devops",
+        "docker"
+      ],
+      "seed": {
+        "stars": 26974,
+        "language": "Java"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "aitoearn",
+      "name": "AiToEarn",
+      "repo": "yikart/AiToEarn",
+      "homepage": "https://aitoearn.ai/",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "auto-publish",
+        "douyin",
+        "douyin-api",
+        "electron-app"
+      ],
+      "seed": {
+        "stars": 26702,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Let's use AI to Earn!",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "open-r1",
+      "name": "Open R1",
+      "repo": "huggingface/open-r1",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 26476,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Fully open reproduction of DeepSeek-R1",
+      "pushedAt": "2026-10-02"
+    },
+    {
+      "id": "open-autoglm",
+      "name": "Open AutoGLM",
+      "repo": "zai-org/Open-AutoGLM",
+      "homepage": "https://autoglm.z.ai/blog",
+      "category": "agent",
+      "desc": "",
+      "tags": [
+        "agent",
+        "phone-use-agent"
+      ],
+      "seed": {
+        "stars": 26443,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone",
+      "pushedAt": "2026-03-06"
+    },
+    {
+      "id": "agentskills",
+      "name": "Agentskills",
+      "repo": "agentskills/agentskills",
+      "homepage": "https://agentskills.io",
+      "category": "agent",
+      "desc": "",
+      "tags": [
+        "agent-skills"
+      ],
+      "seed": {
+        "stars": 26326,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Specification and documentation for Agent Skills",
+      "pushedAt": "2026-08-09"
+    },
+    {
+      "id": "a2a",
+      "name": "A2A",
+      "repo": "a2aproject/A2A",
+      "homepage": "https://a2a-protocol.org/",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "a2a",
+        "a2a-mcp",
+        "a2a-protocol",
+        "a2a-server"
+      ],
+      "seed": {
+        "stars": 26227,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications.",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "awesome-n8n-templates",
+      "name": "Awesome N8n Templates",
+      "repo": "enescingoz/awesome-n8n-templates",
+      "homepage": "https://n8n.partnerlinks.io/h1pwwf5m4toe",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "ai-automation",
+        "automation",
+        "automation-templates"
+      ],
+      "seed": {
+        "stars": 26035,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more. AI agents, RAG chatbots, email au",
+      "pushedAt": "2026-09-12"
+    },
+    {
+      "id": "distilly",
+      "name": "Distilly",
+      "repo": "titanwings/distilly",
+      "homepage": "",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "agentic-ai",
+        "ai-agent",
+        "ai-agents"
+      ],
+      "seed": {
+        "stars": 25844,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）.",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "llm-council",
+      "name": "Llm Council",
+      "repo": "karpathy/llm-council",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 25679,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "LLM Council works together to answer your hardest questions",
+      "pushedAt": "2025-11-22"
+    },
+    {
+      "id": "compound-engineering-plugin",
+      "name": "Compound Engineering Plugin",
+      "repo": "EveryInc/compound-engineering-plugin",
+      "homepage": "https://every.to/guides/compound-engineering",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "compound",
+        "engineering"
+      ],
+      "seed": {
+        "stars": 25631,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "huashu-design",
+      "name": "Huashu Design",
+      "repo": "alchaincyf/huashu-design",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 25592,
+        "language": "HTML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic",
+      "pushedAt": "2026-10-17"
+    },
+    {
+      "id": "toon",
+      "name": "Toon",
+      "repo": "toon-format/toon",
+      "homepage": "https://toonformat.dev",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "data-format",
+        "llm",
+        "serialization",
+        "tokenization"
+      ],
+      "seed": {
+        "stars": 25533,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🎒 Token-Oriented Object Notation (TOON) – compact, human-readable serialization of JSON data for LLM prompts. TypeScript SDK, CLI, benchmarks.",
+      "pushedAt": "2026-10-09"
+    },
+    {
+      "id": "tvapp",
+      "name": "TVAPP",
+      "repo": "youhunwl/TVAPP",
+      "homepage": "https://app.iyouhun.com",
+      "category": "mobile",
+      "desc": "",
+      "tags": [
+        "android",
+        "android-tv",
+        "apk",
+        "app"
+      ],
+      "seed": {
+        "stars": 25519,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "收集全网 Android TV电视盒子应用，涵盖影视、直播、K歌、工具、游戏等类型，整理优质APK资源，支持便捷下载与自动更新。提供安全验证、分类索引与兼容性标注，助力用户打造家庭影音娱乐中心！ ✅ TVBox/影视仓等影音壳接口配置源。",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "openlist",
+      "name": "OpenList",
+      "repo": "OpenListTeam/OpenList",
+      "homepage": "https://doc.oplist.org",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "alist",
+        "aliyunpan",
+        "baidupan",
+        "openlist"
+      ],
+      "seed": {
+        "stars": 25158,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A new AList Fork to Anti Trust Crisis",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "gallery",
+      "name": "Gallery",
+      "repo": "google-ai-edge/gallery",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 25061,
+        "language": "Kotlin"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "agents-md",
+      "name": "Agents.md",
+      "repo": "agentsmd/agents.md",
+      "homepage": "https://agents.md",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 25022,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AGENTS.md — a simple, open format for guiding coding agents",
+      "pushedAt": "2026-09-10"
+    },
+    {
+      "id": "editor",
+      "name": "Editor",
+      "repo": "pascalorg/editor",
+      "homepage": "https://editor.pascal.app",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "3d",
+        "agent-skills",
+        "ai-agents",
+        "architecture"
+      ],
+      "seed": {
+        "stars": 25016,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "fhevm",
+      "name": "Fhevm",
+      "repo": "zama-ai/fhevm",
+      "homepage": "",
+      "category": "security",
+      "desc": "",
+      "tags": [
+        "blockchain",
+        "fhe",
+        "privacy"
+      ],
+      "seed": {
+        "stars": 24766,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "FHEVM, a full-stack framework for integrating Fully Homomorphic Encryption (FHE) with blockchain applications",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "index-tts",
+      "name": "Index Tts",
+      "repo": "index-tts/index-tts",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [
+        "bigvgan",
+        "cross-lingual",
+        "indextts",
+        "text-to-speech"
+      ],
+      "seed": {
+        "stars": 24619,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An Industrial-Level Controllable and Efficient Zero-Shot Text-To-Speech System",
+      "pushedAt": "2026-09-29"
+    },
+    {
+      "id": "watermarks-remover",
+      "name": "Watermarks Remover",
+      "repo": "guillaumemeyer/watermarks-remover",
+      "homepage": "https://github.com/guillaumemeyer/watermarks-remover",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-skill",
+        "ai",
+        "anthropic",
+        "c2pa"
+      ],
+      "seed": {
+        "stars": 24567,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A privacy-first app that strips AI watermarks from content you own.",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "hypit",
+      "name": "Hypit",
+      "repo": "hypit-ai/hypit",
+      "homepage": "https://hypit.ai",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agentic-ai",
+        "ai",
+        "ai-agents",
+        "ai-video"
+      ],
+      "seed": {
+        "stars": 24388,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "happy",
+      "name": "Happy",
+      "repo": "slopus/happy",
+      "homepage": "https://happy.engineering/",
+      "category": "ai",
+      "desc": "",
+      "tags": [
+        "agent-orchestration",
+        "ai-agents",
+        "claude-code",
+        "claude-desktop"
+      ],
+      "seed": {
+        "stars": 24241,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Orchestrate Claude, Codex and Grok in one app. Open-source (MIT), reuses the subscriptions you already pay for.",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "openwork",
+      "name": "Openwork",
+      "repo": "different-ai/openwork",
+      "homepage": "https://openworklabs.com",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 24201,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The open-source alternative to Claude Cowork (powered by opencode)",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "deepseek-ocr",
+      "name": "DeepSeek OCR",
+      "repo": "deepseek-ai/DeepSeek-OCR",
+      "homepage": "",
+      "category": "dev",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 24029,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Contexts Optical Compression",
+      "pushedAt": "2026-01-27"
     }
   ]
 }

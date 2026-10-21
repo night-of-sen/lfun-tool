@@ -5457,5 +5457,215 @@
     "source": "README.md",
     "rawLength": 106791,
     "fetchedAt": "2026-10-21T02:54:16.068Z"
+  },
+  "grok-build": {
+    "summary": "Grok Build is SpaceXAI's terminal-based AI coding agent. It runs as a full-screen TUI that understands your codebase, edits files, executes shell commands, searches the web, and manages long-running tasks — interactively, headlessly for scripting/CI, or embedded in editors via the Agent Client Proto…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5724,
+    "fetchedAt": "2026-10-21T05:07:54.385Z"
+  },
+  "dbx": {
+    "summary": "DBX provides a separate Rust-powered MCP server that lets AI coding agents query databases using connections configured in DBX. The MCP server is distributed independently from the desktop application, so installing DBX does not automatically install the MCP executable.",
+    "docker": "# The default keeps the key in the persistent /app/data volume.\ndocker run -d --pull=always --name dbx -p 4224:4224 \\\n  -v dbx-data:/app/data \\\n  t8y2/dbx:latest",
+    "source": "README.md",
+    "rawLength": 46276,
+    "fetchedAt": "2026-10-21T05:07:54.386Z"
+  },
+  "pm-skills": {
+    "summary": "Skills are the building blocks of the marketplace. Each skill gives Claude domain knowledge, analytical frameworks, or a guided workflow for a specific PM task. Some skills also work as reusable foundations that multiple commands share.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 27697,
+    "fetchedAt": "2026-10-21T05:07:54.386Z"
+  },
+  "chatterbox": {
+    "summary": "Chatterbox is a family of state-of-the-art, open-source text-to-speech models by Resemble AI.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15186,
+    "fetchedAt": "2026-10-21T05:07:55.047Z"
+  },
+  "plfm-radar": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12892,
+    "fetchedAt": "2026-10-21T05:07:55.047Z"
+  },
+  "claude-code-game-studios": {
+    "summary": "Claude Code Game Studios solves this by giving your AI session the structure of a real studio. Instead of one general-purpose assistant, you get 49 specialized agents organized into a studio hierarchy — directors who guard the vision, department leads who own their domains, and specialists who do th…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 24778,
+    "fetchedAt": "2026-10-21T05:07:55.047Z"
+  },
+  "floci": {
+    "summary": "Floci is a free, open-source local AWS emulator for development, testing, and CI.",
+    "docker": "docker compose up",
+    "source": "README.md",
+    "rawLength": 44529,
+    "fetchedAt": "2026-10-21T05:07:55.047Z"
+  },
+  "aitoearn": {
+    "summary": "",
+    "docker": "git clone https://github.com/yikart/AiToEarn.git\ncd AiToEarn\ndocker compose up -d",
+    "source": "README.md",
+    "rawLength": 10278,
+    "fetchedAt": "2026-10-21T05:07:55.047Z"
+  },
+  "open-r1": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 35358,
+    "fetchedAt": "2026-10-21T05:07:55.047Z"
+  },
+  "open-autoglm": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 22429,
+    "fetchedAt": "2026-10-21T05:07:55.617Z"
+  },
+  "agentskills": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3315,
+    "fetchedAt": "2026-10-21T05:07:55.617Z"
+  },
+  "a2a": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8470,
+    "fetchedAt": "2026-10-21T05:07:55.617Z"
+  },
+  "awesome-n8n-templates": {
+    "summary": "n8n is a fair-code, source-available workflow automation platform that lets you connect services and systems. It can be self-hosted, giving you control over your data and infrastructure. Key advantages include: Referral link — this project receives a commission on eligible purchases.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 114844,
+    "fetchedAt": "2026-10-21T05:07:55.617Z"
+  },
+  "distilly": {
+    "summary": "Distilly is the person-modeling layer for agents. It turns the materials you provide into a portable, source-grounded Person Profile built from observable experience, decision patterns, expression, and ways of working; it does not claim to clone the person behind them.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 19312,
+    "fetchedAt": "2026-10-21T05:07:55.617Z"
+  },
+  "llm-council": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3135,
+    "fetchedAt": "2026-10-21T05:07:55.617Z"
+  },
+  "compound-engineering-plugin": {
+    "summary": "Compound Engineering is a plugin of 36 skills for AI coding agents. It structures the work around a loop — brainstorm, plan, build, review, then capture what you learned — so the knowledge from each change is written down where the next change can read it.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 23185,
+    "fetchedAt": "2026-10-21T05:07:56.136Z"
+  },
+  "huashu-design": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14897,
+    "fetchedAt": "2026-10-21T05:07:56.136Z"
+  },
+  "toon": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 23,
+    "fetchedAt": "2026-10-21T05:07:56.136Z"
+  },
+  "tvapp": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 24007,
+    "fetchedAt": "2026-10-21T05:07:56.136Z"
+  },
+  "openlist": {
+    "summary": "OpenList is an open-source project independently maintained by the OpenList Team, following the AGPL-3.0 license and committed to maintaining complete code openness and modification transparency.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9279,
+    "fetchedAt": "2026-10-21T05:07:56.136Z"
+  },
+  "gallery": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7399,
+    "fetchedAt": "2026-10-21T05:07:56.136Z"
+  },
+  "agents-md": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2011,
+    "fetchedAt": "2026-10-21T05:07:56.663Z"
+  },
+  "editor": {
+    "summary": "",
+    "docker": "docker run -d -p 3000:3000 -v pascal-data:/data \\\n  -e PASCAL_ADMIN_PASSWORD=change-me \\\n  -e PASCAL_PUBLIC_URL=https://pascal.example.com \\\n  ghcr.io/pascalorg/pascal-editor:latest",
+    "source": "README.md",
+    "rawLength": 23515,
+    "fetchedAt": "2026-10-21T05:07:56.663Z"
+  },
+  "fhevm": {
+    "summary": "FHEVM is the core framework of the Zama Confidential Blockchain Protocol. It enables confidential smart contracts on EVM-compatible blockchains by leveraging Fully Homomorphic Encryption (FHE), allowing encrypted data to be processed directly onchain.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8691,
+    "fetchedAt": "2026-10-21T05:07:56.663Z"
+  },
+  "index-tts": {
+    "summary": "IndexTTS is a zero-shot text-to-speech system that clones a voice from a single reference audio clip. The latest release, IndexTTS-2.5, supports Chinese, English, Japanese, Spanish and Arabic, with fine-grained emotion control, speaking speed control, pronunciation control (Pinyin / CMU phonemes / J…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 24329,
+    "fetchedAt": "2026-10-21T05:07:56.663Z"
+  },
+  "watermarks-remover": {
+    "summary": "watermarks-remover-check fails the commit and lists findings; watermarks-remover-clean is opt-in and rewrites staged files in place (exits 1 so you review the diff and re-stage — the same convention as auto-fixing hooks like ruff --fix). When the cleaner cannot process a file at all — it crashed, wa…",
+    "docker": "make docker-core-build\ndocker run --rm -p 127.0.0.1:8765:8765 --read-only --tmpfs /tmp watermarks-remover\n# any CLI stays runnable by overriding the command:\ndocker run --rm -v \"$(pwd):/data\" watermarks-remover \\\n  /app/scripts/clean_file.py /data/notes.md -o /data/notes.cleaned.md",
+    "source": "README.md",
+    "rawLength": 101967,
+    "fetchedAt": "2026-10-21T05:07:56.663Z"
+  },
+  "hypit": {
+    "summary": "Hypit gives AI agents (Claude Code, Codex...) a language and system to create video. Drop in a video, and your agent clones it as a complete workflow: footage, captions, B-roll and effects, all anchored to words instead of seconds.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20136,
+    "fetchedAt": "2026-10-21T05:07:56.663Z"
+  },
+  "happy": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4511,
+    "fetchedAt": "2026-10-21T05:08:04.483Z"
+  },
+  "openwork": {
+    "summary": "OpenWork is the free, open-source alternative to Claude Cowork and Codex: a desktop app for macOS, Windows, and Linux where AI agents do real work on your own files. It is built on OpenCode, works with any model — 50+ providers, your own API keys, or local models via Ollama — and lets teams share sk…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12795,
+    "fetchedAt": "2026-10-21T05:08:04.483Z"
+  },
+  "deepseek-ocr": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7768,
+    "fetchedAt": "2026-10-21T05:08:04.483Z"
   }
 }
