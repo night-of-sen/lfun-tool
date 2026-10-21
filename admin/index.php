@@ -209,17 +209,19 @@ form.inline{display:contents}
 
 <?php elseif ($p === 'subs'): ?>
 <div class="card"><h3>收录提交队列（<?= count($subs) ?>）</h3>
-<p class="muted">付费队列置顶并显示 SLA；未付款的付费提交不会进入工具库。</p><table>
-<tr><th>id</th><th>仓库</th><th>档位</th><th>联系</th><th>SLA</th><th>状态</th><th>查询码</th><th></th></tr>
-<?php foreach ($subs as $r): ?><?php $slaOver = !empty($r['sla_deadline']) && $r['sla_deadline'] < date('Y-m-d H:i:s') && in_array($r['status'], ['pending', 'paid_pending'], true); ?><tr>
+<p class="muted">付费队列置顶并显示 SLA；未付款的付费提交不会进入工具库。上线前提交的 IP 国家显示“未记录”（只存国家，不存原始 IP）。</p><table>
+<tr><th>id</th><th>仓库</th><th>档位</th><th>联系</th><th>SLA</th><th>状态</th><th>查询码</th><th>提交时间</th><th>IP 国家</th><th></th></tr>
+<?php foreach ($subs as $r): ?><?php $slaOver = !empty($r['sla_deadline']) && $r['sla_deadline'] < date('Y-m-d H:i:s') && in_array($r['status'], ['pending', 'paid_pending'], true); ?><?php $sc = (string) ($r['submitter_country'] ?? ''); ?><tr>
 <td><?= (int) $r['id'] ?></td><td style="word-break:break-all"><?= h($r['repo_url']) ?></td><td><?= h($r['tier']) ?></td>
 <td><?= h($r['contact_email']) ?></td><td<?= $slaOver ? ' style="color:#f66;font-weight:bold" title="SLA 已超时"' : ' class="muted"' ?>><?= h((string) $r['sla_deadline']) ?></td>
 <td><?= h($r['status']) ?></td><td class="muted"><?= h($r['query_code']) ?></td>
+<td class="muted"><?= h((string) ($r['created_at'] ?? '')) ?></td>
+<td><?= $sc !== '' ? h($sc) : '<span class="muted">未记录</span>' ?></td>
 <td><form method="post"><input type="hidden" name="csrf" value="<?= h($csrf) ?>">
 <input type="hidden" name="action" value="submission_status"><input type="hidden" name="id" value="<?= (int) $r['id'] ?>">
 <select name="status"><option value="pending">pending</option><option value="paid_pending">paid_pending</option><option value="approved">approved</option><option value="rejected">rejected</option></select>
 <button class="ghost">更新</button></form></td></tr><?php endforeach; ?>
-<?php if (!$subs): ?><tr><td colspan="8" class="muted">暂无提交</td></tr><?php endif; ?></table></div>
+<?php if (!$subs): ?><tr><td colspan="10" class="muted">暂无提交</td></tr><?php endif; ?></table></div>
 
 <?php else: ?>
 <div class="card"><h3>订阅者</h3>

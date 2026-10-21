@@ -54,7 +54,7 @@ function ensure_schema(): array {
     'submissions' =>
       "CREATE TABLE IF NOT EXISTS submissions (id $id, repo_url VARCHAR(300) NOT NULL, tier VARCHAR(16) NOT NULL DEFAULT 'free', " .
       "contact_email VARCHAR(200) NOT NULL DEFAULT '', status VARCHAR(20) NOT NULL DEFAULT 'pending', sla_deadline $d NULL, " .
-      "query_code CHAR(12) NOT NULL DEFAULT '', created_at $ts) $ai",
+      "query_code CHAR(12) NOT NULL DEFAULT '', submitter_country VARCHAR(80) NOT NULL DEFAULT '', created_at $ts) $ai",
     'affiliates' =>
       "CREATE TABLE IF NOT EXISTS affiliates (tool_id VARCHAR(80) NOT NULL PRIMARY KEY, url VARCHAR(500) NOT NULL DEFAULT '', " .
       "enabled TINYINT NOT NULL DEFAULT 1, note VARCHAR(200) NOT NULL DEFAULT '', updated_at $ts) $ai",
@@ -76,4 +76,25 @@ function ensure_schema(): array {
   ];
   foreach ($idx as $sql) { try { $pdo->exec($sql); } catch (Throwable $e) { /* 已存在 */ } }
   return $created;
+}
+
+// 存量表补列：幂等。CREATE TABLE IF NOT EXISTS 不会给老表加列，所以提交写入前调用一次；
+// 查不到列信息时直接返回，不阻塞提交（写入失败由 submit.php 兜底报错）。
+function ensure_submission_geo_columns(): void {
+  $pdo = db();
+  $has = false;
+  try {
+    if (db_is_sqlite()) {
+      foreach ($pdo->query('PRAGMA table_info(submissions)') as $col) {
+        if (($col['name'] ?? '') === 'submitter_country') { $has = true; break; }
+      }
+    } else {
+      $st = $pdo->prepare("SELECT COUNT(*) FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'submissions' AND COLUMN_NAME = 'submitter_country'");
+      $st->execute();
+      $has = (int) $st->fetchColumn() > 0;
+    }
+  } catch (Throwable $e) { return; }
+  if (!$has) {
+    try { $pdo->exec("ALTER TABLE submissions ADD COLUMN submitter_country VARCHAR(80) NOT NULL DEFAULT ''"); } catch (Throwable $e) { /* 并发建列时忽略 */ }
+  }
 }
