@@ -242,7 +242,7 @@ form.inline{display:contents}
 <td><?= h($r['status']) ?></td>
 <td><form method="post"><input type="hidden" name="csrf" value="<?= h($csrf) ?>">
 <input type="hidden" name="action" value="inquiry_status"><input type="hidden" name="id" value="<?= (int) $r['id'] ?>">
-<select name="status"><option value="new">new</option><option value="contacted">contacted</option><option value="closed">closed</option></select>
+<select name="status"><?php foreach (['new', 'contacted', 'closed'] as $opt): ?><option value="<?= $opt ?>"<?= $r['status'] === $opt ? ' selected' : '' ?>><?= $opt ?></option><?php endforeach; ?></select>
 <button class="ghost">更新</button></form></td></tr><?php endforeach; ?>
 <?php if (!$inquiries): ?><tr><td colspan="8" class="muted">暂无咨询</td></tr><?php endif; ?></table></div>
 
@@ -258,7 +258,7 @@ form.inline{display:contents}
 <td><?= $sc !== '' ? h($sc) : '<span class="muted">未记录</span>' ?></td>
 <td><form method="post"><input type="hidden" name="csrf" value="<?= h($csrf) ?>">
 <input type="hidden" name="action" value="submission_status"><input type="hidden" name="id" value="<?= (int) $r['id'] ?>">
-<select name="status"><option value="pending">pending</option><option value="paid_pending">paid_pending</option><option value="approved">approved</option><option value="rejected">rejected</option></select>
+<select name="status"><?php foreach (['pending', 'paid_pending', 'approved', 'rejected'] as $opt): ?><option value="<?= $opt ?>"<?= $r['status'] === $opt ? ' selected' : '' ?>><?= $opt ?></option><?php endforeach; ?></select>
 <button class="ghost">更新</button></form></td></tr><?php endforeach; ?>
 <?php if (!$subs): ?><tr><td colspan="10" class="muted">暂无提交</td></tr><?php endif; ?></table></div>
 
