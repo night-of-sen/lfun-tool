@@ -132,7 +132,8 @@ var ICON = {
   grid: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>',
   info: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 7.5h.01"/></svg>',
   shield: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/></svg>',
-  plus: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v8"/><path d="M8 12h8"/></svg>'
+  plus: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v8"/><path d="M8 12h8"/></svg>',
+  external: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M19 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h6"/></svg>'
 };
 
 function abs(p) { return DOMAIN + p; }
@@ -233,6 +234,7 @@ function header(lang, isHome) {
     '      <a class="nav-item" href="' + categoriesPath(lang) + '">' + ICON.grid + esc(L.navCategories) + "</a>",
     '      <a class="nav-item" href="' + contentPath(lang, "about") + '">' + ICON.info + esc(L.navAbout) + "</a>",
     '      <a class="nav-item" href="' + contentPath(lang, "submit") + '">' + ICON.plus + esc(L.navSubmit) + "</a>",
+    '      <a class="nav-item" href="https://globalfacthub.com" target="_blank" rel="noopener">' + ICON.external + esc(L.navGlobalFactHub) + "</a>",
     "    </nav>",
     '    <div class="topbar-actions">',
     (isHome ? '      <button id="menu-toggle" class="btn-ghost" title="' + esc(L.menuToggle) + '">☰<span class="menu-label">' + esc(L.filterHint) + "</span></button>" : ""),
@@ -372,6 +374,7 @@ function homePage(lang) {
     '      <a class="nav-item" href="' + contentPath(lang, "about") + '">' + ICON.info + esc(L.navAbout) + "</a>",
     '      <a class="nav-item" href="' + contentPath(lang, "disclaimer") + '">' + ICON.shield + esc(L.navDisclaimer) + "</a>",
     '      <a class="nav-item" href="' + contentPath(lang, "submit") + '">' + ICON.plus + esc(L.navSubmit) + "</a>",
+    '      <a class="nav-item" href="https://globalfacthub.com" target="_blank" rel="noopener">' + ICON.external + esc(L.navGlobalFactHub) + "</a>",
     "    </nav>",
     '    <div class="side-block">',
     '      <h3 class="side-title">' + esc(L.sideScene) + "</h3>",
