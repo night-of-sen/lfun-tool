@@ -7063,7 +7063,7 @@
     {
       "id": "comfyui",
       "name": "ComfyUI",
-      "repo": "comfyanonymous/ComfyUI",
+      "repo": "Comfy-Org/ComfyUI",
       "homepage": "https://www.comfy.org",
       "category": "ai-agents",
       "desc": "节点式 AI 出图流程，复杂工作流靠连线搭出来",
@@ -14202,7 +14202,7 @@
     {
       "id": "awesome-chatgpt-prompts",
       "name": "Awesome ChatGPT Prompts",
-      "repo": "f/awesome-chatgpt-prompts",
+      "repo": "f/prompts.chat",
       "homepage": "https://prompts.chat",
       "category": "ai-agents",
       "desc": "最出圈的提示词大全，按角色分类几百条现成提示词",
@@ -21530,6 +21530,686 @@
       "cloud": "",
       "descEn": "A book series (2 published editions) on the JS language.",
       "pushedAt": "2026-02-15"
+    },
+    {
+      "id": "hellogithub",
+      "name": "HelloGitHub",
+      "repo": "521xueweihan/HelloGitHub",
+      "homepage": "https://hellogithub.com",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "awesome",
+        "github",
+        "hellogithub",
+        "python"
+      ],
+      "seed": {
+        "stars": 183794,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
+      "pushedAt": "2026-09-28"
+    },
+    {
+      "id": "flutter",
+      "name": "Flutter",
+      "repo": "flutter/flutter",
+      "homepage": "https://flutter.dev",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "android",
+        "app-framework",
+        "cross-platform",
+        "dart"
+      ],
+      "seed": {
+        "stars": 180338,
+        "language": "Dart"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "gitignore",
+      "name": "Gitignore",
+      "repo": "github/gitignore",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "git",
+        "gitignore"
+      ],
+      "seed": {
+        "stars": 176027,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A collection of useful .gitignore templates",
+      "pushedAt": "2026-10-02"
+    },
+    {
+      "id": "bootstrap",
+      "name": "Bootstrap",
+      "repo": "twbs/bootstrap",
+      "homepage": "https://getbootstrap.com",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "bootstrap",
+        "css",
+        "css-framework",
+        "html"
+      ],
+      "seed": {
+        "stars": 175005,
+        "language": "MDX"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "transformers",
+      "name": "Transformers",
+      "repo": "huggingface/transformers",
+      "homepage": "https://huggingface.co/transformers",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "audio",
+        "deep-learning",
+        "deepseek",
+        "gemma"
+      ],
+      "seed": {
+        "stars": 168012,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "the-art-of-command-line",
+      "name": "The Art Of Command Line",
+      "repo": "jlevy/the-art-of-command-line",
+      "homepage": "",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "bash",
+        "documentation",
+        "linux",
+        "macos"
+      ],
+      "seed": {
+        "stars": 162584,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Master the command line, in one page",
+      "pushedAt": "2024-06-25"
+    },
+    {
+      "id": "javaguide",
+      "name": "JavaGuide",
+      "repo": "Snailclimb/JavaGuide",
+      "homepage": "https://javaguide.cn",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai",
+        "context-engineering",
+        "deepseek"
+      ],
+      "seed": {
+        "stars": 159215,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+      "pushedAt": "2026-10-16"
+    },
+    {
+      "id": "clash-verge-rev",
+      "name": "Clash Verge Rev",
+      "repo": "clash-verge-rev/clash-verge-rev",
+      "homepage": "https://www.clashverge.dev",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "clash",
+        "clash-meta",
+        "clash-verge",
+        "linux"
+      ],
+      "seed": {
+        "stars": 153285,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "javascript",
+      "name": "Javascript",
+      "repo": "airbnb/javascript",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "arrow-functions",
+        "es2015",
+        "es2016",
+        "es2017"
+      ],
+      "seed": {
+        "stars": 148050,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "JavaScript Style Guide",
+      "pushedAt": "2026-04-16"
+    },
+    {
+      "id": "next-js",
+      "name": "Next.js",
+      "repo": "vercel/next.js",
+      "homepage": "https://nextjs.org",
+      "category": "productivity",
+      "desc": "",
+      "tags": [
+        "blog",
+        "browser",
+        "compiler",
+        "components"
+      ],
+      "seed": {
+        "stars": 143194,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The React Framework",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "tech-interview-handbook",
+      "name": "Tech Interview Handbook",
+      "repo": "yangshun/tech-interview-handbook",
+      "homepage": "https://www.techinterviewhandbook.org",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "algorithm",
+        "algorithm-interview",
+        "algorithm-interview-questions",
+        "algorithms"
+      ],
+      "seed": {
+        "stars": 143120,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Curated coding interview preparation materials for busy software engineers",
+      "pushedAt": "2026-08-07"
+    },
+    {
+      "id": "awesome-llm-apps",
+      "name": "Awesome Llm Apps",
+      "repo": "Shubhamsaboo/awesome-llm-apps",
+      "homepage": "https://www.theunwindai.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agents",
+        "llms",
+        "python",
+        "rag"
+      ],
+      "seed": {
+        "stars": 142755,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "iptv",
+      "name": "Iptv",
+      "repo": "iptv-org/iptv",
+      "homepage": "https://iptv-org.github.io",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "iptv",
+        "m3u",
+        "playlist",
+        "streams"
+      ],
+      "seed": {
+        "stars": 142050,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Collection of publicly available IPTV channels from all over the world",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "youtube-dl",
+      "name": "Youtube Dl",
+      "repo": "ytdl-org/youtube-dl",
+      "homepage": "http://ytdl-org.github.io/youtube-dl/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 141375,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Command-line program to download videos from YouTube.com and other video sites",
+      "pushedAt": "2026-02-19"
+    },
+    {
+      "id": "free-for-dev",
+      "name": "Free For Dev",
+      "repo": "ripienaar/free-for-dev",
+      "homepage": "https://free-for.dev/",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "awesome-list",
+        "free-for-developers"
+      ],
+      "seed": {
+        "stars": 139947,
+        "language": "HTML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "go",
+      "name": "Go",
+      "repo": "golang/go",
+      "homepage": "https://go.dev",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "go",
+        "golang",
+        "language",
+        "programming-language"
+      ],
+      "seed": {
+        "stars": 139485,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The Go programming language",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "fucking-algorithm",
+      "name": "Fucking Algorithm",
+      "repo": "labuladong/fucking-algorithm",
+      "homepage": "https://labuladong.online/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "algorithms",
+        "computer-science",
+        "data-structures",
+        "dynamic-programming"
+      ],
+      "seed": {
+        "stars": 135950,
+        "language": "Markdown"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Crack LeetCode, not only how, but also why.",
+      "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "moneyprinterturbo",
+      "name": "MoneyPrinterTurbo",
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-video-generator",
+        "content-creation",
+        "ffmpeg",
+        "instagram-reels"
+      ],
+      "seed": {
+        "stars": 134351,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "hello-algo",
+      "name": "Hello Algo",
+      "repo": "krahets/hello-algo",
+      "homepage": "https://www.hello-algo.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "algo",
+        "algorithm",
+        "algorithms",
+        "book"
+      ],
+      "seed": {
+        "stars": 130920,
+        "language": "Java"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
+      "pushedAt": "2026-10-10"
+    },
+    {
+      "id": "30-seconds-of-code",
+      "name": "30 Seconds Of Code",
+      "repo": "Chalarangelo/30-seconds-of-code",
+      "homepage": "https://30secondsofcode.org/",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "astro",
+        "awesome-list",
+        "css",
+        "education"
+      ],
+      "seed": {
+        "stars": 129296,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Coding articles to level up your development skills",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "repo": "kubernetes/kubernetes",
+      "homepage": "https://kubernetes.io",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "cncf",
+        "containers",
+        "go",
+        "kubernetes"
+      ],
+      "seed": {
+        "stars": 128562,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Production-Grade Container Scheduling and Management",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "react-native",
+      "name": "React Native",
+      "repo": "react/react-native",
+      "homepage": "https://reactnative.dev",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "android",
+        "app-framework",
+        "cross-platform",
+        "ios"
+      ],
+      "seed": {
+        "stars": 126758,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A framework for building native applications using React",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "rustdesk",
+      "name": "Rustdesk",
+      "repo": "rustdesk/rustdesk",
+      "homepage": "https://rustdesk.com",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "android",
+        "anydesk",
+        "dart",
+        "flatpak"
+      ],
+      "seed": {
+        "stars": 126662,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "electron",
+      "name": "Electron",
+      "repo": "electron/electron",
+      "homepage": "https://electronjs.org",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "c-plus-plus",
+        "chrome",
+        "css",
+        "electron"
+      ],
+      "seed": {
+        "stars": 123489,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "awesome-hacking",
+      "name": "Awesome Hacking",
+      "repo": "Hack-with-Github/Awesome-Hacking",
+      "homepage": "",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "android",
+        "awesome",
+        "bug-bounty",
+        "fuzzing"
+      ],
+      "seed": {
+        "stars": 123386,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A collection of various awesome lists for hackers, pentesters and security researchers",
+      "pushedAt": "2026-07-26"
+    },
+    {
+      "id": "node",
+      "name": "Node",
+      "repo": "nodejs/node",
+      "homepage": "https://nodejs.org",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "javascript",
+        "js",
+        "linux",
+        "macos"
+      ],
+      "seed": {
+        "stars": 122576,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "generative-ai-for-beginners",
+      "name": "Generative Ai For Beginners",
+      "repo": "microsoft/generative-ai-for-beginners",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "azure",
+        "chatgpt",
+        "dall-e"
+      ],
+      "seed": {
+        "stars": 121953,
+        "language": "Jupyter Notebook"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "21 Lessons, Get Started Building with Generative AI",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "rust",
+      "name": "Rust",
+      "repo": "rust-lang/rust",
+      "homepage": "https://www.rust-lang.org",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "compiler",
+        "language",
+        "rust"
+      ],
+      "seed": {
+        "stars": 120689,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Empowering everyone to build reliable and efficient software.",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "free-programming-books-zh-cn",
+      "name": "Free Programming Books Zh CN",
+      "repo": "justjavac/free-programming-books-zh_CN",
+      "homepage": "http://weibo.com/justjavac",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "android",
+        "angular",
+        "books",
+        "free"
+      ],
+      "seed": {
+        "stars": 119321,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": ":books: 免费的计算机编程类中文书籍，欢迎投稿",
+      "pushedAt": "2026-07-29"
+    },
+    {
+      "id": "godot",
+      "name": "Godot",
+      "repo": "godotengine/godot",
+      "homepage": "https://godotengine.org",
+      "category": "fun-games",
+      "desc": "",
+      "tags": [
+        "game-development",
+        "game-engine",
+        "gamedev",
+        "godot"
+      ],
+      "seed": {
+        "stars": 118923,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Godot Engine – Multi-platform 2D and 3D game engine",
+      "pushedAt": "2026-10-22"
     }
   ]
 }

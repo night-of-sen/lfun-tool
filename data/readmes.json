@@ -6094,5 +6094,215 @@
     "source": "README.md",
     "rawLength": 24418,
     "fetchedAt": "2026-10-23T05:51:37.631Z"
+  },
+  "hellogithub": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5251,
+    "fetchedAt": "2026-10-23T06:48:37.305Z"
+  },
+  "flutter": {
+    "summary": "Flutter is Google's SDK for crafting beautiful, fast user experiences for mobile, web, and desktop from a single codebase. Flutter works with existing code, is used by developers and organizations around the world, and is free and open source.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6946,
+    "fetchedAt": "2026-10-23T06:48:37.305Z"
+  },
+  "gitignore": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5835,
+    "fetchedAt": "2026-10-23T06:48:37.305Z"
+  },
+  "bootstrap": {
+    "summary": "Bootstrap’s documentation, included in this repo in the root directory, is built with Astro and publicly hosted on GitHub Pages at . The docs may also be run locally.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12437,
+    "fetchedAt": "2026-10-23T06:48:37.305Z"
+  },
+  "transformers": {
+    "summary": "Transformers acts as the model-definition framework for state-of-the-art machine learning with text, computer vision, audio, video, and multimodal models, for both inference and training.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16901,
+    "fetchedAt": "2026-10-23T06:48:37.305Z"
+  },
+  "the-art-of-command-line": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 40804,
+    "fetchedAt": "2026-10-23T06:48:40.156Z"
+  },
+  "javaguide": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 19990,
+    "fetchedAt": "2026-10-23T06:48:40.156Z"
+  },
+  "clash-verge-rev": {
+    "summary": "Clash Verge Rev does not collect any user data; configuration and logs stay on your own device. See the Privacy Policy for details.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5133,
+    "fetchedAt": "2026-10-23T06:48:40.156Z"
+  },
+  "javascript": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 129322,
+    "fetchedAt": "2026-10-23T06:48:40.156Z"
+  },
+  "next-js": {
+    "summary": "",
+    "docker": "",
+    "source": "readme.md",
+    "rawLength": 23,
+    "fetchedAt": "2026-10-23T06:48:40.156Z"
+  },
+  "tech-interview-handbook": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10597,
+    "fetchedAt": "2026-10-23T06:48:40.156Z"
+  },
+  "awesome-llm-apps": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 24715,
+    "fetchedAt": "2026-10-23T06:48:40.637Z"
+  },
+  "iptv": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3635,
+    "fetchedAt": "2026-10-23T06:48:40.637Z"
+  },
+  "youtube-dl": {
+    "summary": "YouTube changed their playlist format in March 2014 and later on, so you'll need at least youtube-dl 2014.07.25 to download all YouTube videos.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 101035,
+    "fetchedAt": "2026-10-23T06:48:40.637Z"
+  },
+  "free-for-dev": {
+    "summary": "Developers and open-source authors now have many services offering free tiers, but finding them all takes time to make informed decisions.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 269346,
+    "fetchedAt": "2026-10-23T06:48:40.637Z"
+  },
+  "go": {
+    "summary": "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1454,
+    "fetchedAt": "2026-10-23T06:48:40.637Z"
+  },
+  "fucking-algorithm": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 30688,
+    "fetchedAt": "2026-10-23T06:48:40.637Z"
+  },
+  "moneyprinterturbo": {
+    "summary": "",
+    "docker": "cd MoneyPrinterTurbo\ndocker compose -f docker-compose.release.yml up",
+    "source": "README.md",
+    "rawLength": 28494,
+    "fetchedAt": "2026-10-23T06:48:41.103Z"
+  },
+  "hello-algo": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3709,
+    "fetchedAt": "2026-10-23T06:48:41.103Z"
+  },
+  "30-seconds-of-code": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1540,
+    "fetchedAt": "2026-10-23T06:48:41.103Z"
+  },
+  "kubernetes": {
+    "summary": "Kubernetes, also known as K8s, is an open source system for managing [containerized applications] across multiple hosts. It provides basic mechanisms for the deployment, maintenance, and scaling of applications.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4236,
+    "fetchedAt": "2026-10-23T06:48:41.103Z"
+  },
+  "react-native": {
+    "summary": "React Native lets you build native apps using React. Written in JavaScript, rendered with native code.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6195,
+    "fetchedAt": "2026-10-23T06:48:41.103Z"
+  },
+  "rustdesk": {
+    "summary": "",
+    "docker": "docker run --rm -it -v $PWD:/home/user/rustdesk -v rustdesk-git-cache:/home/user/.cargo/git -v rustdesk-registry-cache:/home/user/.cargo/registry -e PUID=\"$(id -u)\" -e PGID=\"$(id -g)\" rustdesk-builder",
+    "source": "README.md",
+    "rawLength": 9893,
+    "fetchedAt": "2026-10-23T06:48:41.103Z"
+  },
+  "electron": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4418,
+    "fetchedAt": "2026-10-23T06:48:41.577Z"
+  },
+  "awesome-hacking": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12303,
+    "fetchedAt": "2026-10-23T06:48:41.577Z"
+  },
+  "node": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 42604,
+    "fetchedAt": "2026-10-23T06:48:41.577Z"
+  },
+  "generative-ai-for-beginners": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 24592,
+    "fetchedAt": "2026-10-23T06:48:41.577Z"
+  },
+  "rust": {
+    "summary": "Rust is primarily distributed under the terms of both the MIT license and the Apache License (Version 2.0), with portions covered by various BSD-like licenses.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3304,
+    "fetchedAt": "2026-10-23T06:48:41.577Z"
+  },
+  "free-programming-books-zh-cn": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 39052,
+    "fetchedAt": "2026-10-23T06:48:41.577Z"
+  },
+  "godot": {
+    "summary": "Godot Engine is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface. It provides a comprehensive set of common tools, so that users can focus on making games without having to reinvent the wheel. Games can be exported with one click to a number of platform…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3722,
+    "fetchedAt": "2026-10-23T06:48:55.254Z"
   }
 }
