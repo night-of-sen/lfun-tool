@@ -1832,6 +1832,7 @@ await writeFile(join(ROOT, "sitemap.xml"), sitemap(), "utf8");
 await writeFile(join(ROOT, "robots.txt"), robots(), "utf8");
 
 // 404.html 是手写页，只替换其中的资源引用，让版本号跟着一起更新
+// 注意：404 文案不得含硬编码总数（如“156 个”），否则下次同步总数变化时又会过时
 try {
   const nfPath = join(ROOT, "404.html");
   const nfHtml = await readFile(nfPath, "utf8");
