@@ -6514,5 +6514,215 @@
     "source": "README.md",
     "rawLength": 26183,
     "fetchedAt": "2026-10-23T08:03:07.617Z"
+  },
+  "puppeteer": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3013,
+    "fetchedAt": "2026-10-23T09:08:21.941Z"
+  },
+  "nvm": {
+    "summary": "nvm allows you to quickly install and use different versions of node via the command line.",
+    "docker": "docker run --rm -it nvmimage\n\nroot@0a6b5a237c14:/# nvm -v\n0.40.8\n\nroot@0a6b5a237c14:/# node -v\nv19.9.0\n\nroot@0a6b5a237c14:/# npm -v\n9.6.3",
+    "source": "README.md",
+    "rawLength": 58211,
+    "fetchedAt": "2026-10-23T09:08:21.941Z"
+  },
+  "manim": {
+    "summary": "Manim is an engine for precise programmatic animations, designed for creating explanatory math videos.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8326,
+    "fetchedAt": "2026-10-23T09:08:21.941Z"
+  },
+  "java-design-patterns": {
+    "summary": "Design patterns are the best, formalized practices a programmer can use to solve common problems when designing an application or system.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 156375,
+    "fetchedAt": "2026-10-23T09:08:21.941Z"
+  },
+  "clean-code-javascript": {
+    "summary": "JavaScript isn't a functional language in the way that Haskell is, but it has a functional flavor to it. Functional languages can be cleaner and easier to test. Favor this style of programming when you can.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 58443,
+    "fetchedAt": "2026-10-23T09:08:29.594Z"
+  },
+  "ghidra": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7205,
+    "fetchedAt": "2026-10-23T09:08:29.594Z"
+  },
+  "ml-for-beginners": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 31727,
+    "fetchedAt": "2026-10-23T09:08:29.594Z"
+  },
+  "django": {
+    "summary": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Thanks for checking it out.",
+    "docker": "",
+    "source": "README.rst",
+    "rawLength": 2179,
+    "fetchedAt": "2026-10-23T09:08:29.594Z"
+  },
+  "paddleocr": {
+    "summary": "PaddleOCR converts PDF documents and images into structured, LLM-ready data (JSON/Markdown) with industry-leading accuracy. With 70k+ Stars and trusted by top-tier projects like Dify, RAGFlow, and Cherry Studio, PaddleOCR is the bedrock for building intelligent RAG and Agentic applications.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 25789,
+    "fetchedAt": "2026-10-23T09:08:29.594Z"
+  },
+  "storybook": {
+    "summary": "Storybook comes with a lot of addons for component design, documentation, testing, interactivity, and so on. Storybook's API makes it possible to configure and extend in various ways. It has even been extended to support React Native, Android, iOS, and Flutter development for mobile.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 21915,
+    "fetchedAt": "2026-10-23T09:08:29.594Z"
+  },
+  "opencv": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1697,
+    "fetchedAt": "2026-10-23T09:08:30.371Z"
+  },
+  "uv": {
+    "summary": "uv also supports building and publishing projects, even if they're not managed with uv. See the publish guide to learn more.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9853,
+    "fetchedAt": "2026-10-23T09:08:30.371Z"
+  },
+  "system-design-101": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 45851,
+    "fetchedAt": "2026-10-23T09:08:30.371Z"
+  },
+  "awesome-for-beginners": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 46736,
+    "fetchedAt": "2026-10-23T09:08:30.371Z"
+  },
+  "bitcoin": {
+    "summary": "Bitcoin Core connects to the Bitcoin peer-to-peer network to download and fully validate blocks and transactions. It also includes a wallet and graphical user interface, which can be optionally built.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3489,
+    "fetchedAt": "2026-10-23T09:08:30.371Z"
+  },
+  "hugo": {
+    "summary": "Hugo is a [static site generator][] written in Go, optimized for speed and designed for flexibility. With its advanced templating system and fast asset pipelines, Hugo renders a complete site in seconds, often less.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16523,
+    "fetchedAt": "2026-10-23T09:08:30.371Z"
+  },
+  "vue-element-admin": {
+    "summary": "vue-element-admin is a production-ready front-end solution for admin interfaces. It is based on vue and uses the UI Toolkit element-ui.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9074,
+    "fetchedAt": "2026-10-23T09:08:31.135Z"
+  },
+  "gin": {
+    "summary": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices where speed and developer productivity are esse…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11767,
+    "fetchedAt": "2026-10-23T09:08:31.135Z"
+  },
+  "scrapling": {
+    "summary": "Scrapling is a Python Web Scraping framework that brings fast HTTP requests, stealth browsers, powerful parsing, and concurrent crawling into one library.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 35922,
+    "fetchedAt": "2026-10-23T09:08:31.135Z"
+  },
+  "nextchat": {
+    "summary": "",
+    "docker": "docker pull yidadaa/chatgpt-next-web\n\ndocker run -d -p 3000:3000 \\\n   -e OPENAI_API_KEY=sk-xxxx \\\n   -e CODE=your-password \\\n   yidadaa/chatgpt-next-web",
+    "source": "README.md",
+    "rawLength": 17542,
+    "fetchedAt": "2026-10-23T09:08:31.135Z"
+  },
+  "svelte": {
+    "summary": "Svelte is a new way to build web applications. It's a compiler that takes your declarative components and converts them into efficient JavaScript that surgically updates the DOM.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1730,
+    "fetchedAt": "2026-10-23T09:08:31.135Z"
+  },
+  "crawl4ai": {
+    "summary": "",
+    "docker": "export CRAWL4AI_API_TOKEN=\"$(openssl rand -hex 32)\"\ndocker run -d -p 11235:11235 --name crawl4ai --shm-size=1g \\\n  -e CRAWL4AI_API_TOKEN=\"$CRAWL4AI_API_TOKEN\" \\\n  unclecode/crawl4ai:latest",
+    "source": "README.md",
+    "rawLength": 26994,
+    "fetchedAt": "2026-10-23T09:08:31.135Z"
+  },
+  "laravel": {
+    "summary": "Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3700,
+    "fetchedAt": "2026-10-23T09:08:31.852Z"
+  },
+  "mall": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11009,
+    "fetchedAt": "2026-10-23T09:08:31.852Z"
+  },
+  "devops-exercises": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 189524,
+    "fetchedAt": "2026-10-23T09:08:31.852Z"
+  },
+  "llm-course": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 56528,
+    "fetchedAt": "2026-10-23T09:08:31.852Z"
+  },
+  "realworld": {
+    "summary": "RealWorld solves this problem by providing the same demo app for each framework, at a sweet spot between simplicity and breadth.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3235,
+    "fetchedAt": "2026-10-23T09:08:31.852Z"
+  },
+  "funnlp": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 94113,
+    "fetchedAt": "2026-10-23T09:08:31.852Z"
+  },
+  "cs-video-courses": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 226622,
+    "fetchedAt": "2026-10-23T09:08:54.684Z"
+  },
+  "humanizer-zh": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3081,
+    "fetchedAt": "2026-10-23T09:08:54.684Z"
   }
 }

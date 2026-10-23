@@ -7194,7 +7194,7 @@
     {
       "id": "openhands",
       "name": "OpenHands",
-      "repo": "All-Hands-AI/OpenHands",
+      "repo": "OpenHands/OpenHands",
       "homepage": "https://docs.all-hands.dev",
       "category": "ai-agents",
       "desc": "AI 软件工程代理，自己写代码、跑命令、改 bug",
@@ -22892,6 +22892,678 @@
       "cloud": "",
       "descEn": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
       "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "humanizer-zh",
+      "name": "Humanizer Zh",
+      "repo": "op7418/Humanizer-zh",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 20492,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "puppeteer",
+      "name": "Puppeteer",
+      "repo": "puppeteer/puppeteer",
+      "homepage": "https://pptr.dev",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "automation",
+        "chrome",
+        "chromium",
+        "developer-tools"
+      ],
+      "seed": {
+        "stars": 95740,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "JavaScript API for Chrome and Firefox",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "nvm",
+      "name": "Nvm",
+      "repo": "nvm-sh/nvm",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "bash",
+        "install",
+        "lts",
+        "node"
+      ],
+      "seed": {
+        "stars": 95635,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "pushedAt": "2026-10-10"
+    },
+    {
+      "id": "manim",
+      "name": "Manim",
+      "repo": "3b1b/manim",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "3b1b-videos",
+        "animation",
+        "explanatory-math-videos",
+        "python"
+      ],
+      "seed": {
+        "stars": 95545,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Animation engine for explanatory math videos",
+      "pushedAt": "2026-09-09"
+    },
+    {
+      "id": "java-design-patterns",
+      "name": "Java Design Patterns",
+      "repo": "iluwatar/java-design-patterns",
+      "homepage": "https://java-design-patterns.com",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "awesome-list",
+        "design-patterns",
+        "hacktoberfest",
+        "java"
+      ],
+      "seed": {
+        "stars": 94813,
+        "language": "Java"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Design patterns implemented in Java",
+      "pushedAt": "2026-10-08"
+    },
+    {
+      "id": "clean-code-javascript",
+      "name": "Clean Code Javascript",
+      "repo": "ryanmcdermott/clean-code-javascript",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "best-practices",
+        "clean-architecture",
+        "clean-code",
+        "composition"
+      ],
+      "seed": {
+        "stars": 94704,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Clean Code concepts adapted for JavaScript",
+      "pushedAt": "2024-07-29"
+    },
+    {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "repo": "NationalSecurityAgency/ghidra",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "disassembler",
+        "reverse-engineering",
+        "software-analysis"
+      ],
+      "seed": {
+        "stars": 93336,
+        "language": "Java"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Ghidra is a software reverse engineering (SRE) framework",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "ml-for-beginners",
+      "name": "ML For Beginners",
+      "repo": "microsoft/ML-For-Beginners",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "data-science",
+        "education",
+        "machine-learning",
+        "machine-learning-algorithms"
+      ],
+      "seed": {
+        "stars": 91686,
+        "language": "Jupyter Notebook"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "django",
+      "name": "Django",
+      "repo": "django/django",
+      "homepage": "https://www.djangoproject.com/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "apps",
+        "django",
+        "framework",
+        "models"
+      ],
+      "seed": {
+        "stars": 91564,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The Web framework for perfectionists with deadlines.",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "paddleocr",
+      "name": "PaddleOCR",
+      "repo": "PaddlePaddle/PaddleOCR",
+      "homepage": "https://www.paddleocr.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai4science",
+        "chineseocr",
+        "document-parsing",
+        "document-translation"
+      ],
+      "seed": {
+        "stars": 91550,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "pushedAt": "2026-09-16"
+    },
+    {
+      "id": "storybook",
+      "name": "Storybook",
+      "repo": "storybookjs/storybook",
+      "homepage": "https://storybook.js.org",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "angular",
+        "components",
+        "design-systems",
+        "documentation"
+      ],
+      "seed": {
+        "stars": 91354,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "opencv",
+      "name": "Opencv",
+      "repo": "opencv/opencv",
+      "homepage": "https://opencv.org",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "c-plus-plus",
+        "computer-vision",
+        "deep-learning",
+        "image-processing"
+      ],
+      "seed": {
+        "stars": 91305,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open Source Computer Vision Library",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "uv",
+      "name": "Uv",
+      "repo": "astral-sh/uv",
+      "homepage": "https://docs.astral.sh/uv",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "packaging",
+        "python",
+        "resolver",
+        "uv"
+      ],
+      "seed": {
+        "stars": 91059,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An extremely fast Python package and project manager, written in Rust.",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "system-design-101",
+      "name": "System Design 101",
+      "repo": "ByteByteGoHq/system-design-101",
+      "homepage": "https://bytebytego.com/guides",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "aws",
+        "cloud-computing",
+        "coding-interviews",
+        "computer-science"
+      ],
+      "seed": {
+        "stars": 90666,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
+      "pushedAt": "2025-04-04"
+    },
+    {
+      "id": "awesome-for-beginners",
+      "name": "Awesome For Beginners",
+      "repo": "MunGell/awesome-for-beginners",
+      "homepage": "",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "awesome",
+        "awesome-list",
+        "beginner-project",
+        "beginners-friendly"
+      ],
+      "seed": {
+        "stars": 90601,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A list of awesome beginners-friendly projects.",
+      "pushedAt": "2026-10-01"
+    },
+    {
+      "id": "bitcoin",
+      "name": "Bitcoin",
+      "repo": "bitcoin/bitcoin",
+      "homepage": "https://bitcoincore.org/en/download",
+      "category": "business-support",
+      "desc": "",
+      "tags": [
+        "bitcoin",
+        "c-plus-plus",
+        "cryptocurrency",
+        "cryptography"
+      ],
+      "seed": {
+        "stars": 90468,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Bitcoin Core integration/staging tree",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "hugo",
+      "name": "Hugo",
+      "repo": "gohugoio/hugo",
+      "homepage": "https://gohugo.io",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "blog-engine",
+        "cms",
+        "content-management-system",
+        "documentation-tool"
+      ],
+      "seed": {
+        "stars": 90208,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The world’s fastest framework for building websites.",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "vue-element-admin",
+      "name": "Vue Element Admin",
+      "repo": "PanJiaChen/vue-element-admin",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "admin",
+        "admin-dashboard",
+        "admin-template",
+        "axios"
+      ],
+      "seed": {
+        "stars": 90130,
+        "language": "Vue"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": ":tada: A magical vue admin https://panjiachen.github.io/vue-element-admin",
+      "pushedAt": "2024-10-24"
+    },
+    {
+      "id": "gin",
+      "name": "Gin",
+      "repo": "gin-gonic/gin",
+      "homepage": "https://gin-gonic.com/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "framework",
+        "gin",
+        "go",
+        "middleware"
+      ],
+      "seed": {
+        "stars": 89416,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin",
+      "pushedAt": "2026-10-10"
+    },
+    {
+      "id": "scrapling",
+      "name": "Scrapling",
+      "repo": "D4Vinci/Scrapling",
+      "homepage": "https://scrapling.readthedocs.io/en/latest/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-scraping",
+        "automation",
+        "crawler"
+      ],
+      "seed": {
+        "stars": 89268,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🕷️ A Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily t",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "nextchat",
+      "name": "NextChat",
+      "repo": "ChatGPTNextWeb/NextChat",
+      "homepage": "https://nextchat.club",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "calclaude",
+        "claude",
+        "cross-platform",
+        "desktop"
+      ],
+      "seed": {
+        "stars": 88887,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more. Availabl",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "svelte",
+      "name": "Svelte",
+      "repo": "sveltejs/svelte",
+      "homepage": "https://svelte.dev",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "compiler",
+        "template",
+        "ui"
+      ],
+      "seed": {
+        "stars": 88427,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "web development for the rest of us",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "crawl4ai",
+      "name": "Crawl4ai",
+      "repo": "unclecode/crawl4ai",
+      "homepage": "https://crawl4ai.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "crawler",
+        "data-extraction"
+      ],
+      "seed": {
+        "stars": 86078,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key. Join our Discord https:",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "laravel",
+      "name": "Laravel",
+      "repo": "laravel/laravel",
+      "homepage": "https://laravel.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "framework",
+        "laravel",
+        "php"
+      ],
+      "seed": {
+        "stars": 85249,
+        "language": "Blade"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small ",
+      "pushedAt": "2026-10-14"
+    },
+    {
+      "id": "mall",
+      "name": "Mall",
+      "repo": "macrozheng/mall",
+      "homepage": "https://www.macrozheng.com/admin/",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "docker",
+        "elasticsearch",
+        "elk",
+        "java"
+      ],
+      "seed": {
+        "stars": 84949,
+        "language": "Java"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署。 前台商城系统包含首页门户、商品推荐、商品搜索、商品展示、购物车、订单流程、会员中心、客户服务、帮助中心等模块。 后台管理系统包含商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置",
+      "pushedAt": "2026-09-15"
+    },
+    {
+      "id": "devops-exercises",
+      "name": "Devops Exercises",
+      "repo": "bregman-arie/devops-exercises",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "ansible",
+        "aws",
+        "azure",
+        "coding"
+      ],
+      "seed": {
+        "stars": 84931,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Intervie",
+      "pushedAt": "2025-12-27"
+    },
+    {
+      "id": "llm-course",
+      "name": "Llm Course",
+      "repo": "mlabonne/llm-course",
+      "homepage": "https://mlabonne.github.io/blog/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "course",
+        "large-language-models",
+        "llm",
+        "machine-learning"
+      ],
+      "seed": {
+        "stars": 84623,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
+      "pushedAt": "2026-02-05"
+    },
+    {
+      "id": "realworld",
+      "name": "Realworld",
+      "repo": "realworld-apps/realworld",
+      "homepage": "https://docs.realworld.show",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 84315,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "\"The mother of all demo apps\" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more",
+      "pushedAt": "2026-08-26"
+    },
+    {
+      "id": "funnlp",
+      "name": "FunNLP",
+      "repo": "fighting41love/funNLP",
+      "homepage": "https://zhuanlan.zhihu.com/yangyangfuture",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 84101,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件词库、连续英文切割、各种中文词向量、公司名字大全、古诗词库、IT词",
+      "pushedAt": "2024-05-10"
+    },
+    {
+      "id": "cs-video-courses",
+      "name": "Cs Video Courses",
+      "repo": "Developer-Y/cs-video-courses",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "algorithms",
+        "bioinformatics",
+        "computational-biology",
+        "computational-physics"
+      ],
+      "seed": {
+        "stars": 83748,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "List of Computer Science courses with video lectures.",
+      "pushedAt": "2026-10-18"
     }
   ]
 }
