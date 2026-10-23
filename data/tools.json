@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T09:41:16.576Z",
+  "generatedAt": "2026-10-23T05:36:49.760Z",
   "count": 841,
   "items": [
     {
@@ -149,7 +149,7 @@
     {
       "id": "developer-roadmap",
       "name": "Developer Roadmaps",
-      "repo": "kamranahmedse/developer-roadmap",
+      "repo": "nilbuild/developer-roadmap",
       "category": "writing-knowledge",
       "desc": "各方向的学习路线图，从入门到进阶该学什么都画清楚了",
       "tags": [
@@ -166,13 +166,13 @@
       "affiliate_url": "",
       "affiliate_enabled": false,
       "homepage": "https://roadmap.sh",
-      "stars": 370018,
+      "stars": 370176,
       "language": "TypeScript",
       "archived": false,
-      "pushedAt": "2026-10-20",
+      "pushedAt": "2026-10-22",
       "descEn": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
       "syncOk": true,
-      "syncedAt": "2026-10-21T09:41:16.576Z"
+      "syncedAt": "2026-10-23T05:36:24.182Z"
     },
     {
       "id": "coding-interview-university",
@@ -2760,6 +2760,35 @@
       "syncedAt": "2026-10-21T09:41:16.576Z"
     },
     {
+      "id": "omniroute",
+      "name": "OmniRoute",
+      "repo": "cheaper-inference/OmniRoute",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "a2a",
+        "ai-agents",
+        "ai-gateway",
+        "anthropic"
+      ],
+      "usage": [],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "affiliate_url": "",
+      "affiliate_enabled": false,
+      "homepage": "https://omniroute.online",
+      "stars": 79979,
+      "language": "TypeScript",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-10-23",
+      "descEn": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
+      "syncOk": true,
+      "syncedAt": "2026-10-23T05:36:24.182Z"
+    },
+    {
       "id": "voicestudio",
       "name": "VoiceStudio",
       "repo": "debpalash/VoiceStudio",
@@ -2815,35 +2844,6 @@
       "archived": false,
       "pushedAt": "2026-03-11",
       "descEn": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
-      "syncOk": true,
-      "syncedAt": "2026-10-21T09:41:16.576Z"
-    },
-    {
-      "id": "omniroute",
-      "name": "OmniRoute",
-      "repo": "diegosouzapw/OmniRoute",
-      "category": "ai-agents",
-      "desc": "",
-      "tags": [
-        "a2a",
-        "ai-agents",
-        "ai-gateway",
-        "anthropic"
-      ],
-      "usage": [],
-      "platforms": [],
-      "caution": "",
-      "scene": "",
-      "cloud": "",
-      "affiliate_url": "",
-      "affiliate_enabled": false,
-      "homepage": "https://omniroute.online",
-      "stars": 79126,
-      "language": "TypeScript",
-      "license": "MIT",
-      "archived": false,
-      "pushedAt": "2026-10-21",
-      "descEn": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
       "syncOk": true,
       "syncedAt": "2026-10-21T09:41:16.576Z"
     },
@@ -4198,6 +4198,35 @@
       "syncedAt": "2026-10-21T09:41:16.576Z"
     },
     {
+      "id": "ai-job-search",
+      "name": "Ai Job Search",
+      "repo": "ai-job-search-dev/ai-job-search",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "career",
+        "claude-code"
+      ],
+      "usage": [],
+      "platforms": [],
+      "caution": "",
+      "scene": "",
+      "cloud": "",
+      "affiliate_url": "",
+      "affiliate_enabled": false,
+      "homepage": "",
+      "stars": 63668,
+      "language": "Python",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-10-21",
+      "descEn": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "syncOk": true,
+      "syncedAt": "2026-10-23T05:36:49.760Z"
+    },
+    {
       "id": "context7",
       "name": "Context7",
       "repo": "upstash/context7",
@@ -4462,35 +4491,6 @@
       "archived": false,
       "pushedAt": "2026-10-21",
       "descEn": "Turn any website into a lightweight desktop app with one command, on macOS, Windows and Linux.",
-      "syncOk": true,
-      "syncedAt": "2026-10-21T09:41:16.576Z"
-    },
-    {
-      "id": "ai-job-search",
-      "name": "Ai Job Search",
-      "repo": "MadsLorentzen/ai-job-search",
-      "category": "ai-agents",
-      "desc": "",
-      "tags": [
-        "ai",
-        "ai-agents",
-        "career",
-        "claude-code"
-      ],
-      "usage": [],
-      "platforms": [],
-      "caution": "",
-      "scene": "",
-      "cloud": "",
-      "affiliate_url": "",
-      "affiliate_enabled": false,
-      "homepage": "",
-      "stars": 61854,
-      "language": "Python",
-      "license": "MIT",
-      "archived": false,
-      "pushedAt": "2026-10-21",
-      "descEn": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
       "syncOk": true,
       "syncedAt": "2026-10-21T09:41:16.576Z"
     },
@@ -23837,14 +23837,9 @@
       "id": "hol-guard",
       "name": "Hol Guard",
       "repo": "hashgraph-online/hol-guard",
-      "category": "ai-agents",
+      "category": "dev-tools",
       "desc": "",
-      "tags": [
-        "agent-security",
-        "ai-agent-security",
-        "ai-agents",
-        "ai-antivirus"
-      ],
+      "tags": [],
       "usage": [],
       "platforms": [],
       "caution": "",

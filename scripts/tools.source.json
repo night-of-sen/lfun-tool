@@ -10921,7 +10921,7 @@
     {
       "id": "developer-roadmap",
       "name": "Developer Roadmaps",
-      "repo": "kamranahmedse/developer-roadmap",
+      "repo": "nilbuild/developer-roadmap",
       "homepage": "https://roadmap.sh",
       "category": "writing-knowledge",
       "desc": "各方向的学习路线图，从入门到进阶该学什么都画清楚了",
@@ -15974,7 +15974,7 @@
     {
       "id": "omniroute",
       "name": "OmniRoute",
-      "repo": "diegosouzapw/OmniRoute",
+      "repo": "cheaper-inference/OmniRoute",
       "homepage": "https://omniroute.online",
       "category": "ai-agents",
       "desc": "",
@@ -17023,7 +17023,7 @@
     {
       "id": "ai-job-search",
       "name": "Ai Job Search",
-      "repo": "MadsLorentzen/ai-job-search",
+      "repo": "ai-job-search-dev/ai-job-search",
       "homepage": "",
       "category": "ai-agents",
       "desc": "",

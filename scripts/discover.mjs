@@ -141,7 +141,27 @@ for (const q of QUERIES) {
 }
 console.log("去重后候选: " + candidates.size);
 
+// 仓库迁移判重（2026-10-23 SEO 撞车根因）：
+// GitHub 仓库换组织/改名后，旧 repo 字符串（如 diegosouzapw/OmniRoute）
+// 在 source 里仍是旧名，search 返回的新名（如 cheaper-inference/OmniRoute）
+// 按字符串判重会被当成新工具，又加一条 -2 条目；随后 sync 跟随 301
+// 把旧条目也刷成新仓库的星数/描述/语言/许可证，两条工具页 meta 描述
+// 完全相同（中英各 2 条，共 4 条），SEO 自检失败。
+// 因此：候选仓库名 slug 已存在、或描述前 80 字与已有条目相同 时，
+// 先用 GitHub API 查已有条目的真实 full_name（301 跟随到同一 repo id），
+// 只有 full_name 与候选一致才认定为迁移：更新已有条目的 repo，不新增。
+// 查不到/限流时宁可暂不新增，也不要加一条可能重复的条目（下次运行可重试）。
+async function fetchRepoFullName(repo) {
+  try {
+    const res = await fetch("https://api.github.com/repos/" + repo, { headers });
+    if (!res.ok) return null;
+    const d = await res.json();
+    return (d.full_name || "").toLowerCase() || null;
+  } catch (e) { return null; }
+}
+
 const added = [];
+const moved = [];
 for (const r of candidates.values()) {
   if (added.length >= LIMIT) break;
   const full = (r.full_name || "").toLowerCase();
@@ -153,6 +173,40 @@ for (const r of candidates.values()) {
   if (!descEn) continue;
 
   const repoName = r.name || full.split("/")[1] || "tool";
+  // 只有 slug 撞车或描述前缀撞车时才触发迁移验证，避免给每个候选都加 API 请求
+  const suspicious = items.filter((it) => {
+    const oldName = String(it.repo || "").split("/")[1] || "";
+    if (slugify(oldName) === slugify(repoName)) return true;
+    const oldDesc = String(it.descEn || "");
+    if (oldDesc && descEn && oldDesc.slice(0, 80) === descEn.slice(0, 80)) return true;
+    return false;
+  });
+  if (suspicious.length) {
+    // isMove: true=确认迁移，false=验证失败/限流（未确认），null=全部验证过且均不匹配
+    let isMove = null;
+    let moveTarget = null;
+    let oldRepo = "";
+    for (const it of suspicious) {
+      const actual = await fetchRepoFullName(it.repo);
+      if (actual && actual === full) { isMove = true; moveTarget = it; oldRepo = it.repo; break; }
+      if (actual === null) { isMove = false; break; }
+    }
+    if (isMove && moveTarget) {
+      if (!DRY) {
+        existingRepos.delete(String(oldRepo || "").toLowerCase());
+        moveTarget.repo = r.full_name;
+        existingRepos.add(full);
+        moved.push({ id: moveTarget.id, from: oldRepo, to: r.full_name });
+      }
+      console.log("  仓库迁移，已更新旧条目 repo，不新增: " + moveTarget.id + " " + oldRepo + " -> " + r.full_name);
+      continue;
+    }
+    if (isMove === false) {
+      console.log("  迁移验证失败/限流，暂不新增（避免重复，下次运行可重试）: " + r.full_name);
+      continue;
+    }
+    // isMove === null：全部验证返回非 null 且均不匹配，说明是不同仓库，继续新增
+  }
   const id = uniqueId(slugify(repoName));
   const topics = (r.topics || []).slice(0, 4);
   const pushedAt = (r.pushed_at || "").slice(0, 10);
@@ -178,11 +232,12 @@ for (const r of candidates.values()) {
   added.push({ id, repo: r.full_name, stars, category: entry.category });
 }
 
-console.log("\n新增 " + added.length + " 个项目" + (DRY ? "（试运行，未写入）" : "") + ":");
+console.log("\n新增 " + added.length + " 个项目，仓库迁移更新 " + moved.length + " 个" + (DRY ? "（试运行，未写入）" : "") + ":");
 for (const a of added) console.log("  + " + a.id + "  " + a.repo + "  ★" + a.stars + "  [" + a.category + "]");
+for (const m of moved) console.log("  ~ " + m.id + "  " + m.from + " -> " + m.to);
 
-if (!DRY && added.length) {
+if (!DRY && (added.length || moved.length)) {
   await writeFile(SRC, JSON.stringify(source, null, 2) + "\n", "utf8");
   console.log("已写入 " + SRC);
 }
-if (!DRY && !added.length) console.log("无新增，文件未改动。");
+if (!DRY && !added.length && !moved.length) console.log("无新增、无迁移，文件未改动。");
