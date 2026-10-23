@@ -49,6 +49,30 @@ ErrorDocument 404 /404.html
   # 默认语言改为英文：旧的 /en/* 301 到 /*（英文内容已搬到根路径）
   RewriteRule ^en/(.*)$ /$1 [R=301,L]
 
+  # P1 分类迁移：旧分类 301 到新主分类（根路径与 /zh/ 路径）
+  RewriteRule ^category/(ai|agent|skill)/?$ /category/ai-agents/ [R=301,L]
+  RewriteRule ^zh/category/(ai|agent|skill)/?$ /zh/category/ai-agents/ [R=301,L]
+  RewriteRule ^category/(commerce|payment|finance|crm|support|notify|compliance|i18n)/?$ /category/business-support/ [R=301,L]
+  RewriteRule ^zh/category/(commerce|payment|finance|crm|support|notify|compliance|i18n)/?$ /zh/category/business-support/ [R=301,L]
+  RewriteRule ^category/(design|image|watermark|diagram)/?$ /category/design-creativity/ [R=301,L]
+  RewriteRule ^zh/category/(design|image|watermark|diagram)/?$ /zh/category/design-creativity/ [R=301,L]
+  RewriteRule ^category/(dev|editor|lowcode|devops)/?$ /category/dev-tools/ [R=301,L]
+  RewriteRule ^zh/category/(dev|editor|lowcode|devops)/?$ /zh/category/dev-tools/ [R=301,L]
+  RewriteRule ^category/(fun|game)/?$ /category/fun-games/ [R=301,L]
+  RewriteRule ^zh/category/(fun|game)/?$ /zh/category/fun-games/ [R=301,L]
+  RewriteRule ^category/(database|monitor|network|system|storage|security|auth)/?$ /category/infra-security/ [R=301,L]
+  RewriteRule ^zh/category/(database|monitor|network|system|storage|security|auth)/?$ /zh/category/infra-security/ [R=301,L]
+  RewriteRule ^category/(promo|email|social|analytics|experiment|sitesearch)/?$ /category/marketing-growth/ [R=301,L]
+  RewriteRule ^zh/category/(promo|email|social|analytics|experiment|sitesearch)/?$ /zh/category/marketing-growth/ [R=301,L]
+  RewriteRule ^category/(mobile|iot)/?$ /category/mobile-iot/ [R=301,L]
+  RewriteRule ^zh/category/(mobile|iot)/?$ /zh/category/mobile-iot/ [R=301,L]
+  RewriteRule ^category/(project|team|form|filesearch|utility|browser|download)/?$ /category/productivity/ [R=301,L]
+  RewriteRule ^zh/category/(project|team|form|filesearch|utility|browser|download)/?$ /zh/category/productivity/ [R=301,L]
+  RewriteRule ^category/(video|media|mediaserver|capture)/?$ /category/video-media/ [R=301,L]
+  RewriteRule ^zh/category/(video|media|mediaserver|capture)/?$ /zh/category/video-media/ [R=301,L]
+  RewriteRule ^category/(writing|doc|notes|learn)/?$ /category/writing-knowledge/ [R=301,L]
+  RewriteRule ^zh/category/(writing|doc|notes|learn)/?$ /zh/category/writing-knowledge/ [R=301,L]
+
   # /go/<tool_id> 交给 PHP：302 跳转 + 记录点击（PRD 模块二）
   # 放过构建期兜底跳转表，它由静态文件直接提供
   RewriteCond %{REQUEST_URI} !^/go/affiliates\.json$

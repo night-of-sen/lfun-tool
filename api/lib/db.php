@@ -54,7 +54,17 @@ function ensure_schema(): array {
     'submissions' =>
       "CREATE TABLE IF NOT EXISTS submissions (id $id, repo_url VARCHAR(300) NOT NULL, tier VARCHAR(16) NOT NULL DEFAULT 'free', " .
       "contact_email VARCHAR(200) NOT NULL DEFAULT '', status VARCHAR(20) NOT NULL DEFAULT 'pending', sla_deadline $d NULL, " .
-      "query_code CHAR(12) NOT NULL DEFAULT '', submitter_country VARCHAR(80) NOT NULL DEFAULT '', created_at $ts) $ai",
+      "query_code CHAR(12) NOT NULL DEFAULT '', submitter_country VARCHAR(80) NOT NULL DEFAULT '', " .
+      "tool_name VARCHAR(120) NOT NULL DEFAULT '', oneliner VARCHAR(200) NOT NULL DEFAULT '', work_url VARCHAR(500) NOT NULL DEFAULT '', " .
+      "author_name VARCHAR(120) NOT NULL DEFAULT '', author_url VARCHAR(500) NOT NULL DEFAULT '', primary_category VARCHAR(40) NOT NULL DEFAULT '', " .
+      "tags VARCHAR(300) NOT NULL DEFAULT '', screenshot_url VARCHAR(500) NOT NULL DEFAULT '', video_url VARCHAR(500) NOT NULL DEFAULT '', " .
+      "price_model VARCHAR(20) NOT NULL DEFAULT '', form VARCHAR(20) NOT NULL DEFAULT '', highlights TEXT, price_detail VARCHAR(300) NOT NULL DEFAULT '', created_at $ts) $ai",
+    'tool_votes' =>
+      "CREATE TABLE IF NOT EXISTS tool_votes (id $id, tool_id VARCHAR(80) NOT NULL, voter_hash CHAR(32) NOT NULL DEFAULT '', " .
+      "created_at $ts) $ai",
+    'tool_views' =>
+      "CREATE TABLE IF NOT EXISTS tool_views (id $id, tool_id VARCHAR(80) NOT NULL, view_hash CHAR(32) NOT NULL DEFAULT '', " .
+      "created_at $ts) $ai",
     'affiliates' =>
       "CREATE TABLE IF NOT EXISTS affiliates (tool_id VARCHAR(80) NOT NULL PRIMARY KEY, url VARCHAR(500) NOT NULL DEFAULT '', " .
       "enabled TINYINT NOT NULL DEFAULT 1, note VARCHAR(200) NOT NULL DEFAULT '', updated_at $ts) $ai",
@@ -97,4 +107,56 @@ function ensure_submission_geo_columns(): void {
   if (!$has) {
     try { $pdo->exec("ALTER TABLE submissions ADD COLUMN submitter_country VARCHAR(80) NOT NULL DEFAULT ''"); } catch (Throwable $e) { /* 并发建列时忽略 */ }
   }
+}
+
+// P2 创作者投稿补列：幂等，只加列不删列；与 geo 补列同一模式。
+// 上线前也可在测试库先跑 api/migrations/2026-10-23-showcase-submissions.sql，本函数是运行时兜底。
+function ensure_submission_showcase_columns(): void {
+  $pdo = db();
+  $cols = [
+    'tool_name' => "VARCHAR(120) NOT NULL DEFAULT ''",
+    'oneliner' => "VARCHAR(200) NOT NULL DEFAULT ''",
+    'work_url' => "VARCHAR(500) NOT NULL DEFAULT ''",
+    'author_name' => "VARCHAR(120) NOT NULL DEFAULT ''",
+    'author_url' => "VARCHAR(500) NOT NULL DEFAULT ''",
+    'primary_category' => "VARCHAR(40) NOT NULL DEFAULT ''",
+    'tags' => "VARCHAR(300) NOT NULL DEFAULT ''",
+    'screenshot_url' => "VARCHAR(500) NOT NULL DEFAULT ''",
+    'video_url' => "VARCHAR(500) NOT NULL DEFAULT ''",
+    'price_model' => "VARCHAR(20) NOT NULL DEFAULT ''",
+    'form' => "VARCHAR(20) NOT NULL DEFAULT ''",
+    'highlights' => 'TEXT',
+    'price_detail' => "VARCHAR(300) NOT NULL DEFAULT ''",
+  ];
+  try {
+    $existing = [];
+    if (db_is_sqlite()) {
+      foreach ($pdo->query('PRAGMA table_info(submissions)') as $col) { $existing[] = (string) ($col['name'] ?? ''); }
+    } else {
+      $st = $pdo->prepare("SELECT COLUMN_NAME FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'submissions'");
+      $st->execute();
+      $existing = $st->fetchAll(PDO::FETCH_COLUMN) ?: [];
+    }
+    foreach ($cols as $name => $def) {
+      if (!in_array($name, $existing, true)) {
+        try { $pdo->exec("ALTER TABLE submissions ADD COLUMN $name $def"); } catch (Throwable $e) { /* 并发建列时忽略 */ }
+      }
+    }
+  } catch (Throwable $e) { return; }
+}
+
+// P6 点赞与浏览表：只新建表，不改旧表；调用方在写入前调用一次。
+function ensure_tool_vote_tables(): void {
+  $pdo = db();
+  $mysql = !db_is_sqlite();
+  $id = $mysql ? 'INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY' : 'INTEGER PRIMARY KEY AUTOINCREMENT';
+  $ai = $mysql ? 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci' : '';
+  $ts = $mysql ? 'DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP' : "TEXT NOT NULL DEFAULT (datetime('now'))";
+  $sqls = [
+    "CREATE TABLE IF NOT EXISTS tool_votes (id $id, tool_id VARCHAR(80) NOT NULL, voter_hash CHAR(32) NOT NULL DEFAULT '', created_at $ts) $ai",
+    "CREATE TABLE IF NOT EXISTS tool_views (id $id, tool_id VARCHAR(80) NOT NULL, view_hash CHAR(32) NOT NULL DEFAULT '', created_at $ts) $ai",
+    'CREATE INDEX idx_votes_tool ON tool_votes (tool_id)',
+    'CREATE INDEX idx_views_tool ON tool_views (tool_id)',
+  ];
+  foreach ($sqls as $sql) { try { $pdo->exec($sql); } catch (Throwable $e) { /* 已存在时忽略 */ } }
 }

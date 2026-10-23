@@ -11,7 +11,7 @@ $lang = (($_GET['lang'] ?? '') === 'zh') ? 'zh' : 'en';
 $row = null;
 if (preg_match('/^[A-Z0-9]{12}$/', $code)) {
   try {
-    $st = db()->prepare('SELECT repo_url, tier, contact_email, status, sla_deadline, created_at FROM submissions WHERE query_code = ?');
+    $st = db()->prepare('SELECT * FROM submissions WHERE query_code = ?');
     $st->execute([$code]);
     $r = $st->fetch(PDO::FETCH_ASSOC);
     if ($r) $row = $r;
@@ -58,6 +58,8 @@ header('Content-Type: text/html; charset=utf-8');
   <?php else: ?>
     <table class="price-table"><tbody>
       <tr><td><?= h($L['code']) ?></td><td><code><?= h($code) ?></code></td></tr>
+      <?php if (($row['tool_name'] ?? '') !== ''): ?><tr><td>工具</td><td><?= h((string) $row['tool_name']) ?></td></tr><?php endif; ?>
+      <?php if (($row['work_url'] ?? '') !== ''): ?><tr><td>作品链接</td><td style="word-break:break-all"><?= h((string) $row['work_url']) ?></td></tr><?php endif; ?>
       <tr><td><?= h($L['repo']) ?></td><td style="word-break:break-all"><?= h($row['repo_url']) ?></td></tr>
       <tr><td><?= h($L['tier']) ?></td><td><?= h($L['tier_' . $row['tier']] ?? $row['tier']) ?></td></tr>
       <tr><td><?= h($L['status']) ?></td><td><strong><?= h($L['st_' . $row['status']] ?? $row['status']) ?></strong></td></tr>

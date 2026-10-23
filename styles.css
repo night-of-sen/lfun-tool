@@ -445,3 +445,40 @@ html[data-theme="dark"] .re-hl mark{background:#a16207;color:#fff}
 .sponsor-title{margin:0 0 10px;font-size:15px;font-weight:700;letter-spacing:-.2px}
 .sponsor-card{border-color:color-mix(in srgb,var(--text) 24%,transparent)}
 .sponsor-badge{font-size:10.5px;font-weight:700;color:var(--muted);border:1px solid var(--border);border-radius:5px;padding:1px 6px;white-space:nowrap}
+
+/* P3 创意展示卡片：封面在上，平台+价格徽章，作者+点赞+主按钮 */
+.card-cover{margin:-18px -18px 0;border-radius:var(--radius) var(--radius) 0 0;overflow:hidden;background:var(--accent-soft);display:grid;place-items:center;min-height:44px}
+.card-cover:empty{display:none}
+.card-cover-img{width:100%;max-height:180px;object-fit:cover;display:block}
+.card-cover .icon{margin:12px auto}
+.card-meta{display:flex;gap:6px;flex-wrap:wrap}
+.price-badge{background:var(--accent-soft);color:var(--accent);border-color:var(--accent)}
+.card-author{font-size:12px;color:var(--muted);margin-right:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:140px}
+.vote-btn{background:transparent;border:1px solid var(--border);border-radius:999px;padding:4px 10px;cursor:pointer;color:var(--text);font-size:12px}
+.vote-btn.on{color:#e11d48;border-color:#e11d48}
+.sort-label{display:block;font-size:12px;color:var(--muted);margin-top:10px}
+.sort-label .sort{margin-top:4px;width:100%}
+
+/* P4 详情页：常驻试用条、详情分区 */
+.detail-trybar{position:sticky;top:0;z-index:5;background:var(--panel);padding:10px 0;border-bottom:1px solid var(--border)}
+.detail-sec{margin:20px 0}
+.detail-sec h2{font-size:16px;margin:0 0 8px}
+.detail-sec h3{font-size:14px;margin:12px 0 6px}
+
+/* P5 首页展示区：分类 tile、今日新品/热门 spot 卡、创作者卡（不用 .card，避免 smoke 计数翻倍） */
+.hero-tagline{font-size:15px;color:var(--muted);margin:8px 0}
+.hero-cta{margin:12px 0}
+.showcase{margin:24px 0}
+.showcase h2{font-size:18px;margin:0 0 12px}
+.showcase-note{font-size:13px;color:var(--muted);margin:-6px 0 12px}
+.cat-tiles{display:flex;flex-wrap:wrap;gap:10px}
+.cat-tile{display:flex;gap:8px;align-items:center;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:10px 14px;color:var(--text);text-decoration:none}
+.cat-tile span{font-size:12px;color:var(--muted)}
+.spot-grid,.creator-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.spot-card,.creator-card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:14px}
+.spot-card h3,.creator-card h3{margin:0 0 6px;font-size:15px}
+.spot-card p{margin:0 0 8px;font-size:13px;color:var(--text);opacity:.9}
+.spot-meta{font-size:12px;color:var(--muted)}
+.creator-card ul{margin:8px 0 0;padding-left:18px;font-size:13px}
+.creator-head{display:flex;gap:16px;align-items:center;margin:16px 0}
+.topbar-submit{white-space:nowrap}

@@ -97,15 +97,22 @@ if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') {
       // 状态变更通知：只在真正切到 approved / rejected 时给提交者发一封邮件，重复点“更新”不重发
       $oldRow = null;
       try {
-        $q = db()->prepare('SELECT contact_email, repo_url, tier, status FROM submissions WHERE id = ?');
+        $q = db()->prepare('SELECT contact_email, repo_url, tool_name, work_url, tier, status FROM submissions WHERE id = ?');
         $q->execute([$sid]);
         $oldRow = $q->fetch();
-      } catch (Throwable $e) { $oldRow = null; }
+      } catch (Throwable $e) {
+        try {
+          $q = db()->prepare('SELECT contact_email, repo_url, tier, status FROM submissions WHERE id = ?');
+          $q->execute([$sid]);
+          $oldRow = $q->fetch();
+        } catch (Throwable $e2) { $oldRow = null; }
+      }
       $st = db()->prepare('UPDATE submissions SET status = ? WHERE id = ?');
       $st->execute([$newStatus, $sid]);
       $msg = '已更新';
       if ($oldRow && $oldRow['status'] !== $newStatus && in_array($newStatus, ['approved', 'rejected'], true)) {
-        $sent = send_submission_decision_mail($oldRow['contact_email'], $oldRow['repo_url'], $oldRow['tier'], $newStatus);
+        $display = ($oldRow['tool_name'] ?? '') !== '' ? (string) $oldRow['tool_name'] : (($oldRow['work_url'] ?? '') !== '' ? (string) $oldRow['work_url'] : (string) $oldRow['repo_url']);
+        $sent = send_submission_decision_mail($oldRow['contact_email'], $display, $oldRow['tier'], $newStatus);
         $msg .= $sent ? '（通知邮件已发送）' : '（通知邮件发送失败）';
       }
     }
@@ -148,6 +155,12 @@ $affiliates = rows('SELECT * FROM affiliates ORDER BY updated_at DESC LIMIT 500'
 $subs = rows("SELECT * FROM submissions ORDER BY (tier = 'free') ASC, (status = 'paid_pending') DESC, id DESC LIMIT 200");
 $subscribers = rows("SELECT COUNT(*) AS n FROM subscribers WHERE status = 'active'");
 $clickRows = rows('SELECT tool_id, COUNT(*) AS n FROM clicks GROUP BY tool_id ORDER BY n DESC LIMIT 20');
+// P6 互动统计（表不存在时 rows() 返回 []，页面不报错；第一版仅站长看，不开放作者后台）
+$voteRows = rows('SELECT tool_id, COUNT(*) AS n FROM tool_votes GROUP BY tool_id ORDER BY n DESC LIMIT 20');
+$tryRows = rows("SELECT tool_id, COUNT(*) AS n FROM clicks WHERE target_type = 'work' GROUP BY tool_id ORDER BY n DESC LIMIT 20");
+$viewRows = rows('SELECT tool_id, COUNT(*) AS n FROM tool_views GROUP BY tool_id ORDER BY n DESC LIMIT 20');
+$voteSpikes = rows('SELECT tool_id, COUNT(*) AS n FROM tool_votes WHERE created_at > ? GROUP BY tool_id ORDER BY n DESC LIMIT 20', [date('Y-m-d H:i:s', time() - 3600)]);
+$voteSpikes = array_values(array_filter($voteSpikes, fn($r) => (int) ($r['n'] ?? 0) > 50));
 $clickTotal = rows('SELECT COUNT(*) AS n FROM clicks');
 $today = date('Y-m-d');
 $activeSponsors = rows('SELECT * FROM sponsorships WHERE status = ? AND start_date <= ? AND end_date >= ?', ['active', $today, $today]);
@@ -191,6 +204,19 @@ form.inline{display:contents}
 <div class="card"><h3>点击 Top 20</h3><table><tr><th>工具</th><th>点击</th></tr>
 <?php foreach ($clickRows as $r): ?><tr><td><?= h($r['tool_id']) ?></td><td><?= (int) $r['n'] ?></td></tr><?php endforeach; ?>
 <?php if (!$clickRows): ?><tr><td colspan="2" class="muted">暂无数据</td></tr><?php endif; ?></table></div>
+<div class="card"><h3>点赞 Top 20（P6）</h3><table><tr><th>工具</th><th>点赞</th></tr>
+<?php foreach ($voteRows as $r): ?><tr><td><?= h($r['tool_id']) ?></td><td><?= (int) $r['n'] ?></td></tr><?php endforeach; ?>
+<?php if (!$voteRows): ?><tr><td colspan="2" class="muted">暂无数据（点赞表为空或未建表）</td></tr><?php endif; ?></table>
+<p class="muted">点赞异常（近 1 小时 &gt; 50 票）人工复核：先在数据库核对 voter_hash 分布，确认刷票后再手动删除该时段记录（DELETE FROM tool_votes WHERE tool_id = ? AND created_at &gt; ?），不要直接改计数——计数由行数算出。</p>
+<?php if ($voteSpikes): ?><table><tr><th>疑似异常工具</th><th>近 1 小时票数</th></tr>
+<?php foreach ($voteSpikes as $r): ?><tr><td><?= h($r['tool_id']) ?></td><td style="color:#f66;font-weight:bold"><?= (int) $r['n'] ?></td></tr><?php endforeach; ?></table>
+<?php else: ?><p class="muted">近 1 小时无异常点赞。</p><?php endif; ?></div>
+<div class="card"><h3>试用点击 Top 20（作品链接，P6）</h3><table><tr><th>工具</th><th>试用点击</th></tr>
+<?php foreach ($tryRows as $r): ?><tr><td><?= h($r['tool_id']) ?></td><td><?= (int) $r['n'] ?></td></tr><?php endforeach; ?>
+<?php if (!$tryRows): ?><tr><td colspan="2" class="muted">暂无数据</td></tr><?php endif; ?></table></div>
+<div class="card"><h3>浏览 Top 20（详情页，P6）</h3><table><tr><th>工具</th><th>浏览</th></tr>
+<?php foreach ($viewRows as $r): ?><tr><td><?= h($r['tool_id']) ?></td><td><?= (int) $r['n'] ?></td></tr><?php endforeach; ?>
+<?php if (!$viewRows): ?><tr><td colspan="2" class="muted">暂无数据</td></tr><?php endif; ?></table></div>
 
 <?php elseif ($p === 'sponsors'): ?>
 <div class="card"><h3>新建 / 编辑赞助排期</h3>
@@ -248,10 +274,10 @@ form.inline{display:contents}
 
 <?php elseif ($p === 'subs'): ?>
 <div class="card"><h3>收录提交队列（<?= count($subs) ?>）</h3>
-<p class="muted">付费队列置顶并显示 SLA；未付款的付费提交不会进入工具库。上线前提交的 IP 国家显示“未记录”（只存国家，不存原始 IP）。改成 approved 后会自动发邮件通知提交者，并在下次每日重建时自动上架；改成 rejected 也会发邮件。</p><table>
-<tr><th>id</th><th>仓库</th><th>档位</th><th>联系</th><th>SLA</th><th>状态</th><th>查询码</th><th>提交时间</th><th>IP 国家</th><th></th></tr>
+<p class="muted">付费队列置顶并显示 SLA；未付款的付费提交不会进入工具库。上线前提交的 IP 国家显示“未记录”（只存国家，不存原始 IP）。改成 approved 后会自动发邮件通知提交者；GitHub 投稿在下次每日重建时自动上架，非 GitHub 投稿须站长按本行字段手动加入工具库（data/tools.json），自动上架仅支持仓库投稿。</p><table>
+<tr><th>id</th><th>工具 / 作品链接</th><th>仓库</th><th>主分类</th><th>形态</th><th>价格</th><th>作者</th><th>档位</th><th>联系</th><th>SLA</th><th>状态</th><th>查询码</th><th>提交时间</th><th>IP 国家</th><th></th></tr>
 <?php foreach ($subs as $r): ?><?php $slaOver = !empty($r['sla_deadline']) && $r['sla_deadline'] < date('Y-m-d H:i:s') && in_array($r['status'], ['pending', 'paid_pending'], true); ?><?php $sc = (string) ($r['submitter_country'] ?? ''); ?><tr>
-<td><?= (int) $r['id'] ?></td><td style="word-break:break-all"><?= h($r['repo_url']) ?></td><td><?= h($r['tier']) ?></td>
+<td><?= (int) $r['id'] ?></td><td style="word-break:break-all"><?php if (($r['tool_name'] ?? '') !== ''): ?><?= h((string) $r['tool_name']) ?><?php if (($r['oneliner'] ?? '') !== ''): ?><br><span class="muted"><?= h((string) $r['oneliner']) ?></span><?php endif; ?><?php if (($r['work_url'] ?? '') !== ''): ?><br><a class="muted" href="<?= h((string) $r['work_url']) ?>" target="_blank" rel="noopener">作品链接</a><?php endif; ?><?php if (($r['screenshot_url'] ?? '') !== ''): ?><br><a class="muted" href="<?= h((string) $r['screenshot_url']) ?>" target="_blank" rel="noopener">截图</a><?php endif; ?><?php else: ?><span class="muted">老投稿（仅仓库）</span><?php endif; ?></td><td style="word-break:break-all"><?= h($r['repo_url']) ?></td><td><?= h((string) ($r['primary_category'] ?? '')) ?></td><td><?= h((string) ($r['form'] ?? '')) ?></td><td><?= h((string) ($r['price_model'] ?? '')) ?></td><td><?= h((string) ($r['author_name'] ?? '')) ?></td><td><?= h($r['tier']) ?></td>
 <td><?= h($r['contact_email']) ?></td><td<?= $slaOver ? ' style="color:#f66;font-weight:bold" title="SLA 已超时"' : ' class="muted"' ?>><?= h((string) $r['sla_deadline']) ?></td>
 <td><?= h($r['status']) ?></td><td class="muted"><?= h($r['query_code']) ?></td>
 <td class="muted"><?= h((string) ($r['created_at'] ?? '')) ?></td>
@@ -260,7 +286,7 @@ form.inline{display:contents}
 <input type="hidden" name="action" value="submission_status"><input type="hidden" name="id" value="<?= (int) $r['id'] ?>">
 <select name="status"><?php foreach (['pending', 'paid_pending', 'approved', 'rejected'] as $opt): ?><option value="<?= $opt ?>"<?= $r['status'] === $opt ? ' selected' : '' ?>><?= $opt ?></option><?php endforeach; ?></select>
 <button class="ghost">更新</button></form></td></tr><?php endforeach; ?>
-<?php if (!$subs): ?><tr><td colspan="10" class="muted">暂无提交</td></tr><?php endif; ?></table></div>
+<?php if (!$subs): ?><tr><td colspan="15" class="muted">暂无提交</td></tr><?php endif; ?></table></div>
 
 <?php else: ?>
 <div class="card"><h3>订阅者</h3>
