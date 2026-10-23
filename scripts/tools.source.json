@@ -22210,6 +22210,688 @@
       "cloud": "",
       "descEn": "Godot Engine – Multi-platform 2D and 3D game engine",
       "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "v2rayn",
+      "name": "V2rayN",
+      "repo": "2dust/v2rayN",
+      "homepage": "https://v2rayn.2dust.link",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "proxy",
+        "shadowsocks",
+        "socks5",
+        "trojan"
+      ],
+      "seed": {
+        "stars": 118888,
+        "language": "C#"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "three-js",
+      "name": "Three.js",
+      "repo": "mrdoob/three.js",
+      "homepage": "https://threejs.org/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "3d",
+        "augmented-reality",
+        "canvas",
+        "html5"
+      ],
+      "seed": {
+        "stars": 116810,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "JavaScript 3D Library.",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "awesome-mac",
+      "name": "Awesome Mac",
+      "repo": "jaywcjlove/awesome-mac",
+      "homepage": "https://git.io/macx",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "app",
+        "apple",
+        "application",
+        "apps"
+      ],
+      "seed": {
+        "stars": 116786,
+        "language": "Swift"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "d3",
+      "name": "D3",
+      "repo": "d3/d3",
+      "homepage": "https://d3js.org",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "chart",
+        "charts",
+        "d3",
+        "data-visualization"
+      ],
+      "seed": {
+        "stars": 113792,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "repo": "supabase/supabase",
+      "homepage": "https://supabase.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "alternative",
+        "auth",
+        "database"
+      ],
+      "seed": {
+        "stars": 113621,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "tradingagents",
+      "name": "TradingAgents",
+      "repo": "TauricResearch/TradingAgents",
+      "homepage": "https://arxiv.org/pdf/2412.20138",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "finance",
+        "llm",
+        "multiagent"
+      ],
+      "seed": {
+        "stars": 113150,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "pushedAt": "2026-10-16"
+    },
+    {
+      "id": "tauri",
+      "name": "Tauri",
+      "repo": "tauri-apps/tauri",
+      "homepage": "https://tauri.app",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "desktop-app",
+        "high-performance",
+        "mobile-app",
+        "native-app"
+      ],
+      "seed": {
+        "stars": 112131,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "repo": "microsoft/TypeScript",
+      "homepage": "https://www.typescriptlang.org",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "javascript",
+        "language",
+        "typechecker",
+        "typescript"
+      ],
+      "seed": {
+        "stars": 111577,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "papers-we-love",
+      "name": "Papers We Love",
+      "repo": "papers-we-love/papers-we-love",
+      "homepage": "http://paperswelove.org/",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "awesome",
+        "computer-science",
+        "meetup",
+        "papers"
+      ],
+      "seed": {
+        "stars": 110804,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Papers from the computer science community to read and discuss.",
+      "pushedAt": "2026-09-29"
+    },
+    {
+      "id": "axios",
+      "name": "Axios",
+      "repo": "axios/axios",
+      "homepage": "https://axios-http.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "hacktoberfest",
+        "http-client",
+        "javascript",
+        "nodejs"
+      ],
+      "seed": {
+        "stars": 109305,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Promise based HTTP client for the browser and node.js",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "deno",
+      "name": "Deno",
+      "repo": "denoland/deno",
+      "homepage": "https://deno.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "deno",
+        "javascript",
+        "rust",
+        "typescript"
+      ],
+      "seed": {
+        "stars": 108729,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A modern runtime for JavaScript and TypeScript.",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "llms-from-scratch",
+      "name": "LLMs From Scratch",
+      "repo": "rasbt/LLMs-from-scratch",
+      "homepage": "https://amzn.to/4fqvn0D",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "artificial-intelligence",
+        "attention-mechanism",
+        "deep-learning"
+      ],
+      "seed": {
+        "stars": 107128,
+        "language": "Jupyter Notebook"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+      "pushedAt": "2026-10-02"
+    },
+    {
+      "id": "weekly",
+      "name": "Weekly",
+      "repo": "ruanyf/weekly",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 106808,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "科技爱好者周刊，每周五发布",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "nodebestpractices",
+      "name": "Nodebestpractices",
+      "repo": "goldbergyoni/nodebestpractices",
+      "homepage": "https://twitter.com/nodepractices/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "best-practices",
+        "es6",
+        "eslint",
+        "express"
+      ],
+      "seed": {
+        "stars": 105668,
+        "language": "Dockerfile"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "✅ The Node.js best practices list (July 2026)",
+      "pushedAt": "2026-06-15"
+    },
+    {
+      "id": "terminal",
+      "name": "Terminal",
+      "repo": "microsoft/terminal",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "cmd",
+        "command-line",
+        "console",
+        "contributions-welcome"
+      ],
+      "seed": {
+        "stars": 105224,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The new Windows Terminal and the original Windows console host, all in the same place!",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "pytorch",
+      "name": "Pytorch",
+      "repo": "pytorch/pytorch",
+      "homepage": "https://pytorch.org",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "autograd",
+        "deep-learning",
+        "gpu",
+        "machine-learning"
+      ],
+      "seed": {
+        "stars": 104996,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "fastapi",
+      "name": "Fastapi",
+      "repo": "fastapi/fastapi",
+      "homepage": "https://fastapi.tiangolo.com/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "api",
+        "async",
+        "asyncio",
+        "fastapi"
+      ],
+      "seed": {
+        "stars": 103963,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "create-react-app",
+      "name": "Create React App",
+      "repo": "react/create-react-app",
+      "homepage": "https://create-react-app.dev/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "build-tools",
+        "react",
+        "zero-configuration"
+      ],
+      "seed": {
+        "stars": 103238,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Set up a modern web app by running one command.",
+      "pushedAt": "2025-02-15"
+    },
+    {
+      "id": "howtocook",
+      "name": "HowToCook",
+      "repo": "Anduin2017/HowToCook",
+      "homepage": "https://howtocook.aiursoft.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "chinese",
+        "cookbook",
+        "cooking",
+        "dishes"
+      ],
+      "seed": {
+        "stars": 102990,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Programmer's guide about how to cook at home.",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "angular",
+      "name": "Angular",
+      "repo": "angular/angular",
+      "homepage": "https://angular.dev",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "angular",
+        "javascript",
+        "pwa",
+        "typescript"
+      ],
+      "seed": {
+        "stars": 101102,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Deliver web apps with confidence 🚀",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "every-programmer-should-know",
+      "name": "Every Programmer Should Know",
+      "repo": "mtdvio/every-programmer-should-know",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "cc-by",
+        "collection",
+        "computer-science",
+        "educational"
+      ],
+      "seed": {
+        "stars": 100553,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A collection of (mostly) technical things every software developer should know about",
+      "pushedAt": "2025-12-29"
+    },
+    {
+      "id": "ant-design",
+      "name": "Ant Design",
+      "repo": "ant-design/ant-design",
+      "homepage": "https://ant.design",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "ant-design",
+        "antd",
+        "design-systems",
+        "react"
+      ],
+      "seed": {
+        "stars": 99864,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An enterprise-class UI design language and React UI library",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "material-ui",
+      "name": "Material Ui",
+      "repo": "mui/material-ui",
+      "homepage": "https://mui.com/material-ui/",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "design-system",
+        "material-design",
+        "material-ui",
+        "react"
+      ],
+      "seed": {
+        "stars": 99259,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "playwright",
+      "name": "Playwright",
+      "repo": "microsoft/playwright",
+      "homepage": "https://playwright.dev",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "automation",
+        "chrome",
+        "chromium",
+        "e2e-testing"
+      ],
+      "seed": {
+        "stars": 98334,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "app-ideas",
+      "name": "App Ideas",
+      "repo": "florinpop17/app-ideas",
+      "homepage": "https://CodeRabbit.ai/?ref=app-ideas",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "applications",
+        "coding",
+        "codingchallenges",
+        "css"
+      ],
+      "seed": {
+        "stars": 98299,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A Collection of application ideas which can be used to improve your coding skills.",
+      "pushedAt": "2025-10-11"
+    },
+    {
+      "id": "tailwindcss",
+      "name": "Tailwindcss",
+      "repo": "tailwindlabs/tailwindcss",
+      "homepage": "https://tailwindcss.com/",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "css",
+        "css-framework",
+        "functional-css",
+        "postcss"
+      ],
+      "seed": {
+        "stars": 98027,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A utility-first CSS framework for rapid UI development.",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "thefuck",
+      "name": "Thefuck",
+      "repo": "nvbn/thefuck",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "python",
+        "shell"
+      ],
+      "seed": {
+        "stars": 97922,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Magnificent app which corrects your previous console command.",
+      "pushedAt": "2024-07-19"
+    },
+    {
+      "id": "deep-live-cam",
+      "name": "Deep Live Cam",
+      "repo": "hacksider/Deep-Live-Cam",
+      "homepage": "https://deeplivecam.net/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-deep-fake",
+        "ai-face",
+        "ai-webcam"
+      ],
+      "seed": {
+        "stars": 97175,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "real time face swap and one-click video deepfake with only a single image",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "web-dev-for-beginners",
+      "name": "Web Dev For Beginners",
+      "repo": "microsoft/Web-Dev-For-Beginners",
+      "homepage": "",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "css",
+        "curriculum",
+        "education",
+        "html"
+      ],
+      "seed": {
+        "stars": 97012,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "24 Lessons, 12 Weeks, Get Started as a Web Developer",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "bun",
+      "name": "Bun",
+      "repo": "oven-sh/bun",
+      "homepage": "https://bun.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "bun",
+        "bundler",
+        "javascript",
+        "javascriptcore"
+      ],
+      "seed": {
+        "stars": 96360,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "pushedAt": "2026-10-23"
     }
   ]
 }

@@ -6304,5 +6304,215 @@
     "source": "README.md",
     "rawLength": 3722,
     "fetchedAt": "2026-10-23T06:48:55.254Z"
+  },
+  "v2rayn": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2676,
+    "fetchedAt": "2026-10-23T08:02:45.622Z"
+  },
+  "three-js": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2969,
+    "fetchedAt": "2026-10-23T08:02:45.622Z"
+  },
+  "awesome-mac": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 293475,
+    "fetchedAt": "2026-10-23T08:02:45.622Z"
+  },
+  "d3": {
+    "summary": "D3 (or D3.js) is a free, open-source JavaScript library for visualizing data. Its low-level approach built on web standards offers unparalleled flexibility in authoring dynamic, data-driven graphics. For more than a decade D3 has powered groundbreaking and award-winning visualizations, become a foun…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1215,
+    "fetchedAt": "2026-10-23T08:02:45.622Z"
+  },
+  "supabase": {
+    "summary": "Supabase is the Postgres development platform. We're building the features of Firebase using enterprise-grade open source tools.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16656,
+    "fetchedAt": "2026-10-23T08:02:45.622Z"
+  },
+  "tradingagents": {
+    "summary": "TradingAgents is a multi-agent trading framework that mirrors the dynamics of real-world trading firms. By deploying specialized LLM-powered agents: from fundamental analysts, sentiment experts, and technical analysts, to trader, risk management team, the platform collaboratively evaluates market co…",
+    "docker": "cp .env.example .env  # add your API keys\ndocker compose run --rm tradingagents",
+    "source": "README.md",
+    "rawLength": 27214,
+    "fetchedAt": "2026-10-23T08:02:46.291Z"
+  },
+  "tauri": {
+    "summary": "Tauri is a framework for building tiny, blazingly fast binaries for all major operating systems. Developers can integrate any front-end framework that compiles to HTML, JS and CSS for building their user interface. The backend of the application is a rust-sourced binary with an API that the front-en…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6055,
+    "fetchedAt": "2026-10-23T08:02:46.291Z"
+  },
+  "typescript": {
+    "summary": "TypeScript is a language for application-scale JavaScript. TypeScript adds optional types to JavaScript that support tools for large-scale JavaScript applications for any browser, for any host, on any OS. TypeScript compiles to readable, standards-based JavaScript. Try it out at the playground, and…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2741,
+    "fetchedAt": "2026-10-23T08:02:46.291Z"
+  },
+  "papers-we-love": {
+    "summary": "Papers We Love (PWL) is a community built around reading, discussing and learning more about academic computer science papers. This repository serves as a directory of some of the best papers the community can find, bringing together documents scattered across the web. You can also visit the Papers…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5313,
+    "fetchedAt": "2026-10-23T08:02:46.291Z"
+  },
+  "axios": {
+    "summary": "Axios merges config in this order: library defaults from lib/defaults/index.js, the instance defaults property, and the request config argument. Later values take precedence over earlier ones.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 104910,
+    "fetchedAt": "2026-10-23T08:02:46.291Z"
+  },
+  "deno": {
+    "summary": "Deno (/ˈdiːnoʊ/, pronounced dee-no) is a JavaScript, TypeScript, and WebAssembly runtime with secure defaults and a great developer experience. It's built on V8, Rust, and Tokio.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3804,
+    "fetchedAt": "2026-10-23T08:02:46.291Z"
+  },
+  "llms-from-scratch": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 19004,
+    "fetchedAt": "2026-10-23T08:02:46.893Z"
+  },
+  "weekly": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18680,
+    "fetchedAt": "2026-10-23T08:02:46.893Z"
+  },
+  "nodebestpractices": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 199821,
+    "fetchedAt": "2026-10-23T08:02:46.893Z"
+  },
+  "terminal": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18790,
+    "fetchedAt": "2026-10-23T08:02:46.893Z"
+  },
+  "pytorch": {
+    "summary": "PyTorch is a Python package that provides two high-level features: - Tensor computation (like NumPy) with strong GPU acceleration - Deep neural networks built on a tape-based autograd system",
+    "docker": "docker run --gpus all --rm -ti --ipc=host pytorch/pytorch:latest",
+    "source": "README.md",
+    "rawLength": 23623,
+    "fetchedAt": "2026-10-23T08:02:46.893Z"
+  },
+  "fastapi": {
+    "summary": "FastAPI is a modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 22016,
+    "fetchedAt": "2026-10-23T08:02:46.893Z"
+  },
+  "create-react-app": {
+    "summary": "Create React App works on macOS, Windows, and Linux. If something doesn’t work, please file an issue. If you have questions or need help, please ask in GitHub Discussions.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11556,
+    "fetchedAt": "2026-10-23T08:02:47.408Z"
+  },
+  "howtocook": {
+    "summary": "",
+    "docker": "docker pull aiursoft/howtocookviewer\ndocker run -d -p 5000:5000 aiursoft/howtocookviewer",
+    "source": "README.md",
+    "rawLength": 17355,
+    "fetchedAt": "2026-10-23T08:02:47.408Z"
+  },
+  "angular": {
+    "summary": "Angular is cross-platform, fast, scalable, has incredible tooling, and is loved by millions.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4678,
+    "fetchedAt": "2026-10-23T08:02:47.408Z"
+  },
+  "every-programmer-should-know": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 21904,
+    "fetchedAt": "2026-10-23T08:02:47.408Z"
+  },
+  "ant-design": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11869,
+    "fetchedAt": "2026-10-23T08:02:47.408Z"
+  },
+  "material-ui": {
+    "summary": "Material UI's core functionality is extended by MUI X, a suite of complex components for advanced use cases.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8189,
+    "fetchedAt": "2026-10-23T08:02:47.408Z"
+  },
+  "playwright": {
+    "summary": "Playwright is a framework for web automation and testing. It drives Chromium, Firefox, and WebKit with a single API — in your tests, in your scripts, and as a tool for AI agents.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11260,
+    "fetchedAt": "2026-10-23T08:02:47.924Z"
+  },
+  "app-ideas": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 19526,
+    "fetchedAt": "2026-10-23T08:02:47.924Z"
+  },
+  "tailwindcss": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1838,
+    "fetchedAt": "2026-10-23T08:02:47.924Z"
+  },
+  "thefuck": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 26450,
+    "fetchedAt": "2026-10-23T08:02:47.924Z"
+  },
+  "deep-live-cam": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 17471,
+    "fetchedAt": "2026-10-23T08:02:47.924Z"
+  },
+  "web-dev-for-beginners": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 32773,
+    "fetchedAt": "2026-10-23T08:02:47.924Z"
+  },
+  "bun": {
+    "summary": "Bun is an all-in-one toolkit for JavaScript and TypeScript apps. It ships as a single executable called bun.",
+    "docker": "# with install script (recommended)\ncurl -fsSL https://bun.com/install | bash\n\n# on windows\npowershell -c \"irm bun.sh/install.ps1 | iex\"\n\n# with npm\nnpm install -g bun\n\n# with Homebrew\nbrew tap oven-sh/bun\nbrew install bun\n\n# with Docker\ndocker pull oven/bun\ndocker run --rm --init --ulimit memlock=-1:-1 oven/bun",
+    "source": "README.md",
+    "rawLength": 26183,
+    "fetchedAt": "2026-10-23T08:03:07.617Z"
   }
 }
