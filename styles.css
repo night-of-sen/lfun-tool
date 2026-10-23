@@ -460,7 +460,9 @@ html[data-theme="dark"] .re-hl mark{background:#a16207;color:#fff}
 .sort-label .sort{margin-top:4px;width:100%}
 
 /* P4 详情页：常驻试用条、详情分区 */
-.detail-trybar{position:sticky;top:0;z-index:5;background:var(--panel);padding:10px 0;border-bottom:1px solid var(--border)}
+/* 试用条 top 须留出顶栏：顶栏高 56px + 1px 边框，64px 与首页筛选区 .filters 的偏移一致；
+   原 top:0 与顶栏同位且 z-index 更低，滚动时会被顶栏盖住；z-index 15 低于顶栏 20，不盖顶栏 */
+.detail-trybar{position:sticky;top:64px;z-index:15;background:var(--panel);padding:10px 0;border-bottom:1px solid var(--border)}
 .detail-sec{margin:20px 0}
 .detail-sec h2{font-size:16px;margin:0 0 8px}
 .detail-sec h3{font-size:14px;margin:12px 0 6px}

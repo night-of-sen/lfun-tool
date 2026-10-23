@@ -4,7 +4,7 @@
       "title": "关于本站",
       "desc": "开源工具集是一个精选 GitHub 开源项目的导航站，每个项目都标注清楚怎么用：在线即用、可自托管、桌面应用还是命令行。",
       "h1": "关于本站",
-      "sub": "156 个精选开源项目，标注清楚怎么用",
+      "sub": "精选开源项目，标注清楚怎么用",
       "blocks": [
         {
           "h": "这个站解决什么问题",
@@ -36,7 +36,7 @@
       "title": "About",
       "desc": "Open Source Toolkit is a curated directory of GitHub projects. Every entry tells you how to actually use it: online, self-hosted, desktop, or CLI.",
       "h1": "About",
-      "sub": "156 curated open-source projects, with clear notes on how to use them",
+      "sub": "Curated open-source projects, with clear notes on how to use them",
       "blocks": [
         {
           "h": "The problem we solve",
