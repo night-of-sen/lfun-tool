@@ -64,41 +64,41 @@ async function ghSearch(query, page) {
 
 // topics 关键词 -> 站内分类；按顺序命中，命中不了进 dev
 const TOPIC_CAT = [
-  [/^(ai|llm|gpt|machine-learning|deep-learning|neural|diffusion|transformer)/, "ai"],
-  [/^(agent|agents|mcp|autonomous)/, "agent"],
-  [/^(game|gaming|godot|bevy)/, "game"],
-  [/^(video|ffmpeg|streaming|webrtc)/, "video"],
-  [/^(image|photo|screenshot|ocr)/, "image"],
-  [/^(audio|music|podcast|tts)/, "media"],
-  [/^(security|privacy|encryption|password|auth)/, "security"],
-  [/^(auth|oauth|login)/, "auth"],
-  [/^(database|sql|postgres|mysql|vector-database|sqlite)/, "database"],
-  [/^(docker|kubernetes|devops|homelab|selfhosted|self-hosted)/, "system"],
-  [/^(editor|ide|neovim|vscode)/, "editor"],
-  [/^(browser|chrome-extension|firefox)/, "browser"],
-  [/^(mobile|ios|android|flutter|react-native)/, "mobile"],
-  [/^(finance|trading|crypto|bitcoin|blockchain)/, "finance"],
-  [/^(email|smtp)/, "email"],
-  [/^(chat|messaging|discord|slack)/, "social"],
-  [/^(design|ui|css|tailwind|figma|component)/, "design"],
-  [/^(documentation|markdown|notes|note-taking|wiki)/, "doc"],
-  [/^(downloader|download)/, "download"],
-  [/^(monitoring|observability|logging|metrics)/, "monitor"],
-  [/^(network|proxy|vpn|dns|wireguard)/, "network"],
-  [/^(tutorial|course|learn|awesome|roadmap)/, "learn"],
-  [/^(payment|stripe|billing)/, "payment"],
-  [/^(iot|raspberry-pi|arduino|home-assistant|esp32)/, "iot"],
-  [/^(cli|terminal|shell|tui|command-line)/, "dev"],
-  [/^(diagram|whiteboard|mermaid|graph)/, "diagram"],
-  [/^(form|survey)/, "form"],
-  [/^(cms|blog|static-site)/, "doc"],
+  [/^(ai|llm|gpt|machine-learning|deep-learning|neural|diffusion|transformer)/, "ai-agents"],
+  [/^(agent|agents|mcp|autonomous)/, "ai-agents"],
+  [/^(game|gaming|godot|bevy)/, "fun-games"],
+  [/^(video|ffmpeg|streaming|webrtc)/, "video-media"],
+  [/^(image|photo|screenshot|ocr)/, "design-creativity"],
+  [/^(audio|music|podcast|tts)/, "video-media"],
+  [/^(security|privacy|encryption|password|auth)/, "infra-security"],
+  [/^(auth|oauth|login)/, "infra-security"],
+  [/^(database|sql|postgres|mysql|vector-database|sqlite)/, "infra-security"],
+  [/^(docker|kubernetes|devops|homelab|selfhosted|self-hosted)/, "infra-security"],
+  [/^(editor|ide|neovim|vscode)/, "dev-tools"],
+  [/^(browser|chrome-extension|firefox)/, "productivity"],
+  [/^(mobile|ios|android|flutter|react-native)/, "mobile-iot"],
+  [/^(finance|trading|crypto|bitcoin|blockchain)/, "business-support"],
+  [/^(email|smtp)/, "marketing-growth"],
+  [/^(chat|messaging|discord|slack)/, "marketing-growth"],
+  [/^(design|ui|css|tailwind|figma|component)/, "design-creativity"],
+  [/^(documentation|markdown|notes|note-taking|wiki)/, "writing-knowledge"],
+  [/^(downloader|download)/, "productivity"],
+  [/^(monitoring|observability|logging|metrics)/, "infra-security"],
+  [/^(network|proxy|vpn|dns|wireguard)/, "infra-security"],
+  [/^(tutorial|course|learn|awesome|roadmap)/, "writing-knowledge"],
+  [/^(payment|stripe|billing)/, "business-support"],
+  [/^(iot|raspberry-pi|arduino|home-assistant|esp32)/, "mobile-iot"],
+  [/^(cli|terminal|shell|tui|command-line)/, "dev-tools"],
+  [/^(diagram|whiteboard|mermaid|graph)/, "design-creativity"],
+  [/^(form|survey)/, "productivity"],
+  [/^(cms|blog|static-site)/, "writing-knowledge"],
 ];
 function categoryFor(topics) {
   const ts = (topics || []).map((t) => String(t).toLowerCase());
   for (const [re, cat] of TOPIC_CAT) {
     if (ts.some((t) => re.test(t))) return cat;
   }
-  return "dev";
+  return "dev-tools";
 }
 
 function slugify(s) {

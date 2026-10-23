@@ -158,6 +158,15 @@ const clickScene = (k) => scenes().filter((x) => x.getAttribute("data-scene") ==
 const clickUsage = (k) => usages().filter((x) => x.getAttribute("data-usage") === k)[0].dispatch("click");
 const clickCat = (k) => cats().filter((x) => x.getAttribute("data-cat") === k)[0].dispatch("click");
 const countIn = (re) => (html.match(re) || []).length;
+// P5：首页展示区（今日新品/热门 spot-card、创作者代表作）也链向工具详情页，
+// 全页计数会把展示区链接算进主列表。工具页链接数只在主列表 #grid 内计数，
+// 展示区链接另由“展示区链接”检查覆盖。
+const gridHtml = (() => {
+  const s = html.indexOf('<div id="grid"');
+  const e = html.indexOf('<div id="empty"', s);
+  return s === -1 ? html : html.slice(s, e === -1 ? undefined : e);
+})();
+const countInGrid = (re) => (gridHtml.match(re) || []).length;
 // 分类/使用方式的 chip 数从数据推导，避免每加一个分类就要改测试
 const catsOf = (pred) => 1 + new Set(items.filter(pred).map((t) => t.category)).size;
 const usagesOf = (pred) => 1 + new Set(items.filter(pred).flatMap((t) => t.usage || [])).size;
@@ -165,7 +174,8 @@ const sceneOf = (t) => t.scene || "general";
 
 console.log("\n[1] 生成的静态 HTML（SEO 基础）");
 check("卡片总数", parsed.length, items.length);
-check("指向工具页的链接数", countIn(/href="\/zh\/tool\//g), items.length);
+check("指向工具页的链接数", countInGrid(/href="\/zh\/tool\//g), items.length);
+check("展示区工具链接数（今日新品 8 + 热门 8 + 创作者代表作）", countIn(/class="spot-card"/g) + (html.match(/class="creator-card"[\s\S]*?<\/article>/g) || []).reduce((s, c) => s + (c.match(/href="\/zh\/tool\//g) || []).length, 0), 34);
 check("hreflang zh-CN", html.includes('hreflang="zh-CN"'), true);
 check("hreflang en", html.includes('hreflang="en"'), true);
 check("hreflang x-default", html.includes('hreflang="x-default"'), true);
@@ -212,10 +222,10 @@ clickScene("overseas");
 clickUsage("selfhost");
 check("出海 · 可自托管", visible(), items.filter((t) => (t.scene || "general") === "overseas" && has(t, "selfhost")).length);
 clickUsage("all");
-clickCat("email");
-check("出海 · 邮件触达", visible(), items.filter((t) => (t.scene || "general") === "overseas" && t.category === "email").length);
+clickCat("marketing-growth");
+check("出海 · 营销增长", visible(), items.filter((t) => (t.scene || "general") === "overseas" && t.category === "marketing-growth").length);
 clickUsage("lib");
-check("邮件触达 + 开发库（分类自动重置）", visible(), items.filter((t) => (t.scene || "general") === "overseas" && has(t, "lib")).length);
+check("营销增长 + 开发库（分类自动重置）", visible(), items.filter((t) => (t.scene || "general") === "overseas" && has(t, "lib")).length);
 clickScene("all");
 clickCat("all");
 check("重置后", visible(), items.length);
@@ -290,7 +300,12 @@ check("英文页 html lang", enHtml.includes('<html lang="en"'), true);
 check("英文页 canonical 指向根路径", enHtml.includes('<link rel="canonical" href="https://tools.lfun.cloud/">'), true);
 check("英文页 x-default 指向根路径", enHtml.includes('hreflang="x-default" href="https://tools.lfun.cloud/"'), true);
 check("英文页 hreflang 齐全", enHtml.includes('hreflang="zh-CN"') && enHtml.includes('hreflang="en"'), true);
-check("英文页工具链接数", (enHtml.match(/href="\/tool\//g) || []).length, items.length);
+const enGrid = (() => {
+  const s = enHtml.indexOf('<div id="grid"');
+  const e = enHtml.indexOf('<div id="empty"', s);
+  return s === -1 ? enHtml : enHtml.slice(s, e === -1 ? undefined : e);
+})();
+check("英文页工具链接数", (enGrid.match(/href="\/tool\//g) || []).length, items.length);
 check("英文页语言切换指向 /zh/", enHtml.includes('href="/zh/"'), true);
 check("英文页无 /en/ 残留链接", /href="\/en\//.test(enHtml), false);
 check("英文页合作页在根路径", enHtml.includes('href="/partner/"'), true);

@@ -97,6 +97,26 @@ function toolPath(lang, id) { return langPrefix(lang) + "/tool/" + id + "/"; }
 function catPath(lang, key) { return langPrefix(lang) + "/category/" + key + "/"; }
 function categoriesPath(lang) { return langPrefix(lang) + "/categories/"; }
 function contentPath(lang, key) { return langPrefix(lang) + "/" + key + "/"; }
+// P5 创作者：作者名 -> slug（小写、非字母数字转连字符）；老工具作者即仓库所有者，干净无冲突
+function authorSlug(name) {
+  return String(name || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || "unknown";
+}
+function authorPath(lang, slug) { return langPrefix(lang) + "/author/" + slug + "/"; }
+// 按 slug 聚合作者作品；只给 >=2 个作品的作者生成主页（39 位），单作品作者不单独建页
+function authorGroups() {
+  var map = {};
+  items.forEach(function (x) {
+    var name = authorOf(x);
+    if (!name) return;
+    var slug = authorSlug(name);
+    if (!map[slug]) map[slug] = { slug: slug, name: name, works: [] };
+    map[slug].works.push(x);
+  });
+  return Object.keys(map).map(function (k) { return map[k]; });
+}
+function multiAuthors() {
+  return authorGroups().filter(function (g) { return g.works.length >= 2; });
+}
 function onlinePath(lang, id) { return langPrefix(lang) + "/online/" + id + "/"; }
 function onlineIndexPath(lang) { return langPrefix(lang) + "/online/"; }
 function comparePath(lang, x, y) { return langPrefix(lang) + "/compare/" + x + "-vs-" + y + "/"; }
@@ -237,6 +257,7 @@ function header(lang, isHome) {
     '      <a class="nav-item" href="https://globalfacthub.com" target="_blank" rel="noopener">' + ICON.external + esc(L.navGlobalFactHub) + "</a>",
     "    </nav>",
     '    <div class="topbar-actions">',
+    '      <a class="btn-primary topbar-submit" href="' + contentPath(lang, "submit") + '">' + esc(L.submitH1) + "</a>",
     (isHome ? '      <button id="menu-toggle" class="btn-ghost" title="' + esc(L.menuToggle) + '">☰<span class="menu-label">' + esc(L.filterHint) + "</span></button>" : ""),
     '      <a class="btn-ghost" href="' + L.langSwitchHref + '">' + esc(L.langSwitch) + "</a>"
   ];
@@ -251,6 +272,37 @@ function header(lang, isHome) {
 }
 
 /* ---------------- 卡片 ---------------- */
+// P3：形态与价格派生（不编造：老工具无 form/price 字段时按 usage/repo 派生，
+// CLI-only 工具形态未知，form 留空，只在“全部形态”下出现）
+function formOf(t) {
+  if (t.form) return t.form;
+  var u = t.usage || [];
+  if (u.indexOf("extension") !== -1) return "extension";
+  if (u.indexOf("mobile") !== -1) return "mobile";
+  if (u.indexOf("desktop") !== -1) return "desktop";
+  if (u.indexOf("online") !== -1) return "web";
+  if (u.indexOf("lib") !== -1) return "api";
+  if (u.indexOf("list") !== -1) return "template";
+  if (u.indexOf("selfhost") !== -1) return "web";
+  return "";
+}
+function priceKeyOf(t) {
+  if (t.price_model) return t.price_model;
+  if (t.repo) return "opensource";
+  return "";
+}
+function priceLabelOf(t, lang) {
+  var L = T[lang];
+  var k = priceKeyOf(t);
+  if (!k) return "";
+  return { free: L.priceFree, freemium: L.priceFreemium, paid: L.pricePaid, opensource: L.priceOpenSource }[k] || "";
+}
+function authorOf(t) {
+  if (t.author_name) return t.author_name;
+  if (t.repo) return t.repo.split("/")[0];
+  return "";
+}
+
 function card(t, lang) {
   var L = T[lang];
   var color = LANG_COLORS[t.language] || "#8b949e";
@@ -279,34 +331,54 @@ function card(t, lang) {
 
   var plats = (t.platforms || []).filter(function (p) { return PLATFORM_LABELS[p]; })
     .map(function (p) { return '<span class="tag plat">' + PLATFORM_LABELS[p] + "</span>"; }).join("");
-  var tags = (t.tags || []).map(function (x) { return '<span class="tag">' + esc(tagLabel(lang, x)) + "</span>"; }).join("");
+  var priceBadge = priceLabelOf(t, lang)
+    ? '<span class="tag price-badge">' + esc(priceLabelOf(t, lang)) + "</span>" : "";
+  // 标签最多 3 个展示；其余标签放进 data-extra，保证搜索不丢（见 extraStr 追加）
+  var shownTags = (t.tags || []).slice(0, 3);
+  var restTags = (t.tags || []).slice(3);
+  var tags = shownTags.map(function (x) { return '<span class="tag">' + esc(tagLabel(lang, x)) + "</span>"; }).join("");
+  // data-extra 追加：剩余标签 + 平台标签（卡片 .tags 不再含平台，避免搜索丢平台词）
+  extraStr = [extraStr].concat(restTags).concat((t.platforms || []).filter(function (p) { return PLATFORM_LABELS[p]; }).map(function (p) { return PLATFORM_LABELS[p]; })).join(" ").trim();
   var a = primaryAction(t, lang);
   var primaryBtn = a.url
     ? '<a class="btn-primary" href="' + esc(a.url) + '" target="_blank" rel="' + outRel(t) + '">' + esc(a.label) + "</a>"
     : '<span class="btn-secondary is-muted">' + esc(a.label) + "</span>";
+  var repoBtn = t.repo
+    ? '<a class="btn-secondary" href="https://github.com/' + esc(t.repo) + '" target="_blank" rel="noopener">' + esc(L.btnRepo) + "</a>" : "";
+  var author = authorOf(t);
+  // 封面：新投稿有截图链接时用截图（加载失败自动移除，不留破图）；
+  // 老工具无截图字段时用现有仓库头像图标兜底（加载失败走 iconFail，不留空白大图）
+  var cover = t.screenshot_url
+    ? '<div class="card-cover"><img class="card-cover-img" src="' + esc(t.screenshot_url) + '" alt="" loading="lazy" onerror="this.remove()"></div>'
+    : '<div class="card-cover"><img class="icon" src="https://github.com/' + esc(owner) + '.png?size=96" alt="" loading="lazy" data-initial="' + esc(initial) + '" onerror="iconFail(this)"></div>';
+  var starsStat = t.repo
+    ? '    <span class="stat" title="' + esc(L.specStars) + '">★ <span class="star-n">' + fmtStars(t.stars) + "</span></span>" : "";
+  var langStat = t.language
+    ? '    <span class="stat"><i class="lang-dot" style="background:' + color + '"></i>' + esc(t.language) + "</span>" : "";
 
   return [
     '<article class="card" data-id="' + esc(t.id) + '" data-scene="' + sceneKey(t) + '"' + (affiliateOf(t) ? ' data-sponsored="1"' : ""),
     '  data-usage="' + esc((t.usage || []).join(" ")) + '" data-category="' + esc(t.category) + '"',
     '  data-stars="' + (t.stars || 0) + '" data-name="' + esc(t.name) + '"',
-    '  data-updated="' + esc(t.pushedAt || "") + '" data-extra="' + esc(extraStr) + '">',
+    '  data-updated="' + esc(t.pushedAt || "") + '" data-added="' + esc(t.addedAt || t.pushedAt || "") + '"',
+    '  data-form="' + esc(formOf(t)) + '" data-price="' + esc(priceKeyOf(t)) + '" data-votes="0"',
+    '  data-extra="' + esc(extraStr) + '">',
     '  <button class="fav" data-fav="' + esc(t.id) + '" title="' + esc(L.favTitle) + '">☆</button>',
-    '  <div class="card-head">',
-    '    <img class="icon" src="https://github.com/' + esc(owner) + '.png?size=96" alt="" loading="lazy"',
-    '         data-initial="' + esc(initial) + '" onerror="iconFail(this)">',
+    cover,
+    '  <div class="card-meta">' + plats + priceBadge + "</div>",
     '    <div class="card-titles">',
     '      <h3 class="card-name"><a href="' + toolPath(lang, t.id) + '">' + esc(t.name) + "</a>" + badges + "</h3>",
-    '      <div class="card-repo">' + esc(t.repo) + "</div>",
+    (t.repo ? '      <div class="card-repo">' + esc(t.repo) + "</div>" : ""),
     '      <div class="tier tier-' + deployTier(t) + '">' + esc(tierLabel(t, lang)) + "</div>",
     "    </div>",
-    "  </div>",
     '  <p class="card-desc">' + esc(descOf(t, lang)) + "</p>",
-    '  <div class="tags">' + plats + tags + "</div>",
+    '  <div class="tags">' + tags + "</div>",
     '  <div class="card-foot">',
-    '    <span class="stat" title="' + esc(L.specStars) + '">★ <span class="star-n">' + fmtStars(t.stars) + "</span></span>",
-    '    <span class="stat"><i class="lang-dot" style="background:' + color + '"></i>' + esc(t.language || "—") + "</span>",
-    '    <span class="actions">' + primaryBtn +
-      '<a class="btn-secondary" href="https://github.com/' + esc(t.repo) + '" target="_blank" rel="noopener">' + esc(L.btnRepo) + "</a></span>",
+    (author ? '    <span class="card-author">' + esc(author) + "</span>" : ""),
+    '    <button class="vote-btn" data-vote="' + esc(t.id) + '" type="button" title="' + esc(L.voteLabel) + '">♡ <span class="vote-n">0</span></button>',
+    starsStat,
+    langStat,
+    '    <span class="actions">' + primaryBtn + repoBtn + "</span>",
     "  </div>",
     "</article>"
   ].join("\n").replace(/\n\s*/g, " ");
@@ -391,10 +463,17 @@ function homePage(lang) {
     '    <div class="side-block">',
     '      <h3 class="side-title">' + esc(L.sideSort) + "</h3>",
     '      <select id="sort" class="sort" aria-label="sort">',
+    '        <option value="latest">' + esc(L.sortLatest) + "</option>",
+    '        <option value="trending">' + esc(L.sortTrending) + "</option>",
     '        <option value="stars">' + esc(L.sortStars) + "</option>",
     '        <option value="name">' + esc(L.sortName) + "</option>",
     '        <option value="updated">' + esc(L.sortUpdated) + "</option>",
     "      </select>",
+    // P3：形态 + 价格筛选放在排序区块内，不新增 side-title 区块（smoke 要求侧栏分区标题为 5 个）
+    '      <label class="sort-label">' + esc(L.filterForm) + '<select id="form-filter" class="sort"><option value="all">' + esc(L.formAll) + "</option>" +
+      [["web", L.formWeb], ["mobile", L.formMobile], ["desktop", L.formDesktop], ["extension", L.formExtension], ["plugin", L.formPlugin], ["api", L.formApi], ["template", L.formTemplate]].map(function (o) { return '<option value="' + o[0] + '">' + esc(o[1]) + "</option>"; }).join("") + "</select></label>",
+    '      <label class="sort-label">' + esc(L.filterPrice) + '<select id="price-filter" class="sort"><option value="all">' + esc(L.priceAll) + "</option>" +
+      [["free", L.priceFree], ["freemium", L.priceFreemium], ["paid", L.pricePaid], ["opensource", L.priceOpenSource]].map(function (o) { return '<option value="' + o[0] + '">' + esc(o[1]) + "</option>"; }).join("") + "</select></label>",
     "    </div>",
     "  </aside>",
     '  <div class="sidebar-backdrop" id="sidebar-backdrop"></div>',
@@ -407,12 +486,58 @@ function homePage(lang) {
     '    <input id="search" type="search" placeholder="' + esc(L.searchPlaceholder) + '" autocomplete="off">',
     '    <button id="clear-search" class="search-clear" hidden>✕</button>',
     "  </div>",
+    '  <p class="hero-tagline">' + esc(L.heroTagline) + "</p>",
+    '  <div class="hero-cta"><a class="btn-primary btn-lg" href="' + contentPath(lang, "submit") + '">' + esc(L.submitH1) + "</a></div>",
     '  <div class="meta-row">',
     '    <span id="result-count"></span>',
     '    <span class="dot-sep">·</span>',
     '    <span class="sync-time">' + esc(todayLabel(lang)) + "</span>",
     "  </div>",
     "</section>",
+    // P5 展示区：全部用 spot-card / creator-card / cat-tile，不用 class="card"，
+    // 也不放“立即试用”主按钮（试用按钮只在主列表卡片与详情页），避免 smoke 的按钮计数翻倍
+    (function () {
+      var catCounts = {};
+      items.forEach(function (x) { catCounts[x.category] = (catCounts[x.category] || 0) + 1; });
+      var catTiles = Object.keys(catCounts).sort().map(function (k) {
+        return '<a class="cat-tile" href="' + catPath(lang, k) + '"><strong>' + esc(catLabel(lang, k)) + "</strong><span>" + catCounts[k] + "</span></a>";
+      }).join("");
+      var byAdded = items.slice().sort(function (a, b) {
+        return String(b.addedAt || b.pushedAt || "").localeCompare(String(a.addedAt || a.pushedAt || ""));
+      });
+      function spot(t2) {
+        return '<article class="spot-card"><h3><a href="' + toolPath(lang, t2.id) + '">' + esc(t2.name) + "</a></h3>" +
+          '<p>' + esc(descOf(t2, lang)) + "</p>" +
+          '<div class="spot-meta">' + esc(catLabel(lang, t2.category)) +
+          (priceLabelOf(t2, lang) ? " · " + esc(priceLabelOf(t2, lang)) : "") + "</div></article>";
+      }
+      var todayHtml = byAdded.slice(0, 8).map(spot).join("");
+      // 热门趋势：构建期点赞全为 0，按任务默认值退化为按最新排，并如实标注，不编造热度
+      var trendHtml = byAdded.slice(0, 8).map(spot).join("");
+      var creators = authorGroups().map(function (g) {
+        var stars = g.works.reduce(function (s, x) { return s + (x.stars || 0); }, 0);
+        return { g: g, stars: stars };
+      }).sort(function (a, b) {
+        if (b.g.works.length !== a.g.works.length) return b.g.works.length - a.g.works.length;
+        return b.stars - a.stars;
+      }).slice(0, 6);
+      var creatorHtml = creators.map(function (c) {
+        var g = c.g;
+        var top = g.works.slice().sort(function (a, b) { return (b.stars || 0) - (a.stars || 0); }).slice(0, 3);
+        var nameHtml = g.works.length >= 2
+          ? '<a href="' + authorPath(lang, g.slug) + '">' + esc(g.name) + "</a>"
+          : esc(g.name);
+        return '<article class="creator-card">' +
+          '<img class="icon" src="https://github.com/' + esc(g.name) + '.png?size=96" alt="" data-initial="' + esc(g.name.charAt(0)) + '" onerror="iconFail(this)">' +
+          "<h3>" + nameHtml + "</h3>" +
+          "<p>" + g.works.length + esc(L.creatorWorks) + "</p>" +
+          '<ul>' + top.map(function (x) { return '<li><a href="' + toolPath(lang, x.id) + '">' + esc(x.name) + "</a></li>"; }).join("") + "</ul></article>";
+      }).join("");
+      return '<section class="showcase"><h2>' + esc(L.catTilesTitle) + '</h2><div class="cat-tiles">' + catTiles + "</div></section>" +
+        '<section class="showcase"><h2>' + esc(L.todayNew) + '</h2><div class="spot-grid">' + todayHtml + "</div></section>" +
+        '<section class="showcase"><h2>' + esc(L.trendingTitle) + "</h2><p class=\"showcase-note\">" + esc(L.trendingFallback) + '</p><div class="spot-grid">' + trendHtml + "</div></section>" +
+        '<section class="showcase"><h2>' + esc(L.creatorSpotlight) + '</h2><div class="creator-grid">' + creatorHtml + "</div></section>";
+    })(),
     // 赞助位：数据在数据库里，构建期读不到，所以留空容器由 sponsors.js 运行时注入。
     // 没有生效赞助时容器保持 hidden —— 不留空位（PRD 5.3 的精神）。
     '<section class="sponsor-block" id="sponsor-home" data-slot="homepage" hidden>',
@@ -551,9 +676,18 @@ function toolPage(t, lang) {
     .map(function (p) { return '<span class="tag plat">' + PLATFORM_LABELS[p] + "</span>"; }).join("");
   var tags = (t.tags || []).map(function (x) { return '<span class="tag">' + esc(tagLabel(lang, x)) + "</span>"; }).join("");
 
+  // P4 相似工具：先同主分类 + 同标签（共享标签数多者优先），不足 3 个再用同分类补齐
+  function sharedTags(x) {
+    var a = t.tags || [], b = x.tags || [];
+    return b.filter(function (v) { return a.indexOf(v) !== -1; }).length;
+  }
   var related = items.filter(function (x) {
-    return x.id !== t.id && x.category === t.category && sceneKey(x) === sceneKey(t);
-  }).sort(function (x, y) { return y.stars - x.stars; }).slice(0, 6);
+    return x.id !== t.id && x.category === t.category && sharedTags(x) > 0;
+  }).sort(function (x, y) {
+    var d = sharedTags(y) - sharedTags(x);
+    if (d) return d;
+    return (y.stars || 0) - (x.stars || 0);
+  }).slice(0, 6);
   if (related.length < 3) {
     var extra = items.filter(function (x) {
       return x.id !== t.id && x.category === t.category && related.indexOf(x) === -1;
@@ -561,14 +695,16 @@ function toolPage(t, lang) {
     related = related.concat(extra);
   }
 
-  var specs = [
-    [L.specStars, "★ " + fmtStars(t.stars)],
-    [L.specLang, t.language || "—"],
-    [L.specLicense, t.license && t.license !== "-" ? t.license : L.noLicense],
-    [L.specUpdated, t.pushedAt || "—"],
-    [L.specCategory, catLabel(lang, t.category)],
-    [L.specScene, L.scenes[sceneKey(t)]]
-  ].map(function (row) {
+  // P4：GitHub 信息（星数）只在 repo 非空时出现；语言/许可证无值时不硬填
+  var specRows = [];
+  if (t.repo) specRows.push([L.specStars, "★ " + fmtStars(t.stars)]);
+  if (t.language) specRows.push([L.specLang, t.language]);
+  if (t.license && t.license !== "-") specRows.push([L.specLicense, t.license]);
+  else if (t.repo) specRows.push([L.specLicense, L.noLicense]);
+  if (t.pushedAt) specRows.push([L.specUpdated, t.pushedAt]);
+  specRows.push([L.specCategory, catLabel(lang, t.category)]);
+  specRows.push([L.specScene, L.scenes[sceneKey(t)]]);
+  var specs = specRows.map(function (row) {
     return '    <div class="spec"><dt>' + esc(row[0]) + "</dt><dd>" + esc(row[1]) + "</dd></div>";
   }).join("\n");
 
@@ -581,9 +717,7 @@ function toolPage(t, lang) {
     "inLanguage": L.htmlLang,
     "applicationCategory": "UtilitiesApplication",
     "operatingSystem": (t.platforms || []).map(function (p) { return PLATFORM_LABELS[p] || p; }).join(" / ") || "Web",
-    "codeRepository": "https://github.com/" + t.repo,
-    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-    "author": { "@type": "Organization", "name": owner },
+    "author": { "@type": "Organization", "name": authorOf(t) || owner },
     "keywords": (t.tags || []).map(function (x) { return tagLabel(lang, x); }).join(", ")
   }, {
     "@context": "https://schema.org",
@@ -595,6 +729,13 @@ function toolPage(t, lang) {
     ]
   }];
 
+  // P4：codeRepository 与免费 offers 只在对应数据真实存在时写入 JSON-LD，不编造
+  if (t.repo) jsonld[0].codeRepository = "https://github.com/" + t.repo;
+  if (priceKeyOf(t) === "free" || priceKeyOf(t) === "opensource") {
+    jsonld[0].offers = { "@type": "Offer", "price": "0", "priceCurrency": "USD" };
+  } else if (t.price_detail) {
+    jsonld[0].offers = { "@type": "Offer", "priceCurrency": "USD", "description": t.price_detail };
+  }
   var titleName = titleNeedsOwner(t) ? t.name + " (" + t.repo.split("/")[0] + ")" : t.name;
   var title = lang === "zh"
     ? titleName + " · " + catLabel(lang, t.category) + " · " + L.siteName
@@ -603,7 +744,7 @@ function toolPage(t, lang) {
   // 工具名强制前缀：保证所有工具页 meta 描述全局唯一
   // （不同工具的 descEn 可能完全相同，如 tinyrenderer/tinyraytracer、opencode/opencode-2）
   descBase = t.name + (lang === "en" ? ": " : " - ") + descBase;
-  var desc = (descBase + " ⭐ " + fmtStars(t.stars) + " · " + (t.language || "") + " · " + (t.license || "")).slice(0, 300);
+  var desc = (descBase + (t.repo ? " ⭐ " + fmtStars(t.stars) + " · " : " · ") + (t.language || "") + " · " + (t.license || "")).slice(0, 300);
 
   var lines = [
     head(lang, { title: title, desc: desc, paths: paths, jsonld: jsonld, ogType: "article" }),
@@ -617,11 +758,19 @@ function toolPage(t, lang) {
     '    <span>/</span><strong>' + esc(t.name) + "</strong>",
     "  </nav>",
     '  <article class="detail">',
+    // P4 头部常驻试用按钮：文章顶部 sticky 条，随滚动常驻（底部 detail-actions 保留）
+    (a.url ? '    <div class="detail-trybar"><a class="btn-primary" href="' + esc(a.url) + '" target="_blank" rel="' + outRel(t) + '">' + esc(a.label) + "</a></div>" : ""),
     '    <header class="detail-head">',
-    '      <img class="icon icon-lg" src="https://github.com/' + esc(owner) + '.png?size=160" alt="" data-initial="' + esc(initial) + '" onerror="iconFail(this)">',
+    (t.repo
+      ? '      <img class="icon icon-lg" src="https://github.com/' + esc(owner) + '.png?size=160" alt="" data-initial="' + esc(initial) + '" onerror="iconFail(this)">'
+      : (t.screenshot_url
+        ? '      <img class="icon icon-lg" src="' + esc(t.screenshot_url) + '" alt="" data-initial="' + esc(initial) + '" onerror="iconFail(this)">'
+        : '      <span class="icon icon-lg icon-fallback">' + esc(initial) + "</span>")),
     "      <div>",
     '        <h1 class="detail-name">' + esc(t.name) + badges + "</h1>",
-    '        <div class="card-repo">' + esc(t.repo) + "</div>",
+    (t.repo ? '        <div class="card-repo">' + esc(t.repo) + "</div>" : ""),
+    // P4 价格与平台徽章跟标题走
+    '        <div class="card-meta">' + plats + (priceLabelOf(t, lang) ? '<span class="tag price-badge">' + esc(priceLabelOf(t, lang)) + "</span>" : "") + "</div>",
     "      </div>",
     '      <button class="fav fav-lg" data-fav="' + esc(t.id) + '" title="' + esc(L.favTitle) + '">☆</button>',
     "    </header>",
@@ -630,8 +779,50 @@ function toolPage(t, lang) {
     '      <span>' + esc(TIER_DESC[lang][deployTier(t)]) + "</span>",
     "    </div>",
     '    <p class="detail-desc">' + esc(descOf(t, lang)) + "</p>",
-    '    <div class="tags">' + plats + tags + "</div>",
-    "    " + visualHtml(t, lang),
+    '    <div class="tags">' + tags + "</div>",
+    // P4 正文顺序：截图/视频轮播 → 亮点 → 价格说明 → 更新记录 → 作者卡 → 信任信息 → 试用反馈
+    (t.screenshot_url
+      ? '    <figure class="repo-card-wrap"><img class="repo-card" src="' + esc(t.screenshot_url) + '" alt="' + esc(t.name) + '" loading="lazy"></figure>'
+      : "    " + visualHtml(t, lang)),
+    (t.video_url
+      ? '    <p><a class="btn-secondary btn-lg" href="' + esc(t.video_url) + '" target="_blank" rel="noopener">' + esc(L.detailVideo) + "</a></p>"
+      : ""),
+    (t.highlights
+      ? '    <section class="detail-sec"><h2>' + esc(L.detailHighlights) + "</h2><ul>" +
+        String(t.highlights).split(/\n/).map(function (x) { return x.trim(); }).filter(Boolean).slice(0, 5).map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") +
+        "</ul></section>"
+      : ""),
+    ((priceLabelOf(t, lang) || t.price_detail)
+      ? '    <section class="detail-sec"><h2>' + esc(L.detailPricing) + "</h2><p>" +
+        esc((priceLabelOf(t, lang) ? priceLabelOf(t, lang) : "") + (t.price_detail ? (priceLabelOf(t, lang) ? " · " : "") + t.price_detail : "")) + "</p></section>"
+      : ""),
+    ((t.pushedAt || t.addedAt)
+      ? '    <section class="detail-sec"><h2>' + esc(L.detailUpdates) + "</h2><p>" +
+        esc((t.pushedAt ? (lang === "zh" ? "最后更新 " : "Last updated ") + t.pushedAt : "") +
+        (t.addedAt ? (t.pushedAt ? "；" : "") + (lang === "zh" ? "收录 " : "Listed ") + t.addedAt : "")) + "</p></section>"
+      : ""),
+    (authorOf(t)
+      ? '    <section class="detail-sec"><h2>' + esc(L.detailAuthor) + "</h2><p>" +
+        (t.author_url
+          ? '<a href="' + esc(t.author_url) + '" target="_blank" rel="noopener">' + esc(authorOf(t)) + "</a>"
+          : esc(authorOf(t))) + "</p>" +
+        (function () {
+          var works = items.filter(function (x) { return x.id !== t.id && authorOf(x) === authorOf(t); }).slice(0, 6);
+          if (!works.length) return "";
+          return "<h3>" + esc(L.detailAuthorWorks) + "</h3><ul>" +
+            works.map(function (x) { return '<li><a href="' + toolPath(lang, x.id) + '">' + esc(x.name) + "</a></li>"; }).join("") + "</ul>";
+        })() + "</section>"
+      : ""),
+    // P4 信任信息：只写真实日期——收录时间（addedAt，新投稿上架时填）、最后更新（pushedAt）、
+    // 数据同步时间（syncedAt）；没有 approval 时间字段，不把同步时间冒充为审核/检查时间
+    '    <section class="detail-sec"><h2>' + esc(L.detailTrust) + "</h2><p>" +
+      esc([
+        t.addedAt ? (L.detailAdded + " " + t.addedAt) : "",
+        t.pushedAt ? (L.specUpdated + " " + t.pushedAt) : "",
+        t.syncedAt ? (L.detailSynced + " " + String(t.syncedAt).slice(0, 10)) : ""
+      ].filter(Boolean).join(lang === "zh" ? "；" : "; ") || (lang === "zh" ? "暂无可验证日期" : "No verifiable dates yet")) + "</p></section>",
+    '    <section class="detail-sec"><h2>' + esc(L.detailFeedback) + "</h2><p>" + esc(L.detailVoteHint) + "</p>" +
+    '      <button class="vote-btn" data-vote="' + esc(t.id) + '" type="button">' + esc(L.voteLabel) + ' ♡ <span class="vote-n">0</span></button></section>',
     (t.dockerCmd ? '    <div class="deploy-block">' +
       '<div class="deploy-head"><h2>' + esc(lang === "zh" ? "部署命令" : "Deploy command") + "</h2>" +
       '<button class="copy-btn" type="button" data-copy="' + esc(t.dockerCmd) + '">' +
@@ -646,7 +837,7 @@ function toolPage(t, lang) {
     "    </dl>",
     '    <div class="detail-actions">',
     (a.url ? '      <a class="btn-primary btn-lg" href="' + esc(a.url) + '" target="_blank" rel="' + outRel(t) + '">' + esc(a.label) + "</a>" : ""),
-    '      <a class="btn-secondary btn-lg" href="https://github.com/' + esc(t.repo) + '" target="_blank" rel="noopener">' + esc(L.btnRepo) + "</a>",
+    (t.repo ? '      <a class="btn-secondary btn-lg" href="https://github.com/' + esc(t.repo) + '" target="_blank" rel="noopener">' + esc(L.btnRepo) + "</a>" : ""),
     "    </div>",
     "  </article>"
   ];
@@ -669,6 +860,57 @@ function toolPage(t, lang) {
   lines.push("</body>");
   lines.push("</html>");
   return lines.join("\n");
+}
+
+/* ---------------- P5 创作者主页（作者作品列表页，第一版，不做关注系统） ---------------- */
+function authorPage(g, lang) {
+  var L = T[lang];
+  var paths = {};
+  LANGS.forEach(function (l) { paths[l] = authorPath(l, g.slug); });
+  var works = g.works.slice().sort(function (a, b) { return (b.stars || 0) - (a.stars || 0); });
+  var title = g.name + " · " + L.authorTitle + " · " + L.siteName;
+  var desc = g.name + " · " + works.length + (lang === "zh" ? " 个作品：" : " works: ") +
+    works.map(function (x) { return x.name; }).join(lang === "zh" ? "、" : ", ");
+  var jsonld = [{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": title,
+    "url": abs(paths[lang]),
+    "inLanguage": L.htmlLang,
+    "description": desc
+  }, {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": L.backToAll, "item": abs(homePath(lang)) },
+      { "@type": "ListItem", "position": 2, "name": g.name, "item": abs(paths[lang]) }
+    ]
+  }];
+  var cards = works.map(function (x) { return card(x, lang); }).join("\n");
+  return [
+    head(lang, { title: title, desc: desc, paths: paths, jsonld: jsonld, ogType: "website" }),
+    "",
+    header(lang, false),
+    '<main class="wrap">',
+    '  <nav class="crumbs"><a href="' + homePath(lang) + '">' + esc(L.backToAll) + "</a><span>/</span><strong>" + esc(g.name) + "</strong></nav>",
+    '  <div class="creator-head">',
+    '    <img class="icon icon-lg" src="https://github.com/' + esc(g.name) + '.png?size=160" alt="" data-initial="' + esc(g.name.charAt(0)) + '" onerror="iconFail(this)">',
+    "    <div>",
+    "      <h1>" + esc(g.name) + "</h1>",
+    "      <p>" + works.length + esc(L.creatorWorks) + "</p>",
+    "    </div>",
+    "  </div>",
+    '  <div class="grid">',
+    cards,
+    "  </div>",
+    "</main>",
+    "",
+    footer(lang),
+    '<script src="/app.js?v=' + ASSET_V + '"></script>',
+    "</div>",
+    "</body>",
+    "</html>"
+  ].join("\n");
 }
 
 /* ---------------- sitemap / robots ---------------- */
@@ -720,11 +962,13 @@ function tierLabel(t, lang) { return TIER_LABELS[lang][deployTier(t)]; }
 // 有官网地址就用 WordPress mShots 截真实网页；否则退回 GitHub 自动生成的仓库卡片
 function visualHtml(t, lang) {
   var alt = t.name + (lang === "zh" ? " 网站截图" : " website screenshot");
-  if (t.homepage) {
-    var shot = "https://s0.wp.com/mshots/v1/" + encodeURIComponent(t.homepage) + "?w=1200";
+  var hp = t.homepage || t.work_url || "";
+  if (hp) {
+    var shot = "https://s0.wp.com/mshots/v1/" + encodeURIComponent(hp) + "?w=1200";
     return '<figure class="repo-card-wrap"><img class="repo-card" src="' + esc(shot) +
       '" alt="' + esc(alt) + '" width="1200" height="675" loading="lazy" referrerpolicy="no-referrer"></figure>';
   }
+  if (!t.repo) return "";
   return '<figure class="repo-card-wrap"><img class="repo-card" src="https://opengraph.githubassets.com/1/' +
     esc(t.repo) + '" alt="' + esc(t.name + (lang === "zh" ? " 仓库概览卡片" : " repository card")) +
     '" width="1200" height="675" loading="lazy"></figure>';
@@ -1222,6 +1466,12 @@ function sitemap() {
   });
   var catKeys = {};
   items.forEach(function (t) { catKeys[t.category] = true; });
+  multiAuthors().forEach(function (g) {
+    var am = newestDate(g.works);
+    LANGS.forEach(function (l) {
+      urls.push({ loc: abs(authorPath(l, g.slug)), paths: { zh: authorPath("zh", g.slug), en: authorPath("en", g.slug) }, pri: "0.6", freq: "weekly", mod: am });
+    });
+  });
   Object.keys(catKeys).forEach(function (k) {
     var cm = newestDate(items.filter(function (t) { return t.category === k; }));
     LANGS.forEach(function (l) {
@@ -1384,7 +1634,11 @@ function submitPage(lang) {
     // 运行时定价覆盖：app.js 拉取 /pricing.json 后写入 window.__PRICING__，此处优先读实时值
     "function px(t){var w=window.__PRICING__||{};return (w[t]!=null?w[t]:PRICE[t]);}",
     "form.addEventListener('submit',function(ev){",
-    "ev.preventDefault();msg.textContent=SENDING;msg.className='form-msg';",
+    "ev.preventDefault();",
+    "var shot=(form.querySelector('[name=screenshot_url]')||{}).value||'';",
+    "var vid=(form.querySelector('[name=video_url]')||{}).value||'';",
+    "if(!shot.trim()&&!vid.trim()){msg.textContent=ERR;msg.className='form-msg err';return;}",
+    "msg.textContent=SENDING;msg.className='form-msg';",
     "fetch(form.action,{method:'POST',body:new FormData(form),credentials:'same-origin'})",
     ".then(function(r){return r.json().then(function(d){return{ok:r.ok&&d&&d.ok,d:d};});})",
     ".then(function(res){",
@@ -1420,8 +1674,22 @@ function submitPage(lang) {
     '  <h2 class="partner-h2">' + esc(L.submitH1) + "</h2>",
     '  <form id="submit-form" class="partner-form" method="POST" action="' + esc(formAction) + '">',
     '    <input type="text" name="_hp" class="hp" tabindex="-1" autocomplete="off">',
-    '    <label>' + esc(L.submitRepoLabel) + '<input name="repo_url" required placeholder="' + esc(L.submitRepoPh) + '" pattern=".{3,300}"></label>',
+    '    <label>' + esc(L.submitNameLabel) + '<input name="tool_name" required maxlength="120" placeholder="' + esc(lang === "zh" ? "例如：我的图片压缩工具" : "e.g. My Image Compressor") + '"></label>',
+    '    <label>' + esc(L.submitOnelineLabel) + '<input name="oneliner" required maxlength="200" placeholder="' + esc(lang === "zh" ? "一句话说清它解决什么问题" : "One sentence: what problem does it solve?") + '"></label>',
+    '    <label>' + esc(L.submitWorkLabel) + '<input name="work_url" required type="url" maxlength="500" placeholder="' + esc(L.submitWorkPh) + '"></label>',
+    '    <label>' + esc(L.submitRepoLabel) + '<input name="repo_url" maxlength="300" placeholder="' + esc(L.submitRepoPh) + '"></label>',
     '    <label>' + esc(L.submitEmailLabel) + '<input type="email" name="email" required></label>',
+    '    <label>' + esc(L.submitAuthorLabel) + '<input name="author_name" required maxlength="120"></label>',
+    '    <label>' + esc(L.submitAuthorUrlLabel) + '<input name="author_url" type="url" maxlength="500"></label>',
+    '    <label>' + esc(L.submitCategoryLabel) + '<select name="primary_category" required>' + Object.keys(T[lang].categories || {}).map(function (k) { return '<option value="' + esc(k) + '">' + esc(catLabel(lang, k)) + '</option>'; }).join("") + '</select></label>',
+    '    <label>' + esc(L.submitTagsLabel) + '<input name="tags" required maxlength="300" placeholder="' + esc(lang === "zh" ? "例如：图片, 压缩, 免费" : "e.g. image, compress, free") + '"></label>',
+    '    <label>' + esc(L.submitScreenshotLabel) + '<input name="screenshot_url" type="url" maxlength="500"></label>',
+    '    <label>' + esc(L.submitVideoLabel) + '<input name="video_url" type="url" maxlength="500"></label>',
+    '    <p class="partner-hint">' + esc(L.submitScreenshotHint) + '</p>',
+    '    <label>' + esc(L.submitPriceLabel) + '<select name="price_model" required><option value="free">' + esc(L.priceFree) + '</option><option value="freemium">' + esc(L.priceFreemium) + '</option><option value="paid">' + esc(L.pricePaid) + '</option><option value="opensource">' + esc(L.priceOpenSource) + '</option></select></label>',
+    '    <label>' + esc(L.submitFormLabel) + '<select name="form" required><option value="web">' + esc(L.formWeb) + '</option><option value="mobile">' + esc(L.formMobile) + '</option><option value="desktop">' + esc(L.formDesktop) + '</option><option value="extension">' + esc(L.formExtension) + '</option><option value="plugin">' + esc(L.formPlugin) + '</option><option value="api">' + esc(L.formApi) + '</option><option value="template">' + esc(L.formTemplate) + '</option></select></label>',
+    '    <label>' + esc(L.submitHighlightsLabel) + '<textarea name="highlights" maxlength="1000" rows="3"></textarea></label>',
+    '    <label>' + esc(L.submitPriceDetailLabel) + '<input name="price_detail" maxlength="300"></label>',
     '    <fieldset class="tier-field"><legend>' + esc(L.submitTierLabel) + "</legend>",
     tierOpts,
     "    </fieldset>",
@@ -1465,6 +1733,7 @@ await rm(join(ROOT, "online"), { recursive: true, force: true });
 await rm(join(ROOT, "go"), { recursive: true, force: true });
 await rm(join(ROOT, "about"), { recursive: true, force: true });
 await rm(join(ROOT, "disclaimer"), { recursive: true, force: true });
+await rm(join(ROOT, "author"), { recursive: true, force: true });
 // 各语言的子目录都要清理：默认语言构建在根路径，
 // 它的子目录如果存在一定是旧构建的残留（如从中文默认切换过来时的 /en/）
 for (var rmi = 0; rmi < LANGS.length; rmi++) {
@@ -1472,6 +1741,7 @@ for (var rmi = 0; rmi < LANGS.length; rmi++) {
 }
 
 var written = 0;
+var authorList = multiAuthors();
 var allCatKeys = {};
 items.forEach(function (t) { allCatKeys[t.category] = true; });
 var catKeyList = Object.keys(allCatKeys).sort();
@@ -1501,6 +1771,14 @@ for (var li = 0; li < LANGS.length; li++) {
     var cdir = join(ROOT, catPath(lang, ck).replace(/^[/]/, ""));
     await mkdir(cdir, { recursive: true });
     await writeFile(join(cdir, "index.html"), categoryPage(lang, ck), "utf8");
+    written++;
+  }
+  // P5 创作者主页（>=2 个作品的作者）
+  for (var ai2 = 0; ai2 < authorList.length; ai2++) {
+    var g = authorList[ai2];
+    var adir = join(ROOT, authorPath(lang, g.slug).replace(/^[/]/, ""));
+    await mkdir(adir, { recursive: true });
+    await writeFile(join(adir, "index.html"), authorPage(g, lang), "utf8");
     written++;
   }
   // 对比页
@@ -1570,6 +1848,6 @@ console.log("  分类数: " + catKeyList.length);
 console.log("  页面总数: " + written + "（首页 " + LANGS.length + " + 工具页 " + items.length * LANGS.length +
   " + 分类总览 " + LANGS.length + " + 分类页 " + catKeyList.length * LANGS.length +
   " + 对比页 " + pairList.length * LANGS.length + " + 在线工具 " + (APPS.length + 1) * LANGS.length +
-  " + 内容页 " + 2 * LANGS.length + "）");
+  " + 内容页 " + 2 * LANGS.length + " + 创作者页 " + authorList.length * LANGS.length + "）");
 console.log("  sitemap.xml 已重新生成");
 console.log("  域名: " + DOMAIN);

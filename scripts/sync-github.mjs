@@ -55,41 +55,41 @@ function prettify(repoName) {
 }
 // topics 关键词 -> 站内分类（与 discover.mjs 同一套规则，命中不了进 dev）
 const TOPIC_CAT = [
-  [/^(ai|llm|gpt|machine-learning|deep-learning|neural|diffusion|transformer)/, "ai"],
-  [/^(agent|agents|mcp|autonomous)/, "agent"],
-  [/^(game|gaming|godot|bevy)/, "game"],
-  [/^(video|ffmpeg|streaming|webrtc)/, "video"],
-  [/^(image|photo|screenshot|ocr)/, "image"],
-  [/^(audio|music|podcast|tts)/, "media"],
-  [/^(security|privacy|encryption|password|auth)/, "security"],
-  [/^(auth|oauth|login)/, "auth"],
-  [/^(database|sql|postgres|mysql|vector-database|sqlite)/, "database"],
-  [/^(docker|kubernetes|devops|homelab|selfhosted|self-hosted)/, "system"],
-  [/^(editor|ide|neovim|vscode)/, "editor"],
-  [/^(browser|chrome-extension|firefox)/, "browser"],
-  [/^(mobile|ios|android|flutter|react-native)/, "mobile"],
-  [/^(finance|trading|crypto|bitcoin|blockchain)/, "finance"],
-  [/^(email|smtp)/, "email"],
-  [/^(chat|messaging|discord|slack)/, "social"],
-  [/^(design|ui|css|tailwind|figma|component)/, "design"],
-  [/^(documentation|markdown|notes|note-taking|wiki)/, "doc"],
-  [/^(downloader|download)/, "download"],
-  [/^(monitoring|observability|logging|metrics)/, "monitor"],
-  [/^(network|proxy|vpn|dns|wireguard)/, "network"],
-  [/^(tutorial|course|learn|awesome|roadmap)/, "learn"],
-  [/^(payment|stripe|billing)/, "payment"],
-  [/^(iot|raspberry-pi|arduino|home-assistant|esp32)/, "iot"],
-  [/^(cli|terminal|shell|tui|command-line)/, "dev"],
-  [/^(diagram|whiteboard|mermaid|graph)/, "diagram"],
-  [/^(form|survey)/, "form"],
-  [/^(cms|blog|static-site)/, "doc"],
+  [/^(ai|llm|gpt|machine-learning|deep-learning|neural|diffusion|transformer)/, "ai-agents"],
+  [/^(agent|agents|mcp|autonomous)/, "ai-agents"],
+  [/^(game|gaming|godot|bevy)/, "fun-games"],
+  [/^(video|ffmpeg|streaming|webrtc)/, "video-media"],
+  [/^(image|photo|screenshot|ocr)/, "design-creativity"],
+  [/^(audio|music|podcast|tts)/, "video-media"],
+  [/^(security|privacy|encryption|password|auth)/, "infra-security"],
+  [/^(auth|oauth|login)/, "infra-security"],
+  [/^(database|sql|postgres|mysql|vector-database|sqlite)/, "infra-security"],
+  [/^(docker|kubernetes|devops|homelab|selfhosted|self-hosted)/, "infra-security"],
+  [/^(editor|ide|neovim|vscode)/, "dev-tools"],
+  [/^(browser|chrome-extension|firefox)/, "productivity"],
+  [/^(mobile|ios|android|flutter|react-native)/, "mobile-iot"],
+  [/^(finance|trading|crypto|bitcoin|blockchain)/, "business-support"],
+  [/^(email|smtp)/, "marketing-growth"],
+  [/^(chat|messaging|discord|slack)/, "marketing-growth"],
+  [/^(design|ui|css|tailwind|figma|component)/, "design-creativity"],
+  [/^(documentation|markdown|notes|note-taking|wiki)/, "writing-knowledge"],
+  [/^(downloader|download)/, "productivity"],
+  [/^(monitoring|observability|logging|metrics)/, "infra-security"],
+  [/^(network|proxy|vpn|dns|wireguard)/, "infra-security"],
+  [/^(tutorial|course|learn|awesome|roadmap)/, "writing-knowledge"],
+  [/^(payment|stripe|billing)/, "business-support"],
+  [/^(iot|raspberry-pi|arduino|home-assistant|esp32)/, "mobile-iot"],
+  [/^(cli|terminal|shell|tui|command-line)/, "dev-tools"],
+  [/^(diagram|whiteboard|mermaid|graph)/, "design-creativity"],
+  [/^(form|survey)/, "productivity"],
+  [/^(cms|blog|static-site)/, "writing-knowledge"],
 ];
 function categoryFor(topics) {
   const ts = (topics || []).map((t) => String(t).toLowerCase());
   for (const [re, cat] of TOPIC_CAT) {
     if (ts.some((t) => re.test(t))) return cat;
   }
-  return "dev";
+  return "dev-tools";
 }
 
 async function fetchApproved() {
@@ -135,14 +135,14 @@ function pushApprovedSkeleton({ id, name, repo, category, desc, tags, usage, sce
 for (const a of approvedList) {
   if (!a.repo || existingRepos.has(a.repo)) continue;
   const repoName = a.repo.split("/")[1] || "tool";
-  pushApprovedSkeleton({ id: uniqueId(slugify(repoName)), name: prettify(repoName), repo: a.repo, category: "dev" });
+  pushApprovedSkeleton({ id: uniqueId(slugify(repoName)), name: prettify(repoName), repo: a.repo, category: "dev-tools" });
 }
 // 上次已上架的 approved 条目：接口漏掉时也保留
 for (const p of Object.values(prevMap)) {
   if (!p || p.approved !== true || !p.repo) continue;
   if (existingRepos.has(String(p.repo).toLowerCase())) continue;
   pushApprovedSkeleton({
-    id: p.id, name: p.name, repo: p.repo, category: p.category || "dev",
+    id: p.id, name: p.name, repo: p.repo, category: p.category || "dev-tools",
     desc: p.desc, tags: p.tags, usage: p.usage, scene: p.scene, cloud: p.cloud,
     seed: { stars: p.stars || 0, language: p.language || "", license: p.license || "" },
     homepage: p.homepage, descEn: p.descEn, pushedAt: p.pushedAt,
