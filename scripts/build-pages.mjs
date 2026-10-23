@@ -236,7 +236,9 @@ function head(lang, opt) {
   ].join("\n");
 }
 
-function header(lang, isHome) {
+function header(lang, isHome, showMenu) {
+  // 分类页也需要菜单按钮：窄屏下侧栏是抽屉，没有它就打不开；收藏按钮仍只在首页出现。
+  var showMenuBtn = showMenu !== undefined ? showMenu : isHome;
   var L = T[lang];
   var rows = [
     '<header class="topbar">',
@@ -258,7 +260,7 @@ function header(lang, isHome) {
     "    </nav>",
     '    <div class="topbar-actions">',
     '      <a class="btn-primary topbar-submit" href="' + contentPath(lang, "submit") + '">' + esc(L.submitH1) + "</a>",
-    (isHome ? '      <button id="menu-toggle" class="btn-ghost" title="' + esc(L.menuToggle) + '">☰<span class="menu-label">' + esc(L.filterHint) + "</span></button>" : ""),
+    (showMenuBtn ? '      <button id="menu-toggle" class="btn-ghost" title="' + esc(L.menuToggle) + '">☰<span class="menu-label">' + esc(L.filterHint) + "</span></button>" : ""),
     '      <a class="btn-ghost" href="' + L.langSwitchHref + '">' + esc(L.langSwitch) + "</a>"
   ];
   if (isHome) {
@@ -1330,12 +1332,53 @@ function categoryPage(lang, key) {
     ]
   }];
 
+  // 分类页左侧栏：只做导航 + 11 主分类链接，不搬首页的 JS 筛选
+  //（不放 scene-btn、#chips、#usage-chips、#sort、#form-filter、#price-filter，
+  // 避免 app.js 在分类页误绑，也避免冒烟的首页侧栏 5 分区计数受影响）。
+  // 顺序与首页侧栏一致：i18n categories 的键顺序；数量为当期全量计数。
+  var catCounts = {};
+  items.forEach(function (x) { catCounts[x.category] = (catCounts[x.category] || 0) + 1; });
+  var catNav = Object.keys(T[lang].categories).map(function (k) {
+    var active = k === key ? " active" : "";
+    var current = k === key ? ' aria-current="page"' : "";
+    return '<a class="chip' + active + '" href="' + catPath(lang, k) + '"' + current + ">" +
+      esc(catLabel(lang, k)) + ' <span class="chip-n">' + (catCounts[k] || 0) + "</span></a>";
+  }).join("");
+  var catSidebar = [
+    '  <aside class="sidebar" id="sidebar">',
+    '    <div class="sidebar-head">',
+    '      <span>' + esc(L.sideNav) + "</span>",
+    '      <button class="sidebar-close" id="sidebar-close" aria-label="close">✕</button>',
+    "    </div>",
+    '    <nav class="side-block">',
+    '      <h3 class="side-title">' + esc(L.sideNav) + "</h3>",
+    '      <a class="nav-item" href="' + homePath(lang) + '">' + ICON.home + esc(L.navHome) + "</a>",
+    '      <a class="nav-item" href="' + onlineIndexPath(lang) + '">' + ICON.bolt + esc(L.navOnline) + "</a>",
+    '      <a class="nav-item active" href="' + categoriesPath(lang) + '">' + ICON.grid + esc(L.navCategories) + "</a>",
+    '      <a class="nav-item" href="' + contentPath(lang, "about") + '">' + ICON.info + esc(L.navAbout) + "</a>",
+    '      <a class="nav-item" href="' + contentPath(lang, "disclaimer") + '">' + ICON.shield + esc(L.navDisclaimer) + "</a>",
+    '      <a class="nav-item" href="' + contentPath(lang, "submit") + '">' + ICON.plus + esc(L.navSubmit) + "</a>",
+    '      <a class="nav-item" href="https://globalfacthub.com" target="_blank" rel="noopener">' + ICON.external + esc(L.navGlobalFactHub) + "</a>",
+    "    </nav>",
+    '    <div class="side-block">',
+    '      <h3 class="side-title">' + esc(L.sideCategory) + "</h3>",
+    '      <div class="chips chips-catnav">',
+    '        <a class="chip" href="' + homePath(lang) + '">' + esc(L.backToAll) + ' <span class="chip-n">' + items.length + "</span></a>",
+    catNav,
+    "      </div>",
+    "    </div>",
+    "  </aside>",
+    '  <div class="sidebar-backdrop" id="sidebar-backdrop"></div>'
+  ].join("\n");
+
   return [
     head(lang, { title: title, desc: desc, paths: paths, jsonld: jsonld, ogType: "website" }),
     "",
-    header(lang, false),
+    header(lang, false, true),
     "",
-    '<main class="wrap">',
+    '<div class="layout" id="layout">',
+    catSidebar,
+    '  <main class="content">',
     '  <nav class="crumbs">',
     '    <a href="' + homePath(lang) + '">' + esc(L.backToAll) + "</a>",
     '    <span>/</span><a href="' + categoriesPath(lang) + '">' + esc(L.categoriesHeading) + "</a>",
@@ -1352,6 +1395,7 @@ function categoryPage(lang, key) {
     "  </div>",
     '  <p class="back-link"><a href="' + homePath(lang) + '">← ' + esc(L.backToAll) + "</a></p>",
     "</main>",
+    "</div>",
     "",
     footer(lang),
     '<script src="/app.js?v=' + ASSET_V + '"></script>',

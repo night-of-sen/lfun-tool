@@ -1,5 +1,5 @@
 {
-  "note": "usage: online=在线即用 / desktop=桌面应用 / cli=命令行 / selfhost=可自托管 / lib=开发库 / extension=浏览器扩展。scene: 空=通用, overseas=出海辅助。homepage: null 从 GitHub 读取，空字符串表示确认没有。",
+  "note": "usage: online=在线即用 / desktop=桌面应用 / cli=命令行 / selfhost=可自托管 / lib=开发库 / extension=浏览器扩展。scene: 空=通用, overseas=增长与运营。homepage: null 从 GitHub 读取，空字符串表示确认没有。",
   "items": [
     {
       "id": "excalidraw",

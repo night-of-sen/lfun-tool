@@ -207,9 +207,9 @@ check("结果计数文案", getEl("result-count").textContent, "显示 " + items
 
 console.log("\n[3] 场景切换");
 clickScene("overseas");
-check("出海辅助", visible(), items.filter((t) => (t.scene || "general") === "overseas").length);
-check("出海分类 chip 数", cats().length, catsOf((t) => sceneOf(t) === "overseas"));
-check("出海使用方式 chip 数", usages().length, usagesOf((t) => sceneOf(t) === "overseas"));
+check("增长与运营", visible(), items.filter((t) => (t.scene || "general") === "overseas").length);
+check("增长与运营分类 chip 数", cats().length, catsOf((t) => sceneOf(t) === "overseas"));
+check("增长与运营使用方式 chip 数", usages().length, usagesOf((t) => sceneOf(t) === "overseas"));
 clickScene("general");
 check("通用工具", visible(), items.filter((t) => (t.scene || "general") === "general").length);
 check("通用分类 chip 数", cats().length, catsOf((t) => sceneOf(t) === "general"));
@@ -220,10 +220,10 @@ check("回到全部", visible(), items.length);
 console.log("\n[4] 三层筛选联动");
 clickScene("overseas");
 clickUsage("selfhost");
-check("出海 · 可自托管", visible(), items.filter((t) => (t.scene || "general") === "overseas" && has(t, "selfhost")).length);
+check("增长与运营 · 可自托管", visible(), items.filter((t) => (t.scene || "general") === "overseas" && has(t, "selfhost")).length);
 clickUsage("all");
 clickCat("marketing-growth");
-check("出海 · 营销增长", visible(), items.filter((t) => (t.scene || "general") === "overseas" && t.category === "marketing-growth").length);
+check("增长与运营 · 营销增长", visible(), items.filter((t) => (t.scene || "general") === "overseas" && t.category === "marketing-growth").length);
 clickUsage("lib");
 check("营销增长 + 开发库（分类自动重置）", visible(), items.filter((t) => (t.scene || "general") === "overseas" && has(t, "lib")).length);
 clickScene("all");
