@@ -278,7 +278,14 @@ check("赞助位容器（首页）", /id="sponsor-home"/.test(html), true);
 check("赞助位默认隐藏", /id="sponsor-home"[^>]*hidden/.test(html), true);
 check("sponsors.js 已引用", /sponsors\.js/.test(html), true);
 check("slots.php 存在", existsSync(resolve(ROOT, "api/slots.php")), true);
-check("sitemap 不含 /go/", /<loc>[^<]*\/go\//.test(readFileSync(resolve(ROOT, "sitemap.xml"), "utf8")), false);
+// sitemap 不含 /go/ 联盟跳转：只判根路径 /go/<id>/（及 /zh/go/<id>/）。
+// 原正则 /<loc>[^<]*\/go\// 是子串匹配，合法工具页 /tool/go/
+//（golang/go，末段恰好是 go）也会被误判；真正的联盟跳转
+// loc 一定是域名后紧跟 /go/<id>/，/tool/go/、/compare/*-vs-go/
+// 等含 /go/ 段的合法页不应被判为跳转。
+const sitemapLocs = [...readFileSync(resolve(ROOT, "sitemap.xml"), "utf8").matchAll(/<loc>([^<]*)<\/loc>/g)].map((m) => m[1]);
+const sitemapHasGoJump = sitemapLocs.some((loc) => /^\/(?:zh\/)?go\//.test(loc.replace(/^https?:\/\/[^/]+/, "")));
+check("sitemap 不含 /go/", sitemapHasGoJump, false);
 check("sitemap 含 /partner/", /<loc>[^<]*\/partner\//.test(readFileSync(resolve(ROOT, "sitemap.xml"), "utf8")), true);
 const partnerHtml = readFileSync(resolve(ROOT, "partner/index.html"), "utf8");
 check("合作页定价行数", (partnerHtml.match(/class="price"/g) || []).length, 7);
