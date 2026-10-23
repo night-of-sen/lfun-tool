@@ -20,7 +20,7 @@
         },
         {
           "h": "两个场景",
-          "p": "「通用工具」是日常开发、效率、娱乐。「出海辅助」是面向海外业务的专有需求：多语言、合规、支付计费、邮件触达、客服工单、认证授权。这部分在国内业务里基本不存在，所以单独成组。"
+          "p": "「通用工具」是日常开发、效率、娱乐。「增长与运营」是把产品推向用户、跑起业务的那组工具：多语言、合规、支付计费、邮件触达、客服工单、认证授权。做业务都会用到它们，所以单独成组。"
         },
         {
           "h": "数据从哪来",
@@ -52,7 +52,7 @@
         },
         {
           "h": "Two sections",
-          "p": "\"General\" covers everyday development, productivity and fun. \"Going global\" covers needs specific to running a business outside China: localization, compliance, payments and billing, email deliverability, customer support, auth. Those needs barely exist for domestic products, so they get their own group."
+          "p": "\"General\" covers everyday development, productivity and fun. \"Growth & operations\" covers the tools that get a product to users and keep a business running: localization, compliance, payments and billing, email deliverability, customer support, auth. Every business needs them, so they get their own group."
         },
         {
           "h": "Where the data comes from",
