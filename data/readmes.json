@@ -2521,9 +2521,9 @@
   "developer-roadmap": {
     "summary": "",
     "docker": "",
-    "source": "",
-    "fetchedAt": "2026-09-24T01:09:37.521Z",
-    "missing": true
+    "source": "readme.md",
+    "rawLength": 9937,
+    "fetchedAt": "2026-10-23T05:50:59.807Z"
   },
   "coding-interview-university": {
     "summary": "",
@@ -5884,5 +5884,215 @@
     "source": "README.md",
     "rawLength": 33825,
     "fetchedAt": "2026-10-21T09:42:13.881Z"
+  },
+  "awesome": {
+    "summary": "",
+    "docker": "",
+    "source": "readme.md",
+    "rawLength": 78320,
+    "fetchedAt": "2026-10-23T05:50:59.807Z"
+  },
+  "public-apis": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 317869,
+    "fetchedAt": "2026-10-23T05:50:59.807Z"
+  },
+  "awesome-python": {
+    "summary": "Python implementation of data structures, algorithms and design patterns. Also see awesome-algorithms.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 81266,
+    "fetchedAt": "2026-10-23T05:50:59.807Z"
+  },
+  "996-icu": {
+    "summary": "996.ICU ======= Please note that there exists NO other official account, app or merchandise except for the official domain and this repository.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6885,
+    "fetchedAt": "2026-10-23T05:50:59.807Z"
+  },
+  "linux": {
+    "summary": "",
+    "docker": "",
+    "source": "",
+    "fetchedAt": "2026-10-23T05:50:59.807Z",
+    "missing": true
+  },
+  "the-book-of-secret-knowledge": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 211640,
+    "fetchedAt": "2026-10-23T05:51:00.297Z"
+  },
+  "react": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5296,
+    "fetchedAt": "2026-10-23T05:51:00.297Z"
+  },
+  "python": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2540,
+    "fetchedAt": "2026-10-23T05:51:00.297Z"
+  },
+  "vue": {
+    "summary": "Vue has reached End of Life on December 31st, 2023. It no longer receives new features, updates, or fixes. However, it is still available on all existing distribution channels (CDNs, package managers, Github, etc).",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7873,
+    "fetchedAt": "2026-10-23T05:51:00.297Z"
+  },
+  "freedomain": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3943,
+    "fetchedAt": "2026-10-23T05:51:00.297Z"
+  },
+  "tensorflow": {
+    "summary": "TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML-powered applications.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7736,
+    "fetchedAt": "2026-10-23T05:51:00.297Z"
+  },
+  "javascript-algorithms": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 25677,
+    "fetchedAt": "2026-10-23T05:51:00.817Z"
+  },
+  "microsoft-activation-scripts": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3555,
+    "fetchedAt": "2026-10-23T05:51:00.817Z"
+  },
+  "vscode": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6726,
+    "fetchedAt": "2026-10-23T05:51:00.817Z"
+  },
+  "markitdown": {
+    "summary": "MarkItDown is a lightweight Python utility for converting various files to Markdown for use with LLMs and related text analysis pipelines. To this end, it is most comparable to textract, but with a focus on preserving important document structure and content as Markdown (including: headings, lists…",
+    "docker": "docker build -t markitdown:latest .\ndocker run --rm -i markitdown:latest < ~/your-file.pdf > output.md",
+    "source": "README.md",
+    "rawLength": 21058,
+    "fetchedAt": "2026-10-23T05:51:00.817Z"
+  },
+  "ohmyzsh": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 23356,
+    "fetchedAt": "2026-10-23T05:51:00.817Z"
+  },
+  "awesome-go": {
+    "summary": "Awesome Go has no monthly fee, but we have employees who work hard to keep it running. With money raised, we can repay the effort of each person involved! You can see how we calculate our billing and distribution as it is open to the entire community. Want to be a supporter of the project click here…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 425811,
+    "fetchedAt": "2026-10-23T05:51:00.817Z"
+  },
+  "python-100-days": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18385,
+    "fetchedAt": "2026-10-23T05:51:12.451Z"
+  },
+  "cs-notes": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6750,
+    "fetchedAt": "2026-10-23T05:51:12.451Z"
+  },
+  "you-dont-know-js": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4213,
+    "fetchedAt": "2026-10-23T05:51:12.451Z"
+  },
+  "cleanyourtv": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 57996,
+    "fetchedAt": "2026-10-23T05:51:12.451Z"
+  },
+  "skills-5": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 19179,
+    "fetchedAt": "2026-10-23T05:51:24.815Z"
+  },
+  "libretv": {
+    "summary": "LibreTV Next.js 迁移版：免费在线视频聚合搜索与观看平台。基于 Next.js 15（App Router）+ TypeScript + Tailwind CSS，播放内核为 ArtPlayer + hls.js，支持亮暗双主题。",
+    "docker": "# 在 .env 中设置 PASSWORD\necho \"PASSWORD=your-password\" > .env\n\n# 方式一：拉取发布镜像（零构建）\ndocker compose pull && docker compose up -d\n\n# 方式二：源码构建\ndocker compose up -d --build",
+    "source": "README.md",
+    "rawLength": 12436,
+    "fetchedAt": "2026-10-23T05:51:24.815Z"
+  },
+  "learn-harness-engineering": {
+    "summary": "Learn Harness Engineering is a course dedicated to the engineering of AI coding agents. We have deeply studied and synthesized the most advanced Harness Engineering theories and practices in the industry. Our core references include:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 41591,
+    "fetchedAt": "2026-10-23T05:51:24.815Z"
+  },
+  "jcode": {
+    "summary": "Jcode is inventing a new form of customizability. One that doesn't limit you to what a plugin or extension can do. Tell your jcode agent to enter self dev mode, and it will start modifying its own source code. Jcode is optimized to iterate on itself. There is significant infrastructure around self d…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6558,
+    "fetchedAt": "2026-10-23T05:51:24.815Z"
+  },
+  "skillspector": {
+    "summary": "SkillSpector is part of the NVIDIA Verified Skills pipeline, which scans, evaluates, and signs agent skills before publication. Skills that pass are published to the NVIDIA skills catalog.",
+    "docker": "docker run --rm -v \"$PWD:/scan\" skillspector scan ./my-skill/ --no-llm",
+    "source": "README.md",
+    "rawLength": 58409,
+    "fetchedAt": "2026-10-23T05:51:24.815Z"
+  },
+  "llm-wiki": {
+    "summary": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources. Knowledg…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 31543,
+    "fetchedAt": "2026-10-23T05:51:37.630Z"
+  },
+  "openstock": {
+    "summary": "OpenStock ships a railway.json that builds the Dockerfile, checks health on /sign-in and restarts on failure. The template above sets everything up; to do it by hand:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 33456,
+    "fetchedAt": "2026-10-23T05:51:37.631Z"
+  },
+  "dnshe-freedomains": {
+    "summary": "DNSHE is a non-profit domain distribution platform driven by a Singapore youth team. We aim to lower the barrier to creating content on the internet by providing free, accessible domain infrastructure for developers, students, and open-source enthusiasts worldwide.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7891,
+    "fetchedAt": "2026-10-23T05:51:37.631Z"
+  },
+  "gpt-oss": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 24418,
+    "fetchedAt": "2026-10-23T05:51:37.631Z"
   }
 }

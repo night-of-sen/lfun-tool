@@ -20871,6 +20871,665 @@
       "cloud": "",
       "descEn": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（Agent Skills / RAG / MCP / A2A）、AI 编程教程（Harness Eng",
       "pushedAt": "2026-09-28"
+    },
+    {
+      "id": "cleanyourtv",
+      "name": "Cleanyourtv",
+      "repo": "Gathin23/cleanyourtv",
+      "homepage": "https://cleanyour.tv",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "adb",
+        "adblock",
+        "android-tv",
+        "android-tv-launcher"
+      ],
+      "seed": {
+        "stars": 25032,
+        "language": "Java"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "skills-5",
+      "name": "Skills",
+      "repo": "google/skills",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "google",
+        "googlecloud",
+        "skills"
+      ],
+      "seed": {
+        "stars": 21503,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Agent Skills for Google products and technologies",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "libretv",
+      "name": "LibreTV",
+      "repo": "LibreSpark/LibreTV",
+      "homepage": "https://libretv.is-an.org",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "css",
+        "film",
+        "html",
+        "movie-web-app"
+      ],
+      "seed": {
+        "stars": 21198,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "一分钟搭建影视站，支持Docker等部署方式",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "learn-harness-engineering",
+      "name": "Learn Harness Engineering",
+      "repo": "walkinglabs/learn-harness-engineering",
+      "homepage": "https://walkinglabs.github.io/learn-harness-engineering/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agentic",
+        "agentic-ai",
+        "ai"
+      ],
+      "seed": {
+        "stars": 21181,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Harness engineering beginner tutorial, from 0 to 1",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "jcode",
+      "name": "Jcode",
+      "repo": "1jehuang/jcode",
+      "homepage": "https://jcode.sh",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-agent",
+        "ai-coding-agent",
+        "claude"
+      ],
+      "seed": {
+        "stars": 21139,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "High performance coding agent harness written in Rust, built for heavy multi-agent dev workflows",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "skillspector",
+      "name": "SkillSpector",
+      "repo": "NVIDIA/SkillSpector",
+      "homepage": "https://docs.nvidia.com/skills/scanning-agent-skills",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-security",
+        "agent-skills",
+        "agentic-ai",
+        "ai-security"
+      ],
+      "seed": {
+        "stars": 21021,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex,",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "llm-wiki",
+      "name": "Llm Wiki",
+      "repo": "nashsu/llm_wiki",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 20910,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-a",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "openstock",
+      "name": "OpenStock",
+      "repo": "Open-Dev-Society/OpenStock",
+      "homepage": "https://openstock-ods.vercel.app",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "coderabbit",
+        "inngest",
+        "nextjs",
+        "shadcn-ui"
+      ],
+      "seed": {
+        "stars": 20800,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for ev",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "dnshe-freedomains",
+      "name": "DNSHE FreeDomains",
+      "repo": "dnshe/DNSHE-FreeDomains",
+      "homepage": "https://www.dnshe.com/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 20564,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🌐 DNSHE — Free subdomains for developers, with Anycast DNS, a REST API, and free renewal within 180 days before expiry. Available suffixes: us.ci, cc.cd, de5.net, ccwu.cc.",
+      "pushedAt": "2026-10-07"
+    },
+    {
+      "id": "gpt-oss",
+      "name": "Gpt Oss",
+      "repo": "openai/gpt-oss",
+      "homepage": "https://openai.com/open-models",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 20487,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "gpt-oss-120b and gpt-oss-20b are two open-weight language models by OpenAI",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "awesome",
+      "name": "Awesome",
+      "repo": "sindresorhus/awesome",
+      "homepage": "",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "awesome",
+        "awesome-list",
+        "lists",
+        "resources"
+      ],
+      "seed": {
+        "stars": 523262,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
+      "pushedAt": "2026-09-02"
+    },
+    {
+      "id": "public-apis",
+      "name": "Public Apis",
+      "repo": "public-apis/public-apis",
+      "homepage": "https://APILayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "api",
+        "apis",
+        "dataset",
+        "development"
+      ],
+      "seed": {
+        "stars": 491482,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A collective list of free APIs",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "awesome-python",
+      "name": "Awesome Python",
+      "repo": "vinta/awesome-python",
+      "homepage": "https://awesome-python.com/",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "awesome",
+        "awesome-list",
+        "python",
+        "python-frameworks"
+      ],
+      "seed": {
+        "stars": 329547,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "996-icu",
+      "name": "996.ICU",
+      "repo": "996icu/996.ICU",
+      "homepage": "https://996.icu",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 277154,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
+      "pushedAt": "2025-08-22"
+    },
+    {
+      "id": "linux",
+      "name": "Linux",
+      "repo": "torvalds/linux",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 253216,
+        "language": "C"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Linux kernel source tree",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "the-book-of-secret-knowledge",
+      "name": "The Book Of Secret Knowledge",
+      "repo": "trimstray/the-book-of-secret-knowledge",
+      "homepage": "",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "awesome",
+        "awesome-list",
+        "bsd",
+        "cheatsheets"
+      ],
+      "seed": {
+        "stars": 252462,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+      "pushedAt": "2024-11-19"
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "repo": "react/react",
+      "homepage": "https://react.dev",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "declarative",
+        "frontend",
+        "javascript",
+        "library"
+      ],
+      "seed": {
+        "stars": 251708,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The library for web and native user interfaces.",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "repo": "TheAlgorithms/Python",
+      "homepage": "https://thealgorithms.github.io/Python/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "algorithm",
+        "algorithm-competitions",
+        "algorithms-implemented",
+        "algos"
+      ],
+      "seed": {
+        "stars": 225469,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "All Algorithms implemented in Python",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "vue",
+      "name": "Vue",
+      "repo": "vuejs/vue",
+      "homepage": "http://v2.vuejs.org",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "framework",
+        "frontend",
+        "javascript",
+        "vue"
+      ],
+      "seed": {
+        "stars": 212634,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
+      "pushedAt": "2024-10-10"
+    },
+    {
+      "id": "freedomain",
+      "name": "FreeDomain",
+      "repo": "DigitalPlatDev/FreeDomain",
+      "homepage": "https://dashboard.digitalplat.org",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "digitalplat",
+        "dns",
+        "dns-tutorial",
+        "documentation"
+      ],
+      "seed": {
+        "stars": 205426,
+        "language": "Markdown"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Free domain registration and practical DNS learning resources for everyone.",
+      "pushedAt": "2026-08-12"
+    },
+    {
+      "id": "tensorflow",
+      "name": "Tensorflow",
+      "repo": "tensorflow/tensorflow",
+      "homepage": "https://tensorflow.org",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "deep-learning",
+        "deep-neural-networks",
+        "distributed",
+        "machine-learning"
+      ],
+      "seed": {
+        "stars": 201193,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An Open Source Machine Learning Framework for Everyone",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "javascript-algorithms",
+      "name": "Javascript Algorithms",
+      "repo": "trekhleb/javascript-algorithms",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "algorithm",
+        "algorithms",
+        "computer-science",
+        "data-structures"
+      ],
+      "seed": {
+        "stars": 196690,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+      "pushedAt": "2026-07-26"
+    },
+    {
+      "id": "microsoft-activation-scripts",
+      "name": "Microsoft Activation Scripts",
+      "repo": "massgravel/Microsoft-Activation-Scripts",
+      "homepage": "https://massgrave.dev",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "activator",
+        "hwid",
+        "kms",
+        "kms38"
+      ],
+      "seed": {
+        "stars": 195631,
+        "language": "Batchfile"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
+      "pushedAt": "2026-10-17"
+    },
+    {
+      "id": "vscode",
+      "name": "Vscode",
+      "repo": "microsoft/vscode",
+      "homepage": "https://code.visualstudio.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "editor",
+        "electron",
+        "microsoft",
+        "typescript"
+      ],
+      "seed": {
+        "stars": 194223,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Visual Studio Code",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "markitdown",
+      "name": "Markitdown",
+      "repo": "microsoft/markitdown",
+      "homepage": "",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "autogen",
+        "autogen-extension",
+        "langchain",
+        "markdown"
+      ],
+      "seed": {
+        "stars": 191701,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Python tool for converting files and office documents to Markdown.",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "ohmyzsh",
+      "name": "Ohmyzsh",
+      "repo": "ohmyzsh/ohmyzsh",
+      "homepage": "https://ohmyz.sh",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "cli",
+        "cli-app",
+        "oh-my-zsh",
+        "oh-my-zsh-plugin"
+      ],
+      "seed": {
+        "stars": 190133,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🙃 A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew,",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "awesome-go",
+      "name": "Awesome Go",
+      "repo": "avelino/awesome-go",
+      "homepage": "https://awesome-go.com",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "awesome",
+        "awesome-list",
+        "go",
+        "golang"
+      ],
+      "seed": {
+        "stars": 189856,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A curated list of awesome Go frameworks, libraries and software",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "python-100-days",
+      "name": "Python 100 Days",
+      "repo": "jackfrued/Python-100-Days",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 187385,
+        "language": "Jupyter Notebook"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Python - 100天从新手到大师",
+      "pushedAt": "2026-07-29"
+    },
+    {
+      "id": "cs-notes",
+      "name": "CS Notes",
+      "repo": "CyC2018/CS-Notes",
+      "homepage": "http://cyc2018.xyz",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "algorithm",
+        "computer-science",
+        "cpp",
+        "interview"
+      ],
+      "seed": {
+        "stars": 186311,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": ":books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "you-dont-know-js",
+      "name": "You Dont Know JS",
+      "repo": "getify/You-Dont-Know-JS",
+      "homepage": "https://www.amazon.com/dp/B085XXCJ7X",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "async",
+        "book",
+        "book-series",
+        "closures"
+      ],
+      "seed": {
+        "stars": 184835,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A book series (2 published editions) on the JS language.",
+      "pushedAt": "2026-02-15"
     }
   ]
 }
