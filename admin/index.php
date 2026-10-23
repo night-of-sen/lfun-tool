@@ -187,6 +187,15 @@ button.ghost{background:transparent;color:var(--text);border:1px solid var(--lin
 .kpi{display:flex;gap:22px;flex-wrap:wrap}.kpi div b{font-size:22px;display:block}
 .muted{color:var(--muted)}.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 form.inline{display:contents}
+/* 提交队列：15 列塞不进 1100px 容器时横向滚动，不再把工具名压成一竖排单字 */
+.subs-wrap{overflow-x:auto}
+.subs-wrap table{min-width:1560px}
+.subs-wrap th{white-space:nowrap}
+.subs-wrap td.tool{min-width:280px;word-break:normal;overflow-wrap:break-word}
+.subs-wrap td.repo{min-width:200px;word-break:normal;overflow-wrap:break-word}
+.subs-wrap td.nowrap{white-space:nowrap}
+.subs-wrap td.action{min-width:200px;white-space:nowrap}
+.subs-wrap td.action form{white-space:nowrap}
 </style></head><body>
 <header><b>开源工具集后台</b>
 <nav><?php foreach ($nav as $k => $label): ?><a class="<?= $p === $k ? 'on' : '' ?>" href="?p=<?= h($k) ?>"><?= h($label) ?></a><?php endforeach; ?></nav>
@@ -274,19 +283,19 @@ form.inline{display:contents}
 
 <?php elseif ($p === 'subs'): ?>
 <div class="card"><h3>收录提交队列（<?= count($subs) ?>）</h3>
-<p class="muted">付费队列置顶并显示 SLA；未付款的付费提交不会进入工具库。上线前提交的 IP 国家显示“未记录”（只存国家，不存原始 IP）。改成 approved 后会自动发邮件通知提交者；GitHub 投稿在下次每日重建时自动上架，非 GitHub 投稿须站长按本行字段手动加入工具库（data/tools.json），自动上架仅支持仓库投稿。</p><table>
+<p class="muted">付费队列置顶并显示 SLA；未付款的付费提交不会进入工具库。上线前提交的 IP 国家显示“未记录”（只存国家，不存原始 IP）。改成 approved 后会自动发邮件通知提交者；GitHub 投稿在下次每日重建时自动上架，非 GitHub 投稿须站长按本行字段手动加入工具库（data/tools.json），自动上架仅支持仓库投稿。</p><div class="subs-wrap"><table>
 <tr><th>id</th><th>工具 / 作品链接</th><th>仓库</th><th>主分类</th><th>形态</th><th>价格</th><th>作者</th><th>档位</th><th>联系</th><th>SLA</th><th>状态</th><th>查询码</th><th>提交时间</th><th>IP 国家</th><th></th></tr>
 <?php foreach ($subs as $r): ?><?php $slaOver = !empty($r['sla_deadline']) && $r['sla_deadline'] < date('Y-m-d H:i:s') && in_array($r['status'], ['pending', 'paid_pending'], true); ?><?php $sc = (string) ($r['submitter_country'] ?? ''); ?><tr>
-<td><?= (int) $r['id'] ?></td><td style="word-break:break-all"><?php if (($r['tool_name'] ?? '') !== ''): ?><?= h((string) $r['tool_name']) ?><?php if (($r['oneliner'] ?? '') !== ''): ?><br><span class="muted"><?= h((string) $r['oneliner']) ?></span><?php endif; ?><?php if (($r['work_url'] ?? '') !== ''): ?><br><a class="muted" href="<?= h((string) $r['work_url']) ?>" target="_blank" rel="noopener">作品链接</a><?php endif; ?><?php if (($r['screenshot_url'] ?? '') !== ''): ?><br><a class="muted" href="<?= h((string) $r['screenshot_url']) ?>" target="_blank" rel="noopener">截图</a><?php endif; ?><?php else: ?><span class="muted">老投稿（仅仓库）</span><?php endif; ?></td><td style="word-break:break-all"><?= h($r['repo_url']) ?></td><td><?= h((string) ($r['primary_category'] ?? '')) ?></td><td><?= h((string) ($r['form'] ?? '')) ?></td><td><?= h((string) ($r['price_model'] ?? '')) ?></td><td><?= h((string) ($r['author_name'] ?? '')) ?></td><td><?= h($r['tier']) ?></td>
-<td><?= h($r['contact_email']) ?></td><td<?= $slaOver ? ' style="color:#f66;font-weight:bold" title="SLA 已超时"' : ' class="muted"' ?>><?= h((string) $r['sla_deadline']) ?></td>
-<td><?= h($r['status']) ?></td><td class="muted"><?= h($r['query_code']) ?></td>
-<td class="muted"><?= h((string) ($r['created_at'] ?? '')) ?></td>
-<td><?= $sc !== '' ? h($sc) : '<span class="muted">未记录</span>' ?></td>
-<td><form method="post"><input type="hidden" name="csrf" value="<?= h($csrf) ?>">
+<td><?= (int) $r['id'] ?></td><td class="tool"><?php if (($r['tool_name'] ?? '') !== ''): ?><?= h((string) $r['tool_name']) ?><?php if (($r['oneliner'] ?? '') !== ''): ?><br><span class="muted"><?= h((string) $r['oneliner']) ?></span><?php endif; ?><?php if (($r['work_url'] ?? '') !== ''): ?><br><a class="muted" href="<?= h((string) $r['work_url']) ?>" target="_blank" rel="noopener">作品链接</a><?php endif; ?><?php if (($r['screenshot_url'] ?? '') !== ''): ?><br><a class="muted" href="<?= h((string) $r['screenshot_url']) ?>" target="_blank" rel="noopener">截图</a><?php endif; ?><?php else: ?><span class="muted">老投稿（仅仓库）</span><?php endif; ?></td><td class="repo"><?= h($r['repo_url']) ?></td><td><?= h((string) ($r['primary_category'] ?? '')) ?></td><td><?= h((string) ($r['form'] ?? '')) ?></td><td><?= h((string) ($r['price_model'] ?? '')) ?></td><td><?= h((string) ($r['author_name'] ?? '')) ?></td><td><?= h($r['tier']) ?></td>
+<td class="nowrap"><?= h($r['contact_email']) ?></td><td<?= $slaOver ? ' class="nowrap" style="color:#f66;font-weight:bold" title="SLA 已超时"' : ' class="muted nowrap"' ?>><?= h((string) $r['sla_deadline']) ?></td>
+<td class="nowrap"><?= h($r['status']) ?></td><td class="muted nowrap"><?= h($r['query_code']) ?></td>
+<td class="muted nowrap"><?= h((string) ($r['created_at'] ?? '')) ?></td>
+<td class="nowrap"><?= $sc !== '' ? h($sc) : '<span class="muted">未记录</span>' ?></td>
+<td class="action"><form method="post"><input type="hidden" name="csrf" value="<?= h($csrf) ?>">
 <input type="hidden" name="action" value="submission_status"><input type="hidden" name="id" value="<?= (int) $r['id'] ?>">
 <select name="status"><?php foreach (['pending', 'paid_pending', 'approved', 'rejected'] as $opt): ?><option value="<?= $opt ?>"<?= $r['status'] === $opt ? ' selected' : '' ?>><?= $opt ?></option><?php endforeach; ?></select>
 <button class="ghost">更新</button></form></td></tr><?php endforeach; ?>
-<?php if (!$subs): ?><tr><td colspan="15" class="muted">暂无提交</td></tr><?php endif; ?></table></div>
+<?php if (!$subs): ?><tr><td colspan="15" class="muted">暂无提交</td></tr><?php endif; ?></table></div></div>
 
 <?php else: ?>
 <div class="card"><h3>订阅者</h3>
