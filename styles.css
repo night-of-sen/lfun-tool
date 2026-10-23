@@ -417,6 +417,10 @@ html[data-theme="dark"] .re-hl mark{background:#a16207;color:#fff}
 .partner-form .tier-opt input{flex:none;margin-top:3px;accent-color:var(--accent)}
 .partner-form .tier-opt>span strong{color:var(--text)}
 .partner-note{padding:14px 16px;background:var(--panel-2);border:1px solid var(--border);border-radius:var(--radius);font-size:13.5px;color:var(--muted)}
+.partner-contact{margin:0 0 16px;font-size:13.5px;color:var(--muted)}
+.form-msg{margin:8px 0 0;font-size:13px}
+.form-msg.ok{color:#16a34a}
+.form-msg.err{color:#dc2626}
 .footer-disclosure{margin-top:6px;font-size:12px;color:var(--muted);opacity:.85}
 
 /* ===== Newsletter（PRD 模块六）：页脚订阅框 + 首页弹窗 ===== */
