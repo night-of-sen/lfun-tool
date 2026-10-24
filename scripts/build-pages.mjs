@@ -1586,19 +1586,54 @@ function partnerPage(lang) {
   }).join("\n");
   var action = (PRICING.partner && PRICING.partner.form_action) || "";
   var mail = (PRICING.partner && PRICING.partner.contact_email) || "";
-  var types = (L.partnerTypes || []).map(function (x) { return "<option>" + esc(x) + "</option>"; }).join("");
+  // 类型下拉框必须带后端白名单里的 value，否则提交后全被归成 other
+  var typeCodes = ["affiliate", "featured", "paid_review", "newsletter", "other"];
+  var types = (L.partnerTypes || []).map(function (x, i) {
+    return '<option value="' + (typeCodes[i] || "other") + '">' + esc(x) + "</option>";
+  }).join("");
+  // 首屏邮箱直达：不用滚到底部表单也能联系
+  var contact = mail
+    ? '  <p class="partner-contact">' + esc(L.partnerContact || "") + ' <a data-mailto href="mailto:' + esc(mail) + '">' + esc(mail) + "</a></p>"
+    : "";
   // 表单后端尚未接入：action 为空时不假装能提交，改为提示 + 邮件兜底
   var form = action
-    ? '    <form class="partner-form" method="POST" action="' + esc(action) + '">' +
+    ? '    <form id="partner-form" class="partner-form" method="POST" action="' + esc(action) + '">' +
       '<input type="text" name="_hp" class="hp" tabindex="-1" autocomplete="off">' +
-      '<label>' + esc(L.partnerName) + '<input name="name" required></label>' +
-      '<label>' + esc(L.partnerCompany) + '<input name="company"></label>' +
-      '<label>' + esc(L.partnerEmail) + '<input type="email" name="email" required></label>' +
+      '<input type="hidden" name="_ts" id="partner-ts" value="">' +
+      '<label>' + esc(L.partnerName) + '<input name="name" required maxlength="120"></label>' +
+      '<label>' + esc(L.partnerCompany) + '<input name="company" maxlength="160"></label>' +
+      '<label>' + esc(L.partnerEmail) + '<input type="email" name="email" required maxlength="200"></label>' +
       '<label>' + esc(L.partnerType) + '<select name="type">' + types + "</select></label>" +
-      '<label>' + esc(L.partnerMessage) + '<textarea name="message" rows="4"></textarea></label>' +
-      '<button class="btn-primary btn-lg" type="submit">' + esc(L.partnerSubmit) + "</button></form>"
+      '<label>' + esc(L.partnerMessage) + '<textarea name="message" rows="4" maxlength="4000"></textarea></label>' +
+      '<button class="btn-primary btn-lg" type="submit">' + esc(L.partnerSubmit) + "</button></form>" +
+      '    <p id="partner-msg" class="form-msg" aria-live="polite"></p>'
     : '    <p class="partner-note">' + esc(L.partnerNoBackend) +
       (mail ? ' <a href="mailto:' + esc(mail) + '">' + esc(mail) + "</a>" : "") + "</p>";
+  // 内联提交脚本：fetch 提交不跳 JSON 页，成功记一次 GA4 generate_lead
+  var partnerJs = [
+    "(function(){",
+    "var form=document.getElementById('partner-form');",
+    "var msg=document.getElementById('partner-msg');",
+    "function lead(m){try{if(typeof gtag==='function'){gtag('event','generate_lead',{method:m});}}catch(e){}}",
+    "var links=document.querySelectorAll('[data-mailto]');",
+    "for(var i=0;i<links.length;i++){links[i].addEventListener('click',function(){lead('email');});}",
+    "if(!form||!msg)return;",
+    "var ts=document.getElementById('partner-ts');",
+    "if(ts){ts.value=Math.floor(Date.now()/1000);}",
+    "var SENDING='" + esc(L.submitSending || "") + "',ERR='" + esc(L.partnerErr || "") + "',OK='" + esc(L.partnerSent || "") + "';",
+    "form.addEventListener('submit',function(ev){",
+    "ev.preventDefault();",
+    "msg.textContent=SENDING;msg.className='form-msg';",
+    "fetch(form.action,{method:'POST',body:new FormData(form),credentials:'same-origin'})",
+    ".then(function(r){return r.json().then(function(d){return{ok:r.ok&&d&&d.ok,d:d};});})",
+    ".then(function(res){",
+    "if(res.ok){msg.textContent=OK;msg.className='form-msg ok';form.reset();if(ts){ts.value=Math.floor(Date.now()/1000);}lead('form');}",
+    "else{msg.textContent=(res.d&&res.d.error)||ERR;msg.className='form-msg err';}",
+    "})",
+    ".catch(function(){msg.textContent=ERR;msg.className='form-msg err';});",
+    "});",
+    "})();"
+  ].join("\n");
 
   return [
     head(lang, { title: L.partnerTitle + " · " + L.siteName, desc: L.partnerDesc, paths: paths, jsonld: jsonld, ogType: "website" }),
@@ -1608,6 +1643,7 @@ function partnerPage(lang) {
     '  <nav class="crumbs"><a href="' + homePath(lang) + '">' + esc(L.backToAll) + "</a><span>/</span><strong>" + esc(L.partnerH1) + "</strong></nav>",
     '  <h1 class="partner-h1">' + esc(L.partnerH1) + "</h1>",
     '  <p class="partner-intro">' + esc(L.partnerIntro) + "</p>",
+    contact,
     '  <h2 class="partner-h2">' + esc(L.partnerWays) + "</h2>",
     '  <div class="ways">',
     ways,
@@ -1623,6 +1659,7 @@ function partnerPage(lang) {
     "</main>",
     "",
     footer(lang),
+    "<script>" + partnerJs + "</script>",
     '<script src="/app.js?v=' + ASSET_V + '"></script>',
     "</div>",
     "</body>",

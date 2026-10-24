@@ -46,8 +46,8 @@
     }
   ],
   "partner": {
-    "contact_email": "",
-    "form_action": ""
+    "contact_email": "business@globalfacthub.com",
+    "form_action": "/api/inquiry.php"
   },
   "submit": {
     "form_action": "/api/submit.php",
