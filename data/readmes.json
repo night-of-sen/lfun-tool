@@ -7116,5 +7116,12 @@
     "source": "README.md",
     "rawLength": 16158,
     "fetchedAt": "2026-10-24T05:30:43.619Z"
+  },
+  "mediacrawler": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16090,
+    "fetchedAt": "2026-10-24T08:01:42.580Z"
   }
 }
