@@ -50,6 +50,12 @@ for (const t of items) {
 // README 摘要缓存（由 scripts/fetch-readmes.mjs 生成）
 let readmes = {};
 try { readmes = JSON.parse(await readFile(join(ROOT, "data", "readmes.json"), "utf8")); } catch (e) {}
+// 中文 README 摘要（批量翻译生成，独立文件，不受 fetch-readmes 覆盖）
+let readmesZh = {};
+try { readmesZh = JSON.parse(await readFile(join(ROOT, "data", "readmes-zh.json"), "utf8")); } catch (e) {}
+// 中文短描述补丁（批量翻译生成，供缺 desc 的工具中文页使用）
+let descZh = {};
+try { descZh = JSON.parse(await readFile(join(ROOT, "data", "desc-zh.json"), "utf8")); } catch (e) {}
 
 // 静态内容页（关于 / 免责声明）
 const PAGES = JSON.parse(await readFile(join(ROOT, "scripts", "pages.json"), "utf8"));
@@ -60,7 +66,8 @@ const APPS = JSON.parse(await readFile(join(ROOT, "scripts", "apps.json"), "utf8
 // 搜索别名（人工维护，补上数据里搜不到的中文名和俗称）
 let ALIASES = {};
 try { ALIASES = JSON.parse(await readFile(join(ROOT, "scripts", "aliases.json"), "utf8")); } catch (e) {}
-function readmeOf(t) {
+function readmeOf(t, lang) {
+  if (lang === "zh" && readmesZh[t.id]) return readmesZh[t.id];
   const r = readmes[t.id];
   return r && r.summary ? r.summary : "";
 }
@@ -157,7 +164,7 @@ var ICON = {
 };
 
 function abs(p) { return DOMAIN + p; }
-function descOf(t, lang) { return lang === "en" ? (t.descEn || t.desc || "") : (t.desc || t.descEn || ""); }
+function descOf(t, lang) { return lang === "en" ? (t.descEn || t.desc || "") : (t.desc || descZh[t.id] || t.descEn || ""); }
 function catLabel(lang, k) { return T[lang].categories[k] || k; }
 // 标签翻译：英文页查映射表；本来就是英文的标签没有映射，原样返回
 function tagLabel(lang, tag) {
@@ -842,7 +849,7 @@ function toolPage(t, lang) {
       '<p class="deploy-note">' + esc(lang === "zh"
         ? "摘自项目 README。需要一台装了 Docker 的服务器，命令可能还需补充环境变量。"
         : "Taken from the project README. You need a server with Docker; you may still need to add environment variables.") + "</p></div>" : ""),
-    (readmeOf(t) ? '    <div class="readme"><h2>' + esc(L.readmeHeading) + "</h2><p>" + esc(readmeOf(t)) + "</p></div>" : ""),
+    (readmeOf(t, lang) ? '    <div class="readme"><h2>' + esc(L.readmeHeading) + "</h2><p>" + esc(readmeOf(t, lang)) + "</p></div>" : ""),
     '    <dl class="specs">',
     specs,
     "    </dl>",
