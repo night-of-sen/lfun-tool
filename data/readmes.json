@@ -6724,5 +6724,215 @@
     "source": "README.md",
     "rawLength": 3081,
     "fetchedAt": "2026-10-23T09:08:54.684Z"
+  },
+  "vite": {
+    "summary": "Vite (French word for \"quick\", pronounced /viːt/, like \"veet\") is a build tool that aims to provide a faster and leaner development experience for modern web projects. It consists of two major parts:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3397,
+    "fetchedAt": "2026-10-24T00:40:02.415Z"
+  },
+  "chinatextbook": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7774,
+    "fetchedAt": "2026-10-24T00:40:02.416Z"
+  },
+  "animate-css": {
+    "summary": "Animate.css supports the prefers-reduced-motion media query so that users with motion sensitivity can opt out of animations. On supported platforms (currently all the majors browsers and OS), users can select \"reduce motion\" on their operating system preferences and it will turn off CSS transitions…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2845,
+    "fetchedAt": "2026-10-24T00:40:02.416Z"
+  },
+  "firacode": {
+    "summary": "",
+    "docker": "# locally in your shell\n./script/build.sh --features \"ss02,ss08,ss10,cv03,cv07,cv14\" --family-name \"Fira Code straight\" --weights \"Regular,Bold\"\n\n# or via a docker container (creates the family name 'Fira Code cv01 cv02 cv06 cv31 onum ss01 ss03 ss04 zero')\ndocker run --rm -v \"${PWD}\":/opt tonsky/firacode:latest ./script/build.sh -f \"cv01,cv02,cv06,ss01,zero,onum,ss03,ss04,cv31\" -n \"features\"\n\n# in Git Bash from Git for Windows, or any other MSYS2 based shell, you might need to disable path conversion\nMSYS2_ARG_CONV_EXCL=\"*\" docker run --rm -v \"${PWD}\":/opt tonsky/firacode:latest ./script/build.sh -f \"ss02,ss03,ss04,ss05,ss06,ss07\"",
+    "source": "README.md",
+    "rawLength": 12398,
+    "fetchedAt": "2026-10-24T00:40:02.416Z"
+  },
+  "d2l-zh": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2801,
+    "fetchedAt": "2026-10-24T00:40:07.828Z"
+  },
+  "payloadsallthethings": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4198,
+    "fetchedAt": "2026-10-24T00:40:07.828Z"
+  },
+  "spring-boot": {
+    "summary": "",
+    "docker": "",
+    "source": "",
+    "fetchedAt": "2026-10-24T00:40:07.828Z",
+    "missing": true
+  },
+  "hackingtool": {
+    "summary": "hackingtool drafts a short plan of real commands (with the reason for each step and an install hint for tools you don't have), asks you to confirm you are authorized to test the target, then walks the steps: [y] run · [s] skip · [e] edit · [q] abort. Every step runs list-form — never through a shell…",
+    "docker": "docker run -it --rm hardikzinzu/hackingtool:latest",
+    "source": "README.md",
+    "rawLength": 24839,
+    "fetchedAt": "2026-10-24T00:40:07.828Z"
+  },
+  "screenshot-to-code": {
+    "summary": "Screenshot to Code also supports taking a screen recording of a website in action and turning that into a functional prototype.",
+    "docker": "echo \"OPENAI_API_KEY=sk-your-key\" > .env\ndocker-compose up -d --build",
+    "source": "README.md",
+    "rawLength": 7458,
+    "fetchedAt": "2026-10-24T00:40:07.828Z"
+  },
+  "github-readme-stats": {
+    "summary": "GitHub Readme Stats comes with several built-in themes (e.g. dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontrast, dracula).",
+    "docker": "",
+    "source": "readme.md",
+    "rawLength": 49767,
+    "fetchedAt": "2026-10-24T00:40:07.828Z"
+  },
+  "awesome-public-datasets": {
+    "summary": "",
+    "docker": "",
+    "source": "README.rst",
+    "rawLength": 280244,
+    "fetchedAt": "2026-10-24T00:40:13.898Z"
+  },
+  "code-server": {
+    "summary": "",
+    "docker": "",
+    "source": "",
+    "fetchedAt": "2026-10-24T00:40:13.898Z",
+    "missing": true
+  },
+  "advanced-java": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12945,
+    "fetchedAt": "2026-10-24T00:40:13.898Z"
+  },
+  "unsloth": {
+    "summary": "Unsloth Start connects Claude Code, Codex and other agents to local models with one command.",
+    "docker": "# for a public Cloudflare HTTPS link: use  -e UNSLOTH_STUDIO_SECURE=1  instead of -p 8000:8000, and  -p 127.0.0.1:8888:8888  instead of -p 8888:8888\ndocker run -d --name unsloth --gpus all --ipc=host \\\n  -p 8000:8000 -p 8888:8888 \\\n  -v \"$PWD\":/workspace/host \\\n  -v unsloth-workspace:/workspace \\\n  -v \"$HOME/.cache/huggingface\":/workspace/.cache/huggingface \\\n  -v unsloth-studio:/opt/unsloth-studio \\\n  unsloth/unsloth && docker logs -f unsloth",
+    "source": "README.md",
+    "rawLength": 23724,
+    "fetchedAt": "2026-10-24T00:40:13.898Z"
+  },
+  "elasticsearch": {
+    "summary": "",
+    "docker": "",
+    "source": "",
+    "fetchedAt": "2026-10-24T00:40:13.898Z",
+    "missing": true
+  },
+  "cpython": {
+    "summary": "",
+    "docker": "",
+    "source": "README.rst",
+    "rawLength": 8915,
+    "fetchedAt": "2026-10-24T00:40:13.898Z"
+  },
+  "models": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4923,
+    "fetchedAt": "2026-10-24T00:40:15.506Z"
+  },
+  "gpt4all": {
+    "summary": "gpt4all gives you access to LLMs with our Python client around llama.cpp implementations.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5925,
+    "fetchedAt": "2026-10-24T00:40:15.506Z"
+  },
+  "tesseract": {
+    "summary": "Tesseract 4 adds a new neural net (LSTM) based OCR engine which is focused on line recognition, but also still supports the legacy Tesseract OCR engine of Tesseract 3 which works by recognizing character patterns. Compatibility with Tesseract 3 is enabled by using the Legacy OCR Engine mode (--oem 0…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8159,
+    "fetchedAt": "2026-10-24T00:40:15.506Z"
+  },
+  "redis": {
+    "summary": "Redis is a popular choice for developers worldwide due to its combination of speed, flexibility, and rich feature set. Here's why people choose Redis for:",
+    "docker": "docker run -d -p 6379:6379 redis:latest",
+    "source": "README.md",
+    "rawLength": 31203,
+    "fetchedAt": "2026-10-24T00:40:15.506Z"
+  },
+  "font-awesome": {
+    "summary": "Font Awesome is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3600,
+    "fetchedAt": "2026-10-24T00:40:15.506Z"
+  },
+  "30-days-of-python": {
+    "summary": "Python is an interpreted scripting language, so it does not need to be compiled. It means it executes the code line by line. Python comes with a Python Shell (Python Interactive Shell). It is used to execute a single python command and get the result.",
+    "docker": "",
+    "source": "readme.md",
+    "rawLength": 21757,
+    "fetchedAt": "2026-10-24T00:40:15.506Z"
+  },
+  "nest": {
+    "summary": "Nest is a framework for building efficient, scalable Node.js server-side applications. It uses modern JavaScript, is built with TypeScript (preserves compatibility with pure JavaScript) and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional React…",
+    "docker": "",
+    "source": "Readme.md",
+    "rawLength": 11408,
+    "fetchedAt": "2026-10-24T00:40:20.500Z"
+  },
+  "imgui": {
+    "summary": "",
+    "docker": "",
+    "source": "",
+    "fetchedAt": "2026-10-24T00:40:20.500Z",
+    "missing": true
+  },
+  "leetcodeanimation": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7356,
+    "fetchedAt": "2026-10-24T00:40:20.500Z"
+  },
+  "cs-self-learning": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3345,
+    "fetchedAt": "2026-10-24T00:40:20.500Z"
+  },
+  "apollo-11": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5918,
+    "fetchedAt": "2026-10-24T00:40:20.500Z"
+  },
+  "json-server": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8190,
+    "fetchedAt": "2026-10-24T00:40:20.500Z"
+  },
+  "llamafactory": {
+    "summary": "",
+    "docker": "docker run -it --rm --gpus=all --ipc=host hiyouga/llamafactory:latest",
+    "source": "README.md",
+    "rawLength": 70417,
+    "fetchedAt": "2026-10-24T00:40:27.112Z"
+  },
+  "deepinfer": {
+    "summary": "DeepInfer is the high-performance inference framework that powers DeepSeek's large-scale production services. This open-source release provides offline inference with the core features needed for serving at scale.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4658,
+    "fetchedAt": "2026-10-24T00:40:27.112Z"
   }
 }

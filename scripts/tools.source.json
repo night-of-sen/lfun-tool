@@ -6720,7 +6720,7 @@
     {
       "id": "lobe-chat",
       "name": "LobeChat",
-      "repo": "lobehub/lobe-chat",
+      "repo": "lobehub/lobehub",
       "homepage": "https://lobechat.com",
       "category": "ai-agents",
       "desc": "界面精致的多模型 AI 聊天，插件、知识库、语音都齐",
@@ -23564,6 +23564,662 @@
       "cloud": "",
       "descEn": "List of Computer Science courses with video lectures.",
       "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "deepinfer",
+      "name": "DeepInfer",
+      "repo": "deepseek-ai/DeepInfer",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 21123,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "vite",
+      "name": "Vite",
+      "repo": "vitejs/vite",
+      "homepage": "http://vite.dev",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "build-tool",
+        "dev-server",
+        "frontend",
+        "hmr"
+      ],
+      "seed": {
+        "stars": 83492,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Next generation frontend tooling. It's fast!",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "chinatextbook",
+      "name": "ChinaTextbook",
+      "repo": "TapXWorld/ChinaTextbook",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 83387,
+        "language": "Roff"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "所有小初高、大学PDF教材。",
+      "pushedAt": "2025-10-18"
+    },
+    {
+      "id": "animate-css",
+      "name": "Animate.css",
+      "repo": "animate-css/animate.css",
+      "homepage": "https://animate.style/",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "animation",
+        "css",
+        "css-animations",
+        "stylesheets"
+      ],
+      "seed": {
+        "stars": 82910,
+        "language": "CSS"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.",
+      "pushedAt": "2024-07-29"
+    },
+    {
+      "id": "firacode",
+      "name": "FiraCode",
+      "repo": "tonsky/FiraCode",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "font",
+        "ligatures",
+        "programming-ligatures"
+      ],
+      "seed": {
+        "stars": 82129,
+        "language": "Clojure"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Free monospaced font with programming ligatures",
+      "pushedAt": "2026-07-28"
+    },
+    {
+      "id": "d2l-zh",
+      "name": "D2l Zh",
+      "repo": "d2l-ai/d2l-zh",
+      "homepage": "http://zh.d2l.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "book",
+        "chinese",
+        "computer-vision",
+        "deep-learning"
+      ],
+      "seed": {
+        "stars": 82056,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
+      "pushedAt": "2024-07-30"
+    },
+    {
+      "id": "payloadsallthethings",
+      "name": "PayloadsAllTheThings",
+      "repo": "swisskyrepo/PayloadsAllTheThings",
+      "homepage": "https://swisskyrepo.github.io/PayloadsAllTheThings/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "bounty",
+        "bugbounty",
+        "bypass",
+        "cheatsheet"
+      ],
+      "seed": {
+        "stars": 82009,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
+      "pushedAt": "2026-08-27"
+    },
+    {
+      "id": "spring-boot",
+      "name": "Spring Boot",
+      "repo": "spring-projects/spring-boot",
+      "homepage": "https://spring.io/projects/spring-boot",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "framework",
+        "java",
+        "spring",
+        "spring-boot"
+      ],
+      "seed": {
+        "stars": 81773,
+        "language": "Java"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "hackingtool",
+      "name": "Hackingtool",
+      "repo": "Z4nzu/hackingtool",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "allinonehackingtool",
+        "besthackingtool",
+        "ctf-tools",
+        "ddos-attack-tool"
+      ],
+      "seed": {
+        "stars": 81347,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "ALL IN ONE Hacking Tool For Hackers",
+      "pushedAt": "2026-10-15"
+    },
+    {
+      "id": "screenshot-to-code",
+      "name": "Screenshot To Code",
+      "repo": "abi/screenshot-to-code",
+      "homepage": "https://screenshottocode.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 80666,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+      "pushedAt": "2026-10-09"
+    },
+    {
+      "id": "github-readme-stats",
+      "name": "Github Readme Stats",
+      "repo": "anuraghazra/github-readme-stats",
+      "homepage": "https://github-readme-stats.vercel.app",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "dynamic",
+        "profile-readme",
+        "readme-generator",
+        "readme-stats"
+      ],
+      "seed": {
+        "stars": 79842,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": ":zap: Dynamically generated stats for your github readmes",
+      "pushedAt": "2026-10-01"
+    },
+    {
+      "id": "awesome-public-datasets",
+      "name": "Awesome Public Datasets",
+      "repo": "awesomedata/awesome-public-datasets",
+      "homepage": "https://awesomedataworld.slack.com",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "aaron-swartz",
+        "awesome-public-datasets",
+        "datasets",
+        "opendata"
+      ],
+      "seed": {
+        "stars": 79709,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A topic-centric list of HQ open datasets.",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "code-server",
+      "name": "Code Server",
+      "repo": "coder/code-server",
+      "homepage": "https://coder.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "browser-ide",
+        "dev-tools",
+        "development-environment",
+        "ide"
+      ],
+      "seed": {
+        "stars": 79684,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "VS Code in the browser",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "advanced-java",
+      "name": "Advanced Java",
+      "repo": "doocs/advanced-java",
+      "homepage": "https://java.doocs.org",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "advanced-java",
+        "distributed-search-engine",
+        "distributed-systems",
+        "doocs"
+      ],
+      "seed": {
+        "stars": 79161,
+        "language": "Java"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "😮 Core Interview Questions & Answers For Experienced Java(Backend) Developers | 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "unsloth",
+      "name": "Unsloth",
+      "repo": "unslothai/unsloth",
+      "homepage": "https://unsloth.ai/docs",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai",
+        "chatgpt",
+        "deepseek"
+      ],
+      "seed": {
+        "stars": 78485,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
+      "pushedAt": "2026-10-24"
+    },
+    {
+      "id": "elasticsearch",
+      "name": "Elasticsearch",
+      "repo": "elastic/elasticsearch",
+      "homepage": "https://www.elastic.co/products/elasticsearch",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "elasticsearch",
+        "java",
+        "search-engine"
+      ],
+      "seed": {
+        "stars": 78354,
+        "language": "Java"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Free and Open Source, Distributed, RESTful Search Engine",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "cpython",
+      "name": "Cpython",
+      "repo": "python/cpython",
+      "homepage": "https://www.python.org",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 77748,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The Python programming language",
+      "pushedAt": "2026-10-24"
+    },
+    {
+      "id": "models",
+      "name": "Models",
+      "repo": "tensorflow/models",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 77649,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Models and examples built with TensorFlow",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "gpt4all",
+      "name": "Gpt4all",
+      "repo": "nomic-ai/gpt4all",
+      "homepage": "https://nomic.ai/gpt4all",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-chat",
+        "llm-inference"
+      ],
+      "seed": {
+        "stars": 77354,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.",
+      "pushedAt": "2025-05-27"
+    },
+    {
+      "id": "tesseract",
+      "name": "Tesseract",
+      "repo": "tesseract-ocr/tesseract",
+      "homepage": "https://tesseract-ocr.github.io/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "hacktoberfest",
+        "lstm",
+        "machine-learning",
+        "ocr"
+      ],
+      "seed": {
+        "stars": 77140,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Tesseract Open Source OCR Engine (main repository)",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "redis",
+      "name": "Redis",
+      "repo": "redis/redis",
+      "homepage": "http://redis.io",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "cache",
+        "caching",
+        "database",
+        "distributed-systems"
+      ],
+      "seed": {
+        "stars": 77074,
+        "language": "C"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector qu",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "font-awesome",
+      "name": "Font Awesome",
+      "repo": "FortAwesome/Font-Awesome",
+      "homepage": "https://fontawesome.com",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "css",
+        "font",
+        "fontawesome",
+        "icons"
+      ],
+      "seed": {
+        "stars": 76990,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The iconic SVG, font, and CSS toolkit",
+      "pushedAt": "2026-07-15"
+    },
+    {
+      "id": "30-days-of-python",
+      "name": "30 Days Of Python",
+      "repo": "Asabeneh/30-Days-Of-Python",
+      "homepage": "",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "30-days-of-python",
+        "data",
+        "data-science",
+        "database"
+      ],
+      "seed": {
+        "stars": 76944,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The 30 Days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than 100 days. Follow your own",
+      "pushedAt": "2026-09-30"
+    },
+    {
+      "id": "nest",
+      "name": "Nest",
+      "repo": "nestjs/nest",
+      "homepage": "https://nestjs.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "framework",
+        "hacktoberfest",
+        "javascript",
+        "javascript-framework"
+      ],
+      "seed": {
+        "stars": 76893,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript 🚀",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "imgui",
+      "name": "Imgui",
+      "repo": "ocornut/imgui",
+      "homepage": "",
+      "category": "fun-games",
+      "desc": "",
+      "tags": [
+        "api",
+        "cplusplus",
+        "framework",
+        "game-development"
+      ],
+      "seed": {
+        "stars": 76795,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "leetcodeanimation",
+      "name": "LeetCodeAnimation",
+      "repo": "MisterBooo/LeetCodeAnimation",
+      "homepage": "https://www.algomooc.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "animation",
+        "leetcode",
+        "leetcode-c",
+        "leetcode-java"
+      ],
+      "seed": {
+        "stars": 76717,
+        "language": "Java"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路,完整单步/回看/变速/语音讲解在 algomooc.com）",
+      "pushedAt": "2026-06-12"
+    },
+    {
+      "id": "cs-self-learning",
+      "name": "Cs Self Learning",
+      "repo": "PKUFlyingPig/cs-self-learning",
+      "homepage": "https://csdiy.wiki",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 76386,
+        "language": "HTML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "计算机自学指南",
+      "pushedAt": "2026-09-17"
+    },
+    {
+      "id": "apollo-11",
+      "name": "Apollo 11",
+      "repo": "chrislgarry/Apollo-11",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "agc",
+        "apollo",
+        "hacktoberfest",
+        "nasa"
+      ],
+      "seed": {
+        "stars": 75812,
+        "language": "Assembly"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "pushedAt": "2026-07-15"
+    },
+    {
+      "id": "json-server",
+      "name": "Json Server",
+      "repo": "typicode/json-server",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "api",
+        "fake",
+        "frontend",
+        "json"
+      ],
+      "seed": {
+        "stars": 75732,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Get a full fake REST API with zero coding in less than 30 seconds (seriously)",
+      "pushedAt": "2026-03-23"
+    },
+    {
+      "id": "llamafactory",
+      "name": "LlamaFactory",
+      "repo": "hiyouga/LlamaFactory",
+      "homepage": "https://llamafactory.readthedocs.io",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai",
+        "deepseek",
+        "fine-tuning"
+      ],
+      "seed": {
+        "stars": 75696,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+      "pushedAt": "2026-10-21"
     }
   ]
 }
