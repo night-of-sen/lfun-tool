@@ -6934,5 +6934,187 @@
     "source": "README.md",
     "rawLength": 4658,
     "fetchedAt": "2026-10-24T00:40:27.112Z"
+  },
+  "superset": {
+    "summary": "Superset is a modern data exploration and data visualization platform. Superset can replace or augment proprietary business intelligence tools for many teams. Superset integrates well with a variety of data sources.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 24046,
+    "fetchedAt": "2026-10-24T05:30:37.820Z"
+  },
+  "tabby": {
+    "summary": "Tabby will run as a portable app on Windows, if you create a data folder in the same location where Tabby.exe lives.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 61645,
+    "fetchedAt": "2026-10-24T05:30:37.820Z"
+  },
+  "flask": {
+    "summary": "Flask is a lightweight [WSGI] web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. It began as a simple wrapper around [Werkzeug] and [Jinja], and has become one of the most popular Python web application frameworks.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1639,
+    "fetchedAt": "2026-10-24T05:30:37.820Z"
+  },
+  "awesome-react": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18783,
+    "fetchedAt": "2026-10-24T05:30:37.820Z"
+  },
+  "awesome-scalability": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 124747,
+    "fetchedAt": "2026-10-24T05:30:37.820Z"
+  },
+  "awesome-machine-learning": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 221772,
+    "fetchedAt": "2026-10-24T05:30:37.820Z"
+  },
+  "openbb": {
+    "summary": "OpenBB and any provider of the data contained in this website will not accept liability for any loss or damage as a result of your trading, or your reliance on the information displayed.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10587,
+    "fetchedAt": "2026-10-24T05:30:38.312Z"
+  },
+  "front-end-checklist": {
+    "summary": "Front-End Checklist is the open-source front-end quality system for humans and AI agents. It turns front-end best practices into a practical review workflow you can browse on the web, run through with MCP-compatible tools, or work through directly in this README.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 103265,
+    "fetchedAt": "2026-10-24T05:30:38.312Z"
+  },
+  "seclists": {
+    "summary": "SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more. The goal is to enable a security te…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4732,
+    "fetchedAt": "2026-10-24T05:30:38.312Z"
+  },
+  "the-algorithm": {
+    "summary": "The product surfaces currently included in this repository are the For You Timeline and Recommended Notifications.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7311,
+    "fetchedAt": "2026-10-24T05:30:38.312Z"
+  },
+  "awesome-cpp": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 198735,
+    "fetchedAt": "2026-10-24T05:30:38.312Z"
+  },
+  "anime": {
+    "summary": "Anime.js is 100% free and is only made possible with the help of our sponsors. Help the project become sustainable by sponsoring us on GitHub Sponsors .",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5336,
+    "fetchedAt": "2026-10-24T05:30:38.312Z"
+  },
+  "union": {
+    "summary": "Union is the hyper-efficient zero-knowledge infrastructure layer for general message passing, asset transfers, NFTs, and DeFi. Its based on [Consensus Verification] and has no dependencies on trusted third parties, oracles, multi-signatures or MPC. It implements [IBC] for compatibility with [Cosmos]…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7277,
+    "fetchedAt": "2026-10-24T05:30:38.788Z"
+  },
+  "stable-diffusion": {
+    "summary": "Stable Diffusion v1 refers to a specific configuration of the model architecture that uses a downsampling-factor 8 autoencoder with an 860M UNet and CLIP ViT-L/14 text encoder for the diffusion model. The model was pretrained on 256x256 images and then finetuned on 512x512 images.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12439,
+    "fetchedAt": "2026-10-24T05:30:38.788Z"
+  },
+  "awesome-vue": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 153188,
+    "fetchedAt": "2026-10-24T05:30:38.788Z"
+  },
+  "reveal-js": {
+    "summary": "reveal.js is an open source HTML presentation framework. It enables anyone with a web browser to create beautiful presentations for free. Check out the live demo at revealjs.com.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1788,
+    "fetchedAt": "2026-10-24T05:30:38.788Z"
+  },
+  "act": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3315,
+    "fetchedAt": "2026-10-24T05:30:38.788Z"
+  },
+  "moby": {
+    "summary": "Moby is an open-source project created by Docker to enable and accelerate software containerization.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5487,
+    "fetchedAt": "2026-10-24T05:30:38.788Z"
+  },
+  "awesome-courses": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 236900,
+    "fetchedAt": "2026-10-24T05:30:39.266Z"
+  },
+  "protobuf": {
+    "summary": "Protobuf supports Bzlmod with Bazel 8 +. Users should specify a dependency on protobuf in their MODULE.bazel file as follows.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6164,
+    "fetchedAt": "2026-10-24T05:30:39.266Z"
+  },
+  "gpt-academic": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20576,
+    "fetchedAt": "2026-10-24T05:30:39.266Z"
+  },
+  "ansible": {
+    "summary": "Ansible is a radically simple IT automation system. It handles configuration management, application deployment, cloud provisioning, ad-hoc task execution, network automation, and multi-node orchestration. Ansible makes complex changes like zero-downtime rolling updates with load balancers easy. Mor…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6154,
+    "fetchedAt": "2026-10-24T05:30:39.266Z"
+  },
+  "swift": {
+    "summary": "Swift is a high-performance system programming language. It has a clean and modern syntax, offers seamless access to existing C and Objective-C code and frameworks, and is memory-safe by default.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5774,
+    "fetchedAt": "2026-10-24T05:30:39.266Z"
+  },
+  "ai-for-beginners": {
+    "summary": "For a gentle introduction to AI in the Cloud topics you may consider taking the Get started with artificial intelligence on Azure Learning Path.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 29065,
+    "fetchedAt": "2026-10-24T05:30:39.266Z"
+  },
+  "express": {
+    "summary": "Express does not force you to use any specific ORM or template engine. With support for over 14 template engines via @ladjs/consolidate, you can quickly craft your perfect framework.",
+    "docker": "",
+    "source": "Readme.md",
+    "rawLength": 10372,
+    "fetchedAt": "2026-10-24T05:30:43.619Z"
+  },
+  "up": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16158,
+    "fetchedAt": "2026-10-24T05:30:43.619Z"
   }
 }

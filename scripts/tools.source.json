@@ -7408,7 +7408,7 @@
     {
       "id": "metagpt",
       "name": "MetaGPT",
-      "repo": "geekan/MetaGPT",
+      "repo": "FoundationAgents/MetaGPT",
       "homepage": "",
       "category": "ai-agents",
       "desc": "模拟一家软件公司：产品经理、架构师、工程师各是一个 agent，从一句话需求一路产出代码",
@@ -7809,7 +7809,7 @@
     {
       "id": "open-interpreter",
       "name": "Open Interpreter",
-      "repo": "OpenInterpreter/open-interpreter",
+      "repo": "openinterpreter/openinterpreter",
       "homepage": "https://openinterpreter.com",
       "category": "ai-agents",
       "desc": "用自然语言让模型在本机写并执行代码，处理文件、表格、批量改图",
@@ -24220,6 +24220,571 @@
       "cloud": "",
       "descEn": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
       "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "superset",
+      "name": "Superset",
+      "repo": "apache/superset",
+      "homepage": "https://superset.apache.org/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "analytics",
+        "apache",
+        "apache-superset",
+        "asf"
+      ],
+      "seed": {
+        "stars": 75281,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Apache Superset is a Data Visualization and Data Exploration Platform",
+      "pushedAt": "2026-10-24"
+    },
+    {
+      "id": "tabby",
+      "name": "Tabby",
+      "repo": "Eugeny/tabby",
+      "homepage": "https://tabby.sh",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "serial",
+        "ssh-client",
+        "telnet-client",
+        "terminal"
+      ],
+      "seed": {
+        "stars": 75096,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A terminal for a more modern age",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "flask",
+      "name": "Flask",
+      "repo": "pallets/flask",
+      "homepage": "https://flask.palletsprojects.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "flask",
+        "jinja",
+        "pallets",
+        "python"
+      ],
+      "seed": {
+        "stars": 75030,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The Python micro framework for building web applications.",
+      "pushedAt": "2026-10-07"
+    },
+    {
+      "id": "awesome-react",
+      "name": "Awesome React",
+      "repo": "enaqx/awesome-react",
+      "homepage": "",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "awesome",
+        "awesome-list",
+        "javascript",
+        "react"
+      ],
+      "seed": {
+        "stars": 75029,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A collection of awesome things regarding React ecosystem",
+      "pushedAt": "2026-09-04"
+    },
+    {
+      "id": "awesome-scalability",
+      "name": "Awesome Scalability",
+      "repo": "binhnguyennus/awesome-scalability",
+      "homepage": "",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "architecture",
+        "awesome",
+        "awesome-list",
+        "backend"
+      ],
+      "seed": {
+        "stars": 75022,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
+      "pushedAt": "2026-01-04"
+    },
+    {
+      "id": "awesome-machine-learning",
+      "name": "Awesome Machine Learning",
+      "repo": "josephmisiti/awesome-machine-learning",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 74646,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A curated list of awesome Machine Learning frameworks, libraries and software.",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "openbb",
+      "name": "OpenBB",
+      "repo": "openbq-org/OpenBB",
+      "homepage": "https://openbb.co",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "crypto",
+        "derivatives",
+        "economics"
+      ],
+      "seed": {
+        "stars": 74601,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open Data Platform for analysts, quants and AI agents.",
+      "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "front-end-checklist",
+      "name": "Front End Checklist",
+      "repo": "thedaviddias/Front-End-Checklist",
+      "homepage": "https://frontendchecklist.io",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agent",
+        "ai-agents",
+        "checklist",
+        "css"
+      ],
+      "seed": {
+        "stars": 74555,
+        "language": "MDX"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🗂 The essential checklist for modern web development, for humans and AI agents",
+      "pushedAt": "2026-10-06"
+    },
+    {
+      "id": "seclists",
+      "name": "SecLists",
+      "repo": "danielmiessler/SecLists",
+      "homepage": "https://www.owasp.org/index.php/OWASP_Internet_of_Things_Project",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 74320,
+        "language": "PHP"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, pa",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "the-algorithm",
+      "name": "The Algorithm",
+      "repo": "twitter/the-algorithm",
+      "homepage": "https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 73979,
+        "language": "Scala"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Source code for the X Recommendation Algorithm",
+      "pushedAt": "2025-09-08"
+    },
+    {
+      "id": "awesome-cpp",
+      "name": "Awesome Cpp",
+      "repo": "fffaraz/awesome-cpp",
+      "homepage": "http://fffaraz.github.io/awesome-cpp/",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "awesome",
+        "awesome-list",
+        "c",
+        "c-plus-plus"
+      ],
+      "seed": {
+        "stars": 73977,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
+      "pushedAt": "2026-10-11"
+    },
+    {
+      "id": "anime",
+      "name": "Anime",
+      "repo": "juliangarnier/anime",
+      "homepage": "https://animejs.com",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "animation",
+        "anime",
+        "canvas",
+        "css"
+      ],
+      "seed": {
+        "stars": 73790,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "JavaScript animation engine",
+      "pushedAt": "2026-08-21"
+    },
+    {
+      "id": "union",
+      "name": "Union",
+      "repo": "unionlabs/union",
+      "homepage": "https://union.build",
+      "category": "business-support",
+      "desc": "",
+      "tags": [
+        "astro",
+        "blockchain",
+        "cosmos",
+        "cosmwasm"
+      ],
+      "seed": {
+        "stars": 73732,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.",
+      "pushedAt": "2026-07-25"
+    },
+    {
+      "id": "stable-diffusion",
+      "name": "Stable Diffusion",
+      "repo": "CompVis/stable-diffusion",
+      "homepage": "https://ommer-lab.com/research/latent-diffusion-models/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 73533,
+        "language": "Jupyter Notebook"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A latent text-to-image diffusion model",
+      "pushedAt": "2024-06-18"
+    },
+    {
+      "id": "awesome-vue",
+      "name": "Awesome Vue",
+      "repo": "vuejs/awesome-vue",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 73509,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🎉 A curated list of awesome things related to Vue.js",
+      "pushedAt": "2026-10-19"
+    },
+    {
+      "id": "reveal-js",
+      "name": "Reveal.js",
+      "repo": "hakimel/reveal.js",
+      "homepage": "https://revealjs.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "presentations",
+        "slides",
+        "slideshow"
+      ],
+      "seed": {
+        "stars": 72465,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The HTML Presentation Framework",
+      "pushedAt": "2026-09-30"
+    },
+    {
+      "id": "act",
+      "name": "Act",
+      "repo": "nektos/act",
+      "homepage": "https://nektosact.com",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "ci",
+        "devops",
+        "github-actions",
+        "golang"
+      ],
+      "seed": {
+        "stars": 72437,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Run your GitHub Actions locally 🚀",
+      "pushedAt": "2026-08-09"
+    },
+    {
+      "id": "moby",
+      "name": "Moby",
+      "repo": "moby/moby",
+      "homepage": "https://mobyproject.org/",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "containers",
+        "docker",
+        "go",
+        "golang"
+      ],
+      "seed": {
+        "stars": 72199,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "awesome-courses",
+      "name": "Awesome Courses",
+      "repo": "prakhar1989/awesome-courses",
+      "homepage": "",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "awesome",
+        "awesome-list",
+        "computer-science",
+        "courses"
+      ],
+      "seed": {
+        "stars": 72166,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": ":books: List of awesome university courses for learning Computer Science!",
+      "pushedAt": "2023-05-04"
+    },
+    {
+      "id": "protobuf",
+      "name": "Protobuf",
+      "repo": "protocolbuffers/protobuf",
+      "homepage": "http://protobuf.dev",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "marshalling",
+        "protobuf",
+        "protobuf-runtime",
+        "protoc"
+      ],
+      "seed": {
+        "stars": 72130,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Protocol Buffers - Google's data interchange format",
+      "pushedAt": "2026-10-24"
+    },
+    {
+      "id": "gpt-academic",
+      "name": "Gpt Academic",
+      "repo": "binary-husky/gpt_academic",
+      "homepage": "https://github.com/binary-husky/gpt_academic/wiki/online",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "academic",
+        "chatglm-6b",
+        "chatgpt",
+        "gpt-4"
+      ],
+      "seed": {
+        "stars": 71532,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&函数插件，支持Python和C++等项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2,",
+      "pushedAt": "2026-01-25"
+    },
+    {
+      "id": "ansible",
+      "name": "Ansible",
+      "repo": "ansible/ansible",
+      "homepage": "https://www.ansible.com/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "ansible",
+        "python"
+      ],
+      "seed": {
+        "stars": 71080,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network con",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "swift",
+      "name": "Swift",
+      "repo": "swiftlang/swift",
+      "homepage": "https://swift.org",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 70519,
+        "language": "Swift"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The Swift Programming Language",
+      "pushedAt": "2026-10-24"
+    },
+    {
+      "id": "ai-for-beginners",
+      "name": "AI For Beginners",
+      "repo": "microsoft/AI-For-Beginners",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "artificial-intelligence",
+        "cnn",
+        "computer-vision"
+      ],
+      "seed": {
+        "stars": 70170,
+        "language": "Jupyter Notebook"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "12 Weeks, 24 Lessons, AI for All!",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "express",
+      "name": "Express",
+      "repo": "expressjs/express",
+      "homepage": "https://expressjs.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "express",
+        "javascript",
+        "nodejs",
+        "server"
+      ],
+      "seed": {
+        "stars": 69574,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Fast, unopinionated, minimalist web framework for node.",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "up",
+      "name": "Up",
+      "repo": "byoungd/up",
+      "homepage": "https://byoungd.github.io/up/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-literacy",
+        "chinese",
+        "english-learning",
+        "lifelong-learning"
+      ],
+      "seed": {
+        "stars": 69282,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "韩先凯的人生进阶指南 AI时代 中英双语终身学习指南：英语学习、AI 协作、真实项目与成长证据。",
+      "pushedAt": "2026-10-22"
     }
   ]
 }
