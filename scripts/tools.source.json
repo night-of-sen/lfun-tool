@@ -24803,6 +24803,29 @@
       "cloud": "",
       "descEn": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
       "pushedAt": "2026-10-15"
+    },
+    {
+      "id": "magpie",
+      "name": "Magpie",
+      "repo": "yetone/magpie",
+      "homepage": "https://usemagpie.ai",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "claude-code",
+        "codex",
+        "deepseek",
+        "gemini-cli"
+      ],
+      "seed": {
+        "stars": 21042,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "pushedAt": "2026-10-25"
     }
   ]
 }
