@@ -30,6 +30,12 @@ jobs:
       - name: 抓取 README 摘要
         run: node scripts/fetch-readmes.mjs 6
 
+      - name: 抓取每日新闻
+        run: node scripts/fetch-news.mjs
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+
+
       - name: 重建全部静态页面
         run: node scripts/build-pages.mjs
 
