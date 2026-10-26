@@ -1644,10 +1644,10 @@ function newsDaySections(day, lang) {
   return parts.join("\n");
 }
 
-function newsPageShell(lang, paths, h1, desc, body, backHref, backText) {
+function newsPageShell(lang, paths, h1, desc, body, backHref, backText, jsonld) {
   var L = T[lang];
   return [
-    head(lang, { title: h1 + " · " + L.siteName, desc: desc, paths: paths, ogType: "article" }),
+    head(lang, { title: h1 + " · " + L.siteName, desc: desc, paths: paths, ogType: "article", jsonld: jsonld }),
     "",
     header(lang, false),
     "",
@@ -1688,15 +1688,37 @@ function newsIndexPage(lang) {
       return '<li><a href="' + esc(newsDayPath(lang, d.date)) + '">' + esc(d.date) + "</a>（" + (d.items ? d.items.length : 0) + "）</li>";
     }).join("") + "</ul>");
   }
-  return newsPageShell(lang, paths, L.newsColTitle, L.newsColDesc, body.join("\n"), homePath(lang), L.backToAll);
+  var jsonld = [{
+    "@context": "https://schema.org", "@type": "Blog",
+    "name": L.newsColTitle, "url": abs(paths[lang]), "inLanguage": L.htmlLang, "description": L.newsColDesc
+  }, {
+    "@context": "https://schema.org", "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": L.backToAll, "item": abs(homePath(lang)) },
+      { "@type": "ListItem", "position": 2, "name": L.navNews, "item": abs(paths[lang]) }
+    ]
+  }];
+  return newsPageShell(lang, paths, L.newsColTitle, L.newsColDesc, body.join("\n"), homePath(lang), L.backToAll, jsonld);
 }
 
 function newsDayPage(lang, day) {
   var L = T[lang];
   var paths = {};
   LANGS.forEach(function (l) { paths[l] = newsDayPath(l, day.date); });
+  var jsonld = [{
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "name": day.date + " " + L.newsColTitle, "url": abs(paths[lang]), "inLanguage": L.htmlLang,
+    "description": day.date + " " + L.newsColDesc, "datePublished": day.date
+  }, {
+    "@context": "https://schema.org", "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": L.backToAll, "item": abs(homePath(lang)) },
+      { "@type": "ListItem", "position": 2, "name": L.navNews, "item": abs(newsPath(lang)) },
+      { "@type": "ListItem", "position": 3, "name": day.date, "item": abs(paths[lang]) }
+    ]
+  }];
   return newsPageShell(lang, paths, day.date + " " + L.newsColTitle, day.date + " " + L.newsColDesc,
-    newsDaySections(day, lang), newsPath(lang), L.newsBack);
+    newsDaySections(day, lang), newsPath(lang), L.newsBack, jsonld);
 }
 
 function partnerPage(lang) {
