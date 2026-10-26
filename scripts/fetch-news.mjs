@@ -112,7 +112,7 @@ async function aiSummaries(items) {
           messages: [
             {
               role: "system",
-              content: "你是中文科技新闻编辑。只根据给定的标题和链接写摘要，绝不编造标题里没有的事实。输出 JSON：{\"summaries\":[{\"link\":\"原链接\",\"zh\":\"一句话中文摘要，不超过 40 字\"}],\"rollup\":\"2-3 句中文今日要闻总览\"}。",
+              content: "你是中英双语科技新闻编辑。只根据给定的标题和链接写内容，绝不编造标题里没有的事实；翻译只翻译不发挥。输出 JSON：{\"summaries\":[{\"link\":\"原链接\",\"zhTitle\":\"中文翻译标题\",\"zh\":\"一句话中文摘要，不超过 40 字\",\"en\":\"One-line English summary, under 20 words\"}],\"rollupZh\":\"2-3 句中文今日要闻总览\",\"rollupEn\":\"2-3 sentence English daily highlights\"}。",
             },
             {
               role: "user",
@@ -209,15 +209,24 @@ await writeFile(join(ROOT, "data", "news-tools-snapshot.json"),
     ids: (sourceData.items || []).map(function (it) { return it.id; }),
     stars: curStars }, null, 2) + "\n", "utf8");
 
-// AI 摘要（无 key 或失败时自动跳过，只发聚合）
+// AI 双语内容（无 key 或失败时自动跳过，只发聚合）
 var ai = await aiSummaries(newsItems);
 var sumByLink = {};
+var rollupZh = null;
+var rollupEn = null;
 if (ai) {
-  ai.summaries.forEach(function (sm) { if (sm.link && sm.zh) sumByLink[sm.link] = sm.zh; });
+  ai.summaries.forEach(function (sm) { if (sm.link) sumByLink[sm.link] = sm; });
+  rollupZh = ai.rollupZh || null;
+  rollupEn = ai.rollupEn || null;
 }
 newsItems = newsItems.map(function (it) {
   var o = { title: it.title, link: it.link, source: it.source, date: it.date };
-  if (sumByLink[it.link]) o.zh = sumByLink[it.link];
+  var sm = sumByLink[it.link];
+  if (sm) {
+    if (sm.zhTitle) o.zhTitle = sm.zhTitle;
+    if (sm.zh) o.zh = sm.zh;
+    if (sm.en) o.en = sm.en;
+  }
   return o;
 });
 
@@ -228,7 +237,8 @@ days.unshift({
   items: newsItems,
   toolsNew: toolsNew,
   toolsTrending: toolsTrending,
-  rollup: ai && ai.rollup ? ai.rollup : null,
+  rollupZh: rollupZh,
+  rollupEn: rollupEn,
   failures: failures,
 });
 days = days.slice(0, KEEP_DAYS);

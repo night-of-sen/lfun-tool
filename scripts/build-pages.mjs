@@ -1596,10 +1596,13 @@ function robots() {
 
 /* ---------------- 商务合作页（PRD 模块一） ---------------- */
 /* ---------------- 每日新闻栏目 ---------------- */
-function newsItemHtml(it) {
-  return '  <li class="news-item"><h3><a href="' + esc(it.link) + '" target="_blank" rel="noopener">' + esc(it.title) + "</a></h3>" +
+function newsItemHtml(it, lang) {
+  // 英文页只显示英文（原标题＋英文摘要），中文页只显示中文（翻译标题＋中文摘要，无翻译时回落原标题）
+  var title = lang === "zh" && it.zhTitle ? it.zhTitle : it.title;
+  var sum = lang === "zh" ? it.zh : it.en;
+  return '  <li class="news-item"><h3><a href="' + esc(it.link) + '" target="_blank" rel="noopener">' + esc(title) + "</a></h3>" +
     '<p class="news-meta">' + esc(it.source) + " · " + esc(it.date) + "</p>" +
-    (it.zh ? '<p class="news-sum">' + esc(it.zh) + "</p>" : "") + "</li>";
+    (sum ? '<p class="news-sum">' + esc(sum) + "</p>" : "") + "</li>";
 }
 
 function newsToolsHtml(day, lang) {
@@ -1622,13 +1625,14 @@ function newsToolsHtml(day, lang) {
 function newsDaySections(day, lang) {
   var L = T[lang];
   var parts = [];
-  if (day.rollup) {
+  var rollup = lang === "zh" ? (day.rollupZh || day.rollup) : day.rollupEn;
+  if (rollup) {
     parts.push('  <h2>' + esc(L.newsRollup) + "</h2>");
-    parts.push('  <p>' + esc(day.rollup) + "</p>");
+    parts.push('  <p>' + esc(rollup) + "</p>");
   }
   if (day.items && day.items.length) {
     parts.push('  <h2>' + esc(L.newsItems) + "</h2>");
-    parts.push('  <ul class="news-list">' + day.items.map(function (it) { return newsItemHtml(it); }).join("\n") + "</ul>");
+    parts.push('  <ul class="news-list">' + day.items.map(function (it) { return newsItemHtml(it, lang); }).join("\n") + "</ul>");
   } else {
     parts.push('  <p>' + esc(L.newsEmpty) + "</p>");
   }
