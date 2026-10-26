@@ -7130,5 +7130,12 @@
     "source": "README.md",
     "rawLength": 22102,
     "fetchedAt": "2026-10-25T08:15:41.892Z"
+  },
+  "claude-seo": {
+    "summary": "Claude SEO is a free SEO plugin for Claude Code. Give it any website and it runs a full SEO audit in 10 to 15 minutes, then hands you a clear action plan, sorted by what matters most.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 22858,
+    "fetchedAt": "2026-10-26T07:54:59.832Z"
   }
 }

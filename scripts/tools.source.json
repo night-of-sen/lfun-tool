@@ -24826,6 +24826,29 @@
       "cloud": "",
       "descEn": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
       "pushedAt": "2026-10-25"
+    },
+    {
+      "id": "claude-seo",
+      "name": "Claude Seo",
+      "repo": "AgriciDaniel/claude-seo",
+      "homepage": "skool.com/ai-marketing-hub-pro",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-seo",
+        "claude-code",
+        "claude-code-skill"
+      ],
+      "seed": {
+        "stars": 21397,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt)",
+      "pushedAt": "2026-10-22"
     }
   ]
 }
