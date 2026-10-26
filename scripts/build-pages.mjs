@@ -257,6 +257,10 @@ function header(lang, isHome, showMenu) {
   var showMenuBtn = showMenu !== undefined ? showMenu : isHome;
   var L = T[lang];
   var rows = [
+    '<div class="news-top">',
+    '  <div class="news-text"><strong>' + esc(L.newsTitle) + '</strong><span>' + esc(L.newsDesc) + '</span></div>',
+    newsForm(lang, "top"),
+    '</div>',
     '<header class="topbar">',
     '  <div class="topbar-inner">',
     '    <a class="brand" href="' + homePath(lang) + '">',
@@ -588,7 +592,7 @@ function todayLabel(lang) {
                        : items.length + " tools · data synced " + syncedAt;
 }
 
-/* ---------------- Newsletter 订阅（PRD 模块六）：页脚订阅框 + 首页弹窗 ---------------- */
+/* ---------------- Newsletter 订阅（PRD 模块六）：顶部订阅条 + 首页弹窗 ---------------- */
 function newsForm(lang, ctx) {
   var L = T[lang];
   return [
@@ -657,10 +661,6 @@ function footer(lang) {
   return [
     '<footer class="footer wrap">',
     "  <p>" + esc(L.siteName) + " · " + esc(L.footerNote) + "</p>",
-    '  <div class="news-block">',
-    '    <div class="news-text"><strong>' + esc(L.newsTitle) + "</strong><span>" + esc(L.newsDesc) + "</span></div>",
-    newsForm(lang, "footer"),
-    "  </div>",
     '  <p class="footer-links"><a href="' + onlineIndexPath(lang) + '">' + esc(L.onlineHeading) + "</a>" +
       '<a href="' + categoriesPath(lang) + '">' + esc(L.categoriesHeading) + "</a>" +
       '<a href="' + contentPath(lang, "about") + '">' + esc(L.aboutLabel) + "</a>" +
