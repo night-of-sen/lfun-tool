@@ -1,0 +1,79 @@
+{
+  "days": [
+    {
+      "date": "2026-10-26",
+      "items": [
+        {
+          "title": "Show HN: Proc-CLI – An agent-friendly CLI tool for process and port management",
+          "link": "https://proc-cli.com/",
+          "source": "Hacker News",
+          "date": "2026-10-26"
+        },
+        {
+          "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+          "link": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+          "source": "Hacker News",
+          "date": "2026-10-26"
+        },
+        {
+          "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
+          "link": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/",
+          "source": "Hacker News",
+          "date": "2026-10-26"
+        },
+        {
+          "title": "IBM CEO says open weight models are now good and cheap on-prem",
+          "link": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+          "source": "Hacker News",
+          "date": "2026-10-26"
+        },
+        {
+          "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "link": "https://minimaxir.com/2026/10/cheap-llms/",
+          "source": "Hacker News",
+          "date": "2026-10-25"
+        },
+        {
+          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+          "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+          "source": "OpenAI",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Securing our frontier model training environment",
+          "link": "https://openai.com/index/securing-our-frontier-model-training-environment",
+          "source": "OpenAI",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "Designing an AI serving harness built to last",
+          "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "The Foundations of Scalable AI",
+          "link": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "The bridge to agent-scale Git infrastructure",
+          "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+          "source": "GitHub Blog",
+          "date": "2026-10-21"
+        },
+        {
+          "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+          "link": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+          "source": "GitHub Blog",
+          "date": "2026-10-20"
+        }
+      ],
+      "toolsNew": [],
+      "toolsTrending": [],
+      "rollup": null,
+      "failures": []
+    }
+  ]
+}

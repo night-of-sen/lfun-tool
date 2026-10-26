@@ -57,6 +57,11 @@ try { readmesZh = JSON.parse(await readFile(join(ROOT, "data", "readmes-zh.json"
 let descZh = {};
 try { descZh = JSON.parse(await readFile(join(ROOT, "data", "desc-zh.json"), "utf8")); } catch (e) {}
 
+// 每日新闻（由 scripts/fetch-news.mjs 生成，缺文件时栏目显示空状态）
+let newsData = { days: [] };
+try { newsData = JSON.parse(await readFile(join(ROOT, "data", "news.json"), "utf8")); } catch (e) {}
+var newsDays = Array.isArray(newsData.days) ? newsData.days : [];
+
 // 静态内容页（关于 / 免责声明）
 const PAGES = JSON.parse(await readFile(join(ROOT, "scripts", "pages.json"), "utf8"));
 
@@ -99,6 +104,8 @@ var LANG_COLORS = {
 var PLATFORM_LABELS = { windows:"Win", macos:"macOS", linux:"Linux", android:"Android", ios:"iOS" };
 
 function langPrefix(lang) { return lang === DEFAULT_LANG ? "" : "/" + lang; }
+function newsPath(lang) { return langPrefix(lang) + "/news/"; }
+function newsDayPath(lang, date) { return langPrefix(lang) + "/news/" + date + "/"; }
 function homePath(lang) { return lang === DEFAULT_LANG ? "/" : "/" + lang + "/"; }
 function toolPath(lang, id) { return langPrefix(lang) + "/tool/" + id + "/"; }
 function catPath(lang, key) { return langPrefix(lang) + "/category/" + key + "/"; }
@@ -161,7 +168,8 @@ var ICON = {
   shield: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/></svg>',
   plus: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v8"/><path d="M8 12h8"/></svg>',
   external: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M19 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h6"/></svg>',
-  briefcase: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/><path d="M3 13h18"/></svg>'
+  briefcase: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/><path d="M3 13h18"/></svg>',
+  news: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h4v4H7z"/><path d="M14 8h3"/><path d="M14 11h3"/><path d="M7 15h10"/></svg>'
 };
 
 function abs(p) { return DOMAIN + p; }
@@ -278,6 +286,7 @@ function header(lang, isHome, showMenu) {
     '      <a class="nav-item" href="' + contentPath(lang, "about") + '">' + ICON.info + esc(L.navAbout) + "</a>",
     '      <a class="nav-item" href="' + contentPath(lang, "submit") + '">' + ICON.plus + esc(L.navSubmit) + "</a>",
     '      <a class="nav-item" href="' + contentPath(lang, "partner") + '">' + ICON.briefcase + esc(L.navPartner) + "</a>",
+    '      <a class="nav-item" href="' + newsPath(lang) + '">' + ICON.news + esc(L.navNews) + "</a>",
     '      <a class="nav-item" href="https://globalfacthub.com" target="_blank" rel="noopener">' + ICON.external + esc(L.navGlobalFactHub) + "</a>",
     "    </nav>",
     '    <div class="topbar-actions">',
@@ -471,6 +480,7 @@ function homePage(lang) {
     '      <a class="nav-item" href="' + contentPath(lang, "disclaimer") + '">' + ICON.shield + esc(L.navDisclaimer) + "</a>",
     '      <a class="nav-item" href="' + contentPath(lang, "submit") + '">' + ICON.plus + esc(L.navSubmit) + "</a>",
     '      <a class="nav-item" href="' + contentPath(lang, "partner") + '">' + ICON.briefcase + esc(L.navPartner) + "</a>",
+    '      <a class="nav-item" href="' + newsPath(lang) + '">' + ICON.news + esc(L.navNews) + "</a>",
     '      <a class="nav-item" href="https://globalfacthub.com" target="_blank" rel="noopener">' + ICON.external + esc(L.navGlobalFactHub) + "</a>",
     "    </nav>",
     '    <div class="side-block">',
@@ -668,6 +678,7 @@ function footer(lang) {
       '<a href="' + categoriesPath(lang) + '">' + esc(L.categoriesHeading) + "</a>" +
       '<a href="' + contentPath(lang, "about") + '">' + esc(L.aboutLabel) + "</a>" +
       '<a href="' + contentPath(lang, "partner") + '">' + esc(L.navPartner) + "</a>" +
+      '<a href="' + newsPath(lang) + '">' + esc(L.navNews) + "</a>" +
       '<a href="' + contentPath(lang, "submit") + '">' + esc(L.navSubmit) + "</a>" +
       '<a href="' + contentPath(lang, "disclaimer") + '">' + esc(L.disclaimerLabel) + "</a>" +
       '<a href="' + L.langSwitchHref + '">' + esc(L.langSwitch) + "</a></p>",
@@ -1378,6 +1389,7 @@ function categoryPage(lang, key) {
     '      <a class="nav-item" href="' + contentPath(lang, "disclaimer") + '">' + ICON.shield + esc(L.navDisclaimer) + "</a>",
     '      <a class="nav-item" href="' + contentPath(lang, "submit") + '">' + ICON.plus + esc(L.navSubmit) + "</a>",
     '      <a class="nav-item" href="' + contentPath(lang, "partner") + '">' + ICON.briefcase + esc(L.navPartner) + "</a>",
+    '      <a class="nav-item" href="' + newsPath(lang) + '">' + ICON.news + esc(L.navNews) + "</a>",
     '      <a class="nav-item" href="https://globalfacthub.com" target="_blank" rel="noopener">' + ICON.external + esc(L.navGlobalFactHub) + "</a>",
     "    </nav>",
     '    <div class="side-block">',
@@ -1528,6 +1540,14 @@ function sitemap() {
       urls.push({ loc: abs(contentPath(l, key)), paths: { zh: contentPath("zh", key), en: contentPath("en", key) }, pri: "0.5", freq: "monthly", mod: codeMod });
     });
   });
+  LANGS.forEach(function (l) {
+    urls.push({ loc: abs(newsPath(l)), paths: { zh: newsPath("zh"), en: newsPath("en") }, pri: "0.8", freq: "daily", mod: newsDays.length ? newsDays[0].date : codeMod });
+  });
+  newsDays.forEach(function (d) {
+    LANGS.forEach(function (l) {
+      urls.push({ loc: abs(newsDayPath(l, d.date)), paths: { zh: newsDayPath("zh", d.date), en: newsDayPath("en", d.date) }, pri: "0.5", freq: "monthly", mod: d.date });
+    });
+  });
   var catKeys = {};
   items.forEach(function (t) { catKeys[t.category] = true; });
   multiAuthors().forEach(function (g) {
@@ -1575,6 +1595,106 @@ function robots() {
 }
 
 /* ---------------- 商务合作页（PRD 模块一） ---------------- */
+/* ---------------- 每日新闻栏目 ---------------- */
+function newsItemHtml(it) {
+  return '  <li class="news-item"><h3><a href="' + esc(it.link) + '" target="_blank" rel="noopener">' + esc(it.title) + "</a></h3>" +
+    '<p class="news-meta">' + esc(it.source) + " · " + esc(it.date) + "</p>" +
+    (it.zh ? '<p class="news-sum">' + esc(it.zh) + "</p>" : "") + "</li>";
+}
+
+function newsToolsHtml(day, lang) {
+  var out = [];
+  if (day.toolsNew && day.toolsNew.length) {
+    out.push('  <h2>' + esc(T[lang].newsToolsNew) + "</h2>");
+    out.push('  <ul class="news-tools">' + day.toolsNew.map(function (t) {
+      return '<li><a href="' + esc(toolPath(lang, t.id)) + '">' + esc(t.name) + "</a> ★ " + (t.stars || 0) + "</li>";
+    }).join("") + "</ul>");
+  }
+  if (day.toolsTrending && day.toolsTrending.length) {
+    out.push('  <h2>' + esc(T[lang].newsTrending) + "</h2>");
+    out.push('  <ul class="news-tools">' + day.toolsTrending.map(function (t) {
+      return '<li><a href="' + esc(toolPath(lang, t.id)) + '">' + esc(t.name) + "</a> ★ " + (t.stars || 0) + "（+" + (t.gain || 0) + "）</li>";
+    }).join("") + "</ul>");
+  }
+  return out.join("\n");
+}
+
+function newsDaySections(day, lang) {
+  var L = T[lang];
+  var parts = [];
+  if (day.rollup) {
+    parts.push('  <h2>' + esc(L.newsRollup) + "</h2>");
+    parts.push('  <p>' + esc(day.rollup) + "</p>");
+  }
+  if (day.items && day.items.length) {
+    parts.push('  <h2>' + esc(L.newsItems) + "</h2>");
+    parts.push('  <ul class="news-list">' + day.items.map(function (it) { return newsItemHtml(it); }).join("\n") + "</ul>");
+  } else {
+    parts.push('  <p>' + esc(L.newsEmpty) + "</p>");
+  }
+  var tools = newsToolsHtml(day, lang);
+  if (tools) parts.push(tools);
+  if (day.failures && day.failures.length) {
+    parts.push('  <p class="news-meta">' + esc(L.newsFailures) + "：" + esc(day.failures.join("、")) + "</p>");
+  }
+  return parts.join("\n");
+}
+
+function newsPageShell(lang, paths, h1, desc, body, backHref, backText) {
+  var L = T[lang];
+  return [
+    head(lang, { title: h1 + " · " + L.siteName, desc: desc, paths: paths, ogType: "article" }),
+    "",
+    header(lang, false),
+    "",
+    '<main class="wrap">',
+    '  <nav class="crumbs">',
+    '    <a href="' + homePath(lang) + '">' + esc(L.backToAll) + "</a>",
+    '    <span>/</span><strong>' + esc(L.navNews) + "</strong>",
+    "  </nav>",
+    '  <h1 class="hero-title">' + esc(h1) + "</h1>",
+    '  <p class="hero-sub">' + esc(L.newsColDesc) + "</p>",
+    body,
+    '  <p class="back-link"><a href="' + backHref + '">← ' + esc(backText) + "</a></p>",
+    "</main>",
+    "",
+    footer(lang),
+    '<script src="/app.js?v=' + ASSET_V + '"></script>',
+    "</div>",
+    "</body>",
+    "</html>"
+  ].join("\n");
+}
+
+function newsIndexPage(lang) {
+  var L = T[lang];
+  var paths = {};
+  LANGS.forEach(function (l) { paths[l] = newsPath(l); });
+  var body = [];
+  var latest = newsDays[0] || null;
+  if (latest) {
+    body.push('  <h2>' + esc(latest.date) + "</h2>");
+    body.push(newsDaySections(latest, lang));
+  } else {
+    body.push('  <p>' + esc(L.newsEmpty) + "</p>");
+  }
+  if (newsDays.length > 1) {
+    body.push('  <h2>' + esc(L.newsArchive) + "</h2>");
+    body.push('  <ul class="news-archive">' + newsDays.slice(1).map(function (d) {
+      return '<li><a href="' + esc(newsDayPath(lang, d.date)) + '">' + esc(d.date) + "</a>（" + (d.items ? d.items.length : 0) + "）</li>";
+    }).join("") + "</ul>");
+  }
+  return newsPageShell(lang, paths, L.newsColTitle, L.newsColDesc, body.join("\n"), homePath(lang), L.backToAll);
+}
+
+function newsDayPage(lang, day) {
+  var L = T[lang];
+  var paths = {};
+  LANGS.forEach(function (l) { paths[l] = newsDayPath(l, day.date); });
+  return newsPageShell(lang, paths, day.date + " " + L.newsColTitle, day.date + " " + L.newsColDesc,
+    newsDaySections(day, lang), newsPath(lang), L.newsBack);
+}
+
 function partnerPage(lang) {
   var L = T[lang];
   var paths = {};
@@ -1920,6 +2040,17 @@ for (var li = 0; li < LANGS.length; li++) {
   await mkdir(submitDir, { recursive: true });
   await writeFile(join(submitDir, "index.html"), submitPage(lang), "utf8");
   written++;
+  // 每日新闻栏目：首页 + 按日归档
+  var newsIndexDir = join(ROOT, newsPath(lang).replace(/^[/]/, ""));
+  await mkdir(newsIndexDir, { recursive: true });
+  await writeFile(join(newsIndexDir, "index.html"), newsIndexPage(lang), "utf8");
+  written++;
+  for (var di = 0; di < newsDays.length; di++) {
+    var dayDir = join(ROOT, newsDayPath(lang, newsDays[di].date).replace(/^[/]/, ""));
+    await mkdir(dayDir, { recursive: true });
+    await writeFile(join(dayDir, "index.html"), newsDayPage(lang, newsDays[di]), "utf8");
+    written++;
+  }
 }
 // /go/ 跳转器（一个页面处理全部 /go/<tool_id>，靠 .htaccess 重写进来）
 await mkdir(join(ROOT, "go"), { recursive: true });
@@ -1950,6 +2081,6 @@ console.log("  分类数: " + catKeyList.length);
 console.log("  页面总数: " + written + "（首页 " + LANGS.length + " + 工具页 " + items.length * LANGS.length +
   " + 分类总览 " + LANGS.length + " + 分类页 " + catKeyList.length * LANGS.length +
   " + 对比页 " + pairList.length * LANGS.length + " + 在线工具 " + (APPS.length + 1) * LANGS.length +
-  " + 内容页 " + 2 * LANGS.length + " + 创作者页 " + authorList.length * LANGS.length + "）");
+  " + 内容页 " + 2 * LANGS.length + " + 创作者页 " + authorList.length * LANGS.length + " + 新闻 " + (newsDays.length + 1) * LANGS.length + "）");
 console.log("  sitemap.xml 已重新生成");
 console.log("  域名: " + DOMAIN);
