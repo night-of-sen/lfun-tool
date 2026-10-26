@@ -40,49 +40,42 @@
           "date": "2026-10-20"
         }
       ],
-      "toolsNew": [
-        {
-          "id": "claude-seo",
-          "name": "Claude Seo",
-          "repo": "AgriciDaniel/claude-seo",
-          "stars": 21404
-        }
-      ],
+      "toolsNew": [],
       "toolsTrending": [
-        {
-          "id": "claude-seo",
-          "name": "Claude Seo",
-          "repo": "AgriciDaniel/claude-seo",
-          "stars": 21404,
-          "gain": 21404
-        },
         {
           "id": "rea",
           "name": "Rea",
           "repo": "morluto/rea",
-          "stars": 386704,
-          "gain": 6305
+          "stars": 387007,
+          "gain": 303
         },
         {
           "id": "cleanyourtv",
           "name": "Cleanyourtv",
           "repo": "Gathin23/cleanyourtv",
-          "stars": 36634,
-          "gain": 3888
+          "stars": 36814,
+          "gain": 180
         },
         {
-          "id": "security-audit-skill",
-          "name": "Security Audit Skill",
-          "repo": "cloudflare/security-audit-skill",
-          "stars": 47471,
-          "gain": 2118
+          "id": "magpie",
+          "name": "Magpie",
+          "repo": "yetone/magpie",
+          "stars": 22007,
+          "gain": 108
         },
         {
-          "id": "voicestudio",
-          "name": "VoiceStudio",
-          "repo": "debpalash/VoiceStudio",
-          "stars": 87500,
-          "gain": 2105
+          "id": "hallmark",
+          "name": "Hallmark",
+          "repo": "Nutlope/hallmark",
+          "stars": 34711,
+          "gain": 101
+        },
+        {
+          "id": "dsh-our-free-model",
+          "name": "Dsh Our Free Model",
+          "repo": "Ebony-Vinyl/dsh-our-free-model",
+          "stars": 43745,
+          "gain": 98
         }
       ],
       "rollupZh": null,
