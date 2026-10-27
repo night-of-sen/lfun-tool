@@ -1,6 +1,295 @@
 {
   "days": [
     {
+      "date": "2026-10-27",
+      "items": [
+        {
+          "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+          "link": "https://openai.com/index/greptile-code-review-codex-astra",
+          "source": "OpenAI",
+          "date": "2026-10-26"
+        },
+        {
+          "title": "Will the real Anthropic please stand up",
+          "link": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-26"
+        },
+        {
+          "title": "Working with academic communities to build scientific understanding",
+          "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+          "source": "OpenAI",
+          "date": "2026-10-26"
+        },
+        {
+          "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+          "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+          "source": "OpenAI",
+          "date": "2026-10-26"
+        },
+        {
+          "title": "The Download: everyday AI harms and the race to nuclear spaceflight",
+          "link": "https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-26"
+        },
+        {
+          "title": "ChatGPT’s expanding world of work",
+          "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
+          "source": "OpenAI",
+          "date": "2026-10-26"
+        },
+        {
+          "title": "The focus on AI safety disasters ignores everyday harms",
+          "link": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-26"
+        },
+        {
+          "title": "How Fanatics and OpenAI streamline the fan experience",
+          "link": "https://openai.com/index/fanatics-streamline-fan-experience",
+          "source": "OpenAI",
+          "date": "2026-10-26"
+        },
+        {
+          "title": "The bridge to agent-scale Git infrastructure",
+          "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+          "source": "GitHub Blog",
+          "date": "2026-10-21"
+        },
+        {
+          "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+          "link": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+          "source": "GitHub Blog",
+          "date": "2026-10-20"
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "anatomy",
+          "name": "Anatomy",
+          "repo": "wheresryan22/anatomy",
+          "stars": 21207
+        },
+        {
+          "id": "scikit-learn",
+          "name": "Scikit Learn",
+          "repo": "scikit-learn/scikit-learn",
+          "stars": 67952
+        },
+        {
+          "id": "chart-js",
+          "name": "Chart.js",
+          "repo": "chartjs/Chart.js",
+          "stars": 67761
+        },
+        {
+          "id": "annotated-deep-learning-paper-implementations",
+          "name": "Annotated Deep Learning Paper Implementations",
+          "repo": "labmlai/annotated_deep_learning_paper_implementations",
+          "stars": 67602
+        },
+        {
+          "id": "design-resources-for-developers",
+          "name": "Design Resources For Developers",
+          "repo": "bradtraversy/design-resources-for-developers",
+          "stars": 67249
+        },
+        {
+          "id": "docusaurus",
+          "name": "Docusaurus",
+          "repo": "facebook/docusaurus",
+          "stars": 66592
+        },
+        {
+          "id": "java",
+          "name": "Java",
+          "repo": "TheAlgorithms/Java",
+          "stars": 66582
+        },
+        {
+          "id": "33-js-concepts",
+          "name": "33 Js Concepts",
+          "repo": "leonardomso/33-js-concepts",
+          "stars": 66530
+        },
+        {
+          "id": "winutil",
+          "name": "Winutil",
+          "repo": "ChrisTitusTech/winutil",
+          "stars": 65096
+        },
+        {
+          "id": "v2rayng",
+          "name": "V2rayNG",
+          "repo": "2dust/v2rayNG",
+          "stars": 64771
+        },
+        {
+          "id": "minimind",
+          "name": "Minimind",
+          "repo": "jingyaogong/minimind",
+          "stars": 64475
+        },
+        {
+          "id": "ai-hedge-fund",
+          "name": "Ai Hedge Fund",
+          "repo": "virattt/ai-hedge-fund",
+          "stars": 64281
+        },
+        {
+          "id": "nanogpt",
+          "name": "NanoGPT",
+          "repo": "karpathy/nanoGPT",
+          "stars": 64122
+        },
+        {
+          "id": "awesome-chatgpt-prompts-zh",
+          "name": "Awesome Chatgpt Prompts Zh",
+          "repo": "PlexPt/awesome-chatgpt-prompts-zh",
+          "stars": 64058
+        },
+        {
+          "id": "git",
+          "name": "Git",
+          "repo": "git/git",
+          "stars": 64039
+        },
+        {
+          "id": "openpilot",
+          "name": "Openpilot",
+          "repo": "commaai/openpilot",
+          "stars": 64004
+        },
+        {
+          "id": "drawio-desktop",
+          "name": "Drawio Desktop",
+          "repo": "jgraph/drawio-desktop",
+          "stars": 63669
+        },
+        {
+          "id": "socket-io",
+          "name": "Socket.io",
+          "repo": "socketio/socket.io",
+          "stars": 63229
+        },
+        {
+          "id": "chinese-independent-developer",
+          "name": "Chinese Independent Developer",
+          "repo": "1c7/chinese-independent-developer",
+          "stars": 61940
+        },
+        {
+          "id": "awesome-flutter",
+          "name": "Awesome Flutter",
+          "repo": "Solido/awesome-flutter",
+          "stars": 61688
+        },
+        {
+          "id": "plane",
+          "name": "Plane",
+          "repo": "makeplane/plane",
+          "stars": 61512
+        },
+        {
+          "id": "redux",
+          "name": "Redux",
+          "repo": "reduxjs/redux",
+          "stars": 61446
+        },
+        {
+          "id": "nuxt",
+          "name": "Nuxt",
+          "repo": "nuxt/nuxt",
+          "stars": 60998
+        },
+        {
+          "id": "architect-awesome",
+          "name": "Architect Awesome",
+          "repo": "xingshaocheng/architect-awesome",
+          "stars": 60846
+        },
+        {
+          "id": "spring-framework",
+          "name": "Spring Framework",
+          "repo": "spring-projects/spring-framework",
+          "stars": 60303
+        },
+        {
+          "id": "awesome-rust",
+          "name": "Awesome Rust",
+          "repo": "rust-unofficial/awesome-rust",
+          "stars": 60147
+        },
+        {
+          "id": "github-cheat-sheet",
+          "name": "Github Cheat Sheet",
+          "repo": "tiimgreen/github-cheat-sheet",
+          "stars": 59974
+        },
+        {
+          "id": "jquery",
+          "name": "Jquery",
+          "repo": "jquery/jquery",
+          "stars": 59904
+        },
+        {
+          "id": "llama",
+          "name": "Llama",
+          "repo": "meta-llama/llama",
+          "stars": 59627
+        },
+        {
+          "id": "shadowsocks-windows",
+          "name": "Shadowsocks Windows",
+          "repo": "shadowsocks/shadowsocks-windows",
+          "stars": 59523
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "scikit-learn",
+          "name": "Scikit Learn",
+          "repo": "scikit-learn/scikit-learn",
+          "stars": 67952,
+          "gain": 67952
+        },
+        {
+          "id": "chart-js",
+          "name": "Chart.js",
+          "repo": "chartjs/Chart.js",
+          "stars": 67761,
+          "gain": 67761
+        },
+        {
+          "id": "annotated-deep-learning-paper-implementations",
+          "name": "Annotated Deep Learning Paper Implementations",
+          "repo": "labmlai/annotated_deep_learning_paper_implementations",
+          "stars": 67602,
+          "gain": 67602
+        },
+        {
+          "id": "design-resources-for-developers",
+          "name": "Design Resources For Developers",
+          "repo": "bradtraversy/design-resources-for-developers",
+          "stars": 67249,
+          "gain": 67249
+        },
+        {
+          "id": "docusaurus",
+          "name": "Docusaurus",
+          "repo": "facebook/docusaurus",
+          "stars": 66592,
+          "gain": 66592
+        }
+      ],
+      "rollupZh": null,
+      "rollupEn": null,
+      "failures": [
+        "Hacker News"
+      ]
+    },
+    {
       "date": "2026-10-26",
       "items": [
         {

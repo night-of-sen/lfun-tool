@@ -7137,5 +7137,215 @@
     "source": "README.md",
     "rawLength": 22858,
     "fetchedAt": "2026-10-26T07:54:59.832Z"
+  },
+  "scikit-learn": {
+    "summary": "scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.",
+    "docker": "",
+    "source": "README.rst",
+    "rawLength": 7676,
+    "fetchedAt": "2026-10-27T08:49:06.134Z"
+  },
+  "chart-js": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2605,
+    "fetchedAt": "2026-10-27T08:49:06.135Z"
+  },
+  "annotated-deep-learning-paper-implementations": {
+    "summary": "",
+    "docker": "",
+    "source": "readme.md",
+    "rawLength": 7910,
+    "fetchedAt": "2026-10-27T08:49:06.135Z"
+  },
+  "design-resources-for-developers": {
+    "summary": "",
+    "docker": "",
+    "source": "readme.md",
+    "rawLength": 180852,
+    "fetchedAt": "2026-10-27T08:49:06.135Z"
+  },
+  "docusaurus": {
+    "summary": "Docusaurus is a project for building, deploying, and maintaining open source project websites easily.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7163,
+    "fetchedAt": "2026-10-27T08:49:06.135Z"
+  },
+  "java": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1315,
+    "fetchedAt": "2026-10-27T08:49:06.135Z"
+  },
+  "33-js-concepts": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 17336,
+    "fetchedAt": "2026-10-27T08:49:06.699Z"
+  },
+  "winutil": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5016,
+    "fetchedAt": "2026-10-27T08:49:06.699Z"
+  },
+  "v2rayng": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4204,
+    "fetchedAt": "2026-10-27T08:49:06.699Z"
+  },
+  "minimind": {
+    "summary": "MiniMind-3 当前主线预训练数据为 pretraint2t.jsonl / pretraint2tmini.jsonl。 这两份数据已经整理成统一的 text -> next token prediction 训练格式，目标是在较小算力下兼顾：",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 78738,
+    "fetchedAt": "2026-10-27T08:49:06.699Z"
+  },
+  "ai-hedge-fund": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3231,
+    "fetchedAt": "2026-10-27T08:49:06.699Z"
+  },
+  "nanogpt": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13846,
+    "fetchedAt": "2026-10-27T08:49:06.699Z"
+  },
+  "awesome-chatgpt-prompts-zh": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 28212,
+    "fetchedAt": "2026-10-27T08:49:14.666Z"
+  },
+  "git": {
+    "summary": "Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3808,
+    "fetchedAt": "2026-10-27T08:49:14.666Z"
+  },
+  "openpilot": {
+    "summary": "openpilot is developed by comma and by users like you. We welcome both pull requests and issues on GitHub.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8301,
+    "fetchedAt": "2026-10-27T08:49:14.666Z"
+  },
+  "drawio-desktop": {
+    "summary": "drawio-desktop is a diagramming desktop app based on Electron that wraps the core draw.io editor.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7543,
+    "fetchedAt": "2026-10-27T08:49:14.666Z"
+  },
+  "socket-io": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1667,
+    "fetchedAt": "2026-10-27T08:49:14.666Z"
+  },
+  "chinese-independent-developer": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 320827,
+    "fetchedAt": "2026-10-27T08:49:15.237Z"
+  },
+  "awesome-flutter": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 82166,
+    "fetchedAt": "2026-10-27T08:49:15.237Z"
+  },
+  "plane": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7651,
+    "fetchedAt": "2026-10-27T08:49:15.237Z"
+  },
+  "redux": {
+    "summary": "Redux is a valuable tool for organizing your state, but you should also consider whether it's appropriate for your situation. Please don't use Redux just because someone said you should - instead, please take some time to understand the potential benefits and tradeoffs of using it.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8440,
+    "fetchedAt": "2026-10-27T08:49:15.237Z"
+  },
+  "nuxt": {
+    "summary": "Nuxt is a free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5652,
+    "fetchedAt": "2026-10-27T08:49:15.237Z"
+  },
+  "architect-awesome": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 101943,
+    "fetchedAt": "2026-10-27T08:49:15.237Z"
+  },
+  "spring-framework": {
+    "summary": "Spring provides everything required beyond the Java programming language for creating enterprise applications for a wide range of scenarios and architectures. Please read the Overview section of the reference documentation for a more complete introduction.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2969,
+    "fetchedAt": "2026-10-27T08:49:15.855Z"
+  },
+  "awesome-rust": {
+    "summary": "Rust Embedded focuses on improving the end-to-end experience of using Rust in resource-constrained environments and non-traditional platforms. See awesome-embedded-rust for a curated, and more extended list of embedded Rust resources.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 414801,
+    "fetchedAt": "2026-10-27T08:49:15.855Z"
+  },
+  "github-cheat-sheet": {
+    "summary": "Github has tabs for displaying open or closed issues and pull requests but you can also see merged pull requests. Just put the following in the filter:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 42272,
+    "fetchedAt": "2026-10-27T08:49:15.855Z"
+  },
+  "jquery": {
+    "summary": "jQuery has used a different bug tracker - based on Trac - in the past, available under bugs.jquery.com. It is being kept in read only mode so that referring to past discussions is possible. When jQuery source references one of those issues, it uses the pattern trac-NUMBER, where NUMBER is the numeri…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15042,
+    "fetchedAt": "2026-10-27T08:49:15.855Z"
+  },
+  "llama": {
+    "summary": "Llama 2 is a new technology that carries potential risks with use. Testing conducted to date has not — and could not — cover all scenarios. In order to help developers address these risks, we have created the Responsible Use Guide. More details can be found in our research paper as well.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8672,
+    "fetchedAt": "2026-10-27T08:49:15.855Z"
+  },
+  "shadowsocks-windows": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7298,
+    "fetchedAt": "2026-10-27T08:49:15.855Z"
+  },
+  "anatomy": {
+    "summary": "Anatomy is a standard Agent Skill: a folder with a SKILL.md at its root. This repository is that folder. Pick one way in:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 25983,
+    "fetchedAt": "2026-10-27T08:49:25.993Z"
   }
 }

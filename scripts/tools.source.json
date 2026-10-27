@@ -24849,6 +24849,651 @@
       "cloud": "",
       "descEn": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt)",
       "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "anatomy",
+      "name": "Anatomy",
+      "repo": "wheresryan22/anatomy",
+      "homepage": "https://skills.wheresryan.sh/anatomy",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skill",
+        "open-source",
+        "svg",
+        "vizualization"
+      ],
+      "seed": {
+        "stars": 21205,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D eff",
+      "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "scikit-learn",
+      "name": "Scikit Learn",
+      "repo": "scikit-learn/scikit-learn",
+      "homepage": "https://scikit-learn.org",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "data-analysis",
+        "data-science",
+        "machine-learning",
+        "python"
+      ],
+      "seed": {
+        "stars": 67952,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "scikit-learn: machine learning in Python",
+      "pushedAt": "2026-10-27"
+    },
+    {
+      "id": "chart-js",
+      "name": "Chart.js",
+      "repo": "chartjs/Chart.js",
+      "homepage": "https://www.chartjs.org/",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "canvas",
+        "chart",
+        "graph",
+        "html5"
+      ],
+      "seed": {
+        "stars": 67761,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Simple HTML5 Charts using the <canvas> tag",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "annotated-deep-learning-paper-implementations",
+      "name": "Annotated Deep Learning Paper Implementations",
+      "repo": "labmlai/annotated_deep_learning_paper_implementations",
+      "homepage": "https://nn.labml.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "attention",
+        "deep-learning",
+        "deep-learning-tutorial",
+        "gan"
+      ],
+      "seed": {
+        "stars": 67602,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabeli",
+      "pushedAt": "2026-10-25"
+    },
+    {
+      "id": "design-resources-for-developers",
+      "name": "Design Resources For Developers",
+      "repo": "bradtraversy/design-resources-for-developers",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 67249,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more",
+      "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "docusaurus",
+      "name": "Docusaurus",
+      "repo": "facebook/docusaurus",
+      "homepage": "https://docusaurus.io",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "documentation",
+        "hacktoberfest",
+        "javascript",
+        "open-source"
+      ],
+      "seed": {
+        "stars": 66592,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Easy to maintain open source documentation websites.",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "java",
+      "name": "Java",
+      "repo": "TheAlgorithms/Java",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "algorithm",
+        "algorithm-challenges",
+        "algorithms",
+        "algorithms-datastructures"
+      ],
+      "seed": {
+        "stars": 66582,
+        "language": "Java"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "All Algorithms implemented in Java",
+      "pushedAt": "2026-10-27"
+    },
+    {
+      "id": "33-js-concepts",
+      "name": "33 Js Concepts",
+      "repo": "leonardomso/33-js-concepts",
+      "homepage": "https://33jsconcepts.com/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "angular",
+        "concepts",
+        "es6",
+        "es6-javascript"
+      ],
+      "seed": {
+        "stars": 66530,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "📜 33 JavaScript concepts every developer should know.",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "winutil",
+      "name": "Winutil",
+      "repo": "ChrisTitusTech/winutil",
+      "homepage": "https://winutil.christitus.com/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 65096,
+        "language": "PowerShell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates",
+      "pushedAt": "2026-10-26"
+    },
+    {
+      "id": "v2rayng",
+      "name": "V2rayNG",
+      "repo": "2dust/v2rayNG",
+      "homepage": "https://v2rayng.2dust.link",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "android",
+        "proxy",
+        "shadowsocks",
+        "socks5"
+      ],
+      "seed": {
+        "stars": 64771,
+        "language": "Kotlin"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A V2Ray client for Android, support Xray core and v2fly core",
+      "pushedAt": "2026-10-25"
+    },
+    {
+      "id": "minimind",
+      "name": "Minimind",
+      "repo": "jingyaogong/minimind",
+      "homepage": "https://jingyaogong.github.io/minimind",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "artificial-intelligence",
+        "large-language-model"
+      ],
+      "seed": {
+        "stars": 64475,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "pushedAt": "2026-10-27"
+    },
+    {
+      "id": "ai-hedge-fund",
+      "name": "Ai Hedge Fund",
+      "repo": "virattt/ai-hedge-fund",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 64281,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An AI Hedge Fund Team",
+      "pushedAt": "2026-10-24"
+    },
+    {
+      "id": "nanogpt",
+      "name": "NanoGPT",
+      "repo": "karpathy/nanoGPT",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 64122,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
+      "pushedAt": "2025-11-12"
+    },
+    {
+      "id": "awesome-chatgpt-prompts-zh",
+      "name": "Awesome Chatgpt Prompts Zh",
+      "repo": "PlexPt/awesome-chatgpt-prompts-zh",
+      "homepage": "https://chat.aimakex.com/",
+      "category": "marketing-growth",
+      "desc": "",
+      "tags": [
+        "chat-gpt",
+        "chatgpt",
+        "chatgpt3",
+        "chatgpt4"
+      ],
+      "seed": {
+        "stars": 64058,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。",
+      "pushedAt": "2026-04-28"
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "repo": "git/git",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "c",
+        "hacktoberfest",
+        "shell"
+      ],
+      "seed": {
+        "stars": 64039,
+        "language": "C"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Plea",
+      "pushedAt": "2026-10-26"
+    },
+    {
+      "id": "openpilot",
+      "name": "Openpilot",
+      "repo": "commaai/openpilot",
+      "homepage": "https://comma.ai/openpilot",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "advanced-driver-assistance-systems",
+        "driver-assistance-systems",
+        "robotics"
+      ],
+      "seed": {
+        "stars": 64004,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+      "pushedAt": "2026-10-27"
+    },
+    {
+      "id": "drawio-desktop",
+      "name": "Drawio Desktop",
+      "repo": "jgraph/drawio-desktop",
+      "homepage": "https://www.diagrams.net",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "diagram-editor",
+        "electron-app",
+        "graphics",
+        "javascript-applications"
+      ],
+      "seed": {
+        "stars": 63669,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Official electron build of draw.io",
+      "pushedAt": "2026-10-26"
+    },
+    {
+      "id": "socket-io",
+      "name": "Socket.io",
+      "repo": "socketio/socket.io",
+      "homepage": "https://socket.io",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "javascript",
+        "nodejs",
+        "socket-io",
+        "websocket"
+      ],
+      "seed": {
+        "stars": 63229,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Bidirectional and low-latency communication for every platform",
+      "pushedAt": "2026-09-29"
+    },
+    {
+      "id": "chinese-independent-developer",
+      "name": "Chinese Independent Developer",
+      "repo": "1c7/chinese-independent-developer",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "china",
+        "indie",
+        "indie-developer"
+      ],
+      "seed": {
+        "stars": 61940,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么",
+      "pushedAt": "2026-10-27"
+    },
+    {
+      "id": "awesome-flutter",
+      "name": "Awesome Flutter",
+      "repo": "Solido/awesome-flutter",
+      "homepage": "",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "android",
+        "awesome",
+        "awesome-list",
+        "collections"
+      ],
+      "seed": {
+        "stars": 61688,
+        "language": "Dart"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.",
+      "pushedAt": "2026-09-03"
+    },
+    {
+      "id": "plane",
+      "name": "Plane",
+      "repo": "makeplane/plane",
+      "homepage": "http://plane.so",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "boards",
+        "bug-tracker",
+        "django",
+        "docker"
+      ],
+      "seed": {
+        "stars": 61512,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "pushedAt": "2026-10-26"
+    },
+    {
+      "id": "redux",
+      "name": "Redux",
+      "repo": "reduxjs/redux",
+      "homepage": "https://redux.js.org",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "redux"
+      ],
+      "seed": {
+        "stars": 61446,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A JS library for predictable global state management",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "nuxt",
+      "name": "Nuxt",
+      "repo": "nuxt/nuxt",
+      "homepage": "https://nuxt.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "csr",
+        "framework",
+        "full-stack",
+        "hacktoberfest"
+      ],
+      "seed": {
+        "stars": 60998,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The full-stack Vue framework.",
+      "pushedAt": "2026-10-27"
+    },
+    {
+      "id": "architect-awesome",
+      "name": "Architect Awesome",
+      "repo": "xingshaocheng/architect-awesome",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 60846,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "后端架构师技术图谱",
+      "pushedAt": "2024-04-11"
+    },
+    {
+      "id": "spring-framework",
+      "name": "Spring Framework",
+      "repo": "spring-projects/spring-framework",
+      "homepage": "https://spring.io/projects/spring-framework",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "spring",
+        "spring-framework",
+        "spring-mvc"
+      ],
+      "seed": {
+        "stars": 60303,
+        "language": "Java"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Spring Framework",
+      "pushedAt": "2026-10-26"
+    },
+    {
+      "id": "awesome-rust",
+      "name": "Awesome Rust",
+      "repo": "rust-unofficial/awesome-rust",
+      "homepage": "",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "awesome",
+        "rust"
+      ],
+      "seed": {
+        "stars": 60147,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A curated list of Rust code and resources.",
+      "pushedAt": "2026-10-26"
+    },
+    {
+      "id": "github-cheat-sheet",
+      "name": "Github Cheat Sheet",
+      "repo": "tiimgreen/github-cheat-sheet",
+      "homepage": "http://git.io/sheet",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "awesome",
+        "awesome-list",
+        "git",
+        "github"
+      ],
+      "seed": {
+        "stars": 59974,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A list of cool features of Git and GitHub.",
+      "pushedAt": "2024-04-15"
+    },
+    {
+      "id": "jquery",
+      "name": "Jquery",
+      "repo": "jquery/jquery",
+      "homepage": "https://jquery.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "jquery"
+      ],
+      "seed": {
+        "stars": 59904,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "jQuery JavaScript Library",
+      "pushedAt": "2026-10-16"
+    },
+    {
+      "id": "llama",
+      "name": "Llama",
+      "repo": "meta-llama/llama",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 59627,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Inference code for Llama models",
+      "pushedAt": "2025-01-26"
+    },
+    {
+      "id": "shadowsocks-windows",
+      "name": "Shadowsocks Windows",
+      "repo": "shadowsocks/shadowsocks-windows",
+      "homepage": "",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "c-sharp",
+        "proxy",
+        "shadowsocks"
+      ],
+      "seed": {
+        "stars": 59523,
+        "language": "C#"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A C# port of shadowsocks",
+      "pushedAt": "2025-01-01"
     }
   ]
 }
