@@ -1681,14 +1681,35 @@ function newsDaySections(day, lang) {
   return parts.join("\n");
 }
 
-function newsPageShell(lang, paths, h1, desc, body, backHref, backText, jsonld) {
+function newsPageShell(lang, paths, h1, desc, body, backHref, backText, jsonld, currentDate) {
   var L = T[lang];
+  // 左侧栏：全部保留日期，新到旧；当前日期高亮不可点（无自链），其余链向对应日报
+  var days = (typeof newsDays !== "undefined" ? newsDays : []);
+  var sideItems = days.map(function (d) {
+    var cnt = d.items ? d.items.length : 0;
+    if (d.date === currentDate) {
+      return '<span class="chip active"><span>' + esc(d.date) + "</span><span>" + cnt + "</span></span>";
+    }
+    return '<a class="chip" href="' + esc(newsDayPath(lang, d.date)) + '"><span>' + esc(d.date) + "</span><span>" + cnt + "</span></span></a>";
+  }).join("");
   return [
     head(lang, { title: h1 + " · " + L.siteName, desc: desc, paths: paths, ogType: "article", jsonld: jsonld }),
     "",
-    header(lang, false),
+    header(lang, false, true),
     "",
-    '<main class="wrap">',
+    '<div class="layout" id="layout">',
+    '  <aside class="sidebar" id="sidebar">',
+    '    <div class="sidebar-head">',
+    '      <span>' + esc(L.newsArchive) + "</span>",
+    '      <button class="sidebar-close" id="sidebar-close" aria-label="close">✕</button>',
+    "    </div>",
+    '    <div class="side-block">',
+    '      <h3 class="side-title">' + esc(L.newsArchive) + "</h3>",
+    '      <div class="chips">' + sideItems + "</div>",
+    "    </div>",
+    "  </aside>",
+    '  <div class="sidebar-backdrop" id="sidebar-backdrop"></div>',
+    '  <main class="content">',
     '  <nav class="crumbs">',
     '    <a href="' + homePath(lang) + '">' + esc(L.backToAll) + "</a>",
     '    <span>/</span><strong>' + esc(L.navNews) + "</strong>",
@@ -1697,7 +1718,8 @@ function newsPageShell(lang, paths, h1, desc, body, backHref, backText, jsonld) 
     '  <p class="hero-sub">' + esc(L.newsColDesc) + "</p>",
     body,
     '  <p class="back-link"><a href="' + backHref + '">← ' + esc(backText) + "</a></p>",
-    "</main>",
+    "  </main>",
+    "</div>",
     "",
     footer(lang),
     '<script src="/app.js?v=' + ASSET_V + '"></script>',
@@ -1719,12 +1741,7 @@ function newsIndexPage(lang) {
   } else {
     body.push('  <p>' + esc(L.newsEmpty) + "</p>");
   }
-  if (newsDays.length > 1) {
-    body.push('  <h2>' + esc(L.newsArchive) + "</h2>");
-    body.push('  <ul class="news-archive">' + newsDays.slice(1).map(function (d) {
-      return '<li><a href="' + esc(newsDayPath(lang, d.date)) + '">' + esc(d.date) + "</a>（" + (d.items ? d.items.length : 0) + "）</li>";
-    }).join("") + "</ul>");
-  }
+  // 往期列表已移入左侧栏，此处不再重复渲染底部列表
   var jsonld = [{
     "@context": "https://schema.org", "@type": "Blog",
     "name": L.newsColTitle, "url": abs(paths[lang]), "inLanguage": L.htmlLang, "description": L.newsColDesc
@@ -1735,7 +1752,7 @@ function newsIndexPage(lang) {
       { "@type": "ListItem", "position": 2, "name": L.navNews, "item": abs(paths[lang]) }
     ]
   }];
-  return newsPageShell(lang, paths, L.newsColTitle, L.newsColDesc, body.join("\n"), homePath(lang), L.backToAll, jsonld);
+  return newsPageShell(lang, paths, L.newsColTitle, L.newsColDesc, body.join("\n"), homePath(lang), L.backToAll, jsonld, latest ? latest.date : null);
 }
 
 function newsDayPage(lang, day) {
@@ -1755,7 +1772,7 @@ function newsDayPage(lang, day) {
     ]
   }];
   return newsPageShell(lang, paths, day.date + " " + L.newsColTitle, day.date + " " + L.newsColDesc,
-    newsDaySections(day, lang), newsPath(lang), L.newsBack, jsonld);
+    newsDaySections(day, lang), newsPath(lang), L.newsBack, jsonld, day.date);
 }
 
 function partnerPage(lang) {
