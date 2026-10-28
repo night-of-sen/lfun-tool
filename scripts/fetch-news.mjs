@@ -1,4 +1,4 @@
-// 每日新闻抓取：聚合 AI 行业资讯 RSS + 本站工具动态，写入 data/news.json。
+// 每日新闻抓取：聚合 AI 行业资讯（RSS/JSON）+ 本站工具动态，写入 data/news.json。
 // 由每日同步 workflow 在 build-pages 之前运行（需用户手动加步骤，见 PR 说明）。
 // 设计原则：任何一步失败都不阻塞构建——源挂了记 failures 继续跑，
 // 没有 DEEPSEEK_API_KEY 就跳过 AI 摘要只发聚合，脚本永远 exit 0。
@@ -12,7 +12,8 @@ const BEIJING = new Date(Date.now() + 8 * 3600 * 1000).toISOString().slice(0, 10
 const SOURCES = [
   { name: "OpenAI", url: "https://openai.com/news/rss.xml", filter: false },
   { name: "GitHub Blog", url: "https://github.blog/feed/", filter: true },
-  { name: "Hacker News", url: "https://news.ycombinator.com/rss", filter: true },
+  // HN 的 RSS 在 CI 共享 IP 下持续返回 419（2026-10-26 起连挂 3 天），改用 HN 官方 Algolia 搜索接口取首页故事
+  { name: "Hacker News", url: "https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=30", filter: true, type: "algolia" },
   { name: "MIT Technology Review", url: "https://www.technologyreview.com/feed/", filter: true },
 ];
 
@@ -66,7 +67,12 @@ function parseFeed(xml, source) {
       ts: d && !isNaN(d) ? d.getTime() : 0,
     });
   }
-  // 优先 72 小时内的新鲜资讯；某源 72 小时内无 AI 相关内容时，退而取其最新 2 条 AI 相关内容兜底
+  return pickItems(out, source);
+}
+
+// 选条：AI 关键词过滤（filter 源）→ 按时间倒序 → 优先 72 小时内新鲜资讯，
+// 某源 72 小时内无 AI 相关内容时，退而取其最新 2 条 AI 相关内容兜底（RSS 与 Algolia 共用）
+function pickItems(out, source) {
   if (source.filter) out = out.filter(function (it) { return AI_RE.test(it.title); });
   out.sort(function (a, b) { return b.ts - a.ts; });
   var cutoff = Date.now() - 72 * 3600 * 1000;
@@ -75,6 +81,27 @@ function parseFeed(xml, source) {
   return picked.map(function (it) {
     return { title: it.title, link: it.link, source: it.source, date: it.date, ts: it.ts };
   });
+}
+
+function parseAlgolia(data, source) {
+  var hits = (data && Array.isArray(data.hits)) ? data.hits : [];
+  var out = [];
+  for (var i = 0; i < hits.length; i++) {
+    var h = hits[i];
+    var title = (h.title || "").trim();
+    // 无外链的帖子（如 Ask HN）回落到 HN 原帖链接；无标题或无链接的跳过
+    var link = h.url || (h.objectID ? "https://news.ycombinator.com/item?id=" + h.objectID : "");
+    var d = h.created_at ? new Date(h.created_at) : null;
+    if (!title || !link) continue;
+    out.push({
+      title: title,
+      link: link,
+      source: source.name,
+      date: d && !isNaN(d) ? d.toISOString().slice(0, 10) : BEIJING,
+      ts: d && !isNaN(d) ? d.getTime() : 0,
+    });
+  }
+  return pickItems(out, source);
 }
 
 async function fetchOne(source) {
@@ -86,6 +113,7 @@ async function fetchOne(source) {
       headers: { "user-agent": "Mozilla/5.0 (compatible; tools.lfun.cloud news bot)" },
     });
     if (!res.ok) throw new Error("HTTP " + res.status);
+    if (source.type === "algolia") return parseAlgolia(await res.json(), source);
     return parseFeed(await res.text(), source);
   } finally {
     clearTimeout(timer);
