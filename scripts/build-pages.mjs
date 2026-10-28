@@ -727,9 +727,36 @@ function toolPage(t, lang) {
     related = related.concat(extra);
   }
 
+  // 常搭配使用：同场景 + 不同分类（同一工作流里干不同的活），优先同场景，标签重叠补位；排除自己与已在同类工具里的项
+  var comboScene = (t.scene && t.scene !== "general") ? t.scene : null;
+  var combo = [];
+  if (comboScene) {
+    combo = items.filter(function (x) {
+      return x.id !== t.id && x.category !== t.category && sceneKey(x) === comboScene && related.indexOf(x) === -1;
+    }).sort(function (x, y) { return (y.stars || 0) - (x.stars || 0); }).slice(0, 6);
+  }
+  if (combo.length < 3) {
+    var comboFill = items.filter(function (x) {
+      return x.id !== t.id && x.category !== t.category && sharedTags(x) > 0 && related.indexOf(x) === -1 && combo.indexOf(x) === -1;
+    }).sort(function (x, y) {
+      var d = sharedTags(y) - sharedTags(x);
+      if (d) return d;
+      return (y.stars || 0) - (x.stars || 0);
+    }).slice(0, 6 - combo.length);
+    combo = combo.concat(comboFill);
+  }
+
   // P4：GitHub 信息（星数）只在 repo 非空时出现；语言/许可证无值时不硬填
   var specRows = [];
   if (t.repo) specRows.push([L.specStars, "★ " + fmtStars(t.stars)]);
+  // 分类排名（按星数在同分类内的名次，供用户评价参考；纯数据计算，不编造）
+  var catRanked = items.filter(function (x) { return x.category === t.category; })
+    .sort(function (a, b) { return (b.stars || 0) - (a.stars || 0); });
+  var catRank = 0;
+  for (var ri = 0; ri < catRanked.length; ri++) {
+    if (catRanked[ri].id === t.id) { catRank = ri + 1; break; }
+  }
+  if (catRank) specRows.push([L.specRank, lang === "zh" ? "第" + catRank + "名" : "#" + catRank]);
   if (t.language) specRows.push([L.specLang, t.language]);
   if (t.license && t.license !== "-") specRows.push([L.specLicense, t.license]);
   else if (t.repo) specRows.push([L.specLicense, L.noLicense]);
@@ -879,6 +906,16 @@ function toolPage(t, lang) {
     lines.push("    <h2>" + esc(L.related) + "</h2>");
     lines.push('    <div class="grid">');
     related.forEach(function (r) { lines.push(card(r, lang)); });
+    lines.push("    </div>");
+    lines.push("  </section>");
+  }
+
+  if (combo.length) {
+    lines.push('  <section class="related">');
+    lines.push("    <h2>" + esc(L.comboTitle) + "</h2>");
+    lines.push('    <p class="combo-note">' + esc(L.comboNote) + "</p>");
+    lines.push('    <div class="grid">');
+    combo.forEach(function (r) { lines.push(card(r, lang)); });
     lines.push("    </div>");
     lines.push("  </section>");
   }
