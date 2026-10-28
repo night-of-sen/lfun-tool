@@ -4,30 +4,57 @@
       "date": "2026-10-28",
       "items": [
         {
+          "title": "Early progress on accelerating drug development with Claude",
+          "link": "https://www.anthropic.com/research/early-progress-drug-development",
+          "source": "Hacker News",
+          "date": "2026-10-27",
+          "zhTitle": "用 Claude 加速药物开发的早期进展",
+          "zh": "Anthropic 介绍用 Claude 加速药物开发的早期进展。",
+          "en": "Anthropic shares early progress on using Claude to accelerate drug development."
+        },
+        {
+          "title": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
+          "link": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/",
+          "source": "Hacker News",
+          "date": "2026-10-27",
+          "zhTitle": "树莓派 Zero 3W 与 Pi 4 Model A 现身设备树",
+          "zh": "设备树文件里出现树莓派 Zero 3W 和 Pi 4 Model A 的踪迹。",
+          "en": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees."
+        },
+        {
+          "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+          "link": "https://www.brangus.io/survival-llm",
+          "source": "Hacker News",
+          "date": "2026-10-27",
+          "zhTitle": "Survival LLM：可在本机运行的 AI 助手与应急资料库",
+          "zh": "一款可在个人电脑本地运行的 AI 助手兼应急资料库。",
+          "en": "An AI assistant and emergency library that runs on your own computer."
+        },
+        {
           "title": "Retell uses OpenAI models to help power 100M monthly calls",
           "link": "https://openai.com/index/retell-ai",
           "source": "OpenAI",
           "date": "2026-10-27",
           "zhTitle": "Retell 借助 OpenAI 模型支撑每月 1 亿次通话",
-          "zh": "Retell 使用 OpenAI 模型支撑每月 1 亿次通话。",
-          "en": "Retell uses OpenAI models to power 100 million monthly calls."
+          "zh": "Retell 使用 OpenAI 模型支撑每月一亿次通话。",
+          "en": "Retell uses OpenAI models to help power 100 million monthly calls."
         },
         {
           "title": "The Download: Anthropic’s IPO, smarter power grids, and exercise pills",
           "link": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/",
           "source": "MIT Technology Review",
           "date": "2026-10-27",
-          "zhTitle": "今日速览：Anthropic 的 IPO、更智能的电网与“运动药丸”",
-          "zh": "今日速览涵盖 Anthropic 的 IPO、智能电网与运动药丸。",
-          "en": "The Download: Anthropic's IPO, smarter power grids, and exercise pills."
+          "zhTitle": "The Download：Anthropic 的 IPO、更智能的电网与“运动药丸”",
+          "zh": "本期关注 Anthropic 的 IPO、更智能的电网和运动药丸。",
+          "en": "This issue covers Anthropic's IPO, smarter power grids, and exercise pills."
         },
         {
           "title": "How solid-state transformers could help power the AI boom",
           "link": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
           "source": "MIT Technology Review",
           "date": "2026-10-27",
-          "zhTitle": "固态变压器如何为 AI 热潮提供电力",
-          "zh": "固态变压器有望为 AI 热潮的用电需求提供支撑。",
+          "zhTitle": "固态变压器如何助力 AI 热潮的供电",
+          "zh": "介绍固态变压器如何在 AI 热潮中发挥作用。",
           "en": "How solid-state transformers could help power the AI boom."
         },
         {
@@ -36,8 +63,8 @@
           "source": "OpenAI",
           "date": "2026-10-27",
           "zhTitle": "OpenAI 扩大与 Oracle 的合作，将其应用引入 ChatGPT",
-          "zh": "OpenAI 扩大与 Oracle 合作，把 Oracle 应用接入 ChatGPT。",
-          "en": "OpenAI expands its Oracle partnership to bring Oracle apps to ChatGPT."
+          "zh": "OpenAI 扩大与 Oracle 的合作，把 Oracle 应用接入 ChatGPT。",
+          "en": "OpenAI expands its Oracle partnership to bring its apps to ChatGPT."
         },
         {
           "title": "How Check Point accelerates vulnerability research with Daybreak",
@@ -45,7 +72,7 @@
           "source": "OpenAI",
           "date": "2026-10-27",
           "zhTitle": "Check Point 如何用 Daybreak 加速漏洞研究",
-          "zh": "Check Point 借助 Daybreak 加速漏洞研究。",
+          "zh": "Check Point 借助 Daybreak 加快漏洞研究工作。",
           "en": "How Check Point accelerates vulnerability research with Daybreak."
         },
         {
@@ -53,8 +80,8 @@
           "link": "https://openai.com/index/greptile-code-review-codex-astra",
           "source": "OpenAI",
           "date": "2026-10-26",
-          "zhTitle": "Greptile 借助 GPT-6 Astra 将缺陷检测拓展到代码评审之外",
-          "zh": "Greptile 用 GPT-6 Astra 把缺陷检测扩展到代码评审之外。",
+          "zhTitle": "Greptile 借助 GPT-6 Astra 将缺陷检测拓展到代码审查之外",
+          "zh": "Greptile 用 GPT-6 Astra 把缺陷检测拓展到代码审查之外。",
           "en": "Greptile takes bug detection beyond code review with GPT-6 Astra."
         },
         {
@@ -63,26 +90,23 @@
           "source": "MIT Technology Review",
           "date": "2026-10-26",
           "zhTitle": "真正的 Anthropic 请站出来",
-          "zh": "文章追问：真正的 Anthropic 究竟是哪一家？",
-          "en": "Will the real Anthropic please stand up."
+          "zh": "一篇追问 Anthropic 真实面貌的评论文章。",
+          "en": "A commentary asking which version of Anthropic is the real one."
         },
         {
           "title": "Working with academic communities to build scientific understanding",
           "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
           "source": "OpenAI",
           "date": "2026-10-26",
-          "zhTitle": "与学术社区合作，共建科学理解",
-          "zh": "OpenAI 与学术社区合作，共同推进科学理解。",
+          "zhTitle": "与学术社区合作，构建科学理解",
+          "zh": "OpenAI 介绍与学术社区合作构建科学理解的举措。",
           "en": "Working with academic communities to build scientific understanding."
         },
         {
           "title": "The Download: everyday AI harms and the race to nuclear spaceflight",
           "link": "https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/",
           "source": "MIT Technology Review",
-          "date": "2026-10-26",
-          "zhTitle": "今日速览：AI 的日常危害与核动力航天竞赛",
-          "zh": "今日速览涵盖 AI 的日常危害与核动力太空飞行竞赛。",
-          "en": "The Download: everyday AI harms and the race to nuclear spaceflight."
+          "date": "2026-10-26"
         },
         {
           "title": "The focus on AI safety disasters ignores everyday harms",
@@ -90,7 +114,7 @@
           "source": "MIT Technology Review",
           "date": "2026-10-26",
           "zhTitle": "聚焦 AI 安全灾难，忽视了日常危害",
-          "zh": "文章认为对 AI 灾难的关注掩盖了日常性危害。",
+          "zh": "文章指出对 AI 安全灾难的关注忽略了日常危害。",
           "en": "The focus on AI safety disasters ignores everyday harms."
         },
         {
@@ -99,17 +123,17 @@
           "source": "GitHub Blog",
           "date": "2026-10-21",
           "zhTitle": "通往智能体规模 Git 基础设施的桥梁",
-          "zh": "GitHub 谈如何迈向智能体规模的 Git 基础设施。",
-          "en": "The bridge to agent-scale Git infrastructure."
+          "zh": "GitHub 介绍面向智能体规模的 Git 基础设施建设。",
+          "en": "GitHub on the bridge to agent-scale Git infrastructure."
         },
         {
           "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
           "link": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
           "source": "GitHub Blog",
           "date": "2026-10-20",
-          "zhTitle": "三位 Java Champion 如何用 GitHub Copilot 提升生产力",
-          "zh": "三位 Java Champion 分享用 GitHub Copilot 提效的经验。",
-          "en": "How 3 Java Champions use GitHub Copilot to boost productivity."
+          "zhTitle": "三位 Java Champion 如何用 GitHub Copilot 提升效率",
+          "zh": "三位 Java Champion 分享用 GitHub Copilot 提效的做法。",
+          "en": "How three Java Champions use GitHub Copilot to increase productivity."
         }
       ],
       "toolsNew": [],
@@ -118,43 +142,41 @@
           "id": "rea",
           "name": "Rea",
           "repo": "morluto/rea",
-          "stars": 398431,
-          "gain": 104
-        },
-        {
-          "id": "deeptutor",
-          "name": "DeepTutor",
-          "repo": "HKUDS/DeepTutor",
-          "stars": 46454,
-          "gain": 65
+          "stars": 398775,
+          "gain": 344
         },
         {
           "id": "dsh-our-free-model",
           "name": "Dsh Our Free Model",
           "repo": "Ebony-Vinyl/dsh-our-free-model",
-          "stars": 47288,
-          "gain": 44
+          "stars": 47455,
+          "gain": 167
+        },
+        {
+          "id": "deeptutor",
+          "name": "DeepTutor",
+          "repo": "HKUDS/DeepTutor",
+          "stars": 46606,
+          "gain": 152
         },
         {
           "id": "cleanyourtv",
           "name": "Cleanyourtv",
           "repo": "Gathin23/cleanyourtv",
-          "stars": 42282,
-          "gain": 43
+          "stars": 42421,
+          "gain": 139
         },
         {
-          "id": "voicestudio",
-          "name": "VoiceStudio",
-          "repo": "debpalash/VoiceStudio",
-          "stars": 91747,
-          "gain": 40
+          "id": "deepseek-harness",
+          "name": "Deepseek Harness",
+          "repo": "deepseek-ai/deepseek-harness",
+          "stars": 264105,
+          "gain": 116
         }
       ],
-      "rollupZh": "今日 OpenAI 集中发布多项企业合作案例：Retell 依托其模型支撑每月 1 亿次通话，Oracle 应用接入 ChatGPT，Check Point 与 Greptile 分别用于漏洞研究和缺陷检测。MIT 科技评论关注 Anthropic 的 IPO 传闻与公司定位，并讨论固态变压器对 AI 供电的意义。GitHub 博客则聚焦智能体规模的 Git 基础设施与 Copilot 提效实践。",
-      "rollupEn": "OpenAI highlighted several enterprise use cases: Retell powering 100 million monthly calls, Oracle apps coming to ChatGPT, and Check Point and Greptile applying its models to vulnerability research and bug detection. MIT Technology Review covered Anthropic's reported IPO and identity, plus solid-state transformers for AI power demand. GitHub's blog focused on agent-scale Git infrastructure and Copilot productivity gains.",
-      "failures": [
-        "Hacker News"
-      ]
+      "rollupZh": "今日要闻：Anthropic 公布用 Claude 加速药物开发的早期进展，同时因 IPO 与自身定位话题受到关注；OpenAI 扩大与 Oracle 的合作，并有企业用其模型支撑大规模通话、漏洞研究与缺陷检测。硬件与基础设施方面，树莓派新机型现身设备树，固态变压器与智能体规模的 Git 基础设施也成为讨论焦点。",
+      "rollupEn": "Today: Anthropic shared early progress on using Claude for drug development, while its IPO and identity drew attention; OpenAI expanded its Oracle partnership, and companies used its models for large-scale calls, vulnerability research, and bug detection. On hardware and infrastructure, new Raspberry Pi models surfaced in device trees, alongside discussion of solid-state transformers and agent-scale Git infrastructure.",
+      "failures": []
     },
     {
       "date": "2026-10-27",
