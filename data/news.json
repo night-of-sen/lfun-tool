@@ -7,73 +7,109 @@
           "title": "Retell uses OpenAI models to help power 100M monthly calls",
           "link": "https://openai.com/index/retell-ai",
           "source": "OpenAI",
-          "date": "2026-10-27"
+          "date": "2026-10-27",
+          "zhTitle": "Retell 借助 OpenAI 模型支撑每月 1 亿次通话",
+          "zh": "Retell 使用 OpenAI 模型支撑每月 1 亿次通话。",
+          "en": "Retell uses OpenAI models to power 100M monthly calls."
         },
         {
           "title": "The Download: Anthropic’s IPO, smarter power grids, and exercise pills",
           "link": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/",
           "source": "MIT Technology Review",
-          "date": "2026-10-27"
+          "date": "2026-10-27",
+          "zhTitle": "每日播报：Anthropic 的 IPO、更智能的电网与运动药丸",
+          "zh": "本期关注 Anthropic 上市、更智能电网与运动药丸。",
+          "en": "Anthropic's IPO, smarter grids, and exercise pills in today's Download."
         },
         {
           "title": "How solid-state transformers could help power the AI boom",
           "link": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
           "source": "MIT Technology Review",
-          "date": "2026-10-27"
+          "date": "2026-10-27",
+          "zhTitle": "固态变压器如何为 AI 热潮提供电力支撑",
+          "zh": "固态变压器或可支撑 AI 热潮带来的用电需求。",
+          "en": "How solid-state transformers could help power the AI boom."
         },
         {
           "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
           "link": "https://openai.com/index/oracle-apps-in-chatgpt",
           "source": "OpenAI",
-          "date": "2026-10-27"
+          "date": "2026-10-27",
+          "zhTitle": "OpenAI 扩大与甲骨文的合作，将其应用引入 ChatGPT",
+          "zh": "OpenAI 扩大与甲骨文合作，把其应用接入 ChatGPT。",
+          "en": "OpenAI expands its Oracle partnership to bring its apps into ChatGPT."
         },
         {
           "title": "How Check Point accelerates vulnerability research with Daybreak",
           "link": "https://openai.com/index/check-point-daybreak",
           "source": "OpenAI",
-          "date": "2026-10-27"
+          "date": "2026-10-27",
+          "zhTitle": "Check Point 如何借助 Daybreak 加速漏洞研究",
+          "zh": "Check Point 借助 Daybreak 加速漏洞研究。",
+          "en": "How Check Point accelerates vulnerability research with Daybreak."
         },
         {
           "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
           "link": "https://openai.com/index/greptile-code-review-codex-astra",
           "source": "OpenAI",
-          "date": "2026-10-26"
+          "date": "2026-10-26",
+          "zhTitle": "Greptile 借助 GPT-6 Astra 将缺陷检测拓展到代码评审之外",
+          "zh": "Greptile 用 GPT-6 Astra 把缺陷检测延伸到代码评审之外。",
+          "en": "Greptile takes bug detection beyond code review with GPT-6 Astra."
         },
         {
           "title": "Will the real Anthropic please stand up",
           "link": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
           "source": "MIT Technology Review",
-          "date": "2026-10-26"
+          "date": "2026-10-26",
+          "zhTitle": "真正的 Anthropic 请站出来",
+          "zh": "文章追问 Anthropic 的真实定位究竟是什么。",
+          "en": "Will the real Anthropic please stand up."
         },
         {
           "title": "Working with academic communities to build scientific understanding",
           "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
           "source": "OpenAI",
-          "date": "2026-10-26"
+          "date": "2026-10-26",
+          "zhTitle": "与学术社群合作，共建科学理解",
+          "zh": "OpenAI 介绍与学术界的合作以推进科学理解。",
+          "en": "Working with academic communities to build scientific understanding."
         },
         {
           "title": "The Download: everyday AI harms and the race to nuclear spaceflight",
           "link": "https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/",
           "source": "MIT Technology Review",
-          "date": "2026-10-26"
+          "date": "2026-10-26",
+          "zhTitle": "每日播报：AI 的日常危害与核动力航天竞赛",
+          "zh": "本期关注 AI 日常危害与核动力太空飞行竞赛。",
+          "en": "Everyday AI harms and the race to nuclear spaceflight."
         },
         {
           "title": "The focus on AI safety disasters ignores everyday harms",
           "link": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
           "source": "MIT Technology Review",
-          "date": "2026-10-26"
+          "date": "2026-10-26",
+          "zhTitle": "只盯 AI 安全灾难，会忽视日常危害",
+          "zh": "聚焦 AI 灾难性风险，忽视了日常层面的危害。",
+          "en": "The focus on AI safety disasters ignores everyday harms."
         },
         {
           "title": "The bridge to agent-scale Git infrastructure",
           "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
           "source": "GitHub Blog",
-          "date": "2026-10-21"
+          "date": "2026-10-21",
+          "zhTitle": "通往智能体规模 Git 基础设施的桥梁",
+          "zh": "GitHub 探讨面向智能体规模的 Git 基础设施。",
+          "en": "The bridge to agent-scale Git infrastructure."
         },
         {
           "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
           "link": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
           "source": "GitHub Blog",
-          "date": "2026-10-20"
+          "date": "2026-10-20",
+          "zhTitle": "三位 Java Champion 如何用 GitHub Copilot 提升效率",
+          "zh": "三位 Java Champion 分享用 Copilot 提升效率的做法。",
+          "en": "How 3 Java Champions use GitHub Copilot to boost productivity."
         }
       ],
       "toolsNew": [],
@@ -82,40 +118,40 @@
           "id": "rea",
           "name": "Rea",
           "repo": "morluto/rea",
-          "stars": 397968,
-          "gain": 4154
-        },
-        {
-          "id": "cleanyourtv",
-          "name": "Cleanyourtv",
-          "repo": "Gathin23/cleanyourtv",
-          "stars": 42101,
-          "gain": 1896
-        },
-        {
-          "id": "hallmark",
-          "name": "Hallmark",
-          "repo": "Nutlope/hallmark",
-          "stars": 39223,
-          "gain": 1778
+          "stars": 398327,
+          "gain": 359
         },
         {
           "id": "deeptutor",
           "name": "DeepTutor",
           "repo": "HKUDS/DeepTutor",
-          "stars": 46202,
-          "gain": 1669
+          "stars": 46389,
+          "gain": 187
+        },
+        {
+          "id": "dsh-our-free-model",
+          "name": "Dsh Our Free Model",
+          "repo": "Ebony-Vinyl/dsh-our-free-model",
+          "stars": 47244,
+          "gain": 171
+        },
+        {
+          "id": "cleanyourtv",
+          "name": "Cleanyourtv",
+          "repo": "Gathin23/cleanyourtv",
+          "stars": 42239,
+          "gain": 138
         },
         {
           "id": "voicestudio",
           "name": "VoiceStudio",
           "repo": "debpalash/VoiceStudio",
-          "stars": 91581,
-          "gain": 1431
+          "stars": 91707,
+          "gain": 126
         }
       ],
-      "rollupZh": null,
-      "rollupEn": null,
+      "rollupZh": "今日 OpenAI 集中公布多项合作：Retell 用其模型支撑每月 1 亿次通话，甲骨文应用接入 ChatGPT，Check Point 与 Greptile 分别用于漏洞研究与缺陷检测。MIT 科技评论关注 Anthropic 的 IPO 与定位之争，并讨论固态变压器对 AI 供电的作用。GitHub 博客则聚焦智能体规模的 Git 基础设施与 Copilot 提效实践。",
+      "rollupEn": "OpenAI shared several partnership updates: Retell powers 100M monthly calls with its models, Oracle apps come to ChatGPT, and Check Point and Greptile apply its tech to vulnerability research and bug detection. MIT Technology Review covers Anthropic's IPO and identity questions, plus solid-state transformers for AI power demand. GitHub Blog focuses on agent-scale Git infrastructure and Copilot productivity.",
       "failures": [
         "Hacker News"
       ]
