@@ -512,3 +512,5 @@ html[data-theme="dark"] .re-hl mark{background:#a16207;color:#fff}
 .share-btn.is-copied{border-color:#2da44e;color:#2da44e}
 .share-row.compact .share-btn{width:26px;height:26px;border-radius:8px}
 .share-row.compact .share-btn svg{width:14px;height:14px}
+/* 卡片分享行：固定独占一行并居中——中英按钮宽度不同，任其跟在操作按钮后换行会导致错位 */
+.card-foot .share-row.compact{flex-basis:100%;justify-content:center}
