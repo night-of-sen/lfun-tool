@@ -501,3 +501,14 @@ html[data-theme="dark"] .re-hl mark{background:#a16207;color:#fff}
 .creator-card ul{margin:8px 0 0;padding-left:18px;font-size:13px}
 .creator-head{display:flex;gap:16px;align-items:center;margin:16px 0}
 .topbar-submit{white-space:nowrap}
+
+/* 社媒分享 */
+.share-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.share-label{font-size:13px;color:var(--muted)}
+.share-btn{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:9px;background:var(--panel);border:1px solid var(--border);color:var(--text);cursor:pointer;transition:.15s;text-decoration:none}
+.share-btn:hover{border-color:var(--accent);color:var(--accent)}
+.share-btn svg{width:16px;height:16px;flex:0 0 auto}
+.share-btn.share-copy{width:auto;padding:7px 14px;font-size:13px;font-weight:600}
+.share-btn.is-copied{border-color:#2da44e;color:#2da44e}
+.share-row.compact .share-btn{width:26px;height:26px;border-radius:8px}
+.share-row.compact .share-btn svg{width:14px;height:14px}
