@@ -4,12 +4,21 @@
       "date": "2026-10-29",
       "items": [
         {
+          "title": "Claude Code regularly sends each background agent’s transcript to its model",
+          "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+          "source": "Hacker News",
+          "date": "2026-10-29",
+          "zhTitle": "Claude Code 定期将每个后台智能体的记录发送给其模型",
+          "zh": "Claude Code 定期把每个后台智能体转录发送给模型",
+          "en": "Claude Code regularly sends each background agent's transcript to its model."
+        },
+        {
           "title": "Creating AI value with enterprise context",
           "link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
           "source": "MIT Technology Review",
           "date": "2026-10-28",
-          "zhTitle": "利用企业上下文创造AI价值",
-          "zh": "企业上下文被用于创造AI价值。",
+          "zhTitle": "用企业上下文创造 AI 价值",
+          "zh": "利用企业上下文创造 AI 价值",
           "en": "Creating AI value with enterprise context."
         },
         {
@@ -18,16 +27,16 @@
           "source": "Hacker News",
           "date": "2026-10-28",
           "zhTitle": "Gemini 4 Carbon",
-          "zh": "Gemini 4 Carbon 模型亮相。",
-          "en": "Gemini 4 Carbon model is introduced."
+          "zh": "Gemini 4 Carbon",
+          "en": "Gemini 4 Carbon."
         },
         {
           "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
           "link": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
           "source": "GitHub Blog",
           "date": "2026-10-28",
-          "zhTitle": "Octoverse：2026年开发者借助智能体编程，提交与推送创新高",
-          "zh": "开发者用智能体编程，提交和推送量创新高。",
+          "zhTitle": "Octoverse：2026 年开发者用智能体构建，提交与推送创新高",
+          "zh": "2026年开发者用智能体构建，提交推送创新高",
           "en": "Octoverse: commits and pushes hit new highs in 2026 as developers build with agents."
         },
         {
@@ -35,8 +44,8 @@
           "link": "https://surgehq.ai/blog/dayjob-tax",
           "source": "Hacker News",
           "date": "2026-10-28",
-          "zhTitle": "Dayjob：税务——在50项专业税务任务上评估AI智能体",
-          "zh": "研究用50项专业税务任务评估AI智能体。",
+          "zhTitle": "Dayjob：Tax——在 50 个专业税务任务上评估 AI 智能体",
+          "zh": "在50个专业税务任务上评估AI智能体",
           "en": "Dayjob: Tax evaluates AI agents on 50 professional tax assignments."
         },
         {
@@ -45,25 +54,16 @@
           "source": "Hacker News",
           "date": "2026-10-28",
           "zhTitle": "Agent SDK",
-          "zh": "Cursor 的 Agent SDK。",
-          "en": "The Agent SDK from Cursor."
-        },
-        {
-          "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
-          "link": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
-          "source": "Hacker News",
-          "date": "2026-10-28",
-          "zhTitle": "肯塔基州男子成为首位获宗教豁免免用AI的人文主义者",
-          "zh": "肯塔基一男子以人文主义信仰获免用AI豁免。",
-          "en": "Kentucky man is first humanist granted religious exemption from AI."
+          "zh": "Agent SDK",
+          "en": "The Agent SDK."
         },
         {
           "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
           "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
           "source": "OpenAI",
           "date": "2026-10-28",
-          "zhTitle": "OpenAI与ServiceNow扩大企业工作流合作",
-          "zh": "双方扩大合作，覆盖企业工作流。",
+          "zhTitle": "OpenAI 与 ServiceNow 扩大企业工作流合作",
+          "zh": "OpenAI与ServiceNow扩大企业工作流合作",
           "en": "OpenAI and ServiceNow expand partnership across enterprise workflows."
         },
         {
@@ -71,8 +71,8 @@
           "link": "https://www.technologyreview.com/2026/10/28/1147767/the-download-dead-startups-fueling-ai-interspecies-communication/",
           "source": "MIT Technology Review",
           "date": "2026-10-28",
-          "zhTitle": "The Download：倒闭初创公司为AI供能，及跨物种交流",
-          "zh": "今日关注倒闭初创公司为AI供能及跨物种交流。",
+          "zhTitle": "The Download：倒闭初创公司为 AI 供能与跨物种交流",
+          "zh": "倒闭初创公司为AI供能，并涉及跨物种交流",
           "en": "The Download: dead startups fueling AI and interspecies communication."
         },
         {
@@ -80,9 +80,9 @@
           "link": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
           "source": "MIT Technology Review",
           "date": "2026-10-28",
-          "zhTitle": "工业AI自主性与人类控制的结合",
-          "zh": "探讨工业AI自主性与人类控制的平衡。",
-          "en": "Pairing industrial AI autonomy with human control."
+          "zhTitle": "将工业 AI 自主性与人类控制相结合",
+          "zh": "工业AI自主性与人类控制如何结合",
+          "en": "Pairing industrial AI autonomy and human control."
         },
         {
           "title": "The future of the firm",
@@ -90,7 +90,7 @@
           "source": "OpenAI",
           "date": "2026-10-28",
           "zhTitle": "公司的未来",
-          "zh": "探讨公司的未来。",
+          "zh": "探讨公司的未来",
           "en": "The future of the firm."
         },
         {
@@ -98,8 +98,8 @@
           "link": "https://openai.com/index/legora",
           "source": "OpenAI",
           "date": "2026-10-28",
-          "zhTitle": "Legora正在构建法律工作的智能体操作系统",
-          "zh": "Legora打造法律工作智能体操作系统。",
+          "zhTitle": "Legora 正在构建法律工作的智能体操作系统",
+          "zh": "Legora构建法律工作的智能体操作系统",
           "en": "Legora is building an agentic operating system for legal work."
         },
         {
@@ -107,26 +107,26 @@
           "link": "https://openai.com/index/retell-ai",
           "source": "OpenAI",
           "date": "2026-10-27",
-          "zhTitle": "Retell借助OpenAI模型支撑每月1亿次通话",
-          "zh": "Retell用OpenAI模型支持每月1亿次通话。",
-          "en": "Retell uses OpenAI models to power 100M monthly calls."
+          "zhTitle": "Retell 使用 OpenAI 模型支持每月 1 亿次通话",
+          "zh": "Retell用OpenAI模型支持每月1亿次通话",
+          "en": "Retell uses OpenAI models to help power 100M monthly calls."
         },
         {
           "title": "The Download: Anthropic’s IPO, smarter power grids, and exercise pills",
           "link": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/",
           "source": "MIT Technology Review",
           "date": "2026-10-27",
-          "zhTitle": "The Download：Anthropic的IPO、更智能电网与运动药丸",
-          "zh": "今日关注Anthropic IPO、智能电网与运动药丸。",
-          "en": "The Download: Anthropic’s IPO, smarter grids, and exercise pills."
+          "zhTitle": "The Download：Anthropic 的 IPO、更智能电网与运动药丸",
+          "zh": "关注Anthropic IPO、更智能电网和运动药丸",
+          "en": "The Download: Anthropic's IPO, smarter power grids, and exercise pills."
         },
         {
           "title": "How solid-state transformers could help power the AI boom",
           "link": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
           "source": "MIT Technology Review",
           "date": "2026-10-27",
-          "zhTitle": "固态变压器如何助力AI繁荣供电",
-          "zh": "固态变压器或可助力满足AI用电需求。",
+          "zhTitle": "固态变压器如何助力 AI 热潮的供电",
+          "zh": "固态变压器如何助力AI热潮供电",
           "en": "How solid-state transformers could help power the AI boom."
         },
         {
@@ -134,58 +134,60 @@
           "link": "https://openai.com/index/oracle-apps-in-chatgpt",
           "source": "OpenAI",
           "date": "2026-10-27",
-          "zhTitle": "OpenAI扩大与Oracle合作，将其应用引入ChatGPT",
-          "zh": "OpenAI与Oracle扩大合作，把应用带入ChatGPT。",
-          "en": "OpenAI expands Oracle partnership to bring apps to ChatGPT."
-        }
-      ],
-      "toolsNew": [
+          "zhTitle": "OpenAI 扩大与 Oracle 的合作，将其应用引入 ChatGPT",
+          "zh": "OpenAI扩大与Oracle合作，将应用引入ChatGPT",
+          "en": "OpenAI expands Oracle partnership to bring its apps to ChatGPT."
+        },
         {
-          "id": "moli",
-          "name": "Moli",
-          "repo": "lexmount/moli",
-          "stars": 21370
+          "title": "OpenAI's agents talked to each other through the CPU Cache",
+          "link": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+          "source": "Hacker News",
+          "date": "2026-10-26",
+          "zhTitle": "OpenAI 的智能体通过 CPU 缓存相互通信",
+          "zh": "OpenAI智能体通过CPU缓存相互通信",
+          "en": "OpenAI's agents talked to each other through the CPU cache."
         }
       ],
+      "toolsNew": [],
       "toolsTrending": [
         {
-          "id": "moli",
-          "name": "Moli",
-          "repo": "lexmount/moli",
-          "stars": 21370,
-          "gain": 21370
+          "id": "orkas",
+          "name": "Orkas",
+          "repo": "orkas-ai/orkas",
+          "stars": 3584,
+          "gain": 3584
         },
         {
           "id": "rea",
           "name": "Rea",
           "repo": "morluto/rea",
-          "stars": 402997,
-          "gain": 3592
+          "stars": 404560,
+          "gain": 1563
         },
         {
           "id": "impeccable",
           "name": "Impeccable",
           "repo": "pbakaus/impeccable",
-          "stars": 92875,
-          "gain": 1733
-        },
-        {
-          "id": "cleanyourtv",
-          "name": "Cleanyourtv",
-          "repo": "Gathin23/cleanyourtv",
-          "stars": 43958,
-          "gain": 1283
+          "stars": 93738,
+          "gain": 863
         },
         {
           "id": "dsh-our-free-model",
           "name": "Dsh Our Free Model",
           "repo": "Ebony-Vinyl/dsh-our-free-model",
-          "stars": 49070,
-          "gain": 1275
+          "stars": 49821,
+          "gain": 751
+        },
+        {
+          "id": "deeptutor",
+          "name": "DeepTutor",
+          "repo": "HKUDS/DeepTutor",
+          "stars": 48776,
+          "gain": 619
         }
       ],
-      "rollupZh": "今日要闻聚焦企业AI落地：OpenAI扩大与ServiceNow、Oracle等合作，Legora和Retell涉及法律与通话场景。开发者侧，GitHub Octoverse显示智能体编程推动提交与推送创新高，Cursor推出Agent SDK，税务评估测试AI智能体。能源与政策议题同样受关注，包括固态变压器助力AI供电、Anthropic IPO及首例免用AI宗教豁免。",
-      "rollupEn": "Today’s news centers on enterprise AI adoption, with OpenAI expanding partnerships with ServiceNow and Oracle, plus Legora and Retell applying AI to legal work and calls. On the developer side, GitHub’s Octoverse reports agent-driven commit and push highs, Cursor introduces an Agent SDK, and a new benchmark tests AI agents on tax tasks. Energy and policy also feature, from solid-state transformers for AI power to Anthropic’s IPO and a religious exemption from AI.",
+      "rollupZh": "今日要闻包括 Claude Code 后台智能体记录、Gemini 4 Carbon、Cursor Agent SDK 等模型与智能体动态。OpenAI 与 ServiceNow、Oracle 扩大合作，GitHub Octoverse 显示 2026 年提交和推送创新高。",
+      "rollupEn": "Today's highlights include Claude Code background agent transcripts, Gemini 4 Carbon, and the Cursor Agent SDK. OpenAI expanded partnerships with ServiceNow and Oracle, while GitHub's Octoverse showed commits and pushes hitting new highs in 2026.",
       "failures": []
     },
     {
