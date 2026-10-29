@@ -7347,5 +7347,12 @@
     "source": "README.md",
     "rawLength": 25983,
     "fetchedAt": "2026-10-27T08:49:25.993Z"
+  },
+  "moli": {
+    "summary": "Moli is a production-ready headless browser for AI agents. Its on-demand layout and rendering design combines a complete browser runtime with a lightweight resource footprint.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 17737,
+    "fetchedAt": "2026-10-29T02:30:14.574Z"
   }
 }

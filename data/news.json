@@ -1,6 +1,194 @@
 {
   "days": [
     {
+      "date": "2026-10-29",
+      "items": [
+        {
+          "title": "Creating AI value with enterprise context",
+          "link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-28",
+          "zhTitle": "利用企业上下文创造AI价值",
+          "zh": "企业上下文被用于创造AI价值。",
+          "en": "Creating AI value with enterprise context."
+        },
+        {
+          "title": "Gemini 4 Carbon",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "source": "Hacker News",
+          "date": "2026-10-28",
+          "zhTitle": "Gemini 4 Carbon",
+          "zh": "Gemini 4 Carbon 模型亮相。",
+          "en": "Gemini 4 Carbon model is introduced."
+        },
+        {
+          "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+          "link": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+          "source": "GitHub Blog",
+          "date": "2026-10-28",
+          "zhTitle": "Octoverse：2026年开发者借助智能体编程，提交与推送创新高",
+          "zh": "开发者用智能体编程，提交和推送量创新高。",
+          "en": "Octoverse: commits and pushes hit new highs in 2026 as developers build with agents."
+        },
+        {
+          "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+          "link": "https://surgehq.ai/blog/dayjob-tax",
+          "source": "Hacker News",
+          "date": "2026-10-28",
+          "zhTitle": "Dayjob：税务——在50项专业税务任务上评估AI智能体",
+          "zh": "研究用50项专业税务任务评估AI智能体。",
+          "en": "Dayjob: Tax evaluates AI agents on 50 professional tax assignments."
+        },
+        {
+          "title": "The Agent SDK",
+          "link": "https://cursor.com/blog/agent-sdk",
+          "source": "Hacker News",
+          "date": "2026-10-28",
+          "zhTitle": "Agent SDK",
+          "zh": "Cursor 的 Agent SDK。",
+          "en": "The Agent SDK from Cursor."
+        },
+        {
+          "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+          "link": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+          "source": "Hacker News",
+          "date": "2026-10-28",
+          "zhTitle": "肯塔基州男子成为首位获宗教豁免免用AI的人文主义者",
+          "zh": "肯塔基一男子以人文主义信仰获免用AI豁免。",
+          "en": "Kentucky man is first humanist granted religious exemption from AI."
+        },
+        {
+          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+          "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
+          "source": "OpenAI",
+          "date": "2026-10-28",
+          "zhTitle": "OpenAI与ServiceNow扩大企业工作流合作",
+          "zh": "双方扩大合作，覆盖企业工作流。",
+          "en": "OpenAI and ServiceNow expand partnership across enterprise workflows."
+        },
+        {
+          "title": "The Download: dead startups fueling AI and interspecies communication",
+          "link": "https://www.technologyreview.com/2026/10/28/1147767/the-download-dead-startups-fueling-ai-interspecies-communication/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-28",
+          "zhTitle": "The Download：倒闭初创公司为AI供能，及跨物种交流",
+          "zh": "今日关注倒闭初创公司为AI供能及跨物种交流。",
+          "en": "The Download: dead startups fueling AI and interspecies communication."
+        },
+        {
+          "title": "Pairing industrial AI autonomy and human control",
+          "link": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-28",
+          "zhTitle": "工业AI自主性与人类控制的结合",
+          "zh": "探讨工业AI自主性与人类控制的平衡。",
+          "en": "Pairing industrial AI autonomy with human control."
+        },
+        {
+          "title": "The future of the firm",
+          "link": "https://openai.com/index/the-future-of-the-firm",
+          "source": "OpenAI",
+          "date": "2026-10-28",
+          "zhTitle": "公司的未来",
+          "zh": "探讨公司的未来。",
+          "en": "The future of the firm."
+        },
+        {
+          "title": "Legora is building the agentic operating system for legal work",
+          "link": "https://openai.com/index/legora",
+          "source": "OpenAI",
+          "date": "2026-10-28",
+          "zhTitle": "Legora正在构建法律工作的智能体操作系统",
+          "zh": "Legora打造法律工作智能体操作系统。",
+          "en": "Legora is building an agentic operating system for legal work."
+        },
+        {
+          "title": "Retell uses OpenAI models to help power 100M monthly calls",
+          "link": "https://openai.com/index/retell-ai",
+          "source": "OpenAI",
+          "date": "2026-10-27",
+          "zhTitle": "Retell借助OpenAI模型支撑每月1亿次通话",
+          "zh": "Retell用OpenAI模型支持每月1亿次通话。",
+          "en": "Retell uses OpenAI models to power 100M monthly calls."
+        },
+        {
+          "title": "The Download: Anthropic’s IPO, smarter power grids, and exercise pills",
+          "link": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-27",
+          "zhTitle": "The Download：Anthropic的IPO、更智能电网与运动药丸",
+          "zh": "今日关注Anthropic IPO、智能电网与运动药丸。",
+          "en": "The Download: Anthropic’s IPO, smarter grids, and exercise pills."
+        },
+        {
+          "title": "How solid-state transformers could help power the AI boom",
+          "link": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-27",
+          "zhTitle": "固态变压器如何助力AI繁荣供电",
+          "zh": "固态变压器或可助力满足AI用电需求。",
+          "en": "How solid-state transformers could help power the AI boom."
+        },
+        {
+          "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+          "link": "https://openai.com/index/oracle-apps-in-chatgpt",
+          "source": "OpenAI",
+          "date": "2026-10-27",
+          "zhTitle": "OpenAI扩大与Oracle合作，将其应用引入ChatGPT",
+          "zh": "OpenAI与Oracle扩大合作，把应用带入ChatGPT。",
+          "en": "OpenAI expands Oracle partnership to bring apps to ChatGPT."
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "moli",
+          "name": "Moli",
+          "repo": "lexmount/moli",
+          "stars": 21370
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "moli",
+          "name": "Moli",
+          "repo": "lexmount/moli",
+          "stars": 21370,
+          "gain": 21370
+        },
+        {
+          "id": "rea",
+          "name": "Rea",
+          "repo": "morluto/rea",
+          "stars": 402997,
+          "gain": 3592
+        },
+        {
+          "id": "impeccable",
+          "name": "Impeccable",
+          "repo": "pbakaus/impeccable",
+          "stars": 92875,
+          "gain": 1733
+        },
+        {
+          "id": "cleanyourtv",
+          "name": "Cleanyourtv",
+          "repo": "Gathin23/cleanyourtv",
+          "stars": 43958,
+          "gain": 1283
+        },
+        {
+          "id": "dsh-our-free-model",
+          "name": "Dsh Our Free Model",
+          "repo": "Ebony-Vinyl/dsh-our-free-model",
+          "stars": 49070,
+          "gain": 1275
+        }
+      ],
+      "rollupZh": "今日要闻聚焦企业AI落地：OpenAI扩大与ServiceNow、Oracle等合作，Legora和Retell涉及法律与通话场景。开发者侧，GitHub Octoverse显示智能体编程推动提交与推送创新高，Cursor推出Agent SDK，税务评估测试AI智能体。能源与政策议题同样受关注，包括固态变压器助力AI供电、Anthropic IPO及首例免用AI宗教豁免。",
+      "rollupEn": "Today’s news centers on enterprise AI adoption, with OpenAI expanding partnerships with ServiceNow and Oracle, plus Legora and Retell applying AI to legal work and calls. On the developer side, GitHub’s Octoverse reports agent-driven commit and push highs, Cursor introduces an Agent SDK, and a new benchmark tests AI agents on tax tasks. Energy and policy also feature, from solid-state transformers for AI power to Anthropic’s IPO and a religious exemption from AI.",
+      "failures": []
+    },
+    {
       "date": "2026-10-28",
       "items": [
         {
