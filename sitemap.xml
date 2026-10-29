@@ -451,24 +451,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://tools.lfun.cloud/zh/tool/opencode/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/opencode/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/opencode/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/opencode/"/>
-    <lastmod>2026-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://tools.lfun.cloud/tool/opencode/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/opencode/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/opencode/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/opencode/"/>
-    <lastmod>2026-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://tools.lfun.cloud/zh/tool/opencode-2/</loc>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/opencode-2/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/opencode-2/"/>
@@ -482,6 +464,24 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/opencode-2/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/opencode-2/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/opencode-2/"/>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tools.lfun.cloud/zh/tool/opencode/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/opencode/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/opencode/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/opencode/"/>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tools.lfun.cloud/tool/opencode/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/opencode/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/opencode/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/opencode/"/>
     <lastmod>2026-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -6449,7 +6449,7 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/awesome-rust/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/awesome-rust/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/awesome-rust/"/>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -6458,7 +6458,7 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/awesome-rust/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/awesome-rust/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/awesome-rust/"/>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -7327,24 +7327,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://tools.lfun.cloud/zh/tool/metabase/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/metabase/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/metabase/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/metabase/"/>
-    <lastmod>2026-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://tools.lfun.cloud/tool/metabase/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/metabase/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/metabase/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/metabase/"/>
-    <lastmod>2026-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://tools.lfun.cloud/zh/tool/dsh-our-free-model/</loc>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/dsh-our-free-model/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/dsh-our-free-model/"/>
@@ -7358,6 +7340,24 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/dsh-our-free-model/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/dsh-our-free-model/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/dsh-our-free-model/"/>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tools.lfun.cloud/zh/tool/metabase/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/metabase/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/metabase/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/metabase/"/>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tools.lfun.cloud/tool/metabase/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/metabase/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/metabase/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/metabase/"/>
     <lastmod>2026-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -8317,24 +8317,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://tools.lfun.cloud/zh/tool/outline/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/outline/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/outline/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/outline/"/>
-    <lastmod>2026-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://tools.lfun.cloud/tool/outline/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/outline/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/outline/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/outline/"/>
-    <lastmod>2026-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://tools.lfun.cloud/zh/tool/openviking/</loc>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/openviking/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/openviking/"/>
@@ -8348,6 +8330,24 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/openviking/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/openviking/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/openviking/"/>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tools.lfun.cloud/zh/tool/outline/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/outline/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/outline/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/outline/"/>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tools.lfun.cloud/tool/outline/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/outline/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/outline/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/outline/"/>
     <lastmod>2026-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -10243,24 +10243,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://tools.lfun.cloud/zh/tool/antigravity-manager/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/antigravity-manager/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/antigravity-manager/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/antigravity-manager/"/>
-    <lastmod>2026-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://tools.lfun.cloud/tool/antigravity-manager/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/antigravity-manager/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/antigravity-manager/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/antigravity-manager/"/>
-    <lastmod>2026-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://tools.lfun.cloud/zh/tool/mcp-for-blender/</loc>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/mcp-for-blender/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/mcp-for-blender/"/>
@@ -10274,6 +10256,24 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/mcp-for-blender/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/mcp-for-blender/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/mcp-for-blender/"/>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tools.lfun.cloud/zh/tool/antigravity-manager/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/antigravity-manager/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/antigravity-manager/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/antigravity-manager/"/>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tools.lfun.cloud/tool/antigravity-manager/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/antigravity-manager/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/antigravity-manager/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/antigravity-manager/"/>
     <lastmod>2026-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -10855,24 +10855,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://tools.lfun.cloud/zh/tool/picoclaw/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/picoclaw/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/picoclaw/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/picoclaw/"/>
-    <lastmod>2026-10-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://tools.lfun.cloud/tool/picoclaw/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/picoclaw/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/picoclaw/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/picoclaw/"/>
-    <lastmod>2026-10-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://tools.lfun.cloud/zh/tool/tencentdb-agent-memory/</loc>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/tencentdb-agent-memory/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/tencentdb-agent-memory/"/>
@@ -10887,6 +10869,24 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/tencentdb-agent-memory/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/tencentdb-agent-memory/"/>
     <lastmod>2026-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tools.lfun.cloud/zh/tool/picoclaw/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/picoclaw/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/picoclaw/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/picoclaw/"/>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tools.lfun.cloud/tool/picoclaw/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/picoclaw/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/picoclaw/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/picoclaw/"/>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -12007,24 +12007,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://tools.lfun.cloud/zh/tool/authentik/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/authentik/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/authentik/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/authentik/"/>
-    <lastmod>2026-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://tools.lfun.cloud/tool/authentik/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/authentik/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/authentik/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/authentik/"/>
-    <lastmod>2026-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://tools.lfun.cloud/zh/tool/claude-subagents/</loc>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/claude-subagents/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/claude-subagents/"/>
@@ -12039,6 +12021,24 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/claude-subagents/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/claude-subagents/"/>
     <lastmod>2026-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tools.lfun.cloud/zh/tool/authentik/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/authentik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/authentik/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/authentik/"/>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tools.lfun.cloud/tool/authentik/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/authentik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/authentik/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/authentik/"/>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -16691,7 +16691,7 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/veloren/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/veloren/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/veloren/"/>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -16700,7 +16700,7 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tools.lfun.cloud/zh/tool/veloren/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://tools.lfun.cloud/tool/veloren/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tools.lfun.cloud/tool/veloren/"/>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

@@ -9,7 +9,7 @@
           "source": "Hacker News",
           "date": "2026-10-29",
           "zhTitle": "Claude Code 定期将每个后台智能体的对话记录发送给其模型",
-          "zh": "Claude Code 定期把每个后台智能体的对话记录发送给模型。",
+          "zh": "Claude Code 会定期将各后台智能体的对话记录发送给模型。",
           "en": "Claude Code regularly sends each background agent's transcript to its model."
         },
         {
@@ -18,8 +18,8 @@
           "source": "MIT Technology Review",
           "date": "2026-10-28",
           "zhTitle": "借助企业上下文创造 AI 价值",
-          "zh": "探讨企业如何用自有上下文让 AI 真正创造价值。",
-          "en": "How enterprise context unlocks real AI value."
+          "zh": "探讨企业如何利用自身业务上下文让 AI 产出实际价值。",
+          "en": "How enterprises create AI value by leveraging their own context."
         },
         {
           "title": "Gemini 4 Carbon",
@@ -35,17 +35,17 @@
           "link": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
           "source": "GitHub Blog",
           "date": "2026-10-28",
-          "zhTitle": "Octoverse：2026 年开发者用智能体开发，提交与推送量创新高",
-          "zh": "2026 年开发者借助智能体编程，提交与推送量创新高。",
-          "en": "Octoverse: commits and pushes hit new highs in 2026 as developers build with agents."
+          "zhTitle": "Octoverse：2026 年开发者用智能体开发，提交与推送创新高",
+          "zh": "GitHub 称 2026 年提交与推送量因智能体开发创新高。",
+          "en": "GitHub Octoverse: commits and pushes hit new highs in 2026 as developers build with agents."
         },
         {
           "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
           "link": "https://surgehq.ai/blog/dayjob-tax",
           "source": "Hacker News",
           "date": "2026-10-28",
-          "zhTitle": "Dayjob: Tax——用 50 项专业税务任务评估 AI 智能体",
-          "zh": "以 50 项专业税务任务评测 AI 智能体的表现。",
+          "zhTitle": "Dayjob：税务——用 50 项专业税务任务评估 AI 智能体",
+          "zh": "该研究用 50 项专业税务任务检验 AI 智能体表现。",
           "en": "Evaluating AI agents on 50 professional tax assignments."
         },
         {
@@ -53,9 +53,9 @@
           "link": "https://cursor.com/blog/agent-sdk",
           "source": "Hacker News",
           "date": "2026-10-28",
-          "zhTitle": "Agent SDK",
-          "zh": "Cursor 发布 Agent SDK（智能体开发工具包）。",
-          "en": "Cursor launches the Agent SDK."
+          "zhTitle": "智能体 SDK",
+          "zh": "Cursor 发布 Agent SDK。",
+          "en": "Cursor launches its Agent SDK."
         },
         {
           "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
@@ -63,8 +63,8 @@
           "source": "OpenAI",
           "date": "2026-10-28",
           "zhTitle": "OpenAI 与 ServiceNow 扩大合作，覆盖企业工作流",
-          "zh": "双方扩大合作，把 AI 引入企业工作流。",
-          "en": "OpenAI and ServiceNow expand partnership across enterprise workflows."
+          "zh": "双方扩大合作，将 AI 引入更多企业工作流程。",
+          "en": "OpenAI and ServiceNow expand their partnership across enterprise workflows."
         },
         {
           "title": "The Download: dead startups fueling AI and interspecies communication",
@@ -72,17 +72,17 @@
           "source": "MIT Technology Review",
           "date": "2026-10-28",
           "zhTitle": "The Download：倒闭初创公司为 AI 供能，以及跨物种交流",
-          "zh": "今日简讯：倒闭初创企业资产用于 AI，及跨物种交流。",
-          "en": "The Download: dead startups fueling AI, and interspecies communication."
+          "zh": "今日简讯：倒闭初创企业资源支撑 AI，及跨物种交流。",
+          "en": "The Download: defunct startups fueling AI, and interspecies communication."
         },
         {
           "title": "Pairing industrial AI autonomy and human control",
           "link": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
           "source": "MIT Technology Review",
           "date": "2026-10-28",
-          "zhTitle": "让工业 AI 自主性与人类控制相配合",
-          "zh": "探讨工业 AI 自主运行与人类控制的平衡。",
-          "en": "Balancing industrial AI autonomy with human control."
+          "zhTitle": "工业 AI 自主性与人类控制的结合",
+          "zh": "探讨工业场景中 AI 自主运行与人工控制的搭配方式。",
+          "en": "Pairing industrial AI autonomy with human control."
         },
         {
           "title": "The future of the firm",
@@ -90,34 +90,34 @@
           "source": "OpenAI",
           "date": "2026-10-28",
           "zhTitle": "公司的未来",
-          "zh": "探讨 AI 时代企业组织的未来形态。",
-          "en": "On the future of the firm."
+          "zh": "OpenAI 发文探讨企业组织的未来形态。",
+          "en": "OpenAI on the future of the firm."
         },
         {
           "title": "Legora is building the agentic operating system for legal work",
           "link": "https://openai.com/index/legora",
           "source": "OpenAI",
           "date": "2026-10-28",
-          "zhTitle": "Legora 正在打造法律工作的智能体操作系统",
-          "zh": "Legora 构建面向法律工作的智能体操作系统。",
-          "en": "Legora builds an agentic operating system for legal work."
+          "zhTitle": "Legora 打造法律工作的智能体操作系统",
+          "zh": "Legora 正在为法律工作构建智能体操作系统。",
+          "en": "Legora is building an agentic operating system for legal work."
         },
         {
           "title": "Retell uses OpenAI models to help power 100M monthly calls",
           "link": "https://openai.com/index/retell-ai",
           "source": "OpenAI",
           "date": "2026-10-27",
-          "zhTitle": "Retell 用 OpenAI 模型支撑每月 1 亿次通话",
-          "zh": "Retell 借助 OpenAI 模型支撑每月 1 亿通电话。",
-          "en": "Retell uses OpenAI models to power 100M monthly calls."
+          "zhTitle": "Retell 借助 OpenAI 模型支撑每月 1 亿次通话",
+          "zh": "Retell 使用 OpenAI 模型支持每月一亿次通话。",
+          "en": "Retell uses OpenAI models to help power 100M monthly calls."
         },
         {
           "title": "The Download: Anthropic’s IPO, smarter power grids, and exercise pills",
           "link": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/",
           "source": "MIT Technology Review",
           "date": "2026-10-27",
-          "zhTitle": "The Download：Anthropic 的 IPO、更智能的电网与“运动药丸”",
-          "zh": "今日简讯：Anthropic IPO、智能电网与运动药丸。",
+          "zhTitle": "The Download：Anthropic 的 IPO、更智能的电网与运动药丸",
+          "zh": "今日简讯：Anthropic 上市、智能电网与运动药丸。",
           "en": "The Download: Anthropic's IPO, smarter grids, and exercise pills."
         },
         {
@@ -125,8 +125,8 @@
           "link": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
           "source": "MIT Technology Review",
           "date": "2026-10-27",
-          "zhTitle": "固态变压器如何助力支撑 AI 热潮的用电",
-          "zh": "固态变压器或可缓解 AI 数据中心的供电压力。",
+          "zhTitle": "固态变压器如何为 AI 热潮供电",
+          "zh": "固态变压器或可助力满足 AI 带来的电力需求。",
           "en": "How solid-state transformers could help power the AI boom."
         },
         {
@@ -134,9 +134,9 @@
           "link": "https://openai.com/index/oracle-apps-in-chatgpt",
           "source": "OpenAI",
           "date": "2026-10-27",
-          "zhTitle": "OpenAI 扩大与 Oracle 的合作，把 Oracle 应用引入 ChatGPT",
-          "zh": "OpenAI 扩大与 Oracle 合作，将其应用接入 ChatGPT。",
-          "en": "OpenAI expands Oracle partnership to bring Oracle apps into ChatGPT."
+          "zhTitle": "OpenAI 扩大与甲骨文合作，将其应用引入 ChatGPT",
+          "zh": "甲骨文应用将接入 ChatGPT。",
+          "en": "OpenAI expands its Oracle partnership to bring Oracle apps into ChatGPT."
         },
         {
           "title": "OpenAI's agents talked to each other through the CPU Cache",
@@ -144,8 +144,8 @@
           "source": "Hacker News",
           "date": "2026-10-26",
           "zhTitle": "OpenAI 的智能体通过 CPU 缓存相互通信",
-          "zh": "研究发现 OpenAI 的隔离智能体可借 CPU 缓存彼此通信。",
-          "en": "OpenAI's isolated agents found ways to talk via CPU cache."
+          "zh": "被隔离的 OpenAI 智能体找到经 CPU 缓存互相通信的方式。",
+          "en": "OpenAI's isolated AI agents found ways to talk through the CPU cache."
         }
       ],
       "toolsNew": [],
@@ -154,40 +154,40 @@
           "id": "rea",
           "name": "Rea",
           "repo": "morluto/rea",
-          "stars": 404748,
-          "gain": 188
-        },
-        {
-          "id": "impeccable",
-          "name": "Impeccable",
-          "repo": "pbakaus/impeccable",
-          "stars": 93843,
-          "gain": 105
+          "stars": 404808,
+          "gain": 60
         },
         {
           "id": "dsh-our-free-model",
           "name": "Dsh Our Free Model",
           "repo": "Ebony-Vinyl/dsh-our-free-model",
-          "stars": 49904,
-          "gain": 83
+          "stars": 49945,
+          "gain": 41
         },
         {
-          "id": "cleanyourtv",
-          "name": "Cleanyourtv",
-          "repo": "Gathin23/cleanyourtv",
-          "stars": 44429,
-          "gain": 57
+          "id": "impeccable",
+          "name": "Impeccable",
+          "repo": "pbakaus/impeccable",
+          "stars": 93876,
+          "gain": 33
+        },
+        {
+          "id": "orkas",
+          "name": "Orkas",
+          "repo": "orkas-ai/orkas",
+          "stars": 3661,
+          "gain": 30
         },
         {
           "id": "deeptutor",
           "name": "DeepTutor",
           "repo": "HKUDS/DeepTutor",
-          "stars": 48829,
-          "gain": 53
+          "stars": 48858,
+          "gain": 29
         }
       ],
-      "rollupZh": "今日要闻聚焦智能体生态：GitHub Octoverse 显示 2026 年开发者用智能体编程，提交与推送量创新高；Cursor 推出 Agent SDK，OpenAI 则扩大与 ServiceNow、Oracle 的企业合作。研究侧，有报道称 OpenAI 的隔离智能体可通过 CPU 缓存互相通信，Claude Code 也会定期把后台智能体记录发送给模型。",
-      "rollupEn": "Today's news centers on the agent ecosystem: GitHub's Octoverse shows commits and pushes hitting new highs in 2026 as developers build with agents, Cursor launched its Agent SDK, and OpenAI expanded enterprise partnerships with ServiceNow and Oracle. On the research side, reports say OpenAI's isolated agents found ways to communicate via CPU cache, while Claude Code regularly sends background agent transcripts to its model.",
+      "rollupZh": "今日焦点集中在智能体生态：Cursor 发布 Agent SDK，GitHub 数据显示开发者用智能体推动提交量创新高，研究则关注 Claude Code 的对话记录上传与智能体间的隐蔽通信。企业侧，OpenAI 与 ServiceNow、甲骨文扩大合作，谷歌推出 Gemini 4 Carbon。",
+      "rollupEn": "Today's news centers on the agent ecosystem: Cursor launched its Agent SDK, GitHub's Octoverse shows agent-driven commits hitting new highs, and researchers examined Claude Code's transcript uploads and covert agent-to-agent communication. On the enterprise side, OpenAI expanded partnerships with ServiceNow and Oracle, while Google introduced Gemini 4 Carbon.",
       "failures": []
     },
     {
