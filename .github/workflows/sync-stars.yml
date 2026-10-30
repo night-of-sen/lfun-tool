@@ -48,7 +48,10 @@ jobs:
       - name: SEO 自检
         run: node scripts/seo-audit.mjs
 
-     
+      - name: 生成新工具一句话介绍（缺失才调 DeepSeek，失败不阻塞）
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: node scripts/gen-leads.mjs
 
       - name: 有变化才提交
         run: |
