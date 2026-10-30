@@ -1,6 +1,196 @@
 {
   "days": [
     {
+      "date": "2026-10-30",
+      "items": [
+        {
+          "title": "Show HN: I Turned DOOM into a Transformer",
+          "link": "https://github.com/mottopanikeiku/doomformer",
+          "source": "Hacker News",
+          "date": "2026-10-29",
+          "zhTitle": "Show HN：我把 DOOM 变成了 Transformer",
+          "zh": "开发者做了一个把《DOOM》与 Transformer 结合的项目。",
+          "en": "A developer turned DOOM into a Transformer project."
+        },
+        {
+          "title": "We ran AI agent swarms in Minecraft and Mindustry",
+          "link": "https://labs.ycombinator.com/projects/games/index.html",
+          "source": "Hacker News",
+          "date": "2026-10-29",
+          "zhTitle": "我们在《我的世界》和《Mindustry》里跑了 AI 智能体集群",
+          "zh": "YC 实验室在《我的世界》和 Mindustry 中运行 AI 智能体集群。",
+          "en": "YC Labs ran AI agent swarms inside Minecraft and Mindustry."
+        },
+        {
+          "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+          "link": "https://github.com/SheepSeb/tinyworldformer",
+          "source": "Hacker News",
+          "date": "2026-10-29",
+          "zhTitle": "在树莓派 Pico 2 W 上跑游戏的小型世界模型",
+          "zh": "开源项目让小型世界模型在树莓派 Pico 2 W 上运行游戏。",
+          "en": "A tiny world model runs games on a Raspberry Pi Pico 2 W."
+        },
+        {
+          "title": "An updated Model Spec for more capable and beneficial AI",
+          "link": "https://openai.com/index/updated-model-spec",
+          "source": "OpenAI",
+          "date": "2026-10-29",
+          "zhTitle": "更强大、更有益的 AI：更新版 Model Spec",
+          "zh": "OpenAI 发布更新版 Model Spec，说明模型行为规范。",
+          "en": "OpenAI published an updated Model Spec for model behavior."
+        },
+        {
+          "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
+          "link": "https://news.ycombinator.com/item?id=50291116",
+          "source": "Hacker News",
+          "date": "2026-10-29",
+          "zhTitle": "Launch HN：Simantic（YC F26）——面向 AI 智能体的固件仿真",
+          "zh": "YC F26 项目 Simantic 为 AI 智能体提供固件仿真。",
+          "en": "Simantic, a YC F26 startup, offers firmware simulation for AI agents."
+        },
+        {
+          "title": "LLM Voice",
+          "link": "https://martinfowler.com/bliki/LLM-Voice.html",
+          "source": "Hacker News",
+          "date": "2026-10-29",
+          "zhTitle": "LLM 的“声音”",
+          "zh": "Martin Fowler 在博客中讨论 LLM Voice 这一概念。",
+          "en": "Martin Fowler discusses the notion of LLM voice."
+        },
+        {
+          "title": "The Download: AI agent tracking and climate feedback loops",
+          "link": "https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-29",
+          "zhTitle": "The Download：追踪 AI 智能体与气候反馈循环",
+          "zh": "今日要闻：实时监控 AI 智能体，以及气候反馈循环。",
+          "en": "Today: monitoring AI agents in real time and climate feedback loops."
+        },
+        {
+          "title": "We urgently need to monitor AI agents’ actions in real time",
+          "link": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-29",
+          "zhTitle": "我们亟需实时监控 AI 智能体的行为",
+          "zh": "文章呼吁对 AI 智能体的行为进行实时监控。",
+          "en": "We urgently need real-time monitoring of what AI agents do, the piece argues."
+        },
+        {
+          "title": "Our climate models have a big, dangerous blind spot",
+          "link": "https://www.technologyreview.com/2026/10/29/1147735/climate-models-blind-spot/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-29",
+          "zhTitle": "我们的气候模型存在巨大而危险的盲区",
+          "zh": "文章指出当前气候模型存在一个危险盲区。",
+          "en": "Our climate models have a big, dangerous blind spot."
+        },
+        {
+          "title": "How we detect frontier model misalignment",
+          "link": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+          "source": "OpenAI",
+          "date": "2026-10-29",
+          "zhTitle": "我们如何检测前沿模型的对齐失准",
+          "zh": "OpenAI 介绍其检测前沿模型对齐失准的方法。",
+          "en": "OpenAI explains how it detects frontier model misalignment."
+        },
+        {
+          "title": "How Ropes & Gray is developing AI for transactional diligence",
+          "link": "https://openai.com/index/ropes-gray-ai-diligence",
+          "source": "OpenAI",
+          "date": "2026-10-29",
+          "zhTitle": "Ropes & Gray 如何为交易尽职调查开发 AI",
+          "zh": "律所 Ropes & Gray 用 AI 支持交易尽职调查。",
+          "en": "Law firm Ropes & Gray is developing AI for transactional diligence."
+        },
+        {
+          "title": "Creating AI value with enterprise context",
+          "link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-28",
+          "zhTitle": "用企业上下文创造 AI 价值",
+          "zh": "文章探讨如何借助企业上下文释放 AI 价值。",
+          "en": "Creating AI value with enterprise context."
+        },
+        {
+          "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+          "link": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+          "source": "GitHub Blog",
+          "date": "2026-10-28",
+          "zhTitle": "Octoverse：2026 年开发者用智能体开发，提交与推送创新高",
+          "zh": "GitHub 报告称 2026 年提交与推送量均创新高。",
+          "en": "GitHub's Octoverse reports record commits and pushes in 2026 as developers build with agents."
+        },
+        {
+          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+          "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
+          "source": "OpenAI",
+          "date": "2026-10-28",
+          "zhTitle": "OpenAI 与 ServiceNow 扩大企业工作流合作",
+          "zh": "OpenAI 与 ServiceNow 扩大合作，覆盖更多企业工作流。",
+          "en": "OpenAI and ServiceNow expand their partnership across enterprise workflows."
+        },
+        {
+          "title": "The Download: dead startups fueling AI and interspecies communication",
+          "link": "https://www.technologyreview.com/2026/10/28/1147767/the-download-dead-startups-fueling-ai-interspecies-communication/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-28",
+          "zhTitle": "The Download：倒闭初创公司供养 AI，与跨物种交流",
+          "zh": "今日要闻：倒闭初创公司为 AI 提供资源，以及跨物种交流。",
+          "en": "Today: dead startups fueling AI, and interspecies communication."
+        },
+        {
+          "title": "The future of the firm",
+          "link": "https://openai.com/index/the-future-of-the-firm",
+          "source": "OpenAI",
+          "date": "2026-10-28",
+          "zhTitle": "公司的未来",
+          "zh": "OpenAI 发文探讨企业组织形态的未来。",
+          "en": "OpenAI explores the future of the firm."
+        }
+      ],
+      "toolsNew": [],
+      "toolsTrending": [
+        {
+          "id": "rea",
+          "name": "Rea",
+          "repo": "morluto/rea",
+          "stars": 408472,
+          "gain": 3664
+        },
+        {
+          "id": "impeccable",
+          "name": "Impeccable",
+          "repo": "pbakaus/impeccable",
+          "stars": 95637,
+          "gain": 1761
+        },
+        {
+          "id": "deeptutor",
+          "name": "DeepTutor",
+          "repo": "HKUDS/DeepTutor",
+          "stars": 50446,
+          "gain": 1588
+        },
+        {
+          "id": "dsh-our-free-model",
+          "name": "Dsh Our Free Model",
+          "repo": "Ebony-Vinyl/dsh-our-free-model",
+          "stars": 51199,
+          "gain": 1254
+        },
+        {
+          "id": "cleanyourtv",
+          "name": "Cleanyourtv",
+          "repo": "Gathin23/cleanyourtv",
+          "stars": 45619,
+          "gain": 1172
+        }
+      ],
+      "rollupZh": "今日焦点仍集中在 AI 智能体：YC 实验室让智能体集群在游戏中运行，业界呼吁实时监控智能体行为，GitHub 数据显示 2026 年开发者已用智能体推动提交量创新高。OpenAI 发布更新版 Model Spec 并介绍前沿模型对齐失准的检测方法，同时扩大与 ServiceNow 的企业合作。技术侧还有把 DOOM 改成 Transformer、以及在树莓派 Pico 2 W 上跑小型世界模型等趣味实验。",
+      "rollupEn": "AI agents dominate today's news: YC Labs ran agent swarms in games, MIT Technology Review urges real-time monitoring of agent actions, and GitHub's Octoverse shows 2026 commits hitting new highs as developers build with agents. OpenAI published an updated Model Spec, explained how it detects frontier model misalignment, and expanded its ServiceNow partnership. On the playful side, developers turned DOOM into a Transformer and ran a tiny world model on a Raspberry Pi Pico 2 W.",
+      "failures": []
+    },
+    {
       "date": "2026-10-29",
       "items": [
         {
