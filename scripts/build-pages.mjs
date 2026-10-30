@@ -56,6 +56,9 @@ try { readmesZh = JSON.parse(await readFile(join(ROOT, "data", "readmes-zh.json"
 // 中文短描述补丁（批量翻译生成，供缺 desc 的工具中文页使用）
 let descZh = {};
 try { descZh = JSON.parse(await readFile(join(ROOT, "data", "desc-zh.json"), "utf8")); } catch (e) {}
+// 详情页一句话介绍（scripts/gen-leads.mjs 生成，中英各一句；缺失时回落旧格式）
+let toolLeads = {};
+try { toolLeads = JSON.parse(await readFile(join(ROOT, "scripts", "tool-leads.json"), "utf8")).items || {}; } catch (e) {}
 
 // 每日新闻（由 scripts/fetch-news.mjs 生成，缺文件时栏目显示空状态）
 let newsData = { days: [] };
@@ -197,6 +200,7 @@ function shareButtons(lang, pageUrl, title, compact) {
     '<button class="share-btn share-copy" type="button" onclick="navigator.clipboard&&navigator.clipboard.writeText(\'' + jsUrl + '\').then(()=>{this.textContent=\'' + esc(L.shareCopied) + '\'})">' + esc(L.shareCopy) + "</button></div>";
 }
 function descOf(t, lang) { return lang === "en" ? (t.descEn || t.desc || "") : (t.desc || descZh[t.id] || t.descEn || ""); }
+function leadOf(t, lang) { var l = toolLeads[t.id]; return l ? (l[lang] || "") : ""; }
 function catLabel(lang, k) { return T[lang].categories[k] || k; }
 // 标签翻译：英文页查映射表；本来就是英文的标签没有映射，原样返回
 function tagLabel(lang, tag) {
@@ -823,7 +827,9 @@ function toolPage(t, lang) {
   var title = lang === "zh"
     ? titleName + " · " + catLabel(lang, t.category) + " · " + L.siteName
     : titleName + " · " + catLabel(lang, t.category) + " · " + L.siteName;
-  var descBase = descOf(t, lang);
+  // 一句话介绍优先用于 meta 描述；缺失时回落旧格式（与正文首段同一规则）
+  var lead = leadOf(t, lang);
+  var descBase = lead || descOf(t, lang);
   // 工具名强制前缀：保证所有工具页 meta 描述全局唯一
   // （不同工具的 descEn 可能完全相同，如 tinyrenderer/tinyraytracer、opencode/opencode-2）
   descBase = t.name + (lang === "en" ? ": " : " - ") + descBase;
@@ -862,7 +868,7 @@ function toolPage(t, lang) {
     '      <strong>' + esc(tierLabel(t, lang)) + "</strong>",
     '      <span>' + esc(TIER_DESC[lang][deployTier(t)]) + "</span>",
     "    </div>",
-    '    <p class="detail-desc">' + esc(descOf(t, lang)) + "</p>",
+    '    <p class="detail-desc">' + esc((lead ? lead + " " : "") + descOf(t, lang)) + "</p>",
     '    <div class="tags">' + tags + "</div>",
     // P4 正文顺序：截图/视频轮播 → 亮点 → 价格说明 → 更新记录 → 作者卡 → 信任信息 → 试用反馈
     (t.screenshot_url
