@@ -1395,7 +1395,10 @@ function categoryPage(lang, key) {
   var paths = {};
   LANGS.forEach(function (l) { paths[l] = catPath(l, key); });
 
-  var title = label + " · " + L.siteName;
+  // 意图型标题：匹配 best/top open source X 类信息型查询；分类页已按星数排序，“by stars”有事实依据
+  var title = lang === "zh"
+    ? "开源" + label + "精选 · 按星数排行 · " + L.siteName
+    : "Top open source " + label + " by stars · " + L.siteName;
   var desc = (lang === "zh"
     ? "开源" + label + "工具推荐，共 " + list.length + " 个精选 GitHub 项目，标注清楚怎么用。"
     : "Curated open-source " + label + " tools — " + list.length + " GitHub projects with clear usage notes.").slice(0, 300);
