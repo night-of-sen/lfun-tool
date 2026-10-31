@@ -1,6 +1,196 @@
 {
   "days": [
     {
+      "date": "2026-10-31",
+      "items": [
+        {
+          "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+          "link": "https://github.com/dbreunig/nesformer",
+          "source": "Hacker News",
+          "date": "2026-10-30",
+          "zhTitle": "Show HN：用约1GB的Qwen权重实现可运行的任天堂（红白机）",
+          "zh": "开发者在约1GB的Qwen权重中实现可运行的红白机。",
+          "en": "A working NES runs inside roughly 1GB of Qwen model weights."
+        },
+        {
+          "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+          "link": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+          "source": "Hacker News",
+          "date": "2026-10-30",
+          "zhTitle": "思科给工程师无限AI token以重写遗留代码",
+          "zh": "思科允许一名工程师无限制使用AI token重写遗留代码。",
+          "en": "Cisco gives an engineer unlimited AI tokens to rewrite legacy code."
+        },
+        {
+          "title": "Making it easier for websites to express AI training preferences",
+          "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "source": "OpenAI",
+          "date": "2026-10-30",
+          "zhTitle": "让网站更容易表达AI训练偏好",
+          "zh": "OpenAI推出让网站更易表达AI训练偏好的机制。",
+          "en": "OpenAI makes it easier for websites to express AI training preferences."
+        },
+        {
+          "title": "Community safety report and new protections for teens",
+          "link": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+          "source": "OpenAI",
+          "date": "2026-10-30",
+          "zhTitle": "社区安全报告与面向青少年的新保护措施",
+          "zh": "OpenAI发布社区安全报告，并新增青少年保护措施。",
+          "en": "OpenAI publishes a community safety report and new teen protections."
+        },
+        {
+          "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+          "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+          "source": "Hacker News",
+          "date": "2026-10-30",
+          "zhTitle": "Cursor市场上的VS Code版Claude Code扩展存在后门",
+          "zh": "有报告称Cursor市场中的Claude Code扩展存在后门。",
+          "en": "Reported backdoor in the Claude Code VS Code extension on Cursor Marketplace."
+        },
+        {
+          "title": "Fair use benefits everyone",
+          "link": "https://openai.com/index/fair-use-benefits-everyone",
+          "source": "OpenAI",
+          "date": "2026-10-30",
+          "zhTitle": "合理使用惠及所有人",
+          "zh": "OpenAI发文主张合理使用让所有人受益。",
+          "en": "OpenAI argues that fair use benefits everyone."
+        },
+        {
+          "title": "Building an AI-native engineering org",
+          "link": "https://twitter.com/sgondala2/status/2115832070274723875",
+          "source": "Hacker News",
+          "date": "2026-10-29",
+          "zhTitle": "构建AI原生工程组织",
+          "zh": "一则推文讨论如何打造AI原生的工程组织。",
+          "en": "A thread on building an AI-native engineering organization."
+        },
+        {
+          "title": "An updated Model Spec for more capable and beneficial AI",
+          "link": "https://openai.com/index/updated-model-spec",
+          "source": "OpenAI",
+          "date": "2026-10-29",
+          "zhTitle": "更新版Model Spec：迈向更强、更有益的AI",
+          "zh": "OpenAI发布更新版Model Spec规范。",
+          "en": "OpenAI releases an updated Model Spec for more capable, beneficial AI."
+        },
+        {
+          "title": "AI, Lean, and the Future of Formal Verification, with Lean Creator Leo de Moura",
+          "link": "https://thedataexchange.media/leo-de-moura-lean-aws/",
+          "source": "Hacker News",
+          "date": "2026-10-29",
+          "zhTitle": "AI、Lean与形式化验证的未来——对话Lean创造者Leo de Moura",
+          "zh": "Lean创造者谈AI与形式化验证的未来。",
+          "en": "Lean creator Leo de Moura discusses AI and the future of formal verification."
+        },
+        {
+          "title": "The Download: AI agent tracking and climate feedback loops",
+          "link": "https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-29",
+          "zhTitle": "The Download：AI代理追踪与气候反馈循环",
+          "zh": "本期关注AI代理行为追踪与气候反馈循环。",
+          "en": "The Download covers AI agent tracking and climate feedback loops."
+        },
+        {
+          "title": "We urgently need to monitor AI agents’ actions in real time",
+          "link": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-29",
+          "zhTitle": "我们亟需实时监控AI代理的行为",
+          "zh": "文章呼吁对AI代理的行为进行实时监控。",
+          "en": "We urgently need real-time monitoring of AI agents' actions."
+        },
+        {
+          "title": "Our climate models have a big, dangerous blind spot",
+          "link": "https://www.technologyreview.com/2026/10/29/1147735/climate-models-blind-spot/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-29",
+          "zhTitle": "我们的气候模型存在巨大而危险的盲区",
+          "zh": "文章指出气候模型存在重大而危险的盲区。",
+          "en": "Our climate models have a big, dangerous blind spot."
+        },
+        {
+          "title": "How we detect frontier model misalignment",
+          "link": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+          "source": "OpenAI",
+          "date": "2026-10-29",
+          "zhTitle": "我们如何检测前沿模型的不对齐",
+          "zh": "OpenAI介绍其检测前沿模型不对齐的方法。",
+          "en": "OpenAI explains how it detects frontier model misalignment."
+        },
+        {
+          "title": "Creating AI value with enterprise context",
+          "link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-28",
+          "zhTitle": "以企业上下文创造AI价值",
+          "zh": "文章讨论如何借助企业上下文创造AI价值。",
+          "en": "Creating AI value with enterprise context."
+        },
+        {
+          "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+          "link": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+          "source": "GitHub Blog",
+          "date": "2026-10-28",
+          "zhTitle": "Octoverse：2026年开发者用代理构建，提交与推送创新高",
+          "zh": "2026年开发者用AI代理编程，提交与推送量创新高。",
+          "en": "Commits and pushes reach new highs in 2026 as developers build with agents."
+        },
+        {
+          "title": "The Download: dead startups fueling AI and interspecies communication",
+          "link": "https://www.technologyreview.com/2026/10/28/1147767/the-download-dead-startups-fueling-ai-interspecies-communication/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-28",
+          "zhTitle": "The Download：倒闭初创公司为AI提供燃料，以及跨物种交流",
+          "zh": "本期关注倒闭初创公司喂养AI与跨物种交流。",
+          "en": "The Download: dead startups fueling AI and interspecies communication."
+        }
+      ],
+      "toolsNew": [],
+      "toolsTrending": [
+        {
+          "id": "rea",
+          "name": "Rea",
+          "repo": "morluto/rea",
+          "stars": 413511,
+          "gain": 3707
+        },
+        {
+          "id": "ifixai",
+          "name": "IFixAi",
+          "repo": "ifixai-ai/iFixAi",
+          "stars": 40139,
+          "gain": 2021
+        },
+        {
+          "id": "claude-mem",
+          "name": "Claude Mem",
+          "repo": "thedotmack/claude-mem",
+          "stars": 106845,
+          "gain": 1652
+        },
+        {
+          "id": "dsh-our-free-model",
+          "name": "Dsh Our Free Model",
+          "repo": "Ebony-Vinyl/dsh-our-free-model",
+          "stars": 53451,
+          "gain": 1573
+        },
+        {
+          "id": "impeccable",
+          "name": "Impeccable",
+          "repo": "pbakaus/impeccable",
+          "stars": 97532,
+          "gain": 1319
+        }
+      ],
+      "rollupZh": "今日OpenAI连发多条公告：更新Model Spec、推出网站AI训练偏好表达机制、发布社区安全报告与青少年保护，并主张合理使用惠及所有人。安全议题同样突出：有报告称Cursor市场上的Claude Code扩展存在后门，MIT科技评论呼吁实时监控AI代理行为。开发者生态方面，GitHub Octoverse显示2026年提交与推送创新高，思科则让工程师无限量使用AI token重写遗留代码。",
+      "rollupEn": "OpenAI published a batch of updates: a revised Model Spec, easier ways for websites to express AI training preferences, a community safety report with new teen protections, and an argument that fair use benefits everyone. Security concerns also stood out, with a reported backdoor in the Claude Code VS Code extension on the Cursor Marketplace and MIT Technology Review calling for real-time monitoring of AI agents. On the developer side, GitHub's Octoverse reported record commits and pushes in 2026, while Cisco granted an engineer unlimited AI tokens to rewrite legacy code.",
+      "failures": []
+    },
+    {
       "date": "2026-10-30",
       "items": [
         {
