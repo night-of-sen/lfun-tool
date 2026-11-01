@@ -1,6 +1,158 @@
 {
   "days": [
     {
+      "date": "2026-11-01",
+      "items": [
+        {
+          "title": "The AI cost of JavaScript frameworks",
+          "link": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+          "source": "Hacker News",
+          "date": "2026-11-01",
+          "zhTitle": "JavaScript 框架的 AI 成本",
+          "zh": "文章讨论 JS 框架给 AI 编程带来的成本代价",
+          "en": "A post on the AI cost of JavaScript frameworks."
+        },
+        {
+          "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+          "link": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+          "source": "Hacker News",
+          "date": "2026-10-31",
+          "zhTitle": "Memdoor：5 个 Qwen3.8-27B 模型组队，在 LiveCodeBench Hard 上击败 Fable 5",
+          "zh": "五个 Qwen3.8-27B 组队解题，胜过 Fable 5",
+          "en": "Five Qwen3.8-27B models team up to beat Fable 5 on LiveCodeBench Hard."
+        },
+        {
+          "title": "Anthropic blocks users for anything touching training larger models",
+          "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+          "source": "Hacker News",
+          "date": "2026-10-31",
+          "zhTitle": "Anthropic 封禁任何涉及训练更大模型的用户",
+          "zh": "有用户称因涉训练更大模型被 Anthropic 封号",
+          "en": "Users say Anthropic blocks accounts for anything touching training larger models."
+        },
+        {
+          "title": "Making it easier for websites to express AI training preferences",
+          "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "source": "OpenAI",
+          "date": "2026-10-30",
+          "zhTitle": "让网站更便捷地表达 AI 训练偏好",
+          "zh": "OpenAI 推出新方式让网站声明 AI 训练偏好",
+          "en": "OpenAI makes it easier for websites to express AI training preferences."
+        },
+        {
+          "title": "Community safety report and new protections for teens",
+          "link": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+          "source": "OpenAI",
+          "date": "2026-10-30",
+          "zhTitle": "社区安全报告与面向青少年的新保护措施",
+          "zh": "OpenAI 发布社区安全报告，新增青少年保护",
+          "en": "OpenAI publishes a community safety report and new protections for teens."
+        },
+        {
+          "title": "Fair use benefits everyone",
+          "link": "https://openai.com/index/fair-use-benefits-everyone",
+          "source": "OpenAI",
+          "date": "2026-10-30",
+          "zhTitle": "合理使用惠及所有人",
+          "zh": "OpenAI 发文称合理使用让所有人受益",
+          "en": "OpenAI argues that fair use benefits everyone."
+        },
+        {
+          "title": "An updated Model Spec for more capable and beneficial AI",
+          "link": "https://openai.com/index/updated-model-spec",
+          "source": "OpenAI",
+          "date": "2026-10-29",
+          "zhTitle": "更新版 Model Spec：面向更强能力与更有益的 AI",
+          "zh": "OpenAI 发布更新版 Model Spec",
+          "en": "OpenAI releases an updated Model Spec for more capable, beneficial AI."
+        },
+        {
+          "title": "No AI, 52 min. Build all Linux Files utils in C by Hand [video]",
+          "link": "https://www.youtube.com/watch?v=gQRmSlcTq9c",
+          "source": "Hacker News",
+          "date": "2026-10-29",
+          "zhTitle": "不用 AI，52 分钟纯手写全部 Linux 文件工具（C 语言）[视频]",
+          "zh": "视频：52 分钟手写 C 实现 Linux 文件工具",
+          "en": "Video: hand-building all Linux file utilities in C in 52 minutes, no AI."
+        },
+        {
+          "title": "The Download: AI agent tracking and climate feedback loops",
+          "link": "https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-29",
+          "zhTitle": "The Download：AI 智能体追踪与气候反馈循环",
+          "zh": "今日速览：追踪 AI 智能体与气候反馈循环",
+          "en": "The Download covers tracking AI agents and climate feedback loops."
+        },
+        {
+          "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+          "link": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+          "source": "GitHub Blog",
+          "date": "2026-10-28",
+          "zhTitle": "Octoverse：2026 年开发者以智能体开发，提交与推送创新高",
+          "zh": "GitHub：智能体开发推动 commit 与 push 创新高",
+          "en": "Octoverse: commits and pushes hit new highs in 2026 as developers build with agents."
+        },
+        {
+          "title": "The bridge to agent-scale Git infrastructure",
+          "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+          "source": "GitHub Blog",
+          "date": "2026-10-21",
+          "zhTitle": "通往智能体规模的 Git 基础设施之桥",
+          "zh": "GitHub 介绍支撑智能体规模负载的 Git 基建",
+          "en": "GitHub engineering on the bridge to agent-scale Git infrastructure."
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "awesome-dsh-plugin",
+          "name": "Awesome Dsh Plugin",
+          "repo": "awesome-dsh-plugin/awesome-dsh-plugin",
+          "stars": 21852
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "awesome-dsh-plugin",
+          "name": "Awesome Dsh Plugin",
+          "repo": "awesome-dsh-plugin/awesome-dsh-plugin",
+          "stars": 21852,
+          "gain": 21852
+        },
+        {
+          "id": "rea",
+          "name": "Rea",
+          "repo": "morluto/rea",
+          "stars": 416715,
+          "gain": 3204
+        },
+        {
+          "id": "ifixai",
+          "name": "IFixAi",
+          "repo": "ifixai-ai/iFixAi",
+          "stars": 41913,
+          "gain": 1774
+        },
+        {
+          "id": "dsh-our-free-model",
+          "name": "Dsh Our Free Model",
+          "repo": "Ebony-Vinyl/dsh-our-free-model",
+          "stars": 55087,
+          "gain": 1636
+        },
+        {
+          "id": "claude-mem",
+          "name": "Claude Mem",
+          "repo": "thedotmack/claude-mem",
+          "stars": 108364,
+          "gain": 1519
+        }
+      ],
+      "rollupZh": "今日 OpenAI 集中发布多项政策更新：更新 Model Spec、推出让网站声明 AI 训练偏好的方式，并发布社区安全报告与青少年保护措施。开发者生态方面，GitHub Octoverse 显示 2026 年提交与推送随智能体开发创新高，其工程博客也介绍了面向智能体规模的 Git 基础设施。另有用户称 Anthropic 对涉及训练更大模型的账号进行封禁，引发讨论。",
+      "rollupEn": "OpenAI published a cluster of policy updates: a revised Model Spec, an easier way for websites to express AI training preferences, and a community safety report with new teen protections. On the developer side, GitHub's Octoverse reports record commits and pushes in 2026 as developers build with agents, alongside an engineering post on agent-scale Git infrastructure. Users also reported Anthropic blocking accounts over anything touching training larger models.",
+      "failures": []
+    },
+    {
       "date": "2026-10-31",
       "items": [
         {

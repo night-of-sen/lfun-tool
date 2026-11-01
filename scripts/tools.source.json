@@ -25517,6 +25517,29 @@
       "cloud": "",
       "descEn": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
       "pushedAt": "2026-10-29"
+    },
+    {
+      "id": "awesome-dsh-plugin",
+      "name": "Awesome Dsh Plugin",
+      "repo": "awesome-dsh-plugin/awesome-dsh-plugin",
+      "homepage": "https://awesome-dsh-plugin.com",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "awesome",
+        "awesome-list",
+        "deepseek-harness",
+        "dsh"
+      ],
+      "seed": {
+        "stars": 21852,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "pushedAt": "2026-10-31"
     }
   ]
 }

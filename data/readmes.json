@@ -7361,5 +7361,12 @@
     "source": "README.md",
     "rawLength": 25467,
     "fetchedAt": "2026-10-29T08:43:43.056Z"
+  },
+  "awesome-dsh-plugin": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2769928,
+    "fetchedAt": "2026-11-01T10:16:07.596Z"
   }
 }

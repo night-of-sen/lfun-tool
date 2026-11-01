@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T09:28:02.177Z",
+  "generatedAt": "2026-11-01T10:16:26.262Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -4208,6 +4208,10 @@
     "gstack": {
       "en": "For developers who want Garry Tan's exact Claude Code setup, with 23 opinionated tools covering CEO, Designer, and other roles.",
       "zh": "面向想复用 Garry Tan 的 Claude Code 配置的开发者，提供 23 个分别担任 CEO、设计师等角色的工具。"
+    },
+    "awesome-dsh-plugin": {
+      "en": "A curated list of plugins for DeepSeek Harness (dsh), for developers who want to find dsh plugins in one place.",
+      "zh": "一份 DeepSeek Harness（dsh）插件精选列表，适合想集中查找 dsh 插件的开发者。"
     }
   }
 }
