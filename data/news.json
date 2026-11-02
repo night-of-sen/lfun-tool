@@ -1,6 +1,124 @@
 {
   "days": [
     {
+      "date": "2026-11-02",
+      "items": [
+        {
+          "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+          "link": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+          "source": "Hacker News",
+          "date": "2026-11-02",
+          "zhTitle": "中国首个前沿AI出口管制：商务部第48号公告",
+          "zh": "分析中国商务部第48号公告，首度对前沿AI实施出口管制。",
+          "en": "Analysis of China's Mofcom Announcement No. 48, its first frontier AI export controls."
+        },
+        {
+          "title": "The AI cost of JavaScript frameworks",
+          "link": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+          "source": "Hacker News",
+          "date": "2026-11-01",
+          "zhTitle": "JavaScript框架的AI成本",
+          "zh": "探讨各大JavaScript框架在AI语境下带来的额外成本。",
+          "en": "Examining the AI-related costs that JavaScript frameworks impose."
+        },
+        {
+          "title": "Making it easier for websites to express AI training preferences",
+          "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "source": "OpenAI",
+          "date": "2026-10-30",
+          "zhTitle": "让网站更易表达AI训练偏好",
+          "zh": "OpenAI推出新方式，让网站表达其AI训练内容偏好。",
+          "en": "OpenAI makes it easier for websites to express AI training preferences."
+        },
+        {
+          "title": "Community safety report and new protections for teens",
+          "link": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+          "source": "OpenAI",
+          "date": "2026-10-30",
+          "zhTitle": "社区安全报告与青少年新保护措施",
+          "zh": "OpenAI发布社区安全报告，并为青少年推出新保护措施。",
+          "en": "OpenAI publishes a community safety report and adds new protections for teens."
+        },
+        {
+          "title": "The Download: AI agent tracking and climate feedback loops",
+          "link": "https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-29",
+          "zhTitle": "The Download：AI代理追踪与气候反馈循环",
+          "zh": "本期简讯聚焦AI代理行为监控与气候反馈循环议题。",
+          "en": "This edition covers monitoring AI agents and climate feedback loops."
+        },
+        {
+          "title": "We urgently need to monitor AI agents’ actions in real time",
+          "link": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-29",
+          "zhTitle": "我们迫切需要实时监控AI代理的行为",
+          "zh": "文章呼吁对AI代理的行为进行实时监控。",
+          "en": "The piece argues we urgently need real-time monitoring of AI agents' actions."
+        },
+        {
+          "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+          "link": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+          "source": "GitHub Blog",
+          "date": "2026-10-28",
+          "zhTitle": "Octoverse：2026年提交与推送创新高，开发者借助代理构建",
+          "zh": "GitHub报告称2026年提交与推送量创新高，开发者用AI代理开发。",
+          "en": "GitHub's Octoverse reports record commits and pushes in 2026 as developers build with agents."
+        },
+        {
+          "title": "The bridge to agent-scale Git infrastructure",
+          "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+          "source": "GitHub Blog",
+          "date": "2026-10-21",
+          "zhTitle": "通往代理规模Git基础设施的桥梁",
+          "zh": "GitHub介绍为支撑代理规模负载而优化的Git基础设施。",
+          "en": "GitHub describes the Git infrastructure bridge built for agent-scale workloads."
+        }
+      ],
+      "toolsNew": [],
+      "toolsTrending": [
+        {
+          "id": "rea",
+          "name": "Rea",
+          "repo": "morluto/rea",
+          "stars": 420627,
+          "gain": 3912
+        },
+        {
+          "id": "claude-mem",
+          "name": "Claude Mem",
+          "repo": "thedotmack/claude-mem",
+          "stars": 110130,
+          "gain": 1766
+        },
+        {
+          "id": "dsh-our-free-model",
+          "name": "Dsh Our Free Model",
+          "repo": "Ebony-Vinyl/dsh-our-free-model",
+          "stars": 56581,
+          "gain": 1494
+        },
+        {
+          "id": "claude-code-game-studios",
+          "name": "Claude Code Game Studios",
+          "repo": "Donchitos/Claude-Code-Game-Studios",
+          "stars": 32920,
+          "gain": 1377
+        },
+        {
+          "id": "cleanyourtv",
+          "name": "Cleanyourtv",
+          "repo": "Gathin23/cleanyourtv",
+          "stars": 49700,
+          "gain": 1371
+        }
+      ],
+      "rollupZh": "今日要闻：中国首度以前沿AI出口管制公告出手，OpenAI则推出网站AI训练偏好表达机制并发布青少年保护与安全报告。GitHub数据显示2026年代理驱动的开发使提交量创新高，业界同时呼吁实时监控AI代理行为。",
+      "rollupEn": "Today: China issued its first frontier AI export controls, while OpenAI added ways for sites to express AI training preferences plus new teen protections. GitHub reports record 2026 activity driven by agents, amid calls for real-time monitoring of AI agent actions.",
+      "failures": []
+    },
+    {
       "date": "2026-11-01",
       "items": [
         {
