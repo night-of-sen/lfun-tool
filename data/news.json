@@ -1,6 +1,175 @@
 {
   "days": [
     {
+      "date": "2026-11-03",
+      "items": [
+        {
+          "title": "Heimstaden is changing residential real estate management with AI",
+          "link": "https://openai.com/index/heimstaden",
+          "source": "OpenAI",
+          "date": "2026-11-03",
+          "zhTitle": "Heimstaden借助AI变革住宅房地产管理",
+          "zh": "OpenAI介绍Heimstaden用AI改造住宅物业管理。",
+          "en": "OpenAI describes how Heimstaden uses AI to transform residential property management."
+        },
+        {
+          "title": "Scaling Git at OpenAI",
+          "link": "https://openai.com/index/scaling-git-at-openai/",
+          "source": "Hacker News",
+          "date": "2026-11-02",
+          "zhTitle": "在OpenAI扩展Git规模",
+          "zh": "OpenAI分享其大规模Git基础设施的扩展经验。",
+          "en": "OpenAI shares how it scaled its Git infrastructure."
+        },
+        {
+          "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+          "link": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+          "source": "Hacker News",
+          "date": "2026-11-02",
+          "zhTitle": "SEC应阻止Anthropic的IPO以保护公众",
+          "zh": "评论文章呼吁SEC阻止Anthropic的IPO。",
+          "en": "An opinion piece urges the SEC to block Anthropic's IPO."
+        },
+        {
+          "title": "Egoless Mathematics in the AI Era",
+          "link": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+          "source": "Hacker News",
+          "date": "2026-11-02",
+          "zhTitle": "AI时代的“无我”数学",
+          "zh": "陶哲轩谈AI时代数学研究中的无我协作。",
+          "en": "Terry Tao writes on egoless mathematics in the AI era."
+        },
+        {
+          "title": "Astra can read and write weights to improve Qwen",
+          "link": "https://rikiyat.github.io/blog/weight-space-programming/",
+          "source": "Hacker News",
+          "date": "2026-11-02",
+          "zhTitle": "Astra可读写权重以改进Qwen",
+          "zh": "博客介绍Astra通过读写模型权重改进Qwen。",
+          "en": "A blog post describes Astra reading and writing weights to improve Qwen."
+        },
+        {
+          "title": "Rewarding defenders with bigger bug bounties",
+          "link": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+          "source": "OpenAI",
+          "date": "2026-11-02",
+          "zhTitle": "以更高漏洞赏金奖励防御者",
+          "zh": "OpenAI宣布提高漏洞赏金以奖励安全防御者。",
+          "en": "OpenAI announces bigger bug bounties to reward defenders."
+        },
+        {
+          "title": "Preparing our next security sprint to harden OpenAI",
+          "link": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+          "source": "OpenAI",
+          "date": "2026-11-02"
+        },
+        {
+          "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+          "link": "https://momentic.ai/",
+          "source": "Hacker News",
+          "date": "2026-11-02",
+          "zhTitle": "Launch HN：Momentic（YC W24）——通过使用你的应用来抓Bug的智能体",
+          "zh": "Momentic推出通过操作应用来发现Bug的智能体。",
+          "en": "Momentic launches agents that catch bugs by using your app."
+        },
+        {
+          "title": "Scaling Git at OpenAI",
+          "link": "https://openai.com/index/scaling-git-at-openai",
+          "source": "OpenAI",
+          "date": "2026-11-02",
+          "zhTitle": "在OpenAI扩展Git规模",
+          "zh": "OpenAI介绍其Git基础设施的规模化实践。",
+          "en": "OpenAI explains how it scaled Git at the company."
+        },
+        {
+          "title": "Introducing the Grid Protectors Program",
+          "link": "https://openai.com/index/grid-protectors-program",
+          "source": "OpenAI",
+          "date": "2026-11-02",
+          "zhTitle": "推出“电网保护者”计划",
+          "zh": "OpenAI宣布启动Grid Protectors电网保护计划。",
+          "en": "OpenAI introduces the Grid Protectors Program."
+        },
+        {
+          "title": "The Download: AI agent tracking and climate feedback loops",
+          "link": "https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-29",
+          "zhTitle": "The Download：AI智能体追踪与气候反馈循环",
+          "zh": "今日简讯聚焦AI智能体监控与气候反馈循环。",
+          "en": "The Download covers AI agent tracking and climate feedback loops."
+        },
+        {
+          "title": "We urgently need to monitor AI agents’ actions in real time",
+          "link": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+          "source": "MIT Technology Review",
+          "date": "2026-10-29",
+          "zhTitle": "我们亟需实时监控AI智能体的行为",
+          "zh": "文章呼吁对AI智能体的行为进行实时监控。",
+          "en": "The article argues we urgently need real-time monitoring of AI agents' actions."
+        },
+        {
+          "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+          "link": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+          "source": "GitHub Blog",
+          "date": "2026-10-28",
+          "zhTitle": "Octoverse：2026年开发者用智能体构建，提交与推送创新高",
+          "zh": "GitHub报告称开发者借助智能体使提交推送创新高。",
+          "en": "GitHub's Octoverse reports record commits and pushes in 2026 as developers build with agents."
+        },
+        {
+          "title": "The bridge to agent-scale Git infrastructure",
+          "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+          "source": "GitHub Blog",
+          "date": "2026-10-21",
+          "zhTitle": "通往智能体规模Git基础设施的桥梁",
+          "zh": "GitHub介绍支撑智能体规模的Git架构优化。",
+          "en": "GitHub details architecture work bridging to agent-scale Git infrastructure."
+        }
+      ],
+      "toolsNew": [],
+      "toolsTrending": [
+        {
+          "id": "rea",
+          "name": "Rea",
+          "repo": "morluto/rea",
+          "stars": 424807,
+          "gain": 4180
+        },
+        {
+          "id": "dsh-our-free-model",
+          "name": "Dsh Our Free Model",
+          "repo": "Ebony-Vinyl/dsh-our-free-model",
+          "stars": 58281,
+          "gain": 1700
+        },
+        {
+          "id": "scrapling",
+          "name": "Scrapling",
+          "repo": "D4Vinci/Scrapling",
+          "stars": 93663,
+          "gain": 1618
+        },
+        {
+          "id": "deepseek-harness",
+          "name": "Deepseek Harness",
+          "repo": "deepseek-ai/deepseek-harness",
+          "stars": 270448,
+          "gain": 1452
+        },
+        {
+          "id": "orkas",
+          "name": "Orkas",
+          "repo": "orkas-ai/orkas",
+          "stars": 8879,
+          "gain": 1178
+        }
+      ],
+      "rollupZh": "今日焦点集中在AI基础设施与安全治理：OpenAI与GitHub分别披露Git规模化实践，并推出更高漏洞赏金和安全冲刺计划。与此同时，业界呼吁实时监控AI智能体行为；另有评论文章主张SEC应阻止Anthropic的IPO。",
+      "rollupEn": "Today's highlights center on AI infrastructure and security governance: OpenAI and GitHub detail Git scaling work, while OpenAI boosts bug bounties and plans a security sprint. Meanwhile, calls grow for real-time monitoring of AI agents, and an opinion piece urges the SEC to block Anthropic's IPO.",
+      "failures": []
+    },
+    {
       "date": "2026-11-02",
       "items": [
         {
