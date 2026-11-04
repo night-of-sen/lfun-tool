@@ -7368,5 +7368,215 @@
     "source": "README.md",
     "rawLength": 2769928,
     "fetchedAt": "2026-11-01T10:16:07.596Z"
+  },
+  "ego-lite": {
+    "summary": "ego (lite) is a browser where you and your AI agents work in parallel. Your agents run their browser tasks in their own Spaces, isolated workspaces inside the same browser, while you keep browsing in yours, so no agent ever takes the browser away from you. And the automation itself finishes faster…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11286,
+    "fetchedAt": "2026-11-04T06:28:06.722Z"
+  },
+  "filee": {
+    "summary": "Filee shows new releases in its menu and updates itself, keeping your settings and engines. After an update, a few slides show what's new.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16672,
+    "fetchedAt": "2026-11-04T06:28:06.722Z"
+  },
+  "openshell": {
+    "summary": "OpenShell is the safe, private runtime for fleets of autonomous AI agents. Agents are most useful when they can read files, install packages, call APIs, and use credentials. OpenShell gives them that capability without giving them unrestricted access to your data, secrets, or network. You declare wh…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8239,
+    "fetchedAt": "2026-11-04T06:28:06.722Z"
+  },
+  "openspeedy": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9778,
+    "fetchedAt": "2026-11-04T06:28:06.722Z"
+  },
+  "voyager": {
+    "summary": "Voyager's own features are built the same way. The timeline, formula copy, quote reply, reading width and nearly everything else ship as official plugins on top of the same primitives. Folders on Gemini and AI Studio are the last piece still running as built-in code, and they are moving over too.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18806,
+    "fetchedAt": "2026-11-04T06:28:07.334Z"
+  },
+  "tolaria": {
+    "summary": "Tolaria is an app for managing markdown knowledge bases, available on desktop (macOS, Windows, Linux) and mobile (iPhone, iPad). People use it for a variety of use cases:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9290,
+    "fetchedAt": "2026-11-04T06:28:07.334Z"
+  },
+  "toonflow-app": {
+    "summary": "",
+    "docker": "git clone https://github.com/HBAI-Ltd/Toonflow-app.git\ncd Toonflow-app\ndocker compose up -d --build",
+    "source": "README.md",
+    "rawLength": 20208,
+    "fetchedAt": "2026-11-04T06:28:07.334Z"
+  },
+  "easy-vibe": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 36477,
+    "fetchedAt": "2026-11-04T06:28:07.334Z"
+  },
+  "komi-store": {
+    "summary": "Komi Store is a cross-platform app store for releases on GitHub, Codeberg and other Forgejo or Gitea forges, designed to simplify discovering and installing open-source software.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8623,
+    "fetchedAt": "2026-11-04T06:28:07.334Z"
+  },
+  "codex-auth-helper": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1960,
+    "fetchedAt": "2026-11-04T06:28:07.334Z"
+  },
+  "img2threejs": {
+    "summary": "img2threejs is free and open source. If it saved you time or found its way into your project, consider supporting continued development:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 46063,
+    "fetchedAt": "2026-11-04T06:28:07.966Z"
+  },
+  "brag": {
+    "summary": "/brag is an agent skill that turns the project you created into a short, shareable launch video — music, motion, and share copy included. One command, powered by Hyperframes.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6198,
+    "fetchedAt": "2026-11-04T06:28:07.966Z"
+  },
+  "deepresearch": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14138,
+    "fetchedAt": "2026-11-04T06:28:07.966Z"
+  },
+  "notebooklm-py": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 25042,
+    "fetchedAt": "2026-11-04T06:28:07.966Z"
+  },
+  "ty": {
+    "summary": "ty uses 0.0.x versioning. ty does not yet have a stable API; breaking changes, including changes to diagnostics, may occur between any two versions. See the type system support tracking issue for a detailed overview of currently supported features.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5608,
+    "fetchedAt": "2026-11-04T06:28:07.966Z"
+  },
+  "deep-research": {
+    "summary": "Deep research performs great on R1! We use Fireworks as the main provider for the R1 model. To use R1, simply set a Fireworks API key:",
+    "docker": "docker compose up -d",
+    "source": "README.md",
+    "rawLength": 5973,
+    "fetchedAt": "2026-11-04T06:28:07.966Z"
+  },
+  "rocketride-server": {
+    "summary": "RocketRide is built by a growing community of contributors. Whether you've fixed a bug, added a node, improved docs, or helped someone on Discord, thank you. New contributions are always welcome - check out our contributing guide to get started.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 23152,
+    "fetchedAt": "2026-11-04T06:28:08.560Z"
+  },
+  "claude-video": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 27678,
+    "fetchedAt": "2026-11-04T06:28:08.560Z"
+  },
+  "pdf-inspector": {
+    "summary": "pdf-inspector was built for pipelines that process PDFs at scale. Instead of sending every PDF through OCR:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13591,
+    "fetchedAt": "2026-11-04T06:28:08.560Z"
+  },
+  "pua": {
+    "summary": "PUA Skill provides fully translated versions — each language has independent, culturally adapted skill files.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 35328,
+    "fetchedAt": "2026-11-04T06:28:08.560Z"
+  },
+  "lifeos": {
+    "summary": "LifeOS ships 97 public skills, from research, security, writing and art to video, publishing and your home. Browse them all on the site.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 31151,
+    "fetchedAt": "2026-11-04T06:28:08.560Z"
+  },
+  "cockpit-tools": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 19747,
+    "fetchedAt": "2026-11-04T06:28:08.560Z"
+  },
+  "pdfcraft": {
+    "summary": "PdfCraft renders PDFs with care for the details that make a page feel right: kerning and ligatures, right-to-left and complex scripts, vertical CJK, colour emoji, shadings, blend modes, soft masks and optional content.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 41476,
+    "fetchedAt": "2026-11-04T06:28:09.148Z"
+  },
+  "dia": {
+    "summary": "Dia directly generates highly realistic dialogue from a transcript. You can condition the output on audio, enabling emotion and tone control. The model can also produce nonverbal communications like laughter, coughing, clearing throat, etc.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9858,
+    "fetchedAt": "2026-11-04T06:28:09.148Z"
+  },
+  "hermes-webui": {
+    "summary": "Hermes Agent is a sophisticated autonomous agent that lives on your server, accessed via a terminal or messaging apps, that remembers what it learns and gets more capable the longer it runs.",
+    "docker": "git clone https://github.com/nesquena/hermes-webui\ncd hermes-webui\ncp .env.docker.example .env\n# Edit .env if your host UID isn't 1000 (e.g. macOS where UIDs start at 501)\ndocker compose up -d\n# Open http://localhost:8787",
+    "source": "README.md",
+    "rawLength": 74007,
+    "fetchedAt": "2026-11-04T06:28:09.148Z"
+  },
+  "ccusage": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 24,
+    "fetchedAt": "2026-11-04T06:28:09.148Z"
+  },
+  "opengym": {
+    "summary": "openGym's own code is licensed under the GNU AGPL v3.0. You can self-host, use, modify and share it; if you run a modified version as a network service, you have to offer that version's source under the same license.",
+    "docker": "git clone https://github.com/DuarteSantos8/openGym\ncd openGym\ncp .env.example .env\ndocker compose pull      # prebuilt images, amd64 + arm64 (skip this to build from source)\ndocker compose up -d",
+    "source": "README.md",
+    "rawLength": 24954,
+    "fetchedAt": "2026-11-04T06:28:09.148Z"
+  },
+  "xerj": {
+    "summary": "XERJ: the search engine for AI agents. A new way for AI to search for data: one local Rust binary that indexes your code, docs, specs and logs, plus Corpus Hub packs, and returns cited answers.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 43606,
+    "fetchedAt": "2026-11-04T06:28:09.148Z"
+  },
+  "iii": {
+    "summary": "iii is the easiest way to compose, observe, discover, extend, and react (CODER) to every service in your stack in real time.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10047,
+    "fetchedAt": "2026-11-04T06:28:15.950Z"
+  },
+  "json-render": {
+    "summary": "json-render is a Generative UI framework: AI generates interfaces from natural language prompts, constrained to components you define. You set the guardrails, AI generates within them:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 25305,
+    "fetchedAt": "2026-11-04T06:28:15.950Z"
   }
 }

@@ -1,6 +1,359 @@
 {
   "days": [
     {
+      "date": "2026-11-04",
+      "items": [
+        {
+          "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+          "link": "https://arxiv.org/abs/2605.29713",
+          "source": "Hacker News",
+          "date": "2026-11-03",
+          "zhTitle": "《生成式AI基础小书》：一本直观的数学入门",
+          "zh": "一本面向生成式AI基础的直观数学入门读物。",
+          "en": "An intuitive mathematical primer on generative AI foundations."
+        },
+        {
+          "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+          "link": "https://uncracked.city",
+          "source": "Hacker News",
+          "date": "2026-11-03",
+          "zhTitle": "Show HN：Uncracked City——审问会说谎的LLM嫌疑人的侦探游戏",
+          "zh": "侦探游戏，玩家审问会说谎的大模型嫌疑人。",
+          "en": "A detective game where you interrogate LLM suspects who lie."
+        },
+        {
+          "title": "How I use AI (Oct 2026)",
+          "link": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+          "source": "Hacker News",
+          "date": "2026-11-03",
+          "zhTitle": "我如何使用AI（2026年10月）",
+          "zh": "作者分享自己2026年10月的AI使用方式。",
+          "en": "The author shares how he uses AI as of October 2026."
+        },
+        {
+          "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+          "link": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+          "source": "Hacker News",
+          "date": "2026-11-03",
+          "zhTitle": "笔记本上的Qwen 3.8 27B也能解读模型权重",
+          "zh": "本地笔记本运行的Qwen模型可解读模型权重。",
+          "en": "A laptop-run Qwen 27B model can interpret model weights."
+        },
+        {
+          "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+          "link": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+          "source": "Hacker News",
+          "date": "2026-11-03",
+          "zhTitle": "Postman被指静默自动安装AI插件并试图共享全部API数据",
+          "zh": "用户报告Postman静默装AI插件并试图共享API数据。",
+          "en": "Report claims Postman silently installs AI plugins and tries to share all API data."
+        },
+        {
+          "title": "The Download: controlling AI agents and &#8220;Super Intelligence&#8221; loyalty tests",
+          "link": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-03",
+          "zhTitle": "The Download：控制AI智能体与“超级智能”忠诚度测试",
+          "zh": "讨论AI智能体管控与超级智能忠诚度测试。",
+          "en": "On controlling AI agents and loyalty tests for “super intelligence.”"
+        },
+        {
+          "title": "Accelerating engineering for the physical world",
+          "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+          "source": "OpenAI",
+          "date": "2026-11-03",
+          "zhTitle": "加速物理世界的工程研发",
+          "zh": "OpenAI谈加速物理世界工程研发。",
+          "en": "OpenAI on accelerating engineering for the physical world."
+        },
+        {
+          "title": "How “reverse game theory” could keep AI agents in check",
+          "link": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-03",
+          "zhTitle": "“逆向博弈论”如何约束AI智能体",
+          "zh": "逆向博弈论与机制设计或被用于AI对齐。",
+          "en": "How reverse game theory and mechanism design could keep AI agents in check."
+        },
+        {
+          "title": "How Cisco defends at machine speed with OpenAI",
+          "link": "https://openai.com/index/cisco-cyber",
+          "source": "OpenAI",
+          "date": "2026-11-03",
+          "zhTitle": "思科如何借助OpenAI以机器速度防御",
+          "zh": "思科用OpenAI实现机器速度的网络安全防御。",
+          "en": "How Cisco defends at machine speed with OpenAI."
+        },
+        {
+          "title": "Heimstaden is changing residential real estate management with AI",
+          "link": "https://openai.com/index/heimstaden",
+          "source": "OpenAI",
+          "date": "2026-11-03",
+          "zhTitle": "Heimstaden用AI改变住宅房地产管理",
+          "zh": "Heimstaden用AI改造住宅房地产管理。",
+          "en": "Heimstaden is changing residential real estate management with AI."
+        },
+        {
+          "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+          "link": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+          "source": "OpenAI",
+          "date": "2026-11-03",
+          "zhTitle": "OpenAI任命Jill Hazelbaker为首席企业事务官",
+          "zh": "OpenAI任命Jill Hazelbaker为首席企业事务官。",
+          "en": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer."
+        },
+        {
+          "title": "Preparing our next security sprint to harden OpenAI",
+          "link": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+          "source": "OpenAI",
+          "date": "2026-11-02",
+          "zhTitle": "为强化OpenAI筹备下一轮安全冲刺",
+          "zh": "OpenAI筹备下一轮安全加固冲刺。",
+          "en": "Preparing the next security sprint to harden OpenAI."
+        },
+        {
+          "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+          "link": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+          "source": "GitHub Blog",
+          "date": "2026-10-28",
+          "zhTitle": "Octoverse：2026年提交与推送创新高，开发者用智能体构建",
+          "zh": "2026年提交与推送创新高，开发者转向智能体。",
+          "en": "Commits and pushes hit new highs in 2026 as developers build with agents."
+        },
+        {
+          "title": "The bridge to agent-scale Git infrastructure",
+          "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+          "source": "GitHub Blog",
+          "date": "2026-10-21",
+          "zhTitle": "通往智能体规模Git基础设施的桥梁",
+          "zh": "GitHub介绍支撑智能体规模的Git基础设施。",
+          "en": "The bridge to agent-scale Git infrastructure."
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "ego-lite",
+          "name": "Ego Lite",
+          "repo": "citrolabs/ego-lite",
+          "stars": 21550
+        },
+        {
+          "id": "filee",
+          "name": "Filee",
+          "repo": "KnifeLemon/Filee",
+          "stars": 21536
+        },
+        {
+          "id": "openshell",
+          "name": "OpenShell",
+          "repo": "NVIDIA/OpenShell",
+          "stars": 21060
+        },
+        {
+          "id": "openspeedy",
+          "name": "OpenSpeedy",
+          "repo": "game1024/OpenSpeedy",
+          "stars": 20725
+        },
+        {
+          "id": "voyager",
+          "name": "Voyager",
+          "repo": "voyager-crew/voyager",
+          "stars": 20539
+        },
+        {
+          "id": "tolaria",
+          "name": "Tolaria",
+          "repo": "refactoringhq/tolaria",
+          "stars": 20448
+        },
+        {
+          "id": "toonflow-app",
+          "name": "Toonflow App",
+          "repo": "HBAI-Ltd/Toonflow-app",
+          "stars": 20363
+        },
+        {
+          "id": "easy-vibe",
+          "name": "Easy Vibe",
+          "repo": "datawhalechina/easy-vibe",
+          "stars": 20329
+        },
+        {
+          "id": "komi-store",
+          "name": "Komi Store",
+          "repo": "komi-store/komi-store",
+          "stars": 20317
+        },
+        {
+          "id": "codex-auth-helper",
+          "name": "Codex Auth Helper",
+          "repo": "zhishile/codex-auth-helper",
+          "stars": 20295
+        },
+        {
+          "id": "img2threejs",
+          "name": "Img2threejs",
+          "repo": "img2threejs/img2threejs",
+          "stars": 20227
+        },
+        {
+          "id": "brag",
+          "name": "Brag",
+          "repo": "latent-spaces/brag",
+          "stars": 20204
+        },
+        {
+          "id": "deepresearch",
+          "name": "DeepResearch",
+          "repo": "Alibaba-NLP/DeepResearch",
+          "stars": 20099
+        },
+        {
+          "id": "notebooklm-py",
+          "name": "Notebooklm Py",
+          "repo": "teng-lin/notebooklm-py",
+          "stars": 20091
+        },
+        {
+          "id": "ty",
+          "name": "Ty",
+          "repo": "astral-sh/ty",
+          "stars": 20021
+        },
+        {
+          "id": "deep-research",
+          "name": "Deep Research",
+          "repo": "dzhng/deep-research",
+          "stars": 19875
+        },
+        {
+          "id": "rocketride-server",
+          "name": "Rocketride Server",
+          "repo": "rocketride-org/rocketride-server",
+          "stars": 19827
+        },
+        {
+          "id": "claude-video",
+          "name": "Claude Video",
+          "repo": "bradautomates/claude-video",
+          "stars": 19824
+        },
+        {
+          "id": "pdf-inspector",
+          "name": "Pdf Inspector",
+          "repo": "firecrawl/pdf-inspector",
+          "stars": 19821
+        },
+        {
+          "id": "pua",
+          "name": "Pua",
+          "repo": "tanweai/pua",
+          "stars": 19794
+        },
+        {
+          "id": "lifeos",
+          "name": "LifeOS",
+          "repo": "danielmiessler/LifeOS",
+          "stars": 19695
+        },
+        {
+          "id": "cockpit-tools",
+          "name": "Cockpit Tools",
+          "repo": "jlcodes99/cockpit-tools",
+          "stars": 19694
+        },
+        {
+          "id": "pdfcraft",
+          "name": "Pdfcraft",
+          "repo": "storytold/pdfcraft",
+          "stars": 19475
+        },
+        {
+          "id": "dia",
+          "name": "Dia",
+          "repo": "nari-labs/dia",
+          "stars": 19408
+        },
+        {
+          "id": "hermes-webui",
+          "name": "Hermes Webui",
+          "repo": "nesquena/hermes-webui",
+          "stars": 19381
+        },
+        {
+          "id": "ccusage",
+          "name": "Ccusage",
+          "repo": "ccusage/ccusage",
+          "stars": 19321
+        },
+        {
+          "id": "opengym",
+          "name": "OpenGym",
+          "repo": "DuarteSantos8/openGym",
+          "stars": 19168
+        },
+        {
+          "id": "xerj",
+          "name": "Xerj",
+          "repo": "xerj-org/xerj",
+          "stars": 18970
+        },
+        {
+          "id": "iii",
+          "name": "Iii",
+          "repo": "iii-hq/iii",
+          "stars": 18912
+        },
+        {
+          "id": "json-render",
+          "name": "Json Render",
+          "repo": "vercel-labs/json-render",
+          "stars": 18901
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "ego-lite",
+          "name": "Ego Lite",
+          "repo": "citrolabs/ego-lite",
+          "stars": 21550,
+          "gain": 21550
+        },
+        {
+          "id": "filee",
+          "name": "Filee",
+          "repo": "KnifeLemon/Filee",
+          "stars": 21536,
+          "gain": 21536
+        },
+        {
+          "id": "openshell",
+          "name": "OpenShell",
+          "repo": "NVIDIA/OpenShell",
+          "stars": 21060,
+          "gain": 21060
+        },
+        {
+          "id": "openspeedy",
+          "name": "OpenSpeedy",
+          "repo": "game1024/OpenSpeedy",
+          "stars": 20725,
+          "gain": 20725
+        },
+        {
+          "id": "voyager",
+          "name": "Voyager",
+          "repo": "voyager-crew/voyager",
+          "stars": 20539,
+          "gain": 20539
+        }
+      ],
+      "rollupZh": "今日焦点包括：研究界用逆向博弈论与机制设计约束AI智能体，并用忠诚度测试检验“超级智能”；工具侧则爆出Postman静默安装AI插件的争议，以及本地模型解读权重的新玩法。GitHub年度数据则显示，开发者借助智能体把提交与推送量推至新高。",
+      "rollupEn": "Today's highlights: researchers look to reverse game theory and mechanism design to keep AI agents in check, alongside loyalty tests for “super intelligence.” On the tooling side, users report Postman silently installing AI plugins, while a laptop-run Qwen model interprets its own weights. GitHub's Octoverse shows agent-driven commits and pushes hitting new highs.",
+      "failures": []
+    },
+    {
       "date": "2026-11-03",
       "items": [
         {

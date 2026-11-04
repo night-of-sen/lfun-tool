@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T10:36:57.609Z",
+  "generatedAt": "2026-11-04T06:28:50.800Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -4212,6 +4212,126 @@
     "awesome-dsh-plugin": {
       "en": "A curated list of plugins for DeepSeek Harness (dsh), for developers who want to find dsh plugins in one place.",
       "zh": "一份 DeepSeek Harness（dsh）插件精选列表，适合想集中查找 dsh 插件的开发者。"
+    },
+    "openshell": {
+      "en": "OpenShell is a private runtime for developers building autonomous AI agents, offering a safe environment to run them.",
+      "zh": "OpenShell 是面向自主 AI 智能体开发者的私有运行时，提供安全的运行环境。"
+    },
+    "openspeedy": {
+      "en": "An open-source game speed modifier for players who want to adjust how fast a game runs.",
+      "zh": "一款开源游戏速度修改工具，供想调整游戏运行速度的玩家使用。"
+    },
+    "tolaria": {
+      "en": "A desktop app for people who keep markdown notes, letting them manage markdown knowledge bases in one place.",
+      "zh": "一款桌面应用，供使用 markdown 笔记的用户集中管理 markdown 知识库。"
+    },
+    "ego-lite": {
+      "en": "A browser for AI agents to run browser automation, sharing your logged-in state with Codex or Claude Code without disturbing you.",
+      "zh": "让 AI 智能体运行浏览器自动化，并共享你的登录状态而不打扰你。"
+    },
+    "easy-vibe": {
+      "en": "A beginner course for AI product builders starting with vibe coding.",
+      "zh": "面向 AI 产品构建者的入门课程，帮助其上手 vibe coding。"
+    },
+    "komi-store": {
+      "en": "A free, open-source app store for users who want to browse, discover, and install developers' app releases from GitHub, Codeberg, and Forgejo with one click.",
+      "zh": "一款免费开源的 App Store，帮助用户浏览、发现并一键安装开发者在 GitHub、Codeberg 和 Forgejo 上发布的应用。"
+    },
+    "toonflow-app": {
+      "en": "Open-source AI platform for short drama and motion comic creators, combining script writing, storyboarding, asset management, image and video generation on an infinite canvas.",
+      "zh": "面向短剧与漫剧创作者的开源 AI 平台，集成剧本、分镜、资产与图像视频生成。"
+    },
+    "filee": {
+      "en": "Free, open-source offline converter for anyone needing drag-and-drop conversion across 263 image, document, video, audio, e-book and archive formats, without uploads.",
+      "zh": "免费开源文件转换器，适合需离线转换的用户，拖拽即可转换263种格式，无需上传。"
+    },
+    "codex-auth-helper": {
+      "en": "A local helper that exports your logged-in ChatGPT session configuration and creates a Codex-compatible auth.json backup file.",
+      "zh": "一个本地助手，导出已登录的 ChatGPT 会话配置，生成符合 Codex 规范的 auth.json 备份文件。"
+    },
+    "deepresearch": {
+      "en": "Tongyi DeepResearch is an open-source deep research agent for users who need automated research support.",
+      "zh": "通义 DeepResearch 是开源深度研究智能体，面向需要自动化研究支持的用户。"
+    },
+    "brag": {
+      "en": "For people who just built a project, Brag turns it into a short, shareable launch video with one command.",
+      "zh": "面向刚完成项目的人，Brag 用一条命令把项目变成简短可分享的发布视频。"
+    },
+    "voyager": {
+      "en": "A browser extension suite for people using Gemini, AI Studio, Claude, ChatGPT or DeepSeek, adding a prompt manager that works on any website.",
+      "zh": "面向 Gemini、AI Studio、Claude、ChatGPT 与 DeepSeek 使用者的增强套件，并提供可用于任意网站的提示词管理器。"
+    },
+    "img2threejs": {
+      "en": "For Three.js developers, it rebuilds an object from a reference image as a code-only, procedural, animation-ready model with token-efficient image-to-3D.",
+      "zh": "面向 Three.js 开发者，把参考图中的物体重建为纯代码、程序化、质量校验、可动画的模型。"
+    },
+    "ty": {
+      "en": "A fast Python type checker and language server, written in Rust, for developers who want quick type feedback.",
+      "zh": "面向需要快速类型检查的 Python 开发者，用 Rust 编写的类型检查器与语言服务器。"
+    },
+    "pdf-inspector": {
+      "en": "A fast Rust library for developers who need to inspect PDFs, extract text, and detect whether a PDF is scanned or text-based for routing decisions.",
+      "zh": "一个快速的 Rust 库，供开发者检查 PDF、提取文本，并判断 PDF 是扫描件还是文本型，以便做分流决策。"
+    },
+    "notebooklm-py": {
+      "en": "Unofficial Python API and agentic skill giving developers programmatic access to Google Gemini Notebook features.",
+      "zh": "为开发者提供 Notebook 的非官方 Python API 和代理技能。"
+    },
+    "claude-video": {
+      "en": "Lets Claude users hand any video to the model: /watch downloads it, extracts frames, transcribes audio, and passes it all to Claude.",
+      "zh": "让 Claude 用户通过 /watch 下载视频、抽取画面帧并转写音频，再全部交给 Claude 处理。"
+    },
+    "rocketride-server": {
+      "en": "For developers building LLM workflows, it offers a C++ core engine with 50+ Python-extensible nodes to build, debug, and scale agent pipelines from the IDE.",
+      "zh": "面向构建 LLM 工作流的开发者，提供 C++ 核心与 50+ 可扩展 Python 节点，可在 IDE 中搭建、调试并扩展智能体流程。"
+    },
+    "deep-research": {
+      "en": "An AI research assistant for anyone exploring a topic: it combines search engines, web scraping, and LLMs to iterate and deepen research.",
+      "zh": "面向需要深入研究主题的用户：结合搜索引擎、网页抓取与大语言模型，迭代细化研究方向。"
+    },
+    "lifeos": {
+      "en": "LifeOS is a universal AI Harness built to help people move from their current state to an ideal state in life and work.",
+      "zh": "LifeOS 是一个通用 AI Harness，用来帮助人们在生活与工作中从当前状态走向理想状态。"
+    },
+    "pua": {
+      "en": "A high-agency skill for AI agents that frames the model as an employee on a 30-day performance improvement plan.",
+      "zh": "面向 AI agent 的高能动性 skill，把模型当作需在 30 天内证明自己的员工。"
+    },
+    "pdfcraft": {
+      "en": "An open-source PDF reader and editor written from scratch in pure Rust, for users who want a Rust-based tool.",
+      "zh": "用纯 Rust 从头编写的开源 PDF 阅读器与编辑器，面向需要此类工具的用户。"
+    },
+    "dia": {
+      "en": "For creators and developers, Dia is a TTS model that generates ultra-realistic dialogue in a single pass.",
+      "zh": "面向创作者和开发者，Dia 是一款单次生成超真实对话语音的 TTS 模型。"
+    },
+    "hermes-webui": {
+      "en": "A web interface for people who want to use Hermes Agent from a browser or a phone.",
+      "zh": "面向希望从网页或手机使用 Hermes Agent 的用户，提供网页端界面。"
+    },
+    "opengym": {
+      "en": "OpenGym is an open-source gym and body-weight tracker for people who plan routines and log workouts, showing which muscles are trained.",
+      "zh": "OpenGym 是开源健身与自重训练记录工具，适合规划训练计划、记录训练并查看练到哪些肌肉的人。"
+    },
+    "cockpit-tools": {
+      "en": "Account manager for developers using multiple AI IDEs, supporting switching between accounts, quota monitoring, wake-up automation, and multi-instance management.",
+      "zh": "面向使用多个 AI IDE 的开发者，提供多账号切换、配额监控、自动唤醒与多开实例管理的账号管理工具。"
+    },
+    "ccusage": {
+      "en": "Ccusage is a dev tool that developers run with the command npx ccusage.",
+      "zh": "Ccusage 是一款开发工具，开发者可通过 npx ccusage 命令运行。"
+    },
+    "iii": {
+      "en": "A tool for teams that compose, extend, and observe every service in real-time.",
+      "zh": "面向需要实时编排、扩展并观测各项服务的团队的工具。"
+    },
+    "json-render": {
+      "en": "Json Render is a generative UI framework for developers who need to render user interfaces from JSON.",
+      "zh": "Json Render 是一个生成式 UI 框架，面向需要从 JSON 渲染用户界面的开发者。"
+    },
+    "xerj": {
+      "en": "For agent builders, Xerj is one Rust binary indexing code, docs, logs, JSONL/CSV and PDFs for BM25, vector, hybrid search, memory and RAG.",
+      "zh": "面向智能体开发者，Xerj 索引代码、文档与日志，支持全文、向量与混合检索。"
     }
   }
 }

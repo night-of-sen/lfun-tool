@@ -25540,6 +25540,660 @@
       "cloud": "",
       "descEn": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
       "pushedAt": "2026-10-31"
+    },
+    {
+      "id": "ego-lite",
+      "name": "Ego Lite",
+      "repo": "citrolabs/ego-lite",
+      "homepage": "https://lite.ego.app",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-agent",
+        "automation",
+        "browser"
+      ],
+      "seed": {
+        "stars": 21550,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. ",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "filee",
+      "name": "Filee",
+      "repo": "KnifeLemon/Filee",
+      "homepage": "https://filee.sh",
+      "category": "video-media",
+      "desc": "",
+      "tags": [
+        "audio-converter",
+        "avalonia",
+        "batch-conversion",
+        "converter"
+      ],
+      "seed": {
+        "stars": 21530,
+        "language": "C#"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Off",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "openshell",
+      "name": "OpenShell",
+      "repo": "NVIDIA/OpenShell",
+      "homepage": "https://docs.nvidia.com/openshell/latest/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 21060,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "openspeedy",
+      "name": "OpenSpeedy",
+      "repo": "game1024/OpenSpeedy",
+      "homepage": "https://game1024.github.io/OpenSpeedy/",
+      "category": "fun-games",
+      "desc": "",
+      "tags": [
+        "gamedev",
+        "gamemod",
+        "pc",
+        "rust"
+      ],
+      "seed": {
+        "stars": 20725,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🎮 An open-source game speed modifier.",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "voyager",
+      "name": "Voyager",
+      "repo": "voyager-crew/voyager",
+      "homepage": "https://voyager.nagi.fun/en",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-studio",
+        "browser-extension",
+        "bun",
+        "chat-management"
+      ],
+      "seed": {
+        "stars": 20539,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Enhancement suite for Gemini, AI Studio, Claude, ChatGPT & DeepSeek — plus a prompt manager for any website, DeepSeek Harness included. / 面向 Gemini、AI Studio、Claude、ChatGPT 与 DeepS",
+      "pushedAt": "2026-11-02"
+    },
+    {
+      "id": "tolaria",
+      "name": "Tolaria",
+      "repo": "refactoringhq/tolaria",
+      "homepage": "https://tolaria.md",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 20448,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Desktop app to manage markdown knowledge bases",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "toonflow-app",
+      "name": "Toonflow App",
+      "repo": "HBAI-Ltd/Toonflow-app",
+      "homepage": "https://toonflow.net",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "ai-comic",
+        "ai-content-creation",
+        "ai-filmmaking"
+      ],
+      "seed": {
+        "stars": 20361,
+        "language": "Vue"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "短剧、漫剧制作工具 Toonflow：开源 AI 视频创作平台，集成剧本创作、智能分镜、角色与场景资产管理、图像生成和视频生成。融合无限画布、AI Agent 与可视化工作流，支持本地部署、自选模型、跨平台客户端、MCP 与插件扩展。Open-source AI short drama and motion comic creation tool with ",
+      "pushedAt": "2026-11-02"
+    },
+    {
+      "id": "easy-vibe",
+      "name": "Easy Vibe",
+      "repo": "datawhalechina/easy-vibe",
+      "homepage": "https://datawhalechina.github.io/easy-vibe/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai",
+        "coding",
+        "course"
+      ],
+      "seed": {
+        "stars": 20329,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "💻 Vibe Coding 101｜Your First Course For AI Product Builders.",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "komi-store",
+      "name": "Komi Store",
+      "repo": "komi-store/komi-store",
+      "homepage": "https://www.komistore.app",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "android",
+        "app-store",
+        "compose-multiplatform",
+        "jetpack-compose"
+      ],
+      "seed": {
+        "stars": 20317,
+        "language": "Kotlin"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🩵 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and install apps with one click. Formerly GitHub Store.",
+      "pushedAt": "2026-11-01"
+    },
+    {
+      "id": "codex-auth-helper",
+      "name": "Codex Auth Helper",
+      "repo": "zhishile/codex-auth-helper",
+      "homepage": "https://codex.afione.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 20294,
+        "language": "CSS"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Codex登陆助手：安全地在本地导出您的已登录 ChatGPT 会话配置，生成符合 Codex 规范的 auth.json 本地备份文件。",
+      "pushedAt": "2026-06-07"
+    },
+    {
+      "id": "img2threejs",
+      "name": "Img2threejs",
+      "repo": "img2threejs/img2threejs",
+      "homepage": "https://img2threejs.io",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "3d",
+        "ai-agents",
+        "claude-code",
+        "computer-graphics"
+      ],
+      "seed": {
+        "stars": 20226,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "brag",
+      "name": "Brag",
+      "repo": "latent-spaces/brag",
+      "homepage": "https://latent-spaces.github.io/brag/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "claude-code",
+        "claude-skills",
+        "hyperframes"
+      ],
+      "seed": {
+        "stars": 20203,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "You built it. Now brag. Turn the project you just created into a short, shareable launch video with one command.",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "deepresearch",
+      "name": "DeepResearch",
+      "repo": "Alibaba-NLP/DeepResearch",
+      "homepage": "https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "alibaba",
+        "artificial-intelligence",
+        "deep-research"
+      ],
+      "seed": {
+        "stars": 20099,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Tongyi Deep Research, the Leading Open-source Deep Research Agent",
+      "pushedAt": "2026-02-27"
+    },
+    {
+      "id": "notebooklm-py",
+      "name": "Notebooklm Py",
+      "repo": "teng-lin/notebooklm-py",
+      "homepage": "https://github.com/teng-lin/notebooklm-py",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agentic-skill",
+        "claude-skills",
+        "gemini-notebook",
+        "gemini-notebook-api"
+      ],
+      "seed": {
+        "stars": 20091,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to Gemini Notebook's features—including capabilities the web UI doesn't expose—via Pyth",
+      "pushedAt": "2026-11-03"
+    },
+    {
+      "id": "ty",
+      "name": "Ty",
+      "repo": "astral-sh/ty",
+      "homepage": "https://docs.astral.sh/ty/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 20021,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An extremely fast Python type checker and language server, written in Rust.",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "deep-research",
+      "name": "Deep Research",
+      "repo": "dzhng/deep-research",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai",
+        "gpt",
+        "o3-mini"
+      ],
+      "seed": {
+        "stars": 19875,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large language models. The goal of this repo is ",
+      "pushedAt": "2026-04-11"
+    },
+    {
+      "id": "rocketride-server",
+      "name": "Rocketride Server",
+      "repo": "rocketride-org/rocketride-server",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "cpp",
+        "data-pipeline",
+        "data-processing"
+      ],
+      "seed": {
+        "stars": 19827,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug, and scale LLM workflows with 13+ model providers, 8+ vector databases, and agent ",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "claude-video",
+      "name": "Claude Video",
+      "repo": "bradautomates/claude-video",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 19822,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "pushedAt": "2026-09-25"
+    },
+    {
+      "id": "pdf-inspector",
+      "name": "Pdf Inspector",
+      "repo": "firecrawl/pdf-inspector",
+      "homepage": "https://firecrawl.github.io/pdf-inspector/",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "markdown",
+        "nodejs",
+        "ocr-routing",
+        "pdf"
+      ],
+      "seed": {
+        "stars": 19821,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "pua",
+      "name": "Pua",
+      "repo": "tanweai/pua",
+      "homepage": "https://openpua.ai/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agency",
+        "agent",
+        "pip",
+        "pua"
+      ],
+      "seed": {
+        "stars": 19794,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。 一个agent使用的高能动性的skill。 Your AI has been placed on a PIP. 30 days to show improvement.",
+      "pushedAt": "2026-09-09"
+    },
+    {
+      "id": "lifeos",
+      "name": "LifeOS",
+      "repo": "danielmiessler/LifeOS",
+      "homepage": "https://ourlifeos.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-harness",
+        "augmentation",
+        "coding"
+      ],
+      "seed": {
+        "stars": 19694,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "⛰️ LifeOS — The universal AI Harness designed to move you from Current to Ideal state in both life and work.",
+      "pushedAt": "2026-10-28"
+    },
+    {
+      "id": "cockpit-tools",
+      "name": "Cockpit Tools",
+      "repo": "jlcodes99/cockpit-tools",
+      "homepage": "https://github.com/jlcodes99/cockpit-tools#readme",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "account-manager",
+        "ai",
+        "antigravity",
+        "codebuddy"
+      ],
+      "seed": {
+        "stars": 19693,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Anti",
+      "pushedAt": "2026-11-03"
+    },
+    {
+      "id": "pdfcraft",
+      "name": "Pdfcraft",
+      "repo": "storytold/pdfcraft",
+      "homepage": "https://getartcraft.com/apps/printcraft",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "document-processing",
+        "documents",
+        "pdf",
+        "pdf-generation"
+      ],
+      "seed": {
+        "stars": 19474,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "dia",
+      "name": "Dia",
+      "repo": "nari-labs/dia",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "open-weight",
+        "text-to-speech"
+      ],
+      "seed": {
+        "stars": 19408,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A TTS model capable of generating ultra-realistic dialogue in one pass.",
+      "pushedAt": "2025-11-19"
+    },
+    {
+      "id": "hermes-webui",
+      "name": "Hermes Webui",
+      "repo": "nesquena/hermes-webui",
+      "homepage": "https://get-hermes.ai/setup",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai-agents",
+        "hermes",
+        "hermes-agent"
+      ],
+      "seed": {
+        "stars": 19380,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "ccusage",
+      "name": "Ccusage",
+      "repo": "ccusage/ccusage",
+      "homepage": "https://ccusage.com/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 19321,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "npx ccusage",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "opengym",
+      "name": "OpenGym",
+      "repo": "DuarteSantos8/openGym",
+      "homepage": "https://opengym.ch",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "apple-watch",
+        "bodyweight",
+        "docker",
+        "fitness"
+      ],
+      "seed": {
+        "stars": 19167,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from St",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "xerj",
+      "name": "Xerj",
+      "repo": "xerj-org/xerj",
+      "homepage": "https://xerj.org",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-memory",
+        "ai-agents",
+        "bm25",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 18969,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without ",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "iii",
+      "name": "Iii",
+      "repo": "iii-hq/iii",
+      "homepage": "https://iii.dev",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agents",
+        "ai",
+        "api",
+        "backend"
+      ],
+      "seed": {
+        "stars": 18912,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
+      "pushedAt": "2026-11-03"
+    },
+    {
+      "id": "json-render",
+      "name": "Json Render",
+      "repo": "vercel-labs/json-render",
+      "homepage": "https://json-render.dev",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 18901,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The Generative UI framework",
+      "pushedAt": "2026-11-04"
     }
   ]
 }
