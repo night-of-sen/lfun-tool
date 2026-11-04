@@ -2,17 +2,17 @@
 // 自动发现 GitHub 高星新项目，追加到 scripts/tools.source.json
 //
 // 用法:
-//   node scripts/discover.mjs                 正式执行（默认星数下限 8000）
+//   node scripts/discover.mjs                 正式执行（默认星数下限 3000）
 //   node scripts/discover.mjs --dry           试运行：只打印候选，不写文件
-//   node scripts/discover.mjs --min-stars=N   星数下限（默认 8000）
-//   node scripts/discover.mjs --max-pages=N   每个查询最多翻页数（默认 3）
+//   node scripts/discover.mjs --min-stars=N   星数下限（默认 3000）
+//   node scripts/discover.mjs --max-pages=N   每个查询最多翻页数（默认 10）
 //   node scripts/discover.mjs --limit=N       单次最多新增条目数（默认 30）
 //
 // 环境变量 GITHUB_TOKEN 可选（workflow 里已配；无 token 时 search API 仅 10 次/分钟）
 //
 // 发现策略（零依赖，只用 GitHub Search API）：
 //   A. 新贵：created:>2025-01-01 stars:>3000，按星数倒序 —— 抓快速走红的新项目
-//   B. 遗珠：stars:>15000，按星数倒序 —— 抓库里漏掉的老牌高星
+//   B. 遗珠：stars:>8000，按星数倒序 —— 抓库里漏掉的老牌高星（含 8000–15000 星中档）
 // 过滤：已收录 / fork / archived / disabled / 无描述 / 低于星数下限
 //
 // 新条目字段与现有 source.json 一致：
@@ -37,8 +37,8 @@ const opt = (k, d) => {
   const a = args.find((x) => x.startsWith("--" + k + "="));
   return a ? Number(a.split("=")[1]) : d;
 };
-const MIN_STARS = opt("min-stars", 8000);
-const MAX_PAGES = opt("max-pages", 3);
+const MIN_STARS = opt("min-stars", 3000);
+const MAX_PAGES = opt("max-pages", 10);
 const LIMIT = opt("limit", 30);
 
 const token = process.env.GITHUB_TOKEN || "";
@@ -124,7 +124,7 @@ function uniqueId(base) {
 
 const QUERIES = [
   "created:>2025-01-01 stars:>3000", // A. 新贵
-  "stars:>15000",                     // B. 遗珠
+  "stars:>8000",                      // B. 遗珠
 ];
 
 const candidates = new Map(); // repo full_name -> gh repo object
