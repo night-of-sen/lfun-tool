@@ -41,6 +41,7 @@ try {
 // ---- 已通过收录自动上架 ----
 // 后台改 approved 的提交由线上接口吐出，本脚本每天构建时合并进来，无需手动改 source.json。
 // 接口某天拉不到时，上次已上架的 approved 条目仍保留（不掉线）；下架需手动从 data/tools.json 删除。
+// 无仓库的网页提交（work_url）同样由接口吐出，直接进 developer-submissions 分类，不走 GitHub 拉取。
 // 环境变量 LFUN_APPROVED_URL 可覆盖接口地址；本地文件路径可用于测试。
 const APPROVED_URL = process.env.LFUN_APPROVED_URL || "https://tools.lfun.cloud/api/approved-tools.php";
 
@@ -105,7 +106,19 @@ async function fetchApproved() {
     }
     const data = JSON.parse(raw);
     if (!data || !Array.isArray(data.items)) return [];
-    return data.items.map((x) => ({ repo: normalizeRepo(x.repo), tier: x.tier || "free" })).filter((x) => x.repo.includes("/"));
+    // GitHub 仓库与网页提交都在同一接口里：仓库走 GitHub 拉取分支，无仓库的网页提交走 work_url 直上分支
+    return data.items.map((x) => ({
+      repo: normalizeRepo(x.repo),
+      tier: x.tier || "free",
+      name: String(x.name || "").trim(),
+      work_url: String(x.work_url || "").trim(),
+      oneliner: String(x.oneliner || "").trim(),
+      tags: Array.isArray(x.tags) ? x.tags.map((t) => String(t).trim()).filter(Boolean).slice(0, 3) : [],
+      screenshot_url: String(x.screenshot_url || "").trim(),
+      video_url: String(x.video_url || "").trim(),
+      price_model: String(x.price_model || "").trim(),
+      form: String(x.form || "").trim(),
+    }));
   } catch (e) {
     console.log("  已通过清单拉取失败，本轮只用上次缓存: " + e.message);
     return [];
@@ -121,31 +134,74 @@ function uniqueId(base) {
   return id;
 }
 const approvedIds = new Set();
-function pushApprovedSkeleton({ id, name, repo, category, desc, tags, usage, scene, cloud, seed, homepage, descEn, pushedAt }) {
+function pushApprovedSkeleton({ id, name, repo, category, desc, tags, usage, scene, cloud, seed, homepage, descEn, pushedAt, submitted, screenshot_url, video_url, price_model, form }) {
   items.push({
     id, name, repo, category, desc: desc || "", tags: tags || [],
     usage: usage || [], platforms: [], caution: "", scene: scene || "", cloud: cloud || "",
     seed: seed || { stars: 0, language: "", license: "" },
     homepage: homepage ?? null, descEn: descEn || "", pushedAt: pushedAt || "", _approved: true,
+    _web: submitted === true,
+    screenshot_url: screenshot_url || "", video_url: video_url || "",
+    price_model: price_model || "", form: form || "",
   });
-  existingRepos.add(repo.toLowerCase());
+  if (repo) existingRepos.add(repo.toLowerCase());
   existingIds.add(id);
   approvedIds.add(id);
 }
+
+// 网页提交判定：有作品链接、且仓库为空或不是 GitHub 仓库形态（非 github.com 的完整 URL）
+function isWebSubmission(a) {
+  if (!a.work_url) return false;
+  if (!a.repo) return true;
+  return a.repo.includes("://");
+}
 for (const a of approvedList) {
+  if (isWebSubmission(a)) continue; // 网页提交走下面的 work_url 直上分支，不消耗 GitHub 拉取
   if (!a.repo || existingRepos.has(a.repo)) continue;
   const repoName = a.repo.split("/")[1] || "tool";
   pushApprovedSkeleton({ id: uniqueId(slugify(repoName)), name: prettify(repoName), repo: a.repo, category: "dev-tools" });
 }
-// 上次已上架的 approved 条目：接口漏掉时也保留
+// 网页提交自动上架：无仓库的 approved 提交由 work_url 直接上架，统一进 developer-submissions 分类。
+// 卡片只放云版按钮，不写星数/语言/许可证等无法核实的数据；不消耗 GitHub API 配额。
+const WEB_CAT = "developer-submissions";
+const webHomepages = new Set();
+const sourceHomepages = new Set(items.map((t) => (t.homepage || "").toLowerCase()).filter(Boolean));
+const prevWebByHomepage = {};
 for (const p of Object.values(prevMap)) {
-  if (!p || p.approved !== true || !p.repo) continue;
-  if (existingRepos.has(String(p.repo).toLowerCase())) continue;
+  if (p && p.approved === true && p.submitted === true && p.homepage) prevWebByHomepage[p.homepage.toLowerCase()] = p;
+}
+for (const a of approvedList) {
+  if (!isWebSubmission(a)) continue;
+  const hp = a.work_url.trim();
+  const key = hp.toLowerCase();
+  if (!hp || webHomepages.has(key) || sourceHomepages.has(key)) continue;
+  webHomepages.add(key);
+  const prev = prevWebByHomepage[key];
   pushApprovedSkeleton({
-    id: p.id, name: p.name, repo: p.repo, category: p.category || "dev-tools",
+    id: prev ? prev.id : uniqueId(slugify(a.name || "web-tool")),
+    name: a.name || "Web Tool", repo: "", category: WEB_CAT,
+    desc: a.oneliner || "", tags: a.tags || [], usage: ["online"],
+    cloud: hp, seed: { stars: 0, language: "", license: "" },
+    homepage: hp, descEn: a.oneliner || "", pushedAt: "",
+    screenshot_url: a.screenshot_url, video_url: a.video_url,
+    price_model: a.price_model, form: a.form,
+    submitted: true,
+  });
+}
+// 上次已上架的 approved 条目：接口漏掉时也保留（仓库与网页提交都保留）
+for (const p of Object.values(prevMap)) {
+  if (!p || p.approved !== true) continue;
+  if (!p.repo && !p.submitted) continue;
+  if (p.repo && existingRepos.has(String(p.repo).toLowerCase())) continue;
+  if (!p.repo && p.homepage && webHomepages.has(p.homepage.toLowerCase())) continue;
+  pushApprovedSkeleton({
+    id: p.id, name: p.name, repo: p.repo || "", category: p.category || WEB_CAT,
     desc: p.desc, tags: p.tags, usage: p.usage, scene: p.scene, cloud: p.cloud,
     seed: { stars: p.stars || 0, language: p.language || "", license: p.license || "" },
     homepage: p.homepage, descEn: p.descEn, pushedAt: p.pushedAt,
+    screenshot_url: p.screenshot_url, video_url: p.video_url,
+    price_model: p.price_model, form: p.form,
+    submitted: p.submitted === true,
   });
 }
 console.log("  已通过收录合并: 接口 " + approvedList.length + " 条，本轮上架条目 " + approvedIds.size + " 个");
@@ -166,6 +222,7 @@ function isFresh(p) {
 const skipped = [];
 const fetchList = [];
 for (const it of items) {
+  if (it._web) { skipped.push(it.id); continue; } // 网页提交不走 GitHub 拉取
   if (ONLY && !ONLY.has(it.id)) { skipped.push(it.id); continue; }
   const p = prevMap[it.id];
   if (!FORCE && !ONLY && isFresh(p)) skipped.push(it.id);
@@ -213,6 +270,7 @@ for (const it of items) {
 }
 items = items.filter((it) => {
   if (!it._approved) return true;
+  if (it._web) return true; // 网页提交无需 GitHub 拉取，不因拉取失败掉线
   if (prevMap[it.id] && prevMap[it.id].approved === true) return true;
   const d = fetched.get(it.id);
   if (!d || d.__err) { console.log("  ✗ 已通过条目拉取失败，本轮不上架: " + it.repo); return false; }
@@ -233,8 +291,25 @@ const outItems = items.map((it) => {
     affiliate_url: it.affiliate_url || "",
     affiliate_enabled: it.affiliate_enabled === true,
     ...(it._approved ? { approved: true } : {}),
+    ...(it._web ? { submitted: true } : {}),
+    ...(it.screenshot_url ? { screenshot_url: it.screenshot_url } : {}),
+    ...(it.video_url ? { video_url: it.video_url } : {}),
+    ...(it.price_model ? { price_model: it.price_model } : {}),
+    ...(it.form ? { form: it.form } : {}),
   };
   const d = fetched.get(it.id);
+
+  // 网页提交：无需 GitHub 数据即完整，直接输出，不计入缺数据；收录日期写 addedAt（真实上架日）
+  if (it._web) {
+    return { ...base,
+      homepage: it.homepage || "",
+      stars: 0, language: "", license: "",
+      archived: false, pushedAt: "",
+      descEn: it.descEn || it.desc || "",
+      addedAt: p.addedAt || now.slice(0, 10),
+      syncOk: true, syncedAt: now,
+    };
+  }
 
   if (d && !d.__err) {
     ok++;

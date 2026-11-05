@@ -26,6 +26,7 @@
       "business-support": "商业与客服",
       "design-creativity": "创作与设计",
       "dev-tools": "开发工具",
+      "developer-submissions": "开发者提交",
       "fun-games": "娱乐与游戏",
       "infra-security": "基础设施与安全",
       "marketing-growth": "营销与增长",
@@ -249,7 +250,8 @@
     "trendingFallback": "上线初期暂无点赞数据，本区暂按最新排序。",
     "creatorSpotlight": "创作者推荐",
     "creatorWorks": "个作品",
-    "authorTitle": "创作者主页"
+    "authorTitle": "创作者主页",
+    "submitNotice": "该项目由开发者自行提交，使用时请注意个人信息安全，本站不对其内容与安全承担责任。"
   },
   "en": {
     "htmlLang": "en",
@@ -278,6 +280,7 @@
       "business-support": "Business & support",
       "design-creativity": "Design & creativity",
       "dev-tools": "Developer tools",
+      "developer-submissions": "Developer Submissions",
       "fun-games": "Fun & games",
       "infra-security": "Infrastructure & security",
       "marketing-growth": "Marketing & growth",
@@ -501,7 +504,8 @@
     "trendingFallback": "No vote data yet at launch, so this section falls back to latest for now.",
     "creatorSpotlight": "Creator spotlight",
     "creatorWorks": " works",
-    "authorTitle": "Creator"
+    "authorTitle": "Creator",
+    "submitNotice": "This project was submitted by its developer. Please take care of your personal information when using it; this site is not responsible for its content or security."
   },
   "tagTranslations": {
     "去水印": "Watermark removal",
@@ -861,6 +865,14 @@
       "en": "Developer tools",
       "cats": [
         "dev-tools"
+      ]
+    },
+    {
+      "key": "developer-submissions",
+      "zh": "开发者提交",
+      "en": "Developer Submissions",
+      "cats": [
+        "developer-submissions"
       ]
     },
     {
