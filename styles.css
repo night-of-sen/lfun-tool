@@ -516,3 +516,7 @@ html[data-theme="dark"] .re-hl mark{background:#a16207;color:#fff}
 .card-foot .share-row.compact{flex-basis:100%;justify-content:center}
 /* 操作按钮也独占一行并居中，与下方居中的分享行对齐，不再被 margin-left:auto 推到右侧 */
 .card-foot .actions{flex-basis:100%;justify-content:center;margin-left:0}
+
+/* 开发者提交免责提示（卡片与详情页） */
+.card-notice{margin:8px 0 0;font-size:12px;line-height:1.6;color:var(--muted)}
+.detail-notice{margin:12px 0 0;font-size:13px;line-height:1.7;color:var(--muted)}

@@ -410,7 +410,9 @@ function card(t, lang) {
   // 老工具无截图字段时用现有仓库头像图标兜底（加载失败走 iconFail，不留空白大图）
   var cover = t.screenshot_url
     ? '<div class="card-cover"><img class="card-cover-img" src="' + esc(t.screenshot_url) + '" alt="" loading="lazy" onerror="this.remove()"></div>'
-    : '<div class="card-cover"><img class="icon" src="https://github.com/' + esc(owner) + '.png?size=96" alt="" loading="lazy" data-initial="' + esc(initial) + '" onerror="iconFail(this)"></div>';
+    : (t.repo
+      ? '<div class="card-cover"><img class="icon" src="https://github.com/' + esc(owner) + '.png?size=96" alt="" loading="lazy" data-initial="' + esc(initial) + '" onerror="iconFail(this)"></div>'
+      : '<div class="card-cover"><span class="icon icon-fallback">' + esc(initial) + "</span></div>");
   var starsStat = t.repo
     ? '    <span class="stat" title="' + esc(L.specStars) + '">★ <span class="star-n">' + fmtStars(t.stars) + "</span></span>" : "";
   var langStat = t.language
@@ -432,6 +434,7 @@ function card(t, lang) {
     '      <div class="tier tier-' + deployTier(t) + '">' + esc(tierLabel(t, lang)) + "</div>",
     "    </div>",
     '  <p class="card-desc">' + esc(descOf(t, lang)) + "</p>",
+    (t.approved ? '  <p class="card-notice">' + esc(L.submitNotice) + "</p>" : ""),
     '  <div class="tags">' + tags + "</div>",
     '  <div class="card-foot">',
     (author ? '    <span class="card-author">' + esc(author) + "</span>" : ""),
@@ -784,7 +787,7 @@ function toolPage(t, lang) {
   for (var ri = 0; ri < catRanked.length; ri++) {
     if (catRanked[ri].id === t.id) { catRank = ri + 1; break; }
   }
-  if (catRank) specRows.push([L.specRank, lang === "zh" ? "第" + catRank + "名" : "#" + catRank]);
+  if (catRank && t.repo) specRows.push([L.specRank, lang === "zh" ? "第" + catRank + "名" : "#" + catRank]);
   if (t.language) specRows.push([L.specLang, t.language]);
   if (t.license && t.license !== "-") specRows.push([L.specLicense, t.license]);
   else if (t.repo) specRows.push([L.specLicense, L.noLicense]);
@@ -823,7 +826,7 @@ function toolPage(t, lang) {
   } else if (t.price_detail) {
     jsonld[0].offers = { "@type": "Offer", "priceCurrency": "USD", "description": t.price_detail };
   }
-  var titleName = titleNeedsOwner(t) ? t.name + " (" + t.repo.split("/")[0] + ")" : t.name;
+  var titleName = (titleNeedsOwner(t) && t.repo) ? t.name + " (" + t.repo.split("/")[0] + ")" : t.name;
   var title = lang === "zh"
     ? titleName + " · " + catLabel(lang, t.category) + " · " + L.siteName
     : titleName + " · " + catLabel(lang, t.category) + " · " + L.siteName;
@@ -833,7 +836,9 @@ function toolPage(t, lang) {
   // 工具名强制前缀：保证所有工具页 meta 描述全局唯一
   // （不同工具的 descEn 可能完全相同，如 tinyrenderer/tinyraytracer、opencode/opencode-2）
   descBase = t.name + (lang === "en" ? ": " : " - ") + descBase;
-  var desc = (descBase + (t.repo ? " ⭐ " + fmtStars(t.stars) + " · " : " · ") + (t.language || "") + " · " + (t.license || "")).slice(0, 300);
+  var desc = t.repo
+    ? (descBase + " ⭐ " + fmtStars(t.stars) + " · " + (t.language || "") + " · " + (t.license || "")).slice(0, 300)
+    : descBase.slice(0, 300);
 
   var lines = [
     head(lang, { title: title, desc: desc, paths: paths, jsonld: jsonld, ogType: "article" }),
@@ -869,6 +874,7 @@ function toolPage(t, lang) {
     '      <span>' + esc(TIER_DESC[lang][deployTier(t)]) + "</span>",
     "    </div>",
     '    <p class="detail-desc">' + esc((lead ? lead + " " : "") + descOf(t, lang)) + "</p>",
+    (t.approved ? '    <p class="detail-notice">' + esc(L.submitNotice) + "</p>" : ""),
     '    <div class="tags">' + tags + "</div>",
     // P4 正文顺序：截图/视频轮播 → 亮点 → 价格说明 → 更新记录 → 作者卡 → 信任信息 → 试用反馈
     (t.screenshot_url
