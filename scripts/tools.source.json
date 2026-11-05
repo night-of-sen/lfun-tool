@@ -26816,6 +26816,659 @@
       "cloud": "",
       "descEn": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
       "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "dsh-desktop-2",
+      "name": "Dsh Desktop",
+      "repo": "dataelement/dsh-desktop",
+      "homepage": "https://dshdesktop.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "apps",
+        "deepseek",
+        "deepseek-harness"
+      ],
+      "seed": {
+        "stars": 17403,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "ai-goofish-monitor",
+      "name": "Ai Goofish Monitor",
+      "repo": "Usagi-org/ai-goofish-monitor",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-assistant",
+        "ai-tools",
+        "automation"
+      ],
+      "seed": {
+        "stars": 17262,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+      "pushedAt": "2026-10-10"
+    },
+    {
+      "id": "awesome-codex-skills",
+      "name": "Awesome Codex Skills",
+      "repo": "composio-community/awesome-codex-skills",
+      "homepage": "",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "awesome",
+        "awesome-lists",
+        "awesome-resources",
+        "codex"
+      ],
+      "seed": {
+        "stars": 17202,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "pushedAt": "2026-07-26"
+    },
+    {
+      "id": "video-shotcraft",
+      "name": "Video Shotcraft",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "homepage": "https://vincentwei1021.github.io/video-shotcraft/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "ai-video",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 17150,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & J",
+      "pushedAt": "2026-10-29"
+    },
+    {
+      "id": "edict",
+      "name": "Edict",
+      "repo": "cft0808/edict",
+      "homepage": "https://openclaw.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "ai-orchestration",
+        "autonomous-agents",
+        "claude"
+      ],
+      "seed": {
+        "stars": 17049,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🏛️ 三省六部制 · OpenClaw Multi-Agent Orchestration System — 9 specialized AI agents with real-time dashboard, model config, and full audit trails",
+      "pushedAt": "2026-09-28"
+    },
+    {
+      "id": "ag-ui",
+      "name": "Ag Ui",
+      "repo": "ag-ui-protocol/ag-ui",
+      "homepage": "https://ag-ui.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ag-ui-protocol",
+        "agent-frontend",
+        "agent-ui",
+        "agentic-workflow"
+      ],
+      "seed": {
+        "stars": 17029,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "ai-berkshire",
+      "name": "Ai Berkshire",
+      "repo": "xbtlin/ai-berkshire",
+      "homepage": "https://xbtlin.github.io/ai-berkshire/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-agent",
+        "anthropic",
+        "berkshire-hathaway"
+      ],
+      "seed": {
+        "stars": 17017,
+        "language": "HTML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' meth",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "huobao-drama",
+      "name": "Huobao Drama",
+      "repo": "chatfire-AI/huobao-drama",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 17016,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🎬 火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》 Huobao Drama - An AI-Powered End-to-End Short Drama Generator \"One Sentence to Complete Drama: Fully Automated from Script to Final ",
+      "pushedAt": "2026-11-01"
+    },
+    {
+      "id": "xiaohongshu-mcp",
+      "name": "Xiaohongshu Mcp",
+      "repo": "xpzouying/xiaohongshu-mcp",
+      "homepage": "https://www.haha.ai/xiaohongshu-mcp",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "mcp",
+        "mcp-server",
+        "xiaohongshu-mcp"
+      ],
+      "seed": {
+        "stars": 16918,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "MCP for xiaohongshu.com",
+      "pushedAt": "2026-11-03"
+    },
+    {
+      "id": "gpu-unlock",
+      "name": "Gpu Unlock",
+      "repo": "Zagitta/gpu-unlock",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 16879,
+        "language": "C"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
+      "pushedAt": "2026-10-29"
+    },
+    {
+      "id": "deepcode",
+      "name": "DeepCode",
+      "repo": "HKUDS/DeepCode",
+      "homepage": "http://arxiv.org/abs/2512.07921",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agentic-coding",
+        "harness-engineering",
+        "llm-agent"
+      ],
+      "seed": {
+        "stars": 16804,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "\"DeepCode: Open Agentic Coding (Agent Harness & Loop Engineering & Multi-Agent Orchestration)\"",
+      "pushedAt": "2026-11-02"
+    },
+    {
+      "id": "kittentts",
+      "name": "KittenTTS",
+      "repo": "KittenML/KittenTTS",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 16800,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source State-of-the-art TTS model which runs on a CPU 😻",
+      "pushedAt": "2026-10-27"
+    },
+    {
+      "id": "awesome-ai-apps",
+      "name": "Awesome Ai Apps",
+      "repo": "Arindam200/awesome-ai-apps",
+      "homepage": "https://studio1hq.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agents",
+        "ai",
+        "hacktoberfest",
+        "llm"
+      ],
+      "seed": {
+        "stars": 16714,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A collection of projects showcasing RAG, agents, workflows, and other AI use cases",
+      "pushedAt": "2026-10-30"
+    },
+    {
+      "id": "freetoken",
+      "name": "FreeToken",
+      "repo": "FlashML-org/FreeToken",
+      "homepage": "flashml.ai",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "deepseek-v4",
+        "edge",
+        "glm",
+        "inference"
+      ],
+      "seed": {
+        "stars": 16667,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "artemis",
+      "name": "Artemis",
+      "repo": "google/artemis",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "android",
+        "google",
+        "test-automation"
+      ],
+      "seed": {
+        "stars": 16653,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants ",
+      "pushedAt": "2026-10-01"
+    },
+    {
+      "id": "web-ui",
+      "name": "Web Ui",
+      "repo": "browser-use/web-ui",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agent",
+        "browser-automation",
+        "browser-use-box",
+        "cloud-browser"
+      ],
+      "seed": {
+        "stars": 16645,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🖥️ Run AI Agent in your browser.",
+      "pushedAt": "2026-09-25"
+    },
+    {
+      "id": "openwa",
+      "name": "OpenWA",
+      "repo": "rmyndharis/OpenWA",
+      "homepage": "https://www.open-wa.org",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "api",
+        "bot",
+        "gateway",
+        "self-hosted"
+      ],
+      "seed": {
+        "stars": 16536,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "vphone-cli",
+      "name": "Vphone Cli",
+      "repo": "Lakr233/vphone-cli",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 16508,
+        "language": "Swift"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Run a virtual iPhone on an Apple Silicon Mac.",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "opensandbox",
+      "name": "OpenSandbox",
+      "repo": "opensandbox-group/OpenSandbox",
+      "homepage": "https://open-sandbox.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "aaif",
+        "ai",
+        "ai-agent",
+        "ai-infra"
+      ],
+      "seed": {
+        "stars": 16460,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "valdi",
+      "name": "Valdi",
+      "repo": "Snapchat/Valdi",
+      "homepage": "https://github.com/Snapchat/Valdi/discussions",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "android",
+        "cross-platform",
+        "ios",
+        "typescript"
+      ],
+      "seed": {
+        "stars": 16380,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Valdi is a cross-platform UI framework that delivers native performance without sacrificing developer velocity.",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "omnivoice",
+      "name": "OmniVoice",
+      "repo": "k2-fsa/OmniVoice",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 16308,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "High-Quality Voice Cloning TTS for 600+ Languages",
+      "pushedAt": "2026-11-02"
+    },
+    {
+      "id": "nano-vllm",
+      "name": "Nano Vllm",
+      "repo": "GeeeekExplorer/nano-vllm",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "deep-learning",
+        "inference",
+        "llm",
+        "nlp"
+      ],
+      "seed": {
+        "stars": 16300,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Nano vLLM",
+      "pushedAt": "2026-04-26"
+    },
+    {
+      "id": "bentopdf",
+      "name": "Bentopdf",
+      "repo": "alam00000/bentopdf",
+      "homepage": "https://bentopdf.com/",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "adobe-acrobat",
+        "docker",
+        "hacktoberfest",
+        "javascript"
+      ],
+      "seed": {
+        "stars": 16255,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The Privacy First PDF Toolkit",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "cc-connect",
+      "name": "Cc Connect",
+      "repo": "chenhg5/cc-connect",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 16249,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your A",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "zvec",
+      "name": "Zvec",
+      "repo": "alibaba/zvec",
+      "homepage": "https://zvec.org",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "db",
+        "embedded",
+        "faiss"
+      ],
+      "seed": {
+        "stars": 16188,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A lightweight, lightning-fast, in-process vector database",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "claude-obsidian",
+      "name": "Claude Obsidian",
+      "repo": "AgriciDaniel/claude-obsidian",
+      "homepage": "skool.com/ai-marketing-hub-pro",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-note-taking",
+        "ai-second-brain",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 16185,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI n",
+      "pushedAt": "2026-10-25"
+    },
+    {
+      "id": "openharness",
+      "name": "OpenHarness",
+      "repo": "HKUDS/OpenHarness",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 16165,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "\"OpenHarness: Open Agent Harness with a Built-in Personal Agent--Ohmo!\"",
+      "pushedAt": "2026-06-04"
+    },
+    {
+      "id": "figma-context-mcp",
+      "name": "Figma Context MCP",
+      "repo": "GLips/Figma-Context-MCP",
+      "homepage": "https://www.framelink.ai/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "cursor",
+        "figma",
+        "mcp"
+      ],
+      "seed": {
+        "stars": 16165,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "MCP server to provide Figma layout information to AI coding agents like Cursor",
+      "pushedAt": "2026-10-27"
+    },
+    {
+      "id": "agent-desktop",
+      "name": "Agent Desktop",
+      "repo": "vercel-labs/agent-desktop",
+      "homepage": "https://agent-browser.dev/desktop",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "accessibility",
+        "accessibility-api",
+        "ai-agents",
+        "automation"
+      ],
+      "seed": {
+        "stars": 16021,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Computer use CLI for AI agents",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "ziwei-doushu",
+      "name": "Ziwei Doushu",
+      "repo": "Renhuai123/ziwei-doushu",
+      "homepage": "https://ouranic.cn/?from=gh-about",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "bazi",
+        "chinese-astrology",
+        "divination",
+        "fortune-telling"
+      ],
+      "seed": {
+        "stars": 16020,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "pushedAt": "2026-11-03"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T03:41:54.552Z",
+  "generatedAt": "2026-11-05T10:37:32.258Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -4460,6 +4460,130 @@
     "cli-2": {
       "en": "For developers and AI agents working with Lark/飞书 services from the command line, covering Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks and Meetings.",
       "zh": "给开发者和 AI Agent 用的飞书 CLI，含消息、文档、表格、日历等模块。"
+    },
+    "awesome-codex-skills": {
+      "en": "A curated list of practical Codex skills for developers automating workflows across the Codex CLI and API.",
+      "zh": "面向开发者的 Codex 技能清单，用于在 Codex CLI 和 API 中自动化工作流。"
+    },
+    "ai-goofish-monitor": {
+      "en": "A Playwright and AI based tool that gives Xianyu shoppers real-time or scheduled multi-task monitoring, smart analysis, and an admin UI to find products among large listings.",
+      "zh": "面向闲鱼买家，基于 Playwright 和 AI 提供多任务实时或定时监控、智能分析与后台管理界面，帮助从海量商品中找到心仪产品。"
+    },
+    "edict": {
+      "en": "For teams orchestrating multi-agent workflows, Edict is an OpenClaw system with 9 specialized AI agents, a real-time dashboard, model config, and full audit trails.",
+      "zh": "面向需要编排多智能体工作流的团队，Edict 是一个 OpenClaw 系统，提供 9 个专用 AI 智能体、实时看板、模型配置与完整审计记录。"
+    },
+    "dsh-desktop-2": {
+      "en": "Desktop edition of DeepSeek Harness, aimed at users who want to use the harness as a desktop application.",
+      "zh": "DeepSeek Harness 的桌面版，面向希望以桌面应用方式使用该 harness 的用户。"
+    },
+    "ag-ui": {
+      "en": "AG-UI is an agent-user interaction protocol for bringing agents into frontend applications.",
+      "zh": "AG-UI 是一个代理与用户交互协议，用于把代理接入前端应用。"
+    },
+    "xiaohongshu-mcp": {
+      "en": "An MCP server for xiaohongshu.com, letting AI agents connect to the platform through the MCP protocol.",
+      "zh": "面向 AI 智能体的 MCP 服务，用于通过 MCP 协议连接小红书。"
+    },
+    "huobao-drama": {
+      "en": "An AI tool for creators who need short dramas, turning one sentence into a script and a final video.",
+      "zh": "面向需要制作短剧的创作者，用一句话自动完成从剧本到成片的生成。"
+    },
+    "ai-berkshire": {
+      "en": "A value investing research framework for Claude Code / Codex users, combining four masters' methodologies with multi-agent parallel research.",
+      "zh": "面向 Claude Code / Codex 用户的价值投资研究框架，融合四位大师方法论与多 Agent 并行研究。"
+    },
+    "deepcode": {
+      "en": "An open agentic coding tool for developers, offering agent harness, loop engineering and multi-agent orchestration to structure coding agents.",
+      "zh": "一款面向开发者的开源 agentic 编程工具，提供 agent harness、循环工程与多智能体编排能力。"
+    },
+    "gpu-unlock": {
+      "en": "For GeForce 20/30/40 series owners, it fixes AI running at half speed, with up to 2× FP16/BF16/TF32 tensor throughput.",
+      "zh": "面向 GeForce 20/30/40 系列用户，解决 AI 只能跑半速的问题，FP16/BF16/TF32 张量吞吐最高提升至 2×。"
+    },
+    "freetoken": {
+      "en": "FreeToken lets developers run massive models locally on a desktop, fast and efficiently.",
+      "zh": "FreeToken 让开发者在桌面本地快速高效地运行大规模模型。"
+    },
+    "awesome-ai-apps": {
+      "en": "For developers exploring AI, it collects projects showing RAG, agents, and workflows as examples.",
+      "zh": "面向探索 AI 的开发者，汇集展示 RAG、智能体和工作流的项目示例。"
+    },
+    "kittentts": {
+      "en": "An open-source text-to-speech model for developers who need speech synthesis to run on a CPU.",
+      "zh": "面向需要在 CPU 上运行语音合成的开发者，这是一个开源文本转语音模型。"
+    },
+    "vphone-cli": {
+      "en": "Vphone Cli lets developers run a virtual iPhone on an Apple Silicon Mac.",
+      "zh": "Vphone Cli 让开发者在 Apple Silicon Mac 上运行虚拟 iPhone。"
+    },
+    "web-ui": {
+      "en": "Lets users run an AI agent directly in the browser, so they can try agent workflows without a separate setup.",
+      "zh": "面向想在浏览器中直接运行 AI Agent 的用户，无需额外搭建环境即可试用。"
+    },
+    "artemis": {
+      "en": "For developers and users of AI coding assistants, it turns natural-language instructions into reliable Android automation workflows with log capture.",
+      "zh": "面向开发者和 AI 编程助手用户，把自然语言指令转成可靠的安卓自动化流程，并可记录日志。"
+    },
+    "openwa": {
+      "en": "OpenWA is a free, open source, self-hosted WhatsApp API gateway for developers who need to connect applications to WhatsApp on their own infrastructure.",
+      "zh": "OpenWA 是一款免费、开源、自托管的 WhatsApp API 网关，适合需要在自有基础设施上把应用接入 WhatsApp 的开发者。"
+    },
+    "valdi": {
+      "en": "A cross-platform UI framework for developers who want native performance while keeping development speed.",
+      "zh": "面向希望兼顾原生性能与开发效率的开发者，提供跨平台 UI 框架。"
+    },
+    "opensandbox": {
+      "en": "OpenSandbox is a secure, fast, and extensible sandbox runtime for developers building AI agents.",
+      "zh": "OpenSandbox 为构建 AI 智能体的开发者提供安全、快速、可扩展的沙箱运行时。"
+    },
+    "omnivoice": {
+      "en": "For developers who need voice cloning TTS, OmniVoice offers high-quality speech synthesis across 600+ languages.",
+      "zh": "面向需要语音克隆 TTS 的开发者，OmniVoice 提供 600 多种语言的高质量语音合成。"
+    },
+    "nano-vllm": {
+      "en": "Nano vLLM is listed as an ai-agents tool; its description gives no further detail on intended users or problems solved.",
+      "zh": "Nano vLLM 被归类为 ai-agents 工具，描述中未说明适用人群与所解决的问题。"
+    },
+    "bentopdf": {
+      "en": "A PDF toolkit for users who want to handle documents while keeping privacy first.",
+      "zh": "一款 PDF 工具集，适合希望优先保护隐私处理文档的用户。"
+    },
+    "cc-connect": {
+      "en": "Lets developers chat with local AI coding agents like Claude Code and Cursor from messaging apps such as Slack and Telegram, with no public IP required for most platforms.",
+      "zh": "让开发者在 Slack、Telegram 等聊天应用中与本地 AI 编码助手（如 Claude Code、Cursor）对话，多数平台无需公网 IP。"
+    },
+    "openharness": {
+      "en": "OpenHarness is an open agent harness with a built-in personal agent, Ohmo, for developers building and running agents.",
+      "zh": "OpenHarness 是开源 agent harness，内置个人 agent Ohmo，供开发者构建与运行 agent。"
+    },
+    "zvec": {
+      "en": "Zvec is a lightweight, in-process vector database for developers who need fast vector search within their own applications.",
+      "zh": "Zvec 是轻量的进程内向量数据库，适合需要在自身应用中进行快速向量检索的开发者。"
+    },
+    "claude-obsidian": {
+      "en": "For Obsidian and Claude Code users, it reads dropped sources and files them into one linked Markdown knowledge graph.",
+      "zh": "面向 Obsidian 与 Claude Code 用户，读取放入的资料并整理进一个互相关联的纯 Markdown 知识图谱。"
+    },
+    "figma-context-mcp": {
+      "en": "An MCP server that gives AI coding agents such as Cursor Figma layout information.",
+      "zh": "为 Cursor 等 AI 编程代理提供 Figma 布局信息的 MCP server。"
+    },
+    "foxphone": {
+      "en": "FoxPhone Cloud Phone is a cloud-based phone for AI agents, app testing, and multi-account operations.",
+      "zh": "FoxPhone 云手机是一款面向 AI 智能体、应用测试和多账号运营的云手机。"
+    },
+    "ziwei-doushu": {
+      "en": "An open-source Ziwei Doushu chart engine for developers building astrology apps, offering chart algorithms, a four-transformation system, and classical text data.",
+      "zh": "面向开发紫微斗数应用的开发者，提供排盘算法、四化系统与古籍原文数据的开源排盘引擎。"
+    },
+    "agent-desktop": {
+      "en": "A command-line tool that lets AI agents control a computer, aimed at developers building agent workflows.",
+      "zh": "面向开发者的命令行工具，让 AI 智能体操作计算机。"
+    },
+    "repostit-clips": {
+      "en": "For creators repurposing YouTube videos: it turns them into scored vertical clips and schedules them for TikTok, Reels and Shorts.",
+      "zh": "面向内容创作者：把 YouTube 视频转成带评分的竖屏片段，并定时发布到 TikTok、Reels 和 Shorts。"
     }
   }
 }

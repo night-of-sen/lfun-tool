@@ -7802,5 +7802,229 @@
     "source": "",
     "fetchedAt": "2026-11-05T03:41:16.778Z",
     "missing": true
+  },
+  "dsh-desktop-2": {
+    "summary": "DSH Desktop packages the local DeepSeek Harness experience as an installed desktop application. It starts Harness automatically, keeps profiles, plugins, workspaces, model settings, and sessions outside the application directory, and opens the full Harness interface as soon as the local runtime is r…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9564,
+    "fetchedAt": "2026-11-05T10:34:51.445Z"
+  },
+  "ai-goofish-monitor": {
+    "summary": "",
+    "docker": "git clone https://github.com/Usagi-org/ai-goofish-monitor && cd ai-goofish-monitor\ncp .env.example .env\nvim .env # 填写相关配置项\ndocker compose up -d\ndocker compose logs -f app\ndocker compose down",
+    "source": "README.md",
+    "rawLength": 7354,
+    "fetchedAt": "2026-11-05T10:34:51.445Z"
+  },
+  "awesome-codex-skills": {
+    "summary": "Skills tell your agent how to work. An MCP Gateway gives it secure access to the tools it needs.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15487,
+    "fetchedAt": "2026-11-05T10:34:51.445Z"
+  },
+  "video-shotcraft": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 19515,
+    "fetchedAt": "2026-11-05T10:34:51.445Z"
+  },
+  "edict": {
+    "summary": "",
+    "docker": "docker run -p 7891:7891 cft0808/sansheng-demo",
+    "source": "README.md",
+    "rawLength": 21465,
+    "fetchedAt": "2026-11-05T10:34:51.958Z"
+  },
+  "ag-ui": {
+    "summary": "AG-UI is an open, lightweight, event-based protocol that standardizes how AI agents connect to user-facing applications. Built for simplicity and flexibility, it enables seamless integration between AI agents, real time user context, and user interfaces.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13010,
+    "fetchedAt": "2026-11-05T10:34:51.958Z"
+  },
+  "ai-berkshire": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20716,
+    "fetchedAt": "2026-11-05T10:34:51.958Z"
+  },
+  "huobao-drama": {
+    "summary": "Huobao Drama 是一个基于 AI 的短剧自动化生产平台，实现从剧本生成、角色设计、分镜制作到视频合成的全流程自动化。 Huobao Drama is an AI-powered short-drama production platform that automates the entire pipeline: script generation, character design, storyboard breakdown, and video compositing.",
+    "docker": "docker pull huobao/huobao-drama:4.0.6\n\ndocker run -d \\\n  --name huobao-drama \\\n  -p 5679:5679 \\\n  -v huobao-data:/app/data \\\n  --restart unless-stopped \\\n  huobao/huobao-drama:4.0.6",
+    "source": "README.md",
+    "rawLength": 38444,
+    "fetchedAt": "2026-11-05T10:34:51.958Z"
+  },
+  "xiaohongshu-mcp": {
+    "summary": "",
+    "docker": "# 默认无界面版\ndocker compose -f docker/docker-compose.yml up -d",
+    "source": "README.md",
+    "rawLength": 38357,
+    "fetchedAt": "2026-11-05T10:34:51.958Z"
+  },
+  "gpu-unlock": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13041,
+    "fetchedAt": "2026-11-05T10:34:51.958Z"
+  },
+  "deepcode": {
+    "summary": "DeepCode provides TUI, Desktop, and Web clients over one shared local service. They share Projects, Session history, models, Skills, permissions, Goals, and Automations. Use deepcode, deepcode desktop, or deepcode web; see Quick start for installation and your first task.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 31681,
+    "fetchedAt": "2026-11-05T10:34:52.526Z"
+  },
+  "kittentts": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14133,
+    "fetchedAt": "2026-11-05T10:34:52.526Z"
+  },
+  "awesome-ai-apps": {
+    "summary": "Awesome AI Apps is a hands-on collection of projects, tutorials and recipes for building LLM-powered applications: text agents, voice assistants, RAG apps, MCP tools and fine-tuning pipelines. Each project lives in its own folder with a README, its own dependencies and a .env.example, so you can clo…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 33789,
+    "fetchedAt": "2026-11-05T10:34:52.526Z"
+  },
+  "freetoken": {
+    "summary": "FreeToken is an edge-native Mixture-of-Experts (MoE) serving engine designed for running frontier-scale open-weight models on personal and consumer hardware. It treats heterogeneous edge resources—GPUs, CPUs, host memory, and interconnects—as a unified, elastic inference platform. Its core features…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5029,
+    "fetchedAt": "2026-11-05T10:34:52.526Z"
+  },
+  "artemis": {
+    "summary": "ARTEMIS includes a native Model Context Protocol (MCP) server. Connect your real phone directly into AI IDEs:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 17747,
+    "fetchedAt": "2026-11-05T10:34:52.526Z"
+  },
+  "web-ui": {
+    "summary": "WebUI: is built on Gradio and supports most of browser-use functionalities. This UI is designed to be user-friendly and enables easy interaction with the browser agent.",
+    "docker": "docker compose up --build",
+    "source": "README.md",
+    "rawLength": 6162,
+    "fetchedAt": "2026-11-05T10:34:52.526Z"
+  },
+  "openwa": {
+    "summary": "OpenWA is a free, open-source WhatsApp API Gateway designed for developers who need full control over their messaging infrastructure—without vendor lock-in or hidden paywalls.",
+    "docker": "# Clone and start\ngit clone https://github.com/rmyndharis/OpenWA.git\ncd OpenWA\ndocker compose -f docker-compose.dev.yml up -d\n\n# Access (the dashboard is bundled into the API image and served on the same port)\n# Dashboard: http://localhost:2785\n# API: http://localhost:2785/api\n# Swagger: http://localhost:2785/api/docs",
+    "source": "README.md",
+    "rawLength": 37647,
+    "fetchedAt": "2026-11-05T10:34:53.119Z"
+  },
+  "vphone-cli": {
+    "summary": "vphone-cli runs iOS with Apple's Virtualization.framework and PCC research virtual machines, for security research, reverse engineering, and debugging.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2849,
+    "fetchedAt": "2026-11-05T10:34:53.119Z"
+  },
+  "opensandbox": {
+    "summary": "OpenSandbox gives AI applications isolated environments to execute code, run commands, manage files, and operate browsers or desktops. Start locally with Docker and deploy on Kubernetes through a unified sandbox API.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11632,
+    "fetchedAt": "2026-11-05T10:34:53.119Z"
+  },
+  "valdi": {
+    "summary": "Valdi is a cross-platform UI framework that delivers native performance without sacrificing developer velocity. Write your UI once in declarative TypeScript, and it compiles directly to native views on iOS, Android, and macOS—no web views, no JavaScript bridges.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7771,
+    "fetchedAt": "2026-11-05T10:34:53.119Z"
+  },
+  "omnivoice": {
+    "summary": "OmniVoice is a state-of-the-art massively multilingual zero-shot text-to-speech (TTS) model supporting over 600 languages. Built on a novel diffusion language model-style architecture, it generates high-quality speech with superior inference speed, supporting voice cloning and voice design.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16757,
+    "fetchedAt": "2026-11-05T10:34:53.119Z"
+  },
+  "nano-vllm": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2175,
+    "fetchedAt": "2026-11-05T10:34:53.119Z"
+  },
+  "bentopdf": {
+    "summary": "BentoPDF is a powerful, privacy-first, client-side PDF toolkit that is self-hostable and allows you to manipulate, edit, merge, and process PDF files directly in your browser. No server-side processing is required, ensuring your files remain secure and private.",
+    "docker": "docker run -p 3000:8080 ghcr.io/alam00000/bentopdf-simple:latest",
+    "source": "README.md",
+    "rawLength": 71920,
+    "fetchedAt": "2026-11-05T10:34:53.727Z"
+  },
+  "cc-connect": {
+    "summary": "cc-connect already supports Kimi CLI. Try a Kimi Code plan (中文站 | Global), or use the API through the Kimi Open Platform (中文站 | Global).",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 39351,
+    "fetchedAt": "2026-11-05T10:34:53.727Z"
+  },
+  "zvec": {
+    "summary": "Zvec is an open-source, in-process vector database — lightweight, lightning-fast, and designed to embed directly into applications. Battle-tested within Alibaba Group, it delivers production-grade, low-latency and scalable similarity search with minimal setup.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8784,
+    "fetchedAt": "2026-11-05T10:34:53.727Z"
+  },
+  "claude-obsidian": {
+    "summary": "claude-obsidian turns the things you read into a knowledge base that keeps getting more useful. Drop a paper, an article, a transcript or your own notes into the vault, and Claude reads them, writes linked notes with sources, and files everything into one connected knowledge graph you can explore in…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 22733,
+    "fetchedAt": "2026-11-05T10:34:53.727Z"
+  },
+  "openharness": {
+    "summary": "OpenHarness delivers core lightweight agent infrastructure: tool-use, skills, memory, and multi-agent coordination.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 32388,
+    "fetchedAt": "2026-11-05T10:34:53.727Z"
+  },
+  "figma-context-mcp": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4182,
+    "fetchedAt": "2026-11-05T10:34:53.727Z"
+  },
+  "agent-desktop": {
+    "summary": "agent-desktop mcp serves every command as an MCP tool over stdio. A tool is named after its command (desktopsnapshot, desktopclick, desktopsessionstart), takes that command's arguments, and returns its JSON envelope:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10016,
+    "fetchedAt": "2026-11-05T10:35:55.427Z"
+  },
+  "ziwei-doushu": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15987,
+    "fetchedAt": "2026-11-05T10:35:55.427Z"
+  },
+  "foxphone": {
+    "summary": "",
+    "docker": "",
+    "source": "",
+    "fetchedAt": "2026-11-05T10:36:57.475Z",
+    "missing": true
+  },
+  "repostit-clips": {
+    "summary": "",
+    "docker": "",
+    "source": "",
+    "fetchedAt": "2026-11-05T10:36:57.475Z",
+    "missing": true
   }
 }
