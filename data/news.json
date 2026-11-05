@@ -1,6 +1,368 @@
 {
   "days": [
     {
+      "date": "2026-11-05",
+      "items": [
+        {
+          "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+          "link": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+          "source": "Hacker News",
+          "date": "2026-11-04",
+          "zhTitle": "高通 Cloud AI 100 Ultra：150W、128GB、548GB/s 的 AI 加速卡",
+          "zh": "高通 Cloud AI 100 Ultra 加速卡：150W 功耗、128GB 内存、548GB/s 带宽。",
+          "en": "Qualcomm details its 150W Cloud AI 100 Ultra accelerator card with 128GB at 548GB/s."
+        },
+        {
+          "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+          "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-04",
+          "zhTitle": "得州曾是 AI 数据中心建设新中心，如今或已成泡影",
+          "zh": "得州一度是 AI 数据中心建设的新中心，这一局面可能已告终结。",
+          "en": "Texas, once the new epicenter of AI data center buildout, may no longer be so."
+        },
+        {
+          "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+          "link": "https://news.ycombinator.com/item?id=50368804",
+          "source": "Hacker News",
+          "date": "2026-11-04",
+          "zhTitle": "Launch HN：Kino AI（YC S23）——AI 媒体管理与视频剪辑工具",
+          "zh": "YC S23 团队 Kino AI 在 Hacker News 发布 AI 媒体管理与视频剪辑产品。",
+          "en": "YC S23 startup Kino AI launches an AI media manager and video editor on Hacker News."
+        },
+        {
+          "title": "Progress on provable inference for large language models",
+          "link": "https://www.anthropic.com/research/provable-inference",
+          "source": "Hacker News",
+          "date": "2026-11-04",
+          "zhTitle": "大语言模型可证明推理的研究进展",
+          "zh": "Anthropic 介绍其在大语言模型可证明推理方面的研究进展。",
+          "en": "Anthropic shares research progress on provable inference for large language models."
+        },
+        {
+          "title": "Kimi K3.1 Pro model weights are out",
+          "link": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+          "source": "Hacker News",
+          "date": "2026-11-04",
+          "zhTitle": "Kimi K3.1 Pro 模型权重已发布",
+          "zh": "Kimi K3.1 Pro 模型权重已在 Hugging Face 发布。",
+          "en": "Kimi K3.1 Pro model weights are released on Hugging Face."
+        },
+        {
+          "title": "OpenAI to acquire Pierre Computer Company",
+          "link": "https://openai.com/index/openai-to-acquire-pierre/",
+          "source": "Hacker News",
+          "date": "2026-11-04",
+          "zhTitle": "OpenAI 将收购 Pierre Computer Company",
+          "zh": "OpenAI 宣布将收购 Pierre Computer Company。",
+          "en": "OpenAI announces it will acquire Pierre Computer Company."
+        },
+        {
+          "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+          "link": "https://openai.com/index/openai-to-acquire-pierre",
+          "source": "OpenAI",
+          "date": "2026-11-04",
+          "zhTitle": "OpenAI 将收购 Pierre Computer Company, Inc.",
+          "zh": "OpenAI 官方公告：将收购 Pierre Computer Company, Inc.。",
+          "en": "OpenAI's official post on acquiring Pierre Computer Company, Inc."
+        },
+        {
+          "title": "A thousand fewer paths to root",
+          "link": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "source": "OpenAI",
+          "date": "2026-11-04",
+          "zhTitle": "少了上千条通往 root 的路径",
+          "zh": "OpenAI 发布安全主题文章《少了上千条通往 root 的路径》。",
+          "en": "OpenAI publishes \"A thousand fewer paths to root,\" a security post."
+        },
+        {
+          "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+          "link": "https://openai.com/index/daybreak-red-aws-govcloud",
+          "source": "OpenAI",
+          "date": "2026-11-04",
+          "zhTitle": "Daybreak Red 现已在 AWS GovCloud（美国东部）上线",
+          "zh": "OpenAI 宣布 Daybreak Red 已在 AWS GovCloud 美国东部区域可用。",
+          "en": "Daybreak Red is now available in AWS GovCloud US-East."
+        },
+        {
+          "title": "Introducing Images 2.6",
+          "link": "https://openai.com/index/introducing-images-2-6",
+          "source": "OpenAI",
+          "date": "2026-11-04",
+          "zhTitle": "推出 Images 2.6",
+          "zh": "OpenAI 发布图像模型 Images 2.6。",
+          "en": "OpenAI introduces Images 2.6."
+        },
+        {
+          "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+          "link": "https://openai.com/index/devrev-enterprise-self-service",
+          "source": "OpenAI",
+          "date": "2026-11-04",
+          "zhTitle": "DevRev 借助 GPT-6.1 Sol 实现自主自助服务",
+          "zh": "DevRev 使用 GPT-6.1 Sol 提供自主式企业自助服务。",
+          "en": "DevRev delivers autonomous self-service with GPT-6.1 Sol."
+        },
+        {
+          "title": "The Download: controlling AI agents and &#8220;Super Intelligence&#8221; loyalty tests",
+          "link": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-03",
+          "zhTitle": "The Download：管控 AI 智能体与“超级智能”忠诚度测试",
+          "zh": "今日关注：如何管控 AI 智能体，以及“超级智能”的忠诚度测试。",
+          "en": "Today's Download: controlling AI agents and \"Super Intelligence\" loyalty tests."
+        },
+        {
+          "title": "How “reverse game theory” could keep AI agents in check",
+          "link": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-03",
+          "zhTitle": "“逆向博弈论”如何约束 AI 智能体",
+          "zh": "文章探讨“逆向博弈论”与机制设计如何用于约束 AI 智能体。",
+          "en": "How \"reverse game theory\" and mechanism design could keep AI agents in check."
+        },
+        {
+          "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+          "link": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+          "source": "GitHub Blog",
+          "date": "2026-10-28",
+          "zhTitle": "Octoverse：2026 年开发者用智能体构建，提交与推送量创新高",
+          "zh": "GitHub Octoverse：2026 年提交与推送量创新高，开发者借助智能体开发。",
+          "en": "Octoverse: 2026 commits and pushes hit new highs as developers build with agents."
+        },
+        {
+          "title": "The bridge to agent-scale Git infrastructure",
+          "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+          "source": "GitHub Blog",
+          "date": "2026-10-21",
+          "zhTitle": "通往智能体规模 Git 基础设施的桥梁",
+          "zh": "GitHub 工程博客介绍为支撑智能体规模所做的 Git 基础设施架构优化。",
+          "en": "GitHub engineering on the bridge to agent-scale Git infrastructure."
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "agent-lightning",
+          "name": "Agent Lightning",
+          "repo": "microsoft/agent-lightning",
+          "stars": 18900
+        },
+        {
+          "id": "skillopt",
+          "name": "SkillOpt",
+          "repo": "microsoft/SkillOpt",
+          "stars": 18897
+        },
+        {
+          "id": "browser-harness",
+          "name": "Browser Harness",
+          "repo": "browser-use/browser-harness",
+          "stars": 18872
+        },
+        {
+          "id": "dsh-superagent-prototype",
+          "name": "Dsh Superagent Prototype",
+          "repo": "deepseek-ai/dsh-superagent-prototype",
+          "stars": 18748
+        },
+        {
+          "id": "gastown",
+          "name": "Gastown",
+          "repo": "gastownhall/gastown",
+          "stars": 18695
+        },
+        {
+          "id": "auto-claude-code-research-in-sleep",
+          "name": "Auto Claude Code Research In Sleep",
+          "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
+          "stars": 18660
+        },
+        {
+          "id": "stop-slop",
+          "name": "Stop Slop",
+          "repo": "hardikpandya/stop-slop",
+          "stars": 18627
+        },
+        {
+          "id": "lingbot-map",
+          "name": "Lingbot Map",
+          "repo": "Robbyant/lingbot-map",
+          "stars": 18538
+        },
+        {
+          "id": "compositor",
+          "name": "Compositor",
+          "repo": "robbietilton/Compositor",
+          "stars": 18441
+        },
+        {
+          "id": "wan2-2",
+          "name": "Wan2.2",
+          "repo": "Wan-Video/Wan2.2",
+          "stars": 18376
+        },
+        {
+          "id": "deepwiki-open",
+          "name": "Deepwiki Open",
+          "repo": "AsyncFuncAI/deepwiki-open",
+          "stars": 18369
+        },
+        {
+          "id": "gemini-fullstack-langgraph-quickstart",
+          "name": "Gemini Fullstack Langgraph Quickstart",
+          "repo": "google-gemini/gemini-fullstack-langgraph-quickstart",
+          "stars": 18363
+        },
+        {
+          "id": "agent-skills-for-context-engineering",
+          "name": "Agent Skills For Context Engineering",
+          "repo": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+          "stars": 18300
+        },
+        {
+          "id": "openfang",
+          "name": "Openfang",
+          "repo": "RightNow-AI/openfang",
+          "stars": 18245
+        },
+        {
+          "id": "dsh-purge",
+          "name": "Dsh Purge",
+          "repo": "HunYiSage/dsh-purge",
+          "stars": 18240
+        },
+        {
+          "id": "opencodex",
+          "name": "Opencodex",
+          "repo": "lidge-jun/opencodex",
+          "stars": 18219
+        },
+        {
+          "id": "rowboat",
+          "name": "Rowboat",
+          "repo": "rowboatlabs/rowboat",
+          "stars": 18136
+        },
+        {
+          "id": "cli-2",
+          "name": "Cli",
+          "repo": "larksuite/cli",
+          "stars": 17974
+        },
+        {
+          "id": "droiddeck",
+          "name": "DroidDeck",
+          "repo": "Droid-Deck/DroidDeck",
+          "stars": 17910
+        },
+        {
+          "id": "gsap-skills",
+          "name": "Gsap Skills",
+          "repo": "greensock/gsap-skills",
+          "stars": 17889
+        },
+        {
+          "id": "openwiki",
+          "name": "Openwiki",
+          "repo": "langchain-ai/openwiki",
+          "stars": 17756
+        },
+        {
+          "id": "mcp-for-beginners",
+          "name": "Mcp For Beginners",
+          "repo": "microsoft/mcp-for-beginners",
+          "stars": 17606
+        },
+        {
+          "id": "filmcraft",
+          "name": "Filmcraft",
+          "repo": "storytold/filmcraft",
+          "stars": 17541
+        },
+        {
+          "id": "turbovec",
+          "name": "Turbovec",
+          "repo": "RyanCodrai/turbovec",
+          "stars": 17460
+        },
+        {
+          "id": "memori",
+          "name": "Memori",
+          "repo": "MemoriLabs/Memori",
+          "stars": 17412
+        },
+        {
+          "id": "awesome-gpt-image-2-api-prompts",
+          "name": "Awesome Gpt Image 2 API Prompts",
+          "repo": "Evolink-AI/awesome-gpt-image-2-API-Prompts",
+          "stars": 17383
+        },
+        {
+          "id": "wan2-1",
+          "name": "Wan2.1",
+          "repo": "Wan-Video/Wan2.1",
+          "stars": 17379
+        },
+        {
+          "id": "memvid",
+          "name": "Memvid",
+          "repo": "memvid/memvid",
+          "stars": 17369
+        },
+        {
+          "id": "framepack",
+          "name": "FramePack",
+          "repo": "lllyasviel/FramePack",
+          "stars": 17349
+        },
+        {
+          "id": "wordcraft",
+          "name": "Wordcraft",
+          "repo": "storytold/wordcraft",
+          "stars": 17317
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "agent-lightning",
+          "name": "Agent Lightning",
+          "repo": "microsoft/agent-lightning",
+          "stars": 18900,
+          "gain": 18900
+        },
+        {
+          "id": "skillopt",
+          "name": "SkillOpt",
+          "repo": "microsoft/SkillOpt",
+          "stars": 18897,
+          "gain": 18897
+        },
+        {
+          "id": "browser-harness",
+          "name": "Browser Harness",
+          "repo": "browser-use/browser-harness",
+          "stars": 18872,
+          "gain": 18872
+        },
+        {
+          "id": "dsh-superagent-prototype",
+          "name": "Dsh Superagent Prototype",
+          "repo": "deepseek-ai/dsh-superagent-prototype",
+          "stars": 18748,
+          "gain": 18748
+        },
+        {
+          "id": "gastown",
+          "name": "Gastown",
+          "repo": "gastownhall/gastown",
+          "stars": 18695,
+          "gain": 18695
+        }
+      ],
+      "rollupZh": "今日高通发布 150W、128GB 的 Cloud AI 100 Ultra 加速卡，Anthropic 公布大模型可证明推理研究进展。Kimi K3.1 Pro 权重与 OpenAI 的 Images 2.6 相继发布，OpenAI 同时宣布收购 Pierre Computer Company。GitHub 数据显示 2026 年提交与推送量创新高，开发者正大规模借助智能体开发。",
+      "rollupEn": "Qualcomm detailed its 150W Cloud AI 100 Ultra card with 128GB at 548GB/s, while Anthropic shared progress on provable inference. Kimi K3.1 Pro weights and OpenAI's Images 2.6 shipped, and OpenAI announced it will acquire Pierre Computer Company. GitHub's Octoverse reports record commits and pushes in 2026 as developers build with agents.",
+      "failures": []
+    },
+    {
       "date": "2026-11-04",
       "items": [
         {

@@ -7578,5 +7578,229 @@
     "source": "README.md",
     "rawLength": 25305,
     "fetchedAt": "2026-11-04T06:28:15.950Z"
+  },
+  "agent-lightning": {
+    "summary": "Agent Lightning v1.0 keeps the training architecture simple with three lightweight components:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11937,
+    "fetchedAt": "2026-11-05T03:40:11.547Z"
+  },
+  "skillopt": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9751,
+    "fetchedAt": "2026-11-05T03:40:11.547Z"
+  },
+  "browser-harness": {
+    "summary": "Browser Harness lets Claude Code, Codex or Cursor use your real Chrome browser: open pages, click, type, read and download, logged in as you. Paste one prompt into your coding agent to set it up. It talks to Chrome over the DevTools Protocol (CDP), and the agent writes any missing helper as it works…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8848,
+    "fetchedAt": "2026-11-05T03:40:11.547Z"
+  },
+  "dsh-superagent-prototype": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2571,
+    "fetchedAt": "2026-11-05T03:40:11.547Z"
+  },
+  "gastown": {
+    "summary": "",
+    "docker": "export GIT_USER=\"<your name>\"\nexport GIT_EMAIL=\"<your email>\"\nexport FOLDER=\"/path/to/empty/dir\"   # empty directory or existing Gas Town HQ\nexport DASHBOARD_PORT=8080           # optional, host port for the dashboard\n\nmkdir -p \"$FOLDER\"\ndocker compose build              # only needed on first run or after code changes\ndocker compose up -d\ndocker compose logs -f gastown    # wait for \"HQ created successfully!\", then Ctrl-C\n\ndocker compose exec gastown zsh   # or bash",
+    "source": "README.md",
+    "rawLength": 30438,
+    "fetchedAt": "2026-11-05T03:40:12.049Z"
+  },
+  "auto-claude-code-research-in-sleep": {
+    "summary": "Codex MCP config + alternative reviewer routing — pin the model in /.codex/config.toml ; pointers to Codex+Claude-review, Codex+Gemini-review, and the Codex mirror install chain",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 231320,
+    "fetchedAt": "2026-11-05T03:40:12.049Z"
+  },
+  "stop-slop": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1845,
+    "fetchedAt": "2026-11-05T03:40:12.049Z"
+  },
+  "lingbot-map": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 29334,
+    "fetchedAt": "2026-11-05T03:40:12.049Z"
+  },
+  "compositor": {
+    "summary": "Compositor is English only for now, and translation pull requests aren't being accepted. It's maintained by one person, every new string would need translating from then on, and translations in languages I don't read can't be reviewed. I'll revisit this once the app settles; until then, please don't…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9495,
+    "fetchedAt": "2026-11-05T03:40:12.049Z"
+  },
+  "wan2-2": {
+    "summary": "Wan2.2 builds on the foundation of Wan2.1 with notable improvements in generation quality and model capability. This upgrade is driven by a series of key technical innovations, mainly including the Mixture-of-Experts (MoE) architecture, upgraded training data, and high-compression video generation.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 35544,
+    "fetchedAt": "2026-11-05T03:40:12.049Z"
+  },
+  "deepwiki-open": {
+    "summary": "DeepWiki is my own implementation attempt of DeepWiki, automatically creates beautiful, interactive wikis for any GitHub, GitLab, or BitBucket repository! Just enter a repo name, and DeepWiki will:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2722,
+    "fetchedAt": "2026-11-05T03:40:12.519Z"
+  },
+  "gemini-fullstack-langgraph-quickstart": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6399,
+    "fetchedAt": "2026-11-05T03:40:12.519Z"
+  },
+  "agent-skills-for-context-engineering": {
+    "summary": "Context engineering is the discipline of managing the language model's context window. Unlike prompt engineering, which focuses on crafting effective instructions, context engineering addresses the holistic curation of all information that enters the model's limited attention budget: system prompts…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 24644,
+    "fetchedAt": "2026-11-05T03:40:12.519Z"
+  },
+  "openfang": {
+    "summary": "OpenFang is an open-source Agent Operating System. Not a chatbot framework. Not a Python wrapper around an LLM. Not a \"multi-agent orchestrator.\" A full operating system for autonomous agents, built from scratch in Rust.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20639,
+    "fetchedAt": "2026-11-05T03:40:12.519Z"
+  },
+  "dsh-purge": {
+    "summary": "dsh-purge was originally developed by its author as an independent project. It is now maintained by the dsh-purge maintainers team, which handles the codebase, documentation, releases, and security response. All historical commits, issues, and releases are preserved and links remain unchanged; the o…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 34525,
+    "fetchedAt": "2026-11-05T03:40:12.519Z"
+  },
+  "opencodex": {
+    "summary": "OpenCodex tracks process-retained state in the categories below. Each has a documented bound:",
+    "docker": "git clone https://github.com/lidge-jun/opencodex.git\ncd opencodex\ndocker compose build\nopenssl rand -hex 32 | docker compose run --rm -T hub bun run docker/bootstrap-token.ts\ndocker compose up -d\ncurl --fail --silent http://127.0.0.1:10100/healthz\ncurl --fail --silent http://127.0.0.1:10100/readyz",
+    "source": "README.md",
+    "rawLength": 28236,
+    "fetchedAt": "2026-11-05T03:40:12.519Z"
+  },
+  "rowboat": {
+    "summary": "Rowboat indexes your work into a living knowledge graph and uses that to get work done on your machine. It includes work surfaces for collaborating with AI: email client, notes, browser, code mode, meeting note taker, and workspaces for different projects.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18382,
+    "fetchedAt": "2026-11-05T03:40:12.990Z"
+  },
+  "cli-2": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 19061,
+    "fetchedAt": "2026-11-05T03:40:12.990Z"
+  },
+  "droiddeck": {
+    "summary": "DroidDeck brings the SteamOS experience to Android: Steam Gaming Mode, full Linux desktop, integration with GOG, Epic Games, Xbox, and other storefronts, Steam VR, and more!",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18190,
+    "fetchedAt": "2026-11-05T03:40:12.990Z"
+  },
+  "gsap-skills": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7654,
+    "fetchedAt": "2026-11-05T03:40:12.990Z"
+  },
+  "openwiki": {
+    "summary": "OpenWiki turns your codebase and knowledge sources into a linked Markdown wiki that you own. Your coding agent can use it to understand a repository, answer questions, and find context across related projects. You can read the same pages or explore them as an interactive graph.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 49440,
+    "fetchedAt": "2026-11-05T03:40:12.990Z"
+  },
+  "mcp-for-beginners": {
+    "summary": "MCP is a protocol - a set of agreed-upon rules that help AI models and applications have productive \"conversations\" with tools and services. Just like how having conversation rules makes human communication smoother, having MCP makes AI application communication much more reliable and powerful.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 35950,
+    "fetchedAt": "2026-11-05T03:40:12.990Z"
+  },
+  "filmcraft": {
+    "summary": "FilmCraft is a professional non-linear editor: familiar panels, workspaces, tools and shortcuts, so your hands already know where everything is. Underneath, it is new from the bitstream up. The H.264, HEVC, ProRes and AAC codecs are our own, written in Rust from the public specifications. A GPU comp…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 39629,
+    "fetchedAt": "2026-11-05T03:40:13.576Z"
+  },
+  "turbovec": {
+    "summary": "turbovec is an in-process vector index for Python and Rust. It stores each vector at 2 or 4 bits per dimension using Google Research's TurboQuant and searches that compressed form directly with agent-optimised SIMD kernels.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10523,
+    "fetchedAt": "2026-11-05T03:40:13.576Z"
+  },
+  "memori": {
+    "summary": "Memori was evaluated on the LoCoMo benchmark for long-conversation memory and achieved 87% overall accuracy while using an average of 721 tokens per query. That is just 2.8% of the full-context footprint, showing that structured memory can preserve reasoning quality without forcing large prompts int…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13462,
+    "fetchedAt": "2026-11-05T03:40:13.576Z"
+  },
+  "awesome-gpt-image-2-api-prompts": {
+    "summary": "GPT Image 2 (also known as GPT-Image-2 or gpt-image-2) is OpenAI's latest image generation and editing model, integrated natively into ChatGPT and available via the OpenAI API.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1106684,
+    "fetchedAt": "2026-11-05T03:40:13.576Z"
+  },
+  "wan2-1": {
+    "summary": "Wan2.1 is a unified model for both image and video generation. Since it was trained on both types of data, it can also generate images. The command for generating images is similar to video generation, as follows:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 42867,
+    "fetchedAt": "2026-11-05T03:40:13.576Z"
+  },
+  "memvid": {
+    "summary": "Memvid is a portable AI memory system that packages your data, embeddings, search structure, and metadata into a single file.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16320,
+    "fetchedAt": "2026-11-05T03:40:13.576Z"
+  },
+  "framepack": {
+    "summary": "FramePack is a next-frame (next-frame-section) prediction neural network structure that generates videos progressively.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16558,
+    "fetchedAt": "2026-11-05T03:41:16.778Z"
+  },
+  "wordcraft": {
+    "summary": "WordCraft is one of the Crafting Apps: free, open-source creative tools from the ArtCraft team, each written from scratch in Rust and each able to stand on its own.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 30672,
+    "fetchedAt": "2026-11-05T03:41:16.778Z"
+  },
+  "mangatranslate": {
+    "summary": "",
+    "docker": "",
+    "source": "",
+    "fetchedAt": "2026-11-05T03:41:16.778Z",
+    "missing": true
+  },
+  "what-time-zone-am-i": {
+    "summary": "",
+    "docker": "",
+    "source": "",
+    "fetchedAt": "2026-11-05T03:41:16.778Z",
+    "missing": true
   }
 }

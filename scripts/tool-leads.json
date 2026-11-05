@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T06:28:50.800Z",
+  "generatedAt": "2026-11-05T03:41:54.552Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -4332,6 +4332,134 @@
     "xerj": {
       "en": "For agent builders, Xerj is one Rust binary indexing code, docs, logs, JSONL/CSV and PDFs for BM25, vector, hybrid search, memory and RAG.",
       "zh": "面向智能体开发者，Xerj 索引代码、文档与日志，支持全文、向量与混合检索。"
+    },
+    "dsh-superagent-prototype": {
+      "en": "A prototype for developers exploring more autonomous agent systems, aimed at the problem of limited agent autonomy.",
+      "zh": "面向探索更高自主性智能体系统的开发者，针对智能体自主性受限的问题。"
+    },
+    "browser-harness": {
+      "en": "For developers using Claude Code, Codex or Cursor, it lets the agent drive your real Chrome while logged in as you, with one-prompt setup.",
+      "zh": "面向使用 Claude Code、Codex 或 Cursor 的开发者，让智能体以你的登录身份操作真实的 Chrome，一条提示即可完成配置。"
+    },
+    "agent-lightning": {
+      "en": "A trainer for AI agents, aimed at developers who build and improve agent workflows.",
+      "zh": "面向构建和改进智能体工作流的开发者，提供 AI 智能体训练器。"
+    },
+    "gastown": {
+      "en": "A multi-agent workspace manager for developers who need to organize several AI agents within one workspace.",
+      "zh": "面向需要统一管理多个 AI agent 的开发者，Gas Town 提供多 agent 工作区管理。"
+    },
+    "stop-slop": {
+      "en": "A skill file for writers that removes AI tells from prose.",
+      "zh": "面向写作者的技能文件，用于从文稿中去除 AI 痕迹。"
+    },
+    "lingbot-map": {
+      "en": "LingBot-Map is a geometric context transformer for developers who need streaming 3D reconstruction.",
+      "zh": "LingBot-Map 是面向开发者的几何上下文 Transformer，用于流式 3D 重建。"
+    },
+    "wan2-2": {
+      "en": "Wan2.2 provides open, large-scale video generative models for developers and researchers who need video generation.",
+      "zh": "Wan2.2 面向需要视频生成的开发者与研究者，提供开放的大规模视频生成模型。"
+    },
+    "auto-claude-code-research-in-sleep": {
+      "en": "ARIS provides lightweight Markdown-only skills for ML researchers who need autonomous workflows like cross-model review loops, idea discovery, and experiment automation.",
+      "zh": "ARIS 为机器学习研究者提供轻量纯 Markdown 技能，支持跨模型评审循环、想法发现与实验自动化等自主研究流程。"
+    },
+    "compositor": {
+      "en": "For Mac users who need a Photoshop alternative, Compositor is presented as a Photoshop alternative for Mac.",
+      "zh": "面向需要 Photoshop 替代方案的 Mac 用户，Compositor 是一款 Mac 上的 Photoshop 替代工具。"
+    },
+    "deepwiki-open": {
+      "en": "For developers using GitHub, GitLab, or Bitbucket repositories, it generates AI-powered wikis from their code.",
+      "zh": "面向使用 GitHub、GitLab 或 Bitbucket 仓库的开发者，用 AI 生成 Wiki 文档。"
+    },
+    "skillopt": {
+      "en": "SkillOpt helps agent builders train reusable natural-language skills for frozen LLMs through trajectory-driven edits, validation-gated updates, and deployable best_skill.md files.",
+      "zh": "SkillOpt 帮开发者训练可复用的自然语言技能，供冻结 LLM 智能体使用。"
+    },
+    "agent-skills-for-context-engineering": {
+      "en": "A collection of Agent Skills for context engineering and multi-agent architectures, for developers building, optimizing, or debugging agent systems.",
+      "zh": "面向构建、优化或调试智能体系统的开发者，提供上下文工程与多智能体架构的 Agent Skills 集合。"
+    },
+    "gemini-fullstack-langgraph-quickstart": {
+      "en": "A quickstart for developers who want to build fullstack agents with Gemini 2.5 and LangGraph.",
+      "zh": "帮助开发者用 Gemini 2.5 与 LangGraph 快速上手全栈智能体开发。"
+    },
+    "openfang": {
+      "en": "Openfang is an open-source agent operating system that gives teams a base layer for running AI agents.",
+      "zh": "Openfang 是开源 Agent 操作系统，为需要运行 AI Agent 的团队提供基础层。"
+    },
+    "opencodex": {
+      "en": "A proxy for developers using Codex CLI, App, or SDK and Claude Code, letting them plug in other LLMs.",
+      "zh": "面向使用 Codex CLI、App、SDK 和 Claude Code 的开发者，可接入其他 LLM 的代理。"
+    },
+    "rowboat": {
+      "en": "Rowboat is an AI coworker with memory and collaboration, aimed at teams that need shared context while working together.",
+      "zh": "Rowboat 是具备记忆与协作能力的 AI 同事，面向需要共同推进工作的团队。"
+    },
+    "dsh-purge": {
+      "en": "A jailbreak prompt harness for developers who need per-model prompts, with a default prompt for the Chinese model Xiaomajiang.",
+      "zh": "面向需要为不同模型切换破甲提示词的用户，默认提示词针对国模「小码酱」。"
+    },
+    "droiddeck": {
+      "en": "DroidDeck brings a SteamOS-like experience to Android users.",
+      "zh": "DroidDeck 为 Android 用户带来类似 SteamOS 的体验。"
+    },
+    "openwiki": {
+      "en": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+      "zh": "OpenWiki 是一个命令行工具，为代码库编写并维护面向智能体的文档。"
+    },
+    "gsap-skills": {
+      "en": "Official GSAP skills that teach AI coding agents to use GSAP correctly, covering animation patterns and plugin usage.",
+      "zh": "面向 AI 编程助手的 GSAP 官方技能，教其正确使用动画模式与插件。"
+    },
+    "filmcraft": {
+      "en": "An open-source nonlinear video editor written from scratch in pure Rust, for video editors who want a Rust-built editing tool.",
+      "zh": "一款面向视频剪辑用户的开源非线性视频编辑器，使用纯 Rust 从零编写。"
+    },
+    "memori": {
+      "en": "Memori gives production agent systems a model-agnostic memory layer that turns executions and conversations into persistent structured state.",
+      "zh": "Memori 为智能体系统提供模型无关记忆层，把执行与对话转为持久结构化状态。"
+    },
+    "turbovec": {
+      "en": "Turbovec is a vector index built on TurboQuant, written in Rust with Python bindings for developers who need vector indexing.",
+      "zh": "Turbovec 是基于 TurboQuant 的向量索引，用 Rust 编写并提供 Python 绑定，供需要向量索引的开发者使用。"
+    },
+    "awesome-gpt-image-2-api-prompts": {
+      "en": "A collection of GPT-Image-2 API and prompt resources for users who need reference material on the API and its prompts.",
+      "zh": "为使用 GPT-Image-2 API 的用户整理 API 与提示词资源，方便集中查阅参考。"
+    },
+    "mcp-for-beginners": {
+      "en": "An open-source curriculum teaching developers MCP fundamentals via cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python, covering modular, secure AI workflows.",
+      "zh": "开源课程，面向开发者，用多语言示例讲解 MCP 基础及安全的 AI 工作流构建。"
+    },
+    "wan2-1": {
+      "en": "Wan2.1 offers open large-scale video generative models for developers and researchers building video generation tools.",
+      "zh": "Wan2.1 提供开源大规模视频生成模型，面向开发视频生成工具的开发者与研究者。"
+    },
+    "framepack": {
+      "en": "A tool for developers working with video diffusion models, aimed at making video diffusion practical to use.",
+      "zh": "面向使用视频扩散模型的开发者，目标是让视频扩散在实际使用中变得可行。"
+    },
+    "wordcraft": {
+      "en": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust, for developers who want a word processor written from scratch.",
+      "zh": "用纯 Rust 干净室重写 Microsoft Word 的开源文字处理工具，面向需要从零构建文档编辑器的开发者。"
+    },
+    "mangatranslate": {
+      "en": "MangaTranslate is an AI manga translation tool for readers and creators, translating images and PDFs into 100+ languages with online editing.",
+      "zh": "MangaTranslate 面向读者和创作者，可将图片与 PDF 翻译成 100 多种语言，并提供在线编辑。"
+    },
+    "what-time-zone-am-i": {
+      "en": "A simple tool that instantly shows your current time zone, local time and UTC offset.",
+      "zh": "一个简单工具，可即时查看当前时区、本地时间和 UTC 偏移。"
+    },
+    "memvid": {
+      "en": "Memory layer for AI agents that replaces complex RAG pipelines with a serverless single-file memory, giving agents instant retrieval and long-term memory.",
+      "zh": "为 AI Agent 提供单文件、无服务器的记忆层，替代复杂的 RAG 流程。"
+    },
+    "cli-2": {
+      "en": "For developers and AI agents working with Lark/飞书 services from the command line, covering Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks and Meetings.",
+      "zh": "给开发者和 AI Agent 用的飞书 CLI，含消息、文档、表格、日历等模块。"
     }
   }
 }

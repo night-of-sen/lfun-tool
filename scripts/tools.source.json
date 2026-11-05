@@ -26194,6 +26194,628 @@
       "cloud": "",
       "descEn": "The Generative UI framework",
       "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "agent-lightning",
+      "name": "Agent Lightning",
+      "repo": "microsoft/agent-lightning",
+      "homepage": "https://microsoft.github.io/agent-lightning/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agentic-ai",
+        "llm",
+        "mlops"
+      ],
+      "seed": {
+        "stars": 18900,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The absolute trainer to light up AI agents.",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "skillopt",
+      "name": "SkillOpt",
+      "repo": "microsoft/SkillOpt",
+      "homepage": "https://aka.ms/skillopt",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "self-evolving-agents"
+      ],
+      "seed": {
+        "stars": 18897,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "browser-harness",
+      "name": "Browser Harness",
+      "repo": "browser-use/browser-harness",
+      "homepage": "https://browser-harness.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agent",
+        "browser-agent",
+        "browser-automation",
+        "browser-use"
+      ],
+      "seed": {
+        "stars": 18872,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Let Claude Code, Codex or Cursor use your real Chrome, logged in as you. One prompt to set up. Open source, MIT.",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "dsh-superagent-prototype",
+      "name": "Dsh Superagent Prototype",
+      "repo": "deepseek-ai/dsh-superagent-prototype",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 18739,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Towards a More Autonomous Agent System",
+      "pushedAt": "2026-11-03"
+    },
+    {
+      "id": "gastown",
+      "name": "Gastown",
+      "repo": "gastownhall/gastown",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 18694,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Gas Town - multi-agent workspace manager",
+      "pushedAt": "2026-10-28"
+    },
+    {
+      "id": "auto-claude-code-research-in-sleep",
+      "name": "Auto Claude Code Research In Sleep",
+      "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-research",
+        "ai-tools",
+        "aris",
+        "autonomous-agent"
+      ],
+      "seed": {
+        "stars": 18660,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, n",
+      "pushedAt": "2026-11-03"
+    },
+    {
+      "id": "stop-slop",
+      "name": "Stop Slop",
+      "repo": "hardikpandya/stop-slop",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 18627,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A skill file for removing AI tells from prose",
+      "pushedAt": "2026-03-17"
+    },
+    {
+      "id": "lingbot-map",
+      "name": "Lingbot Map",
+      "repo": "Robbyant/lingbot-map",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 18538,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
+      "pushedAt": "2026-10-14"
+    },
+    {
+      "id": "compositor",
+      "name": "Compositor",
+      "repo": "robbietilton/Compositor",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 18441,
+        "language": "Swift"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The Photoshop alternative for Mac",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "wan2-2",
+      "name": "Wan2.2",
+      "repo": "Wan-Video/Wan2.2",
+      "homepage": "https://wan.video",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "aigc",
+        "video-generation"
+      ],
+      "seed": {
+        "stars": 18375,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Wan: Open and Advanced Large-Scale Video Generative Models",
+      "pushedAt": "2026-09-21"
+    },
+    {
+      "id": "deepwiki-open",
+      "name": "Deepwiki Open",
+      "repo": "AsyncFuncAI/deepwiki-open",
+      "homepage": "https://grok-wiki.com/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "codex",
+        "gemini",
+        "github"
+      ],
+      "seed": {
+        "stars": 18369,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open Source DeepWiki: AI-Powered Wiki Generator for GitHub/Gitlab/Bitbucket Repositories. Join the discord: https://discord.gg/gMwThUMeme",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "gemini-fullstack-langgraph-quickstart",
+      "name": "Gemini Fullstack Langgraph Quickstart",
+      "repo": "google-gemini/gemini-fullstack-langgraph-quickstart",
+      "homepage": "https://ai.google.dev/gemini-api/docs/google-search",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "gemini",
+        "gemini-api"
+      ],
+      "seed": {
+        "stars": 18363,
+        "language": "Jupyter Notebook"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Get started with building Fullstack Agents using Gemini 2.5 and LangGraph",
+      "pushedAt": "2026-06-14"
+    },
+    {
+      "id": "agent-skills-for-context-engineering",
+      "name": "Agent Skills For Context Engineering",
+      "repo": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 18300,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent syste",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "openfang",
+      "name": "Openfang",
+      "repo": "RightNow-AI/openfang",
+      "homepage": "https://www.openfang.sh/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-framework",
+        "ai-agents",
+        "llm",
+        "mcp"
+      ],
+      "seed": {
+        "stars": 18245,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source Agent Operating System",
+      "pushedAt": "2026-07-02"
+    },
+    {
+      "id": "dsh-purge",
+      "name": "Dsh Purge",
+      "repo": "HunYiSage/dsh-purge",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin",
+        "dsh-plugins"
+      ],
+      "seed": {
+        "stars": 18232,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分",
+      "pushedAt": "2026-11-03"
+    },
+    {
+      "id": "opencodex",
+      "name": "Opencodex",
+      "repo": "lidge-jun/opencodex",
+      "homepage": "https://opencodex.me/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-gateway",
+        "ai-tools",
+        "anthropic",
+        "chatgpt"
+      ],
+      "seed": {
+        "stars": 18218,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "rowboat",
+      "name": "Rowboat",
+      "repo": "rowboatlabs/rowboat",
+      "homepage": "https://www.rowboatlabs.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agents",
+        "agents-sdk",
+        "ai",
+        "ai-agents"
+      ],
+      "seed": {
+        "stars": 18136,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AI coworker with memory and collaboration",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "cli-2",
+      "name": "Cli",
+      "repo": "larksuite/cli",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 17972,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Ma",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "droiddeck",
+      "name": "DroidDeck",
+      "repo": "Droid-Deck/DroidDeck",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 17909,
+        "language": "Kotlin"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "DroidDeck brings the SteamOS experience to Android",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "gsap-skills",
+      "name": "Gsap Skills",
+      "repo": "greensock/gsap-skills",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 17889,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Official AI skills for GSAP. These skills teach AI coding agents how to correctly use GSAP (GreenSock Animation Platform), including best practices, common animation patterns, and ",
+      "pushedAt": "2026-07-29"
+    },
+    {
+      "id": "openwiki",
+      "name": "Openwiki",
+      "repo": "langchain-ai/openwiki",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 17756,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "mcp-for-beginners",
+      "name": "Mcp For Beginners",
+      "repo": "microsoft/mcp-for-beginners",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "csharp",
+        "java",
+        "javascript",
+        "javascript-applications"
+      ],
+      "seed": {
+        "stars": 17606,
+        "language": "Jupyter Notebook"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and ",
+      "pushedAt": "2026-11-02"
+    },
+    {
+      "id": "filmcraft",
+      "name": "Filmcraft",
+      "repo": "storytold/filmcraft",
+      "homepage": "https://getartcraft.com/apps/filmcraft",
+      "category": "video-media",
+      "desc": "",
+      "tags": [
+        "art",
+        "rust",
+        "video",
+        "video-editing"
+      ],
+      "seed": {
+        "stars": 17541,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "turbovec",
+      "name": "Turbovec",
+      "repo": "RyanCodrai/turbovec",
+      "homepage": "https://pypi.org/project/turbovec/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "ann",
+        "avx512",
+        "embedding",
+        "embeddings"
+      ],
+      "seed": {
+        "stars": 17460,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "pushedAt": "2026-10-07"
+    },
+    {
+      "id": "memori",
+      "name": "Memori",
+      "repo": "MemoriLabs/Memori",
+      "homepage": "https://memorilabs.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agent-memory",
+        "agenticai",
+        "ai"
+      ],
+      "seed": {
+        "stars": 17412,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems. Built for e",
+      "pushedAt": "2026-10-03"
+    },
+    {
+      "id": "awesome-gpt-image-2-api-prompts",
+      "name": "Awesome Gpt Image 2 API Prompts",
+      "repo": "Evolink-AI/awesome-gpt-image-2-API-Prompts",
+      "homepage": "https://evolink.ai/gpt-image-2-prompts",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-art",
+        "api",
+        "awesome-list",
+        "awesome-lists"
+      ],
+      "seed": {
+        "stars": 17383,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "GPT-Image-2 API and Prompts",
+      "pushedAt": "2026-07-18"
+    },
+    {
+      "id": "wan2-1",
+      "name": "Wan2.1",
+      "repo": "Wan-Video/Wan2.1",
+      "homepage": "https://wan.video",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "aigc",
+        "videogeneration"
+      ],
+      "seed": {
+        "stars": 17379,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Wan: Open and Advanced Large-Scale Video Generative Models",
+      "pushedAt": "2026-03-05"
+    },
+    {
+      "id": "memvid",
+      "name": "Memvid",
+      "repo": "memvid/memvid",
+      "homepage": "https://www.memvid.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "context",
+        "embedded",
+        "faiss"
+      ],
+      "seed": {
+        "stars": 17369,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
+      "pushedAt": "2026-07-14"
+    },
+    {
+      "id": "framepack",
+      "name": "FramePack",
+      "repo": "lllyasviel/FramePack",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 17349,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Lets make video diffusion practical!",
+      "pushedAt": "2025-10-16"
+    },
+    {
+      "id": "wordcraft",
+      "name": "Wordcraft",
+      "repo": "storytold/wordcraft",
+      "homepage": "https://getartcraft.com/apps/wordcraft",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 17317,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+      "pushedAt": "2026-11-05"
     }
   ]
 }
