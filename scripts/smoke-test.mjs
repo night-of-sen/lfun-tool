@@ -175,7 +175,7 @@ const sceneOf = (t) => t.scene || "general";
 console.log("\n[1] 生成的静态 HTML（SEO 基础）");
 check("卡片总数", parsed.length, items.length);
 check("指向工具页的链接数", countInGrid(/href="\/zh\/tool\//g), items.length);
-check("展示区工具链接数（今日新品 8 + 热门 8 + 创作者代表作）", countIn(/class="spot-card"/g) + (html.match(/class="creator-card"[\s\S]*?<\/article>/g) || []).reduce((s, c) => s + (c.match(/href="\/zh\/tool\//g) || []).length, 0), 34);
+check("展示区工具链接数（今日新品 8 + 创作者代表作；热门趋势已下线）", countIn(/class="spot-card"/g) + (html.match(/class="creator-card"[\s\S]*?<\/article>/g) || []).reduce((s, c) => s + (c.match(/href="\/zh\/tool\//g) || []).length, 0), 26);
 check("hreflang zh-CN", html.includes('hreflang="zh-CN"'), true);
 check("hreflang en", html.includes('hreflang="en"'), true);
 check("hreflang x-default", html.includes('hreflang="x-default"'), true);
