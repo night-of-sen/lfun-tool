@@ -27469,6 +27469,660 @@
       "cloud": "",
       "descEn": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
       "pushedAt": "2026-11-03"
+    },
+    {
+      "id": "a2ui",
+      "name": "A2ui",
+      "repo": "a2ui-project/a2ui",
+      "homepage": "https://a2ui.org/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "a2a",
+        "a2ui",
+        "agent",
+        "angular"
+      ],
+      "seed": {
+        "stars": 16989,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source generative UI framework: agents stream layout data, and apps render it with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "paradev",
+      "name": "Paradev",
+      "repo": "ParadevAI/Paradev",
+      "homepage": "https://paradev.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ade",
+        "agent",
+        "agent-orchestration",
+        "ai-agents"
+      ],
+      "seed": {
+        "stars": 16000,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Paradev is an open-source Codex App and Conductor alternative. Orchestrate an army coding agents in parallel with your own subscriptions.",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "banana-slides",
+      "name": "Banana Slides",
+      "repo": "Anionex/banana-slides",
+      "homepage": "https://bananaslides.online",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-ppt-maker",
+        "ai-slide-builder",
+        "ai-slides",
+        "editable-pptx"
+      ],
+      "seed": {
+        "stars": 15959,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "一站式原生AI PPT生成应用，几分钟内生成一套幻灯片; 支持上传任意模板图片，上传任意素材&智能解析，一句话/大纲/页面描述自动生成PPT，口头修改指定区域、一键导出可编辑ppt、视频等 - An AI-native slides generator based on nano banana/gpt-image🏞️",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "claudian",
+      "name": "Claudian",
+      "repo": "YishenTu/claudian",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "claude-code",
+        "codex",
+        "deepseek-harness",
+        "grok"
+      ],
+      "seed": {
+        "stars": 15918,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An Obsidian plugin that embeds Claude Code, Codex and other agents as an AI collaborator in your vault.",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "craft-anything",
+      "name": "Craft Anything",
+      "repo": "storytold/craft-anything",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 15865,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Craft Anything: understand how any software works, and craft your own.",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "weflow",
+      "name": "WeFlow",
+      "repo": "hicccc77/WeFlow",
+      "homepage": "https://weflow.top",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "annual-report",
+        "data-analysis",
+        "data-visualization",
+        "message"
+      ],
+      "seed": {
+        "stars": 15859,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "WeFlow - 一个本地的微信聊天记录导出和年度报告应用",
+      "pushedAt": "2026-11-02"
+    },
+    {
+      "id": "eigent",
+      "name": "Eigent",
+      "repo": "eigent-ai/eigent",
+      "homepage": "https://www.eigent.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-framework",
+        "agent-skills",
+        "agentic-ai",
+        "agentic-workflow"
+      ],
+      "seed": {
+        "stars": 15753,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Eigent: The Open Source Cowork Desktop - Local and Free Alternative to Claude Cowork and Codex",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "unity-mcp",
+      "name": "Unity Mcp",
+      "repo": "CoplayDev/unity-mcp",
+      "homepage": "https://coplaydev.github.io/unity-mcp/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-integration",
+        "anthropic",
+        "claude"
+      ],
+      "seed": {
+        "stars": 15747,
+        "language": "C#"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.",
+      "pushedAt": "2026-10-30"
+    },
+    {
+      "id": "awesome-claude-skills-2",
+      "name": "Awesome Claude Skills",
+      "repo": "travisvn/awesome-claude-skills",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agentic-coding",
+        "anthropic",
+        "awesome",
+        "awesome-list"
+      ],
+      "seed": {
+        "stars": 15718,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
+      "pushedAt": "2026-04-28"
+    },
+    {
+      "id": "corsair",
+      "name": "Corsair",
+      "repo": "corsairdev/corsair",
+      "homepage": "https://corsair.dev",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "ai-agents"
+      ],
+      "seed": {
+        "stars": 15697,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Connect your users to their apps",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "second-me",
+      "name": "Second Me",
+      "repo": "mindverse/Second-Me",
+      "homepage": "https://home.second.me/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 15692,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Train your AI self, amplify you, bridge the world",
+      "pushedAt": "2025-09-30"
+    },
+    {
+      "id": "qm",
+      "name": "Qm",
+      "repo": "yc-software/qm",
+      "homepage": "https://x.com/qm__dev",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "assistant",
+        "harness",
+        "qm"
+      ],
+      "seed": {
+        "stars": 15647,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Multiplayer agent harness for work.",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "prompt-master",
+      "name": "Prompt Master",
+      "repo": "nidhinjs/prompt-master",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "claude-ai",
+        "claude-skills",
+        "llm",
+        "prompt-engineering"
+      ],
+      "seed": {
+        "stars": 15575,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "lightcraft",
+      "name": "Lightcraft",
+      "repo": "storytold/lightcraft",
+      "homepage": "https://getartcraft.com/apps/lightcraft",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "art",
+        "photography",
+        "raw",
+        "raw-editor"
+      ],
+      "seed": {
+        "stars": 15557,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "codex-chatgpt-web",
+      "name": "Codex Chatgpt Web",
+      "repo": "miuuyy/codex-chatgpt-web",
+      "homepage": "",
+      "category": "marketing-growth",
+      "desc": "",
+      "tags": [
+        "chatgpt",
+        "chatgpt-pro",
+        "codex",
+        "free-ai"
+      ],
+      "seed": {
+        "stars": 15535,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Use ChatGPT Web (including Pro) as a native model in Codex — with context, tools, streaming and images, without using Codex quota.",
+      "pushedAt": "2026-10-30"
+    },
+    {
+      "id": "plugins",
+      "name": "Plugins",
+      "repo": "cursor/plugins",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 15528,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Cursor plugin specification and official plugins",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "cloud-mail",
+      "name": "Cloud Mail",
+      "repo": "maillab/cloud-mail",
+      "homepage": "https://docs.skymail.ink",
+      "category": "marketing-growth",
+      "desc": "",
+      "tags": [
+        "cloudflare",
+        "cloudflare-email",
+        "cloudflare-workers",
+        "email"
+      ],
+      "seed": {
+        "stars": 15446,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An all-in-one email service platform powered by Cloudflare | 基于 Cloudflare 的一站式邮箱服务平台 | Cloudflare Email 邮箱 Mail",
+      "pushedAt": "2026-10-25"
+    },
+    {
+      "id": "trek",
+      "name": "TREK",
+      "repo": "liketrek/TREK",
+      "homepage": "https://demo.liketrek.com",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "budget-tracker",
+        "collaborative",
+        "docker",
+        "itinerary"
+      ],
+      "seed": {
+        "stars": 15396,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offline PWA, SSO and an AI-ready MCP server, with planet-wide pla",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "codex-dream-skin",
+      "name": "Codex Dream Skin",
+      "repo": "Fei-Away/Codex-Dream-Skin",
+      "homepage": "https://www.dreamskin.cc",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 15343,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Codex Dream Skin",
+      "pushedAt": "2026-10-15"
+    },
+    {
+      "id": "hunyuan3d-2",
+      "name": "Hunyuan3D 2",
+      "repo": "Tencent-Hunyuan/Hunyuan3D-2",
+      "homepage": "https://3d.hunyuan.tencent.com/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "3d",
+        "3d-aigc",
+        "3d-generation",
+        "diffusion-models"
+      ],
+      "seed": {
+        "stars": 15336,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "High-Resolution 3D Assets Generation with Large Scale Hunyuan3D Diffusion Models.",
+      "pushedAt": "2025-10-28"
+    },
+    {
+      "id": "cc-haha",
+      "name": "Cc Haha",
+      "repo": "NanmiCoder/cc-haha",
+      "homepage": "https://cchaha.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai",
+        "ai-agent",
+        "anthropic"
+      ],
+      "seed": {
+        "stars": 15329,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "本地优先的跨平台 Claude Code / AI Agent 桌面工作台：多 Agent 协作、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、桌面宠物；支持微信、飞书、钉钉及 H5 等远程访问。 | Local-first Claude Code / AI Agent desktop workspace: multi",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "skill-seekers",
+      "name": "Skill Seekers",
+      "repo": "yusufkaraaslan/Skill_Seekers",
+      "homepage": "https://skillseekersweb.com/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-tools",
+        "ast-parser",
+        "automation",
+        "claude-ai"
+      ],
+      "seed": {
+        "stars": 15284,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection",
+      "pushedAt": "2026-09-30"
+    },
+    {
+      "id": "lynx",
+      "name": "Lynx",
+      "repo": "lynx-family/lynx",
+      "homepage": "https://lynxjs.org",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "cross-platform",
+        "lynx",
+        "lynxjs"
+      ],
+      "seed": {
+        "stars": 15243,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Empower the Web community and invite more to build across platforms.",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "ai-memory",
+      "name": "Ai Memory",
+      "repo": "akitaonrails/ai-memory",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 15238,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "openship",
+      "name": "Openship",
+      "repo": "oblien/openship",
+      "homepage": "https://openship.io",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agents",
+        "ai",
+        "deployments",
+        "self-hosted"
+      ],
+      "seed": {
+        "stars": 15210,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Self-hosted deployment platform",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "pansou",
+      "name": "Pansou",
+      "repo": "fish2018/pansou",
+      "homepage": "https://so.252035.xyz/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 15145,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "PanSou是一款高性能的网盘资源搜索API服务，支持TG频道和插件搜索。系统设计以性能和可扩展性为核心，支持多频道多插件并发搜索、结果智能排序和网盘类型分类。docker集成前后端，一键启动，开箱即用。仅供学习研究，请勿以各种形式用于盈利目的。 https://t.me/s/webhtv",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "trellis",
+      "name": "Trellis",
+      "repo": "mindfold-ai/Trellis",
+      "homepage": "https://docs.trytrellis.app",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agentic-coding",
+        "ai-workflow",
+        "claudecode",
+        "codex"
+      ],
+      "seed": {
+        "stars": 15103,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The best agent harness.",
+      "pushedAt": "2026-09-29"
+    },
+    {
+      "id": "react-doctor",
+      "name": "React Doctor",
+      "repo": "millionco/react-doctor",
+      "homepage": "https://react.doctor",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agents",
+        "code-review",
+        "doctor",
+        "react"
+      ],
+      "seed": {
+        "stars": 15102,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Your agent writes bad React. This catches it",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "easy-dataset",
+      "name": "Easy Dataset",
+      "repo": "ConardLi/easy-dataset",
+      "homepage": "https://docs.easy-dataset.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "dataset",
+        "fine-tuning",
+        "javascript",
+        "llm"
+      ],
+      "seed": {
+        "stars": 15087,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A powerful tool for creating datasets for LLM fine-tuning 、RAG and Eval",
+      "pushedAt": "2026-05-01"
+    },
+    {
+      "id": "corridorkey",
+      "name": "CorridorKey",
+      "repo": "nikopueringer/CorridorKey",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 15014,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Perfect Green Screen Keys",
+      "pushedAt": "2026-05-28"
     }
   ]
 }

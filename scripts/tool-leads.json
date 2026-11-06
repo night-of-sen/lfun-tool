@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T10:37:32.258Z",
+  "generatedAt": "2026-11-06T06:51:15.251Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -822,8 +822,8 @@
       "zh": "面向中文读者、可运行可讨论的深度学习教材，被 70 多国 500 多所大学用于教学。"
     },
     "lobe-chat": {
-      "en": "Teams needing multi-model chat and agent operations can use LobeChat's polished chat with plugins, knowledge base, voice, and 7×24 scheduling.",
-      "zh": "多模型聊天和代理运营用户，LobeChat提供插件、知识库、语音与7×24调度。"
+      "en": "LobeChat lets teams add super-agents to the chats they already use, taking on work on their own.",
+      "zh": "LobeChat 让团队在现有聊天中加入超级智能体，由它们自行承担工作。"
     },
     "ruflo": {
       "en": "For developers building multi-agent systems, Ruflo deploys swarms, coordinates workflows, and integrates vector RAG with Claude Code.",
@@ -4584,6 +4584,126 @@
     "repostit-clips": {
       "en": "For creators repurposing YouTube videos: it turns them into scored vertical clips and schedules them for TikTok, Reels and Shorts.",
       "zh": "面向内容创作者：把 YouTube 视频转成带评分的竖屏片段，并定时发布到 TikTok、Reels 和 Shorts。"
+    },
+    "paradev": {
+      "en": "Paradev is an open-source tool for developers who want to run multiple coding agents in parallel using their own subscriptions.",
+      "zh": "Paradev 是一个开源工具，适合希望用自己的订阅并行运行多个编码代理的开发者。"
+    },
+    "video-shotcraft": {
+      "en": "A video skill for Claude Code and Codex users who need cinematic product promos that stay editable, with shot recipes, motion previews, beat sync, and JianYing export.",
+      "zh": "面向 Claude Code 与 Codex 用户的视频技能，用于制作可编辑的电影感产品宣传片，支持分镜配方、动效预览、节拍同步与剪映导出。"
+    },
+    "claudian": {
+      "en": "An Obsidian plugin for note-takers that embeds Claude Code, Codex and other agents as an AI collaborator in your vault.",
+      "zh": "面向 Obsidian 用户的插件，将 Claude Code、Codex 等智能体作为 AI 协作者嵌入你的笔记库。"
+    },
+    "craft-anything": {
+      "en": "Craft Anything helps developers understand how any software works and craft their own.",
+      "zh": "Craft Anything 帮助开发者理解各类软件的工作方式，并打造自己的实现。"
+    },
+    "weflow": {
+      "en": "WeFlow is a local app that exports WeChat chat history and generates annual reports for users who want to review their messages.",
+      "zh": "WeFlow 是一个本地应用，帮助用户导出微信聊天记录并生成年度报告。"
+    },
+    "a2ui": {
+      "en": "For agent developers, A2ui lets agents stream layout data that apps render with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.",
+      "zh": "面向智能体开发者：A2ui 让智能体流式输出布局数据，应用用原生组件渲染。"
+    },
+    "awesome-claude-skills-2": {
+      "en": "A curated list of Claude Skills, resources, and tools for people customizing Claude AI workflows, especially Claude Code.",
+      "zh": "面向需要定制 Claude AI 工作流（尤其是 Claude Code）的用户，汇集 Claude Skills、资源与工具的精选清单。"
+    },
+    "eigent": {
+      "en": "Eigent is an open source cowork desktop for users who want a local, free alternative to Claude Cowork and Codex.",
+      "zh": "Eigent 是开源协作桌面工具，供需要本地免费替代 Claude Cowork 和 Codex 的用户使用。"
+    },
+    "corsair": {
+      "en": "Corsair connects your users to their apps.",
+      "zh": "Corsair 将你的用户连接到他们的应用。"
+    },
+    "qm": {
+      "en": "Qm is a multiplayer agent harness for work, aimed at teams that run agents together on shared tasks.",
+      "zh": "Qm 是面向工作的多人智能体运行框架，供需要协作运行智能体的团队使用。"
+    },
+    "second-me": {
+      "en": "Second Me helps builders train an AI version of themselves, amplify their work, and bridge the world.",
+      "zh": "Second Me 面向开发者，帮助训练属于你的 AI 分身，放大你的能力并连接世界。"
+    },
+    "lightcraft": {
+      "en": "LightCraft is an open-source non-destructive photo editor written from scratch in pure Rust, aimed at people who want to edit photos without altering the original file.",
+      "zh": "LightCraft 是一款用纯 Rust 从零编写的开源非破坏性照片编辑器，面向希望在不改动原始文件的前提下编辑照片的用户。"
+    },
+    "prompt-master": {
+      "en": "For AI tool users, Prompt Master is a Claude skill that writes accurate prompts without wasting tokens or credits, and retains full context and memory.",
+      "zh": "面向 AI 工具使用者，Prompt Master 是 Claude 技能，能编写准确提示词，不浪费 token 或额度，并保留完整上下文和记忆。"
+    },
+    "plugins": {
+      "en": "A plugin specification and official plugins for Cursor, aimed at developers who extend the editor.",
+      "zh": "面向开发者，提供 Cursor 的插件规范与官方插件。"
+    },
+    "cloud-mail": {
+      "en": "Cloud Mail is an all-in-one email service platform powered by Cloudflare for users who want to run email on Cloudflare.",
+      "zh": "Cloud Mail 是基于 Cloudflare 的一站式邮箱服务平台，面向希望在 Cloudflare 上搭建邮箱服务的用户。"
+    },
+    "unity-mcp": {
+      "en": "For Unity developers, it bridges AI assistants and the Unity Editor, letting an LLM manage assets, control scenes, edit scripts, and automate tasks.",
+      "zh": "Unity 开发者可用它让 AI 助手管理资源、控制场景、编辑脚本并自动化编辑器任务。"
+    },
+    "codex-chatgpt-web": {
+      "en": "Lets Codex users run ChatGPT Web, including Pro, as a native model with context, tools, streaming and images, without using Codex quota.",
+      "zh": "让 Codex 用户把 ChatGPT Web（含 Pro）当作原生模型使用，支持上下文、工具、流式与图片，且不消耗 Codex 配额。"
+    },
+    "hunyuan3d-2": {
+      "en": "For creators who need 3D assets, Hunyuan3D 2 generates high-resolution 3D assets using large-scale Hunyuan3D diffusion models.",
+      "zh": "面向需要 3D 资产的创作者，Hunyuan3D 2 借助大规模 Hunyuan3D 扩散模型生成高分辨率 3D 资产。"
+    },
+    "banana-slides": {
+      "en": "An AI-native slide generator for people who need decks fast: it builds a full slide set in minutes from a sentence, an outline, or a page description, and accepts uploaded template images and materials with smart parsing.",
+      "zh": "面向需要快速做演示的人：几分钟生成整套幻灯片，支持一句话、大纲或页面描述生成，并可上传任意模板图片与素材智能解析。"
+    },
+    "codex-dream-skin": {
+      "en": "Codex Dream Skin is a dev tool; the provided description gives no further details on its users or problems.",
+      "zh": "Codex Dream Skin 是一款开发工具，现有描述未说明适用人群与所解决的问题。"
+    },
+    "skill-seekers": {
+      "en": "For Claude AI users, it converts documentation sites, GitHub repositories, and PDFs into skills, with automatic conflict detection.",
+      "zh": "面向 Claude AI 用户，将文档网站、GitHub 仓库和 PDF 转换为技能，并自动检测冲突。"
+    },
+    "trek": {
+      "en": "TREK is an open-source travel planner for people who need shared itineraries, bookings, budgets, packing lists, journals, offline access and SSO.",
+      "zh": "TREK 是开源旅行规划工具，适合需要共享行程、预算、打包清单与离线使用的旅行团队。"
+    },
+    "ai-memory": {
+      "en": "Provides long term memory for agent coding CLIs and helps hand off work between different agent vendors.",
+      "zh": "为智能体编程命令行工具提供长期记忆，并帮助在不同智能体厂商之间交接工作。"
+    },
+    "lynx": {
+      "en": "Lynx helps web developers build across platforms, inviting more people to create for the Web.",
+      "zh": "Lynx 帮助 Web 开发者跨平台构建，并邀请更多人参与 Web 建设。"
+    },
+    "openship": {
+      "en": "A self-hosted deployment platform for teams that want to run deployments on their own infrastructure.",
+      "zh": "面向希望在自己的基础设施上运行部署的团队的自托管部署平台。"
+    },
+    "easy-dataset": {
+      "en": "A tool for people preparing LLM data, used to build datasets for fine-tuning, RAG and evaluation.",
+      "zh": "面向需要准备大模型数据的人，用于构建微调、RAG 和评测所需的数据集。"
+    },
+    "react-doctor": {
+      "en": "For developers whose AI agents write React, it catches bad React code.",
+      "zh": "面向使用 AI 代理编写 React 的开发者，用于捕捉糟糕的 React 代码。"
+    },
+    "trellis": {
+      "en": "An agent harness for developers who build and run AI agents.",
+      "zh": "为构建和运行 AI agent 的开发者提供的 agent harness。"
+    },
+    "corridorkey": {
+      "en": "CorridorKey provides green screen keying for creators who need to remove green backgrounds from footage.",
+      "zh": "CorridorKey 为需要处理绿幕素材的用户提供抠像功能。"
+    },
+    "pansou": {
+      "en": "For developers who need a self-hosted netdisk search API, offering TG channel and plugin concurrent search with Docker deployment.",
+      "zh": "为需要自建网盘搜索API的开发者提供TG频道与插件并发搜索，支持Docker部署。"
     }
   }
 }

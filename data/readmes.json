@@ -8026,5 +8026,215 @@
     "source": "",
     "fetchedAt": "2026-11-05T10:36:57.475Z",
     "missing": true
+  },
+  "a2ui": {
+    "summary": "A2UI is an open-source generative UI framework, complete with a format optimized for representing updatable agent-generated UIs and an initial set of renderers, that allows agents to generate or populate rich user interfaces.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15259,
+    "fetchedAt": "2026-11-06T06:48:20.326Z"
+  },
+  "paradev": {
+    "summary": "Paradev is a desktop app for running CLI coding agents in parallel. Each task gets its own Git worktree, branch, and terminals, so Claude Code, Codex, OpenCode, Gemini CLI, Cursor Agent, or any other CLI agent can work on several tasks in one repository at the same time.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 25036,
+    "fetchedAt": "2026-11-06T06:48:20.326Z"
+  },
+  "banana-slides": {
+    "summary": "",
+    "docker": "# 使用预构建镜像启动（无需从头构建）\ndocker compose -f docker-compose.prod.yml up -d",
+    "source": "README.md",
+    "rawLength": 32597,
+    "fetchedAt": "2026-11-06T06:48:20.326Z"
+  },
+  "claudian": {
+    "summary": "Claudian is proudly sponsored by Ke Holdings Inc. (BEIKE) and the MOMA team. Their support helps Claudian continue to improve through ongoing development and maintenance.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11063,
+    "fetchedAt": "2026-11-06T06:48:20.326Z"
+  },
+  "craft-anything": {
+    "summary": "Craft Anything is dual-licensed under MIT or Apache-2.0, at your option. Copyright (c) 2026 ArtCraft Team and the Craft Anything contributors. Required notices are in NOTICE.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 26219,
+    "fetchedAt": "2026-11-06T06:48:20.883Z"
+  },
+  "weflow": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4269,
+    "fetchedAt": "2026-11-06T06:48:20.883Z"
+  },
+  "eigent": {
+    "summary": "Eigent is the open source Cowork desktop application, empowering you to build, manage, and deploy a custom AI workforce that can turn your most complex workflows into automated tasks. As a leading open-source Cowork product, Eigent brings together the best of open-source collaboration and AI-powered…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 17793,
+    "fetchedAt": "2026-11-06T06:48:20.883Z"
+  },
+  "unity-mcp": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5222,
+    "fetchedAt": "2026-11-06T06:48:20.883Z"
+  },
+  "awesome-claude-skills-2": {
+    "summary": "Skills are accessible via the /v1/skills API endpoint. See the Skills API documentation for detailed integration examples.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 21712,
+    "fetchedAt": "2026-11-06T06:48:20.883Z"
+  },
+  "corsair": {
+    "summary": "Corsair is a fully-featured product integration platform with a seamless DX. Build anything, from an agent working across all your integrations to a multi-tenant dashboard for your users to connect to anything.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2362,
+    "fetchedAt": "2026-11-06T06:48:20.883Z"
+  },
+  "second-me": {
+    "summary": "Second Me continues to evolve as the open-source identity infrastructure for AI. Here's what's on deck for May:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9034,
+    "fetchedAt": "2026-11-06T06:48:21.439Z"
+  },
+  "qm": {
+    "summary": "QM's approach follows local coding agents like OpenCode, Codex, and Claude Code: the agent acts as the person it's working for, with their credentials and permissions, and everything it does is audited. An org picks one security posture, which narrower scopes can only tighten:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12895,
+    "fetchedAt": "2026-11-06T06:48:21.439Z"
+  },
+  "prompt-master": {
+    "summary": "Prompt Master includes specific profiles for 20+ tools. For anything not on the list, it uses a Universal Fingerprint: 4 questions that let it write a quality prompt for any AI system it has never seen before.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 22403,
+    "fetchedAt": "2026-11-06T06:48:21.439Z"
+  },
+  "lightcraft": {
+    "summary": "LightCraft is a complete darkroom in a single native app. Every adjustment is non-destructive, so your originals are never touched. Every slider renders through a scene-referred, wide-gamut, 32-bit float pipeline: highlights roll off like film, shadows open up without halos, and colour stays clean f…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 53608,
+    "fetchedAt": "2026-11-06T06:48:21.439Z"
+  },
+  "codex-chatgpt-web": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11774,
+    "fetchedAt": "2026-11-06T06:48:21.439Z"
+  },
+  "plugins": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20293,
+    "fetchedAt": "2026-11-06T06:48:21.439Z"
+  },
+  "cloud-mail": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4981,
+    "fetchedAt": "2026-11-06T06:48:21.969Z"
+  },
+  "trek": {
+    "summary": "TREK is AGPL v3. Self-host freely for personal or internal company use. If you modify and offer TREK as a network service to third parties, your modifications must be open-sourced under the same licence.",
+    "docker": "docker compose up -d",
+    "source": "README.md",
+    "rawLength": 23874,
+    "fetchedAt": "2026-11-06T06:48:21.969Z"
+  },
+  "codex-dream-skin": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15849,
+    "fetchedAt": "2026-11-06T06:48:21.969Z"
+  },
+  "hunyuan3d-2": {
+    "summary": "Hunyuan3D 2.0 features a two-stage generation pipeline, starting with the creation of a bare mesh, followed by the synthesis of a texture map for that mesh. This strategy is effective for decoupling the difficulties of shape and texture generation and also provides flexibility for texturing either g…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18714,
+    "fetchedAt": "2026-11-06T06:48:21.969Z"
+  },
+  "cc-haha": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12907,
+    "fetchedAt": "2026-11-06T06:48:21.969Z"
+  },
+  "skill-seekers": {
+    "summary": "skill-seekers create --index adds a stdlib-only scripts/search.py and a SQLite FTS5 index over the generated references, so an agent can find the right file#anchor before reading a large Markdown file wholesale. Off by default; the Markdown is untouched.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20709,
+    "fetchedAt": "2026-11-06T06:48:21.969Z"
+  },
+  "lynx": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6182,
+    "fetchedAt": "2026-11-06T06:48:22.693Z"
+  },
+  "ai-memory": {
+    "summary": "ai-memory uninstall --apply removes everything ai-memory installed, and only what it installed. It also clears ai-memory run's auto-wire record, so the next managed launch wires that harness again; to keep it unwired, launch with --no-autowire or set AIMEMORYRUNAUTOWIRE=false. Install commands are i…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 46840,
+    "fetchedAt": "2026-11-06T06:48:22.693Z"
+  },
+  "openship": {
+    "summary": "Openship-authored code is licensed under the Apache License 2.0. Bundled third-party components retain their own licenses. In particular, the iRedMail engine is GPL-licensed and is included in several control-plane distributions even when mail setup is not used. See the component and packaging inven…",
+    "docker": "git clone https://github.com/oblien/openship.git && cd openship\ncp .env.example .env          # then edit\ndocker compose --env-file .env -f docker/docker-compose.yml up -d",
+    "source": "README.md",
+    "rawLength": 15424,
+    "fetchedAt": "2026-11-06T06:48:22.693Z"
+  },
+  "pansou": {
+    "summary": "",
+    "docker": "docker run -d --name pansou -p 80:80 ghcr.io/fish2018/pansou-web",
+    "source": "README.md",
+    "rawLength": 19031,
+    "fetchedAt": "2026-11-06T06:48:22.693Z"
+  },
+  "trellis": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9330,
+    "fetchedAt": "2026-11-06T06:48:22.693Z"
+  },
+  "react-doctor": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 31,
+    "fetchedAt": "2026-11-06T06:48:22.693Z"
+  },
+  "easy-dataset": {
+    "summary": "Easy Dataset is an application specifically designed for building large language model (LLM) datasets. It features an intuitive interface, along with built-in powerful document parsing tools, intelligent segmentation algorithms, data cleaning and augmentation capabilities. The application can conver…",
+    "docker": "docker-compose up -d",
+    "source": "README.md",
+    "rawLength": 12368,
+    "fetchedAt": "2026-11-06T06:49:26.575Z"
+  },
+  "corridorkey": {
+    "summary": "CorridorKey supports AMD GPUs via PyTorch's ROCm/HIP backend. The torch.cuda. API works transparently on AMD — HIP intercepts all CUDA calls at runtime, so the inference code runs unchanged.",
+    "docker": "docker run --rm -it --gpus all \\\n     -e OPENCV_IO_ENABLE_OPENEXR=1 \\\n     -v \"$(pwd)/ClipsForInference:/app/ClipsForInference\" \\\n     -v \"$(pwd)/Output:/app/Output\" \\\n     -v \"$(pwd)/CorridorKeyModule/checkpoints:/app/CorridorKeyModule/checkpoints\" \\\n     -v \"$(pwd)/gvm_core/weights:/app/gvm_core/weights\" \\\n     -v \"$(pwd)/VideoMaMaInferenceModule/checkpoints:/app/VideoMaMaInferenceModule/checkpoints\" \\\n     corridorkey:latest run_inference --device cuda",
+    "source": "README.md",
+    "rawLength": 29132,
+    "fetchedAt": "2026-11-06T06:49:26.575Z"
   }
 }
