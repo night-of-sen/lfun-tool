@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T06:51:15.251Z",
+  "generatedAt": "2026-11-06T10:38:55.878Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -4704,6 +4704,130 @@
     "pansou": {
       "en": "For developers who need a self-hosted netdisk search API, offering TG channel and plugin concurrent search with Docker deployment.",
       "zh": "为需要自建网盘搜索API的开发者提供TG频道与插件并发搜索，支持Docker部署。"
+    },
+    "apify-mcp-server": {
+      "en": "For AI agent developers, the Apify MCP server lets agents extract data from social media, search engines, maps, e-commerce sites, or other websites via ready-made tools on the Apify Store.",
+      "zh": "面向 AI 智能体开发者，Apify MCP 服务器让智能体借助 Apify Store 上现成的工具，从社交媒体、搜索引擎、地图、电商网站等站点提取数据。"
+    },
+    "rusttraining": {
+      "en": "RustTraining provides Rust training material at beginner, advanced, and expert levels for learners seeking structured practice.",
+      "zh": "RustTraining 提供初级、进阶和专家三个层级的 Rust 训练材料，供不同水平的学习者练习。"
+    },
+    "autoresearchclaw": {
+      "en": "AutoResearchClaw is an autonomous, self-evolving AI agent for researchers who want to go from a chat idea to a paper.",
+      "zh": "AutoResearchClaw 是一个自主、自进化的 AI agent，帮助研究者从一个想法对话走到一篇论文。"
+    },
+    "cc-haha": {
+      "en": "A local-first desktop workspace for developers using AI coding agents, offering multi-agent teams, Git worktrees, diffs, skills, multi-model support and remote access.",
+      "zh": "面向使用 AI 编码代理的开发者的本地优先桌面工作台，提供多 Agent 协作、Git Worktree、代码 Diff、技能市场、多模型与远程访问。"
+    },
+    "jailbreaks": {
+      "en": "A list of the author's jailbreaks, for people who want to browse them.",
+      "zh": "一份作者自己的 jailbreak 列表，供想浏览这些内容的用户查看。"
+    },
+    "waoowaoo": {
+      "en": "An AI agent platform for film and video teams that need controllable production workflows, from shorts to live-action.",
+      "zh": "面向影视与视频制作团队的 AI Agent 平台，提供可控的全流程生产工作流，覆盖短片到实拍。"
+    },
+    "awesome-zhuiju-free": {
+      "en": "A free, ad-free guide for people who watch shows, curating online video, apps, cloud drive and magnet search, subtitles, TVBox configurations, and IPTV sources, with daily link checks.",
+      "zh": "面向追剧用户的免费无广告资源指南，收录在线影视、影音应用、网盘与磁力搜索、字幕、TVBox 配置及 IPTV 直播源，每天检测资源有效性。"
+    },
+    "edit": {
+      "en": "Edit is a developer tool for anyone who edits, as its description simply states: we all edit.",
+      "zh": "Edit 是一款面向所有需要编辑者的开发工具，其描述只有一句：我们都在编辑。"
+    },
+    "csm": {
+      "en": "Csm is a conversational speech generation model for developers who need to generate conversational speech.",
+      "zh": "Csm 是面向开发者的对话式语音生成模型，用于生成对话语音。"
+    },
+    "winhance": {
+      "en": "A tool for Windows users who want to optimize, customize and enhance their system experience.",
+      "zh": "面向希望优化、定制并增强系统体验的 Windows 用户的工具。"
+    },
+    "palmier-pro": {
+      "en": "Palmier Pro is a macOS video editor built for AI, aimed at editors who work with AI-generated content.",
+      "zh": "Palmier Pro 是一款为 AI 打造的 macOS 视频编辑器，面向处理 AI 生成内容的剪辑者。"
+    },
+    "experiential": {
+      "en": "Open source zero-markup gateway for developers using BYOK, self-hosted, or 1000+ marketplace models; it learns from traffic to cut costs and recommend models.",
+      "zh": "面向使用BYOK、自托管或1000+市场模型的开发者，开源零加价网关可学习流量以降低成本并推荐模型。"
+    },
+    "aperant": {
+      "en": "Aperant is an autonomous multi-session AI coding tool for developers who want AI to carry coding work across sessions.",
+      "zh": "Aperant 是自主多会话 AI 编码工具，面向希望 AI 跨会话持续完成编码工作的开发者。"
+    },
+    "concat": {
+      "en": "Concat is a beta, open-source, local-first video editor for cross-platform use, aimed at editors who need scripting through a JSON-RPC API and MCP.",
+      "zh": "Concat 是 Beta 阶段的开源、本地优先、跨平台视频编辑器，面向需要通过 JSON-RPC API 与 MCP 编写脚本的用户。"
+    },
+    "memu": {
+      "en": "MemU provides personal memory across agents, so users' context carries over when they work with different agents.",
+      "zh": "MemU 为多个智能体提供个人记忆，让用户在不同智能体之间保持上下文连续。"
+    },
+    "agent-framework": {
+      "en": "For developers using Python or .NET, this framework supports building, orchestrating and deploying AI agents and multi-agent workflows.",
+      "zh": "面向使用 Python 或 .NET 的开发者，这个框架支持构建、编排和部署 AI 智能体及多智能体工作流。"
+    },
+    "openmythos": {
+      "en": "A theoretical reconstruction of the Claude Mythos architecture for researchers who study it from first principles using available literature.",
+      "zh": "为研究智能体架构的开发者提供基于现有文献的理论性重建。"
+    },
+    "hermes-desktop": {
+      "en": "A desktop companion app for people using Hermes Agent, giving them a desktop interface to work with the agent.",
+      "zh": "为使用 Hermes Agent 的用户提供的桌面伴侣应用，让他们通过桌面界面使用该代理。"
+    },
+    "ax": {
+      "en": "AX is Google's open agentic orchestration runtime for developers who need to run and coordinate agents.",
+      "zh": "AX 是 Google 开源的智能体编排运行时，面向需要运行与协调智能体的开发者。"
+    },
+    "cactus": {
+      "en": "Cactus gives consumer device developers agentic, voice and vision intelligence in under 50MB, so on-device AI fits tight size limits.",
+      "zh": "Cactus 为消费设备开发者提供不足 50MB 的智能体、语音与视觉能力，让端侧 AI 适配严格体积限制。"
+    },
+    "peach": {
+      "en": "For people managing local video files, Peach scrapes metadata and organizes media as a local-first tool.",
+      "zh": "面向管理本地视频文件的用户，Peach 以本地优先方式抓取元数据并整理媒体。"
+    },
+    "semantica": {
+      "en": "Semantica offers graph-native infrastructure for context and accountable AI systems, aimed at teams building AI agents.",
+      "zh": "Semantica 面向构建 AI 智能体的团队，提供用于上下文与可问责 AI 系统的图原生基础设施。"
+    },
+    "vggt": {
+      "en": "CVPR 2025 Best Paper Award transformer for developers and researchers working on visual geometry.",
+      "zh": "面向从事视觉几何工作的开发者与研究者的 CVPR 2025 最佳论文奖 Transformer。"
+    },
+    "ace-step-1-5": {
+      "en": "A local music generation model for developers who want to create music on their own hardware, with support for Mac, AMD, Intel, and CUDA devices.",
+      "zh": "一款本地音乐生成模型，面向希望在自己硬件上生成音乐的开发者，支持 Mac、AMD、Intel 和 CUDA 设备。"
+    },
+    "claudecodeui": {
+      "en": "CloudCLI is a free open source web UI for developers who want to manage their Claude Code sessions and projects remotely from mobile or web.",
+      "zh": "CloudCLI 是一款免费开源的网页界面，面向希望在手机或网页上远程管理 Claude Code 会话与项目的开发者。"
+    },
+    "ai-research-skills": {
+      "en": "Open-source library of AI research and engineering skills that turns Claude Code, Codex, or Gemini agents into AI research agents.",
+      "zh": "开源 AI 研究与工程技能库，可为 Claude Code、Codex、Gemini 等智能体补足研究能力。"
+    },
+    "solidcraft": {
+      "en": "An open-source parametric 3D CAD application in pure Rust for desktop and web, with automation via MCP.",
+      "zh": "纯 Rust 构建的开源参数化 3D CAD 应用，支持桌面、网页与 MCP 自动化。"
+    },
+    "maptoposter": {
+      "en": "Maptoposter lets you turn favorite cities into minimalist map poster designs and export them with code.",
+      "zh": "Maptoposter 让用户用代码把喜欢的城市生成极简风格地图海报并导出。"
+    },
+    "garden-skills": {
+      "en": "An open-source Skills collection from ConardLi that helps developers add web design, knowledge retrieval, and image generation to AI agents.",
+      "zh": "开源 Skills 合集，供开发者为 AI 智能体添加网页设计、知识检索与图像生成等能力。"
+    },
+    "genericagent": {
+      "en": "For developers who need full system control: a self-evolving agent that grows a skill tree from a 3.3K-line seed with 6x less token consumption.",
+      "zh": "面向需要完整系统控制的开发者：自进化 agent，从 3.3K 行种子长出技能树，token 消耗少 6 倍。"
+    },
+    "how-to-live-better": {
+      "en": "For readers who want all 528 tips on a single page: mobile-friendly, searchable, zero-dependency, and usable offline.",
+      "zh": "给想把全书528条建议放在单页阅读的读者：手机可读、可搜索、零依赖、支持离线。"
     }
   }
 }

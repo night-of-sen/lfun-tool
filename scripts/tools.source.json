@@ -28123,6 +28123,653 @@
       "cloud": "",
       "descEn": "Perfect Green Screen Keys",
       "pushedAt": "2026-05-28"
+    },
+    {
+      "id": "experiential",
+      "name": "Experiential",
+      "repo": "experientiallabs/experiential",
+      "homepage": "https://experientiallabs.ai",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 15000,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Experiential is the open source, zero markup gateway for BYOK, self-hosted and 1000+ marketplace models. It learns from your traffic to cut costs, recommend better models, and trai",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "rusttraining",
+      "name": "RustTraining",
+      "repo": "microsoft/RustTraining",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 14997,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Beginner, advanced, expert level Rust training material",
+      "pushedAt": "2026-11-01"
+    },
+    {
+      "id": "apify-mcp-server",
+      "name": "Apify Mcp Server",
+      "repo": "apify/apify-mcp-server",
+      "homepage": "https://mcp.apify.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agents",
+        "ai",
+        "mcp",
+        "mcp-server"
+      ],
+      "seed": {
+        "stars": 14996,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, ",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "openmythos",
+      "name": "OpenMythos",
+      "repo": "kyegomez/OpenMythos",
+      "homepage": "https://discord.gg/EamjgSaEQf",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "anthropic",
+        "attention",
+        "claude"
+      ],
+      "seed": {
+        "stars": 14924,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature.",
+      "pushedAt": "2026-05-23"
+    },
+    {
+      "id": "autoresearchclaw",
+      "name": "AutoResearchClaw",
+      "repo": "aiming-lab/AutoResearchClaw",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "autonomous-research",
+        "citation-verification",
+        "llm-agents",
+        "metaclaw"
+      ],
+      "seed": {
+        "stars": 14827,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞",
+      "pushedAt": "2026-08-19"
+    },
+    {
+      "id": "jailbreaks",
+      "name": "Jailbreaks",
+      "repo": "togg53192-cmd/jailbreaks",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 14825,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "LIST OF ALL MY JAILBREAKS",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "waoowaoo",
+      "name": "Waoowaoo",
+      "repo": "waooAI/waoowaoo",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agent",
+        "ai-agents",
+        "automation",
+        "film-production"
+      ],
+      "seed": {
+        "stars": 14796,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts to live-action with Hollywood-standard workflows.",
+      "pushedAt": "2026-09-21"
+    },
+    {
+      "id": "awesome-zhuiju-free",
+      "name": "Awesome Zhuiju Free",
+      "repo": "laoma528/awesome-zhuiju-free",
+      "homepage": "https://zhuiju.me",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "awesome-list",
+        "bt-search",
+        "chinese",
+        "cloud-drive-search"
+      ],
+      "seed": {
+        "stars": 14761,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "edit",
+      "name": "Edit",
+      "repo": "microsoft/edit",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "editor",
+        "rust",
+        "terminal",
+        "text-editor"
+      ],
+      "seed": {
+        "stars": 14759,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "We all edit.",
+      "pushedAt": "2026-11-02"
+    },
+    {
+      "id": "csm",
+      "name": "Csm",
+      "repo": "SesameAILabs/csm",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 14743,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A Conversational Speech Generation Model",
+      "pushedAt": "2025-05-27"
+    },
+    {
+      "id": "winhance",
+      "name": "Winhance",
+      "repo": "memstechtips/Winhance",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "autounattend",
+        "bloatware",
+        "bloatware-removal",
+        "cleanup"
+      ],
+      "seed": {
+        "stars": 14705,
+        "language": "C#"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Application designed to optimize, customize and enhance your Windows experience.",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "palmier-pro",
+      "name": "Palmier Pro",
+      "repo": "palmier-io/palmier-pro",
+      "homepage": "https://palmier.io",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-video",
+        "claude",
+        "macos",
+        "mcp"
+      ],
+      "seed": {
+        "stars": 14695,
+        "language": "Swift"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "macOS video editor built for AI",
+      "pushedAt": "2026-11-02"
+    },
+    {
+      "id": "memu",
+      "name": "MemU",
+      "repo": "NevaMind-AI/memU",
+      "homepage": "https://memu.pro",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-memory",
+        "claude-skills",
+        "harness",
+        "loop-engineering"
+      ],
+      "seed": {
+        "stars": 14607,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Personal memory across agents",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "vggt",
+      "name": "Vggt",
+      "repo": "facebookresearch/vggt",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 14601,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "[CVPR 2025 Best Paper Award] VGGT: Visual Geometry Grounded Transformer",
+      "pushedAt": "2026-05-19"
+    },
+    {
+      "id": "aperant",
+      "name": "Aperant",
+      "repo": "AndyMik90/Aperant",
+      "homepage": "https://aperant.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 14594,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Autonomous multi-session AI coding",
+      "pushedAt": "2026-06-14"
+    },
+    {
+      "id": "concat",
+      "name": "Concat",
+      "repo": "jub0t/Concat",
+      "homepage": "https://concat.standalones.org",
+      "category": "video-media",
+      "desc": "",
+      "tags": [
+        "ffmpeg",
+        "free-video-editor",
+        "model-context-protocol",
+        "non-linear-editor"
+      ],
+      "seed": {
+        "stars": 14562,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "agent-framework",
+      "name": "Agent Framework",
+      "repo": "microsoft/agent-framework",
+      "homepage": "https://aka.ms/agent-framework",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-framework",
+        "agentic-ai",
+        "agents",
+        "ai"
+      ],
+      "seed": {
+        "stars": 14557,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "ax",
+      "name": "Ax",
+      "repo": "google/ax",
+      "homepage": "https://agentexecutor.io",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 14544,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Agent Executor (AX) is Google's open agentic orchestration runtime",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "hermes-desktop",
+      "name": "Hermes Desktop",
+      "repo": "fathah/hermes-desktop",
+      "homepage": "https://hermesone.org",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-agent",
+        "autonomous-agents",
+        "chatbot"
+      ],
+      "seed": {
+        "stars": 14538,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Desktop Companion for Hermes Agent",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "cactus",
+      "name": "Cactus",
+      "repo": "cactus-compute/cactus",
+      "homepage": "https://cactuscompute.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "cactus",
+        "edge-ai",
+        "foundation-model",
+        "function-calling"
+      ],
+      "seed": {
+        "stars": 14497,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Sub-50mb agentic, voice and vision intelligence for consumer devices.",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "peach",
+      "name": "Peach",
+      "repo": "peach-mitao/peach",
+      "homepage": "https://peach.video",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "local-first",
+        "media-library",
+        "media-manager",
+        "python"
+      ],
+      "seed": {
+        "stars": 14477,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Peach: Local-first video metadata scraper and media manager.",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "claudecodeui",
+      "name": "Claudecodeui",
+      "repo": "siteboon/claudecodeui",
+      "homepage": "https://cloudcli.ai",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "anthropic",
+        "anthropic-ai",
+        "anthropic-claude",
+        "claude"
+      ],
+      "seed": {
+        "stars": 14469,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Use Claude Code, OpenCode, Cursor CLI, and Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Co",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "semantica",
+      "name": "Semantica",
+      "repo": "semantica-agi/semantica",
+      "homepage": "https://getsemantica.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-memory",
+        "ai",
+        "ai-governance",
+        "ai-infrastructure"
+      ],
+      "seed": {
+        "stars": 14455,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "ace-step-1-5",
+      "name": "ACE Step 1.5",
+      "repo": "ace-step/ACE-Step-1.5",
+      "homepage": "https://acemusic.ai/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "text2music"
+      ],
+      "seed": {
+        "stars": 14431,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The most powerful local music generation model that outperforms almost all commercial alternatives, supporting Mac, AMD, Intel, and CUDA devices.",
+      "pushedAt": "2026-10-11"
+    },
+    {
+      "id": "garden-skills",
+      "name": "Garden Skills",
+      "repo": "ConardLi/garden-skills",
+      "homepage": "https://github.com/ConardLi/garden-skills",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "claude",
+        "gpt-image-2",
+        "rag"
+      ],
+      "seed": {
+        "stars": 14423,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+      "pushedAt": "2026-10-25"
+    },
+    {
+      "id": "genericagent",
+      "name": "GenericAgent",
+      "repo": "lsdefine/GenericAgent",
+      "homepage": "https://github.com/lsdefine/GenericAgent",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agent",
+        "automation",
+        "autonomous-agent",
+        "browser-automation"
+      ],
+      "seed": {
+        "stars": 14396,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "solidcraft",
+      "name": "Solidcraft",
+      "repo": "tangency-labs/solidcraft",
+      "homepage": "https://solidcraft.io",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "3d-modeling",
+        "brep",
+        "cad",
+        "egui"
+      ],
+      "seed": {
+        "stars": 14353,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "ai-research-skills",
+      "name": "AI Research SKILLs",
+      "repo": "Orchestra-Research/AI-Research-SKILLs",
+      "homepage": "http://orchestra-research.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-research",
+        "claude",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 14309,
+        "language": "TeX"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemini agent will be an AI research agent wi",
+      "pushedAt": "2026-10-11"
+    },
+    {
+      "id": "how-to-live-better",
+      "name": "How To Live Better",
+      "repo": "cdyforever/how-to-live-better",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 14283,
+        "language": "HTML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "maptoposter",
+      "name": "Maptoposter",
+      "repo": "originalankur/maptoposter",
+      "homepage": "",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "design",
+        "maps",
+        "matplotlib-pyplot",
+        "openstreetmap"
+      ],
+      "seed": {
+        "stars": 14276,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Transform your favorite cities into beautiful, minimalist designs. MapToPoster lets you create and export visually striking map posters with code.",
+      "pushedAt": "2026-08-06"
     }
   ]
 }

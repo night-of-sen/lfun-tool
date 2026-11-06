@@ -8236,5 +8236,215 @@
     "source": "README.md",
     "rawLength": 29132,
     "fetchedAt": "2026-11-06T06:49:26.575Z"
+  },
+  "experiential": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5586,
+    "fetchedAt": "2026-11-06T10:36:17.884Z"
+  },
+  "rusttraining": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6259,
+    "fetchedAt": "2026-11-06T10:36:17.884Z"
+  },
+  "apify-mcp-server": {
+    "summary": "Apify is the marketplace of ready-to-run tools for AI agents. One connection to the Apify MCP server gives your agent thousands of tools to choose from, for jobs like web fetch, SERP monitoring, lead generation and enrichment, and pulling data from e-commerce sites and social media. The server loads…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 36827,
+    "fetchedAt": "2026-11-06T10:36:17.884Z"
+  },
+  "openmythos": {
+    "summary": "OpenMythos is an open-source, theoretical implementation of the Claude Mythos model. It implements a Recurrent-Depth Transformer (RDT) with three stages: Prelude (transformer blocks), a looped Recurrent Block (up to maxloopiters), and a final Coda. Attention is switchable between MLA and GQA, and th…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 22060,
+    "fetchedAt": "2026-11-06T10:36:17.884Z"
+  },
+  "autoresearchclaw": {
+    "summary": "AutoResearchClaw is an OpenClaw-compatible service. Install it in OpenClaw and launch autonomous research with a single message — or use it standalone via CLI, Claude Code, or any AI coding assistant.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 45608,
+    "fetchedAt": "2026-11-06T10:36:18.431Z"
+  },
+  "jailbreaks": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8714,
+    "fetchedAt": "2026-11-06T10:36:18.431Z"
+  },
+  "waoowaoo": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6517,
+    "fetchedAt": "2026-11-06T10:36:18.431Z"
+  },
+  "awesome-zhuiju-free": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 46125,
+    "fetchedAt": "2026-11-06T10:36:18.431Z"
+  },
+  "edit": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4728,
+    "fetchedAt": "2026-11-06T10:36:18.431Z"
+  },
+  "csm": {
+    "summary": "CSM (Conversational Speech Model) is a speech generation model from Sesame that generates RVQ audio codes from text and audio inputs. The model architecture employs a Llama backbone and a smaller audio decoder that produces Mimi audio codes.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5509,
+    "fetchedAt": "2026-11-06T10:36:18.431Z"
+  },
+  "winhance": {
+    "summary": "Winhance is a C# application designed to debloat, optimize and customize your Windows experience. From software management to system optimizations and customization, Winhance provides everything you need to enhance Windows 10 and 11 systems.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4997,
+    "fetchedAt": "2026-11-06T10:36:18.922Z"
+  },
+  "palmier-pro": {
+    "summary": "Palmier Pro is a macOS video editor with built-in AI generation and MCP support, allowing agents to create and edit directly on the timeline.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4494,
+    "fetchedAt": "2026-11-06T10:36:18.922Z"
+  },
+  "memu": {
+    "summary": "memU is a lightweight, agent-driven memory system that gives users a shared LLM wiki across sessions, agents, and devices. It automatically distills your own reusable skills from your agent history. Its core memory logic is only 500 lines — compact enough to inspect, understand, and adapt.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12058,
+    "fetchedAt": "2026-11-06T10:36:18.922Z"
+  },
+  "vggt": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14330,
+    "fetchedAt": "2026-11-06T10:36:18.922Z"
+  },
+  "aperant": {
+    "summary": "Aperant is free to use. If you modify and distribute it, or run it as a service, your code must also be open source under AGPL-3.0.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10764,
+    "fetchedAt": "2026-11-06T10:36:18.922Z"
+  },
+  "concat": {
+    "summary": "Concat is a free, open-source video editor for macOS, Windows, Linux and Android. It covers what most edits need: auto-captions, text-to-speech, background removal, keyframe animation, effects and titles, multi-track cutting, 4K export. With none of the catches: no watermark, no account, no subscrip…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10873,
+    "fetchedAt": "2026-11-06T10:36:18.922Z"
+  },
+  "agent-framework": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14041,
+    "fetchedAt": "2026-11-06T10:36:19.449Z"
+  },
+  "ax": {
+    "summary": "AX is a highly efficient, declarative orchestrator to run millions of autonomous agent workloads in a cluster. It runs on top of Agent Substrate for sandboxed execution and is built to run millions of tasks per cluster. If you have used Kubernetes, ax will feel similar.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9215,
+    "fetchedAt": "2026-11-06T10:36:19.449Z"
+  },
+  "hermes-desktop": {
+    "summary": "Hermes One is a community maintained native desktop app for installing, configuring, and chatting with Hermes Agent — a self-improving AI assistant with tool use, multi-platform messaging, and a closed learning loop.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18633,
+    "fetchedAt": "2026-11-06T10:36:19.449Z"
+  },
+  "cactus": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2342,
+    "fetchedAt": "2026-11-06T10:36:19.449Z"
+  },
+  "peach": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6035,
+    "fetchedAt": "2026-11-06T10:36:19.449Z"
+  },
+  "claudecodeui": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15361,
+    "fetchedAt": "2026-11-06T10:36:19.449Z"
+  },
+  "semantica": {
+    "summary": "Semantica complements your existing stack rather than replacing it. Keep your LLM, vector store, and agent framework exactly as they are; Semantica adds the decision records, causal reasoning, provenance, ontology governance, conflict detection, and audit trails on top. The reasoning engines, KG con…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 81374,
+    "fetchedAt": "2026-11-06T10:36:19.957Z"
+  },
+  "ace-step-1-5": {
+    "summary": "ACE-Step 1.5 includes profileinference.py, a profiling & benchmarking tool that measures LLM, DiT, and VAE timing across devices and configurations.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 19785,
+    "fetchedAt": "2026-11-06T10:36:19.957Z"
+  },
+  "garden-skills": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 38953,
+    "fetchedAt": "2026-11-06T10:36:19.957Z"
+  },
+  "genericagent": {
+    "summary": "GenericAgent is a minimal, self-evolving autonomous agent framework. Its core is just 3K lines of code. Through 9 atomic tools + a 100-line Agent Loop, it grants any LLM system-level control over a local computer — covering browser, terminal, filesystem, keyboard/mouse input, screen vision, and mobi…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 32879,
+    "fetchedAt": "2026-11-06T10:36:19.957Z"
+  },
+  "solidcraft": {
+    "summary": "solidcraft-cli mcp is a Model Context Protocol server. Headless it runs its own design session, or with --connect it drives the running app so you can watch. Claude Code: claude mcp add solidcraft -- solidcraft-cli mcp. If a terminal doesn't find solidcraft-cli (older Windows installers don't put it…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10613,
+    "fetchedAt": "2026-11-06T10:36:19.957Z"
+  },
+  "ai-research-skills": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 45956,
+    "fetchedAt": "2026-11-06T10:36:19.957Z"
+  },
+  "how-to-live-better": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1160,
+    "fetchedAt": "2026-11-06T10:37:22.922Z"
+  },
+  "maptoposter": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14467,
+    "fetchedAt": "2026-11-06T10:37:22.922Z"
   }
 }
