@@ -530,7 +530,7 @@ function homePage(lang) {
     '      <h3 class="side-title">' + esc(L.sideSort) + "</h3>",
     '      <select id="sort" class="sort" aria-label="sort">',
     '        <option value="latest">' + esc(L.sortLatest) + "</option>",
-    '        <option value="trending">' + esc(L.sortTrending) + "</option>",
+    // trending 选项已下线：点赞全为 0 时它与 latest 完全相同；等有点赞数据后再恢复（同时恢复下方热门趋势展示区）。
     '        <option value="stars">' + esc(L.sortStars) + "</option>",
     '        <option value="name">' + esc(L.sortName) + "</option>",
     '        <option value="updated">' + esc(L.sortUpdated) + "</option>",
@@ -578,8 +578,7 @@ function homePage(lang) {
           (priceLabelOf(t2, lang) ? " · " + esc(priceLabelOf(t2, lang)) : "") + "</div></article>";
       }
       var todayHtml = byAdded.slice(0, 8).map(spot).join("");
-      // 热门趋势：构建期点赞全为 0，按任务默认值退化为按最新排，并如实标注，不编造热度
-      var trendHtml = byAdded.slice(0, 8).map(spot).join("");
+      // 热门趋势展示区已下线：构建期点赞全为 0，它与“今日新品”内容完全重复；等有点赞数据后再恢复（同时恢复排序下拉里的 trending 选项）。
       var creators = authorGroups().map(function (g) {
         var stars = g.works.reduce(function (s, x) { return s + (x.stars || 0); }, 0);
         return { g: g, stars: stars };
@@ -601,7 +600,6 @@ function homePage(lang) {
       }).join("");
       return '<section class="showcase"><h2>' + esc(L.catTilesTitle) + '</h2><div class="cat-tiles">' + catTiles + "</div></section>" +
         '<section class="showcase"><h2>' + esc(L.todayNew) + '</h2><div class="spot-grid">' + todayHtml + "</div></section>" +
-        '<section class="showcase"><h2>' + esc(L.trendingTitle) + "</h2><p class=\"showcase-note\">" + esc(L.trendingFallback) + '</p><div class="spot-grid">' + trendHtml + "</div></section>" +
         '<section class="showcase"><h2>' + esc(L.creatorSpotlight) + '</h2><div class="creator-grid">' + creatorHtml + "</div></section>";
     })(),
     // 赞助位：数据在数据库里，构建期读不到，所以留空容器由 sponsors.js 运行时注入。

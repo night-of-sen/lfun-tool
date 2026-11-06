@@ -38,6 +38,12 @@ try {
   for (const t of prev.items) prevMap[t.id] = t;
 } catch (e) {}
 
+// 真实收录日期回填表：GitHub 工具首次入库的北京时间日期（由 data/tools.json 的 git 历史算出，一次性）。
+// 同步时：prev 有 addedAt 用 prev；老工具没有的查回填表；全新工具用本次同步日。
+// 回填表不随同步自更新——新工具的 addedAt 写进 data/tools.json 后，下次由 prev 保留。
+let ADDED_AT_BACKFILL = {};
+try { ADDED_AT_BACKFILL = JSON.parse(await readFile(resolve(ROOT, "scripts/added-at-backfill.json"), "utf8")); } catch (e) {}
+
 // ---- 已通过收录自动上架 ----
 // 后台改 approved 的提交由线上接口吐出，本脚本每天构建时合并进来，无需手动改 source.json。
 // 接口某天拉不到时，上次已上架的 approved 条目仍保留（不掉线）；下架需手动从 data/tools.json 删除。
@@ -279,6 +285,8 @@ items = items.filter((it) => {
 
 const outItems = items.map((it) => {
   const p = prevMap[it.id] || {};
+  // 真实收录日期：prev > 回填表 > 本次同步日；GitHub 工具与网页提交同一口径
+  const addedAt = p.addedAt || ADDED_AT_BACKFILL[it.id] || now.slice(0, 10);
   const base = {
     id: it.id, name: it.name, repo: it.repo, category: it.category,
     desc: it.desc, tags: it.tags,
@@ -296,17 +304,17 @@ const outItems = items.map((it) => {
     ...(it.video_url ? { video_url: it.video_url } : {}),
     ...(it.price_model ? { price_model: it.price_model } : {}),
     ...(it.form ? { form: it.form } : {}),
+    addedAt,
   };
   const d = fetched.get(it.id);
 
-  // 网页提交：无需 GitHub 数据即完整，直接输出，不计入缺数据；收录日期写 addedAt（真实上架日）
+  // 网页提交：无需 GitHub 数据即完整，直接输出，不计入缺数据；收录日期写 addedAt（真实上架日，见上方 base）
   if (it._web) {
     return { ...base,
       homepage: it.homepage || "",
       stars: 0, language: "", license: "",
       archived: false, pushedAt: "",
       descEn: it.descEn || it.desc || "",
-      addedAt: p.addedAt || now.slice(0, 10),
       syncOk: true, syncedAt: now,
     };
   }
