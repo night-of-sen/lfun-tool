@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T10:38:55.878Z",
+  "generatedAt": "2026-11-07T09:51:44.654Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -4828,6 +4828,126 @@
     "how-to-live-better": {
       "en": "For readers who want all 528 tips on a single page: mobile-friendly, searchable, zero-dependency, and usable offline.",
       "zh": "给想把全书528条建议放在单页阅读的读者：手机可读、可搜索、零依赖、支持离线。"
+    },
+    "openmausbot": {
+      "en": "OpenMausBot is an open-source bot for developers who want Grok Bot-style agents with a virtual machine bots can use.",
+      "zh": "OpenMausBot 是开源机器人工具，面向需要带虚拟机环境的 Grok Bot 类代理的开发者。"
+    },
+    "browseros": {
+      "en": "An open-source agentic browser for users who want AI-driven browsing as an alternative to ChatGPT Atlas, Perplexity Comet, and Dia.",
+      "zh": "面向希望用 AI 驱动浏览体验的用户，开源智能体浏览器，可作为 ChatGPT Atlas、Perplexity Comet 和 Dia 的替代选择。"
+    },
+    "emdash": {
+      "en": "For developers building content-driven sites, EmDash is a full-stack TypeScript CMS built on Astro.",
+      "zh": "面向构建内容站点的开发者，EmDash 是基于 Astro 的全栈 TypeScript CMS。"
+    },
+    "academic-research-skills-codex": {
+      "en": "A Codex-native skills suite for researchers who need human-in-the-loop academic research workflows.",
+      "zh": "面向需要人在回路学术研究流程的研究者的 Codex 原生技能套件。"
+    },
+    "freedomains": {
+      "en": "FreeDomains offers free domain registration for individuals who need a web address without paying for one.",
+      "zh": "FreeDomains 为需要免费域名的人提供域名注册服务，无需付费即可领取。"
+    },
+    "qwen3-tts": {
+      "en": "For developers needing speech output, Qwen3-TTS is an open-source TTS model series supporting streaming speech generation, voice design, and voice cloning.",
+      "zh": "面向需要语音输出的开发者，Qwen3-TTS 是开源 TTS 模型系列，支持流式语音生成、音色设计与语音克隆。"
+    },
+    "astryx": {
+      "en": "Astryx is an open source design system for teams building interfaces, offering full customization and agent-ready use.",
+      "zh": "Astryx 是开源设计系统，面向构建界面的团队，支持完全自定义并适配智能体使用。"
+    },
+    "context-engineering-intro": {
+      "en": "For developers using AI coding assistants: a repo on context engineering strategies to make those assistants actually work.",
+      "zh": "面向使用 AI 编程助手的开发者：介绍上下文工程策略，让编程助手真正发挥作用。"
+    },
+    "leann": {
+      "en": "LEANN lets people run a fast, accurate, fully private RAG application on their own device, with 97% storage savings.",
+      "zh": "LEANN 让用户在个人设备上运行快速、准确且完全私密的 RAG 应用，并节省 97% 存储空间。"
+    },
+    "agent-orchestrator": {
+      "en": "For developers managing fleets of coding agents: plan, run and supervise agents from task to merged PR, on desktop and mobile.",
+      "zh": "给管理多个编码智能体的开发者：从任务到合并 PR，规划、运行并监督智能体集群。"
+    },
+    "awesome-opus5-5-videos": {
+      "en": "For creators studying AI-made video, this growing collection of viral Claude Opus 5.5 videos pairs each original with its prompt and a live remake.",
+      "zh": "面向研究 AI 视频生成的创作者：收录 Claude Opus 5.5 制作的热门视频与提示词，并附 Skillry 实时重制版本。"
+    },
+    "mimo-code": {
+      "en": "MiMo Code is built around the idea of models and agents co-evolving, for those working with AI agents.",
+      "zh": "MiMo Code 围绕模型与智能体共同演进这一理念构建，面向使用 AI 智能体的用户。"
+    },
+    "opentui": {
+      "en": "OpenTUI is a library for developers who build terminal user interfaces (TUI).",
+      "zh": "OpenTUI 是一个供开发者构建终端用户界面（TUI）的库。"
+    },
+    "everos": {
+      "en": "A local-first, Markdown-native memory layer for AI agents, letting users own and evolve memory across apps, tools, and workflows.",
+      "zh": "给 AI 智能体的可移植记忆层：本地优先、Markdown 原生、用户自有，可跨应用持续演进。"
+    },
+    "openjarvis": {
+      "en": "For people who want personal AI running on their own devices, so personal AI stays on personal hardware.",
+      "zh": "面向希望在自己的设备上运行个人 AI 的用户，让个人 AI 留在自有设备上。"
+    },
+    "ccstatusline": {
+      "en": "A customizable statusline for Claude Code CLI users, with powerline support and themes.",
+      "zh": "为 Claude Code CLI 用户提供可自定义的状态栏，支持 powerline 与主题。"
+    },
+    "awesome-nano-banana-pro-prompts": {
+      "en": "A free, open-source library of 10,000+ curated prompts with preview images in 16 languages, for people creating images with Google Gemini.",
+      "zh": "面向使用 Google Gemini 生成图像的用户，提供含 10,000+ 条精选提示词、预览图和 16 种语言的免费开源提示词库。"
+    },
+    "e2e": {
+      "en": "A next generation e2e testing framework for teams testing web and mobile apps.",
+      "zh": "面向需要测试网页与移动应用的团队，新一代端到端测试框架。"
+    },
+    "microduck": {
+      "en": "Microduck is a tiny biped duck robot for makers interested in small walking robots.",
+      "zh": "Microduck 是一个小型双足鸭子机器人，面向对小型步行机器人感兴趣的开发者。"
+    },
+    "ida-pro-mcp": {
+      "en": "A reverse engineering assistant for analysts, bridging IDA Pro with language models through MCP.",
+      "zh": "面向逆向分析人员的助手，通过 MCP 将 IDA Pro 与语言模型连接起来。"
+    },
+    "diplay": {
+      "en": "For owners of compatible Android head units, DiPlay adds an independent CarPlay receiver with wired and wireless public preview.",
+      "zh": "为兼容安卓车机用户提供独立 CarPlay 接收，含有线与无线公测版。"
+    },
+    "dsh-go": {
+      "en": "For DeepSeek Harness users, dsh-go runs the harness locally on a phone and also lets it remotely control a computer.",
+      "zh": "面向 DeepSeek Harness 用户，dsh-go 让手机本机运行该工具，也能遥控你的电脑。"
+    },
+    "insforge": {
+      "en": "InsForge is an open-source backend platform for agentic coding, giving agents database, auth, storage, compute, hosting, and AI gateway to ship full-stack apps.",
+      "zh": "InsForge 是面向智能体编程的开源一体化后端平台，为编程智能体提供数据库、认证、存储、计算、托管和 AI 网关，以交付全栈应用。"
+    },
+    "shell": {
+      "en": "A shell for Linux desktop users who want a fluid, morphing desktop shell.",
+      "zh": "面向 Linux 桌面用户的一款流畅、可变形的 shell。"
+    },
+    "quantdinger": {
+      "en": "For quant teams and agent developers, it combines AI research, Python strategies, backtesting, and paper/live multi-asset execution with risk controls in one auditable stack.",
+      "zh": "面向量化团队与 agent 开发者，将 AI 研究、Python 策略回测、模拟与实盘执行及风控整合在一个自托管平台。"
+    },
+    "elephant-goldfish-model": {
+      "en": "An open-source plugin for developers who use agents to design and review software.",
+      "zh": "面向使用智能体进行软件设计与评审的开发者的开源插件。"
+    },
+    "flashmla": {
+      "en": "FlashMLA offers efficient multi-head latent attention kernels for developers implementing attention computations.",
+      "zh": "FlashMLA 为需要多头潜在注意力计算的开发者提供高效的 kernel 实现。"
+    },
+    "nofx": {
+      "en": "An AI terminal assistant for traders working with US stocks, commodities, forex, and crypto.",
+      "zh": "面向美股、商品、外汇和加密货币交易者的 AI 终端助手。"
+    },
+    "tinyzero": {
+      "en": "TinyZero is a minimal reproduction of DeepSeek R1-Zero for developers and researchers who want to study or reproduce it.",
+      "zh": "TinyZero 面向希望研究或复现 DeepSeek R1-Zero 的开发者和研究者，提供最小复现。"
+    },
+    "peerbrush": {
+      "en": "An image editor for people and AI agents who work together on the same project.",
+      "zh": "一款图像编辑器，供人类与 AI 代理在同一项目上协作。"
     }
   }
 }

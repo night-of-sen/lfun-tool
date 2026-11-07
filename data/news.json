@@ -1,6 +1,350 @@
 {
   "days": [
     {
+      "date": "2026-11-07",
+      "items": [
+        {
+          "title": "The Components of Agent Memory",
+          "link": "https://www.anthropic.com/research/components-of-agent-memory",
+          "source": "Hacker News",
+          "date": "2026-11-07",
+          "zhTitle": "智能体记忆的组成部分",
+          "zh": "Anthropic解析AI智能体记忆系统的构成要素。",
+          "en": "Anthropic breaks down the components that make up agent memory."
+        },
+        {
+          "title": "AI is dramatically accelerating AI research",
+          "link": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+          "source": "Hacker News",
+          "date": "2026-11-06",
+          "zhTitle": "AI正大幅加速AI研究",
+          "zh": "文章探讨AI如何大幅加速AI领域自身的研究进程。",
+          "en": "A look at how AI is dramatically accelerating AI research itself."
+        },
+        {
+          "title": "Gemini Omni 1.2 Flash",
+          "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+          "source": "Hacker News",
+          "date": "2026-11-06",
+          "zhTitle": "Gemini Omni 1.2 Flash 发布",
+          "zh": "谷歌发布面向开发者的Gemini Omni 1.2 Flash模型。",
+          "en": "Google introduces the Gemini Omni 1.2 Flash model for developers."
+        },
+        {
+          "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+          "link": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-06",
+          "zhTitle": "每日速览：人形机器人做家务，三星为AI热潮布局",
+          "zh": "人形机器人打扫房屋，三星为AI芯片热潮扩产。",
+          "en": "A humanoid robot cleans house while Samsung builds for the AI boom."
+        },
+        {
+          "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+          "link": "https://openai.com/index/partnering-with-hacktron",
+          "source": "OpenAI",
+          "date": "2026-11-06",
+          "zhTitle": "与Hacktron合作查找OpenAI系统的漏洞",
+          "zh": "OpenAI与Hacktron合作排查自身系统安全漏洞。",
+          "en": "OpenAI partners with Hacktron to find vulnerabilities in its systems."
+        },
+        {
+          "title": "Measuring how AI agents handle everyday wet-lab science",
+          "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+          "source": "OpenAI",
+          "date": "2026-11-06",
+          "zhTitle": "衡量AI智能体如何应对日常湿实验室科研",
+          "zh": "OpenAI提出衡量AI智能体做湿实验室科研的评测方式。",
+          "en": "OpenAI measures how AI agents handle everyday wet-lab science."
+        },
+        {
+          "title": "Cult.fit builds operational muscle with Codex",
+          "link": "https://openai.com/index/cultfit-builds-with-codex",
+          "source": "OpenAI",
+          "date": "2026-11-05",
+          "zhTitle": "Cult.fit 借助 Codex 打造运营能力",
+          "zh": "Cult.fit利用Codex提升自身运营能力。",
+          "en": "Cult.fit builds operational strength with Codex."
+        },
+        {
+          "title": "Australian universities are creating AI-native graduates",
+          "link": "https://openai.com/index/australian-universities-ai-native-graduates",
+          "source": "OpenAI",
+          "date": "2026-11-05",
+          "zhTitle": "澳大利亚高校正在培养AI原生毕业生",
+          "zh": "澳大利亚高校正在培养AI原生毕业生。",
+          "en": "Australian universities are creating AI-native graduates."
+        },
+        {
+          "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
+          "link": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-05",
+          "zhTitle": "每日速览：得州脆弱的AI热潮与能源政策转向",
+          "zh": "得州AI热潮显露脆弱，美国能源政策出现转向。",
+          "en": "Texas's fragile AI boom and shifts in US energy policy."
+        },
+        {
+          "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+          "link": "https://openai.com/index/introducing-gpt-6-cyber",
+          "source": "OpenAI",
+          "date": "2026-11-05",
+          "zhTitle": "GPT‑6 Cyber：推进对齐网络安全智能体的前沿",
+          "zh": "OpenAI推出GPT-6 Cyber网络安全智能体。",
+          "en": "GPT-6 Cyber advances the frontier of aligned cybersecurity agents."
+        },
+        {
+          "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+          "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-04",
+          "zhTitle": "得州曾是AI数据中心建设的新中心，如今或成泡影",
+          "zh": "得州AI数据中心建设热潮可能已告终结。",
+          "en": "Texas's role as the AI data center epicenter may be over."
+        },
+        {
+          "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+          "link": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+          "source": "GitHub Blog",
+          "date": "2026-10-28",
+          "zhTitle": "Octoverse：2026年提交与推送创新高，开发者用智能体构建",
+          "zh": "2026年GitHub提交与推送创新高，开发者用智能体开发。",
+          "en": "GitHub commits and pushes hit new highs in 2026 as developers build with agents."
+        },
+        {
+          "title": "The bridge to agent-scale Git infrastructure",
+          "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+          "source": "GitHub Blog",
+          "date": "2026-10-21",
+          "zhTitle": "通往智能体规模Git基础设施的桥梁",
+          "zh": "GitHub介绍面向智能体规模的Git基础设施架构路径。",
+          "en": "GitHub's path to Git infrastructure built for agent scale."
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "openmausbot",
+          "name": "OpenMausBot",
+          "repo": "milind-soni/OpenMausBot",
+          "stars": 16066
+        },
+        {
+          "id": "browseros",
+          "name": "BrowserOS",
+          "repo": "browseros-ai/BrowserOS",
+          "stars": 14270
+        },
+        {
+          "id": "qwen3-tts",
+          "name": "Qwen3 TTS",
+          "repo": "QwenLM/Qwen3-TTS",
+          "stars": 14262
+        },
+        {
+          "id": "emdash",
+          "name": "Emdash",
+          "repo": "emdash-cms/emdash",
+          "stars": 14234
+        },
+        {
+          "id": "agent-orchestrator",
+          "name": "Agent Orchestrator",
+          "repo": "OrchestratorInc/agent-orchestrator",
+          "stars": 14202
+        },
+        {
+          "id": "academic-research-skills-codex",
+          "name": "Academic Research Skills Codex",
+          "repo": "Imbad0202/academic-research-skills-codex",
+          "stars": 14149
+        },
+        {
+          "id": "freedomains",
+          "name": "FreeDomains",
+          "repo": "stackryze/FreeDomains",
+          "stars": 14096
+        },
+        {
+          "id": "astryx",
+          "name": "Astryx",
+          "repo": "meta/astryx",
+          "stars": 14091
+        },
+        {
+          "id": "awesome-opus5-5-videos",
+          "name": "Awesome Opus5 5 Videos",
+          "repo": "yihui-dev/awesome-opus5-5-videos",
+          "stars": 13963
+        },
+        {
+          "id": "context-engineering-intro",
+          "name": "Context Engineering Intro",
+          "repo": "coleam00/context-engineering-intro",
+          "stars": 13902
+        },
+        {
+          "id": "everos",
+          "name": "EverOS",
+          "repo": "EverMind-AI/EverOS",
+          "stars": 13845
+        },
+        {
+          "id": "leann",
+          "name": "LEANN",
+          "repo": "StarTrail-org/LEANN",
+          "stars": 13778
+        },
+        {
+          "id": "mimo-code",
+          "name": "MiMo Code",
+          "repo": "XiaomiMiMo/MiMo-Code",
+          "stars": 13763
+        },
+        {
+          "id": "awesome-nano-banana-pro-prompts",
+          "name": "Awesome Nano Banana Pro Prompts",
+          "repo": "YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+          "stars": 13748
+        },
+        {
+          "id": "opentui",
+          "name": "Opentui",
+          "repo": "anomalyco/opentui",
+          "stars": 13734
+        },
+        {
+          "id": "openjarvis",
+          "name": "OpenJarvis",
+          "repo": "open-jarvis/OpenJarvis",
+          "stars": 13700
+        },
+        {
+          "id": "quantdinger",
+          "name": "QuantDinger",
+          "repo": "OpenByteInc/QuantDinger",
+          "stars": 13590
+        },
+        {
+          "id": "ccstatusline",
+          "name": "Ccstatusline",
+          "repo": "sirmalloc/ccstatusline",
+          "stars": 13543
+        },
+        {
+          "id": "microduck",
+          "name": "Microduck",
+          "repo": "pollen-robotics/microduck",
+          "stars": 13532
+        },
+        {
+          "id": "e2e",
+          "name": "E2e",
+          "repo": "tester-army/e2e",
+          "stars": 13417
+        },
+        {
+          "id": "hexstrike-ai",
+          "name": "Hexstrike Ai",
+          "repo": "0x4m4/hexstrike-ai",
+          "stars": 13407
+        },
+        {
+          "id": "diplay",
+          "name": "DiPlay",
+          "repo": "shihabal3amri/DiPlay",
+          "stars": 13402
+        },
+        {
+          "id": "ida-pro-mcp",
+          "name": "Ida Pro Mcp",
+          "repo": "mrexodia/ida-pro-mcp",
+          "stars": 13395
+        },
+        {
+          "id": "dsh-go",
+          "name": "Dsh Go",
+          "repo": "ccch1mneyyy/dsh-Go",
+          "stars": 13380
+        },
+        {
+          "id": "insforge",
+          "name": "InsForge",
+          "repo": "InsForge/InsForge",
+          "stars": 13303
+        },
+        {
+          "id": "shell",
+          "name": "Shell",
+          "repo": "caelestia-dots/shell",
+          "stars": 13271
+        },
+        {
+          "id": "tinyzero",
+          "name": "TinyZero",
+          "repo": "Jiayi-Pan/TinyZero",
+          "stars": 13258
+        },
+        {
+          "id": "elephant-goldfish-model",
+          "name": "Elephant Goldfish Model",
+          "repo": "google/elephant-goldfish-model",
+          "stars": 13262
+        },
+        {
+          "id": "flashmla",
+          "name": "FlashMLA",
+          "repo": "deepseek-ai/FlashMLA",
+          "stars": 13254
+        },
+        {
+          "id": "nofx",
+          "name": "Nofx",
+          "repo": "NoFxAiOS/nofx",
+          "stars": 13227
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "openmausbot",
+          "name": "OpenMausBot",
+          "repo": "milind-soni/OpenMausBot",
+          "stars": 16066,
+          "gain": 16066
+        },
+        {
+          "id": "browseros",
+          "name": "BrowserOS",
+          "repo": "browseros-ai/BrowserOS",
+          "stars": 14270,
+          "gain": 14270
+        },
+        {
+          "id": "qwen3-tts",
+          "name": "Qwen3 TTS",
+          "repo": "QwenLM/Qwen3-TTS",
+          "stars": 14262,
+          "gain": 14262
+        },
+        {
+          "id": "emdash",
+          "name": "Emdash",
+          "repo": "emdash-cms/emdash",
+          "stars": 14234,
+          "gain": 14234
+        },
+        {
+          "id": "agent-orchestrator",
+          "name": "Agent Orchestrator",
+          "repo": "OrchestratorInc/agent-orchestrator",
+          "stars": 14202,
+          "gain": 14202
+        }
+      ],
+      "rollupZh": "今日要闻：Anthropic 解析智能体记忆的组成部分，谷歌发布 Gemini Omni 1.2 Flash，OpenAI 推出 GPT‑6 Cyber 并公布与 Hacktron 的漏洞排查合作。GitHub Octoverse 显示 2026 年提交与推送创新高，开发者加速转向智能体构建；MIT 科技评论则关注得州 AI 数据中心热潮的脆弱性与能源政策转向。",
+      "rollupEn": "Today's highlights: Anthropic breaks down agent memory, Google releases Gemini Omni 1.2 Flash, and OpenAI introduces GPT‑6 Cyber alongside a Hacktron security partnership. GitHub's Octoverse shows 2026 commits and pushes hitting new highs as developers build with agents, while MIT Technology Review examines Texas's fragile AI data center boom and shifting energy policy.",
+      "failures": []
+    },
+    {
       "date": "2026-11-06",
       "items": [
         {

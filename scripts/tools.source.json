@@ -28770,6 +28770,655 @@
       "cloud": "",
       "descEn": "Transform your favorite cities into beautiful, minimalist designs. MapToPoster lets you create and export visually striking map posters with code.",
       "pushedAt": "2026-08-06"
+    },
+    {
+      "id": "openmausbot",
+      "name": "OpenMausBot",
+      "repo": "milind-soni/OpenMausBot",
+      "homepage": "https://www.openmausbot.com/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "computer-use"
+      ],
+      "seed": {
+        "stars": 16059,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "pushedAt": "2026-11-07"
+    },
+    {
+      "id": "browseros",
+      "name": "BrowserOS",
+      "repo": "browseros-ai/BrowserOS",
+      "homepage": "https://BrowserOS.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai-agents",
+        "automation",
+        "browser"
+      ],
+      "seed": {
+        "stars": 14270,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia.",
+      "pushedAt": "2026-11-07"
+    },
+    {
+      "id": "qwen3-tts",
+      "name": "Qwen3 TTS",
+      "repo": "QwenLM/Qwen3-TTS",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 14262,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design",
+      "pushedAt": "2026-03-17"
+    },
+    {
+      "id": "emdash",
+      "name": "Emdash",
+      "repo": "emdash-cms/emdash",
+      "homepage": "https://emdashcms.com",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "astro",
+        "cms",
+        "emdash",
+        "typescript"
+      ],
+      "seed": {
+        "stars": 14234,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress",
+      "pushedAt": "2026-11-07"
+    },
+    {
+      "id": "agent-orchestrator",
+      "name": "Agent Orchestrator",
+      "repo": "OrchestratorInc/agent-orchestrator",
+      "homepage": "https://orchestrator.inc",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-fleet",
+        "agent-ide",
+        "agent-orchestration",
+        "agent-swarm"
+      ],
+      "seed": {
+        "stars": 14201,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Plan, run and supervise fleets of agents from task to merged PR. Desktop (macOS, Windows, Linux) + iPhone & Android apps. Supports Claude Code, Codex & 35+ coding agents.",
+      "pushedAt": "2026-11-07"
+    },
+    {
+      "id": "academic-research-skills-codex",
+      "name": "Academic Research Skills Codex",
+      "repo": "Imbad0202/academic-research-skills-codex",
+      "homepage": "https://github.com/Imbad0202/academic-research-skills",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "academic-pipeline",
+        "academic-research",
+        "academic-writing",
+        "ai-research"
+      ],
+      "seed": {
+        "stars": 14148,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Codex-native Academic Research Skills suite for human-in-the-loop academic research workflows",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "freedomains",
+      "name": "FreeDomains",
+      "repo": "stackryze/FreeDomains",
+      "homepage": "https://domain.stackryze.com",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "developer-tools",
+        "dns",
+        "domain",
+        "freedomain"
+      ],
+      "seed": {
+        "stars": 14096,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Stackryze Domains: Free Domain for Everyone, Claim yours today.",
+      "pushedAt": "2026-10-30"
+    },
+    {
+      "id": "astryx",
+      "name": "Astryx",
+      "repo": "meta/astryx",
+      "homepage": "http://astryx.atmeta.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 14089,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An open source design system that's fully customizable and agent ready",
+      "pushedAt": "2026-11-07"
+    },
+    {
+      "id": "awesome-opus5-5-videos",
+      "name": "Awesome Opus5 5 Videos",
+      "repo": "yihui-dev/awesome-opus5-5-videos",
+      "homepage": "https://skillry.dev/ai-videos/opus-5-5",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-video",
+        "awesome",
+        "awesome-list",
+        "claude"
+      ],
+      "seed": {
+        "stars": 13962,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "context-engineering-intro",
+      "name": "Context Engineering Intro",
+      "repo": "coleam00/context-engineering-intro",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 13902,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Context engineering is the new vibe coding - it's the way to actually make AI coding assistants work. Claude Code is the best for this so that's what this repo is centered around, ",
+      "pushedAt": "2026-03-16"
+    },
+    {
+      "id": "everos",
+      "name": "EverOS",
+      "repo": "EverMind-AI/EverOS",
+      "homepage": "https://evermind.ai/everos",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-memory",
+        "agentic-ai",
+        "ai",
+        "chats"
+      ],
+      "seed": {
+        "stars": 13845,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows.",
+      "pushedAt": "2026-11-07"
+    },
+    {
+      "id": "leann",
+      "name": "LEANN",
+      "repo": "StarTrail-org/LEANN",
+      "homepage": "https://arxiv.org/abs/2506.08276",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "faiss",
+        "gpt-oss",
+        "langchain"
+      ],
+      "seed": {
+        "stars": 13777,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "[MLsys2026 Best Paper]: https://arxiv.org/abs/2506.08276. RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application o",
+      "pushedAt": "2026-11-03"
+    },
+    {
+      "id": "mimo-code",
+      "name": "MiMo Code",
+      "repo": "XiaomiMiMo/MiMo-Code",
+      "homepage": "https://mimo.xiaomi.com/mimocode",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "cli",
+        "mimo"
+      ],
+      "seed": {
+        "stars": 13763,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "MiMo Code: Where Models and Agents Co-Evolve",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "awesome-nano-banana-pro-prompts",
+      "name": "Awesome Nano Banana Pro Prompts",
+      "repo": "YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+      "homepage": "https://youmind.com/nano-banana-pro-prompts",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-image-generation",
+        "ai-prompts",
+        "awesome",
+        "awesome-list"
+      ],
+      "seed": {
+        "stars": 13748,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🍌 World's largest Nano Banana Pro prompt library — 10,000+ curated prompts with preview images, 16 languages. Google Gemini AI image generation. Free & open source.",
+      "pushedAt": "2026-11-07"
+    },
+    {
+      "id": "opentui",
+      "name": "Opentui",
+      "repo": "anomalyco/opentui",
+      "homepage": "https://opentui.com/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "opencode",
+        "opentui",
+        "tui"
+      ],
+      "seed": {
+        "stars": 13734,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "OpenTUI is a library to build terminal user interfaces (TUI)",
+      "pushedAt": "2026-11-07"
+    },
+    {
+      "id": "openjarvis",
+      "name": "OpenJarvis",
+      "repo": "open-jarvis/OpenJarvis",
+      "homepage": "https://openjarvis.stanford.edu/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 13699,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Personal AI, On Personal Devices",
+      "pushedAt": "2026-11-07"
+    },
+    {
+      "id": "quantdinger",
+      "name": "QuantDinger",
+      "repo": "OpenByteInc/QuantDinger",
+      "homepage": "https://ai.quantdinger.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agentic-ai",
+        "ai-agents",
+        "backtesting",
+        "crypto"
+      ],
+      "seed": {
+        "stars": 13590,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The most complete open-source, self-hosted Agentic Trading OS—AI research, Python strategies, factor discovery, backtesting, optimization, paper/live multi-asset execution, risk co",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "ccstatusline",
+      "name": "Ccstatusline",
+      "repo": "sirmalloc/ccstatusline",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-tools",
+        "claude-code",
+        "cli",
+        "developer-tools"
+      ],
+      "seed": {
+        "stars": 13543,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🚀 Beautiful highly customizable statusline for Claude Code CLI with powerline support, themes, and more.",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "microduck",
+      "name": "Microduck",
+      "repo": "pollen-robotics/microduck",
+      "homepage": "https://pollen-robotics.com/microduck",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 13532,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A Tiny biped duck robot 🦆",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "e2e",
+      "name": "E2e",
+      "repo": "tester-army/e2e",
+      "homepage": "https://e2e.com",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "e2e",
+        "e2e-testing",
+        "end-to-end-testing",
+        "mobile"
+      ],
+      "seed": {
+        "stars": 13417,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Next generation e2e testing framework for web and mobile apps.",
+      "pushedAt": "2026-11-07"
+    },
+    {
+      "id": "hexstrike-ai",
+      "name": "Hexstrike Ai",
+      "repo": "0x4m4/hexstrike-ai",
+      "homepage": "https://www.hexstrike.com/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "0x4m4",
+        "ai",
+        "ai-agents",
+        "ai-cybersecurity"
+      ],
+      "seed": {
+        "stars": 13407,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability",
+      "pushedAt": "2026-08-03"
+    },
+    {
+      "id": "diplay",
+      "name": "DiPlay",
+      "repo": "shihabal3amri/DiPlay",
+      "homepage": "https://shihabal3amri.github.io/DiPlay/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 13401,
+        "language": "Kotlin"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.",
+      "pushedAt": "2026-10-28"
+    },
+    {
+      "id": "ida-pro-mcp",
+      "name": "Ida Pro Mcp",
+      "repo": "mrexodia/ida-pro-mcp",
+      "homepage": "https://plugins.hex-rays.com/mrexodia/ida-pro-mcp",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "aiagent",
+        "binary-analysis",
+        "ida-plugin"
+      ],
+      "seed": {
+        "stars": 13394,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
+      "pushedAt": "2026-09-26"
+    },
+    {
+      "id": "dsh-go",
+      "name": "Dsh Go",
+      "repo": "ccch1mneyyy/dsh-Go",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agent",
+        "android",
+        "android-app",
+        "coding-agent"
+      ],
+      "seed": {
+        "stars": 13374,
+        "language": "Dart"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "pushedAt": "2026-11-07"
+    },
+    {
+      "id": "insforge",
+      "name": "InsForge",
+      "repo": "InsForge/InsForge",
+      "homepage": "https://insforge.dev",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "coding",
+        "deno"
+      ],
+      "seed": {
+        "stars": 13303,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The all-in-one, open-source backend platform for agentic coding. InsForge gives your coding agent database, auth, storage, compute, hosting, and AI gateway to ship full-stack apps ",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "shell",
+      "name": "Shell",
+      "repo": "caelestia-dots/shell",
+      "homepage": "https://caelestiashell.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "caelestia",
+        "dotfiles",
+        "hyprland",
+        "hyprland-rice"
+      ],
+      "seed": {
+        "stars": 13271,
+        "language": "QML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A fluid, morphing shell for your Linux desktop",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "tinyzero",
+      "name": "TinyZero",
+      "repo": "Jiayi-Pan/TinyZero",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 13258,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Minimal reproduction of DeepSeek R1-Zero",
+      "pushedAt": "2026-02-27"
+    },
+    {
+      "id": "elephant-goldfish-model",
+      "name": "Elephant Goldfish Model",
+      "repo": "google/elephant-goldfish-model",
+      "homepage": "https://egm.dev",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "antigravity",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 13256,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source plugin for designing and reviewing software with agents",
+      "pushedAt": "2026-11-07"
+    },
+    {
+      "id": "flashmla",
+      "name": "FlashMLA",
+      "repo": "deepseek-ai/FlashMLA",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 13254,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "FlashMLA: Efficient Multi-head Latent Attention Kernels",
+      "pushedAt": "2026-10-27"
+    },
+    {
+      "id": "nofx",
+      "name": "Nofx",
+      "repo": "NoFxAiOS/nofx",
+      "homepage": "https://vergex.trade/explore",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agentictrading",
+        "ai",
+        "ai-trading",
+        "arbitrage"
+      ],
+      "seed": {
+        "stars": 13227,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Your AI trading terminal assistant for US stocks, commodities, forex, and crypto.",
+      "pushedAt": "2026-11-04"
     }
   ]
 }

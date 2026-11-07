@@ -8446,5 +8446,222 @@
     "source": "README.md",
     "rawLength": 14467,
     "fetchedAt": "2026-11-06T10:37:22.922Z"
+  },
+  "openmausbot": {
+    "summary": "OpenMausBot is an open-source Grok Bot alternative: an independent project inspired by Grok Bot, and the open-source alternative to Meta Muse, OpenAI dots and Cue by Manus — bring-your-own-agent, local-first, on the models you already have. Also known as MausBot; formerly OpenGrokBot. Not affiliated…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 32501,
+    "fetchedAt": "2026-11-07T09:48:56.671Z"
+  },
+  "browseros": {
+    "summary": "BrowserOS neo is not a Chrome replacement. It is a secondary browser that sits next to Chrome, made friendly to agents.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13185,
+    "fetchedAt": "2026-11-07T09:48:56.672Z"
+  },
+  "qwen3-tts": {
+    "summary": "Qwen3-TTS covers 10 major languages (Chinese, English, Japanese, Korean, German, French, Russian, Portuguese, Spanish, and Italian) as well as multiple dialectal voice profiles to meet global application needs. In addition, the models feature strong contextual understanding, enabling adaptive contro…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 60022,
+    "fetchedAt": "2026-11-07T09:48:56.672Z"
+  },
+  "emdash": {
+    "summary": "EmDash runs on Cloudflare (D1 + R2 + Workers) or any Node.js server with SQLite. No PHP, no separate hosting tier -- just deploy your Astro site.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8731,
+    "fetchedAt": "2026-11-07T09:48:56.672Z"
+  },
+  "agent-orchestrator": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 19648,
+    "fetchedAt": "2026-11-07T09:48:57.259Z"
+  },
+  "academic-research-skills-codex": {
+    "summary": "Codex - Assisted with the Codex adapter packaging, router-policy hardening, test fixes, and release-readiness review under maintainer direction.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 33118,
+    "fetchedAt": "2026-11-07T09:48:57.259Z"
+  },
+  "freedomains": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2921,
+    "fetchedAt": "2026-11-07T09:48:57.259Z"
+  },
+  "astryx": {
+    "summary": "Astryx is an open source design system that grew inside Meta over the last eight years, where it became the most-used and largest design system in the company — powering 13,000+ apps and shaped by the engineers, designers, and product teams who depend on it every day.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9082,
+    "fetchedAt": "2026-11-07T09:48:57.259Z"
+  },
+  "awesome-opus5-5-videos": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 63120,
+    "fetchedAt": "2026-11-07T09:48:57.259Z"
+  },
+  "context-engineering-intro": {
+    "summary": "Context Engineering: - A complete system for providing comprehensive context - Includes documentation, examples, rules, patterns, and validation - Like writing a full screenplay with all the details",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9428,
+    "fetchedAt": "2026-11-07T09:48:57.259Z"
+  },
+  "everos": {
+    "summary": "EverOS adds durable memory to the agent and workflow platforms below—and comes built into Raven. Choose an integration to open its setup guide.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 28261,
+    "fetchedAt": "2026-11-07T09:48:57.859Z"
+  },
+  "leann": {
+    "summary": "LEANN is an innovative vector database that democratizes personal AI. Transform your laptop into a powerful RAG system that can index and search through millions of documents while using 97% less storage than traditional solutions without accuracy loss.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 53322,
+    "fetchedAt": "2026-11-07T09:48:57.859Z"
+  },
+  "mimo-code": {
+    "summary": "MiMoCode is a terminal-native AI coding assistant. It can read and write code, run commands, manage Git, and use a persistent memory system to keep a deep understanding of your project across sessions while continuously improving itself.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 28650,
+    "fetchedAt": "2026-11-07T09:48:57.859Z"
+  },
+  "awesome-nano-banana-pro-prompts": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 317865,
+    "fetchedAt": "2026-11-07T09:48:57.859Z"
+  },
+  "opentui": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3574,
+    "fetchedAt": "2026-11-07T09:48:57.859Z"
+  },
+  "openjarvis": {
+    "summary": "OpenJarvis is that stack. It is a framework for local-first personal AI, built around three core ideas: shared primitives for building on-device agents; evaluations that treat energy, FLOPs, latency, and dollar cost as first-class constraints alongside accuracy; and a learning loop that improves mod…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10012,
+    "fetchedAt": "2026-11-07T09:48:57.859Z"
+  },
+  "quantdinger": {
+    "summary": "QuantDinger is an open-source AI Trading OS for independent traders, Python strategy authors, and small teams. Its local-first, self-hosted design keeps market data, strategy code, broker credentials, and deployment under the operator's control.",
+    "docker": "docker compose exec -u 10001:10001 -T backend \\\n  sh -c 'test -w /app/.env && echo writable=yes || echo writable=no'",
+    "source": "README.md",
+    "rawLength": 48984,
+    "fetchedAt": "2026-11-07T09:48:58.481Z"
+  },
+  "ccstatusline": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 48133,
+    "fetchedAt": "2026-11-07T09:48:58.481Z"
+  },
+  "microduck": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5119,
+    "fetchedAt": "2026-11-07T09:48:58.481Z"
+  },
+  "e2e": {
+    "summary": "e2e is an end-to-end testing framework for web and mobile apps. Describe a goal in natural language and an agent drives the app to reach it. Check the result with locators and assertions in the same test.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5681,
+    "fetchedAt": "2026-11-07T09:48:58.481Z"
+  },
+  "hexstrike-ai": {
+    "summary": "HexStrike AI MCP v6.0 features a multi-agent architecture with autonomous AI agents, intelligent decision-making, and vulnerability intelligence.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 30988,
+    "fetchedAt": "2026-11-07T09:48:58.481Z"
+  },
+  "diplay": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7777,
+    "fetchedAt": "2026-11-07T09:48:58.481Z"
+  },
+  "ida-pro-mcp": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20058,
+    "fetchedAt": "2026-11-07T09:48:59.080Z"
+  },
+  "dsh-go": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14511,
+    "fetchedAt": "2026-11-07T09:48:59.080Z"
+  },
+  "insforge": {
+    "summary": "InsForge stores files on the local filesystem by default. Backing storage with an S3-compatible store also enables the S3-compatible gateway at /storage/v1/s3 (use aws CLI, rclone, or any AWS SDK against your InsForge Storage).",
+    "docker": "cd ~/insforge\n$EDITOR .env          # API_BASE_URL, VITE_API_BASE_URL — the URL browsers will use\ndocker compose up -d",
+    "source": "README.md",
+    "rawLength": 14269,
+    "fetchedAt": "2026-11-07T09:48:59.080Z"
+  },
+  "shell": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 35501,
+    "fetchedAt": "2026-11-07T09:48:59.080Z"
+  },
+  "elephant-goldfish-model": {
+    "summary": "Goldfish reviews require fresh subagent contexts. If your agent cannot create them, EGM stops the review. A review does not replace tests or human judgment. See supported environments and verification limits.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8418,
+    "fetchedAt": "2026-11-07T09:48:59.080Z"
+  },
+  "tinyzero": {
+    "summary": "TinyZero is a reproduction of DeepSeek R1 Zero in countdown and multiplication tasks. We built upon veRL.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3533,
+    "fetchedAt": "2026-11-07T09:48:59.080Z"
+  },
+  "flashmla": {
+    "summary": "FlashMLA 是 DeepSeek 的高性能注意力算子库，支撑着 DeepSeek-V4.1 模型在 NVIDIA GPU 与华为昇腾 NPU 上的推理。该仓库支持 prefill 与使用了 FP8 或 FP4 格式的 KV 缓存的 decoding 计算，以及一个高性能的融合了 Attention 前后的小操作的融合 kernel。此外，该仓库还提供了稠密 Attention 的 prefill 与反向传播算子。",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 22103,
+    "fetchedAt": "2026-11-07T09:50:01.466Z"
+  },
+  "nofx": {
+    "summary": "NOFX is an open-source trading system you run on your own machine. Use Frontier to work through a trade with AI, compare entries on a chart and approve the order yourself. Use Autopilot to run a strategy continuously. Both use your configured models and exchange accounts.",
+    "docker": "docker compose pull\ndocker compose up -d",
+    "source": "README.md",
+    "rawLength": 18705,
+    "fetchedAt": "2026-11-07T09:50:01.466Z"
+  },
+  "peerbrush": {
+    "summary": "PeerBrush is an image editing application designed from the ground up for humans and AI agents to work on the same project together.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13146,
+    "fetchedAt": "2026-11-07T09:50:01.466Z"
   }
 }
