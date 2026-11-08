@@ -8663,5 +8663,215 @@
     "source": "README.md",
     "rawLength": 13146,
     "fetchedAt": "2026-11-07T09:50:01.466Z"
+  },
+  "lemo-opuscar": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 36723,
+    "fetchedAt": "2026-11-08T10:04:00.689Z"
+  },
+  "nxnative": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 45356,
+    "fetchedAt": "2026-11-08T10:04:00.689Z"
+  },
+  "no-ai-slop": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3152,
+    "fetchedAt": "2026-11-08T10:04:00.689Z"
+  },
+  "rybbit": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7383,
+    "fetchedAt": "2026-11-08T10:04:00.689Z"
+  },
+  "cubesandbox": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 23031,
+    "fetchedAt": "2026-11-08T10:04:08.423Z"
+  },
+  "yue": {
+    "summary": "YuE2 brings frontier song quality to music generation with an editable composition. Give it lyrics and a style prompt: it writes a melody-and-chord plan, then realizes that plan as a complete song with vocals and accompaniment.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 23483,
+    "fetchedAt": "2026-11-08T10:04:08.423Z"
+  },
+  "train-llm-from-scratch": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 47837,
+    "fetchedAt": "2026-11-08T10:04:08.423Z"
+  },
+  "ian-xiaohei-illustrations": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4652,
+    "fetchedAt": "2026-11-08T10:04:08.423Z"
+  },
+  "claude-code-system-prompts": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 334203,
+    "fetchedAt": "2026-11-08T10:04:08.423Z"
+  },
+  "patent-disclosure-skill": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7287,
+    "fetchedAt": "2026-11-08T10:04:09.010Z"
+  },
+  "hydradb": {
+    "summary": "HydraDB is an object-store-native distributed graph database written in Rust. It combines durable graph storage on SlateDB with snapshot-consistent OpenCypher queries, GraphBLAS traversal, Neo4j-compatible Bolt connectivity, and an HTTPS query API.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20422,
+    "fetchedAt": "2026-11-08T10:04:09.010Z"
+  },
+  "horizon": {
+    "summary": "Horizon is an open-source project maintained in spare time. If you'd like to support the project or be listed here, feel free to open an issue or email me.",
+    "docker": "git clone https://github.com/Thysrael/Horizon.git\ncd Horizon\n\n# Optional: build with comma-separated extras before the first run\ndocker compose build --build-arg EXTRAS=openbb horizon",
+    "source": "README.md",
+    "rawLength": 24725,
+    "fetchedAt": "2026-11-08T10:04:09.010Z"
+  },
+  "liteparse": {
+    "summary": "LiteParse is a standalone OSS PDF parsing tool focused exclusively on fast and light parsing. It provides high-quality spatial text parsing with bounding boxes, without proprietary LLM features or cloud dependencies. Everything runs locally on your machine.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 31247,
+    "fetchedAt": "2026-11-08T10:04:09.010Z"
+  },
+  "oomwoo": {
+    "summary": "OOMWOO is organized to be built by the community, massively in parallel. The vacuum and its software are subdivided into modules, listed on the RFC board.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10479,
+    "fetchedAt": "2026-11-08T10:04:09.010Z"
+  },
+  "all-in-rag": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9006,
+    "fetchedAt": "2026-11-08T10:04:09.010Z"
+  },
+  "fluidvoice": {
+    "summary": "FluidVoice is fully open source under GPLv3. Fluid Intelligence is a separate, privately maintained local AI runtime that powers advanced on-device dictation enhancement — smart formatting, context-aware capitalization, and post-processing — all running locally on your Mac.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 17052,
+    "fetchedAt": "2026-11-08T10:04:10.897Z"
+  },
+  "vimax": {
+    "summary": "ViMax is an agentic video creation framework that connects narrative planning, visual consistency, image generation, video generation, and final assembly in one extensible workflow.",
+    "docker": "",
+    "source": "readme.md",
+    "rawLength": 15748,
+    "fetchedAt": "2026-11-08T10:04:10.897Z"
+  },
+  "portless": {
+    "summary": "portless runs a local reverse proxy and gives each dev server a name. Your app listens on a free port that portless assigns, and you open https:// .localhost instead of remembering which port it took. The URL stays the same across restarts, so bookmarks, cookies, OAuth redirects, and an agent's test…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9713,
+    "fetchedAt": "2026-11-08T10:04:10.897Z"
+  },
+  "claude-relay-service": {
+    "summary": "",
+    "docker": "docker-compose up -d",
+    "source": "README.md",
+    "rawLength": 19494,
+    "fetchedAt": "2026-11-08T10:04:10.897Z"
+  },
+  "opensre": {
+    "summary": "OpenSRE connects to 60+ tools and services across the modern cloud stack, from LLM providers and observability platforms to infrastructure, databases, and incident management.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 21855,
+    "fetchedAt": "2026-11-08T10:04:10.897Z"
+  },
+  "pocketflow-tutorial-codebase-knowledge": {
+    "summary": "",
+    "docker": "docker run -it --rm \\\n     -e GEMINI_API_KEY=\"YOUR_GEMINI_API_KEY_HERE\" \\\n     -v \"$(pwd)/output_tutorials\":/app/output \\\n     pocketflow-app --repo https://github.com/username/repo",
+    "source": "README.md",
+    "rawLength": 9491,
+    "fetchedAt": "2026-11-08T10:04:10.897Z"
+  },
+  "trellis-2": {
+    "summary": "TRELLIS.2 is a state-of-the-art large 3D generative model (4B parameters) designed for high-fidelity image-to-3D generation. It leverages a novel \"field-free\" sparse voxel structure termed O-Voxel to reconstruct and generate arbitrary 3D assets with complex topologies, sharp features, and full PBR m…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16168,
+    "fetchedAt": "2026-11-08T10:04:11.469Z"
+  },
+  "ironclaw": {
+    "summary": "IronClaw is built on a simple principle: your AI assistant should work for you, not against you.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13055,
+    "fetchedAt": "2026-11-08T10:04:11.469Z"
+  },
+  "chandra": {
+    "summary": "Chandra OCR 2 is a state of the art OCR model that converts images and PDFs into structured HTML/Markdown/JSON while preserving layout information.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15668,
+    "fetchedAt": "2026-11-08T10:04:11.469Z"
+  },
+  "openchamber": {
+    "summary": "OpenChamber is an open-source workspace for running and reviewing AI coding work on desktop, web, VS Code, and mobile.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10489,
+    "fetchedAt": "2026-11-08T10:04:11.469Z"
+  },
+  "claude-context": {
+    "summary": "Claude Context is an MCP plugin that adds semantic code search to Claude Code and other AI coding agents, giving them deep context from your entire codebase.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 23227,
+    "fetchedAt": "2026-11-08T10:04:11.469Z"
+  },
+  "hrm": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7225,
+    "fetchedAt": "2026-11-08T10:04:11.469Z"
+  },
+  "thaw": {
+    "summary": "Thaw hides the menu bar items you don't need, brings them back on demand, and finds any of them in a keystroke. Free, and free to keep: there is no subscription, no account and no tracking, and a new macOS never costs an upgrade. The code is open source under GPL-3.0.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4988,
+    "fetchedAt": "2026-11-08T10:05:16.129Z"
+  },
+  "awesome-free-llm-apis": {
+    "summary": "Free \"Trial\" API key, no credit card. 1,000 API calls/month. Non-commercial use only.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 26849,
+    "fetchedAt": "2026-11-08T10:05:16.129Z"
+  },
+  "mcp-chrome": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13002,
+    "fetchedAt": "2026-11-08T10:05:16.129Z"
   }
 }

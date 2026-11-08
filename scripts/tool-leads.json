@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T09:51:44.654Z",
+  "generatedAt": "2026-11-08T10:06:52.275Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -4948,6 +4948,130 @@
     "peerbrush": {
       "en": "An image editor for people and AI agents who work together on the same project.",
       "zh": "一款图像编辑器，供人类与 AI 代理在同一项目上协作。"
+    },
+    "no-ai-slop": {
+      "en": "Helps writers strip over 20 patterns of AI slop from any piece of writing.",
+      "zh": "帮助写作者从任意文本中去除 20 多种 AI 套话模式。"
+    },
+    "lemo-opuscar": {
+      "en": "A style toolbox for Claude Code users: 66 ready-to-use film styles, each a prompt plus a code-made demo, or your own.",
+      "zh": "面向 Claude Code 用户的风格工具箱：66 种现成影片风格，每种含提示词与代码生成的演示片，也可自定义。"
+    },
+    "rybbit": {
+      "en": "An open-source, privacy-friendly analytics tool for site owners who want an alternative to Google Analytics.",
+      "zh": "面向网站所有者的开源、注重隐私的分析工具，可作为 Google Analytics 的替代方案。"
+    },
+    "cubesandbox": {
+      "en": "CubeSandbox gives AI agent developers an instant, concurrent, secure and lightweight sandbox to run agent workloads.",
+      "zh": "CubeSandbox 为 AI Agent 开发者提供即时、并发、安全且轻量的沙箱，用于运行智能体任务。"
+    },
+    "hexstrike-ai": {
+      "en": "An MCP server that lets AI agents such as Claude, GPT and Copilot run 150+ cybersecurity tools for pentesting, vulnerability discovery and security research.",
+      "zh": "一个 MCP 服务器，让 Claude、GPT、Copilot 等 AI 代理自主运行 150 多种安全工具，用于自动化渗透测试、漏洞发现和安全研究。"
+    },
+    "train-llm-from-scratch": {
+      "en": "A straightforward method for people training their own LLM, covering data download through text generation.",
+      "zh": "面向训练自有 LLM 的用户，提供从下载数据到生成文本的简单方法。"
+    },
+    "yue": {
+      "en": "A music generation tool with symbolic planning, zero-shot covers, and agentic music editing for users working with music.",
+      "zh": "面向音乐创作的音乐生成工具，支持符号规划、零样本翻唱与智能体音乐编辑。"
+    },
+    "patent-disclosure-skill": {
+      "en": "For inventors and developers in China, this skill mines patentable points, drafts disclosure documents for invention, utility model and design patents, explains patents in plain language, tracks policy trends and assists with examination replies.",
+      "zh": "面向中国的发明人与开发者，该技能可挖掘专利点、编写发明/实用新型/外观设计交底书、通俗解读专利、嗅探政策动向并辅助审查答复。"
+    },
+    "hydradb": {
+      "en": "HydraDB is a fast graph database built on object storage, aimed at developers who work with graph data.",
+      "zh": "HydraDB 是构建在对象存储上的图数据库，面向需要处理图数据的开发者。"
+    },
+    "horizon": {
+      "en": "Horizon is an AI-powered news radar that generates daily briefings in English and Chinese for people who want a personalized news summary.",
+      "zh": "Horizon 是用 AI 构建的新闻雷达，为需要个性化新闻摘要的人生成中英文每日简报。"
+    },
+    "nxnative": {
+      "en": "Nxnative lets developers turn a Switch NSP folder into an unsigned IPA that runs natively on iPhone, iPad and Mac.",
+      "zh": "Nxnative 让开发者把 Switch 的 NSP 文件夹转换为未签名 IPA，在 iPhone、iPad 和 Mac 上原生运行。"
+    },
+    "liteparse": {
+      "en": "Liteparse is an open-source document parser for developers who need fast, helpful parsing of documents.",
+      "zh": "Liteparse 是一个开源文档解析工具，为需要快速、好用解析能力的开发者服务。"
+    },
+    "oomwoo": {
+      "en": "An open-source vacuum robot cleaner for people who want a robot vacuum they can inspect and modify.",
+      "zh": "一款开源扫地机器人，适合希望使用可查看、可修改的扫地机器人的用户。"
+    },
+    "claude-code-system-prompts": {
+      "en": "For developers studying or customizing Claude Code, it collects the full system prompt, 27 builtin tool descriptions, sub-agent and utility prompts, updated each version.",
+      "zh": "为研究或定制 Claude Code 的开发者整理完整系统提示、27 个内置工具描述、子代理与实用提示，随版本更新。"
+    },
+    "all-in-rag": {
+      "en": "A full-stack guide to RAG technology for developers building large model applications, readable online at the given address.",
+      "zh": "面向大模型应用开发者的 RAG 技术全栈指南，可在指定地址在线阅读。"
+    },
+    "vimax": {
+      "en": "ViMax is an agentic video generation tool that combines director, screenwriter, producer, and video generator roles in one system for users creating videos.",
+      "zh": "ViMax 是一款智能体视频生成工具，将导演、编剧、制片人和视频生成器集于一体，面向需要制作视频的用户。"
+    },
+    "portless": {
+      "en": "Portless gives developers and agents stable named local URLs instead of port numbers.",
+      "zh": "Portless 用稳定的命名本地 URL 代替端口号，供开发者和智能体使用。"
+    },
+    "ian-xiaohei-illustrations": {
+      "en": "A Codex Skill for Chinese-text creators: generates 16:9 white-background hand-drawn images with small red, orange, and blue annotations.",
+      "zh": "为中文正文创作者生成 16:9 白底手绘小黑怪诞配图，带少量红橙蓝批注。"
+    },
+    "opensre": {
+      "en": "An open-source agent for teams running CI/CD pipelines, aimed at CI/CD reliability.",
+      "zh": "面向运行 CI/CD 流水线的团队，一款用于提升 CI/CD 可靠性的开源 agent。"
+    },
+    "fluidvoice": {
+      "en": "FluidVoice is a macOS dictation app for users who want on-device speech-to-text plus a custom trained AI enhancement model.",
+      "zh": "面向需要本地听写的 macOS 用户，提供设备端语音识别与自训练 AI 增强模型。"
+    },
+    "pocketflow-tutorial-codebase-knowledge": {
+      "en": "Pocket Flow turns a codebase into a tutorial, helping developers learn how an unfamiliar project works.",
+      "zh": "Pocket Flow 把代码库转成教程，帮助开发者了解不熟悉的项目代码。"
+    },
+    "claude-relay-service": {
+      "en": "For Claude Code users, this self-hosted open-source relay unifies Claude, OpenAI, Gemini and Droid subscriptions and supports shared cost pooling.",
+      "zh": "面向 Claude Code 用户，这个自建开源中转服务统一接入 Claude、OpenAI、Gemini、Droid 订阅，支持拼车共享分摊成本。"
+    },
+    "trellis-2": {
+      "en": "TRELLIS.2 offers native and compact structured latents for 3D generation, aimed at researchers and developers building 3D generative models.",
+      "zh": "TRELLIS.2 为 3D 生成提供原生且紧凑的结构化潜表示，面向构建 3D 生成模型的研究者与开发者。"
+    },
+    "ironclaw": {
+      "en": "IronClaw is an Agent OS for developers who need privacy, security and extensibility in agent systems.",
+      "zh": "IronClaw 是一个 Agent OS，面向关注隐私、安全与可扩展性的开发者。"
+    },
+    "chandra": {
+      "en": "Chandra is an OCR model for developers who need to extract text from complex tables, forms and handwriting while keeping full layout.",
+      "zh": "Chandra 是一款 OCR 模型，面向需要处理复杂表格、表单和手写内容并保留完整版式的开发者。"
+    },
+    "openchamber": {
+      "en": "Openchamber is an agentic development environment built on the OpenCode AI agent, for developers who want an agent-driven coding workspace.",
+      "zh": "Openchamber 是基于 OpenCode AI agent 构建的 Agentic 开发环境，面向希望以 agent 驱动编码工作流的开发者。"
+    },
+    "claude-context": {
+      "en": "A code search MCP for Claude Code, giving coding agents the whole codebase as context.",
+      "zh": "面向 Claude Code 使用者的代码搜索 MCP，让编程智能体把整个代码库作为上下文。"
+    },
+    "thaw": {
+      "en": "Thaw is an open source menu bar manager for Mac users who want to organize their menu bar items.",
+      "zh": "Thaw 是一款开源菜单栏管理工具，适合希望整理菜单栏图标的 Mac 用户。"
+    },
+    "hrm": {
+      "en": "Official release of a hierarchical reasoning model, aimed at researchers and developers working on reasoning in AI agents.",
+      "zh": "分层推理模型的官方发布，面向研究 AI 智能体推理能力的研究者与开发者。"
+    },
+    "mcp-chrome": {
+      "en": "For developers using AI assistants like Claude, this Chrome extension-based MCP server exposes browser functionality for automation, content analysis, and semantic search.",
+      "zh": "面向使用 Claude 等 AI 助手的开发者，这个基于 Chrome 扩展的 MCP 服务器开放浏览器功能，用于浏览器自动化、内容分析和语义搜索。"
+    },
+    "awesome-free-llm-apis": {
+      "en": "A list of permanently free LLM APIs and API keys, for developers who need free access to language models.",
+      "zh": "一份长期免费的大模型 API 及 API Key 清单，供需要免费使用大模型的开发者参考。"
     }
   }
 }

@@ -1,6 +1,341 @@
 {
   "days": [
     {
+      "date": "2026-11-08",
+      "items": [
+        {
+          "title": "Agent memory needs its OpenTelemetry moment",
+          "link": "https://www.lorekit.io/blog/open-agent-memory-format",
+          "source": "Hacker News",
+          "date": "2026-11-08",
+          "zhTitle": "智能体记忆需要属于它的 OpenTelemetry 时刻",
+          "zh": "文章呼吁为智能体记忆建立统一的开放格式，类比 OpenTelemetry。",
+          "en": "Post argues agent memory needs a shared open format, akin to OpenTelemetry."
+        },
+        {
+          "title": "Goodbye Claude, Hello Pi",
+          "link": "https://caleb.software/posts/claude-to-pi.html",
+          "source": "Hacker News",
+          "date": "2026-11-08",
+          "zhTitle": "告别 Claude，你好 Pi",
+          "zh": "一位开发者撰文讲述从 Claude 转向 Pi 的使用经历。",
+          "en": "A developer writes about switching from Claude to Pi."
+        },
+        {
+          "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+          "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+          "source": "Hacker News",
+          "date": "2026-11-07",
+          "zhTitle": "Claude Code 的“不再询问”选项在 1,122 个公开 GitHub 文件中泄露密码",
+          "zh": "研究称 Claude Code 的“不再询问”导致密码出现在 1,122 个公开文件中。",
+          "en": "Research says Claude Code's \"Don't Ask Again\" exposed passwords in 1,122 public GitHub files."
+        },
+        {
+          "title": "The end of Microsoft Research's AI Frontiers group",
+          "link": "https://hunch.net/?p=13764006",
+          "source": "Hacker News",
+          "date": "2026-11-07",
+          "zhTitle": "微软研究院 AI Frontiers 团队的终结",
+          "zh": "一篇博文谈及微软研究院 AI Frontiers 小组的结束。",
+          "en": "A blog post discusses the end of Microsoft Research's AI Frontiers group."
+        },
+        {
+          "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+          "link": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-06",
+          "zhTitle": "The Download：人形机器人打扫房间，三星为 AI 热潮布局",
+          "zh": "本期简讯：人形机器人做家务，三星为 AI 热潮加码芯片。",
+          "en": "Newsletter covers a humanoid robot cleaning house and Samsung building for the AI boom."
+        },
+        {
+          "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+          "link": "https://openai.com/index/partnering-with-hacktron",
+          "source": "OpenAI",
+          "date": "2026-11-06",
+          "zhTitle": "与 Hacktron 合作寻找 OpenAI 系统中的漏洞",
+          "zh": "OpenAI 宣布与 Hacktron 合作排查其系统中的漏洞。",
+          "en": "OpenAI announces a partnership with Hacktron to find vulnerabilities in its systems."
+        },
+        {
+          "title": "Measuring how AI agents handle everyday wet-lab science",
+          "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+          "source": "OpenAI",
+          "date": "2026-11-06",
+          "zhTitle": "衡量 AI 智能体如何处理日常湿实验室科研",
+          "zh": "OpenAI 介绍衡量 AI 智能体完成日常湿实验室工作的评测方法。",
+          "en": "OpenAI describes measuring how AI agents handle everyday wet-lab science."
+        },
+        {
+          "title": "Cult.fit builds operational muscle with Codex",
+          "link": "https://openai.com/index/cultfit-builds-with-codex",
+          "source": "OpenAI",
+          "date": "2026-11-05",
+          "zhTitle": "Cult.fit 借助 Codex 打造运营能力",
+          "zh": "Cult.fit 使用 Codex 强化其运营能力。",
+          "en": "Cult.fit uses Codex to build operational strength."
+        },
+        {
+          "title": "Australian universities are creating AI-native graduates",
+          "link": "https://openai.com/index/australian-universities-ai-native-graduates",
+          "source": "OpenAI",
+          "date": "2026-11-05",
+          "zhTitle": "澳大利亚高校正在培养 AI 原生毕业生",
+          "zh": "澳大利亚多所高校借助 AI 培养“AI 原生”毕业生。",
+          "en": "Australian universities are creating AI-native graduates."
+        },
+        {
+          "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
+          "link": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-05",
+          "zhTitle": "The Download：得州脆弱的 AI 热潮与能源政策转变",
+          "zh": "本期简讯：得州 AI 热潮的脆弱性与美国能源政策变化。",
+          "en": "Newsletter on Texas's fragile AI boom and shifting US energy policy."
+        },
+        {
+          "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+          "link": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+          "source": "GitHub Blog",
+          "date": "2026-10-28",
+          "zhTitle": "Octoverse：2026 年开发者用智能体构建，提交与推送量创新高",
+          "zh": "GitHub 报告称 2026 年提交和推送量创新高，开发者广泛使用智能体。",
+          "en": "GitHub Octoverse reports record commits and pushes in 2026 as developers build with agents."
+        },
+        {
+          "title": "The bridge to agent-scale Git infrastructure",
+          "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+          "source": "GitHub Blog",
+          "date": "2026-10-21",
+          "zhTitle": "通往智能体规模 Git 基础设施的桥梁",
+          "zh": "GitHub 工程博客介绍面向智能体规模的 Git 基础设施改造。",
+          "en": "GitHub engineering post on building Git infrastructure at agent scale."
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "lemo-opuscar",
+          "name": "Lemo Opuscar",
+          "repo": "lemomo-ai/lemo-opuscar",
+          "stars": 13531
+        },
+        {
+          "id": "nxnative",
+          "name": "Nxnative",
+          "repo": "seedds/nxnative",
+          "stars": 13507
+        },
+        {
+          "id": "no-ai-slop",
+          "name": "No Ai Slop",
+          "repo": "petergyang/no-ai-slop",
+          "stars": 13232
+        },
+        {
+          "id": "rybbit",
+          "name": "Rybbit",
+          "repo": "rybbit-io/rybbit",
+          "stars": 13217
+        },
+        {
+          "id": "cubesandbox",
+          "name": "CubeSandbox",
+          "repo": "TencentCloud/CubeSandbox",
+          "stars": 13191
+        },
+        {
+          "id": "yue",
+          "name": "YuE",
+          "repo": "multimodal-art-projection/YuE",
+          "stars": 13176
+        },
+        {
+          "id": "train-llm-from-scratch",
+          "name": "Train Llm From Scratch",
+          "repo": "FareedKhan-dev/train-llm-from-scratch",
+          "stars": 13165
+        },
+        {
+          "id": "ian-xiaohei-illustrations",
+          "name": "Ian Xiaohei Illustrations",
+          "repo": "helloianneo/ian-xiaohei-illustrations",
+          "stars": 13125
+        },
+        {
+          "id": "claude-code-system-prompts",
+          "name": "Claude Code System Prompts",
+          "repo": "Piebald-AI/claude-code-system-prompts",
+          "stars": 13108
+        },
+        {
+          "id": "patent-disclosure-skill",
+          "name": "Patent Disclosure Skill",
+          "repo": "handsomestWei/patent-disclosure-skill",
+          "stars": 13105
+        },
+        {
+          "id": "hydradb",
+          "name": "Hydradb",
+          "repo": "hydra-db/hydradb",
+          "stars": 13075
+        },
+        {
+          "id": "horizon",
+          "name": "Horizon",
+          "repo": "Thysrael/Horizon",
+          "stars": 13065
+        },
+        {
+          "id": "liteparse",
+          "name": "Liteparse",
+          "repo": "run-llama/liteparse",
+          "stars": 13013
+        },
+        {
+          "id": "oomwoo",
+          "name": "Oomwoo",
+          "repo": "makerspet/oomwoo",
+          "stars": 13010
+        },
+        {
+          "id": "all-in-rag",
+          "name": "All In Rag",
+          "repo": "datawhalechina/all-in-rag",
+          "stars": 12945
+        },
+        {
+          "id": "fluidvoice",
+          "name": "FluidVoice",
+          "repo": "altic-dev/FluidVoice",
+          "stars": 12894
+        },
+        {
+          "id": "vimax",
+          "name": "ViMax",
+          "repo": "HKUDS/ViMax",
+          "stars": 12871
+        },
+        {
+          "id": "portless",
+          "name": "Portless",
+          "repo": "vercel-labs/portless",
+          "stars": 12868
+        },
+        {
+          "id": "claude-relay-service",
+          "name": "Claude Relay Service",
+          "repo": "Wei-Shaw/claude-relay-service",
+          "stars": 12793
+        },
+        {
+          "id": "opensre",
+          "name": "Opensre",
+          "repo": "Tracer-Cloud/opensre",
+          "stars": 12759
+        },
+        {
+          "id": "pocketflow-tutorial-codebase-knowledge",
+          "name": "PocketFlow Tutorial Codebase Knowledge",
+          "repo": "The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge",
+          "stars": 12744
+        },
+        {
+          "id": "trellis-2",
+          "name": "TRELLIS.2",
+          "repo": "microsoft/TRELLIS.2",
+          "stars": 12723
+        },
+        {
+          "id": "ironclaw",
+          "name": "Ironclaw",
+          "repo": "nearai/ironclaw",
+          "stars": 12715
+        },
+        {
+          "id": "chandra",
+          "name": "Chandra",
+          "repo": "datalab-to/chandra",
+          "stars": 12695
+        },
+        {
+          "id": "openchamber",
+          "name": "Openchamber",
+          "repo": "openchamber/openchamber",
+          "stars": 12688
+        },
+        {
+          "id": "claude-context",
+          "name": "Claude Context",
+          "repo": "zilliztech/claude-context",
+          "stars": 12676
+        },
+        {
+          "id": "hrm",
+          "name": "HRM",
+          "repo": "sapientinc/HRM",
+          "stars": 12667
+        },
+        {
+          "id": "thaw",
+          "name": "Thaw",
+          "repo": "thaw-app/Thaw",
+          "stars": 12610
+        },
+        {
+          "id": "awesome-free-llm-apis",
+          "name": "Awesome Free Llm Apis",
+          "repo": "mnfst/awesome-free-llm-apis",
+          "stars": 12598
+        },
+        {
+          "id": "mcp-chrome",
+          "name": "Mcp Chrome",
+          "repo": "hangwin/mcp-chrome",
+          "stars": 12536
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "lemo-opuscar",
+          "name": "Lemo Opuscar",
+          "repo": "lemomo-ai/lemo-opuscar",
+          "stars": 13531,
+          "gain": 13531
+        },
+        {
+          "id": "nxnative",
+          "name": "Nxnative",
+          "repo": "seedds/nxnative",
+          "stars": 13507,
+          "gain": 13507
+        },
+        {
+          "id": "no-ai-slop",
+          "name": "No Ai Slop",
+          "repo": "petergyang/no-ai-slop",
+          "stars": 13232,
+          "gain": 13232
+        },
+        {
+          "id": "rybbit",
+          "name": "Rybbit",
+          "repo": "rybbit-io/rybbit",
+          "stars": 13217,
+          "gain": 13217
+        },
+        {
+          "id": "cubesandbox",
+          "name": "CubeSandbox",
+          "repo": "TencentCloud/CubeSandbox",
+          "stars": 13191,
+          "gain": 13191
+        }
+      ],
+      "rollupZh": "今日要闻：GitHub 的 Octoverse 报告显示 2026 年提交与推送量创新高，开发者正大规模使用智能体，GitHub 同时推进面向智能体规模的 Git 基础设施。安全方面，有研究称 Claude Code 的“不再询问”选项导致密码泄露在 1,122 个公开 GitHub 文件中，OpenAI 则宣布与 Hacktron 合作排查自身系统漏洞。此外，微软研究院 AI Frontiers 团队传出结束，MIT 科技评论关注人形机器人与得州 AI 热潮。",
+      "rollupEn": "Today's highlights: GitHub's Octoverse reports record commits and pushes in 2026 as developers build with agents, alongside work on agent-scale Git infrastructure. On security, research says Claude Code's \"Don't Ask Again\" leaked passwords into 1,122 public GitHub files, while OpenAI is partnering with Hacktron to find vulnerabilities in its systems. Also noted: the end of Microsoft Research's AI Frontiers group, and MIT Technology Review on humanoid robots and Texas's AI boom.",
+      "failures": []
+    },
+    {
       "date": "2026-11-07",
       "items": [
         {
