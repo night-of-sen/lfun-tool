@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T10:06:52.275Z",
+  "generatedAt": "2026-11-09T11:10:08.162Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -5072,6 +5072,126 @@
     "awesome-free-llm-apis": {
       "en": "A list of permanently free LLM APIs and API keys, for developers who need free access to language models.",
       "zh": "一份长期免费的大模型 API 及 API Key 清单，供需要免费使用大模型的开发者参考。"
+    },
+    "cangjie-skill": {
+      "en": "Lets users turn books, long-form videos, and podcasts into executable Agent Skills.",
+      "zh": "帮助用户把书、长视频和播客等内容蒸馏成可执行的 Agent Skills。"
+    },
+    "mapcn": {
+      "en": "Map components for developers who need attractive maps without configuration.",
+      "zh": "为需要美观地图又不想配置的开发者提供地图组件。"
+    },
+    "image-blaster": {
+      "en": "For Claude users: a skillset that turns images into worlds.",
+      "zh": "面向 Claude 用户：一个把图像转化为世界的技能集。"
+    },
+    "memos-2": {
+      "en": "MemOS is a self-evolving memory OS for LLM and AI agents, offering ultra-persistent memory, hybrid retrieval, and cross-task skill reuse with 35.24% token savings.",
+      "zh": "MemOS 是面向 LLM 和 AI Agent 的自进化记忆操作系统，提供超持久记忆、混合检索和跨任务技能复用，可节省 35.24% token。"
+    },
+    "unslop": {
+      "en": "A Claude skill for developers whose vibecoded UI looks AI-generated, turning it into a designed interface.",
+      "zh": "面向 Claude 开发者：把凭感觉拼出、AI 味十足的界面，改造成有设计感的界面。"
+    },
+    "learn-coding-agent": {
+      "en": "A research-oriented resource on coding agents, aimed at developers who want to learn about coding agents and how they are studied.",
+      "zh": "面向希望了解编程智能体的开发者，提供关于编程智能体的研究内容。"
+    },
+    "sam3": {
+      "en": "For developers, this repository offers code to run inference and finetuning with Meta SAM 3, model checkpoint download links, and example notebooks.",
+      "zh": "面向开发者，该仓库提供用于运行 Meta SAM 3 推理与微调的代码、模型检查点下载链接及示例笔记本。"
+    },
+    "kami": {
+      "en": "Gives AI agents layout rules and templates to export content as PDF, PNG and editable PowerPoint for people who need well-formatted documents.",
+      "zh": "为需要规整文档的人提供排版规则和模板，让 AI 代理导出 PDF、PNG 和可编辑的 PowerPoint。"
+    },
+    "camofox-browser": {
+      "en": "A stealth headless browser for AI agents that helps bypass Cloudflare, bot detection, and anti-scraping, and works as a drop-in Puppeteer/Playwright replacement.",
+      "zh": "面向 AI agent 的隐身无头浏览器，可绕过 Cloudflare、机器人检测与反爬机制，并能直接替代 Puppeteer/Playwright。"
+    },
+    "claude-skills-2": {
+      "en": "Claude Skills offers 67 specialized skills for full-stack developers, turning Claude Code into an expert pair programmer.",
+      "zh": "Claude Skills 为全栈开发者提供 67 项专用技能，把 Claude Code 变成专家级结对编程助手。"
+    },
+    "crucix": {
+      "en": "A personal intelligence agent for people tracking many data sources. It watches the world and pings you when something changes.",
+      "zh": "面向需要关注多个数据源的人，这款个人情报代理会持续观察变化并主动提醒你。"
+    },
+    "trae-agent": {
+      "en": "Trae Agent is an LLM-based agent for developers handling general purpose software engineering tasks.",
+      "zh": "Trae Agent 是面向开发者的基于大语言模型的智能体，用于处理通用软件工程任务。"
+    },
+    "worktrunk": {
+      "en": "A CLI for developers who manage Git worktrees, built to support parallel AI agent workflows.",
+      "zh": "面向需要管理 Git worktree 的开发者，为并行 AI 智能体工作流提供命令行支持。"
+    },
+    "aureuserp": {
+      "en": "A free and open source ERP tool aimed at businesses that need to manage core operations without licensing fees.",
+      "zh": "一款免费开源的 ERP 工具，面向需要管理核心业务且不想支付授权费用的企业。"
+    },
+    "folia-major": {
+      "en": "A multi-platform music player for people who use local files, Navidrome, or online streaming services and want animated lyrics.",
+      "zh": "一款面向本地文件、Navidrome 或在线音乐服务用户的多平台音乐播放器，提供绚丽的歌词动画效果。"
+    },
+    "supervisor-skills": {
+      "en": "A set of AI skills distilled from ten years of doctoral supervision experience, guiding researchers from idea development to paper submission.",
+      "zh": "将博导十年科研经验转化为可调用的 AI 技能，帮助科研人员完成从 Idea 构思到论文投稿的流程。"
+    },
+    "g0dm0d3": {
+      "en": "An AI chat tool listed under dev-tools and described as a liberated AI chat experience.",
+      "zh": "一款归类于开发工具的 AI 聊天工具，描述为自由开放的 AI 对话体验。"
+    },
+    "fastapi-mcp": {
+      "en": "For FastAPI developers, it exposes existing endpoints as Model Context Protocol tools with authentication.",
+      "zh": "面向 FastAPI 开发者，将已有端点暴露为带认证的模型上下文协议工具。"
+    },
+    "personaplex": {
+      "en": "PersonaPlex is a code resource for developers.",
+      "zh": "PersonaPlex 是面向开发者的代码资源。"
+    },
+    "nasiko": {
+      "en": "Nasiko is an open runtime for AI agents, aimed at developers who need a runtime environment to run their agents.",
+      "zh": "Nasiko 是面向 AI 智能体的开放运行时，供需要运行智能体的开发者使用。"
+    },
+    "joyagent-jdgenie": {
+      "en": "For developers and teams, Joyagent Jdgenie is an open-source end-to-end general-purpose agent built for product-level use.",
+      "zh": "面向开发者与团队，Joyagent Jdgenie 是开源的端到端产品级通用智能体。"
+    },
+    "turnitout-humanizer": {
+      "en": "For users of LaTeX, DOCX, and multi-language source code who need a free, programmatic tool to lower similarity and evade AI detection.",
+      "zh": "面向 LaTeX、DOCX 和多语言源码用户，提供免费的程序化降重与规避 AI 检测工具。"
+    },
+    "noctalia": {
+      "en": "A sleek, customizable desktop shell for Wayland users who want a tailored desktop environment.",
+      "zh": "面向希望自定义桌面环境的 Wayland 用户的可定制桌面外壳，风格简洁。"
+    },
+    "ghidramcp": {
+      "en": "An MCP server for Ghidra, aimed at developers who want to connect Ghidra with MCP-based tooling.",
+      "zh": "面向开发者的 Ghidra MCP 服务器，用于将 Ghidra 接入 MCP 工具。"
+    },
+    "crm": {
+      "en": "An open source, agentic-first CRM designed for AI agents.",
+      "zh": "一款开源、智能体优先的 CRM，专为 AI 智能体设计。"
+    },
+    "fireworks-tech-graph": {
+      "en": "For developers and AI agent builders: it turns natural language into production-quality SVG+PNG technical diagrams, with 7 styles, UML support, and agent workflow patterns.",
+      "zh": "为开发者与 AI Agent 构建者用自然语言生成生产级 SVG+PNG 技术图，支持 7 种风格、UML 与 Agent 工作流模式。"
+    },
+    "cocoindex": {
+      "en": "Cocoindex is an incremental engine for developers building long-horizon AI agents.",
+      "zh": "Cocoindex 是面向长周期 AI 智能体开发者的增量引擎。"
+    },
+    "skills-6": {
+      "en": "A collection of agent skills for developers who need help building interfaces.",
+      "zh": "一组面向开发者的 agent 技能，用于帮助构建界面。"
+    },
+    "genoffice": {
+      "en": "Genoffice gives developers an open-source office suite with a built-in AI agent, a CLI, and editors for real .docx, .xlsx and .pptx files, running locally.",
+      "zh": "Genoffice 为开发者提供开源办公套件，内置 AI 代理和 CLI，可在本地创建和编辑真实的 Office 文件。"
+    },
+    "pal-mcp-server": {
+      "en": "For developers juggling multiple coding CLIs, Pal MCP Server lets Claude Code, GeminiCLI, and CodexCLI work with many model providers as one.",
+      "zh": "面向使用多种编程 CLI 的开发者，把 Claude Code、GeminiCLI、CodexCLI 与各类模型服务商合为一体协同工作。"
     }
   }
 }

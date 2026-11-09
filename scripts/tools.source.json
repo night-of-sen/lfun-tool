@@ -30073,6 +30073,634 @@
       "cloud": "",
       "descEn": "Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your Chrome browser functionality to AI assistants like Claude, enabling complex brow",
       "pushedAt": "2026-01-06"
+    },
+    {
+      "id": "kami",
+      "name": "Kami",
+      "repo": "tw93/Kami",
+      "homepage": "https://kami.tw93.fun",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "claude-code",
+        "codex"
+      ],
+      "seed": {
+        "stars": 12463,
+        "language": "HTML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "👩‍🚒 Good content deserves good paper. Layout rules and templates that let AI agents export PDF, PNG and editable PowerPoint.",
+      "pushedAt": "2026-11-08"
+    },
+    {
+      "id": "cangjie-skill",
+      "name": "Cangjie Skill",
+      "repo": "kangarooking/cangjie-skill",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-workflows",
+        "ai-skills",
+        "automation",
+        "book-to-skill"
+      ],
+      "seed": {
+        "stars": 12428,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills（Distill high-value content from books, long-form videos, podcasts, and more into executable Agent Skills）",
+      "pushedAt": "2026-10-02"
+    },
+    {
+      "id": "image-blaster",
+      "name": "Image Blaster",
+      "repo": "neilsonnn/image-blaster",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 12405,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An image-to-world skillset for Claude.",
+      "pushedAt": "2026-05-15"
+    },
+    {
+      "id": "mapcn",
+      "name": "Mapcn",
+      "repo": "AnmolSaini16/mapcn",
+      "homepage": "https://mapcn.dev",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 12374,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Beautiful map components. 100% Free, Zero config, one command setup.",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "unslop",
+      "name": "Unslop",
+      "repo": "heydamir/unslop",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 12334,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "pushedAt": "2026-11-08"
+    },
+    {
+      "id": "memos-2",
+      "name": "MemOS",
+      "repo": "MemTensor/MemOS",
+      "homepage": "https://memos.openmem.net",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agentic-ai",
+        "ai",
+        "ai-agents"
+      ],
+      "seed": {
+        "stars": 12333,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support.",
+      "pushedAt": "2026-11-07"
+    },
+    {
+      "id": "learn-coding-agent",
+      "name": "Learn Coding Agent",
+      "repo": "sanbuphy/learn-coding-agent",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 12309,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Research on Coding Agents",
+      "pushedAt": "2026-04-01"
+    },
+    {
+      "id": "claude-skills-2",
+      "name": "Claude Skills",
+      "repo": "Jeffallan/claude-skills",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-marketplace"
+      ],
+      "seed": {
+        "stars": 12283,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "67 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
+      "pushedAt": "2026-10-30"
+    },
+    {
+      "id": "sam3",
+      "name": "Sam3",
+      "repo": "facebookresearch/sam3",
+      "homepage": "https://ai.meta.com/sam3/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 12248,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The repository provides code for running inference and finetuning with the Meta Segment Anything Model 3 (SAM 3), links for downloading the trained model checkpoints, and example n",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "camofox-browser",
+      "name": "Camofox Browser",
+      "repo": "jo-inc/camofox-browser",
+      "homepage": "https://github.com/jo-inc/camofox-browser#readme",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agent",
+        "anti-bot",
+        "antidetect-browser",
+        "automation"
+      ],
+      "seed": {
+        "stars": 12212,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
+      "pushedAt": "2026-11-02"
+    },
+    {
+      "id": "crucix",
+      "name": "Crucix",
+      "repo": "calesthio/Crucix",
+      "homepage": "https://crucix.live",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "intelligence",
+        "osint"
+      ],
+      "seed": {
+        "stars": 12206,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.",
+      "pushedAt": "2026-05-20"
+    },
+    {
+      "id": "worktrunk",
+      "name": "Worktrunk",
+      "repo": "max-sixty/worktrunk",
+      "homepage": "https://worktrunk.dev",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agents",
+        "claude-code",
+        "codex",
+        "developer-tools"
+      ],
+      "seed": {
+        "stars": 12197,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "pushedAt": "2026-11-09"
+    },
+    {
+      "id": "trae-agent",
+      "name": "Trae Agent",
+      "repo": "bytedance/trae-agent",
+      "homepage": "https://www.trae.ai/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "llm",
+        "software-engineering"
+      ],
+      "seed": {
+        "stars": 12196,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Trae Agent is an LLM-based agent for general purpose software engineering tasks.",
+      "pushedAt": "2026-02-05"
+    },
+    {
+      "id": "aureuserp",
+      "name": "Aureuserp",
+      "repo": "aureuserp/aureuserp",
+      "homepage": "https://aureuserp.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "accounting",
+        "crm",
+        "erp",
+        "erp-software"
+      ],
+      "seed": {
+        "stars": 12184,
+        "language": "PHP"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Free and Open Source ERP software",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "g0dm0d3",
+      "name": "G0DM0D3",
+      "repo": "elder-plinius/G0DM0D3",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 12169,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "LIBERATED AI CHAT",
+      "pushedAt": "2026-07-15"
+    },
+    {
+      "id": "folia-major",
+      "name": "Folia Major",
+      "repo": "chthollyphile/folia-major",
+      "homepage": "https://folia-site.cielaniska.top/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "music",
+        "music-player",
+        "navidrome-client"
+      ],
+      "seed": {
+        "stars": 12139,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "专注于绚丽的歌词动画效果的本地音乐/navidrome/第三方多平台在线音乐播放器 A multi-platform music player for local files, Navidrome, and online streaming services, featuring stunning animated lyrics.",
+      "pushedAt": "2026-11-09"
+    },
+    {
+      "id": "personaplex",
+      "name": "Personaplex",
+      "repo": "NVIDIA/personaplex",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 12100,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "PersonaPlex code.",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "supervisor-skills",
+      "name": "Supervisor Skills",
+      "repo": "HKUSTDial/Supervisor-Skills",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-research",
+        "ai-researcher",
+        "awesome",
+        "awesome-list"
+      ],
+      "seed": {
+        "stars": 12088,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "将博导十年科研经验炼化为可直接调用的 AI 技能。从 Idea 构思到论文投稿，你的 AI 科研副导师。",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "fastapi-mcp",
+      "name": "Fastapi Mcp",
+      "repo": "tadata-org/fastapi_mcp",
+      "homepage": "https://fastapi-mcp.tadata.com/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "authentication",
+        "authorization",
+        "claude"
+      ],
+      "seed": {
+        "stars": 12029,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
+      "pushedAt": "2025-11-24"
+    },
+    {
+      "id": "genoffice",
+      "name": "Genoffice",
+      "repo": "genspark-ai/genoffice",
+      "homepage": "https://genoffice.ai/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-agent",
+        "claude-code",
+        "cli"
+      ],
+      "seed": {
+        "stars": 12003,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and C",
+      "pushedAt": "2026-11-09"
+    },
+    {
+      "id": "turnitout-humanizer",
+      "name": "Turnitout Humanizer",
+      "repo": "AhmadHassan-BTed/Turnitout-Humanizer",
+      "homepage": "https://ahmadhassan-bted.github.io/Turnitout-Humanizer/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "academic-writing",
+        "ai-humanizer",
+        "ai-humanizer-bypass",
+        "ai-humanizer-crack"
+      ],
+      "seed": {
+        "stars": 11983,
+        "language": "HTML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "FREE FOREVER, NO LIMITS 100% Programmatic, Zero-AI Plagiarism Remover & Similarity Evader. Bypass Turnitin, iThenticate, GPTZero, CopyLeaks, Quillbot & ZeroGPT for LaTeX, DOCX, & M",
+      "pushedAt": "2026-11-07"
+    },
+    {
+      "id": "fireworks-tech-graph",
+      "name": "Fireworks Tech Graph",
+      "repo": "yizhiyanhua-ai/fireworks-tech-graph",
+      "homepage": "https://yizhiyanhua-ai.github.io/fireworks-tech-graph/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-workflows",
+        "ai",
+        "claude-code",
+        "developer-tools"
+      ],
+      "seed": {
+        "stars": 11962,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Agent workflow patterns.",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "joyagent-jdgenie",
+      "name": "Joyagent Jdgenie",
+      "repo": "jd-opensource/joyagent-jdgenie",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11951,
+        "language": "Java"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "开源的端到端产品级通用智能体",
+      "pushedAt": "2026-02-12"
+    },
+    {
+      "id": "nasiko",
+      "name": "Nasiko",
+      "repo": "Nasiko-Labs/nasiko",
+      "homepage": "https://www.nasiko.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-security",
+        "ai",
+        "ai-agents",
+        "cli"
+      ],
+      "seed": {
+        "stars": 11948,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The Open Runtime for AI Agents",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "crm",
+      "name": "Crm",
+      "repo": "trycompai/crm",
+      "homepage": "https://trycrm.ai",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11906,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
+      "pushedAt": "2026-11-01"
+    },
+    {
+      "id": "noctalia",
+      "name": "Noctalia",
+      "repo": "noctalia-dev/noctalia",
+      "homepage": "https://docs.noctalia.dev",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "hyprland",
+        "linux",
+        "mangowm",
+        "niri"
+      ],
+      "seed": {
+        "stars": 11906,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A sleek, customizable desktop shell crafted for Wayland.",
+      "pushedAt": "2026-11-09"
+    },
+    {
+      "id": "ghidramcp",
+      "name": "GhidraMCP",
+      "repo": "LaurieWired/GhidraMCP",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11851,
+        "language": "Java"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "MCP Server for Ghidra",
+      "pushedAt": "2026-10-10"
+    },
+    {
+      "id": "cocoindex",
+      "name": "Cocoindex",
+      "repo": "cocoindex-io/cocoindex",
+      "homepage": "https://cocoindex.io",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agentic-data-framework",
+        "ai",
+        "ai-agents",
+        "change-data-capture"
+      ],
+      "seed": {
+        "stars": 11833,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Incremental engine for long horizon agents 🌟 Star if you like it!",
+      "pushedAt": "2026-11-09"
+    },
+    {
+      "id": "pal-mcp-server",
+      "name": "Pal Mcp Server",
+      "repo": "BeehiveInnovations/pal-mcp-server",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11831,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one.",
+      "pushedAt": "2025-12-15"
+    },
+    {
+      "id": "skills-6",
+      "name": "Skills",
+      "repo": "jakubkrehel/skills",
+      "homepage": "https://jakub.kr/skills",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11826,
+        "language": "Markdown"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A collection of agent skills that help you build great interfaces.",
+      "pushedAt": "2026-11-09"
     }
   ]
 }

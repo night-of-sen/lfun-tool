@@ -8873,5 +8873,215 @@
     "source": "README.md",
     "rawLength": 13002,
     "fetchedAt": "2026-11-08T10:05:16.129Z"
+  },
+  "kami": {
+    "summary": "Kami (紙, かみ) means \"paper\" in Japanese. It gives AI agents layout rules and templates for PDF, PNG, and editable PowerPoint output, with nine built-in document templates and a product landing page.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15508,
+    "fetchedAt": "2026-11-09T11:07:22.625Z"
+  },
+  "cangjie-skill": {
+    "summary": "cangjie-skill also provides a standalone installation package for DeepSeek Harness. The adapter layer is bundled in the Release package, so no platform-specific wrapper files are added to this repository.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 21891,
+    "fetchedAt": "2026-11-09T11:07:22.625Z"
+  },
+  "image-blaster": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2761,
+    "fetchedAt": "2026-11-09T11:07:22.625Z"
+  },
+  "mapcn": {
+    "summary": "mapcn uses CARTO Basemaps powered by OpenStreetMap data for its default styles and examples.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3566,
+    "fetchedAt": "2026-11-09T11:07:23.147Z"
+  },
+  "unslop": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3896,
+    "fetchedAt": "2026-11-09T11:07:23.147Z"
+  },
+  "memos-2": {
+    "summary": "MemOS is a Memory Operating System for LLMs and AI agents that unifies store / retrieve / manage for long-term memory, enabling context-aware and personalized interactions with KB, multi-modal, tool memory, and enterprise-grade optimizations built in.",
+    "docker": "git clone https://github.com/MemTensor/MemOS.git\ncd MemOS\ncp docker/.env.example .env          # fill in your API keys in .env\ncd docker\ndocker compose up                    # starts MemOS API + Neo4j + Qdrant",
+    "source": "README.md",
+    "rawLength": 17754,
+    "fetchedAt": "2026-11-09T11:07:23.147Z"
+  },
+  "learn-coding-agent": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 36461,
+    "fetchedAt": "2026-11-09T11:07:23.147Z"
+  },
+  "claude-skills-2": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6358,
+    "fetchedAt": "2026-11-09T11:07:23.147Z"
+  },
+  "sam3": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 21375,
+    "fetchedAt": "2026-11-09T11:07:23.147Z"
+  },
+  "camofox-browser": {
+    "summary": "Browser automation fails in ways that are hard to predict -- Cloudflare challenges, site redesigns breaking selectors, redirect loops, dialog storms, renderer crashes. The scope is wide and the failure modes are diverse. Without telemetry, the only signal is \"it didn't work.\"",
+    "docker": "docker run -p 9377:9377 \\\n  -e CAMOFOX_API_KEY=\"your-generated-key\" \\\n  -v ~/.camofox/cookies:/home/node/.camofox/cookies:ro \\\n  camofox-browser",
+    "source": "README.md",
+    "rawLength": 38542,
+    "fetchedAt": "2026-11-09T11:07:23.645Z"
+  },
+  "crucix": {
+    "summary": "Crucix pulls satellite fire detection, flight tracking, radiation monitoring, satellite constellation tracking, economic indicators, live market prices, conflict data, sanctions lists, and social sentiment from 27 open-source intelligence feeds — in parallel, every 15 minutes — and renders everythin…",
+    "docker": "git clone https://github.com/calesthio/Crucix.git\ncd Crucix\ncp .env.example .env    # add your API keys\ndocker compose up -d",
+    "source": "README.md",
+    "rawLength": 28799,
+    "fetchedAt": "2026-11-09T11:07:23.645Z"
+  },
+  "worktrunk": {
+    "summary": "Worktrunk is a CLI for git worktree management, designed for running AI agents in parallel.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14942,
+    "fetchedAt": "2026-11-09T11:07:23.645Z"
+  },
+  "trae-agent": {
+    "summary": "Trae Agent is an LLM-based agent for general purpose software engineering tasks. It provides a powerful CLI interface that can understand natural language instructions and execute complex software engineering workflows using various tools and LLM providers.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10196,
+    "fetchedAt": "2026-11-09T11:07:23.645Z"
+  },
+  "aureuserp": {
+    "summary": "AureusERP Cloud Hosting is a fully managed hosting solution where our team sets up, secures, and configures your AureusERP on reliable infrastructure.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15654,
+    "fetchedAt": "2026-11-09T11:07:23.645Z"
+  },
+  "g0dm0d3": {
+    "summary": "G0DM0D3 is a fully open-source, privacy-transparent, multi-model chat interface that pushes the limits of the post-training layer — for red teaming, cognition research, and liberated AI interaction. Built for hackers, philosophers, and system tinkerers.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13136,
+    "fetchedAt": "2026-11-09T11:07:23.645Z"
+  },
+  "folia-major": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9936,
+    "fetchedAt": "2026-11-09T11:07:24.137Z"
+  },
+  "personaplex": {
+    "summary": "PersonaPlex is a real-time, full-duplex speech-to-speech conversational model that enables persona control through text-based role prompts and audio-based voice conditioning. Trained on a combination of synthetic and real conversations, it produces natural, low-latency spoken interactions with a con…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10125,
+    "fetchedAt": "2026-11-09T11:07:24.138Z"
+  },
+  "supervisor-skills": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10367,
+    "fetchedAt": "2026-11-09T11:07:24.138Z"
+  },
+  "fastapi-mcp": {
+    "summary": "FastAPI-MCP provides comprehensive documentation. Additionaly, check out the examples directory for code samples demonstrating these features in action.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4572,
+    "fetchedAt": "2026-11-09T11:07:24.138Z"
+  },
+  "genoffice": {
+    "summary": "GenOffice ships a genoffice command line and an agent skill. Install the skill and Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode or Windsurf can create, convert, read and edit real Office files through the same engines as the apps, without opening a window.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 53060,
+    "fetchedAt": "2026-11-09T11:07:24.138Z"
+  },
+  "turnitout-humanizer": {
+    "summary": "Turnitout does NOT use AI. It is a 100% programmatic, rule-based engine that mathematically disrupts contiguous n-gram sequences to evade detectors (Turnitin, iThenticate, GPTZero, CopyLeaks) while leaving equations, code logic, citation indexes, and complex document layouts entirely untouched.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 24457,
+    "fetchedAt": "2026-11-09T11:07:24.138Z"
+  },
+  "fireworks-tech-graph": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 39567,
+    "fetchedAt": "2026-11-09T11:07:24.655Z"
+  },
+  "joyagent-jdgenie": {
+    "summary": "",
+    "docker": "1. git clone https://github.com/jd-opensource/joyagent-jdgenie.git\n\n2. 手动更新 genie-backend/src/main/resources/application.yml中 base_url、apikey、model、max_tokens、model_name等配置\n使用DeepSeek时: 注意deepseek-chat 为max_tokens: 8192\n\n手动更新 genie-tool/.env_template 中的 OPENAI_API_KEY、OPENAI_BASE_URL、DEFAULT_MODEL、SERPER_SEARCH_API_KEY\n使用DeepSeek时: 设置DEEPSEEK_API_KEY、DEEPSEEK_API_BASE，DEFAULT_MODEL 设置为 deepseek/deepseek-chat，所有 ${DEFAULT_MODEL} 也都改成deepseek/deepseek-chat\n\n3. 编译dockerfile\ndocker build -t genie:latest .\n\n4. 启动dockerfile\ndocker run -d -p 3000:3000 -p 8080:8080 -p 1601:1601 --name genie-app genie:latest\n\n5. 浏览器输入 localhost:3000 访问genie",
+    "source": "README.md",
+    "rawLength": 17356,
+    "fetchedAt": "2026-11-09T11:07:24.655Z"
+  },
+  "nasiko": {
+    "summary": "Nasiko is the OpenRuntime for agents, coding harnesses, frameworks and tools. Find the coding agents already running. See what each one costs, by harness and model. Route them to the models you choose while developers keep using their existing harness workflows.",
+    "docker": "docker compose up -d",
+    "source": "README.md",
+    "rawLength": 62100,
+    "fetchedAt": "2026-11-09T11:07:24.655Z"
+  },
+  "crm": {
+    "summary": "",
+    "docker": "git clone https://github.com/trycompai/crm.git && cd crm\ncp .env.example .env          # then fill in the values below\nbun install\n\ndocker compose up -d          # Postgres on :5432\n\nbun run db:deploy             # apply migrations\nbun run db:seed               # optional: a believable pipeline to look at\nbun run dev",
+    "source": "README.md",
+    "rawLength": 20306,
+    "fetchedAt": "2026-11-09T11:07:24.655Z"
+  },
+  "noctalia": {
+    "summary": "Noctalia is a native Wayland desktop shell for people who want a polished, configurable Linux desktop without stitching together a separate bar, launcher, notification daemon, lock screen, wallpaper tool, and settings UI.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6412,
+    "fetchedAt": "2026-11-09T11:07:24.655Z"
+  },
+  "ghidramcp": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5149,
+    "fetchedAt": "2026-11-09T11:07:24.655Z"
+  },
+  "cocoindex": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 32137,
+    "fetchedAt": "2026-11-09T11:08:26.611Z"
+  },
+  "pal-mcp-server": {
+    "summary": "PAL supports conversation threading so your CLI can discuss ideas with multiple AI models, exchange reasoning, get second opinions, and even run collaborative debates between models to help you reach deeper insights and better solutions.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 21081,
+    "fetchedAt": "2026-11-09T11:08:26.611Z"
+  },
+  "skills-6": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3859,
+    "fetchedAt": "2026-11-09T11:08:26.611Z"
   }
 }

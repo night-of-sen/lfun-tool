@@ -1,6 +1,332 @@
 {
   "days": [
     {
+      "date": "2026-11-09",
+      "items": [
+        {
+          "title": "The climate case for AI has not been made",
+          "link": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-09",
+          "zhTitle": "AI 对气候有益的论据尚未成立",
+          "zh": "MIT科技评论指出，AI 有利于气候的说法仍缺乏论证。",
+          "en": "MIT Technology Review argues the climate case for AI has not yet been made."
+        },
+        {
+          "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
+          "link": "https://news.ycombinator.com/item?id=50422628",
+          "source": "Hacker News",
+          "date": "2026-11-09",
+          "zhTitle": "ChatGPT 桌面版把你的 SSH agent 转发给远程机器",
+          "zh": "HN 讨论 ChatGPT 桌面版将本地 SSH agent 转发至远程主机。",
+          "en": "Hacker News discusses ChatGPT Desktop forwarding your SSH agent to remote machines."
+        },
+        {
+          "title": "370 Books in 20 months: South African author defends her use of AI",
+          "link": "https://www.enca.com/lifestyle/370-books-20-months-sa-author-defends-her-use-ai",
+          "source": "Hacker News",
+          "date": "2026-11-09",
+          "zhTitle": "20 个月 370 本书：南非作家为使用 AI 辩护",
+          "zh": "南非作家 20 个月出版 370 本书，为其 AI 用法辩护。",
+          "en": "A South African author defends her use of AI after writing 370 books in 20 months."
+        },
+        {
+          "title": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
+          "link": "https://github.com/OmniJev/Flide",
+          "source": "Hacker News",
+          "date": "2026-11-09",
+          "zhTitle": "Show HN：Flide 让类 Jev 决策模型最高提速 9.5 倍",
+          "zh": "开源项目 Flide 称可将类 Jev 决策模型提速最高 9.5 倍。",
+          "en": "Show HN project Flide claims up to 9.5x faster Jev-like decision models."
+        },
+        {
+          "title": "I'm not convinced the AI bubble exists",
+          "link": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+          "source": "Hacker News",
+          "date": "2026-11-08",
+          "zhTitle": "我不相信 AI 泡沫存在",
+          "zh": "作者撰文表示自己并不相信 AI 泡沫的存在。",
+          "en": "The author explains why he is not convinced the AI bubble exists."
+        },
+        {
+          "title": "How I Fight AI Brain Fry",
+          "link": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+          "source": "Hacker News",
+          "date": "2026-11-08",
+          "zhTitle": "我如何对抗“AI 脑疲劳”",
+          "zh": "作者分享自己对抗 AI 导致的脑力疲劳的做法。",
+          "en": "The author shares how he fights AI-induced mental fatigue."
+        },
+        {
+          "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+          "link": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-06",
+          "zhTitle": "《下载》：人形机器人打扫房间，三星为 AI 热潮布局",
+          "zh": "日报：人形机器人做家务，三星加码 AI 芯片热潮。",
+          "en": "The Download: a humanoid cleaner and Samsung building for the AI boom."
+        },
+        {
+          "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+          "link": "https://openai.com/index/partnering-with-hacktron",
+          "source": "OpenAI",
+          "date": "2026-11-06",
+          "zhTitle": "与 Hacktron 合作寻找 OpenAI 系统的漏洞",
+          "zh": "OpenAI 宣布与 Hacktron 合作排查其系统漏洞。",
+          "en": "OpenAI announces a partnership with Hacktron to find vulnerabilities in its systems."
+        },
+        {
+          "title": "Measuring how AI agents handle everyday wet-lab science",
+          "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+          "source": "OpenAI",
+          "date": "2026-11-06",
+          "zhTitle": "衡量 AI 智能体如何处理日常湿实验室科研",
+          "zh": "OpenAI 发布评估 AI 智能体完成日常湿实验任务的方法。",
+          "en": "OpenAI measures how AI agents handle everyday wet-lab science tasks."
+        },
+        {
+          "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+          "link": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+          "source": "GitHub Blog",
+          "date": "2026-10-28",
+          "zhTitle": "Octoverse：2026 年开发者用智能体开发，提交与推送创新高",
+          "zh": "GitHub 报告称 2026 年开发者借智能体开发，提交推送量创新高。",
+          "en": "Octoverse: commits and pushes hit new highs in 2026 as developers build with agents."
+        },
+        {
+          "title": "The bridge to agent-scale Git infrastructure",
+          "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+          "source": "GitHub Blog",
+          "date": "2026-10-21",
+          "zhTitle": "通往智能体规模 Git 基础设施的桥梁",
+          "zh": "GitHub 工程博客介绍支撑智能体规模的 Git 基础设施。",
+          "en": "GitHub engineering describes the bridge to agent-scale Git infrastructure."
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "kami",
+          "name": "Kami",
+          "repo": "tw93/Kami",
+          "stars": 12463
+        },
+        {
+          "id": "cangjie-skill",
+          "name": "Cangjie Skill",
+          "repo": "kangarooking/cangjie-skill",
+          "stars": 12428
+        },
+        {
+          "id": "image-blaster",
+          "name": "Image Blaster",
+          "repo": "neilsonnn/image-blaster",
+          "stars": 12405
+        },
+        {
+          "id": "mapcn",
+          "name": "Mapcn",
+          "repo": "AnmolSaini16/mapcn",
+          "stars": 12374
+        },
+        {
+          "id": "unslop",
+          "name": "Unslop",
+          "repo": "heydamir/unslop",
+          "stars": 12339
+        },
+        {
+          "id": "memos-2",
+          "name": "MemOS",
+          "repo": "MemTensor/MemOS",
+          "stars": 12333
+        },
+        {
+          "id": "learn-coding-agent",
+          "name": "Learn Coding Agent",
+          "repo": "sanbuphy/learn-coding-agent",
+          "stars": 12309
+        },
+        {
+          "id": "claude-skills-2",
+          "name": "Claude Skills",
+          "repo": "Jeffallan/claude-skills",
+          "stars": 12283
+        },
+        {
+          "id": "sam3",
+          "name": "Sam3",
+          "repo": "facebookresearch/sam3",
+          "stars": 12248
+        },
+        {
+          "id": "camofox-browser",
+          "name": "Camofox Browser",
+          "repo": "jo-inc/camofox-browser",
+          "stars": 12212
+        },
+        {
+          "id": "crucix",
+          "name": "Crucix",
+          "repo": "calesthio/Crucix",
+          "stars": 12206
+        },
+        {
+          "id": "worktrunk",
+          "name": "Worktrunk",
+          "repo": "max-sixty/worktrunk",
+          "stars": 12198
+        },
+        {
+          "id": "trae-agent",
+          "name": "Trae Agent",
+          "repo": "bytedance/trae-agent",
+          "stars": 12196
+        },
+        {
+          "id": "aureuserp",
+          "name": "Aureuserp",
+          "repo": "aureuserp/aureuserp",
+          "stars": 12184
+        },
+        {
+          "id": "g0dm0d3",
+          "name": "G0DM0D3",
+          "repo": "elder-plinius/G0DM0D3",
+          "stars": 12169
+        },
+        {
+          "id": "folia-major",
+          "name": "Folia Major",
+          "repo": "chthollyphile/folia-major",
+          "stars": 12141
+        },
+        {
+          "id": "personaplex",
+          "name": "Personaplex",
+          "repo": "NVIDIA/personaplex",
+          "stars": 12100
+        },
+        {
+          "id": "supervisor-skills",
+          "name": "Supervisor Skills",
+          "repo": "HKUSTDial/Supervisor-Skills",
+          "stars": 12088
+        },
+        {
+          "id": "fastapi-mcp",
+          "name": "Fastapi Mcp",
+          "repo": "tadata-org/fastapi_mcp",
+          "stars": 12029
+        },
+        {
+          "id": "genoffice",
+          "name": "Genoffice",
+          "repo": "genspark-ai/genoffice",
+          "stars": 12003
+        },
+        {
+          "id": "turnitout-humanizer",
+          "name": "Turnitout Humanizer",
+          "repo": "AhmadHassan-BTed/Turnitout-Humanizer",
+          "stars": 11983
+        },
+        {
+          "id": "fireworks-tech-graph",
+          "name": "Fireworks Tech Graph",
+          "repo": "yizhiyanhua-ai/fireworks-tech-graph",
+          "stars": 11962
+        },
+        {
+          "id": "joyagent-jdgenie",
+          "name": "Joyagent Jdgenie",
+          "repo": "jd-opensource/joyagent-jdgenie",
+          "stars": 11951
+        },
+        {
+          "id": "nasiko",
+          "name": "Nasiko",
+          "repo": "Nasiko-Labs/nasiko",
+          "stars": 11948
+        },
+        {
+          "id": "crm",
+          "name": "Crm",
+          "repo": "trycompai/crm",
+          "stars": 11906
+        },
+        {
+          "id": "noctalia",
+          "name": "Noctalia",
+          "repo": "noctalia-dev/noctalia",
+          "stars": 11906
+        },
+        {
+          "id": "ghidramcp",
+          "name": "GhidraMCP",
+          "repo": "LaurieWired/GhidraMCP",
+          "stars": 11851
+        },
+        {
+          "id": "cocoindex",
+          "name": "Cocoindex",
+          "repo": "cocoindex-io/cocoindex",
+          "stars": 11834
+        },
+        {
+          "id": "pal-mcp-server",
+          "name": "Pal Mcp Server",
+          "repo": "BeehiveInnovations/pal-mcp-server",
+          "stars": 11831
+        },
+        {
+          "id": "skills-6",
+          "name": "Skills",
+          "repo": "jakubkrehel/skills",
+          "stars": 11827
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "kami",
+          "name": "Kami",
+          "repo": "tw93/Kami",
+          "stars": 12463,
+          "gain": 12463
+        },
+        {
+          "id": "cangjie-skill",
+          "name": "Cangjie Skill",
+          "repo": "kangarooking/cangjie-skill",
+          "stars": 12428,
+          "gain": 12428
+        },
+        {
+          "id": "image-blaster",
+          "name": "Image Blaster",
+          "repo": "neilsonnn/image-blaster",
+          "stars": 12405,
+          "gain": 12405
+        },
+        {
+          "id": "mapcn",
+          "name": "Mapcn",
+          "repo": "AnmolSaini16/mapcn",
+          "stars": 12374,
+          "gain": 12374
+        },
+        {
+          "id": "unslop",
+          "name": "Unslop",
+          "repo": "heydamir/unslop",
+          "stars": 12339,
+          "gain": 12339
+        }
+      ],
+      "rollupZh": "今日要闻：MIT科技评论认为 AI 有益气候的论据仍未成立，同时有作者质疑 AI 泡沫是否存在；GitHub 报告称 2026 年开发者用智能体开发，提交与推送量创新高，并介绍支撑智能体规模的 Git 基础设施。OpenAI 则公布与 Hacktron 的漏洞排查合作，以及评估 AI 智能体做湿实验室科研的方法。",
+      "rollupEn": "Today: MIT Technology Review says the climate case for AI has not been made, while one author doubts the AI bubble exists. GitHub reports 2026 commits and pushes hitting new highs as developers build with agents, and outlines Git infrastructure for agent scale. OpenAI shared a Hacktron vulnerability-hunting partnership and a way to measure AI agents doing wet-lab science.",
+      "failures": []
+    },
+    {
       "date": "2026-11-08",
       "items": [
         {
