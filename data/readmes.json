@@ -9083,5 +9083,215 @@
     "source": "README.md",
     "rawLength": 3859,
     "fetchedAt": "2026-11-09T11:08:26.611Z"
+  },
+  "octop": {
+    "summary": "Octop is an open-source, self-hosted AI assistant. It's not just a tool — it's a digital life form that can operate in parallel. Through its multi-agent architecture, it builds an intelligent environment that is both independent and collaborative for teams, families, and individuals. Best of all, it…",
+    "docker": "# Build and start\ndocker compose -f docker/docker-compose.yml up -d\n\n# China mirror when ghcr.io is unreachable (no local build)\ndocker compose -f docker/docker-compose.cn.yml up -d\n\n# Or build manually\nbash docker/docker_build.sh\ndocker run -d \\\n  -p 8088:8088 \\\n  -v octop-data:/data/.octop \\\n  -e HOME=/data \\\n  -e OCTOP_DEFAULT_PASSWORD=\"<strong-password-or-omit-for-setup-wizard>\" \\\n  octop:latest",
+    "source": "README.md",
+    "rawLength": 30745,
+    "fetchedAt": "2026-11-10T10:58:39.264Z"
+  },
+  "presenton": {
+    "summary": "Presenton gives you complete control over your AI presentation workflow. Choose your models, customize your experience, and keep your data private.",
+    "docker": "docker run -it --name presenton \\\n  -p 5001:80 \\\n  -e AUTH_USERNAME=admin \\\n  -e AUTH_PASSWORD=change-this-password \\\n  -v \"./app_data:/app_data\" \\\n  ghcr.io/presenton/presenton:latest",
+    "source": "README.md",
+    "rawLength": 51213,
+    "fetchedAt": "2026-11-10T10:58:39.264Z"
+  },
+  "agentguide": {
+    "summary": "AgentGuide 的学习路径： 1. 先学理论（第一部分）- 建立算法认知 2. 再学工具（第二部分）- 掌握工程技能 3. 做实战项目（第三部分）- 同时准备算法版和开发版 4. 面试准备（第四部分）- 掌握两类面试技巧",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 45174,
+    "fetchedAt": "2026-11-10T10:58:39.264Z"
+  },
+  "gamenative": {
+    "summary": "GameNative lets you run the PC games in your Steam, Epic and GOG libraries directly on Android — no streaming required. Your saves sync to the cloud, so you can stop on your PC and keep going on your phone.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7768,
+    "fetchedAt": "2026-11-10T10:58:42.434Z"
+  },
+  "dsh-market": {
+    "summary": "dsh-desktop — a desktop app for DeepSeek Harness: run and manage a local Harness without installing Node.js yourself. Ships with this plugin market preset as the default. dshdesktop.com",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 22619,
+    "fetchedAt": "2026-11-10T10:58:42.434Z"
+  },
+  "codeburn": {
+    "summary": "codeburn quota reads the live limits out of the tools you are already signed in to. That is where the five-hour and weekly windows come from. Check it before a long run.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 49231,
+    "fetchedAt": "2026-11-10T10:58:42.434Z"
+  },
+  "loop-engineering": {
+    "summary": "Loop Ready now weights recent runs harder than files on disk. A 30-day-old STATE.md is not L3.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7057,
+    "fetchedAt": "2026-11-10T10:58:42.434Z"
+  },
+  "ekko-studio": {
+    "summary": "Studio state and Hermes Agent state remain separate. Studio defaults to /.hermes-web-ui; Hermes profile data remains under the Hermes home. For the full ownership tree, dependency rules, and API migration contract, see docs/harness/server-module-boundaries.md.",
+    "docker": "# Use pre-built image (Recommended)\nWEBUI_IMAGE=ekkoye8888/hermes-web-ui docker compose up -d\n\n# Or build from source\ndocker compose up -d --build\n\ndocker compose logs -f hermes-webui",
+    "source": "README.md",
+    "rawLength": 37139,
+    "fetchedAt": "2026-11-10T10:58:42.434Z"
+  },
+  "cloudflare-os": {
+    "summary": "Cloudflare OS is an \"operating system\" for AI productivity originally developed for use inside Cloudflare. A large portion of Cloudflare's workforce -- from engineering to sales and everything in between -- uses Cloudflare OS every day to help them do their jobs.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20258,
+    "fetchedAt": "2026-11-10T10:58:42.434Z"
+  },
+  "dinov3": {
+    "summary": "DINOv3 ViT-7B/16 is trained on a private dataset. The training involves 3 stages: - Pretraining - Gram anchoring - High resolution adaptation",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 36217,
+    "fetchedAt": "2026-11-10T10:58:42.980Z"
+  },
+  "a-stock-data": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 27825,
+    "fetchedAt": "2026-11-10T10:58:42.980Z"
+  },
+  "osiris": {
+    "summary": "Osiris is a production-grade OSINT platform that provides situational awareness across multiple intelligence domains. Built with Next.js 16 and MapLibre GL, every data point is rendered via WebGL for 60fps performance even with thousands of concurrent entities on-screen.",
+    "docker": "git clone https://github.com/simplifaisoul/osiris.git\ncd osiris\ncp .env.template .env     # optional — configure keys / port\ndocker compose up -d",
+    "source": "README.md",
+    "rawLength": 15589,
+    "fetchedAt": "2026-11-10T10:58:42.980Z"
+  },
+  "geo-seo-claude": {
+    "summary": "GEO agencies charge $2K–$12K/month. This tool does the audit. The community teaches you how to sell it.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10422,
+    "fetchedAt": "2026-11-10T10:58:42.980Z"
+  },
+  "quip-solver": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5387,
+    "fetchedAt": "2026-11-10T10:58:42.980Z"
+  },
+  "vectorcraft": {
+    "summary": "VectorCraft is under active development. ROADMAP.md has the stage, the numbers by dimension and what's next; docs/target-app-parity.md the full parity assessment and docs/gaps.md the ranked list of what's missing.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 28489,
+    "fetchedAt": "2026-11-10T10:58:42.980Z"
+  },
+  "true-story-of-pangu": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7053,
+    "fetchedAt": "2026-11-10T10:58:43.647Z"
+  },
+  "shadowbroker": {
+    "summary": "ShadowBroker is a decentralized intelligence platform that aggregates real-time, multi-domain OSINT telemetry from 60+ live intelligence feeds into a single dark-ops map interface. Aircraft, ships, satellites, conflict zones, CCTV networks, GPS jamming, internet-connected devices, police scanners, m…",
+    "docker": "git clone https://github.com/bigbodycobain/Shadowbroker.git\ncd Shadowbroker\ndocker compose pull\ndocker compose up -d",
+    "source": "README.md",
+    "rawLength": 85760,
+    "fetchedAt": "2026-11-10T10:58:43.647Z"
+  },
+  "kimi-k3-in-c": {
+    "summary": "Kimi K3 has 2.78 trillion parameters and is 1.56 terabytes as shipped. No consumer machine can hold it, and waiting for better hardware does not help, because the wall is not speed, it is capacity.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 158916,
+    "fetchedAt": "2026-11-10T10:58:43.647Z"
+  },
+  "rayburst": {
+    "summary": "Rayburst requires macOS 11 or later with an up-to-date Safari (16.2 or later). The .app.tar.gz macOS artifacts are published for the Tauri updater.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13719,
+    "fetchedAt": "2026-11-10T10:58:43.647Z"
+  },
+  "windows-mcp": {
+    "summary": "Windows-MCP is a lightweight, open-source project that enables seamless integration between AI agents and the Windows operating system. Acting as an MCP server bridges the gap between LLMs and the Windows operating system, allowing agents to perform tasks such as file navigation, application control…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 44015,
+    "fetchedAt": "2026-11-10T10:58:43.647Z"
+  },
+  "holaos": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16371,
+    "fetchedAt": "2026-11-10T10:58:43.647Z"
+  },
+  "optimizerduck": {
+    "summary": "optimizerDuck is a free, open-source Windows optimization tool focused on performance, privacy, and simplicity.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 23902,
+    "fetchedAt": "2026-11-10T10:58:44.293Z"
+  },
+  "gsd-core": {
+    "summary": "GSD Core is a context-engineering and spec-driven development framework that drives AI coding agents (Claude Code, Codex, Antigravity CLI, Kimi CLI, Copilot, Cursor, and more) through a disciplined phase loop. It solves context rot — the quality degradation that accumulates as an AI fills its contex…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5845,
+    "fetchedAt": "2026-11-10T10:58:44.294Z"
+  },
+  "mineradio-paused": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4852,
+    "fetchedAt": "2026-11-10T10:58:44.294Z"
+  },
+  "brigade": {
+    "summary": "brigade tui (or just brigade) auto-starts the gateway if it isn't already running, so for a quick local session you can skip step 2. To keep the gateway alive across reboots, run brigade gateway install (installs a launchd / systemd / Task Scheduler service).",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 54780,
+    "fetchedAt": "2026-11-10T10:58:44.294Z"
+  },
+  "sure": {
+    "summary": "Sure is a fully working personal finance app that can be self hosted with Docker. Sure can be accessed from a browser, the macOS desktop app, the mobile app, API clients, and LLM agents. See Sure Clients for an overview.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7806,
+    "fetchedAt": "2026-11-10T10:58:44.294Z"
+  },
+  "dbskill": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9270,
+    "fetchedAt": "2026-11-10T10:58:44.294Z"
+  },
+  "codex-security": {
+    "summary": "Codex Security helps you find, investigate, and fix vulnerabilities in your code. Use its security workflows in Codex, or automate them with the @openai/codex-security CLI and TypeScript SDK.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9586,
+    "fetchedAt": "2026-11-10T10:59:47.352Z"
+  },
+  "gpt-instruct": {
+    "summary": "gpt-5.6-sol-v45 作为稳定线继续可部署；gpt-6-astra 与 gpt-6.1-sol 分别维护 20-beta epoch。每条优化线按 A→JB-A→B→JB-B 收敛，只有 A/B 硬门槛通过后才运行 C；JB 模块与 A/B/C 分离。三条线共享测试集、失败归因、隔离执行和工件证据规范，但成绩只在相同模型、推理等级和方法身份下比较。详见 docs/architecture/README.md。",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12181,
+    "fetchedAt": "2026-11-10T10:59:47.352Z"
+  },
+  "skills-7": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11923,
+    "fetchedAt": "2026-11-10T10:59:47.352Z"
   }
 }

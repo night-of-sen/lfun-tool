@@ -30701,6 +30701,640 @@
       "cloud": "",
       "descEn": "A collection of agent skills that help you build great interfaces.",
       "pushedAt": "2026-11-09"
+    },
+    {
+      "id": "octop",
+      "name": "Octop",
+      "repo": "TencentCloud/Octop",
+      "homepage": "https://octop.cloud",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agentic-ai",
+        "ai",
+        "ai-agent"
+      ],
+      "seed": {
+        "stars": 11841,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "presenton",
+      "name": "Presenton",
+      "repo": "presenton/presenton",
+      "homepage": "https://presenton.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agent",
+        "ai-presentation",
+        "api",
+        "gamma"
+      ],
+      "seed": {
+        "stars": 11837,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-Source AI Presentation Generator and API (Gamma, Canva, Beautiful AI, Decktopus, Presentations AI Alternative)",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "agentguide",
+      "name": "AgentGuide",
+      "repo": "adongwanai/AgentGuide",
+      "homepage": "https://adongwanai.github.io/AgentGuide/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agentic-rl",
+        "agenticrag",
+        "ai-agent",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 11834,
+        "language": "MDX"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AI Agent 开发指南 | Agent Harness | 上下文工程 | 高级 RAG | MCP | Agentic RL 强化学习 | LangGraph 实战 | 1.2 万+ 大模型面试题 | 算法岗 / 开发岗求职 | 转行大模型",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "gamenative",
+      "name": "GameNative",
+      "repo": "utkarshdalal/GameNative",
+      "homepage": "https://gamenative.app",
+      "category": "fun-games",
+      "desc": "",
+      "tags": [
+        "gaming",
+        "mobile-gaming",
+        "pc-gaming",
+        "steam"
+      ],
+      "seed": {
+        "stars": 11804,
+        "language": "Kotlin"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Native PC gaming with Steam, Epic, GOG and Amazon integrations on Android",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "dsh-market",
+      "name": "Dsh Market",
+      "repo": "dsh-market/dsh-market",
+      "homepage": "https://dshmarket.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "marketplace"
+      ],
+      "seed": {
+        "stars": 11778,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场",
+      "pushedAt": "2026-11-09"
+    },
+    {
+      "id": "codeburn",
+      "name": "Codeburn",
+      "repo": "getagentseal/codeburn",
+      "homepage": "https://codeburn.app/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-coding",
+        "claude-code",
+        "cli",
+        "codex"
+      ],
+      "seed": {
+        "stars": 11751,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Free, local tool to track AI coding token usage and cost across 37 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn",
+      "pushedAt": "2026-11-09"
+    },
+    {
+      "id": "loop-engineering",
+      "name": "Loop Engineering",
+      "repo": "cobusgreyling/loop-engineering",
+      "homepage": "https://cobusgreyling.github.io/loop-engineering/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agentic-ai",
+        "ai-agents",
+        "ai-coding",
+        "anthropic"
+      ],
+      "seed": {
+        "stars": 11745,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). I",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "ekko-studio",
+      "name": "Ekko Studio",
+      "repo": "EKKOLearnAI/ekko-studio",
+      "homepage": "https://ekkostudio.xyz",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai-agent",
+        "chat-ui",
+        "coding-agents"
+      ],
+      "seed": {
+        "stars": 11737,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Ekko Studio is a local-first AI workspace for multi-agent chat, coding, and visual workflows, available on desktop and the web.",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "cloudflare-os",
+      "name": "Cloudflare Os",
+      "repo": "cloudflare/cloudflare-os",
+      "homepage": "https://os.cloudflare.app",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11734,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "dinov3",
+      "name": "Dinov3",
+      "repo": "facebookresearch/dinov3",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11719,
+        "language": "Jupyter Notebook"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Reference PyTorch implementation and models for DINOv3",
+      "pushedAt": "2026-11-02"
+    },
+    {
+      "id": "a-stock-data",
+      "name": "A Stock Data",
+      "repo": "simonlin1212/a-stock-data",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "a-share",
+        "ai-agent",
+        "ai-skill",
+        "china-stocks"
+      ],
+      "seed": {
+        "stars": 11666,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A股全栈数据工具包：行情K线·当日逐笔·研报·信号·资金面·新闻·财务·公告·打板·ETF期权·舆情·宏观利率·期货大宗(含大商所日K)·事件驱动·可转债 | 15层·87端点·34数据源·除iwencai外免Key | A-share data for AI agents: K-lines, ticks, reports, fund flow, news,",
+      "pushedAt": "2026-11-03"
+    },
+    {
+      "id": "osiris",
+      "name": "Osiris",
+      "repo": "simplifaisoul/osiris",
+      "homepage": "https://osirisai.live",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11644,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative - 2nZNHm3Lr9umG3DVrzYwHgktwkuKuJRXqqRqs3ewpump",
+      "pushedAt": "2026-11-09"
+    },
+    {
+      "id": "geo-seo-claude",
+      "name": "Geo Seo Claude",
+      "repo": "zubair-trabzada/geo-seo-claude",
+      "homepage": "https://www.skool.com/aiworkshop",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11603,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup, platform-specif",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "quip-solver",
+      "name": "Quip Solver",
+      "repo": "QuipNetwork/quip-solver",
+      "homepage": "https://quip.network/",
+      "category": "business-support",
+      "desc": "",
+      "tags": [
+        "cryptocurrency",
+        "ising",
+        "ising-model",
+        "ising-spin-models"
+      ],
+      "seed": {
+        "stars": 11591,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The quip network mining stack. This includes a coordinator and links all of the official quip network miners.",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "vectorcraft",
+      "name": "Vectorcraft",
+      "repo": "storytold/vectorcraft",
+      "homepage": "https://getartcraft.com/apps/vectorcraft",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "art",
+        "rust",
+        "rust-lang",
+        "svg"
+      ],
+      "seed": {
+        "stars": 11578,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "VectorCraft: An open-source vector art tool written from scratch in pure Rust",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "true-story-of-pangu",
+      "name": "True Story Of Pangu",
+      "repo": "HW-whistleblower/True-Story-of-Pangu",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11553,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "诺亚盘古大模型研发背后的真正的心酸与黑暗的故事。",
+      "pushedAt": "2025-07-09"
+    },
+    {
+      "id": "shadowbroker",
+      "name": "Shadowbroker",
+      "repo": "BigBodyCobain/Shadowbroker",
+      "homepage": "https://shadowbroker.dev",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ads-b",
+        "adsb",
+        "aircraft",
+        "aircraft-tracking"
+      ],
+      "seed": {
+        "stars": 11536,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Ho",
+      "pushedAt": "2026-11-09"
+    },
+    {
+      "id": "kimi-k3-in-c",
+      "name": "Kimi K3 In C",
+      "repo": "FareedKhan-dev/kimi-k3-in-c",
+      "homepage": "https://medium.com/@fareedkhandev/building-kimi-k3-in-c-to-run-a-2-8t-model-on-consumer-hardware-a5792cbf3b59",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "avx2",
+        "c99",
+        "cpu-inference",
+        "deep-learning"
+      ],
+      "seed": {
+        "stars": 11531,
+        "language": "C"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+      "pushedAt": "2026-10-02"
+    },
+    {
+      "id": "rayburst",
+      "name": "Rayburst",
+      "repo": "AnInsomniacy/rayburst",
+      "homepage": "https://rayburst.pages.dev",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11461,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Redefining the open-source download manager",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "windows-mcp",
+      "name": "Windows MCP",
+      "repo": "CursorTouch/Windows-MCP",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "desktop",
+        "mcp",
+        "tools"
+      ],
+      "seed": {
+        "stars": 11458,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "MCP Server for Computer Use in Windows",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "holaos",
+      "name": "HolaOS",
+      "repo": "holaboss-ai/holaOS",
+      "homepage": "https://holaos.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agent-harness",
+        "agent-os",
+        "agentic"
+      ],
+      "seed": {
+        "stars": 11438,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source agentic workspace enterprises can make their own. Connect the systems you already run — 100+ integrations, MCP, chat tools, apps, browser, local files — with shared mem",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "optimizerduck",
+      "name": "OptimizerDuck",
+      "repo": "itsfatduck/optimizerDuck",
+      "homepage": "https://optimizerduck.vercel.app/",
+      "category": "fun-games",
+      "desc": "",
+      "tags": [
+        "csharp",
+        "debloat",
+        "dotnet",
+        "gaming"
+      ],
+      "seed": {
+        "stars": 11434,
+        "language": "C#"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Free, open-source Windows optimization tool for performance, privacy, and simplicity.",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "gsd-core",
+      "name": "Gsd Core",
+      "repo": "open-gsd/gsd-core",
+      "homepage": "https://opengsd.net",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "claude-code",
+        "context-engineering",
+        "meta-prompting",
+        "spec-driven-development"
+      ],
+      "seed": {
+        "stars": 11401,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Git. Ship. Done - Core",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "mineradio-paused",
+      "name": "Mineradio Paused",
+      "repo": "XxHuberrr/Mineradio-paused",
+      "homepage": "https://mineradio.cn/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11390,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Mineradio 官网：mineradio.cn ｜ 一款以电影镜头、粒子视觉和歌词舞台为核心的沉浸式音乐播放器。",
+      "pushedAt": "2026-11-09"
+    },
+    {
+      "id": "brigade",
+      "name": "Brigade",
+      "repo": "spinabot/brigade",
+      "homepage": "https://www.brigade.spinabot.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-runtime",
+        "ai",
+        "ai-crew",
+        "autonomous-agents"
+      ],
+      "seed": {
+        "stars": 11373,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Brigade — Your personal intelligence, built enterprise-grade",
+      "pushedAt": "2026-11-09"
+    },
+    {
+      "id": "dbskill",
+      "name": "Dbskill",
+      "repo": "dontbesilent2025/dbskill",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11371,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "dontbesilent 的商业诊断 Skills",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "sure",
+      "name": "Sure",
+      "repo": "we-promise/sure",
+      "homepage": "https://sure.am",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11370,
+        "language": "Ruby"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The personal finance app for everyone (by everyone)",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "codex-security",
+      "name": "Codex Security",
+      "repo": "openai/codex-security",
+      "homepage": "https://developers.openai.com/codex/security",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-security",
+        "application-security",
+        "cli",
+        "code-scanning"
+      ],
+      "seed": {
+        "stars": 11351,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "gpt-instruct",
+      "name": "Gpt Instruct",
+      "repo": "MDX-Tom/gpt-instruct",
+      "homepage": "https://mdx-tom.github.io/gpt-instruct/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11324,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A Codex jailbreak prompt and test pack for gpt. 针对 gpt 系列的 Codex 破甲提示词与测试包。",
+      "pushedAt": "2026-10-04"
+    },
+    {
+      "id": "skills-7",
+      "name": "Skills",
+      "repo": "huggingface/skills",
+      "homepage": "https://huggingface.co",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11317,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Give your agents the power of the Hugging Face ecosystem",
+      "pushedAt": "2026-10-30"
     }
   ]
 }

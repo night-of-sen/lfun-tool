@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T11:10:08.162Z",
+  "generatedAt": "2026-11-10T11:01:31.722Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -5192,6 +5192,126 @@
     "pal-mcp-server": {
       "en": "For developers juggling multiple coding CLIs, Pal MCP Server lets Claude Code, GeminiCLI, and CodexCLI work with many model providers as one.",
       "zh": "面向使用多种编程 CLI 的开发者，把 Claude Code、GeminiCLI、CodexCLI 与各类模型服务商合为一体协同工作。"
+    },
+    "octop": {
+      "en": "A self-hosted AI assistant for teams that need multi-user and multi-agent support.",
+      "zh": "面向需要多用户和多智能体支持团队的自托管 AI 助手。"
+    },
+    "presenton": {
+      "en": "Presenton is an open-source AI presentation generator and API for people who want to create slide decks from prompts.",
+      "zh": "Presenton 是开源的 AI 演示文稿生成工具与 API，帮助需要根据提示生成幻灯片的人完成制作。"
+    },
+    "dsh-market": {
+      "en": "For DeepSeek Harness users, Dsh Market is a visual plugin market to browse, search and install plugins in one click.",
+      "zh": "面向 DeepSeek Harness 用户，Dsh Market 是内置的可视化插件市场，可浏览、搜索并一键安装插件。"
+    },
+    "gamenative": {
+      "en": "Lets Android users play native PC games with Steam, Epic, GOG, and Amazon integrations in one place.",
+      "zh": "让安卓用户通过 Steam、Epic、GOG 和 Amazon 集成，在设备上玩原生 PC 游戏。"
+    },
+    "ekko-studio": {
+      "en": "Ekko Studio is a local-first AI workspace for multi-agent chat, coding, and visual workflows, available on desktop and the web.",
+      "zh": "Ekko Studio 是一个本地优先的 AI 工作空间，支持多智能体对话、编程与可视化工作流，提供桌面端和网页端。"
+    },
+    "agentguide": {
+      "en": "A guide for developers and job seekers learning AI agents, covering Agent Harness, context engineering, RAG, MCP, and LangGraph practice.",
+      "zh": "面向开发者与求职者的 AI Agent 学习指南，涵盖 Agent Harness、上下文工程、RAG、MCP 与 LangGraph 实战等内容。"
+    },
+    "cloudflare-os": {
+      "en": "A workspace on Cloudflare Workers for teams to create documents, build apps, and run agents using their company's context and systems.",
+      "zh": "一个基于 Cloudflare Workers 的工作空间，让团队借助公司自有上下文与系统创建文档、构建应用并运行 agent。"
+    },
+    "codeburn": {
+      "en": "Free local tool that tracks token usage and cost across 37 AI coding tools, by model, project, and task.",
+      "zh": "免费本地工具，跨 37 款 AI 编程工具按模型、项目和任务追踪 token 用量与成本。"
+    },
+    "dinov3": {
+      "en": "DINOv3 offers a reference PyTorch implementation and models for developers working with the DINOv3 vision model.",
+      "zh": "DINOv3 为使用 DINOv3 视觉模型的开发者提供参考 PyTorch 实现与模型。"
+    },
+    "a-stock-data": {
+      "en": "A-share data toolkit for AI agents, bundling K-lines, ticks, reports, fund flow, news, financials and more into 87 endpoints across 34 sources, so builders avoid stitching many providers together.",
+      "zh": "面向AI智能体的A股数据工具包，将K线、逐笔、研报、资金面、新闻、财务等数据整合为87个端点、34个数据源，帮助开发者省去对接多家数据商的麻烦。"
+    },
+    "osiris": {
+      "en": "An open-source global intelligence platform with a real-time OSINT dashboard, built for analysts and researchers who need to monitor and explore open-source information in one place.",
+      "zh": "面向分析人员与研究者的开源全球情报平台，提供实时 OSINT 仪表盘，用于集中监控和查看公开来源信息。"
+    },
+    "loop-engineering": {
+      "en": "For developers building AI coding agent workflows: patterns, starters and CLI tools (loop-audit, loop-init, loop-cost) to design systems that prompt and orchestrate agents.",
+      "zh": "面向 AI 编程智能体开发者：模式、起步模板与 loop-audit 等 CLI 工具，用于设计和编排智能体。"
+    },
+    "vectorcraft": {
+      "en": "VectorCraft is an open-source vector art tool written from scratch in pure Rust, aimed at users who want a Rust-native option for creating vector graphics.",
+      "zh": "VectorCraft 是一个完全用纯 Rust 从零编写的开源矢量绘图工具，面向希望使用 Rust 原生方案创作矢量图形的用户。"
+    },
+    "geo-seo-claude": {
+      "en": "A GEO-first SEO skill for Claude Code that helps site owners and marketers optimize websites for AI search.",
+      "zh": "面向 Claude Code 用户的 GEO 优先 SEO 技能，帮助网站方与营销人员针对 AI 搜索优化站点。"
+    },
+    "rayburst": {
+      "en": "Rayburst is an open-source download manager for users who need a tool to handle their downloads.",
+      "zh": "Rayburst 是一款开源下载管理器，面向需要管理下载任务的用户。"
+    },
+    "true-story-of-pangu": {
+      "en": "For developers curious about the untold hardship behind the Noah Pangu large model, this shares that story.",
+      "zh": "面向想了解诺亚盘古大模型研发背后心酸与黑暗故事的开发者，讲述这段经历。"
+    },
+    "quip-solver": {
+      "en": "For Quip network mining, Quip Solver provides a mining stack with a coordinator and links all official Quip network miners.",
+      "zh": "面向Quip网络挖矿，Quip Solver提供含协调器的挖矿栈并连接所有官方矿工。"
+    },
+    "windows-mcp": {
+      "en": "An MCP server for Windows that lets MCP-based agents use the computer.",
+      "zh": "一个面向 Windows 的 MCP 服务器，让基于 MCP 的智能体使用计算机。"
+    },
+    "holaos": {
+      "en": "An open-source agentic workspace for enterprises, connecting existing systems, agents, and models with shared memory while keeping data local.",
+      "zh": "面向企业的开源智能体工作区，连接已有系统、智能体与模型并共享记忆，数据保留在本地。"
+    },
+    "kimi-k3-in-c": {
+      "en": "Runs Kimi K3 inference on a single CPU within 8.24 GB of RAM, for developers on hardware without GPU, BLAS, or frameworks.",
+      "zh": "为无 GPU 环境的开发者提供单 CPU、8.24 GB 内存内的 Kimi K3 推理。"
+    },
+    "shadowbroker": {
+      "en": "Gives OSINT researchers and AI agent developers one open interface to track jets, satellites, and seismic events, with agents finding correlations.",
+      "zh": "为情报研究人员与AI开发者统一追踪飞机、卫星和地震事件，并让智能体发现数据关联。"
+    },
+    "optimizerduck": {
+      "en": "A free, open-source Windows tool for users who want to tune performance and privacy with a simple interface.",
+      "zh": "一款免费开源的 Windows 工具，适合希望用简单方式调整性能与隐私设置的用户。"
+    },
+    "mineradio-paused": {
+      "en": "An immersive music player for listeners who want cinematic camera moves, particle visuals and a lyrics stage around their songs.",
+      "zh": "一款沉浸式音乐播放器，以电影镜头、粒子视觉和歌词舞台呈现歌曲，面向追求视觉氛围的听众。"
+    },
+    "brigade": {
+      "en": "Brigade is an AI agent tool for users who want personal intelligence built to enterprise-grade standards.",
+      "zh": "Brigade 是一款 AI 智能体工具，面向希望获得企业级个人智能的用户。"
+    },
+    "gsd-core": {
+      "en": "Gsd Core is a dev-tools tool for developers using a Git, ship, done workflow to move work from commit to shipped.",
+      "zh": "Gsd Core 是面向开发者的 dev-tools 工具，围绕 Git、交付、完成的工作流。"
+    },
+    "sure": {
+      "en": "Sure is a personal finance app for everyone, aimed at helping people with personal finance.",
+      "zh": "Sure 是一款面向所有人的个人财务应用，帮助人们处理个人财务。"
+    },
+    "codex-security": {
+      "en": "OpenAI's Codex Security CLI and TypeScript SDK help developers find, validate, and fix security vulnerabilities.",
+      "zh": "OpenAI 的 Codex Security CLI 和 TypeScript SDK，帮助开发者发现、验证并修复安全漏洞。"
+    },
+    "dbskill": {
+      "en": "Business diagnosis skills from dontbesilent, aimed at users who need to diagnose business problems.",
+      "zh": "来自 dontbesilent 的商业诊断 Skills，面向需要诊断商业问题的用户。"
+    },
+    "skills-7": {
+      "en": "Lets developers give their agents access to the Hugging Face ecosystem.",
+      "zh": "让开发者为自己的智能体接入 Hugging Face 生态的能力。"
+    },
+    "gpt-instruct": {
+      "en": "For users testing Codex prompts on GPT models, this pack provides prompt and test materials.",
+      "zh": "面向在 GPT 系列上测试 Codex 提示词的用户，提供提示词与测试包。"
     }
   }
 }

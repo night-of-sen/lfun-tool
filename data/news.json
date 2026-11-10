@@ -1,6 +1,377 @@
 {
   "days": [
     {
+      "date": "2026-11-10",
+      "items": [
+        {
+          "title": "Meet the Sad Wives of AI",
+          "link": "https://www.wired.com/story/meet-the-sad-wives-of-ai/",
+          "source": "Hacker News",
+          "date": "2026-11-10",
+          "zhTitle": "遇见AI的“悲伤妻子”们",
+          "zh": "《连线》报道被称为“AI悲伤妻子”的女性群体。",
+          "en": "Wired profiles the women dubbed the \"sad wives\" of AI."
+        },
+        {
+          "title": "Closing the AI guidance gap in education",
+          "link": "https://openai.com/index/closing-ai-guidance-gap-education",
+          "source": "OpenAI",
+          "date": "2026-11-10",
+          "zhTitle": "弥合教育领域的AI指导缺口",
+          "zh": "OpenAI发文谈如何弥合教育中的AI指导缺口。",
+          "en": "OpenAI addresses closing the AI guidance gap in education."
+        },
+        {
+          "title": "Fireworks AI security breach impacts Notion and their customers",
+          "link": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+          "source": "Hacker News",
+          "date": "2026-11-10",
+          "zhTitle": "Fireworks AI安全漏洞波及Notion及其客户",
+          "zh": "Notion称第三方AI供应商Fireworks AI安全事件影响其客户。",
+          "en": "Notion says a Fireworks AI security incident affected it and its customers."
+        },
+        {
+          "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+          "link": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+          "source": "Hacker News",
+          "date": "2026-11-10",
+          "zhTitle": "AI信贷压力上升，CoreWeave债券收益率突破16%",
+          "zh": "AI信贷压力上升，CoreWeave债券收益率超过16%。",
+          "en": "CoreWeave bond yield tops 16% as AI credit stress rises."
+        },
+        {
+          "title": "ChatGPT Enterprise now available in AWS Marketplace",
+          "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+          "source": "OpenAI",
+          "date": "2026-11-09",
+          "zhTitle": "ChatGPT Enterprise现已登陆AWS Marketplace",
+          "zh": "ChatGPT Enterprise现已在AWS Marketplace上架。",
+          "en": "ChatGPT Enterprise is now available in AWS Marketplace."
+        },
+        {
+          "title": "Google Gemini routes personal Drive files and emails to human annotators",
+          "link": "https://github.com/thisisme6598/gemini_files/",
+          "source": "Hacker News",
+          "date": "2026-11-09",
+          "zhTitle": "谷歌Gemini将个人Drive文件与邮件转交人工标注员",
+          "zh": "有材料称Gemini将个人Drive文件与邮件送交人工标注。",
+          "en": "Report claims Gemini routes personal Drive files and emails to human annotators."
+        },
+        {
+          "title": "Claude Fable 5.2 and Mythos 5.2",
+          "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "source": "Hacker News",
+          "date": "2026-11-09",
+          "zhTitle": "Claude Fable 5.2与Mythos 5.2",
+          "zh": "Anthropic发布Claude Fable 5.2与Mythos 5.2。",
+          "en": "Anthropic releases Claude Fable 5.2 and Mythos 5.2."
+        },
+        {
+          "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+          "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-09",
+          "zhTitle": "佩洛西的继任者准备监管AI",
+          "zh": "佩洛西的潜在继任者表示已准备好监管AI。",
+          "en": "Nancy Pelosi's prospective successor says she is ready to regulate AI."
+        },
+        {
+          "title": "The Download: empty AI climate claims, and an Nvidia investigation",
+          "link": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-09",
+          "zhTitle": "《下载》：空洞的AI气候主张与一项英伟达调查",
+          "zh": "今日简讯：AI气候主张缺乏依据，另有一项英伟达调查。",
+          "en": "The Download: hollow AI climate claims and an Nvidia investigation."
+        },
+        {
+          "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+          "link": "https://openai.com/index/control-room",
+          "source": "OpenAI",
+          "date": "2026-11-09",
+          "zhTitle": "控制室：跨研究基础设施追踪并叫停模型工作负载的中央系统",
+          "zh": "OpenAI推出可集中追踪和叫停模型工作负载的“控制室”。",
+          "en": "OpenAI's Control Room tracks and stops model workloads across its research infrastructure."
+        },
+        {
+          "title": "Innovating with AI in the special chemicals industry",
+          "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-09",
+          "zhTitle": "在特种化学品行业以AI创新",
+          "zh": "探讨特种化学品行业如何借助AI推进创新。",
+          "en": "How the special chemicals industry innovates with AI."
+        },
+        {
+          "title": "The climate case for AI has not been made",
+          "link": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-09",
+          "zhTitle": "AI的气候理由尚未成立",
+          "zh": "文章认为AI有利于气候的论据尚未被证明。",
+          "en": "The climate case for AI has not been made."
+        },
+        {
+          "title": "CodeRabbit scales agentic software development and ships 20x more",
+          "link": "https://openai.com/index/coderabbit-codex-daybreak",
+          "source": "OpenAI",
+          "date": "2026-11-09",
+          "zhTitle": "CodeRabbit扩展智能体式软件开发，交付量提升20倍",
+          "zh": "CodeRabbit扩展智能体式开发，交付量增至20倍。",
+          "en": "CodeRabbit scales agentic software development and ships 20x more."
+        },
+        {
+          "title": "Kuken Industries searches 70 years of drawings in minutes",
+          "link": "https://openai.com/index/kuken",
+          "source": "OpenAI",
+          "date": "2026-11-09",
+          "zhTitle": "Kuken Industries数分钟内检索70年图纸",
+          "zh": "Kuken Industries可在数分钟内检索70年历史图纸。",
+          "en": "Kuken Industries searches 70 years of drawings in minutes."
+        },
+        {
+          "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+          "link": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+          "source": "GitHub Blog",
+          "date": "2026-10-28",
+          "zhTitle": "Octoverse：2026年开发者用智能体开发，提交与推送创新高",
+          "zh": "GitHub报告称2026年提交与推送量创新高，智能体开发兴起。",
+          "en": "Octoverse: commits and pushes hit new highs in 2026 as developers build with agents."
+        },
+        {
+          "title": "The bridge to agent-scale Git infrastructure",
+          "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+          "source": "GitHub Blog",
+          "date": "2026-10-21",
+          "zhTitle": "通往智能体规模Git基础设施的桥梁",
+          "zh": "GitHub工程博客介绍支撑智能体规模的Git基础设施改造。",
+          "en": "GitHub engineering on building Git infrastructure at agent scale."
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "octop",
+          "name": "Octop",
+          "repo": "TencentCloud/Octop",
+          "stars": 11841
+        },
+        {
+          "id": "presenton",
+          "name": "Presenton",
+          "repo": "presenton/presenton",
+          "stars": 11837
+        },
+        {
+          "id": "agentguide",
+          "name": "AgentGuide",
+          "repo": "adongwanai/AgentGuide",
+          "stars": 11834
+        },
+        {
+          "id": "gamenative",
+          "name": "GameNative",
+          "repo": "utkarshdalal/GameNative",
+          "stars": 11804
+        },
+        {
+          "id": "dsh-market",
+          "name": "Dsh Market",
+          "repo": "dsh-market/dsh-market",
+          "stars": 11778
+        },
+        {
+          "id": "codeburn",
+          "name": "Codeburn",
+          "repo": "getagentseal/codeburn",
+          "stars": 11751
+        },
+        {
+          "id": "loop-engineering",
+          "name": "Loop Engineering",
+          "repo": "cobusgreyling/loop-engineering",
+          "stars": 11744
+        },
+        {
+          "id": "ekko-studio",
+          "name": "Ekko Studio",
+          "repo": "EKKOLearnAI/ekko-studio",
+          "stars": 11738
+        },
+        {
+          "id": "cloudflare-os",
+          "name": "Cloudflare Os",
+          "repo": "cloudflare/cloudflare-os",
+          "stars": 11734
+        },
+        {
+          "id": "dinov3",
+          "name": "Dinov3",
+          "repo": "facebookresearch/dinov3",
+          "stars": 11719
+        },
+        {
+          "id": "a-stock-data",
+          "name": "A Stock Data",
+          "repo": "simonlin1212/a-stock-data",
+          "stars": 11666
+        },
+        {
+          "id": "osiris",
+          "name": "Osiris",
+          "repo": "simplifaisoul/osiris",
+          "stars": 11644
+        },
+        {
+          "id": "geo-seo-claude",
+          "name": "Geo Seo Claude",
+          "repo": "zubair-trabzada/geo-seo-claude",
+          "stars": 11603
+        },
+        {
+          "id": "quip-solver",
+          "name": "Quip Solver",
+          "repo": "QuipNetwork/quip-solver",
+          "stars": 11591
+        },
+        {
+          "id": "vectorcraft",
+          "name": "Vectorcraft",
+          "repo": "storytold/vectorcraft",
+          "stars": 11578
+        },
+        {
+          "id": "true-story-of-pangu",
+          "name": "True Story Of Pangu",
+          "repo": "HW-whistleblower/True-Story-of-Pangu",
+          "stars": 11553
+        },
+        {
+          "id": "shadowbroker",
+          "name": "Shadowbroker",
+          "repo": "BigBodyCobain/Shadowbroker",
+          "stars": 11536
+        },
+        {
+          "id": "kimi-k3-in-c",
+          "name": "Kimi K3 In C",
+          "repo": "FareedKhan-dev/kimi-k3-in-c",
+          "stars": 11531
+        },
+        {
+          "id": "rayburst",
+          "name": "Rayburst",
+          "repo": "AnInsomniacy/rayburst",
+          "stars": 11462
+        },
+        {
+          "id": "windows-mcp",
+          "name": "Windows MCP",
+          "repo": "CursorTouch/Windows-MCP",
+          "stars": 11458
+        },
+        {
+          "id": "holaos",
+          "name": "HolaOS",
+          "repo": "holaboss-ai/holaOS",
+          "stars": 11438
+        },
+        {
+          "id": "optimizerduck",
+          "name": "OptimizerDuck",
+          "repo": "itsfatduck/optimizerDuck",
+          "stars": 11434
+        },
+        {
+          "id": "gsd-core",
+          "name": "Gsd Core",
+          "repo": "open-gsd/gsd-core",
+          "stars": 11401
+        },
+        {
+          "id": "mineradio-paused",
+          "name": "Mineradio Paused",
+          "repo": "XxHuberrr/Mineradio-paused",
+          "stars": 11390
+        },
+        {
+          "id": "brigade",
+          "name": "Brigade",
+          "repo": "spinabot/brigade",
+          "stars": 11373
+        },
+        {
+          "id": "dbskill",
+          "name": "Dbskill",
+          "repo": "dontbesilent2025/dbskill",
+          "stars": 11372
+        },
+        {
+          "id": "sure",
+          "name": "Sure",
+          "repo": "we-promise/sure",
+          "stars": 11373
+        },
+        {
+          "id": "codex-security",
+          "name": "Codex Security",
+          "repo": "openai/codex-security",
+          "stars": 11351
+        },
+        {
+          "id": "gpt-instruct",
+          "name": "Gpt Instruct",
+          "repo": "MDX-Tom/gpt-instruct",
+          "stars": 11325
+        },
+        {
+          "id": "skills-7",
+          "name": "Skills",
+          "repo": "huggingface/skills",
+          "stars": 11316
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "octop",
+          "name": "Octop",
+          "repo": "TencentCloud/Octop",
+          "stars": 11841,
+          "gain": 11841
+        },
+        {
+          "id": "presenton",
+          "name": "Presenton",
+          "repo": "presenton/presenton",
+          "stars": 11837,
+          "gain": 11837
+        },
+        {
+          "id": "agentguide",
+          "name": "AgentGuide",
+          "repo": "adongwanai/AgentGuide",
+          "stars": 11834,
+          "gain": 11834
+        },
+        {
+          "id": "gamenative",
+          "name": "GameNative",
+          "repo": "utkarshdalal/GameNative",
+          "stars": 11804,
+          "gain": 11804
+        },
+        {
+          "id": "dsh-market",
+          "name": "Dsh Market",
+          "repo": "dsh-market/dsh-market",
+          "stars": 11778,
+          "gain": 11778
+        }
+      ],
+      "rollupZh": "今日AI金融风险受关注，CoreWeave债券收益率突破16%。安全与隐私问题同样突出：Fireworks AI漏洞波及Notion及其客户，Gemini被指将个人文件与邮件送交人工标注。OpenAI则推进教育AI指导、企业版上架AWS Marketplace，并公布集中管控模型工作负载的“控制室”系统。",
+      "rollupEn": "AI credit stress drew attention as CoreWeave bond yields topped 16%. Security and privacy concerns also surfaced: a Fireworks AI breach hit Notion and its customers, and Gemini was said to route personal files and emails to human annotators. OpenAI pushed education guidance, listed ChatGPT Enterprise on AWS Marketplace, and detailed its Control Room system.",
+      "failures": []
+    },
+    {
       "date": "2026-11-09",
       "items": [
         {
