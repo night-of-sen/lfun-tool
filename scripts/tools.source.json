@@ -29185,7 +29185,7 @@
     {
       "id": "e2e",
       "name": "E2e",
-      "repo": "tester-army/e2e",
+      "repo": "e2e-inc/e2e",
       "homepage": "https://e2e.com",
       "category": "mobile-iot",
       "desc": "",
@@ -31335,6 +31335,639 @@
       "cloud": "",
       "descEn": "Give your agents the power of the Hugging Face ecosystem",
       "pushedAt": "2026-10-30"
+    },
+    {
+      "id": "auto-ontology",
+      "name": "Auto Ontology",
+      "repo": "NVIDIA/auto-ontology",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11645,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more exp",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "omnigent",
+      "name": "Omnigent",
+      "repo": "omnigent-ai/omnigent",
+      "homepage": "https://omnigent.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-framework",
+        "agent-governance",
+        "agent-orchestration",
+        "agents"
+      ],
+      "seed": {
+        "stars": 11332,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies a",
+      "pushedAt": "2026-11-11"
+    },
+    {
+      "id": "openwhispr",
+      "name": "Openwhispr",
+      "repo": "OpenWhispr/openwhispr",
+      "homepage": "https://openwhispr.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "anthropic",
+        "cross-platform",
+        "gemini"
+      ],
+      "seed": {
+        "stars": 11255,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
+      "pushedAt": "2026-11-11"
+    },
+    {
+      "id": "xiaozhi-esp32-server",
+      "name": "Xiaozhi Esp32 Server",
+      "repo": "xinnan-tech/xiaozhi-esp32-server",
+      "homepage": "https://2662r3426b.vicp.fun",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "dify",
+        "esp32",
+        "mcp-server",
+        "xiaozhi"
+      ],
+      "seed": {
+        "stars": 11250,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "本项目为xiaozhi-esp32提供后端服务，帮助您快速搭建ESP32设备控制服务器。Backend service for xiaozhi-esp32, helps you quickly build an ESP32 device control server.",
+      "pushedAt": "2026-11-09"
+    },
+    {
+      "id": "fff",
+      "name": "Fff",
+      "repo": "dmtrKovalenko/fff",
+      "homepage": "https://fff.dmtrkovalenko.dev/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "bun",
+        "fff",
+        "filesearch",
+        "fzf"
+      ],
+      "seed": {
+        "stars": 11231,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The fastest and the most accurate file search SDK for AI agents, Neovim, Rust, C, Python, Bun and NodeJS",
+      "pushedAt": "2026-11-11"
+    },
+    {
+      "id": "clash",
+      "name": "Clash",
+      "repo": "clashbk/clash",
+      "homepage": "https://github.com/clashbk/clash",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "clash",
+        "clash-core",
+        "clashmeta",
+        "mihomo"
+      ],
+      "seed": {
+        "stars": 11223,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Clash官网各版本Clash下载地址及备份下载地址",
+      "pushedAt": "2026-10-04"
+    },
+    {
+      "id": "reclip",
+      "name": "Reclip",
+      "repo": "averygan/reclip",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11217,
+        "language": "HTML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+      "pushedAt": "2026-07-09"
+    },
+    {
+      "id": "aerial-tv",
+      "name": "Aerial Tv",
+      "repo": "pengchujin/aerial-tv",
+      "homepage": "https://aerial.qust.me",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11216,
+        "language": "Kotlin"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+      "pushedAt": "2026-11-11"
+    },
+    {
+      "id": "hashsigs-rs",
+      "name": "Hashsigs Rs",
+      "repo": "QuipNetwork/hashsigs-rs",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11206,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Hash-based post quantum signatures in Rust",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "hashsigs-solidity",
+      "name": "Hashsigs Solidity",
+      "repo": "QuipNetwork/hashsigs-solidity",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11204,
+        "language": "Solidity"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Solidity contracts implementing hash based post quantum signatures",
+      "pushedAt": "2026-11-09"
+    },
+    {
+      "id": "open-swe",
+      "name": "Open Swe",
+      "repo": "langchain-ai/open-swe",
+      "homepage": "https://www.langchain.com/blog/open-swe-an-open-source-framework-for-internal-coding-agents",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agents",
+        "ai",
+        "anthropic"
+      ],
+      "seed": {
+        "stars": 11199,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An Open-Source Asynchronous Coding Agent",
+      "pushedAt": "2026-11-11"
+    },
+    {
+      "id": "trail-code",
+      "name": "Trail Code",
+      "repo": "trailhq/Trail-Code",
+      "homepage": "https://trailhq.com/trail-code",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "anthropic",
+        "claude-code",
+        "cli"
+      ],
+      "seed": {
+        "stars": 11198,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "One shared memory for every coding agent on your team. Claude Code, Cursor and Codex get a map of your code and your team's past decisions, so they pick up where you left off.",
+      "pushedAt": "2026-11-11"
+    },
+    {
+      "id": "hashsigs-ts",
+      "name": "Hashsigs Ts",
+      "repo": "QuipNetwork/hashsigs-ts",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11182,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Hash-based signatures in typescript, WOTS+",
+      "pushedAt": "2026-07-27"
+    },
+    {
+      "id": "skills-8",
+      "name": "Skills",
+      "repo": "slavingia/skills",
+      "homepage": "https://minimalistentrepreneur.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11162,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Based on The Minimalist Entrepreneur by Sahil Lavingia",
+      "pushedAt": "2026-04-14"
+    },
+    {
+      "id": "hive",
+      "name": "Hive",
+      "repo": "aden-hive/hive",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agent-framework",
+        "agent-skills",
+        "anthropic"
+      ],
+      "seed": {
+        "stars": 11152,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Multi-Agent Harness for Production AI",
+      "pushedAt": "2026-11-08"
+    },
+    {
+      "id": "vidbee",
+      "name": "VidBee",
+      "repo": "nexmoe/VidBee",
+      "homepage": "https://vidbee.org",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-summary",
+        "audio-downloader",
+        "audio-transcription",
+        "cross-platform"
+      ],
+      "seed": {
+        "stars": 11119,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Download video and audio from 1000+ sites, transcribe locally with speaker labels, and summarize, translate, or chat with your media using your preferred AI provider.",
+      "pushedAt": "2026-11-08"
+    },
+    {
+      "id": "inkos",
+      "name": "Inkos",
+      "repo": "Narcooo/inkos",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-agent",
+        "ai-game",
+        "ai-writing"
+      ],
+      "seed": {
+        "stars": 11115,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Story Creation AI Agent for novel, scripts, translation, interactive games, and IP content",
+      "pushedAt": "2026-10-24"
+    },
+    {
+      "id": "tg-ws-proxy",
+      "name": "Tg Ws Proxy",
+      "repo": "Flowseal/tg-ws-proxy",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11110,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Local MTProto proxy server for partial bypassing of Telegram loading",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "kimi-k2",
+      "name": "Kimi K2",
+      "repo": "MoonshotAI/Kimi-K2",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11109,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Kimi K2 is the large language model series developed by Moonshot AI team",
+      "pushedAt": "2026-01-21"
+    },
+    {
+      "id": "llm-engineer-toolkit",
+      "name": "Llm Engineer Toolkit",
+      "repo": "KalyanKS-NLP/llm-engineer-toolkit",
+      "homepage": "https://www.linkedin.com/in/kalyanksnlp/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-engineer",
+        "generative-ai",
+        "large-language-models",
+        "llm-engineer"
+      ],
+      "seed": {
+        "stars": 11068,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A curated list of 120+ LLM libraries category wise.",
+      "pushedAt": "2026-10-25"
+    },
+    {
+      "id": "valuecell",
+      "name": "Valuecell",
+      "repo": "ValueCell-ai/valuecell",
+      "homepage": "https://valuecell.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "assitant"
+      ],
+      "seed": {
+        "stars": 11054,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "ValueCell is a community-driven, multi-agent platform for financial applications.",
+      "pushedAt": "2026-03-09"
+    },
+    {
+      "id": "rapidraw",
+      "name": "RapidRAW",
+      "repo": "CyberTimon/RapidRAW",
+      "homepage": "https://getrapidraw.com",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "color-grading",
+        "editing",
+        "image-processing",
+        "masks"
+      ],
+      "seed": {
+        "stars": 11054,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.",
+      "pushedAt": "2026-11-11"
+    },
+    {
+      "id": "opencode-antigravity-auth",
+      "name": "Opencode Antigravity Auth",
+      "repo": "NoeFabris/opencode-antigravity-auth",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "claude",
+        "gemini",
+        "google",
+        "opencode"
+      ],
+      "seed": {
+        "stars": 11029,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Enable Opencode to authenticate against Antigravity (Google's IDE) via OAuth so you can use Antigravity rate limits and access models like gemini-3-pro and claude-opus-4-5-thinking",
+      "pushedAt": "2026-10-27"
+    },
+    {
+      "id": "pakeplus-android",
+      "name": "PakePlus Android",
+      "repo": "Sjj1024/PakePlus-Android",
+      "homepage": "https://pakeplus.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "build",
+        "pacbao",
+        "pack",
+        "pake"
+      ],
+      "seed": {
+        "stars": 11003,
+        "language": "Lua"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Turn any webpage/HTML/Vue/React and so on into desktop and mobile app under 5M with easy in few minutes. 轻松将任意网站/HTML/Vue/React等项目构建为轻量级(小于5M)多端桌面应用和手机应用仅需几分钟. https://ppofficial.n",
+      "pushedAt": "2026-09-16"
+    },
+    {
+      "id": "spark-tts",
+      "name": "Spark TTS",
+      "repo": "SparkAudio/Spark-TTS",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10988,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Spark-TTS Inference Code",
+      "pushedAt": "2025-04-09"
+    },
+    {
+      "id": "kytyps5",
+      "name": "KytyPS5",
+      "repo": "KytyPS5/KytyPS5",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "cpp",
+        "gpu",
+        "linux",
+        "macos"
+      ],
+      "seed": {
+        "stars": 10986,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "PlayStation 5 translation layer for Windows, Linux and macOS",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "autoharness",
+      "name": "Autoharness",
+      "repo": "tigerless-labs/autoharness",
+      "homepage": "https://github.com/tigerless-labs/autoharness",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "claude-code",
+        "claude-code-plugin",
+        "llm-agents"
+      ],
+      "seed": {
+        "stars": 10968,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Building the self-learning layer next-gen agents will ship with, learning skills from real work.",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "figures4papers",
+      "name": "Figures4papers",
+      "repo": "ChenLiu-1996/figures4papers",
+      "homepage": "https://chenliu-1996.github.io/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "acl",
+        "cvpr",
+        "eccv",
+        "emnlp"
+      ],
+      "seed": {
+        "stars": 10962,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "My Python scripts to make high-quality figures for publications in top AI conferences and journals.",
+      "pushedAt": "2026-11-11"
+    },
+    {
+      "id": "visual-explainer",
+      "name": "Visual Explainer",
+      "repo": "nicobailon/visual-explainer",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10955,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "ui-skills",
+      "name": "Ui Skills",
+      "repo": "ibelick/ui-skills",
+      "homepage": "https://www.ui-skills.com/",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "skills",
+        "ui-skills"
+      ],
+      "seed": {
+        "stars": 10953,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Skills for Design Engineers",
+      "pushedAt": "2026-11-11"
     }
   ]
 }

@@ -9293,5 +9293,215 @@
     "source": "README.md",
     "rawLength": 11923,
     "fetchedAt": "2026-11-10T10:59:47.352Z"
+  },
+  "auto-ontology": {
+    "summary": "Auto Ontology uses NVIDIA NIM endpoints for inference — either the hosted NVIDIA API catalog (integrate.api.nvidia.com) or self-hosted NIMs. The defaults in .env.example are:",
+    "docker": "docker compose up -d --wait postgres\n   git clone https://github.com/NVIDIA/auto-ontology-eval.git ../auto-ontology-eval\n   (cd ../auto-ontology-eval && uv sync && cp .env.example .env && \\\n     POSTGRES_PASSWORD='<the same password>' \\\n     uv run python scripts/seed/seed_wwi.py --database-name wideworldimporters --drop)",
+    "source": "README.md",
+    "rawLength": 23955,
+    "fetchedAt": "2026-11-11T10:35:58.477Z"
+  },
+  "omnigent": {
+    "summary": "Omnigent is an open-source meta-harness that gives you a common orchestration layer over Claude Code, Codex, Cursor, OpenCode, Goose, Antigravity, GitHub Copilot, Devin, Kiro, Qwen Code, Kimi Code, Grok Build, Jcode, Hermes, Pi, OpenAI Agents / Open Responses, and the agents you write yourself: swap…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 33053,
+    "fetchedAt": "2026-11-11T10:35:58.477Z"
+  },
+  "openwhispr": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9993,
+    "fetchedAt": "2026-11-11T10:35:58.477Z"
+  },
+  "xiaozhi-esp32-server": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14587,
+    "fetchedAt": "2026-11-11T10:35:59.252Z"
+  },
+  "fff": {
+    "summary": "fff is MIT and open source forever. Development is supported by these companies:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 54580,
+    "fetchedAt": "2026-11-11T10:35:59.252Z"
+  },
+  "clash": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7939,
+    "fetchedAt": "2026-11-11T10:35:59.252Z"
+  },
+  "reclip": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2132,
+    "fetchedAt": "2026-11-11T10:35:59.252Z"
+  },
+  "aerial-tv": {
+    "summary": "还原：电视上 设置 → 应用 → Aerial Lite → 清除默认设置，再按主页键选原来的桌面；或者直接卸载：adb uninstall app.orchard.tv.lite（一行命令的 bash -s restore --uninstall 也会卸载它）。",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 23419,
+    "fetchedAt": "2026-11-11T10:35:59.252Z"
+  },
+  "hashsigs-rs": {
+    "summary": "hashsigsrs::Shrincs follows the profile the build binds to, so under --features profile-128s-q18 it is the q18 type, not the 256s one. Name a profile module's own alias, such as hashsigsrs::profiles::p256s::Shrincs, to pin one profile explicitly.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 43672,
+    "fetchedAt": "2026-11-11T10:35:59.252Z"
+  },
+  "hashsigs-solidity": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 65662,
+    "fetchedAt": "2026-11-11T10:35:59.997Z"
+  },
+  "open-swe": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6363,
+    "fetchedAt": "2026-11-11T10:35:59.997Z"
+  },
+  "trail-code": {
+    "summary": "Trail-code gives Claude Code, Cursor, Codex and other coding agents a map of your code, and what your team has learned about it.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 63522,
+    "fetchedAt": "2026-11-11T10:35:59.997Z"
+  },
+  "hashsigs-ts": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1817,
+    "fetchedAt": "2026-11-11T10:35:59.997Z"
+  },
+  "skills-8": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2309,
+    "fetchedAt": "2026-11-11T10:35:59.997Z"
+  },
+  "hive": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16597,
+    "fetchedAt": "2026-11-11T10:35:59.997Z"
+  },
+  "vidbee": {
+    "summary": "VidBee is a free, open-source desktop app that turns video and audio into an organized, searchable library. Download media from 1000+ supported sites or import local files. Create transcripts on your computer with speaker labels and timestamped playback, then summarize, translate, or ask questions w…",
+    "docker": "docker compose up -d --build",
+    "source": "README.md",
+    "rawLength": 11349,
+    "fetchedAt": "2026-11-11T10:36:05.520Z"
+  },
+  "inkos": {
+    "summary": "InkOS 直接使用标准 SKILL.md 作为专业能力扩展，不再维护一套 InkOS 私有 Skill 协议。Skill 只向 Chat Agent 提供专业说明和静态参考资料，不会增加执行权限；创建、写入、编辑和生成图片仍然由 InkOS 工具与确认闸门控制。",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 28027,
+    "fetchedAt": "2026-11-11T10:36:05.520Z"
+  },
+  "tg-ws-proxy": {
+    "summary": "",
+    "docker": "",
+    "source": "",
+    "fetchedAt": "2026-11-11T10:36:05.520Z",
+    "missing": true
+  },
+  "kimi-k2": {
+    "summary": "Kimi K2 is a state-of-the-art mixture-of-experts (MoE) language model with 32 billion activated parameters and 1 trillion total parameters. Trained with the Muon optimizer, Kimi K2 achieves exceptional performance across frontier knowledge, reasoning, and coding tasks while being meticulously optimi…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 27442,
+    "fetchedAt": "2026-11-11T10:36:05.520Z"
+  },
+  "llm-engineer-toolkit": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 41776,
+    "fetchedAt": "2026-11-11T10:36:05.520Z"
+  },
+  "valuecell": {
+    "summary": "ValueCell now provides A-share deep research, market analysis and requires no deployment—access directly at valuecell.ai.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14531,
+    "fetchedAt": "2026-11-11T10:36:05.520Z"
+  },
+  "rapidraw": {
+    "summary": "RapidRAW is a modern, high-performance alternative to Adobe Lightroom®. It delivers a simple, beautiful editing experience in a lightweight package for Windows, macOS, Linux, and Android.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 79487,
+    "fetchedAt": "2026-11-11T10:36:06.103Z"
+  },
+  "opencode-antigravity-auth": {
+    "summary": "OpenCode 1.18.29+ remains supported through the legacy entrypoint; its account menu opens from opencode auth login.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3268,
+    "fetchedAt": "2026-11-11T10:36:06.103Z"
+  },
+  "pakeplus-android": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9244,
+    "fetchedAt": "2026-11-11T10:36:06.103Z"
+  },
+  "spark-tts": {
+    "summary": "Spark-TTS is an advanced text-to-speech system that uses the power of large language models (LLM) for highly accurate and natural-sounding voice synthesis. It is designed to be efficient, flexible, and powerful for both research and production use.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11176,
+    "fetchedAt": "2026-11-11T10:36:06.103Z"
+  },
+  "kytyps5": {
+    "summary": "KytyPS5 is a free and open-source PlayStation 5 translation layer written in C++ for Windows and Linux, with experimental macOS support. It is based on a heavily modified version of Kyty. The project is in active development, and behavior can change significantly between builds.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 19921,
+    "fetchedAt": "2026-11-11T10:36:06.103Z"
+  },
+  "autoharness": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 25217,
+    "fetchedAt": "2026-11-11T10:36:06.103Z"
+  },
+  "figures4papers": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11287,
+    "fetchedAt": "2026-11-11T10:37:10.151Z"
+  },
+  "visual-explainer": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 30463,
+    "fetchedAt": "2026-11-11T10:37:10.151Z"
+  },
+  "ui-skills": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 691,
+    "fetchedAt": "2026-11-11T10:37:10.151Z"
   }
 }

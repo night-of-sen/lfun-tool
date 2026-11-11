@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T11:01:31.722Z",
+  "generatedAt": "2026-11-11T10:38:53.991Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -5312,6 +5312,126 @@
     "gpt-instruct": {
       "en": "For users testing Codex prompts on GPT models, this pack provides prompt and test materials.",
       "zh": "面向在 GPT 系列上测试 Codex 提示词的用户，提供提示词与测试包。"
+    },
+    "xiaozhi-esp32-server": {
+      "en": "Backend service for xiaozhi-esp32 users who need to quickly set up an ESP32 device control server.",
+      "zh": "为xiaozhi-esp32用户提供后端服务，帮助快速搭建ESP32设备控制服务器。"
+    },
+    "fff": {
+      "en": "A file search SDK for AI agents and developers working with Neovim, Rust, C, Python, Bun and NodeJS.",
+      "zh": "面向 AI 智能体和开发者的文件搜索 SDK，支持 Neovim、Rust、C、Python、Bun 和 NodeJS。"
+    },
+    "reclip": {
+      "en": "Reclip is a lightweight self-hosted media downloader with a clean web UI for users who need to download videos from almost any website.",
+      "zh": "Reclip 是一款轻量的自托管媒体下载工具，提供简洁的网页界面，适合需要从几乎任何网站下载视频的用户。"
+    },
+    "clash": {
+      "en": "Clash lists official download links for multiple versions, plus backup addresses for users who need the installer.",
+      "zh": "Clash 汇总官网各版本下载地址及备份下载地址，方便需要获取安装包的用户。"
+    },
+    "hashsigs-rs": {
+      "en": "A Rust library offering hash-based post-quantum signatures for developers who need quantum-resistant signing in their projects.",
+      "zh": "一个 Rust 库，提供基于哈希的后量子签名，面向需要在项目中实现抗量子签名的开发者。"
+    },
+    "aerial-tv": {
+      "en": "An open-source Android TV launcher for Xiaomi, TCL and other China-market TVs, offering a tvOS-style, ad-free home screen that takes over at boot.",
+      "zh": "面向小米、TCL 等国产电视用户的开源 Android TV 桌面，参照 tvOS 设计，无广告，开机自动接管。"
+    },
+    "open-swe": {
+      "en": "An open-source asynchronous coding agent for developers who want coding tasks handled without blocking their own workflow.",
+      "zh": "一个开源异步编程智能体，供开发者在不打断自身工作流的情况下处理编码任务。"
+    },
+    "hashsigs-solidity": {
+      "en": "For Solidity developers who need hash-based post-quantum signature contracts on EVM chains.",
+      "zh": "面向 Solidity 开发者，提供基于哈希的后量子签名合约实现，用于链上签名验证。"
+    },
+    "hashsigs-ts": {
+      "en": "A TypeScript library for developers who need hash-based signatures using the WOTS+ scheme.",
+      "zh": "一个 TypeScript 库，为需要使用 WOTS+ 方案实现基于哈希的签名的开发者而设计。"
+    },
+    "trail-code": {
+      "en": "Trail Code gives coding agents a shared memory of your codebase and past team decisions, so Claude Code, Cursor and Codex can resume where you left off.",
+      "zh": "Trail Code 为编码代理提供共享记忆，包含代码库与团队既往决策，让 Claude Code、Cursor 和 Codex 能接着上次的进度继续。"
+    },
+    "omnigent": {
+      "en": "For teams running several coding agents, Omnigent is an open-source framework that orchestrates Claude Code, Codex, Cursor and custom agents with shared policies.",
+      "zh": "面向同时使用多个编码智能体的团队，开源框架 Omnigent 可编排 Claude Code、Codex、Cursor 与自定义智能体，并统一策略。"
+    },
+    "auto-ontology": {
+      "en": "A Python framework for developers building semantic graph reasoning layers over data, enabling deterministic queries and clearer LLM context.",
+      "zh": "为开发者提供 Python 框架，在数据上构建语义图谱推理层，支持确定性查询与更可解释的 AI 工作流。"
+    },
+    "hive": {
+      "en": "A multi-agent harness for teams putting AI agents into production.",
+      "zh": "面向将 AI 智能体投入生产环境的团队的多智能体 harness。"
+    },
+    "skills-8": {
+      "en": "Skills is a dev tool based on Sahil Lavingia's book The Minimalist Entrepreneur.",
+      "zh": "Skills 是一款基于 Sahil Lavingia《极简企业家》一书的开发工具。"
+    },
+    "inkos": {
+      "en": "An AI agent for writers and creators that supports novel, script, translation, interactive game, and IP content creation.",
+      "zh": "一款面向创作者与写作者的 AI 代理，支持小说、剧本、翻译、互动游戏与 IP 内容创作。"
+    },
+    "vidbee": {
+      "en": "VidBee lets users download video and audio from 1000+ sites, transcribe locally with speaker labels, and summarize, translate, or chat with their media using a preferred AI provider.",
+      "zh": "VidBee 让用户从 1000 多个网站下载视频和音频，在本地转写并标注说话人，并用自选的 AI 服务商对媒体内容做摘要、翻译或对话。"
+    },
+    "kimi-k2": {
+      "en": "Kimi K2 is the large language model series developed by the Moonshot AI team, aimed at developers working with large language models.",
+      "zh": "Kimi K2 是 Moonshot AI 团队开发的大语言模型系列，面向使用大语言模型的开发者。"
+    },
+    "openwhispr": {
+      "en": "A cross-platform dictation app for users who want voice-to-text with local Nvidia Parakeet or Whisper models, plus cloud models via bring-your-own-key, with privacy as a priority.",
+      "zh": "一款跨平台听写应用，面向需要语音转文字的用户，支持本地 Nvidia Parakeet 或 Whisper 模型，也可通过自带密钥使用云端模型，并以隐私优先。"
+    },
+    "llm-engineer-toolkit": {
+      "en": "A curated, category-wise list of 120+ LLM libraries for developers choosing tools for LLM projects.",
+      "zh": "面向需要挑选 LLM 相关库的开发者，按类别整理 120+ 个 LLM 库的清单。"
+    },
+    "valuecell": {
+      "en": "ValueCell is a community-driven multi-agent platform for people building financial applications.",
+      "zh": "ValueCell 是社区驱动的多智能体平台，面向构建金融应用的用户。"
+    },
+    "tg-ws-proxy": {
+      "en": "A local MTProto proxy server for users who need partial bypassing of Telegram loading issues.",
+      "zh": "为需要部分绕过 Telegram 加载问题的用户提供本地 MTProto 代理服务器。"
+    },
+    "rapidraw": {
+      "en": "A RAW image editor for photographers who need non-destructive, GPU-accelerated editing.",
+      "zh": "面向需要非破坏性、GPU 加速编辑的摄影师的 RAW 图像编辑器。"
+    },
+    "opencode-antigravity-auth": {
+      "en": "Lets Opencode users sign in to Antigravity via OAuth and use Antigravity rate limits with Google credentials.",
+      "zh": "让 Opencode 用户通过 OAuth 登录 Antigravity，并用 Google 凭据使用其速率限制。"
+    },
+    "autoharness": {
+      "en": "It offers a self-learning layer for next-gen agents, learning skills from real work.",
+      "zh": "它为下一代智能体提供自学习层，从真实工作中学习技能。"
+    },
+    "spark-tts": {
+      "en": "Inference code for Spark-TTS, aimed at developers who need to run text-to-speech inference.",
+      "zh": "面向需要运行 Spark-TTS 推理的开发者，提供文本转语音推理代码。"
+    },
+    "figures4papers": {
+      "en": "Python scripts that help researchers create high-quality figures for AI conference and journal publications.",
+      "zh": "面向研究者的 Python 脚本，用于为 AI 会议和期刊论文制作高质量图表。"
+    },
+    "kytyps5": {
+      "en": "KytyPS5 is a PlayStation 5 translation layer for Windows, Linux and macOS.",
+      "zh": "KytyPS5 是用于 Windows、Linux 和 macOS 的 PS5 转换层。"
+    },
+    "pakeplus-android": {
+      "en": "For developers who want to package a webpage, HTML, Vue or React project into a lightweight desktop or mobile app in minutes.",
+      "zh": "面向需把网页、HTML、Vue 或 React 项目在几分钟内打包成轻量级桌面或手机应用的开发者。"
+    },
+    "ui-skills": {
+      "en": "Ui Skills provides skills aimed at design engineers, as described in its listing.",
+      "zh": "Ui Skills 提供面向设计工程师的技能，如其描述所述。"
+    },
+    "visual-explainer": {
+      "en": "For developers, this agent skill turns diagrams, diff reviews, plan audits, data tables, and project recaps into rich HTML pages or slide decks.",
+      "zh": "为开发者把图表、diff 审查和项目复盘生成为 HTML 页面或幻灯片。"
     }
   }
 }

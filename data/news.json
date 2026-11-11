@@ -1,6 +1,386 @@
 {
   "days": [
     {
+      "date": "2026-11-11",
+      "items": [
+        {
+          "title": "Gilbert + Tobin rethinks the business of law with AI",
+          "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
+          "source": "OpenAI",
+          "date": "2026-11-12",
+          "zhTitle": "Gilbert + Tobin 借助 AI 重新思考法律业务",
+          "zh": "律所 Gilbert + Tobin 用 AI 重塑法律业务模式",
+          "en": "Law firm Gilbert + Tobin rethinks the business of law with AI."
+        },
+        {
+          "title": "ChatGPT Plus for veterans and servicemembers",
+          "link": "https://openai.com/index/chatgpt-plus-for-veterans",
+          "source": "OpenAI",
+          "date": "2026-11-11",
+          "zhTitle": "面向退伍军人和现役军人的 ChatGPT Plus",
+          "zh": "OpenAI 为退伍军人和现役军人提供 ChatGPT Plus",
+          "en": "ChatGPT Plus offered to veterans and servicemembers."
+        },
+        {
+          "title": "Tracking Anthropic-discovered vulnerabilities",
+          "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+          "source": "Hacker News",
+          "date": "2026-11-10",
+          "zhTitle": "追踪 Anthropic 发现的漏洞",
+          "zh": "VulnCheck 发布 Anthropic 所发现漏洞的追踪更新",
+          "en": "VulnCheck tracks the vulnerabilities discovered by Anthropic."
+        },
+        {
+          "title": "Apple has new Mac app coming to make running local AI models easy",
+          "link": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+          "source": "Hacker News",
+          "date": "2026-11-10",
+          "zhTitle": "苹果将推新 Mac 应用，让本地 AI 模型更易运行",
+          "zh": "苹果将推出新 Mac 应用，简化本地 AI 模型运行",
+          "en": "Apple is readying a new Mac app to make local AI models easy to run."
+        },
+        {
+          "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+          "link": "https://github.com/GoogleChrome/modern-web-guidance",
+          "source": "Hacker News",
+          "date": "2026-11-10",
+          "zhTitle": "Show HN：让编程智能体告别 2019 年的 JavaScript，转向现代 Web 原语",
+          "zh": "Show HN 项目推动编程智能体改用现代 Web 原语",
+          "en": "Show HN project moves coding agents from 2019-era JavaScript to modern web primitives."
+        },
+        {
+          "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+          "link": "https://claude.com/resources/articles/sheets-whiteboards-data",
+          "source": "Hacker News",
+          "date": "2026-11-10",
+          "zhTitle": "Claude 白板、Claude 表格与 Claude 数据",
+          "zh": "Claude 推出白板、表格与数据三项新功能",
+          "en": "Claude introduces Whiteboards, Sheets, and Data."
+        },
+        {
+          "title": "The Download: Pelosi’s successor targets AI and data centers face power woes",
+          "link": "https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-10",
+          "zhTitle": "The Download：佩洛西继任者瞄准 AI，数据中心面临电力困境",
+          "zh": "佩洛西继任者聚焦 AI 监管，数据中心遭遇电力难题",
+          "en": "Pelosi's successor targets AI; data centers face power woes."
+        },
+        {
+          "title": "Helping caregivers use AI in everyday life",
+          "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+          "source": "OpenAI",
+          "date": "2026-11-10",
+          "zhTitle": "帮助照护者在日常生活中使用 AI",
+          "zh": "OpenAI 发文介绍如何帮助照护者日常使用 AI",
+          "en": "OpenAI shares how to help caregivers use AI in everyday life."
+        },
+        {
+          "title": "AI usage generates a fragile codebase",
+          "link": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+          "source": "Hacker News",
+          "date": "2026-11-10",
+          "zhTitle": "使用 AI 会生成脆弱的代码库",
+          "zh": "有观点认为依赖 AI 编程会让代码库变脆弱",
+          "en": "Argument: AI usage generates a fragile codebase."
+        },
+        {
+          "title": "Introducing Businesses in ChatGPT",
+          "link": "https://openai.com/index/introducing-businesses-chatgpt",
+          "source": "OpenAI",
+          "date": "2026-11-10",
+          "zhTitle": "在 ChatGPT 中推出 Businesses 功能",
+          "zh": "OpenAI 在 ChatGPT 中推出 Businesses 功能",
+          "en": "OpenAI introduces Businesses in ChatGPT."
+        },
+        {
+          "title": "Closing the AI guidance gap in education",
+          "link": "https://openai.com/index/closing-ai-guidance-gap-education",
+          "source": "OpenAI",
+          "date": "2026-11-10",
+          "zhTitle": "弥合教育领域的 AI 指导缺口",
+          "zh": "OpenAI 谈如何弥合教育中的 AI 指导缺口",
+          "en": "OpenAI on closing the AI guidance gap in education."
+        },
+        {
+          "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+          "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-09",
+          "zhTitle": "佩洛西的继任者准备监管 AI",
+          "zh": "报道称佩洛西继任者已准备推动 AI 监管",
+          "en": "Pelosi's replacement is ready to regulate AI, per report."
+        },
+        {
+          "title": "The Download: empty AI climate claims, and an Nvidia investigation",
+          "link": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-09",
+          "zhTitle": "The Download：空洞的 AI 气候主张，以及一项英伟达调查",
+          "zh": "AI 气候宣称被指空洞，另有英伟达相关调查",
+          "en": "Empty AI climate claims, plus an Nvidia investigation."
+        },
+        {
+          "title": "Innovating with AI in the special chemicals industry",
+          "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-09",
+          "zhTitle": "在特种化学品行业用 AI 创新",
+          "zh": "特种化学品行业借助 AI 推动创新",
+          "en": "Innovating with AI in the special chemicals industry."
+        },
+        {
+          "title": "The climate case for AI has not been made",
+          "link": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-09",
+          "zhTitle": "AI 的气候理由尚未成立",
+          "zh": "评论认为支持 AI 的气候论证尚未建立",
+          "en": "The climate case for AI has not been made."
+        },
+        {
+          "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+          "link": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+          "source": "GitHub Blog",
+          "date": "2026-10-28",
+          "zhTitle": "Octoverse：2026 年开发者用智能体开发，提交与推送创新高",
+          "zh": "GitHub 报告：智能体编程推动提交与推送量创新高",
+          "en": "Octoverse: commits and pushes hit new highs in 2026 as developers build with agents."
+        },
+        {
+          "title": "The bridge to agent-scale Git infrastructure",
+          "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+          "source": "GitHub Blog",
+          "date": "2026-10-21",
+          "zhTitle": "通往智能体规模 Git 基础设施的桥梁",
+          "zh": "GitHub 工程博客谈支撑智能体规模的 Git 基础设施",
+          "en": "GitHub engineering on the bridge to agent-scale Git infrastructure."
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "auto-ontology",
+          "name": "Auto Ontology",
+          "repo": "NVIDIA/auto-ontology",
+          "stars": 11645
+        },
+        {
+          "id": "omnigent",
+          "name": "Omnigent",
+          "repo": "omnigent-ai/omnigent",
+          "stars": 11332
+        },
+        {
+          "id": "openwhispr",
+          "name": "Openwhispr",
+          "repo": "OpenWhispr/openwhispr",
+          "stars": 11258
+        },
+        {
+          "id": "xiaozhi-esp32-server",
+          "name": "Xiaozhi Esp32 Server",
+          "repo": "xinnan-tech/xiaozhi-esp32-server",
+          "stars": 11250
+        },
+        {
+          "id": "fff",
+          "name": "Fff",
+          "repo": "dmtrKovalenko/fff",
+          "stars": 11231
+        },
+        {
+          "id": "clash",
+          "name": "Clash",
+          "repo": "clashbk/clash",
+          "stars": 11223
+        },
+        {
+          "id": "reclip",
+          "name": "Reclip",
+          "repo": "averygan/reclip",
+          "stars": 11217
+        },
+        {
+          "id": "aerial-tv",
+          "name": "Aerial Tv",
+          "repo": "pengchujin/aerial-tv",
+          "stars": 11217
+        },
+        {
+          "id": "hashsigs-rs",
+          "name": "Hashsigs Rs",
+          "repo": "QuipNetwork/hashsigs-rs",
+          "stars": 11206
+        },
+        {
+          "id": "hashsigs-solidity",
+          "name": "Hashsigs Solidity",
+          "repo": "QuipNetwork/hashsigs-solidity",
+          "stars": 11204
+        },
+        {
+          "id": "open-swe",
+          "name": "Open Swe",
+          "repo": "langchain-ai/open-swe",
+          "stars": 11199
+        },
+        {
+          "id": "trail-code",
+          "name": "Trail Code",
+          "repo": "trailhq/Trail-Code",
+          "stars": 11198
+        },
+        {
+          "id": "hashsigs-ts",
+          "name": "Hashsigs Ts",
+          "repo": "QuipNetwork/hashsigs-ts",
+          "stars": 11182
+        },
+        {
+          "id": "skills-8",
+          "name": "Skills",
+          "repo": "slavingia/skills",
+          "stars": 11162
+        },
+        {
+          "id": "hive",
+          "name": "Hive",
+          "repo": "aden-hive/hive",
+          "stars": 11152
+        },
+        {
+          "id": "vidbee",
+          "name": "VidBee",
+          "repo": "nexmoe/VidBee",
+          "stars": 11119
+        },
+        {
+          "id": "inkos",
+          "name": "Inkos",
+          "repo": "Narcooo/inkos",
+          "stars": 11115
+        },
+        {
+          "id": "tg-ws-proxy",
+          "name": "Tg Ws Proxy",
+          "repo": "Flowseal/tg-ws-proxy",
+          "stars": 11110
+        },
+        {
+          "id": "kimi-k2",
+          "name": "Kimi K2",
+          "repo": "MoonshotAI/Kimi-K2",
+          "stars": 11109
+        },
+        {
+          "id": "llm-engineer-toolkit",
+          "name": "Llm Engineer Toolkit",
+          "repo": "KalyanKS-NLP/llm-engineer-toolkit",
+          "stars": 11068
+        },
+        {
+          "id": "valuecell",
+          "name": "Valuecell",
+          "repo": "ValueCell-ai/valuecell",
+          "stars": 11054
+        },
+        {
+          "id": "rapidraw",
+          "name": "RapidRAW",
+          "repo": "CyberTimon/RapidRAW",
+          "stars": 11054
+        },
+        {
+          "id": "opencode-antigravity-auth",
+          "name": "Opencode Antigravity Auth",
+          "repo": "NoeFabris/opencode-antigravity-auth",
+          "stars": 11029
+        },
+        {
+          "id": "pakeplus-android",
+          "name": "PakePlus Android",
+          "repo": "Sjj1024/PakePlus-Android",
+          "stars": 11003
+        },
+        {
+          "id": "spark-tts",
+          "name": "Spark TTS",
+          "repo": "SparkAudio/Spark-TTS",
+          "stars": 10988
+        },
+        {
+          "id": "kytyps5",
+          "name": "KytyPS5",
+          "repo": "KytyPS5/KytyPS5",
+          "stars": 10986
+        },
+        {
+          "id": "autoharness",
+          "name": "Autoharness",
+          "repo": "tigerless-labs/autoharness",
+          "stars": 10969
+        },
+        {
+          "id": "figures4papers",
+          "name": "Figures4papers",
+          "repo": "ChenLiu-1996/figures4papers",
+          "stars": 10963
+        },
+        {
+          "id": "visual-explainer",
+          "name": "Visual Explainer",
+          "repo": "nicobailon/visual-explainer",
+          "stars": 10955
+        },
+        {
+          "id": "ui-skills",
+          "name": "Ui Skills",
+          "repo": "ibelick/ui-skills",
+          "stars": 10953
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "auto-ontology",
+          "name": "Auto Ontology",
+          "repo": "NVIDIA/auto-ontology",
+          "stars": 11645,
+          "gain": 11645
+        },
+        {
+          "id": "omnigent",
+          "name": "Omnigent",
+          "repo": "omnigent-ai/omnigent",
+          "stars": 11332,
+          "gain": 11332
+        },
+        {
+          "id": "openwhispr",
+          "name": "Openwhispr",
+          "repo": "OpenWhispr/openwhispr",
+          "stars": 11258,
+          "gain": 11258
+        },
+        {
+          "id": "xiaozhi-esp32-server",
+          "name": "Xiaozhi Esp32 Server",
+          "repo": "xinnan-tech/xiaozhi-esp32-server",
+          "stars": 11250,
+          "gain": 11250
+        },
+        {
+          "id": "fff",
+          "name": "Fff",
+          "repo": "dmtrKovalenko/fff",
+          "stars": 11231,
+          "gain": 11231
+        }
+      ],
+      "rollupZh": "OpenAI 今日多线发文，覆盖律所、教育、照护者等场景落地，并在 ChatGPT 中推出 Businesses 功能。MIT 科技评论则聚焦佩洛西继任者的 AI 监管立场与尚未成立的 AI 气候论证。GitHub 数据显示，开发者用智能体编程推动提交与推送量在 2026 年创新高。",
+      "rollupEn": "OpenAI published a wave of updates spanning law firms, education and caregivers, and introduced Businesses in ChatGPT. MIT Technology Review focused on Pelosi's successor and AI regulation, plus the still-unmade climate case for AI. GitHub's Octoverse reports that developers building with agents pushed commits and pushes to new highs in 2026.",
+      "failures": []
+    },
+    {
       "date": "2026-11-10",
       "items": [
         {
