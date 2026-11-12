@@ -9503,5 +9503,215 @@
     "source": "README.md",
     "rawLength": 691,
     "fetchedAt": "2026-11-11T10:37:10.151Z"
+  },
+  "improve": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6875,
+    "fetchedAt": "2026-11-12T10:52:45.403Z"
+  },
+  "openbot": {
+    "summary": "OpenBot for Business brings your agents into one workspace with company sign-in, tool permissions, approvals, and audit. Deploy on your infrastructure or work with our engineers on hosting and customization.",
+    "docker": "# The published image. Nothing to clone and nothing to build.\ndocker run -p 3001:3001 --env-file .env \\\n  -e EMBEDDED_POSTGRES=on -v openbot-data:/var/lib/postgresql \\\n  ghcr.io/copilotkit/openbot:latest\n\n# Or the tree you have in front of you.\ndocker build -t openbot .\ndocker run -p 3001:3001 --env-file .env \\\n  -e EMBEDDED_POSTGRES=on -v openbot-data:/var/lib/postgresql openbot",
+    "source": "README.md",
+    "rawLength": 46440,
+    "fetchedAt": "2026-11-12T10:52:45.403Z"
+  },
+  "claude-ads": {
+    "summary": "Claude Ads is a free, open source skill for Claude Code. Give it your ad account data and it tells you what is working, what is broken, and what to fix first, across twelve ad platforms.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18250,
+    "fetchedAt": "2026-11-12T10:52:46.260Z"
+  },
+  "awesome-opencode": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 122057,
+    "fetchedAt": "2026-11-12T10:52:46.260Z"
+  },
+  "voltagent": {
+    "summary": "VoltAgent is a community effort, and it keeps getting better because of people like you.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18717,
+    "fetchedAt": "2026-11-12T10:52:46.260Z"
+  },
+  "scroll-world": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6857,
+    "fetchedAt": "2026-11-12T10:52:46.260Z"
+  },
+  "lunatv": {
+    "summary": "",
+    "docker": "services:\n  moontv-core:\n    image: ghcr.io/moontechlab/lunatv:latest\n    container_name: moontv-core\n    restart: on-failure\n    ports:\n      - '3000:3000'\n    environment:\n      - USERNAME=admin\n      - PASSWORD=admin_password\n      - NEXT_PUBLIC_STORAGE_TYPE=kvrocks\n      - KVROCKS_URL=redis://moontv-kvrocks:6666\n    networks:\n      - moontv-network\n    depends_on:\n      - moontv-kvrocks\n  moontv-kvrocks:\n    image: apache/kvrocks\n    container_name: moontv-kvrocks\n    restart: unless-stopped\n    volumes:\n      - kvrocks-data:/var/lib/kvrocks\n    networks:\n      - moontv-network\nnetworks:\n  moontv-network:\n    driver: bridge\nvolumes:\n  kvrocks-data:",
+    "source": "README.md",
+    "rawLength": 14405,
+    "fetchedAt": "2026-11-12T10:52:46.260Z"
+  },
+  "pixelrag": {
+    "summary": "PixelRAG renders documents — web pages, PDFs, images — as screenshots and retrieves over the images directly. Visual structure that HTML parsing throws away — tables, charts, layout, infographics — stays intact, so the reader model can actually answer questions about it. Wikipedia's 8.28M articles s…",
+    "docker": "mkdir -p data/index data/tiles\npixelrag index build   # writes index.faiss, metadata.npz and articles.json to ./data/index\n\ndocker compose up --build\n# then query it\ncurl -X POST http://localhost:8000/search \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"queries\": [{\"text\": \"What is the capital of France?\"}], \"n_docs\": 5}'",
+    "source": "README.md",
+    "rawLength": 17307,
+    "fetchedAt": "2026-11-12T10:52:46.260Z"
+  },
+  "arc-task-gen": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3262,
+    "fetchedAt": "2026-11-12T10:52:47.038Z"
+  },
+  "zero": {
+    "summary": "Zero is an open-source AI email solution that gives users the power to self-host their own email app while also integrating external services like Gmail and other email providers. Our goal is to modernize and improve emails through AI agents to truly modernize emails.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10046,
+    "fetchedAt": "2026-11-12T10:52:47.038Z"
+  },
+  "mcp-use": {
+    "summary": "mcp-use builds on the official TypeScript SDK v2 and adds first-class Views, typed tool-to-UI contracts, an optimized stateless runtime, the Inspector, screenshot verification, agent-first CLI workflows, and deployment.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18114,
+    "fetchedAt": "2026-11-12T10:52:47.038Z"
+  },
+  "art": {
+    "summary": "ART is an open-source RL framework that improves agent reliability by allowing LLMs to learn from experience. ART provides an ergonomic harness for integrating GRPO into any python application. For a quick hands-on introduction, run one of the notebooks below. When you're ready to learn more, check…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14294,
+    "fetchedAt": "2026-11-12T10:52:47.038Z"
+  },
+  "fluxer": {
+    "summary": "Fluxer is a free and open source instant messaging and VoIP chat app built for friends, groups, and communities.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8893,
+    "fetchedAt": "2026-11-12T10:52:47.038Z"
+  },
+  "openskills": {
+    "summary": "OpenSkills brings Anthropic's skills system to every AI coding agent — Claude Code, Cursor, Windsurf, Aider, Codex, and anything that can read AGENTS.md.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7807,
+    "fetchedAt": "2026-11-12T10:52:47.038Z"
+  },
+  "wloc": {
+    "summary": "模块包含两条规则： - wloc.js — 拦截 /clls/wloc 响应，解析 protobuf 并替换坐标 - wloc-settings.js — 拦截 /wloc-settings/save 请求，写入持久化存储",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9438,
+    "fetchedAt": "2026-11-12T10:52:47.759Z"
+  },
+  "zhangxuefeng-skill": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9412,
+    "fetchedAt": "2026-11-12T10:52:47.759Z"
+  },
+  "drawio-skill": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 24227,
+    "fetchedAt": "2026-11-12T10:52:47.759Z"
+  },
+  "copilot-sdk": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15472,
+    "fetchedAt": "2026-11-12T10:52:47.759Z"
+  },
+  "claude-red": {
+    "summary": "claude-red is a curated library of offensive security skills for the Claude Skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQL injection to shellcode, EDR evasion to ADCS abuse.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20782,
+    "fetchedAt": "2026-11-12T10:52:47.759Z"
+  },
+  "dashi-ppt-skill": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9547,
+    "fetchedAt": "2026-11-12T10:52:47.759Z"
+  },
+  "adk-recipes": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2964,
+    "fetchedAt": "2026-11-12T10:52:48.573Z"
+  },
+  "vicinae": {
+    "summary": "Vicinae (pronounced \"vee-CHEE-nay\") is a high-performance, native command palette for your desktop.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3729,
+    "fetchedAt": "2026-11-12T10:52:48.573Z"
+  },
+  "pinchtab": {
+    "summary": "PinchTab is a standalone HTTP server that gives AI agents direct control over Chrome.",
+    "docker": "docker run -d \\\n  --name pinchtab \\\n  -p 127.0.0.1:9867:9867 \\\n  -v pinchtab-data:/data \\\n  --shm-size=2g \\\n  pinchtab/pinchtab",
+    "source": "README.md",
+    "rawLength": 18719,
+    "fetchedAt": "2026-11-12T10:52:48.573Z"
+  },
+  "tweakcn": {
+    "summary": "tweakcn is a powerful Visual Theme Editor for tailwind CSS & shadcn/ui components. It comes with Beautiful theme presets to get started, while aiming to offer advanced customisation for each aspect of your UI",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2727,
+    "fetchedAt": "2026-11-12T10:52:48.573Z"
+  },
+  "mobile-mcp": {
+    "summary": "Mobile MCP collects anonymous usage telemetry via PostHog and Scarf. To disable it, set the MOBILEMCPDISABLETELEMETRY environment variable:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 24990,
+    "fetchedAt": "2026-11-12T10:52:48.573Z"
+  },
+  "pandawiki": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3696,
+    "fetchedAt": "2026-11-12T10:52:48.573Z"
+  },
+  "soup": {
+    "summary": "Soup turns the pain of LLM fine-tuning into a simple workflow. One config, one command, done.",
+    "docker": "docker pull ghcr.io/makazhanalpamys/soup:latest\ndocker run --gpus all -v $(pwd):/workspace ghcr.io/makazhanalpamys/soup train --config soup.yaml --yes\ndocker compose up   # or build locally",
+    "source": "README.md",
+    "rawLength": 26656,
+    "fetchedAt": "2026-11-12T10:53:52.642Z"
+  },
+  "3fs": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7659,
+    "fetchedAt": "2026-11-12T10:53:52.642Z"
+  },
+  "aihot": {
+    "summary": "",
+    "docker": "git clone https://github.com/KKKKhazix/AIHOT.git myhot\ncd myhot\nnode scripts/init-env.ts --llm-key <你的模型 API Key>\ndocker compose up -d --build",
+    "source": "README.md",
+    "rawLength": 7734,
+    "fetchedAt": "2026-11-12T10:53:52.642Z"
+  },
+  "clashmi": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2551,
+    "fetchedAt": "2026-11-12T10:53:52.642Z"
   }
 }

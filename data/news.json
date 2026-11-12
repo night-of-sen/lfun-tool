@@ -1,6 +1,365 @@
 {
   "days": [
     {
+      "date": "2026-11-12",
+      "items": [
+        {
+          "title": "Holiday Extras is rethinking what it can build with Codex",
+          "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
+          "source": "OpenAI",
+          "date": "2026-11-12",
+          "zhTitle": "Holiday Extras 用 Codex 重新思考能构建什么",
+          "zh": "OpenAI 客户故事：Holiday Extras 借 Codex 探索新开发可能。",
+          "en": "OpenAI customer story: Holiday Extras rethinks what it can build with Codex."
+        },
+        {
+          "title": "Supporting research on AI and children’s safety",
+          "link": "https://openai.com/index/children-first-declaration",
+          "source": "OpenAI",
+          "date": "2026-11-12",
+          "zhTitle": "支持 AI 与儿童安全研究",
+          "zh": "OpenAI 发文支持关于 AI 与儿童安全的研究。",
+          "en": "OpenAI posts on supporting research on AI and children's safety."
+        },
+        {
+          "title": "Gilbert + Tobin rethinks the business of law with AI",
+          "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
+          "source": "OpenAI",
+          "date": "2026-11-12",
+          "zhTitle": "Gilbert + Tobin 用 AI 重塑法律业务",
+          "zh": "澳洲律所 Gilbert + Tobin 借 AI 重新思考法律业务。",
+          "en": "Gilbert + Tobin rethinks the business of law with AI, per OpenAI."
+        },
+        {
+          "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+          "link": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+          "source": "Hacker News",
+          "date": "2026-11-11",
+          "zhTitle": "美联航禁止 AI 代理代客订票",
+          "zh": "美联航禁止 AI 代理代表旅客预订机票。",
+          "en": "United Airlines bans AI agents from booking flights on travelers' behalf."
+        },
+        {
+          "title": "Gemini Decisions API",
+          "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "source": "Hacker News",
+          "date": "2026-11-11",
+          "zhTitle": "Gemini Decisions API",
+          "zh": "谷歌发布面向开发者的 Gemini Decisions API。",
+          "en": "Google introduces the Gemini Decisions API for developers."
+        },
+        {
+          "title": "The Download: preserving minds and weighing open AI risks",
+          "link": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-11",
+          "zhTitle": "The Download：保存心智与权衡开放 AI 风险",
+          "zh": "今日简讯：保存心智的技术，以及开放 AI 风险的权衡。",
+          "en": "The Download covers preserving minds and weighing open AI risks."
+        },
+        {
+          "title": "My AI agents found an unmapped Maya site?",
+          "link": "https://pietromiotti.com/latest/maya-site",
+          "source": "Hacker News",
+          "date": "2026-11-11",
+          "zhTitle": "我的 AI 代理发现了一处未记录的玛雅遗址？",
+          "zh": "作者讲述其 AI 代理疑似发现未记录的玛雅遗址。",
+          "en": "A blogger asks whether his AI agents found an unmapped Maya site."
+        },
+        {
+          "title": "ChatGPT Plus for veterans and servicemembers",
+          "link": "https://openai.com/index/chatgpt-plus-for-veterans",
+          "source": "OpenAI",
+          "date": "2026-11-11",
+          "zhTitle": "面向退伍军人和现役军人的 ChatGPT Plus",
+          "zh": "OpenAI 宣布为退伍军人和现役军人提供 ChatGPT Plus。",
+          "en": "OpenAI offers ChatGPT Plus for veterans and servicemembers."
+        },
+        {
+          "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+          "link": "https://openai.com/index/jiostar-vijay-seshadri",
+          "source": "OpenAI",
+          "date": "2026-11-11",
+          "zhTitle": "JioStar 首席架构师谈 5 亿用户规模的 AI 探索",
+          "zh": "JioStar 首席架构师分享 5 亿用户规模下的 AI 探索。",
+          "en": "JioStar's chief architect discusses AI discovery at 500M-user scale."
+        },
+        {
+          "title": "The Download: Pelosi’s successor targets AI and data centers face power woes",
+          "link": "https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-10",
+          "zhTitle": "The Download：佩洛西继任者瞄准 AI，数据中心遇电力困境",
+          "zh": "今日简讯：佩洛西继任者聚焦 AI 监管，数据中心面临电力难题。",
+          "en": "The Download: Pelosi's successor targets AI; data centers face power woes."
+        },
+        {
+          "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+          "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-09",
+          "zhTitle": "佩洛西的继任者准备监管 AI",
+          "zh": "报道称佩洛西的继任者已准备推动 AI 监管。",
+          "en": "Nancy Pelosi's replacement is ready to regulate AI, MIT Tech Review reports."
+        },
+        {
+          "title": "The Download: empty AI climate claims, and an Nvidia investigation",
+          "link": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-09",
+          "zhTitle": "The Download：空洞的 AI 气候主张与一项英伟达调查",
+          "zh": "今日简讯：AI 气候主张缺乏实质，以及针对英伟达的调查。",
+          "en": "The Download: empty AI climate claims and an Nvidia investigation."
+        },
+        {
+          "title": "Innovating with AI in the special chemicals industry",
+          "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-09",
+          "zhTitle": "特种化工行业以 AI 推动创新",
+          "zh": "探讨特种化工行业如何借助 AI 进行创新。",
+          "en": "Exploring how the special chemicals industry innovates with AI."
+        },
+        {
+          "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+          "link": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+          "source": "GitHub Blog",
+          "date": "2026-10-28",
+          "zhTitle": "Octoverse：2026 年提交与推送创新高，开发者用代理构建",
+          "zh": "GitHub 报告称开发者使用代理推动提交与推送创新高。",
+          "en": "Octoverse: commits and pushes hit new highs in 2026 as developers build with agents."
+        },
+        {
+          "title": "The bridge to agent-scale Git infrastructure",
+          "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+          "source": "GitHub Blog",
+          "date": "2026-10-21"
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "improve",
+          "name": "Improve",
+          "repo": "shadcn/improve",
+          "stars": 11313
+        },
+        {
+          "id": "openbot",
+          "name": "OpenBot",
+          "repo": "CopilotKit/OpenBot",
+          "stars": 11180
+        },
+        {
+          "id": "claude-ads",
+          "name": "Claude Ads",
+          "repo": "AgriciDaniel/claude-ads",
+          "stars": 10974
+        },
+        {
+          "id": "awesome-opencode",
+          "name": "Awesome Opencode",
+          "repo": "awesome-opencode/awesome-opencode",
+          "stars": 10967
+        },
+        {
+          "id": "voltagent",
+          "name": "Voltagent",
+          "repo": "VoltAgent/voltagent",
+          "stars": 10963
+        },
+        {
+          "id": "scroll-world",
+          "name": "Scroll World",
+          "repo": "oso95/scroll-world",
+          "stars": 10955
+        },
+        {
+          "id": "lunatv",
+          "name": "LunaTV",
+          "repo": "MoonTechLab/LunaTV",
+          "stars": 10943
+        },
+        {
+          "id": "pixelrag",
+          "name": "PixelRAG",
+          "repo": "StarTrail-org/PixelRAG",
+          "stars": 10911
+        },
+        {
+          "id": "arc-task-gen",
+          "name": "Arc Task Gen",
+          "repo": "pathwaycom/arc-task-gen",
+          "stars": 10890
+        },
+        {
+          "id": "zero",
+          "name": "Zero",
+          "repo": "Mail-0/Zero",
+          "stars": 10885
+        },
+        {
+          "id": "mcp-use",
+          "name": "Mcp Use",
+          "repo": "mcp-use/mcp-use",
+          "stars": 10874
+        },
+        {
+          "id": "art",
+          "name": "ART",
+          "repo": "OpenPipe/ART",
+          "stars": 10854
+        },
+        {
+          "id": "fluxer",
+          "name": "Fluxer",
+          "repo": "fluxerapp/fluxer",
+          "stars": 10850
+        },
+        {
+          "id": "openskills",
+          "name": "Openskills",
+          "repo": "numman-ali/openskills",
+          "stars": 10831
+        },
+        {
+          "id": "wloc",
+          "name": "Wloc",
+          "repo": "Yu9191/wloc",
+          "stars": 10785
+        },
+        {
+          "id": "zhangxuefeng-skill",
+          "name": "Zhangxuefeng Skill",
+          "repo": "alchaincyf/zhangxuefeng-skill",
+          "stars": 10754
+        },
+        {
+          "id": "drawio-skill",
+          "name": "Drawio Skill",
+          "repo": "Agents365-ai/drawio-skill",
+          "stars": 10724
+        },
+        {
+          "id": "copilot-sdk",
+          "name": "Copilot Sdk",
+          "repo": "github/copilot-sdk",
+          "stars": 10679
+        },
+        {
+          "id": "claude-red",
+          "name": "Claude Red",
+          "repo": "SnailSploit/Claude-Red",
+          "stars": 10646
+        },
+        {
+          "id": "dashi-ppt-skill",
+          "name": "Dashi Ppt Skill",
+          "repo": "chuspeeism/dashi-ppt-skill",
+          "stars": 10638
+        },
+        {
+          "id": "adk-recipes",
+          "name": "Adk Recipes",
+          "repo": "google/adk-recipes",
+          "stars": 10612
+        },
+        {
+          "id": "vicinae",
+          "name": "Vicinae",
+          "repo": "vicinaehq/vicinae",
+          "stars": 10584
+        },
+        {
+          "id": "pinchtab",
+          "name": "Pinchtab",
+          "repo": "pinchtab/pinchtab",
+          "stars": 10577
+        },
+        {
+          "id": "tweakcn",
+          "name": "Tweakcn",
+          "repo": "jnsahaj/tweakcn",
+          "stars": 10542
+        },
+        {
+          "id": "mobile-mcp",
+          "name": "Mobile Mcp",
+          "repo": "mobile-next/mobile-mcp",
+          "stars": 10524
+        },
+        {
+          "id": "pandawiki",
+          "name": "PandaWiki",
+          "repo": "chaitin/PandaWiki",
+          "stars": 10498
+        },
+        {
+          "id": "soup",
+          "name": "Soup",
+          "repo": "MakazhanAlpamys/Soup",
+          "stars": 10486
+        },
+        {
+          "id": "3fs",
+          "name": "3FS",
+          "repo": "deepseek-ai/3FS",
+          "stars": 10458
+        },
+        {
+          "id": "aihot",
+          "name": "AIHOT",
+          "repo": "KKKKhazix/AIHOT",
+          "stars": 10452
+        },
+        {
+          "id": "clashmi",
+          "name": "Clashmi",
+          "repo": "KaringX/clashmi",
+          "stars": 10448
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "improve",
+          "name": "Improve",
+          "repo": "shadcn/improve",
+          "stars": 11313,
+          "gain": 11313
+        },
+        {
+          "id": "openbot",
+          "name": "OpenBot",
+          "repo": "CopilotKit/OpenBot",
+          "stars": 11180,
+          "gain": 11180
+        },
+        {
+          "id": "claude-ads",
+          "name": "Claude Ads",
+          "repo": "AgriciDaniel/claude-ads",
+          "stars": 10974,
+          "gain": 10974
+        },
+        {
+          "id": "awesome-opencode",
+          "name": "Awesome Opencode",
+          "repo": "awesome-opencode/awesome-opencode",
+          "stars": 10967,
+          "gain": 10967
+        },
+        {
+          "id": "voltagent",
+          "name": "Voltagent",
+          "repo": "VoltAgent/voltagent",
+          "stars": 10963,
+          "gain": 10963
+        }
+      ],
+      "rollupZh": "今日 OpenAI 连发多篇客户与合作内容，覆盖 Codex 应用、法律行业 AI 转型及军人专属 ChatGPT Plus。监管与基础设施侧，美联航禁止 AI 代理代订机票，佩洛西继任者准备推动 AI 监管，GitHub 则报告代理驱动下提交量创新高。",
+      "rollupEn": "OpenAI published a batch of customer and program posts covering Codex adoption, AI in the legal sector, and ChatGPT Plus for servicemembers. Elsewhere, United Airlines banned AI agents from booking flights, Pelosi's successor readied AI regulation, and GitHub reported record commits driven by agents.",
+      "failures": []
+    },
+    {
       "date": "2026-11-11",
       "items": [
         {

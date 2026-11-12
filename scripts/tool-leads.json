@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T10:38:53.991Z",
+  "generatedAt": "2026-11-12T10:55:38.871Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -4954,8 +4954,8 @@
       "zh": "帮助写作者从任意文本中去除 20 多种 AI 套话模式。"
     },
     "lemo-opuscar": {
-      "en": "A style toolbox for Claude Code users: 66 ready-to-use film styles, each a prompt plus a code-made demo, or your own.",
-      "zh": "面向 Claude Code 用户的风格工具箱：66 种现成影片风格，每种含提示词与代码生成的演示片，也可自定义。"
+      "en": "A style toolbox for Claude Code users: 99 ready-made film styles plus your own, each a style prompt with a demo film built in code, no video model.",
+      "zh": "面向 Claude Code 用户的风格工具箱：99 种现成电影风格，也能自建，每种是一段风格提示词加一段纯代码生成的演示短片，无需视频模型。"
     },
     "rybbit": {
       "en": "An open-source, privacy-friendly analytics tool for site owners who want an alternative to Google Analytics.",
@@ -5432,6 +5432,122 @@
     "visual-explainer": {
       "en": "For developers, this agent skill turns diagrams, diff reviews, plan audits, data tables, and project recaps into rich HTML pages or slide decks.",
       "zh": "为开发者把图表、diff 审查和项目复盘生成为 HTML 页面或幻灯片。"
+    },
+    "improve": {
+      "en": "For developers who want a capable model to audit their codebase and write plans for cheaper models to execute.",
+      "zh": "面向希望用强模型审计代码库并编写计划、交由更便宜模型执行的开发者。"
+    },
+    "awesome-opencode": {
+      "en": "A curated list of plugins, themes, agents, projects, and resources for opencode.ai users seeking community tools.",
+      "zh": "面向 opencode.ai 用户的精选清单，汇集插件、主题、智能体、项目和资源。"
+    },
+    "voltagent": {
+      "en": "A platform for developers building AI agents, offering an open source TypeScript framework for agent engineering.",
+      "zh": "面向构建 AI Agent 的开发者，提供开源 TypeScript 框架用于智能体工程开发。"
+    },
+    "scroll-world": {
+      "en": "A skill for developers and brand teams that turns a brand into a scrollable 3D world landing page.",
+      "zh": "一个面向开发者和品牌团队的工具，可把品牌转成可滚动的 3D 世界落地页。"
+    },
+    "pixelrag": {
+      "en": "PixelRAG targets AI agent builders who want scalable pixel-native search instead of web parsing.",
+      "zh": "PixelRAG 面向构建 AI agent 的开发者，用可扩展的像素原生搜索替代网页解析。"
+    },
+    "arc-task-gen": {
+      "en": "For AI researchers and developers, it generates original ARC-AGI-1-style tasks that match the public eval set distribution.",
+      "zh": "面向 AI 研究者和开发者，生成与公开评估集分布匹配的原创 ARC-AGI-1 风格任务。"
+    },
+    "mcp-use": {
+      "en": "A fullstack MCP framework for developers building MCP Apps for ChatGPT or Claude and MCP Servers for AI agents.",
+      "zh": "一个全栈 MCP 框架，供开发者为 ChatGPT 或 Claude 构建 MCP 应用，并为 AI 智能体构建 MCP 服务器。"
+    },
+    "zero": {
+      "en": "An open source email app for people who want email their own way, with privacy and safety put first.",
+      "zh": "一款开源邮件应用，面向重视隐私与安全的用户，让你按自己的方式使用邮箱。"
+    },
+    "claude-ads": {
+      "en": "Paid-media teams use this Claude Code skill to audit 12 ad platforms and get deterministic findings, versioned JSON reports, and capability-gated account changes.",
+      "zh": "付费媒体团队用的Claude Code技能：广告审计与版本化JSON报告。"
+    },
+    "openbot": {
+      "en": "For teams needing AI coworkers, OpenBot gives each its own browser, files and tools, with actions decided before and recorded after; any AG-UI agent works.",
+      "zh": "开源 AI 同事：每个智能体有独立浏览器、文件与工具，行动先决后记，接入任意 AG-UI 智能体。"
+    },
+    "fluxer": {
+      "en": "Fluxer is a free and open source instant messaging and VoIP chat app for friends, groups, and communities.",
+      "zh": "Fluxer 是一款免费开源的即时通讯与 VoIP 聊天应用，面向朋友、群组和社区。"
+    },
+    "openskills": {
+      "en": "A universal skills loader for AI coding agents, installed globally via npm, for developers who want to add skills to their agents.",
+      "zh": "面向需要为 AI 编程代理加载技能的开发者，通过 npm 全局安装即可使用的通用技能加载器。"
+    },
+    "lunatv": {
+      "en": "LunaTV is released under CC BY-NC-SA; commercial use is prohibited, and derivative projects must keep the original address and use the same license.",
+      "zh": "LunaTV 用 CC BY-NC-SA 协议，禁商用，衍生须署名并同协议开源。"
+    },
+    "zhangxuefeng-skill": {
+      "en": "A cognitive framework for students and advisors handling college application, grad school, and career planning decisions.",
+      "zh": "面向高考志愿、考研与职业规划的学生和咨询者，提供实战思维框架。"
+    },
+    "claude-red": {
+      "en": "claude-red is a curated library of offensive security skills for the Claude skills system, giving Claude structured SKILL.md methodology for specific attack surfaces.",
+      "zh": "claude-red 是面向 Claude 技能系统的攻防安全技能库，用结构化 SKILL.md 文件为 Claude 提供针对特定攻击面的方法论。"
+    },
+    "copilot-sdk": {
+      "en": "A multi-platform SDK for developers to integrate the GitHub Copilot Agent into their apps and services.",
+      "zh": "面向开发者，多平台 SDK 可将 GitHub Copilot Agent 集成到应用与服务中。"
+    },
+    "art": {
+      "en": "ART trains multi-step agents for real-world tasks using GRPO, giving developers on-the-job reinforcement learning for models like Qwen3.6 and Llama.",
+      "zh": "ART 用 GRPO 训练多步智能体完成真实任务，让 Qwen3.6、Llama 等模型边做边学。"
+    },
+    "adk-recipes": {
+      "en": "Developers building agents with Agent Development Kit can use these recipes, reference patterns, and vertical plugins as starting points.",
+      "zh": "使用 Agent Development Kit 构建智能体的开发者，可用这些配方、参考模式和垂直插件作为起点。"
+    },
+    "vicinae": {
+      "en": "A native, fast and extensible launcher for desktop users who want one focused place to start tasks.",
+      "zh": "面向希望集中入口启动任务的桌面用户，提供原生、快速且可扩展的启动器。"
+    },
+    "dashi-ppt-skill": {
+      "en": "For AI-agent users, it generates browser-editable presentations from multiple visual themes, with HTML, PDF, and PPTX export.",
+      "zh": "面向 AI-agent 用户，按多种视觉主题生成浏览器可编辑的演示文稿，可导出 HTML、PDF、PPTX。"
+    },
+    "pinchtab": {
+      "en": "A browser automation bridge for developers, with multi-instance orchestration, stealth injection, and a real-time dashboard.",
+      "zh": "面向开发者的浏览器自动化桥接工具，支持多实例编排、隐身注入和实时仪表盘。"
+    },
+    "tweakcn": {
+      "en": "For developers building with shadcn/ui, it offers a visual, no-code way to edit component themes.",
+      "zh": "面向使用 shadcn/ui 的开发者，提供可视化、免代码的方式来编辑组件主题。"
+    },
+    "wloc": {
+      "en": "A tool that changes the coordinates returned by Apple's network location service (gs-loc); works with Surge, Quantumult X, Loon and Stash, and uses a Shortcut to set or restore location.",
+      "zh": "修改 Apple 网络定位（gs-loc）返回坐标的工具，支持 Surge、Quantumult X、Loon、Stash，可用快捷指令一键设置或恢复定位。"
+    },
+    "soup": {
+      "en": "Soup lets developers fine-tune LLMs from a single YAML file, using layer streaming to train an 8B model on a 4 GB laptop GPU.",
+      "zh": "Soup 让开发者用一个 YAML 文件微调 LLM，并通过层流式训练在 4 GB 笔记本 GPU 上训练 8B 模型。"
+    },
+    "drawio-skill": {
+      "en": "Helps AI agent users turn natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams.",
+      "zh": "帮助 AI agent 用户把自然语言、代码及各类接口与配置来源转成可编辑、可测试的 draw.io 架构图。"
+    },
+    "aihot": {
+      "en": "A framework for people who want an industry news site that finds hot topics and writes daily reports on its own.",
+      "zh": "面向想搭建行业热点站的人，这个框架能自己找热点、自己写日报。"
+    },
+    "3fs": {
+      "en": "For teams running AI training and inference workloads, 3FS is a high-performance distributed file system.",
+      "zh": "面向运行 AI 训练和推理工作负载的团队，3FS 是高性能分布式文件系统。"
+    },
+    "clashmi": {
+      "en": "A Clash Mihomo client for users on iOS, macOS, Android, Windows, and Linux who need to run it across these platforms.",
+      "zh": "面向需要在 iOS、macOS、Android、Windows 和 Linux 上使用 Clash Mihomo 的用户，提供跨平台客户端。"
+    },
+    "mobile-mcp": {
+      "en": "For developers using MCP clients who want AI agents to drive iOS and Android apps on simulators, emulators and real devices.",
+      "zh": "面向 MCP 客户端用户，让 AI 智能体驱动 iOS 和 Android 应用，覆盖模拟器与真机。"
     }
   }
 }

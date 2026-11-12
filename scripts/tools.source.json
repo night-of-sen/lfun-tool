@@ -16954,7 +16954,7 @@
     {
       "id": "obsidian-skills",
       "name": "Obsidian Skills",
-      "repo": "kepano/obsidian-skills",
+      "repo": "obsidianmd/obsidian-skills",
       "homepage": "",
       "category": "ai-agents",
       "desc": "",
@@ -31968,6 +31968,649 @@
       "cloud": "",
       "descEn": "Skills for Design Engineers",
       "pushedAt": "2026-11-11"
+    },
+    {
+      "id": "improve",
+      "name": "Improve",
+      "repo": "shadcn/improve",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 11311,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+      "pushedAt": "2026-09-12"
+    },
+    {
+      "id": "openbot",
+      "name": "OpenBot",
+      "repo": "CopilotKit/OpenBot",
+      "homepage": "open.bot",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ag-ui",
+        "agent-governance",
+        "ai-agents",
+        "browser-automation"
+      ],
+      "seed": {
+        "stars": 11175,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "pushedAt": "2026-11-12"
+    },
+    {
+      "id": "claude-ads",
+      "name": "Claude Ads",
+      "repo": "AgriciDaniel/claude-ads",
+      "homepage": "skool.com/ai-marketing-hub-pro",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai",
+        "ai-marketing",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 10973,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X):",
+      "pushedAt": "2026-11-01"
+    },
+    {
+      "id": "awesome-opencode",
+      "name": "Awesome Opencode",
+      "repo": "awesome-opencode/awesome-opencode",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10967,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A curated list of awesome plugins, themes, agents, projects, and resources for https://opencode.ai",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "voltagent",
+      "name": "Voltagent",
+      "repo": "VoltAgent/voltagent",
+      "homepage": "https://voltagent.dev",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-agents-framework"
+      ],
+      "seed": {
+        "stars": 10963,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "scroll-world",
+      "name": "Scroll World",
+      "repo": "oso95/scroll-world",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10955,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A skill that turn any brand into a scrollable 3D world landing page",
+      "pushedAt": "2026-07-29"
+    },
+    {
+      "id": "lunatv",
+      "name": "LunaTV",
+      "repo": "MoonTechLab/LunaTV",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10943,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源",
+      "pushedAt": "2026-09-10"
+    },
+    {
+      "id": "pixelrag",
+      "name": "PixelRAG",
+      "repo": "StarTrail-org/PixelRAG",
+      "homepage": "https://arxiv.org/pdf/2606.28344",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai",
+        "memory",
+        "multimodal"
+      ],
+      "seed": {
+        "stars": 10911,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "https://arxiv.org/abs/2606.28344. The end of web parsing. The beginning of scalable pixel-native search. link: https://pixelrag.ai/",
+      "pushedAt": "2026-11-11"
+    },
+    {
+      "id": "arc-task-gen",
+      "name": "Arc Task Gen",
+      "repo": "pathwaycom/arc-task-gen",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10890,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.",
+      "pushedAt": "2026-08-11"
+    },
+    {
+      "id": "zero",
+      "name": "Zero",
+      "repo": "Mail-0/Zero",
+      "homepage": "https://discord.gg/mzJ227YJR",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "email",
+        "privacy",
+        "security"
+      ],
+      "seed": {
+        "stars": 10885,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Experience email the way you want with Mail0 – the first open source email app that puts your privacy and safety first. Join the discord: https://mail0.link/discord",
+      "pushedAt": "2026-10-27"
+    },
+    {
+      "id": "mcp-use",
+      "name": "Mcp Use",
+      "repo": "mcp-use/mcp-use",
+      "homepage": "https://manufact.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-plugins",
+        "agentic-framework",
+        "ai",
+        "apps-sdk"
+      ],
+      "seed": {
+        "stars": 10874,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents.",
+      "pushedAt": "2026-11-12"
+    },
+    {
+      "id": "art",
+      "name": "ART",
+      "repo": "OpenPipe/ART",
+      "homepage": "https://art.openpipe.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agentic-ai",
+        "grpo",
+        "llms"
+      ],
+      "seed": {
+        "stars": 10854,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen3.6, GPT-OSS, Llama, and ",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "fluxer",
+      "name": "Fluxer",
+      "repo": "fluxerapp/fluxer",
+      "homepage": "https://feedback.fluxer.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "fluxer",
+        "fluxerapp"
+      ],
+      "seed": {
+        "stars": 10850,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A free and open source instant messaging and VoIP chat app built for friends, groups, and communities.",
+      "pushedAt": "2026-11-12"
+    },
+    {
+      "id": "openskills",
+      "name": "Openskills",
+      "repo": "numman-ali/openskills",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10831,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Universal skills loader for AI coding agents - npm i -g openskills",
+      "pushedAt": "2026-01-18"
+    },
+    {
+      "id": "wloc",
+      "name": "Wloc",
+      "repo": "Yu9191/wloc",
+      "homepage": "https://wloc-pages.pages.dev/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10785,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "修改 Apple 网络定位（gs-loc）返回坐标 · 支持 Surge / Quantumult X / Loon / Stash · 快捷指令一键设置/恢复定位",
+      "pushedAt": "2026-11-07"
+    },
+    {
+      "id": "zhangxuefeng-skill",
+      "name": "Zhangxuefeng Skill",
+      "repo": "alchaincyf/zhangxuefeng-skill",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "career-planning",
+        "claude-code",
+        "claude-code-skills"
+      ],
+      "seed": {
+        "stars": 10754,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "drawio-skill",
+      "name": "Drawio Skill",
+      "repo": "Agents365-ai/drawio-skill",
+      "homepage": "https://agents365-ai.github.io/drawio-skill/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "architecture",
+        "architecture-diagram",
+        "asyncapi"
+      ],
+      "seed": {
+        "stars": 10724,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental ",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "copilot-sdk",
+      "name": "Copilot Sdk",
+      "repo": "github/copilot-sdk",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10679,
+        "language": "Java"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "pushedAt": "2026-11-12"
+    },
+    {
+      "id": "claude-red",
+      "name": "Claude Red",
+      "repo": "SnailSploit/Claude-Red",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "claude-ai",
+        "claude-pt",
+        "claude-skills",
+        "redteam"
+      ],
+      "seed": {
+        "stars": 10645,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level me",
+      "pushedAt": "2026-11-11"
+    },
+    {
+      "id": "dashi-ppt-skill",
+      "name": "Dashi Ppt Skill",
+      "repo": "chuspeeism/dashi-ppt-skill",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skill",
+        "ai-agent",
+        "ai-ppt",
+        "claude"
+      ],
+      "seed": {
+        "stars": 10638,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
+      "pushedAt": "2026-11-06"
+    },
+    {
+      "id": "adk-recipes",
+      "name": "Adk Recipes",
+      "repo": "google/adk-recipes",
+      "homepage": "https://adk.dev",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "adk",
+        "agent-samples",
+        "agents"
+      ],
+      "seed": {
+        "stars": 10612,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A collection of agent recipes, reference patterns, and vertical plugins built with Agent Development Kit (ADK)",
+      "pushedAt": "2026-11-11"
+    },
+    {
+      "id": "vicinae",
+      "name": "Vicinae",
+      "repo": "vicinaehq/vicinae",
+      "homepage": "https://vicinae.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "app-launcher",
+        "cpp23",
+        "linux",
+        "macos"
+      ],
+      "seed": {
+        "stars": 10584,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A focused launcher for your desktop - native, fast, extensible",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "pinchtab",
+      "name": "Pinchtab",
+      "repo": "pinchtab/pinchtab",
+      "homepage": "",
+      "category": "productivity",
+      "desc": "",
+      "tags": [
+        "browser-automation",
+        "cdp",
+        "golang",
+        "headless-chrome"
+      ],
+      "seed": {
+        "stars": 10577,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "High-performance browser automation bridge and multi-instance orchestrator with advanced stealth injection and real-time dashboard.",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "tweakcn",
+      "name": "Tweakcn",
+      "repo": "jnsahaj/tweakcn",
+      "homepage": "https://tweakcn.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "shadcn",
+        "shadcn-theme",
+        "shadcn-theme-editor",
+        "shadcn-ui"
+      ],
+      "seed": {
+        "stars": 10542,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A visual no-code theme editor for shadcn/ui components",
+      "pushedAt": "2026-09-03"
+    },
+    {
+      "id": "mobile-mcp",
+      "name": "Mobile Mcp",
+      "repo": "mobile-next/mobile-mcp",
+      "homepage": "https://mobilenext.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "android",
+        "android-automation",
+        "appium-alternative"
+      ],
+      "seed": {
+        "stars": 10524,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Mobile MCP: let AI agents drive your iOS and Android apps. MCP server for simulators, emulators and real devices. Works with Claude Code, Codex, Cursor and any MCP client.",
+      "pushedAt": "2026-11-11"
+    },
+    {
+      "id": "pandawiki",
+      "name": "PandaWiki",
+      "repo": "chaitin/PandaWiki",
+      "homepage": "https://pandawiki.docs.baizhi.cloud/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "docs",
+        "document",
+        "documentation"
+      ],
+      "seed": {
+        "stars": 10498,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "PandaWiki 是一款 AI 大模型驱动的开源知识库搭建系统，帮助你快速构建智能化的 产品文档、技术文档、FAQ、博客系统，借助大模型的力量为你提供 AI 创作、AI 问答、AI 搜索等能力。",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "soup",
+      "name": "Soup",
+      "repo": "MakazhanAlpamys/Soup",
+      "homepage": "https://trysoup.dev",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "cli",
+        "consumer-gpu",
+        "dpo",
+        "fine-tuning"
+      ],
+      "seed": {
+        "stars": 10486,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+      "pushedAt": "2026-11-12"
+    },
+    {
+      "id": "3fs",
+      "name": "3FS",
+      "repo": "deepseek-ai/3FS",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "distributed-file-system"
+      ],
+      "seed": {
+        "stars": 10458,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A high-performance distributed file system designed to address the challenges of AI training and inference workloads.",
+      "pushedAt": "2026-11-08"
+    },
+    {
+      "id": "aihot",
+      "name": "AIHOT",
+      "repo": "KKKKhazix/AIHOT",
+      "homepage": "https://aihot.news",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "chinese",
+        "content-curation",
+        "daily-digest"
+      ],
+      "seed": {
+        "stars": 10450,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+      "pushedAt": "2026-11-12"
+    },
+    {
+      "id": "clashmi",
+      "name": "Clashmi",
+      "repo": "KaringX/clashmi",
+      "homepage": "https://clashmi.app/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "clash",
+        "clashmi",
+        "mihomo"
+      ],
+      "seed": {
+        "stars": 10448,
+        "language": "Dart"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Clash Mihomo for iOS/MacOS/Android/Windows/Linux",
+      "pushedAt": "2026-11-12"
     }
   ]
 }
