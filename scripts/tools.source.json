@@ -32611,6 +32611,650 @@
       "cloud": "",
       "descEn": "Clash Mihomo for iOS/MacOS/Android/Windows/Linux",
       "pushedAt": "2026-11-12"
+    },
+    {
+      "id": "t3code",
+      "name": "T3code",
+      "repo": "pingdotgg/t3code",
+      "homepage": "https://t3.codes",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-orchestration",
+        "agents",
+        "ai",
+        "chatgpt"
+      ],
+      "seed": {
+        "stars": 58926,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The best way to control Claude Code, Codex and more from any computer or phone",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "omniget",
+      "name": "Omniget",
+      "repo": "tonhowtf/omniget",
+      "homepage": "https://getomniget.com/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-client-protocol",
+        "claude-code",
+        "codex-cli",
+        "coding-agent"
+      ],
+      "seed": {
+        "stars": 14392,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Free, open source video downloader for Windows, macOS and Linux that AI agents can drive. Downloads from YouTube, Instagram, TikTok, X, Reddit, torrents and the sites yt-dlp suppor",
+      "pushedAt": "2026-09-27"
+    },
+    {
+      "id": "edge0",
+      "name": "Edge0",
+      "repo": "Edge0-AI/Edge0",
+      "homepage": "https://edge0.ai/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "edge-ai",
+        "foundation-model",
+        "on-device-ai"
+      ],
+      "seed": {
+        "stars": 10733,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Device-native foundation models: 145B on a laptop, 35B on a phone. Latent MoE, SSD-streamed weights, a router that predicts loads a step ahead. Mac, iPhone, Android, Windows.",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "deepep",
+      "name": "DeepEP",
+      "repo": "deepseek-ai/DeepEP",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10439,
+        "language": "Cuda"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "DeepEP: an efficient expert-parallel communication library",
+      "pushedAt": "2026-10-21"
+    },
+    {
+      "id": "read-frog",
+      "name": "Read Frog",
+      "repo": "mengxi-ream/read-frog",
+      "homepage": "https://www.readfrog.app",
+      "category": "productivity",
+      "desc": "",
+      "tags": [
+        "anki",
+        "bilingual-subtitles",
+        "browser-extension",
+        "chinese"
+      ],
+      "seed": {
+        "stars": 10417,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🐸 Read Frog - Open-source AI language learning & flashcards, an Immersive Translate alternative | 🐸 陪读蛙 - 开源 AI 语言学习与闪词卡，沉浸式翻译替代",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "awesome-claude-skills-3",
+      "name": "Awesome Claude Skills",
+      "repo": "BehiSecc/awesome-claude-skills",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10414,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A curated list of Claude Skills.",
+      "pushedAt": "2026-11-02"
+    },
+    {
+      "id": "awesome-nanobanana-pro",
+      "name": "Awesome Nanobanana Pro",
+      "repo": "ZeroLu/awesome-nanobanana-pro",
+      "homepage": "https://cyberbara.com/seedance2.0?utm_source=banana",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "gemini",
+        "nanobanana",
+        "nanobanana-pro",
+        "nanobanana2"
+      ],
+      "seed": {
+        "stars": 10393,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🚀 An awesome list of curated Nano Banana pro prompts and examples. Your go-to resource for mastering prompt engineering and exploring the creative potential of the Nano banana pro",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "autoclip",
+      "name": "Autoclip",
+      "repo": "zhouxiaoka/autoclip",
+      "homepage": "https://zhouxiaoka.github.io/autoclip_intro/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agent",
+        "ai-video-editor",
+        "content-repurposing",
+        "desktop-app"
+      ],
+      "seed": {
+        "stars": 10391,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "dsh-web",
+      "name": "Dsh Web",
+      "repo": "zhu1090093659/dsh-web",
+      "homepage": "https://dsh-market.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "cordis",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin"
+      ],
+      "seed": {
+        "stars": 10390,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "DeepSeek Harness (DSH) Web 插件聚合生态 · 万物皆插件，通过创意工坊分发｜｜DeepSeek Harness (DSH) Web Plugin Aggregation Ecosystem · Everything is a plugin, distributed via the Creative Workshop",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "browserskill",
+      "name": "BrowserSkill",
+      "repo": "Tencent/BrowserSkill",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "browser-use",
+        "dsh-plugin"
+      ],
+      "seed": {
+        "stars": 10369,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "pakeplus-ios",
+      "name": "PakePlus IOS",
+      "repo": "Sjj1024/PakePlus-iOS",
+      "homepage": "https://pakeplus.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "build",
+        "ipa",
+        "pacbao",
+        "package"
+      ],
+      "seed": {
+        "stars": 10355,
+        "language": "Swift"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Turn any webpage/HTML/Vue/React and so on into desktop and mobile app under 5M with easy in few minutes. 轻松将任意网站/HTML/Vue/React等项目构建为轻量级(小于5M)多端桌面应用和手机应用仅需几分钟. https://ppofficial.n",
+      "pushedAt": "2026-07-12"
+    },
+    {
+      "id": "runanywhere-sdks",
+      "name": "Runanywhere Sdks",
+      "repo": "RunanywhereAI/runanywhere-sdks",
+      "homepage": "https://www.runanywhere.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "android",
+        "apple-intelligence",
+        "cpp",
+        "diffusion-models"
+      ],
+      "seed": {
+        "stars": 10344,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Production ready toolkit to run AI locally",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "claurst",
+      "name": "Claurst",
+      "repo": "Kuberwastaken/claurst",
+      "homepage": "https://claurst.kuber.studio/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "claude",
+        "claude-code",
+        "claurst",
+        "cli"
+      ],
+      "seed": {
+        "stars": 10344,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Agentic Coding for Builders who Ship",
+      "pushedAt": "2026-10-26"
+    },
+    {
+      "id": "morphe-manager",
+      "name": "Morphe Manager",
+      "repo": "MorpheApp/morphe-manager",
+      "homepage": "https://Morphe.software",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "android",
+        "apk",
+        "app",
+        "morphe"
+      ],
+      "seed": {
+        "stars": 10343,
+        "language": "Kotlin"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Morphe app patcher for Android",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "claude-code-tips",
+      "name": "Claude Code Tips",
+      "repo": "ykdojo/claude-code-tips",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agentic",
+        "agentic-ai",
+        "agentic-coding",
+        "agentic-workflow"
+      ],
+      "seed": {
+        "stars": 10334,
+        "language": "HTML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "45+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script and Claude Code running itself in a container. Also includes the dx",
+      "pushedAt": "2026-09-25"
+    },
+    {
+      "id": "m3e-canvas",
+      "name": "M3e Canvas",
+      "repo": "lnkiai/m3e-canvas",
+      "homepage": "https://lnkiai.github.io/m3e-canvas/",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "design-tool",
+        "material-3-expressive",
+        "material-design",
+        "material3"
+      ],
+      "seed": {
+        "stars": 10332,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
+      "pushedAt": "2026-11-01"
+    },
+    {
+      "id": "dashbeam",
+      "name": "Dashbeam",
+      "repo": "tonyantony300/dashbeam",
+      "homepage": "https://dashbeam.net",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "android",
+        "file-transfer",
+        "iroh",
+        "linux"
+      ],
+      "seed": {
+        "stars": 10322,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Share files nearby and beyond.",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "astrid",
+      "name": "Astrid",
+      "repo": "astrid-runtime/astrid",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-runtime",
+        "ai-agents",
+        "capability-security",
+        "llm"
+      ],
+      "seed": {
+        "stars": 10292,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Astrid is a portable, capability-secure operating system for composable software.",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "infinite-canvas",
+      "name": "Infinite Canvas",
+      "repo": "basketikun/infinite-canvas",
+      "homepage": "https://canvas.best",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10289,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "面向 AI 创作的开源无限画布工作台，集成 AI 生图、参考图编辑、视频生成、Agent 智能助手、画布编排、对话创作、提示词库与素材管理等能力，支持可视化创作流程与多 Agent 协同工作。兼容 OpenAI 接口生态，支持 chatgpt2api、grok2api、flow2api、newapi 等渠道接入。",
+      "pushedAt": "2026-10-25"
+    },
+    {
+      "id": "pocket-tts",
+      "name": "Pocket Tts",
+      "repo": "kyutai-labs/pocket-tts",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10287,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A TTS that fits in your CPU (and pocket)",
+      "pushedAt": "2026-11-12"
+    },
+    {
+      "id": "spotifast",
+      "name": "Spotifast",
+      "repo": "crmne/spotifast",
+      "homepage": "https://spotifast.rocks/",
+      "category": "video-media",
+      "desc": "",
+      "tags": [
+        "audio",
+        "cross-platform",
+        "desktop-app",
+        "egui"
+      ],
+      "seed": {
+        "stars": 10287,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows.",
+      "pushedAt": "2026-11-11"
+    },
+    {
+      "id": "awesome-gpt-image-2-2",
+      "name": "Awesome Gpt Image 2",
+      "repo": "YouMind-OpenLab/awesome-gpt-image-2",
+      "homepage": "https://youmind.com/gpt-image-2-prompts",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-image-generation",
+        "ai-prompts",
+        "awesome",
+        "awesome-list"
+      ],
+      "seed": {
+        "stars": 10282,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🚀 World's largest GPT Image 2 prompt library, updated daily — 2000+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model with pixel-perfect text render",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "niubigeo",
+      "name": "Niubigeo",
+      "repo": "Albert-Weasker/niubigeo",
+      "homepage": "https://niubigeo.ai/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10247,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niu",
+      "pushedAt": "2026-11-03"
+    },
+    {
+      "id": "plannotator",
+      "name": "Plannotator",
+      "repo": "backnotprop/plannotator",
+      "homepage": "https://plannotator.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agents",
+        "claude-code",
+        "code-review",
+        "codex"
+      ],
+      "seed": {
+        "stars": 10233,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "ltx-2",
+      "name": "LTX 2",
+      "repo": "Lightricks/LTX-2",
+      "homepage": "https://ltx.io",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "generative-ai",
+        "ltx",
+        "ltx-2"
+      ],
+      "seed": {
+        "stars": 10218,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+      "pushedAt": "2026-11-12"
+    },
+    {
+      "id": "oh-my-opencode-slim",
+      "name": "Oh My Opencode Slim",
+      "repo": "alvinunreal/oh-my-opencode-slim",
+      "homepage": "https://ohmyopencodeslim.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "opencode"
+      ],
+      "seed": {
+        "stars": 10210,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Lean, fine tuned Opencode multi agent suite · Mix any models · Auto delegate tasks",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "memorybear",
+      "name": "MemoryBear",
+      "repo": "SuanmoSuanyangTechnology/MemoryBear",
+      "homepage": "https://www.memorybear.ai/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10205,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "MemoryBear Equip AI with human-like memory capability",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "pixel-agents",
+      "name": "Pixel Agents",
+      "repo": "pixel-agents-hq/pixel-agents",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10200,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Pixel office.",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "flowsint",
+      "name": "Flowsint",
+      "repo": "reconurge/flowsint",
+      "homepage": "https://flowsint.io",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "investigation",
+        "osint",
+        "python",
+        "recon"
+      ],
+      "seed": {
+        "stars": 10168,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
+      "pushedAt": "2026-10-18"
+    },
+    {
+      "id": "gumroad",
+      "name": "Gumroad",
+      "repo": "antiwork/gumroad",
+      "homepage": "https://gumroad.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10150,
+        "language": "Ruby"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "See what sticks",
+      "pushedAt": "2026-11-13"
     }
   ]
 }

@@ -1,6 +1,350 @@
 {
   "days": [
     {
+      "date": "2026-11-13",
+      "items": [
+        {
+          "title": "Claude Is Down",
+          "link": "https://status.claude.com/history",
+          "source": "Hacker News",
+          "date": "2026-11-13",
+          "zhTitle": "Claude 服务中断",
+          "zh": "Claude 服务出现宕机。",
+          "en": "Claude is down."
+        },
+        {
+          "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+          "link": "https://status.claude.com/incidents/nn11wk485zfn",
+          "source": "Hacker News",
+          "date": "2026-11-13",
+          "zhTitle": "claude.ai、Claude Code 与 platform.claude.com 错误率升高",
+          "zh": "多个 Claude 服务错误率升高。",
+          "en": "Elevated errors affect claude.ai, Claude Code, and platform.claude.com."
+        },
+        {
+          "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+          "link": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+          "source": "Hacker News",
+          "date": "2026-11-12",
+          "zhTitle": "Edge0-145B：在你自己的电脑上实现前沿 AI 能力",
+          "zh": "Edge0-145B 主打在个人电脑上提供前沿 AI 能力。",
+          "en": "Edge0-145B brings frontier AI capabilities to your own computer."
+        },
+        {
+          "title": "Build once, run on any agent: A practical guide to agent skills",
+          "link": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+          "source": "GitHub Blog",
+          "date": "2026-11-12",
+          "zhTitle": "一次构建，随处运行：智能体技能实用指南",
+          "zh": "GitHub 发布智能体技能跨平台构建指南。",
+          "en": "A practical guide to building agent skills that run on any agent."
+        },
+        {
+          "title": "Foundation Models framework",
+          "link": "https://developer.apple.com/foundation-models-framework/",
+          "source": "Hacker News",
+          "date": "2026-11-12",
+          "zhTitle": "Foundation Models 框架",
+          "zh": "苹果开发者网站发布基础模型框架页面。",
+          "en": "Foundation Models framework on Apple's developer site."
+        },
+        {
+          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+          "link": "https://openai.com/business/customer-stories/amplitude",
+          "source": "OpenAI",
+          "date": "2026-11-12",
+          "zhTitle": "Amplitude 如何借助 OpenAI 在 1–2 天内交付产品改进",
+          "zh": "Amplitude 借助 OpenAI 加快产品改进交付。",
+          "en": "How Amplitude ships product improvements in 1–2 days with OpenAI."
+        },
+        {
+          "title": "Gemini 4 Hydrogen and Orchestrator",
+          "link": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+          "source": "Hacker News",
+          "date": "2026-11-12",
+          "zhTitle": "Gemini 4 Hydrogen 与 Orchestrator",
+          "zh": "博客介绍 Gemini 4 Hydrogen 与 Orchestrator。",
+          "en": "Gemini 4 Hydrogen and Orchestrator on the Antigravity blog."
+        },
+        {
+          "title": "Gondola doubles revenue as its team builds more with Codex",
+          "link": "https://openai.com/business/customer-stories/gondola",
+          "source": "OpenAI",
+          "date": "2026-11-12",
+          "zhTitle": "Gondola 收入翻倍，团队用 Codex 构建更多",
+          "zh": "Gondola 借助 Codex 让团队构建更多并实现收入翻倍。",
+          "en": "Gondola doubles revenue as its team builds more with Codex."
+        },
+        {
+          "title": "Holiday Extras is rethinking what it can build with Codex",
+          "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
+          "source": "OpenAI",
+          "date": "2026-11-12",
+          "zhTitle": "Holiday Extras 重新思考用 Codex 能构建什么",
+          "zh": "Holiday Extras 借 Codex 重新思考可构建的产品。",
+          "en": "Holiday Extras rethinks what it can build with Codex."
+        },
+        {
+          "title": "Supporting research on AI and children’s safety",
+          "link": "https://openai.com/index/children-first-declaration",
+          "source": "OpenAI",
+          "date": "2026-11-12",
+          "zhTitle": "支持 AI 与儿童安全研究",
+          "zh": "OpenAI 支持 AI 与儿童安全相关研究。",
+          "en": "Supporting research on AI and children’s safety."
+        },
+        {
+          "title": "Gilbert + Tobin rethinks the business of law with AI",
+          "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
+          "source": "OpenAI",
+          "date": "2026-11-12",
+          "zhTitle": "Gilbert + Tobin 用 AI 重新思考法律业务",
+          "zh": "Gilbert + Tobin 用 AI 重新思考法律业务。",
+          "en": "Gilbert + Tobin rethinks the business of law with AI."
+        },
+        {
+          "title": "The Download: preserving minds and weighing open AI risks",
+          "link": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-11",
+          "zhTitle": "The Download：保存心智与权衡开放 AI 风险",
+          "zh": "今日下载：保存心智并权衡开放 AI 风险。",
+          "en": "The Download: preserving minds and weighing open AI risks."
+        },
+        {
+          "title": "The Download: Pelosi’s successor targets AI and data centers face power woes",
+          "link": "https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-10",
+          "zhTitle": "The Download：佩洛西继任者瞄准 AI，数据中心面临电力困境",
+          "zh": "佩洛西继任者关注 AI，数据中心遇电力难题。",
+          "en": "The Download: Pelosi’s successor targets AI; data centers face power woes."
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "t3code",
+          "name": "T3code",
+          "repo": "pingdotgg/t3code",
+          "stars": 58934
+        },
+        {
+          "id": "omniget",
+          "name": "Omniget",
+          "repo": "tonhowtf/omniget",
+          "stars": 14392
+        },
+        {
+          "id": "edge0",
+          "name": "Edge0",
+          "repo": "Edge0-AI/Edge0",
+          "stars": 10747
+        },
+        {
+          "id": "deepep",
+          "name": "DeepEP",
+          "repo": "deepseek-ai/DeepEP",
+          "stars": 10439
+        },
+        {
+          "id": "read-frog",
+          "name": "Read Frog",
+          "repo": "mengxi-ream/read-frog",
+          "stars": 10417
+        },
+        {
+          "id": "awesome-claude-skills-3",
+          "name": "Awesome Claude Skills",
+          "repo": "BehiSecc/awesome-claude-skills",
+          "stars": 10414
+        },
+        {
+          "id": "awesome-nanobanana-pro",
+          "name": "Awesome Nanobanana Pro",
+          "repo": "ZeroLu/awesome-nanobanana-pro",
+          "stars": 10393
+        },
+        {
+          "id": "autoclip",
+          "name": "Autoclip",
+          "repo": "zhouxiaoka/autoclip",
+          "stars": 10392
+        },
+        {
+          "id": "dsh-web",
+          "name": "Dsh Web",
+          "repo": "zhu1090093659/dsh-web",
+          "stars": 10390
+        },
+        {
+          "id": "browserskill",
+          "name": "BrowserSkill",
+          "repo": "Tencent/BrowserSkill",
+          "stars": 10369
+        },
+        {
+          "id": "pakeplus-ios",
+          "name": "PakePlus IOS",
+          "repo": "Sjj1024/PakePlus-iOS",
+          "stars": 10355
+        },
+        {
+          "id": "runanywhere-sdks",
+          "name": "Runanywhere Sdks",
+          "repo": "RunanywhereAI/runanywhere-sdks",
+          "stars": 10344
+        },
+        {
+          "id": "claurst",
+          "name": "Claurst",
+          "repo": "Kuberwastaken/claurst",
+          "stars": 10344
+        },
+        {
+          "id": "morphe-manager",
+          "name": "Morphe Manager",
+          "repo": "MorpheApp/morphe-manager",
+          "stars": 10343
+        },
+        {
+          "id": "claude-code-tips",
+          "name": "Claude Code Tips",
+          "repo": "ykdojo/claude-code-tips",
+          "stars": 10334
+        },
+        {
+          "id": "m3e-canvas",
+          "name": "M3e Canvas",
+          "repo": "lnkiai/m3e-canvas",
+          "stars": 10332
+        },
+        {
+          "id": "dashbeam",
+          "name": "Dashbeam",
+          "repo": "tonyantony300/dashbeam",
+          "stars": 10322
+        },
+        {
+          "id": "astrid",
+          "name": "Astrid",
+          "repo": "astrid-runtime/astrid",
+          "stars": 10292
+        },
+        {
+          "id": "infinite-canvas",
+          "name": "Infinite Canvas",
+          "repo": "basketikun/infinite-canvas",
+          "stars": 10289
+        },
+        {
+          "id": "pocket-tts",
+          "name": "Pocket Tts",
+          "repo": "kyutai-labs/pocket-tts",
+          "stars": 10287
+        },
+        {
+          "id": "spotifast",
+          "name": "Spotifast",
+          "repo": "crmne/spotifast",
+          "stars": 10287
+        },
+        {
+          "id": "awesome-gpt-image-2-2",
+          "name": "Awesome Gpt Image 2",
+          "repo": "YouMind-OpenLab/awesome-gpt-image-2",
+          "stars": 10282
+        },
+        {
+          "id": "niubigeo",
+          "name": "Niubigeo",
+          "repo": "Albert-Weasker/niubigeo",
+          "stars": 10247
+        },
+        {
+          "id": "plannotator",
+          "name": "Plannotator",
+          "repo": "backnotprop/plannotator",
+          "stars": 10234
+        },
+        {
+          "id": "ltx-2",
+          "name": "LTX 2",
+          "repo": "Lightricks/LTX-2",
+          "stars": 10218
+        },
+        {
+          "id": "oh-my-opencode-slim",
+          "name": "Oh My Opencode Slim",
+          "repo": "alvinunreal/oh-my-opencode-slim",
+          "stars": 10210
+        },
+        {
+          "id": "memorybear",
+          "name": "MemoryBear",
+          "repo": "SuanmoSuanyangTechnology/MemoryBear",
+          "stars": 10205
+        },
+        {
+          "id": "pixel-agents",
+          "name": "Pixel Agents",
+          "repo": "pixel-agents-hq/pixel-agents",
+          "stars": 10200
+        },
+        {
+          "id": "flowsint",
+          "name": "Flowsint",
+          "repo": "reconurge/flowsint",
+          "stars": 10168
+        },
+        {
+          "id": "gumroad",
+          "name": "Gumroad",
+          "repo": "antiwork/gumroad",
+          "stars": 10150
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "t3code",
+          "name": "T3code",
+          "repo": "pingdotgg/t3code",
+          "stars": 58934,
+          "gain": 58934
+        },
+        {
+          "id": "omniget",
+          "name": "Omniget",
+          "repo": "tonhowtf/omniget",
+          "stars": 14392,
+          "gain": 14392
+        },
+        {
+          "id": "edge0",
+          "name": "Edge0",
+          "repo": "Edge0-AI/Edge0",
+          "stars": 10747,
+          "gain": 10747
+        },
+        {
+          "id": "deepep",
+          "name": "DeepEP",
+          "repo": "deepseek-ai/DeepEP",
+          "stars": 10439,
+          "gain": 10439
+        },
+        {
+          "id": "read-frog",
+          "name": "Read Frog",
+          "repo": "mengxi-ream/read-frog",
+          "stars": 10417,
+          "gain": 10417
+        }
+      ],
+      "rollupZh": "今日要闻包括 Claude 服务宕机与错误率升高；Edge0-145B、Gemini 4 Hydrogen 与 Foundation Models 框架等 AI 产品动态；以及 OpenAI 客户案例和 AI 儿童安全研究、MIT 科技评论的 AI 议题。",
+      "rollupEn": "Today’s highlights include a Claude outage and elevated errors across Claude services; new AI offerings such as Edge0-145B, Gemini 4 Hydrogen, and the Foundation Models framework; plus OpenAI customer stories, AI children’s safety research, and MIT Technology Review’s AI coverage.",
+      "failures": []
+    },
+    {
       "date": "2026-11-12",
       "items": [
         {

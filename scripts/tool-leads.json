@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T10:55:38.871Z",
+  "generatedAt": "2026-11-13T10:50:29.737Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -5548,6 +5548,130 @@
     "mobile-mcp": {
       "en": "For developers using MCP clients who want AI agents to drive iOS and Android apps on simulators, emulators and real devices.",
       "zh": "面向 MCP 客户端用户，让 AI 智能体驱动 iOS 和 Android 应用，覆盖模拟器与真机。"
+    },
+    "t3code": {
+      "en": "Lets developers control Claude Code, Codex and other coding agents from any computer or phone.",
+      "zh": "让开发者从任意电脑或手机控制 Claude Code、Codex 等编程代理。"
+    },
+    "deepep": {
+      "en": "DeepEP is an efficient expert-parallel communication library for developers building expert-parallel systems.",
+      "zh": "DeepEP 是高效的专家并行通信库，面向构建专家并行系统的开发者。"
+    },
+    "read-frog": {
+      "en": "An open-source AI tool for language learners, combining reading support with flashcards to help study while browsing.",
+      "zh": "一款面向语言学习者的开源 AI 工具，结合阅读辅助与闪词卡，帮助边读边学。"
+    },
+    "awesome-claude-skills-3": {
+      "en": "A curated list of Claude Skills for anyone who wants to find and browse available skills.",
+      "zh": "一份 Claude Skills 精选列表，供需要查找和浏览现有技能的开发者参考。"
+    },
+    "pandawiki": {
+      "en": "PandaWiki is an open-source, AI model-driven knowledge base system for building product docs, technical docs, FAQs, and blogs, with AI writing, Q&A, and search.",
+      "zh": "PandaWiki 是一款 AI 大模型驱动的开源知识库搭建系统，可快速构建产品文档、技术文档、FAQ 和博客，并提供 AI 创作、AI 问答、AI 搜索能力。"
+    },
+    "awesome-nanobanana-pro": {
+      "en": "A curated list of Nano Banana Pro prompts and examples for people learning prompt engineering with this image model.",
+      "zh": "这是一个 Nano Banana Pro 提示词与示例精选列表，适合想学习该图像模型提示词工程的用户。"
+    },
+    "autoclip": {
+      "en": "AutoClip is an open-source AI desktop tool that turns long podcasts, interviews, and courses into short videos.",
+      "zh": "AutoClip 是开源 AI 桌面工具，可将播客、访谈、课程等长视频自动剪成短视频。"
+    },
+    "dsh-web": {
+      "en": "A plugin aggregation ecosystem for DeepSeek Harness Web, where everything is a plugin distributed through a Creative Workshop.",
+      "zh": "面向 DeepSeek Harness Web 用户的插件聚合生态，万物皆插件，通过创意工坊分发。"
+    },
+    "pakeplus-ios": {
+      "en": "PakePlus lets developers package any webpage or HTML, Vue, and React project into a desktop or mobile app under 5M in a few minutes.",
+      "zh": "PakePlus 让开发者将任意网页或 HTML、Vue、React 项目在几分钟内打包为小于 5M 的桌面或手机应用。"
+    },
+    "runanywhere-sdks": {
+      "en": "A production ready SDK toolkit for developers who need to run AI locally.",
+      "zh": "面向需要本地运行 AI 的开发者，提供生产就绪的 SDK 工具包。"
+    },
+    "claurst": {
+      "en": "Claurst is an agentic coding tool aimed at builders who ship, supporting their coding work.",
+      "zh": "Claurst 是一款面向交付型开发者的智能体编码工具，用于辅助编码工作。"
+    },
+    "omniget": {
+      "en": "Omniget is a free, open source video downloader for AI agent users on Windows, macOS and Linux.",
+      "zh": "面向 AI 代理用户的免费开源视频下载器，支持 Windows、macOS 和 Linux。"
+    },
+    "claude-code-tips": {
+      "en": "A tips collection for Claude Code users, offering 45+ basics-to-advanced tips, a custom status line script, container self-run setup, and a dx plugin for everyday dev workflows.",
+      "zh": "面向 Claude Code 使用者的技巧合集，提供 45+ 条从基础到进阶的技巧、自定义状态栏脚本、容器内自运行方案，以及用于日常开发工作流的 dx 插件。"
+    },
+    "morphe-manager": {
+      "en": "Morphe Manager is an Android app patcher for users who need to patch Android apps.",
+      "zh": "Morphe Manager 是面向需要修补 Android 应用用户的 Android 应用修补工具。"
+    },
+    "m3e-canvas": {
+      "en": "For designers and developers who sketch Material 3 Expressive screens in the browser and need prompts to start coding.",
+      "zh": "为在浏览器中绘制 Material 3 Expressive 界面的设计师和开发者，把草图转成 vibe-coding 提示词。"
+    },
+    "dashbeam": {
+      "en": "A tool for people who need to share files nearby and beyond.",
+      "zh": "一款面向需要在附近及更远范围共享文件的用户的工具。"
+    },
+    "edge0": {
+      "en": "Edge0 offers developers device-native foundation models — 145B on a laptop, 35B on a phone — with latent MoE and SSD-streamed weights on Mac, iPhone, Android, Windows.",
+      "zh": "Edge0 供开发者运行设备端基础模型，笔记本 145B、手机 35B。"
+    },
+    "astrid": {
+      "en": "Astrid is a portable, capability-secure operating system for composable software.",
+      "zh": "Astrid 是一个面向可组合软件的便携式、能力安全操作系统。"
+    },
+    "infinite-canvas": {
+      "en": "An open-source infinite canvas workbench for AI creators, combining image generation, reference editing, video generation, agents, and prompt management in one visual workspace.",
+      "zh": "面向 AI 创作者的开源无限画布工作台，将 AI 生图、参考图编辑、视频生成、Agent 助手与提示词管理整合在同一可视化工作区中。"
+    },
+    "browserskill": {
+      "en": "BrowserSkill lets shell-capable AI agents automate your real, logged-in browser via a CLI and extension, without interrupting your work.",
+      "zh": "让支持 shell 的 AI 智能体用 CLI 和扩展操作你已登录的浏览器，不打断工作。"
+    },
+    "pocket-tts": {
+      "en": "A CPU-friendly text-to-speech tool for developers who need lightweight voice output on modest hardware.",
+      "zh": "一款适合在普通 CPU 上运行轻量语音合成的开发者使用的 TTS 工具。"
+    },
+    "plannotator": {
+      "en": "Plannotator gives teams a workspace to shape, plan, annotate, and review agent work, then send feedback to agents in one click.",
+      "zh": "Plannotator 为团队提供工作空间，用于梳理、规划、标注和审查智能体工作，并一键把反馈发送给智能体。"
+    },
+    "ltx-2": {
+      "en": "Python inference and LoRA trainer package for developers working with the LTX-2 audio-video generative model.",
+      "zh": "面向使用 LTX-2 音视频生成模型的开发者，提供官方 Python 推理与 LoRA 训练包。"
+    },
+    "niubigeo": {
+      "en": "Open-source AI brand visibility and competitor reports for teams tracking how AI platforms present their brand.",
+      "zh": "面向需要跟踪AI平台品牌呈现的团队，提供开源AI品牌可见度与竞品报告。"
+    },
+    "oh-my-opencode-slim": {
+      "en": "A lean, fine-tuned multi-agent suite for Opencode users, letting them mix models and auto delegate tasks.",
+      "zh": "面向 Opencode 用户的精简多智能体套件，可混合任意模型并自动分配任务。"
+    },
+    "memorybear": {
+      "en": "MemoryBear gives AI applications a human-like memory capability, aimed at developers building assistants that need to recall past interactions.",
+      "zh": "MemoryBear 为 AI 应用提供类似人类的记忆能力，面向需要让助手记住过往交互的开发者。"
+    },
+    "flowsint": {
+      "en": "A platform for cybersecurity analysts and investigators to run visual, flexible, and extensible graph-based investigations.",
+      "zh": "一个面向网络安全分析师和调查人员的平台，用于开展可视化、灵活且可扩展的图分析调查。"
+    },
+    "pixel-agents": {
+      "en": "A pixel office tool listed under dev-tools.",
+      "zh": "一款归入开发工具类的像素办公室工具。"
+    },
+    "spotifast": {
+      "en": "A lightweight Rust app for Spotify users who want native library access, local playback, and Spotify Connect on Linux, macOS, and Windows.",
+      "zh": "一款轻量级 Rust 应用，面向希望获得原生音乐库访问、本地播放和 Spotify Connect 的 Linux、macOS 和 Windows 用户。"
+    },
+    "awesome-gpt-image-2-2": {
+      "en": "A free, open-source prompt library with 2000+ curated GPT Image 2 prompts, preview images and 16 languages, updated daily for AI image creators.",
+      "zh": "面向图像创作者的开源提示词库：2000+ 条提示词、预览图、16 种语言，每日更新。"
+    },
+    "gumroad": {
+      "en": "Gumroad lets developers try out ideas and see what sticks.",
+      "zh": "Gumroad 让开发者尝试各种想法，看看哪些能留下来。"
     }
   }
 }

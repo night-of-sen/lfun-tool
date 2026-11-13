@@ -9713,5 +9713,215 @@
     "source": "README.md",
     "rawLength": 2551,
     "fetchedAt": "2026-11-12T10:53:52.642Z"
+  },
+  "t3code": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5357,
+    "fetchedAt": "2026-11-13T10:47:42.223Z"
+  },
+  "omniget": {
+    "summary": "OmniGet has its own extractors for the sites people use most and hands the rest to yt-dlp, which covers roughly 1,800 sites.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 36547,
+    "fetchedAt": "2026-11-13T10:47:42.223Z"
+  },
+  "edge0": {
+    "summary": "edge0-infer chat --model /path/to/Edge0-145B-q3k opens an interactive session instead. More options: edge0-infer/docs/edge0-145b.md.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 24508,
+    "fetchedAt": "2026-11-13T10:47:42.781Z"
+  },
+  "deepep": {
+    "summary": "DeepEP is fully tested with InfiniBand networks. However, it is theoretically compatible with RDMA over Converged Ethernet (RoCE) as well.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 32912,
+    "fetchedAt": "2026-11-13T10:47:42.781Z"
+  },
+  "read-frog": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 22064,
+    "fetchedAt": "2026-11-13T10:47:42.781Z"
+  },
+  "awesome-claude-skills-3": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 49520,
+    "fetchedAt": "2026-11-13T10:47:42.781Z"
+  },
+  "awesome-nanobanana-pro": {
+    "summary": "Prompts focused on pushing the boundaries of composition, crowd generation, minimalism, and temporal consistency.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 100197,
+    "fetchedAt": "2026-11-13T10:47:42.781Z"
+  },
+  "autoclip": {
+    "summary": "",
+    "docker": "git clone https://github.com/zhouxiaoka/autoclip.git\ncd autoclip\ncp env.example .env\nmkdir -p data logs uploads\ndocker compose up -d --build",
+    "source": "README.md",
+    "rawLength": 21316,
+    "fetchedAt": "2026-11-13T10:47:42.781Z"
+  },
+  "dsh-web": {
+    "summary": "dsh-web 是面向 DeepSeek Harness（DSH）Web GUI、DeepSeek 网页版与官方桌面客户端（DeepSeek Desktop）的模块化插件生态与 AI 智能体开发工作台。全面适配 DeepSeek V4.1 系列等前沿推理与编程大模型及多供应商生态，为开发者与重度用户提供自主任务自动化看板（父卡自治派发子任务与 Cron 定时调度）、梁神模式（极简 Persona 与 PTC 程序化工具传输）、智能体小队（可复用成员定义与整队 Agent Teams 协同）、实时浏览器视图（右侧栏 CDP 实时投屏与网页交互自动化）、手机 App 远程访问、Web SSH 终端…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 61220,
+    "fetchedAt": "2026-11-13T10:47:43.400Z"
+  },
+  "browserskill": {
+    "summary": "BrowserSkill connects your AI agent to Chrome or Microsoft Edge, using your existing logins. Give it a task to read, click, fill, or investigate. Work stays visible in a separate Agent Window, and you can take over when needed. Existing tabs can be explicitly borrowed and returned when the task ends…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 38140,
+    "fetchedAt": "2026-11-13T10:47:43.400Z"
+  },
+  "pakeplus-ios": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10436,
+    "fetchedAt": "2026-11-13T10:47:43.400Z"
+  },
+  "runanywhere-sdks": {
+    "summary": "RunAnywhere License (Apache 2.0 based, with additional commercial-use terms). See LICENSE for details.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 32879,
+    "fetchedAt": "2026-11-13T10:47:43.400Z"
+  },
+  "claurst": {
+    "summary": "Claurst is an open-source, multi-provider terminal coding agent built from the ground up in Rust. It started as a clean-room reimplementation of Claude Code's behavior (from spec) and has since evolved into an amazing TUI pair programmer with multi-provider support, a rich UI, plugin system, a compa…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12678,
+    "fetchedAt": "2026-11-13T10:47:43.400Z"
+  },
+  "morphe-manager": {
+    "summary": "Morphe is an Android app that patches YouTube, YouTube Music, and Reddit - stripping ads and giving you back control over your experience. No root required.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12337,
+    "fetchedAt": "2026-11-13T10:47:43.400Z"
+  },
+  "claude-code-tips": {
+    "summary": "Claude Code is an excellent writing assistant and partner. The way I use it for writing is I first give it all the context about what I'm trying to write, and then I give it detailed instructions by speaking to it using my voice. That gives me the first draft. If it's not good enough, I try a few ti…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 80181,
+    "fetchedAt": "2026-11-13T10:47:43.972Z"
+  },
+  "m3e-canvas": {
+    "summary": "M3E Canvas is a free, open-source sketchpad for app screens made of real Material 3 Expressive parts. It runs entirely in your browser: no account, no server, nothing to install. What you sketch becomes a precise prompt that any AI coding tool that takes one, such as Claude Code, Codex, Gemini CLI o…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15641,
+    "fetchedAt": "2026-11-13T10:47:43.972Z"
+  },
+  "dashbeam": {
+    "summary": "DashBeam is built on Iroh, a modern peer-to-peer networking stack that simplifies direct device-to-device communication. In practice, that means devices talk over encrypted QUIC, files move with content-addressed blobs, and relays help when a direct path isn’t available.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18228,
+    "fetchedAt": "2026-11-13T10:47:43.972Z"
+  },
+  "astrid": {
+    "summary": "Astrid is an operating-system project for software built from WebAssembly capsules. Today it runs as a portable user-space runtime on macOS and Linux; the direction is a standalone operating system. This release is the hosted runtime, not a bootable OS image.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20642,
+    "fetchedAt": "2026-11-13T10:47:43.972Z"
+  },
+  "infinite-canvas": {
+    "summary": "",
+    "docker": "git clone git@github.com:basketikun/infinite-canvas.git\ncd infinite-canvas\ndocker compose up -d",
+    "source": "README.md",
+    "rawLength": 11028,
+    "fetchedAt": "2026-11-13T10:47:43.972Z"
+  },
+  "pocket-tts": {
+    "summary": "Pocket TTS is small enough to run directly in your browser in WebAssembly/JavaScript. We don't have official support for this yet, but you can try out one of these community implementations: - wasm-pocket-tts by @LaurentMazare: Rust port of pocket TTS with XN. Demo here - pocket-tts-onnx-export by @…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 32798,
+    "fetchedAt": "2026-11-13T10:47:43.972Z"
+  },
+  "spotifast": {
+    "summary": "Spotifast is a Spotify client written in Rust with egui and fastframe, the framework behind a family of native desktop apps. It plays music through Spotify Soloist or the built-in librespot player, and has no browser engine.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12668,
+    "fetchedAt": "2026-11-13T10:47:45.178Z"
+  },
+  "awesome-gpt-image-2-2": {
+    "summary": "GPT Image 2 (codename \"duct-tape\") is OpenAI's next-generation image model. Community testing highlights a leap in these areas:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 307295,
+    "fetchedAt": "2026-11-13T10:47:45.178Z"
+  },
+  "niubigeo": {
+    "summary": "NiubiGEO is an open-source tool for tracking brand visibility and competitors in AI answers. Start with a domain to see how different models describe your product and which competitors they name. Then test keywords to find out who appears in the answers. Open any result to inspect the original respo…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 22934,
+    "fetchedAt": "2026-11-13T10:47:45.178Z"
+  },
+  "plannotator": {
+    "summary": "Plannotator is a local, browser-based review surface for AI coding agents: Claude Code, Codex, Copilot CLI, Gemini CLI, OpenCode, Kiro, Droid, Amp, DeepSeek Harness, and Pi. Plannotator Inbox also works with personal assistants (Grok Bot, Muse, Hermes, OpenClaw).",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 31339,
+    "fetchedAt": "2026-11-13T10:47:45.178Z"
+  },
+  "ltx-2": {
+    "summary": "LTX-2 is the first DiT-based audio-video foundation model that contains all core capabilities of modern video generation in one model: synchronized audio and video, high fidelity, multiple performance modes, production-ready outputs, API access, and open access.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20825,
+    "fetchedAt": "2026-11-13T10:47:45.178Z"
+  },
+  "oh-my-opencode-slim": {
+    "summary": "oh-my-opencode-slim is an agent orchestration plugin for OpenCode. It includes a built-in team of specialized agents that can scout a codebase, look up fresh documentation, review architecture, handle UI work, and execute well-scoped implementation tasks under one orchestrator.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 94166,
+    "fetchedAt": "2026-11-13T10:47:45.178Z"
+  },
+  "memorybear": {
+    "summary": "MemoryBear is a next-generation AI memory system developed by RedBear AI. Its core breakthrough lies in moving beyond the limitations of traditional \"static knowledge storage\". Inspired by the cognitive mechanisms of biological brains, MemoryBear builds an intelligent knowledge-processing framework…",
+    "docker": "# 1. Clone the repository\ngit clone https://github.com/SuanmoSuanyangTechnology/MemoryBear.git\ncd MemoryBear/api\n\n# 2. Start base services (PostgreSQL / Neo4j / Redis / Elasticsearch)\n# Pull and start these images via Docker Desktop first (see Installation section 3.2)\n\n# 3. Configure environment variables\ncp env.example .env\n# Edit .env with your database connections and LLM API keys\n\n# 4. Initialize the database\npip install uv && uv sync\nalembic upgrade head\n\n# 5. Start API + Celery Workers + Beat scheduler\ndocker-compose up -d\n\n# 6. Initialize the system and get the admin account\ncurl -X POST http://127.0.0.1:8002/api/setup",
+    "source": "README.md",
+    "rawLength": 23032,
+    "fetchedAt": "2026-11-13T10:48:47.387Z"
+  },
+  "pixel-agents": {
+    "summary": "Pixel Agents turns the AI coding agents running in your terminals into animated pixel-art characters working in a tiny office. They walk to their desks, sit down, type when they're editing files, read when they're searching, and flag you visually when they're stuck waiting for input. The office is a…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14742,
+    "fetchedAt": "2026-11-13T10:48:47.387Z"
+  },
+  "flowsint": {
+    "summary": "Flowsint is an open-source OSINT graph exploration tool designed for ethical investigation, transparency, and verification.",
+    "docker": "docker compose -f docker-compose.prod.yml up -d",
+    "source": "README.md",
+    "rawLength": 10586,
+    "fetchedAt": "2026-11-13T10:48:47.387Z"
+  },
+  "gumroad": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10633,
+    "fetchedAt": "2026-11-13T10:48:47.387Z"
   }
 }
