@@ -1,6 +1,332 @@
 {
   "days": [
     {
+      "date": "2026-11-14",
+      "items": [
+        {
+          "title": "Ask HN: What are the most useful, concrete AI skills to independently learn?",
+          "link": "https://news.ycombinator.com/item?id=50494696",
+          "source": "Hacker News",
+          "date": "2026-11-14",
+          "zhTitle": "Ask HN：有哪些最实用、最具体的 AI 技能值得自学？",
+          "zh": "Hacker News 讨论帖征集可独立自学的最实用 AI 技能。",
+          "en": "HN thread asks which concrete AI skills are worth learning independently."
+        },
+        {
+          "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+          "link": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+          "source": "Hacker News",
+          "date": "2026-11-14",
+          "zhTitle": "英伟达被指资助 AI 初创公司购买自家 GPU，人为制造稀缺",
+          "zh": "报道称英伟达借投资初创企业回购自家 GPU，制造稀缺。",
+          "en": "Report alleges Nvidia funded AI startups to buy its GPUs, engineering scarcity."
+        },
+        {
+          "title": "After 600 experiments, here's what I discovered about JEPA world models",
+          "link": "https://haddyalchaer.com/jepa",
+          "source": "Hacker News",
+          "date": "2026-11-13",
+          "zhTitle": "600 次实验后，我对 JEPA 世界模型的发现",
+          "zh": "作者以 600 次实验总结对 JEPA 世界模型的认识。",
+          "en": "Author shares what he learned about JEPA world models after 600 experiments."
+        },
+        {
+          "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+          "link": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+          "source": "Hacker News",
+          "date": "2026-11-13",
+          "zhTitle": "Jonathan Blow：如果 AI 已解决编程，为何我的软件还是老样子？[视频]",
+          "zh": "视频中 Jonathan Blow 质疑 AI 对软件开发的实际影响。",
+          "en": "Jonathan Blow questions AI's real impact on software development."
+        },
+        {
+          "title": "Introducing ChatGPT Wallet",
+          "link": "https://openai.com/index/introducing-chatgpt-wallet",
+          "source": "OpenAI",
+          "date": "2026-11-13",
+          "zhTitle": "推出 ChatGPT 钱包",
+          "zh": "OpenAI 发布 ChatGPT 钱包。",
+          "en": "OpenAI introduces ChatGPT Wallet."
+        },
+        {
+          "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+          "link": "https://openai.com/business/customer-stories/shield",
+          "source": "OpenAI",
+          "date": "2026-11-13",
+          "zhTitle": "Shield 借助 OpenAI 帮技术人员交接旧门户工作",
+          "zh": "Shield 用 OpenAI 协助技术员移交旧门户系统工作。",
+          "en": "Shield uses OpenAI to hand off legacy portal work."
+        },
+        {
+          "title": "Build once, run on any agent: A practical guide to agent skills",
+          "link": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+          "source": "GitHub Blog",
+          "date": "2026-11-12",
+          "zhTitle": "一次构建，随处运行：智能体技能实用指南",
+          "zh": "GitHub 博客发布跨智能体复用技能的实操指南。",
+          "en": "GitHub guide on building reusable agent skills that run on any agent."
+        },
+        {
+          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+          "link": "https://openai.com/business/customer-stories/amplitude",
+          "source": "OpenAI",
+          "date": "2026-11-12",
+          "zhTitle": "Amplitude 如何借助 OpenAI 在 1–2 天内交付产品改进",
+          "zh": "Amplitude 用 OpenAI 将产品改进交付缩短至 1–2 天。",
+          "en": "Amplitude ships product improvements in 1–2 days with OpenAI."
+        },
+        {
+          "title": "Gondola doubles revenue as its team builds more with Codex",
+          "link": "https://openai.com/business/customer-stories/gondola",
+          "source": "OpenAI",
+          "date": "2026-11-12",
+          "zhTitle": "Gondola 团队用 Codex 建造更多，营收翻倍",
+          "zh": "Gondola 团队用 Codex 多造产品，实现营收翻倍。",
+          "en": "Gondola doubles revenue as its team builds more with Codex."
+        },
+        {
+          "title": "Holiday Extras is rethinking what it can build with Codex",
+          "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
+          "source": "OpenAI",
+          "date": "2026-11-12",
+          "zhTitle": "Holiday Extras 重新思考用 Codex 能构建什么",
+          "zh": "Holiday Extras 借 Codex 重新定义可构建的产品范围。",
+          "en": "Holiday Extras rethinks what it can build with Codex."
+        },
+        {
+          "title": "The Download: preserving minds and weighing open AI risks",
+          "link": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-11",
+          "zhTitle": "The Download：保存心智与权衡开放 AI 风险",
+          "zh": "今日简报关注心智保存技术与开放 AI 风险权衡。",
+          "en": "The Download covers mind preservation and weighing open AI risks."
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "modern-web-guidance",
+          "name": "Modern Web Guidance",
+          "repo": "GoogleChrome/modern-web-guidance",
+          "stars": 12149
+        },
+        {
+          "id": "finetune",
+          "name": "FineTune",
+          "repo": "ronitsingh10/FineTune",
+          "stars": 10150
+        },
+        {
+          "id": "research-starter-kit",
+          "name": "Research Starter Kit",
+          "repo": "LAMDA-NeSy/Research-Starter-Kit",
+          "stars": 10126
+        },
+        {
+          "id": "feynman",
+          "name": "Feynman",
+          "repo": "Companion-Inc/feynman",
+          "stars": 10121
+        },
+        {
+          "id": "magentic-ui",
+          "name": "Magentic Ui",
+          "repo": "microsoft/magentic-ui",
+          "stars": 10117
+        },
+        {
+          "id": "kokoro",
+          "name": "Kokoro",
+          "repo": "hexgrad/kokoro",
+          "stars": 10108
+        },
+        {
+          "id": "cindy",
+          "name": "Cindy",
+          "repo": "makecindy/cindy",
+          "stars": 10094
+        },
+        {
+          "id": "rf-detr",
+          "name": "Rf Detr",
+          "repo": "roboflow/rf-detr",
+          "stars": 10062
+        },
+        {
+          "id": "claude-code-infrastructure-showcase",
+          "name": "Claude Code Infrastructure Showcase",
+          "repo": "diet103/claude-code-infrastructure-showcase",
+          "stars": 10056
+        },
+        {
+          "id": "superplane",
+          "name": "Superplane",
+          "repo": "superplanehq/superplane",
+          "stars": 10049
+        },
+        {
+          "id": "mobilerun",
+          "name": "Mobilerun",
+          "repo": "droidrun/mobilerun",
+          "stars": 10044
+        },
+        {
+          "id": "defuddle",
+          "name": "Defuddle",
+          "repo": "kepano/defuddle",
+          "stars": 10023
+        },
+        {
+          "id": "claude-for-legal",
+          "name": "Claude For Legal",
+          "repo": "anthropics/claude-for-legal",
+          "stars": 10001
+        },
+        {
+          "id": "bindu",
+          "name": "Bindu",
+          "repo": "GetBindu/Bindu",
+          "stars": 9992
+        },
+        {
+          "id": "kev",
+          "name": "Kev",
+          "repo": "jaredpalmer/kev",
+          "stars": 9980
+        },
+        {
+          "id": "moltworker",
+          "name": "Moltworker",
+          "repo": "cloudflare/moltworker",
+          "stars": 9946
+        },
+        {
+          "id": "mcp",
+          "name": "Mcp",
+          "repo": "awslabs/mcp",
+          "stars": 9918
+        },
+        {
+          "id": "computer",
+          "name": "Computer",
+          "repo": "cloudflare/computer",
+          "stars": 9916
+        },
+        {
+          "id": "openmotion",
+          "name": "Openmotion",
+          "repo": "nexu-io/openmotion",
+          "stars": 9880
+        },
+        {
+          "id": "open-pencil",
+          "name": "Open Pencil",
+          "repo": "open-pencil/open-pencil",
+          "stars": 9844
+        },
+        {
+          "id": "pdfcraft-2",
+          "name": "Pdfcraft",
+          "repo": "PDFCraftTool/pdfcraft",
+          "stars": 9842
+        },
+        {
+          "id": "autoagent",
+          "name": "AutoAgent",
+          "repo": "HKUDS/AutoAgent",
+          "stars": 9842
+        },
+        {
+          "id": "hunk",
+          "name": "Hunk",
+          "repo": "modem-dev/hunk",
+          "stars": 9829
+        },
+        {
+          "id": "espectre",
+          "name": "Espectre",
+          "repo": "francescopace/espectre",
+          "stars": 9815
+        },
+        {
+          "id": "open-slide",
+          "name": "Open Slide",
+          "repo": "open-slide/open-slide",
+          "stars": 9768
+        },
+        {
+          "id": "ralph-claude-code",
+          "name": "Ralph Claude Code",
+          "repo": "frankbria/ralph-claude-code",
+          "stars": 9730
+        },
+        {
+          "id": "xianyuautoagent",
+          "name": "XianyuAutoAgent",
+          "repo": "shaxiu/XianyuAutoAgent",
+          "stars": 9678
+        },
+        {
+          "id": "universal-modder",
+          "name": "Universal Modder",
+          "repo": "rehan-remade/universal-modder",
+          "stars": 9675
+        },
+        {
+          "id": "knowledge-catalog",
+          "name": "Knowledge Catalog",
+          "repo": "GoogleCloudPlatform/knowledge-catalog",
+          "stars": 9667
+        },
+        {
+          "id": "goutoujunshi",
+          "name": "Goutoujunshi",
+          "repo": "shengjidaguai-china/goutoujunshi",
+          "stars": 9633
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "modern-web-guidance",
+          "name": "Modern Web Guidance",
+          "repo": "GoogleChrome/modern-web-guidance",
+          "stars": 12149,
+          "gain": 12149
+        },
+        {
+          "id": "finetune",
+          "name": "FineTune",
+          "repo": "ronitsingh10/FineTune",
+          "stars": 10150,
+          "gain": 10150
+        },
+        {
+          "id": "research-starter-kit",
+          "name": "Research Starter Kit",
+          "repo": "LAMDA-NeSy/Research-Starter-Kit",
+          "stars": 10126,
+          "gain": 10126
+        },
+        {
+          "id": "feynman",
+          "name": "Feynman",
+          "repo": "Companion-Inc/feynman",
+          "stars": 10121,
+          "gain": 10121
+        },
+        {
+          "id": "magentic-ui",
+          "name": "Magentic Ui",
+          "repo": "microsoft/magentic-ui",
+          "stars": 10117,
+          "gain": 10117
+        }
+      ],
+      "rollupZh": "今日热点集中在 Hacker News：一条帖子征集可自学的实用 AI 技能，另有报道称英伟达通过资助 AI 初创公司购买其 GPU 制造稀缺。产品与企业动态方面，OpenAI 推出 ChatGPT 钱包，GitHub 发布跨智能体技能指南，多家公司披露用 Codex 提效。",
+      "rollupEn": "Today's highlights center on Hacker News: a thread asks which concrete AI skills to learn independently, while a report alleges Nvidia funded AI startups to buy its GPUs and engineer scarcity. On the product side, OpenAI launched ChatGPT Wallet, GitHub published a guide to portable agent skills, and several firms shared how Codex speeds their work.",
+      "failures": []
+    },
+    {
       "date": "2026-11-13",
       "items": [
         {

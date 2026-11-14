@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T10:50:29.737Z",
+  "generatedAt": "2026-11-14T10:04:11.463Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -5672,6 +5672,126 @@
     "gumroad": {
       "en": "Gumroad lets developers try out ideas and see what sticks.",
       "zh": "Gumroad 让开发者尝试各种想法，看看哪些能留下来。"
+    },
+    "feynman": {
+      "en": "An open source AI research agent for people who want agent-assisted research.",
+      "zh": "面向需要 AI 辅助研究的用户的开源 AI 研究智能体。"
+    },
+    "magentic-ui": {
+      "en": "MagenticLite is an experimental agent for users who need tasks spanning the browser and local file system.",
+      "zh": "MagenticLite 是一款实验性代理，面向需要在浏览器与本地文件系统之间协同完成任务的使用者。"
+    },
+    "modern-web-guidance": {
+      "en": "For developers using coding agents, it keeps the agent current with the latest web best practices.",
+      "zh": "面向使用编码智能体的开发者，让智能体持续掌握最新的 Web 最佳实践。"
+    },
+    "research-starter-kit": {
+      "en": "A starter kit for beginners that covers the basic workflow of doing research and writing papers.",
+      "zh": "面向科研新手，帮助掌握开展研究和撰写论文的基本流程。"
+    },
+    "cindy": {
+      "en": "Cindy is an open-source AI agent for users who want to get started without setup. It works out of the box.",
+      "zh": "Cindy 是一款开源、开箱即用的 AI Agent，适合希望免配置直接上手的用户。"
+    },
+    "claude-code-infrastructure-showcase": {
+      "en": "Example infrastructure for Claude Code users, showing skill auto-activation, hooks, and agents.",
+      "zh": "面向 Claude Code 用户的示例基础设施，展示技能自动激活、钩子和代理。"
+    },
+    "rf-detr": {
+      "en": "RF-DETR is Roboflow's real-time object detection and segmentation model, designed for developers fine-tuning on custom data.",
+      "zh": "RF-DETR 是 Roboflow 的实时目标检测与分割模型，面向微调自定义数据的开发者。"
+    },
+    "kokoro": {
+      "en": "Kokoro is a Hugging Face model for developers; its model page lists its capabilities and usage.",
+      "zh": "Kokoro 是托管在 Hugging Face 上的模型，开发者可在模型页了解其能力与用法。"
+    },
+    "finetune": {
+      "en": "A free, open-source macOS menu bar app for users who need per-app volume control, multi-device output, audio routing, and a 10-band EQ.",
+      "zh": "macOS 菜单栏免费开源工具：按应用调音量、多设备输出、音频路由、10 段均衡器。"
+    },
+    "mobilerun": {
+      "en": "An LLM-agnostic mobile agent that lets users automate their mobile devices with natural language commands.",
+      "zh": "一个不绑定特定大模型的移动端 Agent，让用户用自然语言指令自动操作移动设备。"
+    },
+    "defuddle": {
+      "en": "Extracts the main content of a web page as Markdown for readers who want clean text to save or reuse.",
+      "zh": "把网页正文提取为 Markdown，方便需要保存或复用干净文本的读者。"
+    },
+    "bindu": {
+      "en": "Bindu provides an identity, communication, and payments layer for AI agents.",
+      "zh": "Bindu 为 AI 代理提供身份、通信与支付层。"
+    },
+    "claude-for-legal": {
+      "en": "A suite of plugins for legal workflows, intended for teams handling legal tasks.",
+      "zh": "一套面向法律工作流程的插件，供处理法律事务的团队使用。"
+    },
+    "kev": {
+      "en": "Kev is a family of decision models built on Qwen3.5/3.8 that you can train and run on your own.",
+      "zh": "Kev 是构建在 Qwen3.5/3.8 之上的一组决策模型，可自行训练和本地运行。"
+    },
+    "superplane": {
+      "en": "An open source factory for one-shot engineering, for AI agent builders who need to complete engineering tasks in a single pass.",
+      "zh": "开源的一次性工程工厂，面向需要单次完成工程任务的 AI 智能体构建者。"
+    },
+    "computer": {
+      "en": "Lets developers give their agent a computer to work in.",
+      "zh": "让开发者为自己的智能体提供一台可用的电脑。"
+    },
+    "moltworker": {
+      "en": "Lets developers run OpenClaw (formerly Moltbot, formerly Clawdbot) on Cloudflare Workers.",
+      "zh": "让开发者在 Cloudflare Workers 上运行 OpenClaw（原 Moltbot，原 Clawdbot）。"
+    },
+    "mcp": {
+      "en": "Open source MCP servers that let AI agents connect to AWS, aimed at developers building AWS-integrated agents.",
+      "zh": "面向需要连接 AWS 的 AI 代理开发者，提供开源的 MCP 服务器。"
+    },
+    "open-pencil": {
+      "en": "An AI-native design editor for designers who want an open-source alternative to Figma.",
+      "zh": "面向需要开源 Figma 替代方案的设计师，提供 AI 原生的设计编辑器。"
+    },
+    "pdfcraft-2": {
+      "en": "For people who need to edit or convert PDFs without uploading files, it offers browser-based tools.",
+      "zh": "适合需要在线编辑或转换 PDF 又不想上传文件的用户，所有操作都在浏览器内完成。"
+    },
+    "autoagent": {
+      "en": "AutoAgent is a fully-automated, zero-code framework for building LLM agents, aimed at users who want agents without coding.",
+      "zh": "AutoAgent 是一个全自动、零代码的 LLM 智能体框架，面向希望无需写代码即可构建智能体的用户。"
+    },
+    "open-slide": {
+      "en": "A slide framework designed for agents to build and manage presentations.",
+      "zh": "一个为智能体构建和管理演示文稿而设计的幻灯片框架。"
+    },
+    "ralph-claude-code": {
+      "en": "Gives Claude Code users an autonomous development loop with intelligent exit detection.",
+      "zh": "为 Claude Code 用户提供带智能退出检测的自主开发循环。"
+    },
+    "hunk": {
+      "en": "A review-first terminal diff viewer for agentic coders, letting them review code diffs in the terminal.",
+      "zh": "面向智能体编程者的审查优先终端差异查看器，用于在终端中查看代码差异。"
+    },
+    "espectre": {
+      "en": "For developers building Wi-Fi motion sensing on ESP32, offering a C++ SDK and ESPHome, Native, and Matter frontends plus tools for the device lifecycle.",
+      "zh": "面向在 ESP32 上开发 Wi-Fi 运动感知的开发者，提供 C++ SDK 及 ESPHome、Native、Matter 前端和覆盖设备生命周期的工具。"
+    },
+    "knowledge-catalog": {
+      "en": "Tools and samples for developers working with Google Cloud Knowledge Catalog.",
+      "zh": "面向使用 Google Cloud Knowledge Catalog 的开发者，提供工具与示例。"
+    },
+    "openmotion": {
+      "en": "Open-source studio for creators using Opus 5.5: reverse-engineer any video, then recreate, edit and render it with HTML code.",
+      "zh": "开源全栈工作室：面向 Opus 5.5 视频创作者，逆向解析视频并用 HTML 重建渲染。"
+    },
+    "goutoujunshi": {
+      "en": "A Codex relationship advisor for people navigating romance and diverse relationships, it first acknowledges emotions, then analyzes the situation and suggests actionable steps.",
+      "zh": "面向恋爱与多元关系困扰人群的 Codex 恋爱军师，先接住情绪，再分析关系并给出可执行策略。"
+    },
+    "xianyuautoagent": {
+      "en": "For Xianyu sellers, an AI customer service bot offering 7×24 automated support, multi-expert collaboration, smart bargaining, and context-aware dialogue.",
+      "zh": "闲鱼AI客服机器人：7×24小时值守，支持多专家协同、智能议价和上下文感知对话。"
+    },
+    "universal-modder": {
+      "en": "For modders: lets Claude Code recon, reverse engineer and test mods for PC games you own, with fal-generated art, 3D and audio.",
+      "zh": "面向模组作者：让 Claude Code 对自有 PC 游戏做侦察、逆向与测试，并用 fal 生成美术、3D 与音频。"
     }
   }
 }

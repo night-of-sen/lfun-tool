@@ -9923,5 +9923,215 @@
     "source": "README.md",
     "rawLength": 10633,
     "fetchedAt": "2026-11-13T10:48:47.387Z"
+  },
+  "modern-web-guidance": {
+    "summary": "Modern Web Guidance is a set of skills that embed web platform expertise, best practices, and browser compatibility data directly into your coding agents. It helps to steer your coding agents away from legacy patterns, and instead toward solutions that harness the power and capabilities of the moder…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 107639,
+    "fetchedAt": "2026-11-14T10:01:24.081Z"
+  },
+  "finetune": {
+    "summary": "FineTune is free and open source, forever. If it made your day a little easier, you can buy me a coffee — but genuinely not expected 🙏",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9017,
+    "fetchedAt": "2026-11-14T10:01:24.081Z"
+  },
+  "research-starter-kit": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3873,
+    "fetchedAt": "2026-11-14T10:01:24.650Z"
+  },
+  "feynman": {
+    "summary": "Feynman sends anonymous usage data to PostHog: commands, workflows, tools, models, token counts, and errors with their messages and stack traces (your home folder shown as ). It never sends prompts, model output, paper content, or tool arguments. Turn it off with FEYNMANTELEMETRY=off. What is sent",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3563,
+    "fetchedAt": "2026-11-14T10:01:24.650Z"
+  },
+  "magentic-ui": {
+    "summary": "MagenticLite is the next generation of Magentic-UI — an agentic application from Microsoft AI Frontiers, redesigned to do more with less. It pairs an on-device-friendly orchestrator model (MagenticBrain) with a specialized browser-use model (Fara) so you can automate real work without depending on f…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5286,
+    "fetchedAt": "2026-11-14T10:01:24.650Z"
+  },
+  "kokoro": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7818,
+    "fetchedAt": "2026-11-14T10:01:24.650Z"
+  },
+  "cindy": {
+    "summary": "Cindy is an open-source AI agent, ready out of the box and yours to shape. Connect your computers and phone, bring the models and subscriptions you already use, and build a companion that knows how you like to work.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14976,
+    "fetchedAt": "2026-11-14T10:01:24.650Z"
+  },
+  "rf-detr": {
+    "summary": "RF-DETR is a real-time transformer architecture for object detection, instance segmentation, and keypoint detection (preview) developed by Roboflow. Built on a DINOv2 vision transformer backbone (a PE-Core-T backbone for Atto, Femto and Pico), RF-DETR delivers state-of-the-art accuracy and latency t…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 31677,
+    "fetchedAt": "2026-11-14T10:01:24.650Z"
+  },
+  "claude-code-infrastructure-showcase": {
+    "summary": "Claude clones the repo, runs the wizard (which verifies its own work), and reports back.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 23470,
+    "fetchedAt": "2026-11-14T10:01:25.190Z"
+  },
+  "superplane": {
+    "summary": "SuperPlane turns high-confidence backlog issues into verified, review-ready pull requests so engineers can focus on work that needs judgment.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4872,
+    "fetchedAt": "2026-11-14T10:01:25.190Z"
+  },
+  "mobilerun": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13600,
+    "fetchedAt": "2026-11-14T10:01:25.190Z"
+  },
+  "defuddle": {
+    "summary": "Defuddle extracts the main content from web pages. It cleans up web pages by removing clutter like comments, sidebars, headers, footers, and other non-essential elements, leaving only the primary content.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14134,
+    "fetchedAt": "2026-11-14T10:01:25.190Z"
+  },
+  "claude-for-legal": {
+    "summary": "For Managed Agent deployment — agent.yaml, leaf-worker subagents, steering-event examples, and per-agent security notes — see managed-agent-cookbooks/.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 53249,
+    "fetchedAt": "2026-11-14T10:01:25.190Z"
+  },
+  "bindu": {
+    "summary": "Bindu is all of that plumbing, behind one function call. You wrap your handler with bindufy(), and a few seconds later your agent is online with its own cryptographic identity, speaking A2A (the protocol other agents already use), and ready to demand USDC on any EVM chain before it does any work (x4…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18656,
+    "fetchedAt": "2026-11-14T10:01:25.190Z"
+  },
+  "kev": {
+    "summary": "Kev is a family of small decision models built on Qwen3.5 and Qwen3.8 and based on the architecture described in Jev's Architecture Unmasked. You can use the pretrained weights or train your own. The API matches TypeSafe's System One, so you can point their Python SDK at your local server.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 46372,
+    "fetchedAt": "2026-11-14T10:01:25.722Z"
+  },
+  "moltworker": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 22550,
+    "fetchedAt": "2026-11-14T10:01:25.722Z"
+  },
+  "mcp": {
+    "summary": "MCP Servers for AWS use this protocol to provide AI applications access to AWS documentation, contextual guidance, and best practices. Through the standardized MCP client-server architecture, AWS capabilities become an intelligent extension of your development environment or AI application.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 209900,
+    "fetchedAt": "2026-11-14T10:01:25.722Z"
+  },
+  "computer": {
+    "summary": "computerd's FUSE mount beats real disk on metadata-heavy work and trails it on large sequential I/O. See docs/19performance.md for the full fs-bench numbers, a cloudflare/sandbox-sdk npm install comparison, and how to reproduce them.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8123,
+    "fetchedAt": "2026-11-14T10:01:25.722Z"
+  },
+  "openmotion": {
+    "summary": "OpenMotion is the first full-stack agentic video generator. Upload a reference video or paste a social video link to recreate it with your own brand kit and copy.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 57265,
+    "fetchedAt": "2026-11-14T10:01:25.722Z"
+  },
+  "open-pencil": {
+    "summary": "Open-source design editor. Opens .fig and .pen design files, includes built-in AI, and ships as a programmable toolkit with a headless Vue SDK for building custom editors.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13930,
+    "fetchedAt": "2026-11-14T10:01:25.722Z"
+  },
+  "pdfcraft-2": {
+    "summary": "PDFCraft includes a powerful visual workflow editor that allows you to chain multiple PDF operations together, creating automated processing pipelines.",
+    "docker": "# Pull the latest image\ndocker pull ghcr.io/pdfcrafttool/pdfcraft:latest\n\n# Run the container\ndocker run -d -p 8080:80 --name pdfcraft ghcr.io/pdfcrafttool/pdfcraft:latest",
+    "source": "README.md",
+    "rawLength": 19479,
+    "fetchedAt": "2026-11-14T10:01:26.294Z"
+  },
+  "autoagent": {
+    "summary": "AutoAgent features a ready-to-use multi-agent system accessible through user mode on the start page. This system serves as a comprehensive AI research assistant designed for information retrieval, complex analytical tasks, and comprehensive report generation.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20283,
+    "fetchedAt": "2026-11-14T10:01:26.294Z"
+  },
+  "hunk": {
+    "summary": "Hunk is an interactive terminal diff viewer for reviewing code changes, built on OpenTUI and Pierre diffs.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16809,
+    "fetchedAt": "2026-11-14T10:01:26.294Z"
+  },
+  "espectre": {
+    "summary": "ESPectre is an open-source platform that brings together ready-to-flash firmware, an embeddable C++ SDK, an Arduino library, a MicroPython implementation, browser tools, a host CLI, an open dataset, open model weights, and the research workflow used to build and validate the detectors.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9923,
+    "fetchedAt": "2026-11-14T10:01:26.294Z"
+  },
+  "open-slide": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3404,
+    "fetchedAt": "2026-11-14T10:01:26.294Z"
+  },
+  "ralph-claude-code": {
+    "summary": "Ralph is an implementation of the Geoffrey Huntley's technique for Claude Code that enables continuous autonomous development cycles he named after Ralph Wiggum. It enables continuous autonomous development cycles where Claude Code iteratively improves your project until completion, with built-in sa…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 55946,
+    "fetchedAt": "2026-11-14T10:01:26.294Z"
+  },
+  "xianyuautoagent": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4163,
+    "fetchedAt": "2026-11-14T10:02:29.894Z"
+  },
+  "universal-modder": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 24216,
+    "fetchedAt": "2026-11-14T10:02:29.894Z"
+  },
+  "knowledge-catalog": {
+    "summary": "Knowledge Catalog (formerly Dataplex), is an AI-powered data catalog and metadata management platform. It provides a dynamic knowledge graph of all your data, structured and unstructured, to provide semantics and business context to AI agents",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1125,
+    "fetchedAt": "2026-11-14T10:02:29.894Z"
+  },
+  "goutoujunshi": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5922,
+    "fetchedAt": "2026-11-14T10:02:29.894Z"
   }
 }

@@ -33255,6 +33255,654 @@
       "cloud": "",
       "descEn": "See what sticks",
       "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "modern-web-guidance",
+      "name": "Modern Web Guidance",
+      "repo": "GoogleChrome/modern-web-guidance",
+      "homepage": "https://goo.gle/modern-web-guidance",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 12130,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Keep your coding agent up to date with the latest web best practices",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "finetune",
+      "name": "FineTune",
+      "repo": "ronitsingh10/FineTune",
+      "homepage": "",
+      "category": "video-media",
+      "desc": "",
+      "tags": [
+        "audio",
+        "audio-control",
+        "audio-utility",
+        "autoeq"
+      ],
+      "seed": {
+        "stars": 10150,
+        "language": "Swift"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "FineTune, a macOS menu bar app for per-app volume control, multi-device output, audio routing, and 10-band EQ. Free and open-source alternative to SoundSource.",
+      "pushedAt": "2026-07-09"
+    },
+    {
+      "id": "research-starter-kit",
+      "name": "Research Starter Kit",
+      "repo": "LAMDA-NeSy/Research-Starter-Kit",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-research",
+        "awesome",
+        "awesome-list",
+        "phd"
+      ],
+      "seed": {
+        "stars": 10126,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "从0开始，掌握做科研、写论文的基本流程。",
+      "pushedAt": "2026-09-01"
+    },
+    {
+      "id": "feynman",
+      "name": "Feynman",
+      "repo": "Companion-Inc/feynman",
+      "homepage": "https://feynman.is",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agent",
+        "arxiv",
+        "cli",
+        "literature-review"
+      ],
+      "seed": {
+        "stars": 10121,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The open source AI research agent.",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "magentic-ui",
+      "name": "Magentic Ui",
+      "repo": "microsoft/magentic-ui",
+      "homepage": "https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agents",
+        "ai",
+        "ai-ux",
+        "autogen"
+      ],
+      "seed": {
+        "stars": 10117,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "MagenticLite is an experimental agent that works across the browser and local file system",
+      "pushedAt": "2026-09-23"
+    },
+    {
+      "id": "kokoro",
+      "name": "Kokoro",
+      "repo": "hexgrad/kokoro",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10108,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "https://hf.co/hexgrad/Kokoro-82M",
+      "pushedAt": "2025-08-06"
+    },
+    {
+      "id": "cindy",
+      "name": "Cindy",
+      "repo": "makecindy/cindy",
+      "homepage": "https://cindy.app",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai-agent",
+        "ai-assistant",
+        "android"
+      ],
+      "seed": {
+        "stars": 10094,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "pushedAt": "2026-11-14"
+    },
+    {
+      "id": "rf-detr",
+      "name": "Rf Detr",
+      "repo": "roboflow/rf-detr",
+      "homepage": "https://rfdetr.roboflow.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "computer-vision",
+        "detr",
+        "instance-segmentation",
+        "machine-learning"
+      ],
+      "seed": {
+        "stars": 10062,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "RF-DETR is a real-time object detection and segmentation model architecture developed by Roboflow, SOTA on COCO, designed for fine-tuning. [ICLR 2026]",
+      "pushedAt": "2026-11-14"
+    },
+    {
+      "id": "claude-code-infrastructure-showcase",
+      "name": "Claude Code Infrastructure Showcase",
+      "repo": "diet103/claude-code-infrastructure-showcase",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10056,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Examples of my Claude Code infrastructure with skill auto-activation, hooks, and agents",
+      "pushedAt": "2026-07-13"
+    },
+    {
+      "id": "superplane",
+      "name": "Superplane",
+      "repo": "superplanehq/superplane",
+      "homepage": "https://superplane.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-orchestration",
+        "agentic-workflows",
+        "ai-agents",
+        "ai-coding"
+      ],
+      "seed": {
+        "stars": 10049,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open source factory for one-shot engineering",
+      "pushedAt": "2026-11-14"
+    },
+    {
+      "id": "mobilerun",
+      "name": "Mobilerun",
+      "repo": "droidrun/mobilerun",
+      "homepage": "https://mobilerun.ai/framework",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "android",
+        "android-automation",
+        "hacktoberfest"
+      ],
+      "seed": {
+        "stars": 10044,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖",
+      "pushedAt": "2026-11-14"
+    },
+    {
+      "id": "defuddle",
+      "name": "Defuddle",
+      "repo": "kepano/defuddle",
+      "homepage": "https://defuddle.md",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "cli",
+        "defuddle",
+        "html",
+        "markdown"
+      ],
+      "seed": {
+        "stars": 10023,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Get the main content of any page as Markdown.",
+      "pushedAt": "2026-10-25"
+    },
+    {
+      "id": "claude-for-legal",
+      "name": "Claude For Legal",
+      "repo": "anthropics/claude-for-legal",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10001,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A suite of plugins for legal workflows",
+      "pushedAt": "2026-11-08"
+    },
+    {
+      "id": "bindu",
+      "name": "Bindu",
+      "repo": "GetBindu/Bindu",
+      "homepage": "https://docs.getbindu.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "a2a",
+        "agent-communication",
+        "agent-orchestration",
+        "ai-agent"
+      ],
+      "seed": {
+        "stars": 9992,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Bindu: The identity, communication, and payments layer for AI agents.",
+      "pushedAt": "2026-09-06"
+    },
+    {
+      "id": "kev",
+      "name": "Kev",
+      "repo": "jaredpalmer/kev",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "decision-model",
+        "jev",
+        "qwen3"
+      ],
+      "seed": {
+        "stars": 9980,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "moltworker",
+      "name": "Moltworker",
+      "repo": "cloudflare/moltworker",
+      "homepage": "https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "cloudflare-workers"
+      ],
+      "seed": {
+        "stars": 9946,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Run OpenClaw, (formerly Moltbot, formerly Clawdbot) on Cloudflare Workers",
+      "pushedAt": "2026-05-09"
+    },
+    {
+      "id": "mcp",
+      "name": "Mcp",
+      "repo": "awslabs/mcp",
+      "homepage": "https://awslabs.github.io/mcp/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "aws",
+        "mcp",
+        "mcp-client",
+        "mcp-clients"
+      ],
+      "seed": {
+        "stars": 9918,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open source MCP Servers for AWS",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "computer",
+      "name": "Computer",
+      "repo": "cloudflare/computer",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9916,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Give your agent a computer 👾",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "openmotion",
+      "name": "Openmotion",
+      "repo": "nexu-io/openmotion",
+      "homepage": "https://open-design.ai/motion/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "agentic-ai",
+        "ai-agents",
+        "ai-video"
+      ],
+      "seed": {
+        "stars": 9879,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The open-source full-stack studio for Opus 5.5 motion video. Reverse engineering for any video. Code video with HTML: recreate, edit and render. BYOA + BYOK · Motion.md · Images, V",
+      "pushedAt": "2026-11-14"
+    },
+    {
+      "id": "open-pencil",
+      "name": "Open Pencil",
+      "repo": "open-pencil/open-pencil",
+      "homepage": "https://openpencil.dev",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "collaboration",
+        "design-editor",
+        "figma-alternative"
+      ],
+      "seed": {
+        "stars": 9844,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AI-native design editor. Open-source Figma alternative.",
+      "pushedAt": "2026-11-14"
+    },
+    {
+      "id": "pdfcraft-2",
+      "name": "Pdfcraft",
+      "repo": "PDFCraftTool/pdfcraft",
+      "homepage": "https://pdfcraft.devtoolcafe.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9842,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "PDFCraft is a free, privacy-focused PDF toolkit that runs entirely in your browser. With 90+ professional tools, you can edit, convert, merge, split, and secure your PDF files with",
+      "pushedAt": "2026-11-08"
+    },
+    {
+      "id": "autoagent",
+      "name": "AutoAgent",
+      "repo": "HKUDS/AutoAgent",
+      "homepage": "https://arxiv.org/abs/2502.05957",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "llms"
+      ],
+      "seed": {
+        "stars": 9842,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "\"AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework\"",
+      "pushedAt": "2025-10-16"
+    },
+    {
+      "id": "hunk",
+      "name": "Hunk",
+      "repo": "modem-dev/hunk",
+      "homepage": "https://hunk.dev",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agents",
+        "cli",
+        "code-review",
+        "diff"
+      ],
+      "seed": {
+        "stars": 9829,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Review-first terminal diff viewer for agentic coders",
+      "pushedAt": "2026-11-14"
+    },
+    {
+      "id": "espectre",
+      "name": "Espectre",
+      "repo": "francescopace/espectre",
+      "homepage": "https://espectre.dev/",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "arduino-library",
+        "csi",
+        "diy",
+        "embedded"
+      ],
+      "seed": {
+        "stars": 9815,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Wi-Fi motion sensing platform for ESP32. C++ SDK, ESPHome, Native, and Matter frontends, browser tools, and a CLI for the full device lifecycle. GPLv3 and commercial licensing.",
+      "pushedAt": "2026-11-12"
+    },
+    {
+      "id": "open-slide",
+      "name": "Open Slide",
+      "repo": "open-slide/open-slide",
+      "homepage": "https://open-slide.dev",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "react",
+        "slides"
+      ],
+      "seed": {
+        "stars": 9767,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A slide framework built for agents.",
+      "pushedAt": "2026-11-14"
+    },
+    {
+      "id": "ralph-claude-code",
+      "name": "Ralph Claude Code",
+      "repo": "frankbria/ralph-claude-code",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "ai-development"
+      ],
+      "seed": {
+        "stars": 9730,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Autonomous AI development loop for Claude Code with intelligent exit detection",
+      "pushedAt": "2026-11-14"
+    },
+    {
+      "id": "xianyuautoagent",
+      "name": "XianyuAutoAgent",
+      "repo": "shaxiu/XianyuAutoAgent",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "chatbot",
+        "llm"
+      ],
+      "seed": {
+        "stars": 9678,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "智能闲鱼客服机器人系统：专为闲鱼平台打造的AI值守解决方案，实现闲鱼平台7×24小时自动化值守，支持多专家协同决策、智能议价和上下文感知对话。",
+      "pushedAt": "2026-06-10"
+    },
+    {
+      "id": "universal-modder",
+      "name": "Universal Modder",
+      "repo": "rehan-remade/universal-modder",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "age-of-empires",
+        "claude-code",
+        "claude-code-plugin",
+        "fal"
+      ],
+      "seed": {
+        "stars": 9675,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing",
+      "pushedAt": "2026-11-14"
+    },
+    {
+      "id": "knowledge-catalog",
+      "name": "Knowledge Catalog",
+      "repo": "GoogleCloudPlatform/knowledge-catalog",
+      "homepage": "https://cloud.google.com/products/knowledge-catalog?e=48754805",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9667,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Google Cloud Knowledge Catalog Tools and Samples",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "goutoujunshi",
+      "name": "Goutoujunshi",
+      "repo": "shengjidaguai-china/goutoujunshi",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agent",
+        "chinese",
+        "codex",
+        "codex-skill"
+      ],
+      "seed": {
+        "stars": 9633,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。",
+      "pushedAt": "2026-09-20"
     }
   ]
 }
