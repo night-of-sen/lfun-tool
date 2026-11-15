@@ -10133,5 +10133,208 @@
     "source": "README.md",
     "rawLength": 5922,
     "fetchedAt": "2026-11-14T10:02:29.894Z"
+  },
+  "horizon-2": {
+    "summary": "Horizon is released under the MIT licence for the project's original work; dependencies keep their own licences, see the notices. Founded by Ludovic Marie and built by the Horizon Team and its contributors. You can support it on GitHub Sponsors.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5795,
+    "fetchedAt": "2026-11-15T10:36:58.633Z"
+  },
+  "misterdownloadmanager": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 42606,
+    "fetchedAt": "2026-11-15T10:36:58.633Z"
+  },
+  "open-seo-mcp-skills": {
+    "summary": "Open-source SEO + GEO skills for Claude on a free SEO MCP server (the Ryze connector) — keyword research, rank tracking, site audits, backlinks, competitor gaps, AI visibility — running on your own Search Console, Analytics and ads data through the Ryze MCP, with DataForSEO built in for the data Goo…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6627,
+    "fetchedAt": "2026-11-15T10:36:59.170Z"
+  },
+  "sphere": {
+    "summary": "Sphere implements ConnectHost — the wallet side of the Sphere Connect protocol. External dApps can connect to Sphere and request wallet operations:",
+    "docker": "docker compose up        # Runs on port 3010",
+    "source": "README.md",
+    "rawLength": 6186,
+    "fetchedAt": "2026-11-15T10:36:59.170Z"
+  },
+  "mini-swe-agent": {
+    "summary": "📣 mini-swe-agent now powers Ramp SWE-Bench 📣 mini-swe-agent beats Claude Code and Codex on DeepSWE 📣 Run mini-swe-agent on our new & extremely challenging benchmark, ProgramBench 📣 New tutorial on building minimal AI agents",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11082,
+    "fetchedAt": "2026-11-15T10:36:59.170Z"
+  },
+  "operit": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18980,
+    "fetchedAt": "2026-11-15T10:36:59.170Z"
+  },
+  "vpn-configs-for-russia": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 299152,
+    "fetchedAt": "2026-11-15T10:36:59.170Z"
+  },
+  "titanbot": {
+    "summary": "TitanBot is a powerful, feature-rich Discord bot designed to enhance your server experience with comprehensive moderation tools, engaging economy systems, utility features, and much more. Built with modern Discord.js v14 and PostgreSQL for optimal performance and data persistence.",
+    "docker": "docker compose up -d --build",
+    "source": "README.md",
+    "rawLength": 10386,
+    "fetchedAt": "2026-11-15T10:36:59.170Z"
+  },
+  "xberg": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 32699,
+    "fetchedAt": "2026-11-15T10:36:59.722Z"
+  },
+  "local-deep-research": {
+    "summary": "Local Deep Research is built on the work of many open-access initiatives, academic databases, and open-source projects. We are grateful to:",
+    "docker": "# Step 1: Pull and run Ollama\ndocker run -d -p 11434:11434 --name ollama ollama/ollama\ndocker exec ollama ollama pull gpt-oss:20b\n\n# Step 2: Pull and run SearXNG for optimal search results\ndocker run -d -p 8080:8080 --name searxng searxng/searxng\n\n# Step 3: Pull and run Local Deep Research\n# (the URL line pins SearXNG's address AND marks it operator-approved —\n#  private/localhost engine URLs are otherwise blocked by default since\n#  v1.10.3. The URL becomes read-only in the web UI; docs/SearXNG-Setup.md\n#  lists the alternatives, e.g. an origin allowlist.)\ndocker run -d --network host \\\n  --name local-deep-research \\\n  --volume \"deep-research:/data\" \\\n  -e LDR_DATA_DIR=/data \\\n  -e LDR_SEARCH_ENGINE_WEB_SEARXNG_DEFAULT_PARAMS_INSTANCE_URL=http://localhost:8080 \\\n  localdeepresearch/local-deep-research",
+    "source": "README.md",
+    "rawLength": 48253,
+    "fetchedAt": "2026-11-15T10:36:59.722Z"
+  },
+  "skill": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 794860,
+    "fetchedAt": "2026-11-15T10:36:59.722Z"
+  },
+  "bifrost": {
+    "summary": "Bifrost is a high-performance AI gateway that unifies access to 23+ providers (OpenAI, Anthropic, AWS Bedrock, Google Vertex, and more) through a single OpenAI-compatible API. Deploy in seconds with zero configuration and get automatic failover, load balancing, semantic caching, and enterprise-grade…",
+    "docker": "# Install and run locally\nnpx -y @maximhq/bifrost\n\n# Or use Docker\ndocker run -p 8080:8080 maximhq/bifrost",
+    "source": "README.md",
+    "rawLength": 13421,
+    "fetchedAt": "2026-11-15T10:36:59.722Z"
+  },
+  "clawhub": {
+    "summary": "ClawHub is the public skill registry for OpenClaw: publish, version, and search text-based agent skills (a SKILL.md plus supporting files). It's designed for fast browsing + a CLI-friendly API, with moderation hooks and vector search. It also now exposes a native OpenClaw package catalog for code pl…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8647,
+    "fetchedAt": "2026-11-15T10:36:59.722Z"
+  },
+  "munder-difflin": {
+    "summary": "Munder Difflin is a desktop app that wraps real terminal-agent CLIs as fully-capable agents, wires them into a hive mind, and puts your clone in charge. Michael is the one agent you talk to in order to get things done. Under the hood it runs the fastest memory layer in the world so every agent remem…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 36387,
+    "fetchedAt": "2026-11-15T10:36:59.722Z"
+  },
+  "cybersecurity-projects": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 44423,
+    "fetchedAt": "2026-11-15T10:37:00.242Z"
+  },
+  "obliteratus": {
+    "summary": "OBLITERATUS is the most advanced open-source toolkit for understanding and removing refusal behaviors from large language models — and every single run makes it smarter. It implements abliteration — a family of techniques that identify and surgically remove the internal representations responsible f…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 69109,
+    "fetchedAt": "2026-11-15T10:37:00.242Z"
+  },
+  "learnharness": {
+    "summary": "LearnHarness uses AI agents to plan and teach lessons from your current understanding to your goal. It builds a detailed picture of what you understand and how you reason. That picture is updated as you learn.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6531,
+    "fetchedAt": "2026-11-15T10:37:00.242Z"
+  },
+  "terax-ai": {
+    "summary": "Terax is licensed under the Apache-2.0 License. For more information on our dependencies, see Apache License 2.0.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8899,
+    "fetchedAt": "2026-11-15T10:37:00.242Z"
+  },
+  "tinycast": {
+    "summary": "Tinycast is free and stays free. If it earns a place on your Mac, consider supporting its development. Thank you!",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5655,
+    "fetchedAt": "2026-11-15T10:37:00.242Z"
+  },
+  "atlas": {
+    "summary": "Atlas CLI. Happy in your terminal? atlas-cli hooks into the agents you already run (Claude Code, Codex, Cursor, Copilot, OpenCode, Droid, Antigravity and Pi), records every session, links its commits and gives every agent one shared memory. macOS and Linux.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 23505,
+    "fetchedAt": "2026-11-15T10:37:00.242Z"
+  },
+  "web-access": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12452,
+    "fetchedAt": "2026-11-15T10:37:00.745Z"
+  },
+  "agent-learning-hub": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 23378,
+    "fetchedAt": "2026-11-15T10:37:00.745Z"
+  },
+  "replica-skill": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10061,
+    "fetchedAt": "2026-11-15T10:37:00.745Z"
+  },
+  "vinext": {
+    "summary": "vinext reimplements the Next.js API surface on Vite rather than consuming next build output. It supports both the App Router and Pages Router, React Server Components, Server Actions, middleware, route handlers, ISR, static export, and the most commonly used next/ modules. Cloudflare Workers has the…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 73621,
+    "fetchedAt": "2026-11-15T10:37:00.745Z"
+  },
+  "harness": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6155,
+    "fetchedAt": "2026-11-15T10:37:00.745Z"
+  },
+  "databasus": {
+    "summary": "Databasus performs a real restore to confirm backups are usable, not just intact on disk or checksum check.",
+    "docker": "docker run -d \\\n  --name databasus \\\n  -p 4005:4005 \\\n  -v ./databasus-data:/databasus-data \\\n  --restart unless-stopped \\\n  databasus/databasus:latest",
+    "source": "README.md",
+    "rawLength": 13990,
+    "fetchedAt": "2026-11-15T10:37:00.745Z"
+  },
+  "context-engineering": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20830,
+    "fetchedAt": "2026-11-15T10:38:03.543Z"
+  },
+  "anti-slop": {
+    "summary": "antislop ships as standard agent skills: one folder per skill, holding a SKILL.md. Installation differs per agent, so pick the section for the one you use. Each route is walked through from zero, with update and removal, in GUIDE.md.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13798,
+    "fetchedAt": "2026-11-15T10:38:03.543Z"
+  },
+  "lichii": {
+    "summary": "Lichii is an experimental, open-source Nintendo Switch and Switch 2 emulator written in C++. It builds on Eglantine, Eden, yuzu and Sudachi, preserving their contributions while developing this fork's game compatibility and renderer fixes.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6405,
+    "fetchedAt": "2026-11-15T10:38:03.543Z"
   }
 }

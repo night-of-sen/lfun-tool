@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T10:04:11.463Z",
+  "generatedAt": "2026-11-15T10:39:40.992Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -2874,8 +2874,8 @@
       "zh": "Prime Agent 是可自我改进的 RLM 智能体，面向开发者，用于编码工作流和长时间运行的自主任务。"
     },
     "tabler-icons": {
-      "en": "Developers building web projects get over 6200 free MIT-licensed SVG icons to use in their interfaces.",
-      "zh": "为开发网页项目的设计师和开发者提供五千多个免费 SVG 图标，解决界面缺少成套图标的问题。"
+      "en": "Web developers who need consistent SVG icons can use this free MIT-licensed set of over 6500 icons.",
+      "zh": "需要成套图标的网页开发者可用这套免费图标，笔画粗细可调，风格整齐统一。"
     },
     "paseo": {
       "en": "Paseo lets developers orchestrate multiple coding agents from desktop and mobile, so they can coordinate agent work across devices.",
@@ -5792,6 +5792,122 @@
     "universal-modder": {
       "en": "For modders: lets Claude Code recon, reverse engineer and test mods for PC games you own, with fal-generated art, 3D and audio.",
       "zh": "面向模组作者：让 Claude Code 对自有 PC 游戏做侦察、逆向与测试，并用 fal 生成美术、3D 与音频。"
+    },
+    "misterdownloadmanager": {
+      "en": "An open-source download manager written from scratch in pure Rust for Windows, Mac, and Linux users.",
+      "zh": "面向 Windows、Mac 和 Linux 用户的开源下载管理器，用纯 Rust 从零编写。"
+    },
+    "sphere": {
+      "en": "A Web3 wallet and agent platform for Unicity network users, combining a crypto wallet, DMs, group chat, and a marketplace.",
+      "zh": "面向 Unicity 网络用户的 Web3 钱包与智能体平台，集加密钱包、私信、群聊和市场于一体。"
+    },
+    "mini-swe-agent": {
+      "en": "A 100-line AI agent for developers who want to solve GitHub issues or get command-line help without large configs or a monorepo.",
+      "zh": "一个约100行的AI代理，面向希望在命令行解决GitHub问题或获取帮助、又不想使用庞大配置或大型单仓库的开发者。"
+    },
+    "operit": {
+      "en": "An AI agent and AI chat app for Android users, offering agent-based assistance and chat on the phone.",
+      "zh": "面向 Android 用户的 AI Agent 与 AI 聊天应用，在手机上提供智能体与对话服务。"
+    },
+    "vpn-configs-for-russia": {
+      "en": "A collection of free, checked VPN and Tor configurations for users in Russia seeking working connections.",
+      "zh": "为需要可用连接的俄罗斯用户提供的免费且经过检查的 VPN 和 Tor 配置集合。"
+    },
+    "titanbot": {
+      "en": "TitanBot is an all-in-one Discord assistant for server owners and moderators who need one tool to support their community.",
+      "zh": "TitanBot 是一款一体化 Discord 助手，面向服务器所有者和管理员，用一款工具来支持社区运营。"
+    },
+    "horizon-2": {
+      "en": "For Minecraft Java players who want version 26.3 rewritten in Rust, checked against vanilla with 281 differential harnesses and installed through the Horizon launcher.",
+      "zh": "面向想玩 Rust 重写版 Minecraft Java 26.3 的玩家，经 281 个差分测试对照原版，可通过 Horizon 启动器获取。"
+    },
+    "xberg": {
+      "en": "A precise document-intelligence engine for developers that extracts text, tables and metadata from 100+ formats, with OCR, transcription and code intelligence.",
+      "zh": "面向前端开发者之外的所有开发者，从 100 多种格式中提取文本、表格和元数据，支持 OCR、转录和代码理解。"
+    },
+    "clawhub": {
+      "en": "A skill and plugin registry for OpenClaw, helping OpenClaw users find and share skills and plugins.",
+      "zh": "面向 OpenClaw 用户的 Skill 与 Plugin 注册表，用于查找和共享技能与插件。"
+    },
+    "skill": {
+      "en": "For AI agent users who need ready-to-install skill packs, plus a GitHub skills index sorted by category, update time, and stars.",
+      "zh": "面向需要可直接安装技能包的 AI Agent 用户，提供精选技能包，并按分类、更新时间和 Star 整理 GitHub 技能索引。"
+    },
+    "local-deep-research": {
+      "en": "For privacy-focused researchers, it uses local or cloud LLMs and searches arXiv, PubMed, and private documents with local encryption.",
+      "zh": "面向需要隐私的研究者，它支持本地或云端 LLM，并检索 arXiv、PubMed 与私有文档，全程本地加密。"
+    },
+    "cybersecurity-projects": {
+      "en": "A collection of 70 cybersecurity projects from beginner to advanced, for learners and builders to study, extend, or reuse as reference.",
+      "zh": "收录 70 个从入门到进阶的网络安全项目，供学习者与开发者参考、扩展或直接复用。"
+    },
+    "open-seo-mcp-skills": {
+      "en": "Gives Claude users free open-source SEO and GEO skills for keyword research, rank tracking, audits, backlinks and AI visibility on their own GSC/GA4 data.",
+      "zh": "为 Claude 用户提供免费开源 SEO/GEO 技能，基于真实 GSC/GA4 数据做关键词研究、排名跟踪、审计与外链分析。"
+    },
+    "obliteratus": {
+      "en": "A dev-tools entry for developers, described only as \"obliterate the chains that bind you\".",
+      "zh": "一个面向开发者的 dev-tools 条目，描述仅为“obliterate the chains that bind you”。"
+    },
+    "learnharness": {
+      "en": "Learnharness is an agent harness for people working through difficult subjects, giving them a structured setup to learn challenging material.",
+      "zh": "Learnharness 是面向攻克高难度内容的学习者的 agent harness，为学习困难知识提供结构化支持。"
+    },
+    "terax-ai": {
+      "en": "Terax Ai is a lightweight 7MB terminal-first AI-native development environment for developers who prefer working in the terminal.",
+      "zh": "Terax Ai 是轻量 7MB、终端优先的 AI 原生开发环境，适合习惯在终端中工作的开发者。"
+    },
+    "bifrost": {
+      "en": "Bifrost is an open-source AI gateway for teams running LLM and agent workloads, giving one OpenAI-compatible API for 10,000+ models with failover, caching and budgets.",
+      "zh": "Bifrost 是开源 AI 网关，让 LLM 与智能体应用通过一个兼容 OpenAI 的接口调用 10,000+ 模型，并支持故障转移与预算控制。"
+    },
+    "munder-difflin": {
+      "en": "For developers wanting an open-source alternative to hosted agent apps, it runs an office of Claude Code/Codex-like agents locally or in sandboxes, using existing subscriptions.",
+      "zh": "适合想找开源替代托管智能体应用的用户：在笔记本或沙盒中运行一组类似 Claude Code/Codex 的智能体，并复用现有订阅。"
+    },
+    "tinycast": {
+      "en": "An open source, native macOS launcher for people who want a lightweight way to handle everyday tasks.",
+      "zh": "面向希望轻量处理日常任务的 macOS 用户，提供原生、开源的启动器。"
+    },
+    "atlas": {
+      "en": "Atlas is source control for agents: it lets developers run multiple coding agents, track their changes, and query them in one place.",
+      "zh": "Atlas 是面向智能体的版本控制工具，让开发者同时使用多个编程智能体，并在同一处跟踪和查询它们的改动。"
+    },
+    "agent-learning-hub": {
+      "en": "A curated learning path and resource collection for developers who want to learn how to build AI agents.",
+      "zh": "面向想学习构建 AI Agent 的开发者，提供学习路线与资料汇总。"
+    },
+    "replica-skill": {
+      "en": "Eleven free Claude skills for developers cloning an app: reverse-engineer it, rebuild it, test for bugs, then fix user pain points.",
+      "zh": "十一个免费 Claude 技能：帮开发者逆向并重建任意应用、测试找出 bug，再修复用户不满之处。"
+    },
+    "databasus": {
+      "en": "A backup tool for PostgreSQL operators that provides point-in-time recovery and restore verification.",
+      "zh": "面向 PostgreSQL 运维人员的备份工具，提供时间点恢复与恢复验证功能。"
+    },
+    "harness": {
+      "en": "A meta-skill for developers who need domain-specific agent teams: it defines specialized agents and generates the skills they use.",
+      "zh": "面向需要构建领域专属智能体团队的开发者：定义专用智能体，并生成它们所用的技能。"
+    },
+    "web-access": {
+      "en": "A Skill giving local agents like Claude Code and Grok Bot full web access via channel scheduling, browser CDP and parallel splitting.",
+      "zh": "给 Claude Code、Grok Bot 等本机 Agent 装上联网能力的 Skill，含三层通道调度、浏览器 CDP 与并行分治。"
+    },
+    "vinext": {
+      "en": "A Vite plugin for developers who want Next.js API conventions without platform lock-in, so apps can be deployed anywhere.",
+      "zh": "面向想沿用 Next.js API 写法、又希望自由部署的开发者，用 Vite 插件重新实现其 API 接口。"
+    },
+    "anti-slop": {
+      "en": "A set of rules that helps an AI coding agent filter out generic AI-generated UI designs, text, and code.",
+      "zh": "为 AI 编程代理提供规则，用于过滤通用的 AI 生成 UI 设计、文本和代码。"
+    },
+    "lichii": {
+      "en": "For developers and hobbyists curious about Switch 2 emulation, this very experimental emulator offers an early way to explore it.",
+      "zh": "面向对 Switch 2 模拟感兴趣的开发者和爱好者，提供早期探索的实验性模拟器。"
+    },
+    "context-engineering": {
+      "en": "A handbook for developers moving beyond prompt engineering toward context design, orchestration, and optimization.",
+      "zh": "一本手册，帮助开发者超越提示词工程，进入上下文设计、编排与优化的领域。"
     }
   }
 }

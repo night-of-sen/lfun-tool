@@ -33903,6 +33903,652 @@
       "cloud": "",
       "descEn": "一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。",
       "pushedAt": "2026-09-20"
+    },
+    {
+      "id": "horizon-2",
+      "name": "Horizon",
+      "repo": "horizon-rust/horizon",
+      "homepage": "https://playhorizon.dev",
+      "category": "fun-games",
+      "desc": "",
+      "tags": [
+        "differential-testing",
+        "game-engine",
+        "gamedev",
+        "linux"
+      ],
+      "seed": {
+        "stars": 9980,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher.",
+      "pushedAt": "2026-11-15"
+    },
+    {
+      "id": "misterdownloadmanager",
+      "name": "Misterdownloadmanager",
+      "repo": "anefzaoui/misterdownloadmanager",
+      "homepage": "https://misterdownloadmanager.com",
+      "category": "productivity",
+      "desc": "",
+      "tags": [
+        "bittorrent-client",
+        "debrid",
+        "download-accelerator",
+        "download-manager"
+      ],
+      "seed": {
+        "stars": 9861,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
+      "pushedAt": "2026-11-15"
+    },
+    {
+      "id": "open-seo-mcp-skills",
+      "name": "Open Seo Mcp Skills",
+      "repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
+      "homepage": "https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-seo",
+        "ai-visibility",
+        "backlinks",
+        "claude"
+      ],
+      "seed": {
+        "stars": 9854,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, backlinks, AI visibility on your real GSC/GA4/ads data. claude mcp add ryz",
+      "pushedAt": "2026-10-27"
+    },
+    {
+      "id": "sphere",
+      "name": "Sphere",
+      "repo": "unicity-sphere/sphere",
+      "homepage": "https://unicity.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "wallet"
+      ],
+      "seed": {
+        "stars": 9629,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A Web3 wallet and agent platform for the Unicity network - crypto wallet, DMs, group chat, and marketplace.",
+      "pushedAt": "2026-10-29"
+    },
+    {
+      "id": "mini-swe-agent",
+      "name": "Mini Swe Agent",
+      "repo": "SWE-agent/mini-swe-agent",
+      "homepage": "https://mini-swe-agent.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agentic-ai",
+        "agentic-ai-cli",
+        "ai"
+      ],
+      "seed": {
+        "stars": 9625,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo—but scores >74% on SWE-bench verified!",
+      "pushedAt": "2026-11-09"
+    },
+    {
+      "id": "operit",
+      "name": "Operit",
+      "repo": "AAswordman/Operit",
+      "homepage": "https://operit.app",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "ai",
+        "android",
+        "compose"
+      ],
+      "seed": {
+        "stars": 9616,
+        "language": "Kotlin"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The most powerful AI agent and AI chat software on Android/Operit是一款Android上能力最为强大、发展最久的AI Agent",
+      "pushedAt": "2026-11-12"
+    },
+    {
+      "id": "vpn-configs-for-russia",
+      "name": "Vpn Configs For Russia",
+      "repo": "igareck/vpn-configs-for-russia",
+      "homepage": "https://t.me/igareq",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "free-vpn-key",
+        "free-vpn-russia",
+        "roskomnadzor",
+        "russia-vpn"
+      ],
+      "seed": {
+        "stars": 9609,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🗽Бесплатные и проверенные VPN/Tor конфигурации, работающие в РФ ⚪ Белые списки / обход белых списков ⚪ Free and checked VPN/Tor configurations that work in Russia ⚪ Whitelists byp",
+      "pushedAt": "2026-11-15"
+    },
+    {
+      "id": "titanbot",
+      "name": "TitanBot",
+      "repo": "codebymitch/TitanBot",
+      "homepage": "https://discord.gg/QnWNz2dKCE",
+      "category": "marketing-growth",
+      "desc": "",
+      "tags": [
+        "all-in-one",
+        "automation",
+        "community",
+        "discord-bot"
+      ],
+      "seed": {
+        "stars": 9601,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A powerful, all-in-one Discord assistant built for every server.",
+      "pushedAt": "2026-09-03"
+    },
+    {
+      "id": "xberg",
+      "name": "Xberg",
+      "repo": "xberg-io/xberg",
+      "homepage": "https://docs.xberg.io",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "bun",
+        "csharp",
+        "document-intelligence",
+        "elixir"
+      ],
+      "seed": {
+        "stars": 9589,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The fast, precise document-intelligence engine for every language: text, tables and metadata from 100+ formats, with OCR, transcription and code intelligence.",
+      "pushedAt": "2026-11-15"
+    },
+    {
+      "id": "local-deep-research",
+      "name": "Local Deep Research",
+      "repo": "LearningCircuit/local-deep-research",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "academia",
+        "anthropic",
+        "arxiv",
+        "brave"
+      ],
+      "seed": {
+        "stars": 9585,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Every",
+      "pushedAt": "2026-11-15"
+    },
+    {
+      "id": "skill",
+      "name": "Skill",
+      "repo": "anbeime/skill",
+      "homepage": "https://skill.miyucaicai.cn",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "claude-skills",
+        "codex",
+        "deepseek"
+      ],
+      "seed": {
+        "stars": 9583,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "收录最全、更新最快的技能Skills商店：精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），全部打包好可直接安装使用！同时自动抓取GitHub上万个Skills项目，按分类、更新时间、Star数量整理。The most comprehensive and frequently updated AI Agent skill libra",
+      "pushedAt": "2026-11-15"
+    },
+    {
+      "id": "bifrost",
+      "name": "Bifrost",
+      "repo": "maximhq/bifrost",
+      "homepage": "https://www.getmaxim.ai/bifrost",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-gateway",
+        "ai-gateway",
+        "ai-governance",
+        "api-gateway"
+      ],
+      "seed": {
+        "stars": 9562,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source, high-performance AI gateway that works as your LLM gateway, MCP gateway and agent gateway. One OpenAI-compatible API for 10,000+ models, with failover, load balancing,",
+      "pushedAt": "2026-11-15"
+    },
+    {
+      "id": "clawhub",
+      "name": "Clawhub",
+      "repo": "openclaw/clawhub",
+      "homepage": "https://clawhub.ai",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "directory",
+        "skill"
+      ],
+      "seed": {
+        "stars": 9554,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Skill + Plugin Registry for OpenClaw",
+      "pushedAt": "2026-11-15"
+    },
+    {
+      "id": "munder-difflin",
+      "name": "Munder Difflin",
+      "repo": "HarnessMD/munder-difflin",
+      "homepage": "https://munderdiffl.in",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-harness",
+        "agent-orchestration",
+        "agents",
+        "ai-agents"
+      ],
+      "seed": {
+        "stars": 9532,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "an open-source alternative to the dots, bots and muses of the world, run an office of claude code/codex like agents on your laptop, sandboxes or anywhere, uses your existing subscr",
+      "pushedAt": "2026-11-15"
+    },
+    {
+      "id": "cybersecurity-projects",
+      "name": "Cybersecurity Projects",
+      "repo": "CarterPerez-dev/Cybersecurity-Projects",
+      "homepage": "https://angelamos.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "certification",
+        "cloud-engineering",
+        "cyber"
+      ],
+      "seed": {
+        "stars": 9518,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Building 70 Projects ranging from beginner to advanced so anyone can — learn from, build upon, use as a reference, or even copy directly. Owned by my cybersecurity company 👇",
+      "pushedAt": "2026-11-14"
+    },
+    {
+      "id": "obliteratus",
+      "name": "OBLITERATUS",
+      "repo": "elder-plinius/OBLITERATUS",
+      "homepage": "https://huggingface.co/spaces/pliny-the-prompter/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9505,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "OBLITERATE THE CHAINS THAT BIND YOU",
+      "pushedAt": "2026-11-14"
+    },
+    {
+      "id": "learnharness",
+      "name": "Learnharness",
+      "repo": "amosblomqvist/learnharness",
+      "homepage": "learnharness.ai",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9491,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Agent harness for learning difficult things.",
+      "pushedAt": "2026-11-12"
+    },
+    {
+      "id": "terax-ai",
+      "name": "Terax Ai",
+      "repo": "crynta/terax-ai",
+      "homepage": "https://terax.app",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agents",
+        "ai",
+        "code-editor",
+        "libghostty"
+      ],
+      "seed": {
+        "stars": 9472,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Lightweight (7MB) terminal-first AI-native development environment",
+      "pushedAt": "2026-11-14"
+    },
+    {
+      "id": "tinycast",
+      "name": "Tinycast",
+      "repo": "abue-ammar/tinycast",
+      "homepage": "https://tinycast.dev",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9455,
+        "language": "Swift"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A native macOS launcher for everyday productivity. Lightweight and open source.",
+      "pushedAt": "2026-11-14"
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas",
+      "repo": "tryatlas/atlas",
+      "homepage": "https://www.tryatlas.cc/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-coding-assistant",
+        "claude-code",
+        "codex"
+      ],
+      "seed": {
+        "stars": 9428,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "web-access",
+      "name": "Web Access",
+      "repo": "eze-is/web-access",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9417,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "给你的本机 Agent（如 Claude Code、Grok Bot 等）装上完整联网能力的 Skill：三层通道调度 + 浏览器 CDP + 并行分治，自动积累站点经验，不断优化联网效率",
+      "pushedAt": "2026-10-14"
+    },
+    {
+      "id": "agent-learning-hub",
+      "name": "Agent Learning Hub",
+      "repo": "datawhalechina/Agent-Learning-Hub",
+      "homepage": "https://datawhalechina.github.io/Agent-Learning-Hub/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9407,
+        "language": "HTML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AI Agent 学习路线与资料库收集",
+      "pushedAt": "2026-07-19"
+    },
+    {
+      "id": "replica-skill",
+      "name": "Replica Skill",
+      "repo": "Jakeschincariol/replica-skill",
+      "homepage": "https://opusjake.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agent-skills",
+        "app-clone",
+        "claude"
+      ],
+      "seed": {
+        "stars": 9385,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
+      "pushedAt": "2026-10-03"
+    },
+    {
+      "id": "vinext",
+      "name": "Vinext",
+      "repo": "cloudflare/vinext",
+      "homepage": "https://vinext.dev",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9372,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Vite plugin that reimplements the Next.js API surface — deploy anywhere",
+      "pushedAt": "2026-11-14"
+    },
+    {
+      "id": "orkas",
+      "name": "Orkas",
+      "repo": "Orkas-AI/Orkas",
+      "homepage": "https://orkas.ai?source=gh-orkas",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-collaboration",
+        "agent-harness",
+        "agent-orchestration",
+        "agent-team"
+      ],
+      "seed": {
+        "stars": 9367,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, ",
+      "pushedAt": "2026-11-14"
+    },
+    {
+      "id": "harness",
+      "name": "Harness",
+      "repo": "revfactory/harness",
+      "homepage": "https://revfactory.github.io/harness/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "claude-code",
+        "claude-code-plugin",
+        "harness",
+        "harness-engineering"
+      ],
+      "seed": {
+        "stars": 9366,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "pushedAt": "2026-09-28"
+    },
+    {
+      "id": "databasus",
+      "name": "Databasus",
+      "repo": "databasus/databasus",
+      "homepage": "https://databasus.com",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "backup",
+        "backups",
+        "database",
+        "database-backup"
+      ],
+      "seed": {
+        "stars": 9280,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "PostgreSQL backup tool with Point-In-Time-Recovery and restore verification",
+      "pushedAt": "2026-11-14"
+    },
+    {
+      "id": "context-engineering",
+      "name": "Context Engineering",
+      "repo": "jasontang-ai/Context-Engineering",
+      "homepage": "https://deepwiki.com/davidkimai/Context-Engineering",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9280,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "\"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" — Andrej Karpathy. A frontier, first-principl",
+      "pushedAt": "2026-02-27"
+    },
+    {
+      "id": "anti-slop",
+      "name": "Anti Slop",
+      "repo": "miqdadbadjuber/anti-slop",
+      "homepage": "https://antislop.ai.id",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "accessibility",
+        "agent-skills",
+        "ai-agents",
+        "ai-coding-agent"
+      ],
+      "seed": {
+        "stars": 9265,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Rules for an AI coding agent to filter out generic AI-generated UI designs, text, and code.",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "lichii",
+      "name": "Lichii",
+      "repo": "zortos293/Lichii",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9258,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "VERY experimental Nintendo Switch 2 emulator",
+      "pushedAt": "2026-11-15"
     }
   ]
 }

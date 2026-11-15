@@ -1,6 +1,305 @@
 {
   "days": [
     {
+      "date": "2026-11-15",
+      "items": [
+        {
+          "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+          "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+          "source": "Hacker News",
+          "date": "2026-11-14",
+          "zhTitle": "Show HN：用约200行纯 Jax 实现 DeepSeek V3",
+          "zh": "开发者以约200行纯 Jax 代码实现 DeepSeek V3。",
+          "en": "A developer reimplements DeepSeek V3 in about 200 lines of pure Jax."
+        },
+        {
+          "title": "Introducing ChatGPT Wallet",
+          "link": "https://openai.com/index/introducing-chatgpt-wallet",
+          "source": "OpenAI",
+          "date": "2026-11-13",
+          "zhTitle": "OpenAI 推出 ChatGPT 钱包",
+          "zh": "OpenAI 发布 ChatGPT 钱包功能。",
+          "en": "OpenAI introduces ChatGPT Wallet."
+        },
+        {
+          "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+          "link": "https://openai.com/business/customer-stories/shield",
+          "source": "OpenAI",
+          "date": "2026-11-13",
+          "zhTitle": "Shield 借助 OpenAI 接手技术人员遗留门户工作",
+          "zh": "Shield 用 OpenAI 承接遗留门户的技术工作。",
+          "en": "Shield uses OpenAI to hand off legacy portal work from technicians."
+        },
+        {
+          "title": "Build once, run on any agent: A practical guide to agent skills",
+          "link": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+          "source": "GitHub Blog",
+          "date": "2026-11-12",
+          "zhTitle": "一次构建，随处运行：智能体技能实用指南",
+          "zh": "GitHub 发布可跨智能体复用技能的实践指南。",
+          "en": "GitHub publishes a practical guide to portable agent skills."
+        },
+        {
+          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+          "link": "https://openai.com/business/customer-stories/amplitude",
+          "source": "OpenAI",
+          "date": "2026-11-12",
+          "zhTitle": "Amplitude 如何借助 OpenAI 在1–2天内交付产品改进",
+          "zh": "Amplitude 借助 OpenAI 将产品改进周期缩至1–2天。",
+          "en": "Amplitude ships product improvements in one to two days with OpenAI."
+        },
+        {
+          "title": "Gondola doubles revenue as its team builds more with Codex",
+          "link": "https://openai.com/business/customer-stories/gondola",
+          "source": "OpenAI",
+          "date": "2026-11-12",
+          "zhTitle": "Gondola 团队借助 Codex 加强开发，营收翻倍",
+          "zh": "Gondola 团队用 Codex 加速开发，营收翻倍。",
+          "en": "Gondola doubles revenue as its team builds more with Codex."
+        },
+        {
+          "title": "The Download: preserving minds and weighing open AI risks",
+          "link": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-11",
+          "zhTitle": "The Download：保存心智与权衡开放 AI 风险",
+          "zh": "MIT 科技评论关注心智保存与开放 AI 风险。",
+          "en": "MIT Tech Review covers mind preservation and open AI risks."
+        },
+        {
+          "title": "The Download: Pelosi’s successor targets AI and data centers face power woes",
+          "link": "https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-10",
+          "zhTitle": "The Download：佩洛西继任者瞄准 AI，数据中心面临电力困境",
+          "zh": "佩洛西继任者瞄准 AI，数据中心遭遇电力难题。",
+          "en": "Pelosi's successor targets AI; data centers face power woes."
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "horizon-2",
+          "name": "Horizon",
+          "repo": "horizon-rust/horizon",
+          "stars": 9982
+        },
+        {
+          "id": "misterdownloadmanager",
+          "name": "Misterdownloadmanager",
+          "repo": "anefzaoui/misterdownloadmanager",
+          "stars": 9867
+        },
+        {
+          "id": "open-seo-mcp-skills",
+          "name": "Open Seo Mcp Skills",
+          "repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
+          "stars": 9857
+        },
+        {
+          "id": "sphere",
+          "name": "Sphere",
+          "repo": "unicity-sphere/sphere",
+          "stars": 9629
+        },
+        {
+          "id": "mini-swe-agent",
+          "name": "Mini Swe Agent",
+          "repo": "SWE-agent/mini-swe-agent",
+          "stars": 9625
+        },
+        {
+          "id": "operit",
+          "name": "Operit",
+          "repo": "AAswordman/Operit",
+          "stars": 9616
+        },
+        {
+          "id": "vpn-configs-for-russia",
+          "name": "Vpn Configs For Russia",
+          "repo": "igareck/vpn-configs-for-russia",
+          "stars": 9610
+        },
+        {
+          "id": "titanbot",
+          "name": "TitanBot",
+          "repo": "codebymitch/TitanBot",
+          "stars": 9601
+        },
+        {
+          "id": "xberg",
+          "name": "Xberg",
+          "repo": "xberg-io/xberg",
+          "stars": 9589
+        },
+        {
+          "id": "local-deep-research",
+          "name": "Local Deep Research",
+          "repo": "LearningCircuit/local-deep-research",
+          "stars": 9585
+        },
+        {
+          "id": "skill",
+          "name": "Skill",
+          "repo": "anbeime/skill",
+          "stars": 9583
+        },
+        {
+          "id": "bifrost",
+          "name": "Bifrost",
+          "repo": "maximhq/bifrost",
+          "stars": 9563
+        },
+        {
+          "id": "clawhub",
+          "name": "Clawhub",
+          "repo": "openclaw/clawhub",
+          "stars": 9554
+        },
+        {
+          "id": "munder-difflin",
+          "name": "Munder Difflin",
+          "repo": "HarnessMD/munder-difflin",
+          "stars": 9532
+        },
+        {
+          "id": "cybersecurity-projects",
+          "name": "Cybersecurity Projects",
+          "repo": "CarterPerez-dev/Cybersecurity-Projects",
+          "stars": 9518
+        },
+        {
+          "id": "obliteratus",
+          "name": "OBLITERATUS",
+          "repo": "elder-plinius/OBLITERATUS",
+          "stars": 9505
+        },
+        {
+          "id": "learnharness",
+          "name": "Learnharness",
+          "repo": "amosblomqvist/learnharness",
+          "stars": 9492
+        },
+        {
+          "id": "terax-ai",
+          "name": "Terax Ai",
+          "repo": "crynta/terax-ai",
+          "stars": 9472
+        },
+        {
+          "id": "tinycast",
+          "name": "Tinycast",
+          "repo": "abue-ammar/tinycast",
+          "stars": 9455
+        },
+        {
+          "id": "atlas",
+          "name": "Atlas",
+          "repo": "tryatlas/atlas",
+          "stars": 9428
+        },
+        {
+          "id": "web-access",
+          "name": "Web Access",
+          "repo": "eze-is/web-access",
+          "stars": 9417
+        },
+        {
+          "id": "agent-learning-hub",
+          "name": "Agent Learning Hub",
+          "repo": "datawhalechina/Agent-Learning-Hub",
+          "stars": 9407
+        },
+        {
+          "id": "replica-skill",
+          "name": "Replica Skill",
+          "repo": "Jakeschincariol/replica-skill",
+          "stars": 9386
+        },
+        {
+          "id": "vinext",
+          "name": "Vinext",
+          "repo": "cloudflare/vinext",
+          "stars": 9372
+        },
+        {
+          "id": "orkas",
+          "name": "Orkas",
+          "repo": "Orkas-AI/Orkas",
+          "stars": 9367
+        },
+        {
+          "id": "harness",
+          "name": "Harness",
+          "repo": "revfactory/harness",
+          "stars": 9366
+        },
+        {
+          "id": "databasus",
+          "name": "Databasus",
+          "repo": "databasus/databasus",
+          "stars": 9281
+        },
+        {
+          "id": "context-engineering",
+          "name": "Context Engineering",
+          "repo": "jasontang-ai/Context-Engineering",
+          "stars": 9280
+        },
+        {
+          "id": "anti-slop",
+          "name": "Anti Slop",
+          "repo": "miqdadbadjuber/anti-slop",
+          "stars": 9265
+        },
+        {
+          "id": "lichii",
+          "name": "Lichii",
+          "repo": "zortos293/Lichii",
+          "stars": 9259
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "horizon-2",
+          "name": "Horizon",
+          "repo": "horizon-rust/horizon",
+          "stars": 9982,
+          "gain": 9982
+        },
+        {
+          "id": "misterdownloadmanager",
+          "name": "Misterdownloadmanager",
+          "repo": "anefzaoui/misterdownloadmanager",
+          "stars": 9867,
+          "gain": 9867
+        },
+        {
+          "id": "open-seo-mcp-skills",
+          "name": "Open Seo Mcp Skills",
+          "repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
+          "stars": 9857,
+          "gain": 9857
+        },
+        {
+          "id": "sphere",
+          "name": "Sphere",
+          "repo": "unicity-sphere/sphere",
+          "stars": 9629,
+          "gain": 9629
+        },
+        {
+          "id": "mini-swe-agent",
+          "name": "Mini Swe Agent",
+          "repo": "SWE-agent/mini-swe-agent",
+          "stars": 9625,
+          "gain": 9625
+        }
+      ],
+      "rollupZh": "今日焦点包括用约200行纯 Jax 复现 DeepSeek V3 的开源尝试，以及 OpenAI 推出 ChatGPT 钱包并连发多份企业客户案例。GitHub 发布跨智能体技能指南，MIT 科技评论则关注心智保存、开放 AI 风险与数据中心电力瓶颈。",
+      "rollupEn": "Today's highlights include a roughly 200-line pure Jax reimplementation of DeepSeek V3 and OpenAI's launch of ChatGPT Wallet alongside several enterprise customer stories. GitHub shared a guide to portable agent skills, while MIT Technology Review covered mind preservation, open AI risks and data-center power constraints.",
+      "failures": []
+    },
+    {
       "date": "2026-11-14",
       "items": [
         {
