@@ -1,6 +1,305 @@
 {
   "days": [
     {
+      "date": "2026-11-16",
+      "items": [
+        {
+          "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+          "link": "https://openai.com/index/lvmh-media-division-partnership",
+          "source": "OpenAI",
+          "date": "2026-11-16",
+          "zhTitle": "LVMH媒体部门宣布与OpenAI建立战略合作",
+          "zh": "LVMH媒体部门宣布与OpenAI达成战略合作。",
+          "en": "LVMH's media division announces a strategic partnership with OpenAI."
+        },
+        {
+          "title": "A step toward defining the Standard Model on a lattice",
+          "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+          "source": "OpenAI",
+          "date": "2026-11-15",
+          "zhTitle": "在格点上定义标准模型迈出的一步",
+          "zh": "OpenAI发文介绍在格点上定义标准模型的一步进展。",
+          "en": "OpenAI posts on a step toward defining the Standard Model on a lattice."
+        },
+        {
+          "title": "Our new blog for science",
+          "link": "https://openai.com/index/our-new-blog-for-science",
+          "source": "OpenAI",
+          "date": "2026-11-15",
+          "zhTitle": "我们全新的科学博客",
+          "zh": "OpenAI推出面向科学的新博客。",
+          "en": "OpenAI introduces its new blog dedicated to science."
+        },
+        {
+          "title": "Introducing ChatGPT Wallet",
+          "link": "https://openai.com/index/introducing-chatgpt-wallet",
+          "source": "OpenAI",
+          "date": "2026-11-13",
+          "zhTitle": "推出ChatGPT Wallet",
+          "zh": "OpenAI宣布推出ChatGPT Wallet。",
+          "en": "OpenAI announces the introduction of ChatGPT Wallet."
+        },
+        {
+          "title": "Build once, run on any agent: A practical guide to agent skills",
+          "link": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+          "source": "GitHub Blog",
+          "date": "2026-11-12",
+          "zhTitle": "一次构建、随处运行：Agent技能实用指南",
+          "zh": "GitHub发布跨智能体复用技能的实践指南。",
+          "en": "GitHub publishes a practical guide to building agent skills that run on any agent."
+        },
+        {
+          "title": "The Download: preserving minds and weighing open AI risks",
+          "link": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-11",
+          "zhTitle": "The Download：保存心智与权衡开放AI风险",
+          "zh": "今日简报关注心智保存与开放AI风险的权衡。",
+          "en": "Today's Download covers preserving minds and weighing open AI risks."
+        },
+        {
+          "title": "The Download: Pelosi’s successor targets AI and data centers face power woes",
+          "link": "https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-10",
+          "zhTitle": "The Download：佩洛西继任者瞄准AI，数据中心面临电力困境",
+          "zh": "简报关注佩洛西继任者的AI监管取向与数据中心电力难题。",
+          "en": "The Download looks at Pelosi's successor on AI rules and data centers' power woes."
+        },
+        {
+          "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+          "link": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+          "source": "GitHub Blog",
+          "date": "2026-10-28",
+          "zhTitle": "Octoverse：2026年开发者用智能体构建，提交与推送量创新高",
+          "zh": "Octoverse报告称2026年提交与推送量因智能体开发创新高。",
+          "en": "Octoverse reports commits and pushes hit new highs in 2026 as developers build with agents."
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "stitch-skills",
+          "name": "Stitch Skills",
+          "repo": "google-labs-code/stitch-skills",
+          "stars": 9550
+        },
+        {
+          "id": "rea-video",
+          "name": "Rea Video",
+          "repo": "JuneYaooo/rea-video",
+          "stars": 9453
+        },
+        {
+          "id": "hghub",
+          "name": "HGhub",
+          "repo": "Minireel/HGhub",
+          "stars": 9331
+        },
+        {
+          "id": "agent-skills-3",
+          "name": "Agent Skills",
+          "repo": "janestreet/agent_skills",
+          "stars": 9282
+        },
+        {
+          "id": "gentle-ai",
+          "name": "Gentle Ai",
+          "repo": "Gentleman-Programming/gentle-ai",
+          "stars": 9242
+        },
+        {
+          "id": "no-mistakes",
+          "name": "No Mistakes",
+          "repo": "kunchenguid/no-mistakes",
+          "stars": 9230
+        },
+        {
+          "id": "harness-sdk",
+          "name": "Harness Sdk",
+          "repo": "strands-agents/harness-sdk",
+          "stars": 9223
+        },
+        {
+          "id": "trackweight",
+          "name": "TrackWeight",
+          "repo": "KrishKrosh/TrackWeight",
+          "stars": 9213
+        },
+        {
+          "id": "deskbox",
+          "name": "DeskBox",
+          "repo": "Tianyu199509/DeskBox",
+          "stars": 9203
+        },
+        {
+          "id": "fractalworkspace",
+          "name": "FractalWorkspace",
+          "repo": "Fractal-Compute-Orchestrations/FractalWorkspace",
+          "stars": 9201
+        },
+        {
+          "id": "deepgemm",
+          "name": "DeepGEMM",
+          "repo": "deepseek-ai/DeepGEMM",
+          "stars": 9199
+        },
+        {
+          "id": "dots-ocr",
+          "name": "Dots.ocr",
+          "repo": "studio-dots-ai/dots.ocr",
+          "stars": 9192
+        },
+        {
+          "id": "chatlog",
+          "name": "Chatlog",
+          "repo": "sjzar/chatlog",
+          "stars": 9178
+        },
+        {
+          "id": "lore",
+          "name": "Lore",
+          "repo": "EpicGames/lore",
+          "stars": 9160
+        },
+        {
+          "id": "openidea",
+          "name": "Openidea",
+          "repo": "l0ng-ai/openidea",
+          "stars": 9134
+        },
+        {
+          "id": "whatcable",
+          "name": "Whatcable",
+          "repo": "darrylmorley/whatcable",
+          "stars": 9127
+        },
+        {
+          "id": "instatic",
+          "name": "Instatic",
+          "repo": "CoreBunch/Instatic",
+          "stars": 9127
+        },
+        {
+          "id": "sandcastle",
+          "name": "Sandcastle",
+          "repo": "mattpocock/sandcastle",
+          "stars": 9110
+        },
+        {
+          "id": "html-ppt-skill",
+          "name": "Html Ppt Skill",
+          "repo": "lewislulu/html-ppt-skill",
+          "stars": 9109
+        },
+        {
+          "id": "failproofai",
+          "name": "Failproofai",
+          "repo": "FailproofAI/failproofai",
+          "stars": 9107
+        },
+        {
+          "id": "dux-shell",
+          "name": "Dux Shell",
+          "repo": "duxlabs-dev/dux-shell",
+          "stars": 9099
+        },
+        {
+          "id": "kimi-k3",
+          "name": "Kimi K3",
+          "repo": "MoonshotAI/Kimi-K3",
+          "stars": 9092
+        },
+        {
+          "id": "awesome-gamedev-agent-skills",
+          "name": "Awesome Gamedev Agent Skills",
+          "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+          "stars": 9080
+        },
+        {
+          "id": "dolphin-2",
+          "name": "Dolphin",
+          "repo": "bytedance/Dolphin",
+          "stars": 9069
+        },
+        {
+          "id": "ml-sharp",
+          "name": "Ml Sharp",
+          "repo": "apple-aiml-research/ml-sharp",
+          "stars": 9065
+        },
+        {
+          "id": "containerization",
+          "name": "Containerization",
+          "repo": "apple/containerization",
+          "stars": 9021
+        },
+        {
+          "id": "aiclient2api",
+          "name": "AIClient2API",
+          "repo": "justlovemaki/AIClient2API",
+          "stars": 8981
+        },
+        {
+          "id": "adk-go",
+          "name": "Adk Go",
+          "repo": "google/adk-go",
+          "stars": 8965
+        },
+        {
+          "id": "astron-agent",
+          "name": "Astron Agent",
+          "repo": "iflytek/astron-agent",
+          "stars": 8934
+        },
+        {
+          "id": "firstmate",
+          "name": "Firstmate",
+          "repo": "kunchenguid/firstmate",
+          "stars": 8911
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "stitch-skills",
+          "name": "Stitch Skills",
+          "repo": "google-labs-code/stitch-skills",
+          "stars": 9550,
+          "gain": 9550
+        },
+        {
+          "id": "rea-video",
+          "name": "Rea Video",
+          "repo": "JuneYaooo/rea-video",
+          "stars": 9453,
+          "gain": 9453
+        },
+        {
+          "id": "hghub",
+          "name": "HGhub",
+          "repo": "Minireel/HGhub",
+          "stars": 9331,
+          "gain": 9331
+        },
+        {
+          "id": "agent-skills-3",
+          "name": "Agent Skills",
+          "repo": "janestreet/agent_skills",
+          "stars": 9282,
+          "gain": 9282
+        },
+        {
+          "id": "gentle-ai",
+          "name": "Gentle Ai",
+          "repo": "Gentleman-Programming/gentle-ai",
+          "stars": 9242,
+          "gain": 9242
+        }
+      ],
+      "rollupZh": "今日OpenAI动作密集：LVMH媒体部门与其达成战略合作，并推出ChatGPT Wallet和科学博客，同时发布格点标准模型研究进展。GitHub方面，Octoverse显示2026年提交与推送量创新高，开发者正大量借助智能体构建，官方还给出跨智能体技能的实践指南。MIT科技评论则聚焦心智保存、开放AI风险，以及AI监管与数据中心电力压力。",
+      "rollupEn": "OpenAI had a busy day: a strategic partnership with LVMH's media division, the launch of ChatGPT Wallet and a science blog, plus lattice work toward the Standard Model. GitHub's Octoverse reports record commits and pushes in 2026 as developers build with agents, alongside a practical guide to portable agent skills. MIT Technology Review covers preserving minds, open AI risks, AI regulation and data-center power strains.",
+      "failures": []
+    },
+    {
       "date": "2026-11-15",
       "items": [
         {

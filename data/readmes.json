@@ -10336,5 +10336,215 @@
     "source": "README.md",
     "rawLength": 6405,
     "fetchedAt": "2026-11-15T10:38:03.543Z"
+  },
+  "stitch-skills": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10831,
+    "fetchedAt": "2026-11-16T10:53:50.706Z"
+  },
+  "rea-video": {
+    "summary": "rea-video is built for AI agents. In Claude Code, Codex or any agent that can run commands, say:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 17855,
+    "fetchedAt": "2026-11-16T10:53:50.707Z"
+  },
+  "hghub": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2316,
+    "fetchedAt": "2026-11-16T10:53:51.452Z"
+  },
+  "agent-skills-3": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 753,
+    "fetchedAt": "2026-11-16T10:53:51.452Z"
+  },
+  "gentle-ai": {
+    "summary": "Gentle Shell is a separate Pi integration package. Gentle AI configures supported agents; Gentle Shell owns its own Pi runtime, agents, and interface. Installing or updating this binary does not itself establish Pi behavior parity.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 26361,
+    "fetchedAt": "2026-11-16T10:53:51.452Z"
+  },
+  "no-mistakes": {
+    "summary": "no-mistakes puts a local git proxy in front of your real remote. Push to no-mistakes instead of origin, and it spins up a disposable worktree, runs an AI-driven validation pipeline, forwards the branch to the configured push target only after every check passes, and opens a clean PR automatically.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7936,
+    "fetchedAt": "2026-11-16T10:53:51.452Z"
+  },
+  "harness-sdk": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12290,
+    "fetchedAt": "2026-11-16T10:53:51.452Z"
+  },
+  "trackweight": {
+    "summary": "TrackWeight is a macOS application that transforms your MacBook's trackpad into an accurate weighing scale by leveraging the Force Touch pressure sensors built into modern MacBook trackpads.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4627,
+    "fetchedAt": "2026-11-16T10:53:51.452Z"
+  },
+  "deskbox": {
+    "summary": "DeskBox organizes desktop files, maps existing folders, and keeps everyday tools close without replacing Explorer or changing how your files work. Its real-folder-backed widgets make it a modern open-source alternative to tools such as Stardock Fences, while Glance, todos, quick notes, search, weath…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 29973,
+    "fetchedAt": "2026-11-16T10:53:52.285Z"
+  },
+  "fractalworkspace": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 39759,
+    "fetchedAt": "2026-11-16T10:53:52.285Z"
+  },
+  "deepgemm": {
+    "summary": "DeepGEMM is a unified, high-performance tensor core kernel library that brings together the key computation primitives of modern large language models — GEMMs (FP8, FP4, BF16), fused MoE with overlapped communication (Mega MoE), MQA scoring for the lightning indexer, HyperConnection (HC), and more —…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13253,
+    "fetchedAt": "2026-11-16T10:53:52.285Z"
+  },
+  "dots-ocr": {
+    "summary": "dots.ocr Designed for universal accessibility, it possesses the capability to recognize virtually any human script. Beyond achieving state-of-the-art (SOTA) performance in standard multilingual document parsing among models of comparable size, dots.ocr-1.5 excels at converting structured graphics (e…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 24766,
+    "fetchedAt": "2026-11-16T10:53:52.285Z"
+  },
+  "chatlog": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 518,
+    "fetchedAt": "2026-11-16T10:53:52.285Z"
+  },
+  "lore": {
+    "summary": "Lore is an open source version control system designed for unprecedented scalability of both data and teams. It is optimized for projects that combine code with large binary assets, including games and entertainment, and caters for the needs of developers and artists alike.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8091,
+    "fetchedAt": "2026-11-16T10:53:52.285Z"
+  },
+  "openidea": {
+    "summary": "OpenIDEA brings the IntelliJ IDEA way of working — its keymap, its tool windows, its search-everything habits — to a native app with a Rust core.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3199,
+    "fetchedAt": "2026-11-16T10:53:52.996Z"
+  },
+  "whatcable": {
+    "summary": "WhatCable is free and open source. If you find it useful, you can support the project by picking up WhatCable Pro. Pro is for finding the weak link in a connection and keeping the evidence: live measurements, per-connection diagnostics, and a history of how each cable performs. It unlocks:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 31017,
+    "fetchedAt": "2026-11-16T10:53:52.996Z"
+  },
+  "instatic": {
+    "summary": "Instatic's interface uses Pixelarticons by Gerrit Halfmann. Thanks to Gerrit for a genuinely distinctive icon set, and for kindly letting us use it in an open-source project.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18002,
+    "fetchedAt": "2026-11-16T10:53:52.996Z"
+  },
+  "sandcastle": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2480,
+    "fetchedAt": "2026-11-16T10:53:52.996Z"
+  },
+  "html-ppt-skill": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14678,
+    "fetchedAt": "2026-11-16T10:53:52.996Z"
+  },
+  "failproofai": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13800,
+    "fetchedAt": "2026-11-16T10:53:52.996Z"
+  },
+  "dux-shell": {
+    "summary": "Dux Modular Shell (DMS) is a complete desktop shell for niri, Hyprland, MangoWC, Sway, labwc, Scroll, Miracle WM, and other Wayland compositors. It replaces waybar, swaylock, swayidle, mako, fuzzel, polkit, and everything else you'd normally stitch together to make a desktop.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10452,
+    "fetchedAt": "2026-11-16T10:53:53.776Z"
+  },
+  "kimi-k3": {
+    "summary": "Kimi K3 is an open-weight, native multimodal agentic model and our most capable model to date. It is a 2.8T-parameter model built on Kimi Delta Attention (KDA) and Attention Residuals (AttnRes), with native vision capabilities and a 1-million-token context window. It is the world's first open 3T-cla…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 44927,
+    "fetchedAt": "2026-11-16T10:53:53.776Z"
+  },
+  "awesome-gamedev-agent-skills": {
+    "summary": "Agent Skills are small capability files an AI agent loads only when it needs them. This repo gives your agent 79 game-dev skills and a router that picks the right ones for you. You describe what you're building; the agent loads the matching engine and task skills before it writes code.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 25994,
+    "fetchedAt": "2026-11-16T10:53:53.776Z"
+  },
+  "dolphin-2": {
+    "summary": "Dolphin achieves promising performance across diverse page-level and element-level parsing tasks while ensuring superior efficiency through its lightweight architecture and parallel parsing mechanism.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9437,
+    "fetchedAt": "2026-11-16T10:53:53.776Z"
+  },
+  "ml-sharp": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4199,
+    "fetchedAt": "2026-11-16T10:53:53.776Z"
+  },
+  "containerization": {
+    "summary": "Containerization executes each Linux container inside of its own lightweight virtual machine. Clients can create dedicated IP addresses for every container to remove the need for individual port forwarding. Containers achieve sub-second start times using an optimized Linux kernel configuration and a…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9279,
+    "fetchedAt": "2026-11-16T10:53:53.776Z"
+  },
+  "aiclient2api": {
+    "summary": "",
+    "docker": "docker run -d -p 3000:3000 -p 8086:8086 -p 1455:1455 -p 56121:56121 -p 19876-19880:19876-19880 --restart=always -v \"your_path/configs:/app/configs\" -v \"your_path/plugins:/app/src/plugins-user\" -v \"your_path/.private:/app/.private\" --name aiclient2api justlikemaki/aiclient-2-api",
+    "source": "README.md",
+    "rawLength": 55250,
+    "fetchedAt": "2026-11-16T10:54:58.185Z"
+  },
+  "adk-go": {
+    "summary": "adk.dev/llms.txt is a machine-readable index of the ADK documentation, and adk.dev/llms-full.txt is the same documentation as a single file. Both are generated from adk-docs and include the Go API reference and samples, so you can point a coding agent at either one for context:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3771,
+    "fetchedAt": "2026-11-16T10:54:58.185Z"
+  },
+  "astron-agent": {
+    "summary": "Astron Agent is part of the iFlytek Astron open-source ecosystem. These sibling projects work well alongside it:",
+    "docker": "# Complete the required private initialization/password migration first:\n# docs/CASDOOR_PASSWORD_STORAGE.md\n# Then start all services; the authentication gateway requires a passing check.\ndocker compose -f docker-compose-with-auth.yaml up -d",
+    "source": "README.md",
+    "rawLength": 12084,
+    "fetchedAt": "2026-11-16T10:54:58.185Z"
+  },
+  "firstmate": {
+    "summary": "firstmate flips the model. You talk to a single agent - the first mate - and it runs the crew for you: spawning autonomous agents in a visible session backend, giving each a clean git worktree, supervising them to completion, and handing you finished PRs, approved local merges, or standalone investi…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 23186,
+    "fetchedAt": "2026-11-16T10:54:58.185Z"
   }
 }

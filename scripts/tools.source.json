@@ -34549,6 +34549,633 @@
       "cloud": "",
       "descEn": "VERY experimental Nintendo Switch 2 emulator",
       "pushedAt": "2026-11-15"
+    },
+    {
+      "id": "stitch-skills",
+      "name": "Stitch Skills",
+      "repo": "google-labs-code/stitch-skills",
+      "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9548,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, ",
+      "pushedAt": "2026-08-17"
+    },
+    {
+      "id": "rea-video",
+      "name": "Rea Video",
+      "repo": "JuneYaooo/rea-video",
+      "homepage": "https://www.reavideo.ai/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-video",
+        "aigc-detection",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 9451,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 V",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "hghub",
+      "name": "HGhub",
+      "repo": "Minireel/HGhub",
+      "homepage": "https://minireel.github.io/HGhub/",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "android",
+        "drama",
+        "free",
+        "movie-web-app"
+      ],
+      "seed": {
+        "stars": 9329,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Plug-in media player",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "agent-skills-3",
+      "name": "Agent Skills",
+      "repo": "janestreet/agent_skills",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9278,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Agent skills",
+      "pushedAt": "2026-11-03"
+    },
+    {
+      "id": "gentle-ai",
+      "name": "Gentle Ai",
+      "repo": "Gentleman-Programming/gentle-ai",
+      "homepage": "https://gentlemanprogramming.com/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "ai-coding",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 9242,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills,",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "no-mistakes",
+      "name": "No Mistakes",
+      "repo": "kunchenguid/no-mistakes",
+      "homepage": "https://kunchenguid.github.io/no-mistakes/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9229,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "git push no-mistakes",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "harness-sdk",
+      "name": "Harness Sdk",
+      "repo": "strands-agents/harness-sdk",
+      "homepage": "http://strandsagents.com/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-framework",
+        "agentic",
+        "agentic-ai",
+        "agents"
+      ],
+      "seed": {
+        "stars": 9223,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "trackweight",
+      "name": "TrackWeight",
+      "repo": "KrishKrosh/TrackWeight",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9213,
+        "language": "Swift"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Use your Mac trackpad as a weighing scale",
+      "pushedAt": "2025-07-27"
+    },
+    {
+      "id": "deskbox",
+      "name": "DeskBox",
+      "repo": "Tianyu199509/DeskBox",
+      "homepage": "https://deskbox.fun",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "desktop-cleanup",
+        "desktop-organizer",
+        "desktop-widget",
+        "desktop-widgets"
+      ],
+      "seed": {
+        "stars": 9203,
+        "language": "C#"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A free, open-source Windows desktop organizer with native-feeling WinUI 3 widgets.",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "fractalworkspace",
+      "name": "FractalWorkspace",
+      "repo": "Fractal-Compute-Orchestrations/FractalWorkspace",
+      "homepage": "https://play.google.com/store/apps/details?id=org.fractal.app&hl=en",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "compute-orchestration",
+        "distributed-systems",
+        "edge-computing",
+        "edge-intelligence"
+      ],
+      "seed": {
+        "stars": 9201,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A unified ecosystem and workspace for large-scale federated learning of Large Models & LLMS. Store compute as Wifi",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "deepgemm",
+      "name": "DeepGEMM",
+      "repo": "deepseek-ai/DeepGEMM",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9199,
+        "language": "Cuda"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "DeepGEMM: clean and efficient BLAS kernel library on GPU",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "dots-ocr",
+      "name": "Dots.ocr",
+      "repo": "studio-dots-ai/dots.ocr",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9192,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Multilingual Document Layout Parsing in a Single Vision-Language Model",
+      "pushedAt": "2026-03-24"
+    },
+    {
+      "id": "chatlog",
+      "name": "Chatlog",
+      "repo": "sjzar/chatlog",
+      "homepage": "",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "chat",
+        "chatlog",
+        "database",
+        "key"
+      ],
+      "seed": {
+        "stars": 9178,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "chat log tool, easily use your own chat data. 聊天记录工具，轻松使用自己的聊天数据",
+      "pushedAt": "2025-10-20"
+    },
+    {
+      "id": "lore",
+      "name": "Lore",
+      "repo": "EpicGames/lore",
+      "homepage": "https://lore.org",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "open-source"
+      ],
+      "seed": {
+        "stars": 9160,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Lore is a next-generation, open source version control system",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "openidea",
+      "name": "Openidea",
+      "repo": "l0ng-ai/openidea",
+      "homepage": "https://openidea.sh",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "code-editor",
+        "cross-platform",
+        "dap",
+        "database-client"
+      ],
+      "seed": {
+        "stars": 9132,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and ",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "whatcable",
+      "name": "Whatcable",
+      "repo": "darrylmorley/whatcable",
+      "homepage": "https://whatcable.uk",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "apple-silicon",
+        "hardware-info",
+        "iokit",
+        "mac-app"
+      ],
+      "seed": {
+        "stars": 9127,
+        "language": "Swift"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "instatic",
+      "name": "Instatic",
+      "repo": "CoreBunch/Instatic",
+      "homepage": "https://instatic.com",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "cms",
+        "css",
+        "css-framework",
+        "page-builder"
+      ],
+      "seed": {
+        "stars": 9126,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "sandcastle",
+      "name": "Sandcastle",
+      "repo": "mattpocock/sandcastle",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9110,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "html-ppt-skill",
+      "name": "Html Ppt Skill",
+      "repo": "lewislulu/html-ppt-skill",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9108,
+        "language": "HTML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "HTML PPT Studio — AgentSkill with 24 themes, 31 layouts, 20+ animations for building professional HTML presentations",
+      "pushedAt": "2026-09-14"
+    },
+    {
+      "id": "failproofai",
+      "name": "Failproofai",
+      "repo": "FailproofAI/failproofai",
+      "homepage": "https://befailproof.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-failure",
+        "agent-harness",
+        "agent-observability",
+        "agent-reliability"
+      ],
+      "seed": {
+        "stars": 9107,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Observability and enforcement for AI agent harnesses. Capture every run and runtime reliability with policy enforcement.",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "dux-shell",
+      "name": "Dux Shell",
+      "repo": "duxlabs-dev/dux-shell",
+      "homepage": "https://duxlabs.dev",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "dwl",
+        "go",
+        "hyprland",
+        "labwc"
+      ],
+      "seed": {
+        "stars": 9099,
+        "language": "QML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Desktop shell for wayland compositors built with Quickshell & GO, optimized for niri, hyprland, sway, MangoWC, labwc, and MiracleWM.",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "kimi-k3",
+      "name": "Kimi K3",
+      "repo": "MoonshotAI/Kimi-K3",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9092,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open Frontier Intelligence",
+      "pushedAt": "2026-08-06"
+    },
+    {
+      "id": "awesome-gamedev-agent-skills",
+      "name": "Awesome Gamedev Agent Skills",
+      "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+      "homepage": "https://gamedev-skills.github.io/awesome-gamedev-agent-skills/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "awesome-list",
+        "bevy"
+      ],
+      "seed": {
+        "stars": 9079,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Make games with your AI coding agent: 79 game-dev skills and a router for Godot, Unity, Unreal, Roblox, three.js, Phaser and 6 more engines. Checked on the real engines.",
+      "pushedAt": "2026-11-12"
+    },
+    {
+      "id": "dolphin-2",
+      "name": "Dolphin",
+      "repo": "bytedance/Dolphin",
+      "homepage": "",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "document-analysis",
+        "layout-analysis",
+        "ocr",
+        "parser"
+      ],
+      "seed": {
+        "stars": 9069,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The official repo for “Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting”, ACL, 2025.",
+      "pushedAt": "2026-03-25"
+    },
+    {
+      "id": "ml-sharp",
+      "name": "Ml Sharp",
+      "repo": "apple-aiml-research/ml-sharp",
+      "homepage": "https://apple-aiml-research.github.io/ml-sharp/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9065,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Sharp Monocular View Synthesis in Less Than a Second",
+      "pushedAt": "2026-09-11"
+    },
+    {
+      "id": "containerization",
+      "name": "Containerization",
+      "repo": "apple/containerization",
+      "homepage": "https://apple.github.io/containerization/documentation/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9021,
+        "language": "Swift"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Containerization is a Swift package for running Linux containers on macOS.",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "aiclient2api",
+      "name": "AIClient2API",
+      "repo": "justlovemaki/AIClient2API",
+      "homepage": "https://aiproxy.justlikemaki.vip",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "aicoding",
+        "antigravity",
+        "claude",
+        "codex"
+      ],
+      "seed": {
+        "stars": 8980,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Self-hosted multi-protocol AI API proxy for Antigravity, Codex, Grok, Kiro, OpenAI, Claude, and custom providers. Supports OpenAI-compatible API, Claude API, Gemini protocol conver",
+      "pushedAt": "2026-11-14"
+    },
+    {
+      "id": "adk-go",
+      "name": "Adk Go",
+      "repo": "google/adk-go",
+      "homepage": "https://google.github.io/adk-docs/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "a2a",
+        "agents",
+        "agents-sdk",
+        "ai"
+      ],
+      "seed": {
+        "stars": 8965,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "astron-agent",
+      "name": "Astron Agent",
+      "repo": "iflytek/astron-agent",
+      "homepage": "http://astron.ai/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agentic-ai",
+        "agentic-workflow",
+        "ai"
+      ],
+      "seed": {
+        "stars": 8934,
+        "language": "Java"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Enterprise-grade, commercial-friendly agentic workflow platform for building next-generation SuperAgents.",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "firstmate",
+      "name": "Firstmate",
+      "repo": "kunchenguid/firstmate",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8911,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Talk to one agent. Ship with a crew.",
+      "pushedAt": "2026-11-13"
     }
   ]
 }

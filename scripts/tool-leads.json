@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T10:39:40.992Z",
+  "generatedAt": "2026-11-16T10:56:40.802Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -5778,8 +5778,8 @@
       "zh": "面向使用 Google Cloud Knowledge Catalog 的开发者，提供工具与示例。"
     },
     "openmotion": {
-      "en": "Open-source studio for creators using Opus 5.5: reverse-engineer any video, then recreate, edit and render it with HTML code.",
-      "zh": "开源全栈工作室：面向 Opus 5.5 视频创作者，逆向解析视频并用 HTML 重建渲染。"
+      "en": "Open-source video studio for creators who want to turn reference videos into editable motion graphics with their brand kit.",
+      "zh": "面向创作者的开源视频工作室，可将参考视频转为带品牌套件的可编辑动态图形。"
     },
     "goutoujunshi": {
       "en": "A Codex relationship advisor for people navigating romance and diverse relationships, it first acknowledges emotions, then analyzes the situation and suggests actionable steps.",
@@ -5908,6 +5908,122 @@
     "context-engineering": {
       "en": "A handbook for developers moving beyond prompt engineering toward context design, orchestration, and optimization.",
       "zh": "一本手册，帮助开发者超越提示词工程，进入上下文设计、编排与优化的领域。"
+    },
+    "rea-video": {
+      "en": "For video creators and AI agent users who want to understand how a video was made, Rea Video breaks it down shot by shot and shows how to remake it.",
+      "zh": "面向想弄清视频如何制作的人与 AI agent 使用者，Rea Video 逐镜头拆解视频来源并说明复刻方法。"
+    },
+    "hghub": {
+      "en": "A plug-in media player for mobile and IoT projects that need to add media playback.",
+      "zh": "面向移动与物联网项目的插件式媒体播放器，用于添加媒体播放功能。"
+    },
+    "agent-skills-3": {
+      "en": "Agent Skills is a developer tool that provides skills for agents.",
+      "zh": "Agent Skills 是一款面向开发者的工具，提供 agent 技能。"
+    },
+    "gentle-ai": {
+      "en": "Gentle-AI configures the coding agents you already use, such as Claude Code, Cursor, and Codex, with persistent memory, curated skills, MCP servers, and personas.",
+      "zh": "Gentle-AI 为已在使用的编程代理（如 Claude Code、Cursor、Codex）配置持久记忆、精选技能、MCP 服务器与角色设定。"
+    },
+    "trackweight": {
+      "en": "TrackWeight lets Mac users turn the built-in trackpad into a weighing scale for quick everyday measurements.",
+      "zh": "TrackWeight 让 Mac 用户把内置触控板当作简易秤，用于日常快速称重。"
+    },
+    "harness-sdk": {
+      "en": "An open-source SDK in Python and TypeScript for developers building production AI agents, letting them create an agent harness and control it end-to-end with any model and any cloud.",
+      "zh": "面向构建生产级 AI 智能体的开发者，这是一个 Python 与 TypeScript 开源 SDK，可搭建并端到端控制智能体框架，支持任意模型与任意云。"
+    },
+    "deskbox": {
+      "en": "DeskBox is a free, open-source Windows desktop organizer for users who want to arrange desktop items with native-feeling WinUI 3 widgets.",
+      "zh": "DeskBox 是一款免费开源的 Windows 桌面整理工具，用接近原生的 WinUI 3 小组件帮助用户整理桌面内容。"
+    },
+    "stitch-skills": {
+      "en": "A library of Agent Skills for developers using the Stitch MCP server, following the Agent Skills open standard for compatibility with coding agents.",
+      "zh": "面向使用 Stitch MCP 服务器的开发者，提供遵循 Agent Skills 开放标准的技能库，可与多种编码代理兼容使用。"
+    },
+    "no-mistakes": {
+      "en": "A dev tool used with the `git push no-mistakes` command, aimed at developers who push code changes.",
+      "zh": "配合 git push no-mistakes 命令使用的开发工具，面向推送代码的开发者。"
+    },
+    "deepgemm": {
+      "en": "DeepGEMM is a clean and efficient GPU library of BLAS kernels for developers working on GPU linear algebra.",
+      "zh": "DeepGEMM 是一个简洁高效的 GPU BLAS 内核库，面向需要在 GPU 上做线性代数计算的开发者。"
+    },
+    "chatlog": {
+      "en": "A chat log tool for people who want to easily use their own chat data.",
+      "zh": "一款聊天记录工具，帮助用户轻松使用自己的聊天数据。"
+    },
+    "fractalworkspace": {
+      "en": "A unified workspace and ecosystem for teams doing large-scale federated learning of large models and LLMs, treating compute like shared WiFi.",
+      "zh": "面向需要大规模联邦学习大模型与 LLM 的团队，提供统一的工作区与生态，让算力像 WiFi 一样共享。"
+    },
+    "dots-ocr": {
+      "en": "Dots.ocr is a vision-language model for developers who need multilingual document layout parsing in one model.",
+      "zh": "Dots.ocr 是面向开发者的视觉语言模型，用于在单一模型中完成多语言文档版面解析。"
+    },
+    "lore": {
+      "en": "Lore is an open source version control system for developers who need to track and manage changes to their code.",
+      "zh": "Lore 是一个开源版本控制系统，面向需要跟踪和管理代码变更的开发者。"
+    },
+    "instatic": {
+      "en": "An open-source, self-hosted visual CMS for people who want Webflow-style site building with clean static page output, plus users, roles, plugins, content and a database.",
+      "zh": "面向希望以可视化方式建站并输出干净静态页面的用户，开源可自托管，包含用户、角色、插件、内容和数据库。"
+    },
+    "whatcable": {
+      "en": "A macOS menu bar app for Mac users who need plain-English answers about what each plugged-in USB-C cable can actually do.",
+      "zh": "面向 Mac 用户，用菜单栏应用以通俗语言说明每根 USB-C 线缆实际能做什么。"
+    },
+    "html-ppt-skill": {
+      "en": "An AgentSkill for people who need HTML presentations, offering 24 themes, 31 layouts and 20+ animations to build professional slides.",
+      "zh": "面向需要制作 HTML 演示文稿的用户，该 AgentSkill 提供 24 种主题、31 种布局和 20 多种动画，用于构建专业的演示页面。"
+    },
+    "sandcastle": {
+      "en": "For TypeScript developers, Sandcastle lets you orchestrate sandboxed coding agents with sandcastle.run().",
+      "zh": "Sandcastle 面向 TypeScript 开发者，用 sandcastle.run() 编排沙箱中的编码智能体。"
+    },
+    "failproofai": {
+      "en": "Failproofai gives teams building AI agent harnesses run capture and policy enforcement for runtime reliability.",
+      "zh": "Failproofai 为构建 AI agent harness 的团队提供运行记录与策略执行，以保障运行时可靠性。"
+    },
+    "kimi-k3": {
+      "en": "Kimi K3, listed under dev-tools, is described as open frontier intelligence.",
+      "zh": "Kimi K3 属于 dev-tools 分类，描述为 Open Frontier Intelligence。"
+    },
+    "ml-sharp": {
+      "en": "For developers, Ml Sharp enables sharp monocular view synthesis in less than a second.",
+      "zh": "面向开发者，Ml Sharp 可在不到一秒内完成清晰的单目视图合成。"
+    },
+    "awesome-gamedev-agent-skills": {
+      "en": "Adds 79 game-dev skills and a router to AI coding agents, covering Godot, Unity, Unreal, Roblox, three.js, Phaser and more, checked on real engines.",
+      "zh": "为 AI 编程代理添加 79 项游戏开发技能和路由，覆盖 Godot、Unity、Unreal、Roblox 等引擎，均在真实引擎上校验。"
+    },
+    "dolphin-2": {
+      "en": "Dolphin is the official ACL 2025 repository for document image parsing via heterogeneous anchor prompting, aimed at researchers and developers.",
+      "zh": "Dolphin 是 ACL 2025 官方仓库，面向研究人员和开发者，用异构锚点提示做文档图像解析。"
+    },
+    "containerization": {
+      "en": "A Swift package for developers who need to run Linux containers on macOS.",
+      "zh": "一个 Swift 包，供需要在 macOS 上运行 Linux 容器的开发者使用。"
+    },
+    "adk-go": {
+      "en": "A code-first Go toolkit for developers who need to build, evaluate, and deploy AI agents with flexibility and control.",
+      "zh": "一个代码优先的 Go 工具包，帮助开发者构建、评估并部署具备灵活性与控制力的 AI 智能体。"
+    },
+    "astron-agent": {
+      "en": "A platform for enterprises building agentic workflows and SuperAgents, aimed at teams that need a commercial-friendly foundation.",
+      "zh": "面向构建智能体工作流与 SuperAgent 的企业平台，适合需要商用友好基础能力的团队。"
+    },
+    "firstmate": {
+      "en": "A dev tool for developers who talk to one agent while a crew ships the work.",
+      "zh": "面向开发者的工具：与一个 agent 对话，由一支团队完成交付。"
+    },
+    "aiclient2api": {
+      "en": "Self-hosted proxy for developers who need one OpenAI- or Claude-compatible endpoint across multiple AI providers, with routing and failover.",
+      "zh": "面向需要统一接入多家 AI 服务的开发者，自托管代理提供兼容接口、协议转换与故障转移。"
+    },
+    "openidea": {
+      "en": "A fast native IDE in Rust for developers who want IntelliJ IDEA-style keymaps, tool windows and search across 60+ languages.",
+      "zh": "面向习惯 IntelliJ IDEA 的开发者，用 Rust 构建的快速原生 IDE，支持 60+ 语言。"
     }
   }
 }
