@@ -32326,7 +32326,7 @@
     {
       "id": "copilot-sdk",
       "name": "Copilot Sdk",
-      "repo": "github/copilot-sdk",
+      "repo": "microsoft/copilot-sdk",
       "homepage": "",
       "category": "dev-tools",
       "desc": "",
@@ -35176,6 +35176,656 @@
       "cloud": "",
       "descEn": "Talk to one agent. Ship with a crew.",
       "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "kiri",
+      "name": "Kiri",
+      "repo": "libracoder/kiri",
+      "homepage": "https://runkiri.com",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "containers",
+        "docker",
+        "kubernetes",
+        "linux"
+      ],
+      "seed": {
+        "stars": 9604,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
+      "pushedAt": "2026-11-17"
+    },
+    {
+      "id": "arcane",
+      "name": "Arcane",
+      "repo": "getarcaneapp/arcane",
+      "homepage": "https://getarcane.app",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "compose",
+        "container-management",
+        "containers",
+        "docker"
+      ],
+      "seed": {
+        "stars": 9033,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Modern Docker Management, Designed for Everyone",
+      "pushedAt": "2026-11-17"
+    },
+    {
+      "id": "aws-emulator",
+      "name": "Aws Emulator",
+      "repo": "aws/aws-emulator",
+      "homepage": "https://docs.aws.amazon.com/emulator/latest/userguide/what-is-service.html",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8979,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AWS Emulator is a local emulator of the AWS APIs.",
+      "pushedAt": "2026-11-17"
+    },
+    {
+      "id": "rakazo",
+      "name": "Rakazo",
+      "repo": "elie222/rakazo",
+      "homepage": "https://rakazo.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "chatgpt",
+        "docker",
+        "electron"
+      ],
+      "seed": {
+        "stars": 8938,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+      "pushedAt": "2026-11-17"
+    },
+    {
+      "id": "rikkahub",
+      "name": "Rikkahub",
+      "repo": "rikkahub/rikkahub",
+      "homepage": "https://rikka-ai.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "android",
+        "app",
+        "chatgpt"
+      ],
+      "seed": {
+        "stars": 8937,
+        "language": "Kotlin"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "RikkaHub is an Android APP that supports for multiple LLM providers.",
+      "pushedAt": "2026-11-17"
+    },
+    {
+      "id": "mika",
+      "name": "Mika",
+      "repo": "wangzan101/Mika",
+      "homepage": "https://mikaphone.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "accessibility",
+        "ai-agent",
+        "android",
+        "automation"
+      ],
+      "seed": {
+        "stars": 8927,
+        "language": "Kotlin"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+      "pushedAt": "2026-11-17"
+    },
+    {
+      "id": "effectcraft",
+      "name": "Effectcraft",
+      "repo": "storytold/effectcraft",
+      "homepage": "https://getartcraft.com/apps/effectcraft",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "art",
+        "compositing",
+        "compositing-software",
+        "motion-graphics"
+      ],
+      "seed": {
+        "stars": 8903,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "EffectCraft: An open-source motion graphics and compositing tool written from scratch in pure Rust",
+      "pushedAt": "2026-11-17"
+    },
+    {
+      "id": "audiblez",
+      "name": "Audiblez",
+      "repo": "santinic/audiblez",
+      "homepage": "",
+      "category": "video-media",
+      "desc": "",
+      "tags": [
+        "audiobooks",
+        "epub",
+        "kokoro",
+        "python"
+      ],
+      "seed": {
+        "stars": 8890,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Generate audiobooks from e-books",
+      "pushedAt": "2026-02-27"
+    },
+    {
+      "id": "openrig",
+      "name": "Openrig",
+      "repo": "mvschwarz/openrig",
+      "homepage": "https://openrig.dev",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-harness",
+        "agent-orchestration",
+        "agent-skills",
+        "ai-coding"
+      ],
+      "seed": {
+        "stars": 8880,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+      "pushedAt": "2026-11-17"
+    },
+    {
+      "id": "slime",
+      "name": "Slime",
+      "repo": "THUDM/slime",
+      "homepage": "https://thudm.github.io/slime",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8837,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "slime is an LLM training framework for RL Scaling.",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "claude-squad",
+      "name": "Claude Squad",
+      "repo": "smtg-ai/claude-squad",
+      "homepage": "https://smtg-ai.github.io/claude-squad/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "claude-code",
+        "cli",
+        "codex",
+        "opencode"
+      ],
+      "seed": {
+        "stars": 8821,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp.",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "free-code",
+      "name": "Free Code",
+      "repo": "freecodexyz/free-code",
+      "homepage": "https://x.com/paoloanzn/status/2039022418698907949?s=20",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8820,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The free build of Claude Code. All telemetry removed, security-prompt guardrails stripped, all experimental features enabled.",
+      "pushedAt": "2026-07-29"
+    },
+    {
+      "id": "crosspoint-reader",
+      "name": "Crosspoint Reader",
+      "repo": "crosspoint-reader/crosspoint-reader",
+      "homepage": "https://crosspointreader.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "e-reader",
+        "eink",
+        "epub",
+        "epub-reader"
+      ],
+      "seed": {
+        "stars": 8820,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source e-reader firmware",
+      "pushedAt": "2026-11-17"
+    },
+    {
+      "id": "claude-code-usage-monitor",
+      "name": "Claude Code Usage Monitor",
+      "repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "analytics",
+        "claude",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 8805,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Real-time Claude Code usage monitor with predictions and warnings",
+      "pushedAt": "2026-07-05"
+    },
+    {
+      "id": "awesome-agentic-ai-zh",
+      "name": "Awesome Agentic Ai Zh",
+      "repo": "WenyuChiou/awesome-agentic-ai-zh",
+      "homepage": "https://wenyuchiou.github.io/awesome-agentic-ai-zh/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agentic-ai",
+        "agentic-workflows",
+        "ai-agent",
+        "ai-agents"
+      ],
+      "seed": {
+        "stars": 8800,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with 240+ curated resources and hands-on examples. 中文 AI agent 學習地圖。",
+      "pushedAt": "2026-11-15"
+    },
+    {
+      "id": "agentic-inbox",
+      "name": "Agentic Inbox",
+      "repo": "cloudflare/agentic-inbox",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8782,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A self-hosted email client with an AI agent, running entirely on Cloudflare Workers",
+      "pushedAt": "2026-04-23"
+    },
+    {
+      "id": "cyberstrikeai",
+      "name": "CyberStrikeAI",
+      "repo": "AIPentest/CyberStrikeAI",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "ai-cybersecurity",
+        "ai-hacking"
+      ],
+      "seed": {
+        "stars": 8746,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The system of action for AI-native cybersecurity—where intent becomes governed execution, evidence becomes operational memory, and every operation improves the next.",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "evolver",
+      "name": "Evolver",
+      "repo": "EvoMap/evolver",
+      "homepage": "https://evomap.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "a2a",
+        "agent-evolution",
+        "agent-framework",
+        "agent-protocol"
+      ],
+      "seed": {
+        "stars": 8745,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. | evomap.ai",
+      "pushedAt": "2026-11-12"
+    },
+    {
+      "id": "android-reverse-engineering-skill",
+      "name": "Android Reverse Engineering Skill",
+      "repo": "SimoneAvogadro/android-reverse-engineering-skill",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8739,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Claude Code skill to support Android app's reverse engineering",
+      "pushedAt": "2026-10-12"
+    },
+    {
+      "id": "zcode",
+      "name": "ZCode",
+      "repo": "zai-org/ZCode",
+      "homepage": "https://zcode.z.ai/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8729,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "utopia",
+      "name": "Utopia",
+      "repo": "deeplethe/utopia",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-memory",
+        "bitemporal",
+        "graphrag",
+        "knowledge-base"
+      ],
+      "seed": {
+        "stars": 8728,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "World's first open-source enterprise world model.",
+      "pushedAt": "2026-11-17"
+    },
+    {
+      "id": "workout-cool",
+      "name": "Workout Cool",
+      "repo": "Snouzy/workout-cool",
+      "homepage": "https://workout.cool",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "coach",
+        "exercise",
+        "feature-sliced-design",
+        "fitness"
+      ],
+      "seed": {
+        "stars": 8694,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exercise database.",
+      "pushedAt": "2026-11-02"
+    },
+    {
+      "id": "geolibre",
+      "name": "GeoLibre",
+      "repo": "opengeos/GeoLibre",
+      "homepage": "https://geolibre.app",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "cesium",
+        "data-science",
+        "duckdb",
+        "geolibre"
+      ],
+      "seed": {
+        "stars": 8691,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebo",
+      "pushedAt": "2026-11-17"
+    },
+    {
+      "id": "oh-story-claudecode",
+      "name": "Oh Story Claudecode",
+      "repo": "zenstory-ai/oh-story-claudecode",
+      "homepage": "https://zenstory.ai/zh/oh-story",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-agent",
+        "ai-novel-writing",
+        "ai-writing"
+      ],
+      "seed": {
+        "stars": 8689,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AI 写网文全流程 skill 包：扫榜选材、拆解爆款、大纲细纲、长篇设定与伏笔追踪、短篇反转、去AI味与封面生成，适配 Claude Code / Codex / Antigravity / OpenCode 等 ｜ Agent skill pack for writing Chinese web novels",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "modly",
+      "name": "Modly",
+      "repo": "lightningpixel/modly",
+      "homepage": "https://modly3d.app",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "3d",
+        "ai-local",
+        "ai-tools",
+        "desktop-app"
+      ],
+      "seed": {
+        "stars": 8685,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "flue",
+      "name": "Flue",
+      "repo": "withastro/flue",
+      "homepage": "https://www.flueframework.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8669,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The sandbox agent framework.",
+      "pushedAt": "2026-11-07"
+    },
+    {
+      "id": "claude-desktop-zh-cn",
+      "name": "Claude Desktop Zh Cn",
+      "repo": "javaht/claude-desktop-zh-cn",
+      "homepage": "http://javaht.github.io/claude-desktop-zh-cn/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "claude",
+        "claude-code",
+        "claude-desktop",
+        "claude-desktop-zh-cn"
+      ],
+      "seed": {
+        "stars": 8645,
+        "language": "PowerShell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Claude Desktop Chinese Patch (macOS & Windows & Linux)",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "everything",
+      "name": "Everything",
+      "repo": "HeyPuter/everything",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "adobe",
+        "cad",
+        "microsoft",
+        "office"
+      ],
+      "seed": {
+        "stars": 8599,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "We're rebuilding and open-sourcing the world’s software from scratch.",
+      "pushedAt": "2026-11-17"
+    },
+    {
+      "id": "jiuwenswarm",
+      "name": "Jiuwenswarm",
+      "repo": "openJiuwen-ai/jiuwenswarm",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8591,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "JiuwenSwarm is an intelligent AI Agent built on openJiuwen. It extends the powerful capabilities of large language models directly to your fingertips through various communication ",
+      "pushedAt": "2026-11-17"
+    },
+    {
+      "id": "flowgram-ai",
+      "name": "Flowgram.ai",
+      "repo": "bytedance/flowgram.ai",
+      "homepage": "https://flowgram.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "automation",
+        "coze",
+        "data-flow"
+      ],
+      "seed": {
+        "stars": 8589,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "FlowGram is an extensible workflow development framework with built-in canvas, form, variable, and materials that helps developers build AI workflow platforms faster and simpler.",
+      "pushedAt": "2026-11-16"
     }
   ]
 }

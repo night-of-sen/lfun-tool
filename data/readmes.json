@@ -10546,5 +10546,215 @@
     "source": "README.md",
     "rawLength": 23186,
     "fetchedAt": "2026-11-16T10:54:58.185Z"
+  },
+  "kiri": {
+    "summary": "Kiri is a lightweight replacement for Docker Desktop and OrbStack, written in Rust. It runs containers in one small Linux VM (or straight on the kernel on Linux) and speaks the Docker Engine API, so your tools just work.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6654,
+    "fetchedAt": "2026-11-17T11:41:59.741Z"
+  },
+  "arcane": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2507,
+    "fetchedAt": "2026-11-17T11:41:59.741Z"
+  },
+  "aws-emulator": {
+    "summary": "AWS Emulator is for building and testing. Don’t use it for production workloads or to test security. See Security in AWS Emulator.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8454,
+    "fetchedAt": "2026-11-17T11:42:00.326Z"
+  },
+  "rakazo": {
+    "summary": "",
+    "docker": "docker compose --env-file .env \\\n  -f infra/compose/docker-compose.yml \\\n  -f infra/compose/docker-compose.postgres-host.yml \\\n  up postgres -d",
+    "source": "README.md",
+    "rawLength": 19129,
+    "fetchedAt": "2026-11-17T11:42:00.326Z"
+  },
+  "rikkahub": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6299,
+    "fetchedAt": "2026-11-17T11:42:00.326Z"
+  },
+  "mika": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13951,
+    "fetchedAt": "2026-11-17T11:42:00.326Z"
+  },
+  "effectcraft": {
+    "summary": "EffectCraft is for animated titles, motion graphics and compositing work: the kind of thing motion designers and VFX artists need. You build a composition out of layers (solids, shapes, text, footage, other compositions), animate their properties with keyframes, stack effects on them and render the…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 27465,
+    "fetchedAt": "2026-11-17T11:42:00.326Z"
+  },
+  "audiblez": {
+    "summary": "Audiblez generates .m4b audiobooks from regular .epub e-books, using Kokoro's high-quality speech synthesis.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8414,
+    "fetchedAt": "2026-11-17T11:42:00.326Z"
+  },
+  "openrig": {
+    "summary": "OpenRig writes instance state, provider integration and workspace files as part of setup and operation. These include trust settings and executable hooks. The summary below follows this source revision; check rig --version when using a published package, since repository guidance can be ahead of npm…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 41923,
+    "fetchedAt": "2026-11-17T11:42:00.902Z"
+  },
+  "slime": {
+    "summary": "slime's design goal is to make these two capabilities reinforce each other without turning the system into a heavy stack of disconnected trainers, rollout services, and agent frameworks. Megatron training, SGLang rollout, custom data generation, reward computation, verifier feedback, and environment…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18901,
+    "fetchedAt": "2026-11-17T11:42:00.902Z"
+  },
+  "claude-squad": {
+    "summary": "Claude Squad is a terminal app that manages multiple Claude Code, Codex, Gemini (and other local agents including Aider) in separate workspaces, allowing you to work on multiple tasks simultaneously.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5525,
+    "fetchedAt": "2026-11-17T11:42:00.902Z"
+  },
+  "free-code": {
+    "summary": "free-code supports five API providers out of the box. Set the corresponding environment variable to switch providers -- no code changes needed.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12090,
+    "fetchedAt": "2026-11-17T11:42:00.902Z"
+  },
+  "crosspoint-reader": {
+    "summary": "CrossPoint is open-source e-reader firmware - community-built, fully hackable, free forever. It's maintained by a growing community of developers and readers who believe your device should do what you want - not what a manufacturer decided for you.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13330,
+    "fetchedAt": "2026-11-17T11:42:00.902Z"
+  },
+  "claude-code-usage-monitor": {
+    "summary": "Claude Monitor stays a CLI-first, privacy-first core. GUIs, tray apps, hardware dashboards, and provider adapters belong in separate repositories; they should consume the state/export protocol through --write-state or --once --output json instead of parsing the Rich TUI or reimplementing the analyze…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 41523,
+    "fetchedAt": "2026-11-17T11:42:00.902Z"
+  },
+  "awesome-agentic-ai-zh": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12677,
+    "fetchedAt": "2026-11-17T11:42:01.472Z"
+  },
+  "agentic-inbox": {
+    "summary": "Agentic Inbox lets you send, receive, and manage emails through a modern web interface -- all powered by your own Cloudflare account. Incoming emails arrive via Cloudflare Email Routing, each mailbox is isolated in its own Durable Object with a SQLite database, and attachments are stored in R2.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6554,
+    "fetchedAt": "2026-11-17T11:42:01.472Z"
+  },
+  "cyberstrikeai": {
+    "summary": "CyberStrikeAI connects planning, execution, human oversight, evidence, and replay in one auditable workspace. Built in Go, it combines Pi-powered agents, MCP-native tools, RAG knowledge, visual workflows, and attack-chain modeling and analysis for authorized security operations.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 21620,
+    "fetchedAt": "2026-11-17T11:42:01.472Z"
+  },
+  "evolver": {
+    "summary": "Evolver is the core engine behind EvoMap, a network where AI agents evolve through validated collaboration. Visit evomap.ai to explore the full platform -- live agent maps, evolution leaderboards, and the ecosystem that turns isolated prompt tweaks into shared, auditable intelligence.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 34191,
+    "fetchedAt": "2026-11-17T11:42:01.472Z"
+  },
+  "android-reverse-engineering-skill": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12154,
+    "fetchedAt": "2026-11-17T11:42:01.472Z"
+  },
+  "zcode": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7985,
+    "fetchedAt": "2026-11-17T11:42:01.472Z"
+  },
+  "utopia": {
+    "summary": "Utopia is still at v0.1. The database schema evolves between versions and migrations only roll forward, with no rollback. Pin a specific version with UTOPIAIMAGE in production, and back up the database along with the data directory before upgrading.",
+    "docker": "git clone https://github.com/deeplethe/utopia.git\ncd utopia\ndocker compose --profile app up -d",
+    "source": "README.md",
+    "rawLength": 16188,
+    "fetchedAt": "2026-11-17T11:42:02.018Z"
+  },
+  "workout-cool": {
+    "summary": "",
+    "docker": "# Build the Docker image\ndocker build -t yourusername/workout-cool .\n\n# Run the container\ndocker run -p 3000:3000 --env-file .env.production yourusername/workout-cool",
+    "source": "README.md",
+    "rawLength": 14211,
+    "fetchedAt": "2026-11-17T11:42:02.018Z"
+  },
+  "geolibre": {
+    "summary": "GeoLibre is built with Tauri v2, React, TypeScript, MapLibre GL JS, DuckDB-WASM Spatial, and deck.gl. The same workspace runs as a native desktop app, native Android and iOS apps, in any modern web browser, and adapts responsively to mobile and small screens.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 21848,
+    "fetchedAt": "2026-11-17T11:42:02.018Z"
+  },
+  "oh-story-claudecode": {
+    "summary": "下面这本是项目作者自己的长篇，用 /story-import 把已发的前 20 章反向重建成可续写工程。 下面是开写第 21 章之前的状态卡。/story-long-write 靠 追踪/上下文.md 记账（固定 7 栏、上限 12 KiB），动笔前只挑本章用得上的状态交给写手，不把整张卡硬塞进正文提示词；本章细纲、相关设定和出场角色卡按需读取：",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 17952,
+    "fetchedAt": "2026-11-17T11:42:02.018Z"
+  },
+  "modly": {
+    "summary": "Modly supports external model and process extensions. Each extension is a GitHub repository containing a manifest.json plus the runtime entry files required by its type.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14045,
+    "fetchedAt": "2026-11-17T11:42:02.018Z"
+  },
+  "flue": {
+    "summary": "Flue unlocks this new architecture for agents. Its built-in TypeScript harness gives any model the context and environment it needs for truly autonomous work: sessions, tools, skills, instructions, filesystem access, and a secure sandbox to run in. Run your agents locally via CLI or deploy them to y…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5065,
+    "fetchedAt": "2026-11-17T11:42:02.018Z"
+  },
+  "claude-desktop-zh-cn": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16379,
+    "fetchedAt": "2026-11-17T11:43:05.469Z"
+  },
+  "everything": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 27068,
+    "fetchedAt": "2026-11-17T11:43:05.469Z"
+  },
+  "jiuwenswarm": {
+    "summary": "JiuwenSwarm is an Agent system that makes multi-agent collaboration truly work. Designed for developers and teams who need to automate complex tasks, it helps users drive multi-agent collaboration, Skill self-evolution, and tool invocation through natural language — delivering end-to-end from intent…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15874,
+    "fetchedAt": "2026-11-17T11:43:05.469Z"
+  },
+  "flowgram-ai": {
+    "summary": "FlowGram is a composable, visual, easy-to-integrate, and extensible workflow development framework & toolkit. Our goal is to help developers build AI workflow platforms faster and simpler. FlowGram comes with a suite of built-in tools for workflow development: flow canvas, node configuration form, v…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9019,
+    "fetchedAt": "2026-11-17T11:43:05.469Z"
   }
 }

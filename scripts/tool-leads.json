@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T10:56:40.802Z",
+  "generatedAt": "2026-11-17T11:44:41.438Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -5002,8 +5002,8 @@
       "zh": "一款开源扫地机器人，适合希望使用可查看、可修改的扫地机器人的用户。"
     },
     "claude-code-system-prompts": {
-      "en": "For developers studying or customizing Claude Code, it collects the full system prompt, 27 builtin tool descriptions, sub-agent and utility prompts, updated each version.",
-      "zh": "为研究或定制 Claude Code 的开发者整理完整系统提示、27 个内置工具描述、子代理与实用提示，随版本更新。"
+      "en": "For developers studying or building coding agents: collects Claude Code system prompts and builtin tool, subagent and utility prompts, updated each version.",
+      "zh": "给研究或构建编程代理的开发者：收录 Claude Code 系统提示、内置工具描述与子代理提示，随版本更新。"
     },
     "all-in-rag": {
       "en": "A full-stack guide to RAG technology for developers building large model applications, readable online at the given address.",
@@ -6024,6 +6024,130 @@
     "openidea": {
       "en": "A fast native IDE in Rust for developers who want IntelliJ IDEA-style keymaps, tool windows and search across 60+ languages.",
       "zh": "面向习惯 IntelliJ IDEA 的开发者，用 Rust 构建的快速原生 IDE，支持 60+ 语言。"
+    },
+    "aws-emulator": {
+      "en": "For developers who need AWS APIs locally, AWS Emulator provides a local emulator of the AWS APIs.",
+      "zh": "面向需要在本地使用 AWS API 的开发者：AWS Emulator 在本地模拟 AWS API。"
+    },
+    "arcane": {
+      "en": "Arcane offers modern Docker management aimed at all kinds of users who need to manage Docker.",
+      "zh": "Arcane 是面向所有人的现代化 Docker 管理工具，用于管理 Docker。"
+    },
+    "kiri": {
+      "en": "Kiri is a small, fast container runtime for macOS, Windows and Linux, with a free Ngrok alternative for developers.",
+      "zh": "Kiri 是轻量快速的容器运行时，支持 macOS、Windows、Linux，并为开发者提供免费 Ngrok 替代方案。"
+    },
+    "rakazo": {
+      "en": "An open-source Grok Bot alternative for users who want to pick their own model and sandbox.",
+      "zh": "面向希望自选模型与沙箱的用户的开源 Grok Bot 替代方案。"
+    },
+    "rikkahub": {
+      "en": "An Android app for users who want one client to access multiple LLM providers.",
+      "zh": "一款 Android 应用，让用户在一个客户端中接入多个 LLM 服务商。"
+    },
+    "mika": {
+      "en": "Mika is an on-device AI agent for Android users that operates apps and the web to get tasks done.",
+      "zh": "Mika 是面向 Android 用户的端侧 AI 智能体，可操作应用与网页来帮你完成任务。"
+    },
+    "dux-shell": {
+      "en": "Dux Shell is a desktop shell for Wayland compositor users, built with Quickshell and Go and optimized for several compositors.",
+      "zh": "Dux Shell 是面向 Wayland 合成器用户的桌面外壳，使用 Quickshell 和 Go 构建，并针对多个合成器优化。"
+    },
+    "effectcraft": {
+      "en": "An open-source motion graphics and compositing tool built from scratch in pure Rust, aimed at creators who want such a tool in the Rust ecosystem.",
+      "zh": "一个开源的运动图形与合成工具，完全用纯 Rust 从零编写，面向希望在 Rust 生态中使用此类工具的创作者。"
+    },
+    "claude-squad": {
+      "en": "Claude Squad helps developers manage multiple AI terminal agents such as Claude Code, Codex, OpenCode, and Amp.",
+      "zh": "Claude Squad 帮助开发者管理 Claude Code、Codex、OpenCode 和 Amp 等多个 AI 终端代理。"
+    },
+    "audiblez": {
+      "en": "For people who want audiobooks, Audiblez generates audiobooks from e-books.",
+      "zh": "面向想要有声书的用户，Audiblez 可从电子书生成有声书。"
+    },
+    "slime": {
+      "en": "Slime is an LLM training framework for RL scaling, aimed at teams training large language models with reinforcement learning.",
+      "zh": "Slime 是一个面向 RL Scaling 的 LLM 训练框架，供训练大语言模型使用。"
+    },
+    "claude-code-usage-monitor": {
+      "en": "A real-time monitor for Claude Code users that shows usage and gives predictions and warnings.",
+      "zh": "面向 Claude Code 用户的实时用量监控工具，提供预测与提醒。"
+    },
+    "openrig": {
+      "en": "For developers using Claude Code, Codex or Pi who want persistent agent teams with roles, shared context and owned work.",
+      "zh": "帮 Claude Code、Codex、Pi 用户组建带角色分工、共享上下文和任务归属的持久智能体团队。"
+    },
+    "awesome-agentic-ai-zh": {
+      "en": "A trilingual roadmap for learners who want to go from LLM basics to multi-agent systems, with 240+ curated resources and hands-on examples.",
+      "zh": "一份三语学习地图，帮学习者从 LLM 基础走到多智能体系统，含 240+ 精选资源与实践示例。"
+    },
+    "crosspoint-reader": {
+      "en": "Crosspoint Reader is open-source firmware for e-reader devices, aimed at users who want an open firmware option.",
+      "zh": "Crosspoint Reader 是面向电子阅读器的开源固件，适合需要开源固件方案的用户。"
+    },
+    "agentic-inbox": {
+      "en": "A self-hosted email client for developers who want an AI agent on Cloudflare Workers.",
+      "zh": "面向开发者的自托管邮件客户端，在 Cloudflare Workers 上运行 AI 代理。"
+    },
+    "free-code": {
+      "en": "A free build of Claude Code for developers who want telemetry removed, security-prompt guardrails stripped, and all experimental features enabled.",
+      "zh": "面向需要无遥测、无安全提示护栏、全部实验性功能的开发者的 Claude Code 免费版本。"
+    },
+    "android-reverse-engineering-skill": {
+      "en": "A Claude Code skill for developers who need support with Android app reverse engineering tasks.",
+      "zh": "面向需要支持 Android 应用逆向工程任务的开发者的 Claude Code skill。"
+    },
+    "cyberstrikeai": {
+      "en": "An action system for AI-native cybersecurity teams, turning intent into governed execution and evidence into operational memory.",
+      "zh": "面向 AI 原生网络安全团队的行动系统，把意图转化为受治理的执行，把证据沉淀为运营记忆。"
+    },
+    "evolver": {
+      "en": "Evolver is a GEP-powered self-evolving engine for AI agent developers, enabling auditable evolution through Genes, Capsules, and Events.",
+      "zh": "Evolver 是面向 AI agent 开发者的 GEP 驱动自演化引擎，借助 Genes、Capsules 和 Events 实现可审计的演化。"
+    },
+    "utopia": {
+      "en": "Utopia is an open-source enterprise world model for teams building AI agents that need to reason about business environments.",
+      "zh": "Utopia 是开源的企业世界模型，面向需要让 AI 智能体理解业务环境的团队。"
+    },
+    "zcode": {
+      "en": "ZCode is Z.ai's coding agent harness, aimed at developers who run coding agents in their workflow.",
+      "zh": "ZCode 是 Z.ai 推出的 coding agent harness（编码智能体运行框架），面向在开发流程中使用编码智能体的开发者。"
+    },
+    "workout-cool": {
+      "en": "Workout Cool is an open-source fitness coaching platform for creating workout plans, tracking progress, and browsing an exercise database.",
+      "zh": "Workout Cool 是开源健身指导平台，可制定训练计划、记录进度，并使用全面的动作库。"
+    },
+    "oh-story-claudecode": {
+      "en": "An agent skill pack for Chinese web novel writers, covering market scanning, outline planning, foreshadowing tracking, and AI-tone removal across Claude Code and similar tools.",
+      "zh": "面向中文网文作者的 Agent skill 包，覆盖扫榜选材、大纲细纲、伏笔追踪与去AI味等流程，适配 Claude Code 等工具。"
+    },
+    "modly": {
+      "en": "Modly is a desktop app that lets 3D creators generate models from images or prompts using local AI on their own GPU.",
+      "zh": "Modly 是一款桌面应用，让 3D 创作者用自己的 GPU 本地运行 AI，从图像或提示词生成三维模型。"
+    },
+    "flue": {
+      "en": "A sandbox agent framework for developers who need to run agents in a sandboxed environment.",
+      "zh": "一个沙箱代理框架，适合需要在沙箱环境中运行代理的开发者。"
+    },
+    "claude-desktop-zh-cn": {
+      "en": "A Chinese patch for Claude Desktop on macOS, Windows and Linux, for users who want a Chinese interface.",
+      "zh": "面向希望使用中文界面的用户，为 macOS、Windows 和 Linux 上的 Claude Desktop 提供中文补丁。"
+    },
+    "flowgram-ai": {
+      "en": "FlowGram is an extensible workflow development framework for developers, with built-in canvas, form, variable, and materials to build AI workflow platforms faster and simpler.",
+      "zh": "FlowGram 是可扩展的工作流开发框架，内置画布、表单、变量与物料，帮助开发者更快速简单地构建 AI 工作流平台。"
+    },
+    "jiuwenswarm": {
+      "en": "JiuwenSwarm is an AI agent built on openJiuwen that brings large language model capabilities into the communication apps you use daily.",
+      "zh": "JiuwenSwarm 是基于 openJiuwen 构建的智能 AI Agent，通过日常通信应用把大模型能力带到用户手边。"
+    },
+    "everything": {
+      "en": "A project rebuilding and open-sourcing the world's software from scratch, aimed at developers who want open alternatives.",
+      "zh": "面向希望参与开源重建的开发者，从零开始重建并开源世界上的软件。"
+    },
+    "geolibre": {
+      "en": "A lightweight, cloud-native GIS platform for people who need to visualize, explore, and analyze geospatial data across browser, desktop, mobile, and Jupyter notebooks.",
+      "zh": "面向 GIS 用户，轻量云原生平台，用于可视化、探索、分析地理空间数据，支持多端与 Jupyter。"
     }
   }
 }

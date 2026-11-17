@@ -1,6 +1,332 @@
 {
   "days": [
     {
+      "date": "2026-11-17",
+      "items": [
+        {
+          "title": "How the Claude Code team thinks about verification",
+          "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+          "source": "Hacker News",
+          "date": "2026-11-17",
+          "zhTitle": "Claude Code 团队如何看待验证",
+          "zh": "Claude Code 团队分享其对验证环节的思考方式。",
+          "en": "How the Claude Code team thinks about verification."
+        },
+        {
+          "title": "Strengthening NATO and allied cyber defenses with AI",
+          "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+          "source": "OpenAI",
+          "date": "2026-11-17",
+          "zhTitle": "用 AI 强化北约及盟国网络防御",
+          "zh": "OpenAI 介绍以 AI 加强北约与盟国网络防御。",
+          "en": "OpenAI on using AI to strengthen NATO and allied cyber defenses."
+        },
+        {
+          "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+          "link": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+          "source": "Hacker News",
+          "date": "2026-11-16",
+          "zhTitle": "Windows 11 正在收集你使用哪些编码代理与开发者工具的数据",
+          "zh": "Windows 11 被指收集开发者所用编码代理与工具数据。",
+          "en": "Windows 11 reportedly collects data on which coding agents and developer tools you use."
+        },
+        {
+          "title": "Broadening access to AI for scientists",
+          "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+          "source": "OpenAI",
+          "date": "2026-11-16",
+          "zhTitle": "让更多科学家获得 AI 使用机会",
+          "zh": "OpenAI 扩大科研人员对 AI 的使用渠道。",
+          "en": "Broadening access to AI for scientists."
+        },
+        {
+          "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+          "link": "https://openai.com/index/strengthening-online-child-safety",
+          "source": "OpenAI",
+          "date": "2026-11-16",
+          "zhTitle": "以新工具与支持加强打击网络儿童性虐待",
+          "zh": "OpenAI 推出新工具与支持，加强打击网络儿童性虐待。",
+          "en": "Strengthening the fight against online child sexual abuse with new tools and support."
+        },
+        {
+          "title": "Building trustworthy AI by fencing it in, not predicting it",
+          "link": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-16",
+          "zhTitle": "用设限约束而非预测来构建可信 AI",
+          "zh": "MIT 科技评论探讨以边界约束而非预测打造可信 AI。",
+          "en": "Building trustworthy AI by fencing it in, not predicting it."
+        },
+        {
+          "title": "Building AI that can work across the enterprise",
+          "link": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-16",
+          "zhTitle": "构建可跨企业运转的 AI",
+          "zh": "MIT 科技评论谈如何构建适用于企业各环节的 AI。",
+          "en": "Building AI that can work across the enterprise."
+        },
+        {
+          "title": "Science at the Frontier: How scientists use ChatGPT",
+          "link": "https://openai.com/index/science-at-the-frontier",
+          "source": "OpenAI",
+          "date": "2026-11-16",
+          "zhTitle": "前沿科学：科学家如何使用 ChatGPT",
+          "zh": "OpenAI 介绍科学家使用 ChatGPT 的实践情况。",
+          "en": "Science at the Frontier: how scientists use ChatGPT."
+        },
+        {
+          "title": "How Revolut raises ambition without lowering the bar",
+          "link": "https://openai.com/business/customer-stories/revolut",
+          "source": "OpenAI",
+          "date": "2026-11-16",
+          "zhTitle": "Revolut 如何提升目标而不降低标准",
+          "zh": "OpenAI 客户案例讲述 Revolut 提升雄心而不降标准。",
+          "en": "How Revolut raises ambition without lowering the bar."
+        },
+        {
+          "title": "Build once, run on any agent: A practical guide to agent skills",
+          "link": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+          "source": "GitHub Blog",
+          "date": "2026-11-12",
+          "zhTitle": "一次构建、任意代理运行：代理技能实用指南",
+          "zh": "GitHub 发布代理技能指南，实现一次构建多代理复用。",
+          "en": "Build once, run on any agent: a practical guide to agent skills."
+        },
+        {
+          "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+          "link": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+          "source": "GitHub Blog",
+          "date": "2026-10-28",
+          "zhTitle": "Octoverse：2026 年开发者借助代理，提交与推送量创新高",
+          "zh": "Octoverse 报告：2026 年提交与推送量因代理开发创新高。",
+          "en": "Octoverse: commits and pushes reach new highs in 2026 as developers build with agents."
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "kiri",
+          "name": "Kiri",
+          "repo": "libracoder/kiri",
+          "stars": 9608
+        },
+        {
+          "id": "arcane",
+          "name": "Arcane",
+          "repo": "getarcaneapp/arcane",
+          "stars": 9034
+        },
+        {
+          "id": "aws-emulator",
+          "name": "Aws Emulator",
+          "repo": "aws/aws-emulator",
+          "stars": 8980
+        },
+        {
+          "id": "rakazo",
+          "name": "Rakazo",
+          "repo": "elie222/rakazo",
+          "stars": 8938
+        },
+        {
+          "id": "rikkahub",
+          "name": "Rikkahub",
+          "repo": "rikkahub/rikkahub",
+          "stars": 8938
+        },
+        {
+          "id": "mika",
+          "name": "Mika",
+          "repo": "wangzan101/Mika",
+          "stars": 8928
+        },
+        {
+          "id": "effectcraft",
+          "name": "Effectcraft",
+          "repo": "storytold/effectcraft",
+          "stars": 8904
+        },
+        {
+          "id": "audiblez",
+          "name": "Audiblez",
+          "repo": "santinic/audiblez",
+          "stars": 8890
+        },
+        {
+          "id": "openrig",
+          "name": "Openrig",
+          "repo": "mvschwarz/openrig",
+          "stars": 8880
+        },
+        {
+          "id": "slime",
+          "name": "Slime",
+          "repo": "THUDM/slime",
+          "stars": 8837
+        },
+        {
+          "id": "claude-squad",
+          "name": "Claude Squad",
+          "repo": "smtg-ai/claude-squad",
+          "stars": 8821
+        },
+        {
+          "id": "free-code",
+          "name": "Free Code",
+          "repo": "freecodexyz/free-code",
+          "stars": 8820
+        },
+        {
+          "id": "crosspoint-reader",
+          "name": "Crosspoint Reader",
+          "repo": "crosspoint-reader/crosspoint-reader",
+          "stars": 8820
+        },
+        {
+          "id": "claude-code-usage-monitor",
+          "name": "Claude Code Usage Monitor",
+          "repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+          "stars": 8806
+        },
+        {
+          "id": "awesome-agentic-ai-zh",
+          "name": "Awesome Agentic Ai Zh",
+          "repo": "WenyuChiou/awesome-agentic-ai-zh",
+          "stars": 8800
+        },
+        {
+          "id": "agentic-inbox",
+          "name": "Agentic Inbox",
+          "repo": "cloudflare/agentic-inbox",
+          "stars": 8782
+        },
+        {
+          "id": "cyberstrikeai",
+          "name": "CyberStrikeAI",
+          "repo": "AIPentest/CyberStrikeAI",
+          "stars": 8746
+        },
+        {
+          "id": "evolver",
+          "name": "Evolver",
+          "repo": "EvoMap/evolver",
+          "stars": 8745
+        },
+        {
+          "id": "android-reverse-engineering-skill",
+          "name": "Android Reverse Engineering Skill",
+          "repo": "SimoneAvogadro/android-reverse-engineering-skill",
+          "stars": 8739
+        },
+        {
+          "id": "zcode",
+          "name": "ZCode",
+          "repo": "zai-org/ZCode",
+          "stars": 8730
+        },
+        {
+          "id": "utopia",
+          "name": "Utopia",
+          "repo": "deeplethe/utopia",
+          "stars": 8728
+        },
+        {
+          "id": "workout-cool",
+          "name": "Workout Cool",
+          "repo": "Snouzy/workout-cool",
+          "stars": 8694
+        },
+        {
+          "id": "geolibre",
+          "name": "GeoLibre",
+          "repo": "opengeos/GeoLibre",
+          "stars": 8691
+        },
+        {
+          "id": "oh-story-claudecode",
+          "name": "Oh Story Claudecode",
+          "repo": "zenstory-ai/oh-story-claudecode",
+          "stars": 8689
+        },
+        {
+          "id": "modly",
+          "name": "Modly",
+          "repo": "lightningpixel/modly",
+          "stars": 8685
+        },
+        {
+          "id": "flue",
+          "name": "Flue",
+          "repo": "withastro/flue",
+          "stars": 8669
+        },
+        {
+          "id": "claude-desktop-zh-cn",
+          "name": "Claude Desktop Zh Cn",
+          "repo": "javaht/claude-desktop-zh-cn",
+          "stars": 8645
+        },
+        {
+          "id": "everything",
+          "name": "Everything",
+          "repo": "HeyPuter/everything",
+          "stars": 8600
+        },
+        {
+          "id": "jiuwenswarm",
+          "name": "Jiuwenswarm",
+          "repo": "openJiuwen-ai/jiuwenswarm",
+          "stars": 8591
+        },
+        {
+          "id": "flowgram-ai",
+          "name": "Flowgram.ai",
+          "repo": "bytedance/flowgram.ai",
+          "stars": 8589
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "kiri",
+          "name": "Kiri",
+          "repo": "libracoder/kiri",
+          "stars": 9608,
+          "gain": 9608
+        },
+        {
+          "id": "arcane",
+          "name": "Arcane",
+          "repo": "getarcaneapp/arcane",
+          "stars": 9034,
+          "gain": 9034
+        },
+        {
+          "id": "aws-emulator",
+          "name": "Aws Emulator",
+          "repo": "aws/aws-emulator",
+          "stars": 8980,
+          "gain": 8980
+        },
+        {
+          "id": "rakazo",
+          "name": "Rakazo",
+          "repo": "elie222/rakazo",
+          "stars": 8938,
+          "gain": 8938
+        },
+        {
+          "id": "rikkahub",
+          "name": "Rikkahub",
+          "repo": "rikkahub/rikkahub",
+          "stars": 8938,
+          "gain": 8938
+        }
+      ],
+      "rollupZh": "OpenAI 今日多线发布：与北约及盟国强化网络防御、扩大科研人员 AI 使用权限，并推出加强网络儿童安全的新工具与支持。GitHub 的 Octoverse 显示 2026 年提交与推送量创新高，开发者普遍借助 AI 代理开发，并发布代理技能实践指南。与此同时，Windows 11 被指收集开发者所用编码代理与工具遥测数据，引发关注。",
+      "rollupEn": "OpenAI made several announcements: strengthening NATO and allied cyber defenses with AI, broadening scientists' access, and new tools to fight online child sexual abuse. GitHub's Octoverse reports record commits and pushes in 2026 as developers build with agents, alongside a practical guide to agent skills. Meanwhile, Windows 11 reportedly collects telemetry on which coding agents and developer tools developers use.",
+      "failures": []
+    },
+    {
       "date": "2026-11-16",
       "items": [
         {
