@@ -35826,6 +35826,631 @@
       "cloud": "",
       "descEn": "FlowGram is an extensible workflow development framework with built-in canvas, form, variable, and materials that helps developers build AI workflow platforms faster and simpler.",
       "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "claude-bughunter",
+      "name": "Claude BugHunter",
+      "repo": "elementalsouls/Claude-BugHunter",
+      "homepage": "https://elementalsouls.github.io/Claude-BugHunter",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-security",
+        "anthropic",
+        "application-security",
+        "bug-bounty"
+      ],
+      "seed": {
+        "stars": 10289,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, pl",
+      "pushedAt": "2026-11-18"
+    },
+    {
+      "id": "openbot-2",
+      "name": "Openbot",
+      "repo": "nightly-labs/openbot",
+      "homepage": "https://openbot.run/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "bun",
+        "codex",
+        "electron"
+      ],
+      "seed": {
+        "stars": 8790,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent c",
+      "pushedAt": "2026-11-18"
+    },
+    {
+      "id": "modern-web-guidance-src",
+      "name": "Modern Web Guidance Src",
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "homepage": "https://goo.gle/modern-web-guidance",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8643,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Keep your coding agent up to date with the latest web best practices",
+      "pushedAt": "2026-11-18"
+    },
+    {
+      "id": "gogcli",
+      "name": "Gogcli",
+      "repo": "openclaw/gogcli",
+      "homepage": "https://gogcli.sh",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "gcal",
+        "gcontacts",
+        "gdrive",
+        "gmail"
+      ],
+      "seed": {
+        "stars": 8587,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Google Workspace in your terminal.",
+      "pushedAt": "2026-11-17"
+    },
+    {
+      "id": "clawwork",
+      "name": "ClawWork",
+      "repo": "HKUDS/ClawWork",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8572,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "\"ClawWork: OpenClaw as Your AI Coworker - 💰 $15K earned in 11 Hours\"",
+      "pushedAt": "2026-03-03"
+    },
+    {
+      "id": "superpowers-zh",
+      "name": "Superpowers Zh",
+      "repo": "jnMetaCode/superpowers-zh",
+      "homepage": "https://sp.aiolaola.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "agentic-coding",
+        "ai-coding",
+        "chinese"
+      ],
+      "seed": {
+        "stars": 8561,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🦸 AI 编程超能力 · 中文增强版 — superpowers（250k+ ⭐）完整汉化 + 4 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI / Qoder 等 26 款 AI 编程工具真正会干活",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "ffmpegfreeui",
+      "name": "FFmpegFreeUI",
+      "repo": "Lake1059/FFmpegFreeUI",
+      "homepage": "https://ffmpegfreeui.top",
+      "category": "video-media",
+      "desc": "",
+      "tags": [
+        "audio",
+        "audio-processing",
+        "ffmpeg",
+        "ffmpeg-gui"
+      ],
+      "seed": {
+        "stars": 8546,
+        "language": "Visual Basic .NET"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "3FUI 是 ffmpeg 在 Windows 上的轻度专业交互外壳，收录大量参数，界面美观，交互友好。此项目面向国内使用环境，让普通人也能够轻松压制视频和转换格式。",
+      "pushedAt": "2026-11-18"
+    },
+    {
+      "id": "agentic-design-patterns",
+      "name": "Agentic Design Patterns",
+      "repo": "xindoo/agentic-design-patterns",
+      "homepage": "https://adp.xindoo.xyz",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8535,
+        "language": "HTML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "谷歌新书Agent设计模式(agentic design patterns)最佳中文版，持续优化。附：在线阅读、pdf和epub电子书下载。",
+      "pushedAt": "2026-08-30"
+    },
+    {
+      "id": "zyperwinoptimize",
+      "name": "ZyperWinOptimize",
+      "repo": "ZyperWave/ZyperWinOptimize",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8533,
+        "language": "C#"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "ZyperWin++是一个轻便的Windows优化工具，适用于Win7-Win11最新版的优化，包括性能优化、服务项优化、垃圾清理等操作，还支持系统激活和Office快速安装。",
+      "pushedAt": "2025-10-07"
+    },
+    {
+      "id": "git-mcp",
+      "name": "Git Mcp",
+      "repo": "idosal/git-mcp",
+      "homepage": "https://gitmcp.io",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "claude"
+      ],
+      "seed": {
+        "stars": 8524,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub project",
+      "pushedAt": "2026-05-08"
+    },
+    {
+      "id": "dynamo",
+      "name": "Dynamo",
+      "repo": "ai-dynamo/dynamo",
+      "homepage": "https://docs.nvidia.com/dynamo/latest",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "diffusion",
+        "disaggregated-serving",
+        "kubernetes",
+        "llm-inference"
+      ],
+      "seed": {
+        "stars": 8518,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A Datacenter Scale Distributed Inference Serving Framework",
+      "pushedAt": "2026-11-18"
+    },
+    {
+      "id": "tinyauth",
+      "name": "Tinyauth",
+      "repo": "tinyauthapp/tinyauth",
+      "homepage": "https://tinyauth.app",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "2fa",
+        "authentication",
+        "caddy",
+        "golang"
+      ],
+      "seed": {
+        "stars": 8517,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The tiniest OpenID Certified™ authorization and authentication server you have ever seen.",
+      "pushedAt": "2026-11-18"
+    },
+    {
+      "id": "vscode-dark-islands",
+      "name": "Vscode Dark Islands",
+      "repo": "bwya77/vscode-dark-islands",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "easemate",
+        "jetbrains",
+        "visual-studio-code",
+        "vscode"
+      ],
+      "seed": {
+        "stars": 8514,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "VSCode theme based off the easemate IDE and Jetbrains islands theme",
+      "pushedAt": "2026-06-21"
+    },
+    {
+      "id": "qwen-image",
+      "name": "Qwen Image",
+      "repo": "QwenLM/Qwen-Image",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8487,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Qwen-Image is a powerful image generation foundation model capable of complex text rendering and precise image editing.",
+      "pushedAt": "2026-02-10"
+    },
+    {
+      "id": "day-trader-skill",
+      "name": "Day Trader Skill",
+      "repo": "Jakeschincariol/day-trader-skill",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "backtesting",
+        "claude",
+        "claude-skills",
+        "day-trading"
+      ],
+      "seed": {
+        "stars": 8486,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "cn-math-taxonomy",
+      "name": "Cn Math Taxonomy",
+      "repo": "xiaoyang111222/cn-math-taxonomy",
+      "homepage": "https://math.pansgo.com/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "chinese",
+        "curriculum",
+        "diagnostic",
+        "edtech"
+      ],
+      "seed": {
+        "stars": 8482,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "cap-2",
+      "name": "Cap",
+      "repo": "tiagozip/cap",
+      "homepage": "https://trycap.dev",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "anti-abuse",
+        "anti-bot",
+        "anti-scraper",
+        "antispam"
+      ],
+      "seed": {
+        "stars": 8475,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The open-source, privacy-friendly CAPTCHA you host yourself. Bots and AI agents out, people in.",
+      "pushedAt": "2026-11-15"
+    },
+    {
+      "id": "aos-ce",
+      "name": "Aos Ce",
+      "repo": "unicity-aos/aos-ce",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8459,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AOS Community Edition: the open agent operating system.",
+      "pushedAt": "2026-10-22"
+    },
+    {
+      "id": "k-skill",
+      "name": "K Skill",
+      "repo": "NomaDamas/k-skill",
+      "homepage": "https://k-skill.nomadamas.org",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8459,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "한국인을 위한 스킬 모음집 - 에이전트를 한국인으로",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "mirothinker",
+      "name": "MiroThinker",
+      "repo": "MiroMindAI/MiroThinker",
+      "homepage": "https://miromind.ai/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agent-framework",
+        "browsecomp",
+        "deep-research"
+      ],
+      "seed": {
+        "stars": 8455,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "MiroThinker is a deep research agent optimized for complex research and prediction tasks. Our latest models, MiroThinker-1.7, achieves 74.0 and 75.3 on the BrowseComp and BrowseCom",
+      "pushedAt": "2026-07-06"
+    },
+    {
+      "id": "ccpm",
+      "name": "Ccpm",
+      "repo": "automazeio/ccpm",
+      "homepage": "https://automaze.io",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "ai-coding",
+        "claude",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 8452,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Project management skill system for Agents that uses GitHub Issues and Git worktrees for parallel agent execution.",
+      "pushedAt": "2026-11-04"
+    },
+    {
+      "id": "jev-chat-jarvis",
+      "name": "Jev Chat Jarvis",
+      "repo": "jev-chat/jev-chat-jarvis",
+      "homepage": "https://chatjevs.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "accessibility-service",
+        "ai-assistant",
+        "android",
+        "chat-assistant"
+      ],
+      "seed": {
+        "stars": 8447,
+        "language": "Kotlin"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · ",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "capsule-memory",
+      "name": "Capsule Memory",
+      "repo": "unicity-aos/capsule-memory",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8434,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Cross-session memory. Reads local memory state and injects it into the system prompt through hooks. Part of Unicity AOS.",
+      "pushedAt": "2026-07-09"
+    },
+    {
+      "id": "deepsec",
+      "name": "Deepsec",
+      "repo": "vercel-labs/deepsec",
+      "homepage": "https://deepsec.sh/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8431,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Deepsec is a security harness for finding vulnerabilities in your codebase powered by coding agents",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "infinitetalk",
+      "name": "InfiniteTalk",
+      "repo": "MeiGen-AI/InfiniteTalk",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8426,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "​​Unlimited-length talking video generation​​ that supports image-to-video and video-to-video generation",
+      "pushedAt": "2026-05-22"
+    },
+    {
+      "id": "research-paper-writing-skills",
+      "name": "Research Paper Writing Skills",
+      "repo": "Master-cai/Research-Paper-Writing-Skills",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8416,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Skill package for ML/CV/NLP paper writing, curated and adapted from Prof. Peng Sida's open notes for Codex, Claude Code, and Gemini.",
+      "pushedAt": "2026-06-23"
+    },
+    {
+      "id": "app-store-connect-cli",
+      "name": "App Store Connect CLI",
+      "repo": "rorkai/App-Store-Connect-CLI",
+      "homepage": "https://asccli.sh",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "app-store-connect",
+        "apple",
+        "automation",
+        "cicd"
+      ],
+      "seed": {
+        "stars": 8408,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more",
+      "pushedAt": "2026-11-18"
+    },
+    {
+      "id": "zotero-pdf2zh",
+      "name": "Zotero Pdf2zh",
+      "repo": "guaguastandup/zotero-pdf2zh",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8405,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "PDF2zh for Zotero | Zotero PDF中文翻译插件",
+      "pushedAt": "2026-11-15"
+    },
+    {
+      "id": "api-mega-list",
+      "name": "API Mega List",
+      "repo": "cporter202/API-mega-list",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-tools",
+        "api",
+        "api-collection",
+        "api-directory"
+      ],
+      "seed": {
+        "stars": 8403,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "This GitHub repo is a powerhouse collection of APIs you can start using immediately to build everything from simple automations to full-scale applications. One of the most valuable",
+      "pushedAt": "2026-10-20"
+    },
+    {
+      "id": "capsule-identity",
+      "name": "Capsule Identity",
+      "repo": "unicity-aos/capsule-identity",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8403,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "System prompt builder. Assembles agent identity from workspace config and spark.toml. Part of Unicity AOS.",
+      "pushedAt": "2026-07-02"
     }
   ]
 }

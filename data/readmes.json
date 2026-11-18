@@ -10756,5 +10756,215 @@
     "source": "README.md",
     "rawLength": 9019,
     "fetchedAt": "2026-11-17T11:43:05.469Z"
+  },
+  "claude-bughunter": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 22729,
+    "fetchedAt": "2026-11-18T11:24:12.107Z"
+  },
+  "openbot-2": {
+    "summary": "OpenBot supports macOS 13 or newer on Apple silicon or Intel, Windows 10 or newer on x64 systems, and x64 or arm64 Linux as an AppImage.",
+    "docker": "curl -fsSLO https://raw.githubusercontent.com/nightly-labs/openbot/main/docker/seccomp.json\ndocker run -d --name openbot --restart unless-stopped \\\n  --security-opt seccomp=seccomp.json --security-opt no-new-privileges:true \\\n  --shm-size 1g --stop-timeout 60 -v openbot-data:/data \\\n  ghcr.io/nightly-labs/openbot:latest\ndocker exec -it openbot openbot login",
+    "source": "README.md",
+    "rawLength": 68185,
+    "fetchedAt": "2026-11-18T11:24:12.108Z"
+  },
+  "modern-web-guidance-src": {
+    "summary": "Modern Web Guidance is a set of skills that embed web platform expertise, best practices, and browser compatibility data directly into your coding agents. It helps to steer your coding agents away from legacy patterns, and instead toward solutions that harness the power and capabilities of the moder…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 110399,
+    "fetchedAt": "2026-11-18T11:24:12.665Z"
+  },
+  "gogcli": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13945,
+    "fetchedAt": "2026-11-18T11:24:12.665Z"
+  },
+  "clawwork": {
+    "summary": "🎯 ClawWork provides comprehensive evaluation of AI agents across 220 professional tasks spanning 44 sectors.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 21854,
+    "fetchedAt": "2026-11-18T11:24:12.665Z"
+  },
+  "superpowers-zh": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 26707,
+    "fetchedAt": "2026-11-18T11:24:12.665Z"
+  },
+  "ffmpegfreeui": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 17216,
+    "fetchedAt": "2026-11-18T11:24:12.665Z"
+  },
+  "agentic-design-patterns": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6475,
+    "fetchedAt": "2026-11-18T11:24:12.665Z"
+  },
+  "zyperwinoptimize": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2304,
+    "fetchedAt": "2026-11-18T11:24:13.208Z"
+  },
+  "git-mcp": {
+    "summary": "GitMCP is a free, open-source, remote Model Context Protocol (MCP) server that transforms any GitHub project (repositories or GitHub pages) into a documentation hub. It enables AI tools like Cursor to access up-to-date documentation and code, even if the LLM has never encountered them, thereby elimi…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15830,
+    "fetchedAt": "2026-11-18T11:24:13.208Z"
+  },
+  "dynamo": {
+    "summary": "Dynamo can expose traffic through two Kubernetes request routing topologies. Both expose an OpenAI-compatible API and support the same backends, disaggregated serving, and KV-aware routing.",
+    "docker": "# Pull a prebuilt container\ndocker run --gpus all --network host --rm -it nvcr.io/nvidia/ai-dynamo/vllm-runtime:1.6.0\n\n# Inside the container — start frontend and worker\npython3 -m dynamo.frontend --http-port 8000 --discovery-backend file > /dev/null 2>&1 &\npython3 -m dynamo.vllm --model Qwen/Qwen3-0.6B --discovery-backend file &\n\n# Once the worker is ready, send a request\ncurl -s localhost:8000/v1/chat/completions -H \"Content-Type: application/json\" -d '{\n  \"model\": \"Qwen/Qwen3-0.6B\",\n  \"messages\": [{\"role\": \"user\", \"content\": \"Hello!\"}],\n  \"max_tokens\": 100\n}' | jq",
+    "source": "README.md",
+    "rawLength": 24864,
+    "fetchedAt": "2026-11-18T11:24:13.208Z"
+  },
+  "tinyauth": {
+    "summary": "Tinyauth has a Discord server. Feel free to hop in to chat about self-hosting, homelabs and of course Tinyauth. See you there!",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7973,
+    "fetchedAt": "2026-11-18T11:24:13.208Z"
+  },
+  "vscode-dark-islands": {
+    "summary": "Islands Dark works on Cursor with two small adaptations baked into a dedicated set of scripts and a settings-cursor.json variant.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18401,
+    "fetchedAt": "2026-11-18T11:24:13.208Z"
+  },
+  "day-trader-skill": {
+    "summary": "Day-trading rules. FINRA removed the $25,000 pattern-day-trader minimum on June 4, 2026 (Regulatory Notice 26-10), and brokers may phase the change in until October 20, 2027, so yours may still apply the old rule. If it does, set \"pdtguard\": true and /trader-risk counts your day trades.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11216,
+    "fetchedAt": "2026-11-18T11:24:13.208Z"
+  },
+  "qwen-image": {
+    "summary": "Qwen-Image-2512’s enhanced detail rendering extends beyond humans—to landscapes, wildlife, and more. For instance:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 37577,
+    "fetchedAt": "2026-11-18T11:24:13.760Z"
+  },
+  "cn-math-taxonomy": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 74412,
+    "fetchedAt": "2026-11-18T11:24:13.760Z"
+  },
+  "cap-2": {
+    "summary": "cap is a self-hosted and privacy-first captcha alternative that doesn't force your users to click on traffic lights. there are no puzzles, no tracking, and no third parties watching your visitors.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1706,
+    "fetchedAt": "2026-11-18T11:24:13.760Z"
+  },
+  "aos-ce": {
+    "summary": "AOS gives AI agents a shared local environment for tools, permissions and services. Connect your agent, approve the access it needs, and give it capabilities you can inspect and extend. AOS uses the Astrid runtime to execute those capabilities as isolated WebAssembly capsules with explicit permissio…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9701,
+    "fetchedAt": "2026-11-18T11:24:13.760Z"
+  },
+  "k-skill": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 26030,
+    "fetchedAt": "2026-11-18T11:24:13.760Z"
+  },
+  "mirothinker": {
+    "summary": "MiroThinker: A deep research agent optimized for research and prediction. It achieves a 88.2 on the challenging BrowseComp benchmark. See Quick Start.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 56263,
+    "fetchedAt": "2026-11-18T11:24:13.760Z"
+  },
+  "ccpm": {
+    "summary": "CCPM activates automatically when your agent detects PM intent. Just talk naturally — no special syntax needed.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15551,
+    "fetchedAt": "2026-11-18T11:24:23.881Z"
+  },
+  "jev-chat-jarvis": {
+    "summary": "",
+    "docker": "",
+    "source": "",
+    "fetchedAt": "2026-11-18T11:24:23.881Z",
+    "missing": true
+  },
+  "capsule-memory": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1531,
+    "fetchedAt": "2026-11-18T11:24:23.881Z"
+  },
+  "deepsec": {
+    "summary": "deepsec is an agent-powered vulnerability scanner that you can run in your own infrastructure, optimized to perform on-demand review of all code in existing large-scale repos.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7862,
+    "fetchedAt": "2026-11-18T11:24:23.881Z"
+  },
+  "infinitetalk": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 17298,
+    "fetchedAt": "2026-11-18T11:24:23.881Z"
+  },
+  "research-paper-writing-skills": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2292,
+    "fetchedAt": "2026-11-18T11:24:23.881Z"
+  },
+  "app-store-connect-cli": {
+    "summary": "--app is the App Store Connect app ID. If you use local Xcode build flags such as --archive-path, also pass exactly one of --workspace or --project plus --scheme; otherwise use a pre-exported .ipa or .pkg upload. Add --submit --confirm to asc builds add-groups when distributing to an external TestFl…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 22907,
+    "fetchedAt": "2026-11-18T11:25:27.125Z"
+  },
+  "zotero-pdf2zh": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 42177,
+    "fetchedAt": "2026-11-18T11:25:27.125Z"
+  },
+  "api-mega-list": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3204733,
+    "fetchedAt": "2026-11-18T11:25:27.125Z"
+  },
+  "capsule-identity": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1810,
+    "fetchedAt": "2026-11-18T11:25:27.125Z"
   }
 }

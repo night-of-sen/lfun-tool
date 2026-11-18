@@ -1,6 +1,368 @@
 {
   "days": [
     {
+      "date": "2026-11-18",
+      "items": [
+        {
+          "title": "This smell startup says its AI nose is as good as a human’s",
+          "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-18",
+          "zhTitle": "这家嗅觉初创公司称其AI鼻子与人类嗅觉一样好",
+          "zh": "嗅觉初创公司称其AI鼻子可媲美人类嗅觉。",
+          "en": "A smell startup claims its AI nose is as good as a human's."
+        },
+        {
+          "title": "AI is killing All About Berlin",
+          "link": "https://nicolasbouliane.com/blog/death-by-ai",
+          "source": "Hacker News",
+          "date": "2026-11-18",
+          "zhTitle": "AI正在杀死All About Berlin",
+          "zh": "博主称AI正在摧毁其柏林生活指南网站。",
+          "en": "A blogger says AI is killing the All About Berlin site."
+        },
+        {
+          "title": "Why is Gemini 4 Carbon taking so long?",
+          "link": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+          "source": "Hacker News",
+          "date": "2026-11-18",
+          "zhTitle": "Gemini 4 Carbon为何耗时如此之久？",
+          "zh": "博客探讨Gemini 4 Carbon为何迟迟未至。",
+          "en": "A blog asks why Gemini 4 Carbon is taking so long."
+        },
+        {
+          "title": "Claude was trained on protein sequences at scale",
+          "link": "http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
+          "source": "Hacker News",
+          "date": "2026-11-18",
+          "zhTitle": "Claude曾大规模接受蛋白质序列训练",
+          "zh": "博客称Claude曾大规模训练于蛋白质序列。",
+          "en": "A blog claims Claude was trained on protein sequences at scale."
+        },
+        {
+          "title": "Google's AI answers reducing search traffic by 40%",
+          "link": "https://revscope.co/blog/search-seo-geo-2026/",
+          "source": "Hacker News",
+          "date": "2026-11-18",
+          "zhTitle": "谷歌AI回答使搜索流量减少40%",
+          "zh": "报道称谷歌AI回答令搜索流量下降40%。",
+          "en": "Report says Google's AI answers reduce search traffic by 40%."
+        },
+        {
+          "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+          "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+          "source": "OpenAI",
+          "date": "2026-11-18",
+          "zhTitle": "费加罗集团与OpenAI合作，将费加罗新闻带入ChatGPT",
+          "zh": "费加罗集团与OpenAI合作，将其新闻引入ChatGPT。",
+          "en": "Le Groupe Figaro and OpenAI partner to bring Figaro journalism to ChatGPT."
+        },
+        {
+          "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+          "link": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+          "source": "Hacker News",
+          "date": "2026-11-17",
+          "zhTitle": "哈佛研究者发现AI编程代理把瓶颈转移到代码审查",
+          "zh": "哈佛研究：AI编程代理使瓶颈转向代码审查。",
+          "en": "Harvard researchers find AI coding agents shifted the bottleneck to code review."
+        },
+        {
+          "title": "Maintainers don&#8217;t need more AI bug reports. They need fixes.",
+          "link": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+          "source": "GitHub Blog",
+          "date": "2026-11-17",
+          "zhTitle": "维护者不需要更多AI错误报告，他们需要修复",
+          "zh": "GitHub称维护者更需要修复而非AI错误报告。",
+          "en": "Maintainers don't need more AI bug reports; they need fixes."
+        },
+        {
+          "title": "Building the Agent Host Protocol for sessions that continue across devices",
+          "link": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+          "source": "GitHub Blog",
+          "date": "2026-11-17",
+          "zhTitle": "构建Agent Host协议，让会话跨设备延续",
+          "zh": "GitHub介绍Agent Host协议，实现跨设备续接会话。",
+          "en": "Building the Agent Host Protocol for sessions that continue across devices."
+        },
+        {
+          "title": "Introducing GPT-6.2 Astra and Sol",
+          "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+          "source": "OpenAI",
+          "date": "2026-11-17",
+          "zhTitle": "推出GPT-6.2 Astra与Sol",
+          "zh": "OpenAI发布GPT-6.2 Astra与Sol。",
+          "en": "OpenAI introduces GPT-6.2 Astra and Sol."
+        },
+        {
+          "title": "Introducing ChatGPT for Sales",
+          "link": "https://openai.com/index/introducing-chatgpt-for-sales",
+          "source": "OpenAI",
+          "date": "2026-11-17",
+          "zhTitle": "推出ChatGPT for Sales",
+          "zh": "OpenAI推出面向销售场景的ChatGPT。",
+          "en": "OpenAI introduces ChatGPT for Sales."
+        },
+        {
+          "title": "Strengthening NATO and allied cyber defenses with AI",
+          "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+          "source": "OpenAI",
+          "date": "2026-11-17",
+          "zhTitle": "以AI加强北约及盟国网络防御",
+          "zh": "OpenAI介绍用AI强化北约与盟国网络防御。",
+          "en": "Strengthening NATO and allied cyber defenses with AI."
+        },
+        {
+          "title": "Astra for Law leads in legal intelligence",
+          "link": "https://openai.com/index/astra-law-6-2",
+          "source": "OpenAI",
+          "date": "2026-11-17",
+          "zhTitle": "Astra for Law在法律智能领域领先",
+          "zh": "OpenAI称Astra for Law在法律智能上领先。",
+          "en": "Astra for Law leads in legal intelligence."
+        },
+        {
+          "title": "Building trustworthy AI by fencing it in, not predicting it",
+          "link": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-16",
+          "zhTitle": "通过设限而非预测来构建可信AI",
+          "zh": "MIT科技评论：以约束而非预测构建可信AI。",
+          "en": "Building trustworthy AI by fencing it in, not predicting it."
+        },
+        {
+          "title": "Building AI that can work across the enterprise",
+          "link": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-16",
+          "zhTitle": "打造可跨企业运作的AI",
+          "zh": "MIT科技评论探讨构建贯穿企业的AI。",
+          "en": "Building AI that can work across the enterprise."
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "claude-bughunter",
+          "name": "Claude BugHunter",
+          "repo": "elementalsouls/Claude-BugHunter",
+          "stars": 10306
+        },
+        {
+          "id": "openbot-2",
+          "name": "Openbot",
+          "repo": "nightly-labs/openbot",
+          "stars": 8790
+        },
+        {
+          "id": "modern-web-guidance-src",
+          "name": "Modern Web Guidance Src",
+          "repo": "GoogleChrome/modern-web-guidance-src",
+          "stars": 8644
+        },
+        {
+          "id": "gogcli",
+          "name": "Gogcli",
+          "repo": "openclaw/gogcli",
+          "stars": 8587
+        },
+        {
+          "id": "clawwork",
+          "name": "ClawWork",
+          "repo": "HKUDS/ClawWork",
+          "stars": 8572
+        },
+        {
+          "id": "superpowers-zh",
+          "name": "Superpowers Zh",
+          "repo": "jnMetaCode/superpowers-zh",
+          "stars": 8561
+        },
+        {
+          "id": "ffmpegfreeui",
+          "name": "FFmpegFreeUI",
+          "repo": "Lake1059/FFmpegFreeUI",
+          "stars": 8546
+        },
+        {
+          "id": "agentic-design-patterns",
+          "name": "Agentic Design Patterns",
+          "repo": "xindoo/agentic-design-patterns",
+          "stars": 8535
+        },
+        {
+          "id": "zyperwinoptimize",
+          "name": "ZyperWinOptimize",
+          "repo": "ZyperWave/ZyperWinOptimize",
+          "stars": 8533
+        },
+        {
+          "id": "git-mcp",
+          "name": "Git Mcp",
+          "repo": "idosal/git-mcp",
+          "stars": 8524
+        },
+        {
+          "id": "dynamo",
+          "name": "Dynamo",
+          "repo": "ai-dynamo/dynamo",
+          "stars": 8518
+        },
+        {
+          "id": "tinyauth",
+          "name": "Tinyauth",
+          "repo": "tinyauthapp/tinyauth",
+          "stars": 8518
+        },
+        {
+          "id": "vscode-dark-islands",
+          "name": "Vscode Dark Islands",
+          "repo": "bwya77/vscode-dark-islands",
+          "stars": 8514
+        },
+        {
+          "id": "qwen-image",
+          "name": "Qwen Image",
+          "repo": "QwenLM/Qwen-Image",
+          "stars": 8487
+        },
+        {
+          "id": "day-trader-skill",
+          "name": "Day Trader Skill",
+          "repo": "Jakeschincariol/day-trader-skill",
+          "stars": 8488
+        },
+        {
+          "id": "cn-math-taxonomy",
+          "name": "Cn Math Taxonomy",
+          "repo": "xiaoyang111222/cn-math-taxonomy",
+          "stars": 8484
+        },
+        {
+          "id": "cap-2",
+          "name": "Cap",
+          "repo": "tiagozip/cap",
+          "stars": 8475
+        },
+        {
+          "id": "aos-ce",
+          "name": "Aos Ce",
+          "repo": "unicity-aos/aos-ce",
+          "stars": 8459
+        },
+        {
+          "id": "k-skill",
+          "name": "K Skill",
+          "repo": "NomaDamas/k-skill",
+          "stars": 8459
+        },
+        {
+          "id": "mirothinker",
+          "name": "MiroThinker",
+          "repo": "MiroMindAI/MiroThinker",
+          "stars": 8455
+        },
+        {
+          "id": "ccpm",
+          "name": "Ccpm",
+          "repo": "automazeio/ccpm",
+          "stars": 8452
+        },
+        {
+          "id": "jev-chat-jarvis",
+          "name": "Jev Chat Jarvis",
+          "repo": "jev-chat/jev-chat-jarvis",
+          "stars": 8448
+        },
+        {
+          "id": "capsule-memory",
+          "name": "Capsule Memory",
+          "repo": "unicity-aos/capsule-memory",
+          "stars": 8434
+        },
+        {
+          "id": "deepsec",
+          "name": "Deepsec",
+          "repo": "vercel-labs/deepsec",
+          "stars": 8431
+        },
+        {
+          "id": "infinitetalk",
+          "name": "InfiniteTalk",
+          "repo": "MeiGen-AI/InfiniteTalk",
+          "stars": 8426
+        },
+        {
+          "id": "research-paper-writing-skills",
+          "name": "Research Paper Writing Skills",
+          "repo": "Master-cai/Research-Paper-Writing-Skills",
+          "stars": 8416
+        },
+        {
+          "id": "app-store-connect-cli",
+          "name": "App Store Connect CLI",
+          "repo": "rorkai/App-Store-Connect-CLI",
+          "stars": 8408
+        },
+        {
+          "id": "zotero-pdf2zh",
+          "name": "Zotero Pdf2zh",
+          "repo": "guaguastandup/zotero-pdf2zh",
+          "stars": 8405
+        },
+        {
+          "id": "api-mega-list",
+          "name": "API Mega List",
+          "repo": "cporter202/API-mega-list",
+          "stars": 8403
+        },
+        {
+          "id": "capsule-identity",
+          "name": "Capsule Identity",
+          "repo": "unicity-aos/capsule-identity",
+          "stars": 8403
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "claude-bughunter",
+          "name": "Claude BugHunter",
+          "repo": "elementalsouls/Claude-BugHunter",
+          "stars": 10306,
+          "gain": 10306
+        },
+        {
+          "id": "openbot-2",
+          "name": "Openbot",
+          "repo": "nightly-labs/openbot",
+          "stars": 8790,
+          "gain": 8790
+        },
+        {
+          "id": "modern-web-guidance-src",
+          "name": "Modern Web Guidance Src",
+          "repo": "GoogleChrome/modern-web-guidance-src",
+          "stars": 8644,
+          "gain": 8644
+        },
+        {
+          "id": "gogcli",
+          "name": "Gogcli",
+          "repo": "openclaw/gogcli",
+          "stars": 8587,
+          "gain": 8587
+        },
+        {
+          "id": "clawwork",
+          "name": "ClawWork",
+          "repo": "HKUDS/ClawWork",
+          "stars": 8572,
+          "gain": 8572
+        }
+      ],
+      "rollupZh": "今日OpenAI动作密集：发布GPT-6.2 Astra与Sol、ChatGPT for Sales，并与费加罗报业集团合作把其新闻带入ChatGPT。业界关注AI落地瓶颈：哈佛研究指AI编程代理把压力转移到代码审查，谷歌AI回答据报令搜索流量下滑40%。此外，AI嗅觉、蛋白质序列训练与可信AI治理等话题持续引发讨论。",
+      "rollupEn": "OpenAI had a busy day, releasing GPT-6.2 Astra and Sol, launching ChatGPT for Sales, and partnering with Le Groupe Figaro to bring its journalism into ChatGPT. Attention also turned to AI's practical bottlenecks: Harvard researchers say coding agents shifted pressure to code review, and Google's AI answers reportedly cut search traffic by 40%. Other discussions covered AI smell, protein-sequence training and trustworthy AI governance.",
+      "failures": []
+    },
+    {
       "date": "2026-11-17",
       "items": [
         {

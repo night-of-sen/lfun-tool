@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T11:44:41.438Z",
+  "generatedAt": "2026-11-18T11:27:09.171Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -6148,6 +6148,122 @@
     "geolibre": {
       "en": "A lightweight, cloud-native GIS platform for people who need to visualize, explore, and analyze geospatial data across browser, desktop, mobile, and Jupyter notebooks.",
       "zh": "面向 GIS 用户，轻量云原生平台，用于可视化、探索、分析地理空间数据，支持多端与 Jupyter。"
+    },
+    "modern-web-guidance-src": {
+      "en": "A dev tool that keeps coding agents current with the latest web best practices.",
+      "zh": "一个让编码代理持续跟上最新 Web 最佳实践的开源工具。"
+    },
+    "gogcli": {
+      "en": "For developers who prefer the command line, Gogcli brings Google Workspace into the terminal.",
+      "zh": "面向习惯命令行的开发者，Gogcli 把 Google Workspace 带进终端。"
+    },
+    "clawwork": {
+      "en": "ClawWork lets developers use OpenClaw as an AI coworker; its description cites $15K earned in 11 hours.",
+      "zh": "ClawWork 让开发者把 OpenClaw 当作 AI 同事使用，描述中提到 11 小时赚取 1.5 万美元。"
+    },
+    "ffmpegfreeui": {
+      "en": "3FUI is a lightweight, semi-professional Windows interface for ffmpeg that collects many parameters, helping ordinary users compress video and convert formats with a friendly UI.",
+      "zh": "3FUI 是 ffmpeg 在 Windows 上的轻度专业交互外壳，收录大量参数，帮助普通用户轻松压制视频和转换格式。"
+    },
+    "claude-bughunter": {
+      "en": "A Claude Code skill bundle for bug hunters and red teams, with 82 skills, 15 slash commands, and 681 disclosed-report patterns across 24 vulnerability classes.",
+      "zh": "为漏洞挖掘和外部红队工作设计的 Claude Code 技能包，含 82 个技能、15 个斜杠命令与 681 个已披露报告模式。"
+    },
+    "agentic-design-patterns": {
+      "en": "A Chinese version of Google's Agentic Design Patterns book for developers, with online reading and PDF/EPUB downloads.",
+      "zh": "面向开发者的谷歌 Agent 设计模式中文版，提供在线阅读与 PDF、EPUB 下载。"
+    },
+    "zyperwinoptimize": {
+      "en": "A lightweight Windows optimization tool for Win7 to the latest Win11, offering performance tuning, service optimization, junk cleanup, system activation, and quick Office installation.",
+      "zh": "一款轻便的Windows优化工具，适用于Win7至最新Win11，提供性能优化、服务项优化、垃圾清理，并支持系统激活和Office快速安装。"
+    },
+    "dynamo": {
+      "en": "A distributed inference serving framework for teams that deploy inference workloads at datacenter scale.",
+      "zh": "面向在数据中心规模部署推理负载的团队的分布式推理服务框架。"
+    },
+    "openbot-2": {
+      "en": "A local-first desktop workspace for developers running Codex, Claude and Grok as persistent AI teammates with shared files, task queues and browser control.",
+      "zh": "面向需要长期 AI 协作的用户：本地桌面同时运行 Codex、Claude、Grok，共享文件、任务队列与浏览器控制。"
+    },
+    "tinyauth": {
+      "en": "Tinyauth is a tiny OpenID Certified authorization and authentication server for teams adding login and access control.",
+      "zh": "Tinyauth 是一款小巧的 OpenID 认证授权服务器，适合需要添加登录与访问控制的团队。"
+    },
+    "vscode-dark-islands": {
+      "en": "A VSCode theme for developers who want a look based on the easemate IDE and the JetBrains Islands theme.",
+      "zh": "一款 VSCode 主题，为希望界面参考 easemate IDE 与 JetBrains Islands 主题风格的开发者提供配色。"
+    },
+    "qwen-image": {
+      "en": "Qwen Image is an image generation foundation model for developers who need complex text rendering and precise image editing.",
+      "zh": "Qwen Image 是面向开发者的图像生成基础模型，可处理复杂文字渲染和精确图像编辑。"
+    },
+    "git-mcp": {
+      "en": "GitMCP is a free, open-source remote MCP server for any GitHub project, helping AI agents avoid code hallucinations.",
+      "zh": "GitMCP 是免费开源远程 MCP 服务器，帮 AI 代理避免代码幻觉。"
+    },
+    "cap-2": {
+      "en": "Self-hosted CAPTCHA for developers who want an open-source, privacy-friendly way to keep bots and AI agents out.",
+      "zh": "面向需要开源、隐私友好验证方案的自托管 CAPTCHA，帮助开发者挡住机器人和 AI 代理。"
+    },
+    "day-trader-skill": {
+      "en": "For day traders, 11 Claude skills scan thousands of charts, track breaking news, time entries and exits, and replay outcomes before risking money.",
+      "zh": "面向日内交易者：11 个 Claude 技能扫描数千图表、跟踪突发新闻、把握进出场时机，并在投入资金前回放结果。"
+    },
+    "superpowers-zh": {
+      "en": "For Chinese developers: a localized superpowers package plus 4 original skills for 26 AI coding tools, so they handle real tasks.",
+      "zh": "中文开发者可用的 AI 编程增强：superpowers 汉化版加 4 个原创 skills。"
+    },
+    "k-skill": {
+      "en": "A collection of skills for Korean users that helps set up AI agents to work in a Korean context.",
+      "zh": "面向韩国用户的技能合集，用于让智能体以韩语环境工作。"
+    },
+    "aos-ce": {
+      "en": "AOS Community Edition is an open agent operating system aimed at developers working with agents.",
+      "zh": "AOS Community Edition 是开源的智能体操作系统，面向使用智能体的开发者。"
+    },
+    "jev-chat-jarvis": {
+      "en": "Jev Chat Jarvis is a chat decision assistant for people who hesitate before replying: it reads the chat, judges intent and risk, and drafts replies you fill in with one tap, while you press send.",
+      "zh": "Jev Chat Jarvis 是一款聊天辅助决策工具，面向回复前犹豫的人：它先读聊天内容，判断意图与风险，并生成一键填入的回复草稿，是否发送仍由你决定。"
+    },
+    "deepsec": {
+      "en": "Deepsec is a security harness that helps developers find vulnerabilities in their codebase using coding agents.",
+      "zh": "Deepsec 是一个安全检测工具，借助编码智能体帮助开发者在代码库中发现漏洞。"
+    },
+    "cn-math-taxonomy": {
+      "en": "For educators and developers: a math, English, and physics knowledge graph with prerequisite edges, questions, and adaptive prerequisite diagnosis, aligned to curriculum standards.",
+      "zh": "面向教学与开发：数学、英语、物理知识图谱，含先修边、题目和自适应诊断，对齐课标。"
+    },
+    "capsule-memory": {
+      "en": "For developers using Unicity AOS: keeps cross-session memory by reading local memory state and injecting it into the system prompt via hooks.",
+      "zh": "面向 Unicity AOS 开发者：借助钩子读取本地记忆状态并注入系统提示词，实现跨会话记忆。"
+    },
+    "infinitetalk": {
+      "en": "A tool for creators who need to generate talking videos of unlimited length, starting from either a single image or an existing video.",
+      "zh": "面向需要生成不限长度说话视频的创作者，支持从单张图片或已有视频开始生成。"
+    },
+    "zotero-pdf2zh": {
+      "en": "A Zotero plugin that translates PDFs into Chinese for users reading English papers.",
+      "zh": "一款 Zotero 插件，可将 PDF 翻译为中文，方便阅读英文文献的用户。"
+    },
+    "api-mega-list": {
+      "en": "A GitHub collection of APIs for developers who need ready-to-use interfaces for automations and applications.",
+      "zh": "一个 GitHub API 集合，面向需要现成接口来构建自动化和应用的开发者。"
+    },
+    "ccpm": {
+      "en": "A project management skill system for Agents that uses GitHub Issues and Git worktrees to run agents in parallel.",
+      "zh": "面向 Agent 的项目管理技能系统，用 GitHub Issues 与 worktree 并行执行。"
+    },
+    "app-store-connect-cli": {
+      "en": "A scriptable CLI for the App Store Connect API that automates TestFlight, builds, submissions, signing, analytics, screenshots, and subscriptions for developers.",
+      "zh": "面向开发者的脚本化 CLI，用于自动化 App Store Connect API 的 TestFlight、构建、提交、签名、分析与订阅等任务。"
+    },
+    "research-paper-writing-skills": {
+      "en": "A skill package adapted from Prof. Peng Sida's open notes that helps ML/CV/NLP researchers write papers with Codex, Claude Code, and Gemini.",
+      "zh": "面向 ML/CV/NLP 论文写作者的技能包，改编自彭思达教授公开笔记，适用于 Codex、Claude Code 和 Gemini。"
+    },
+    "capsule-identity": {
+      "en": "A system prompt builder for agent developers that assembles agent identity from workspace config and spark.toml.",
+      "zh": "面向智能体开发者的系统提示词构建工具，从工作区配置和 spark.toml 组装智能体身份。"
     }
   }
 }
