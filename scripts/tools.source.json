@@ -36451,6 +36451,615 @@
       "cloud": "",
       "descEn": "System prompt builder. Assembles agent identity from workspace config and spark.toml. Part of Unicity AOS.",
       "pushedAt": "2026-07-02"
+    },
+    {
+      "id": "artex",
+      "name": "ARTEX",
+      "repo": "BaaRai/ARTEX",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 10440,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+      "pushedAt": "2026-11-18"
+    },
+    {
+      "id": "gestaltx",
+      "name": "GestaltX",
+      "repo": "huami1314/GestaltX",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8467,
+        "language": "Swift"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
+      "pushedAt": "2026-11-17"
+    },
+    {
+      "id": "treg",
+      "name": "Treg",
+      "repo": "superdesigndev/treg",
+      "homepage": "https://treg.to",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agents",
+        "api-keys",
+        "cli",
+        "credentials"
+      ],
+      "seed": {
+        "stars": 8463,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "pushedAt": "2026-11-19"
+    },
+    {
+      "id": "archivetune",
+      "name": "ArchiveTune",
+      "repo": "rukamori/ArchiveTune",
+      "homepage": "https://archivetune.miuka.moe",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "android-application",
+        "android-studio",
+        "foss",
+        "jetpack-compose"
+      ],
+      "seed": {
+        "stars": 8446,
+        "language": "Kotlin"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🌸 The Cutest Music Player With Support Local File and Youtube Music for Android!",
+      "pushedAt": "2026-11-18"
+    },
+    {
+      "id": "yunx",
+      "name": "YunX",
+      "repo": "CYQawa/YunX",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8438,
+        "language": "Kotlin"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "YunX云析 ✨一个安卓 网盘解析 + 视频平台解析 下载app✨",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "openfilm",
+      "name": "Openfilm",
+      "repo": "openfilm/openfilm",
+      "homepage": "https://openfilm.dev",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-video",
+        "claude-code",
+        "codex",
+        "coding-agents"
+      ],
+      "seed": {
+        "stars": 8430,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The open source AI video agent: turns any coding agent into a video agent, with editors to change anything it makes.",
+      "pushedAt": "2026-11-18"
+    },
+    {
+      "id": "ds-bot",
+      "name": "DS Bot",
+      "repo": "Fei2411/DS-Bot",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "bot",
+        "deepseek-harness",
+        "dsh-plugin",
+        "multi-agent"
+      ],
+      "seed": {
+        "stars": 8422,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.",
+      "pushedAt": "2026-11-19"
+    },
+    {
+      "id": "android-ad-cleaner",
+      "name": "Android Ad Cleaner",
+      "repo": "rddmwmddr/android-ad-cleaner",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "adb",
+        "ai-agent",
+        "android",
+        "coloros"
+      ],
+      "seed": {
+        "stars": 8408,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+      "pushedAt": "2026-11-19"
+    },
+    {
+      "id": "deep-searcher",
+      "name": "Deep Searcher",
+      "repo": "zilliztech/deep-searcher",
+      "homepage": "https://zilliztech.github.io/deep-searcher/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agentic-rag",
+        "claude",
+        "deep-research"
+      ],
+      "seed": {
+        "stars": 8400,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open Source Deep Research Alternative to Reason and Search on Private Data. Written in Python.",
+      "pushedAt": "2026-09-22"
+    },
+    {
+      "id": "isaac-gr00t",
+      "name": "Isaac GR00T",
+      "repo": "NVIDIA/Isaac-GR00T",
+      "homepage": "https://developer.nvidia.com/isaac/gr00t",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8398,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "NVIDIA Isaac GR00T N1.7 - A Foundation Model for Generalist Robots.",
+      "pushedAt": "2026-11-17"
+    },
+    {
+      "id": "higgs-audio",
+      "name": "Higgs Audio",
+      "repo": "boson-ai/higgs-audio",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8391,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Text-audio foundation model from Boson AI",
+      "pushedAt": "2026-06-05"
+    },
+    {
+      "id": "capsule-fs",
+      "name": "Capsule Fs",
+      "repo": "unicity-aos/capsule-fs",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8381,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Filesystem tools for agents. Read, write, replace, grep, list, create, delete, move via VFS airlock. Part of Unicity AOS.",
+      "pushedAt": "2026-07-09"
+    },
+    {
+      "id": "jiangshan-map",
+      "name": "Jiangshan Map",
+      "repo": "DeanChensj/jiangshan-map",
+      "homepage": "https://deanchen.me/jiangshan-map/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "ancient-china",
+        "cartography",
+        "china-map",
+        "chinese-history"
+      ],
+      "seed": {
+        "stars": 8373,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry ro",
+      "pushedAt": "2026-11-19"
+    },
+    {
+      "id": "marketing-skills",
+      "name": "Marketing Skills",
+      "repo": "irinabuht12-oss/marketing-skills",
+      "homepage": "https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-visibility",
+        "claude-code",
+        "claude-desktop",
+        "claude-marketing-skills"
+      ],
+      "seed": {
+        "stars": 8368,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Claude skills for marketing: 49 free marketing skills for Claude Code and claude.ai (Google Ads, Meta Ads, SEO, AI visibility) + the Ryze Google Ads MCP / Meta Ads MCP: claude mcp ",
+      "pushedAt": "2026-10-27"
+    },
+    {
+      "id": "google-ads-meta-ads-mcp",
+      "name": "Google Ads Meta Ads Mcp",
+      "repo": "irinabuht12-oss/google-ads-meta-ads-mcp",
+      "homepage": "https://www.get-ryze.ai/",
+      "category": "marketing-growth",
+      "desc": "",
+      "tags": [
+        "advertising",
+        "chatgpt",
+        "claude",
+        "cursor"
+      ],
+      "seed": {
+        "stars": 8366,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Google Ads MCP server + Meta Ads MCP (Facebook Ads MCP) + Google Analytics MCP (GA4) + Search Console in one hosted remote MCP for Claude, ChatGPT, Cursor & n8n: OAuth login, no AP",
+      "pushedAt": "2026-10-27"
+    },
+    {
+      "id": "thinkrail",
+      "name": "Thinkrail",
+      "repo": "JetBrains/thinkrail",
+      "homepage": "https://thinkrail.ai/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent",
+        "agent-skills",
+        "agentic-ai",
+        "agentic-workflow"
+      ],
+      "seed": {
+        "stars": 8357,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "ThinkRail is the agentic IDE that gets better every time you use it",
+      "pushedAt": "2026-11-19"
+    },
+    {
+      "id": "pi-web",
+      "name": "Pi Web",
+      "repo": "agegr/pi-web",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8323,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Web UI for the pi coding agent",
+      "pushedAt": "2026-11-19"
+    },
+    {
+      "id": "aisoc",
+      "name": "AiSOC",
+      "repo": "beenuar/AiSOC",
+      "homepage": "https://beenuar.github.io/AiSOC/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agentic-ai",
+        "ai-security",
+        "alert-triage",
+        "blue-team"
+      ],
+      "seed": {
+        "stars": 8322,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs wi",
+      "pushedAt": "2026-11-19"
+    },
+    {
+      "id": "xianyu-auto-reply",
+      "name": "Xianyu Auto Reply",
+      "repo": "zhinianboke/xianyu-auto-reply",
+      "homepage": "https://xy.zhinianboke.com/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8319,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "闲鱼自动回复管理系统是一个基于 Python + FastAPI 开发的自动化客服系统，专为闲鱼平台设计。系统通过 WebSocket 连接闲鱼服务器，实时接收和处理消息，提供智能化的自动回复服务。同时集成闲鱼自动发货，自动评价，自动擦亮等功能，实现闲鱼虚拟商品自动化流程。",
+      "pushedAt": "2026-11-18"
+    },
+    {
+      "id": "skills-9",
+      "name": "Skills",
+      "repo": "trailofbits/skills",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills"
+      ],
+      "seed": {
+        "stars": 8292,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Trail of Bits skills for security research, vulnerability detection, and audit workflows",
+      "pushedAt": "2026-11-18"
+    },
+    {
+      "id": "chinese-buy-us-stock-guide",
+      "name": "Chinese Buy Us Stock Guide",
+      "repo": "zgwl/chinese-buy-us-stock-guide",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8287,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "美股指南",
+      "pushedAt": "2026-07-22"
+    },
+    {
+      "id": "potencializando-estudos-carreira-com-ia",
+      "name": "Potencializando Estudos Carreira Com Ia",
+      "repo": "digitalinnovationone/potencializando-estudos-carreira-com-ia",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8282,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Curso \"Potencializando Seus Estudos e Carreira com IA: De Chatbots a Agentes\"",
+      "pushedAt": "2026-05-05"
+    },
+    {
+      "id": "cadcraft",
+      "name": "Cadcraft",
+      "repo": "storytold/cadcraft",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8278,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "CADCraft: computer-aided design and drafting — an open-source, clean-room CAD application in pure Rust",
+      "pushedAt": "2026-11-19"
+    },
+    {
+      "id": "zerobrew",
+      "name": "Zerobrew",
+      "repo": "zerobrewhq/zerobrew",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8272,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An up to 10x faster Homebrew client",
+      "pushedAt": "2026-11-05"
+    },
+    {
+      "id": "kimi-code",
+      "name": "Kimi Code",
+      "repo": "MoonshotAI/kimi-code",
+      "homepage": "https://www.kimi.com/code/docs/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8259,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Kimi Code CLI — The Starting Point for Next-Gen Agents",
+      "pushedAt": "2026-11-19"
+    },
+    {
+      "id": "pi-autoresearch",
+      "name": "Pi Autoresearch",
+      "repo": "davebcn87/pi-autoresearch",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8247,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Autonomous experiment loop extension for pi",
+      "pushedAt": "2026-10-07"
+    },
+    {
+      "id": "open-codesign",
+      "name": "Open Codesign",
+      "repo": "OpenCoworkAI/open-codesign",
+      "homepage": "https://opencoworkai.github.io/open-codesign/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-design",
+        "anthropic",
+        "byok",
+        "claude"
+      ],
+      "seed": {
+        "stars": 8241,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). B",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "seedance-2-0",
+      "name": "Seedance 2.0",
+      "repo": "Emily2040/seedance-2.0",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8236,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Comprehensive production pipeline for quad-modal AI filmmaking with Seedance 2.0",
+      "pushedAt": "2026-10-03"
+    },
+    {
+      "id": "nullclaw",
+      "name": "Nullclaw",
+      "repo": "nullclaw/nullclaw",
+      "homepage": "https://nullclaw.io",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "assistant",
+        "personal",
+        "zig"
+      ],
+      "seed": {
+        "stars": 8235,
+        "language": "Zig"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig",
+      "pushedAt": "2026-10-08"
+    },
+    {
+      "id": "engram",
+      "name": "Engram",
+      "repo": "Gentleman-Programming/engram",
+      "homepage": "https://engram.gentlemanprogramming.com/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "gentle-shell-package"
+      ],
+      "seed": {
+        "stars": 8235,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
+      "pushedAt": "2026-11-17"
     }
   ]
 }

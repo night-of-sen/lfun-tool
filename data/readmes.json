@@ -10966,5 +10966,215 @@
     "source": "README.md",
     "rawLength": 1810,
     "fetchedAt": "2026-11-18T11:25:27.125Z"
+  },
+  "artex": {
+    "summary": "ARTEX is an offensive-security tool. Use it only against systems you own, or that you are explicitly authorized to test (your own lab, your organization's assets, or a bug bounty / vulnerability disclosure program's targets within its published scope and rules of engagement). Any use without authori…",
+    "docker": "git clone https://github.com/BaaRai/ARTEX.git\ncd ARTEX\ncp .env.example .env            # set POSTGRES_PASSWORD (and optionally an LLM key)\ndocker compose up -d --build    # builds from this checkout, starts PostgreSQL",
+    "source": "README.md",
+    "rawLength": 36433,
+    "fetchedAt": "2026-11-19T11:24:19.155Z"
+  },
+  "gestaltx": {
+    "summary": "GestaltX follows your iOS language settings, with English as the default and fallback. Persian includes right-to-left layout support.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9705,
+    "fetchedAt": "2026-11-19T11:24:19.155Z"
+  },
+  "treg": {
+    "summary": "treg upload scans the .env (matching keys against 80 known providers), every skill subdirectory, and installed catalog CLIs. Three kinds of things go into the registry — here's how to share and use each:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 36127,
+    "fetchedAt": "2026-11-19T11:24:27.425Z"
+  },
+  "archivetune": {
+    "summary": "ArchiveTune isn’t just another generic YouTube Music wrapper. It’s a fully custom-built player made with kotlin and jetpack compose, because we think your music should stay private, look clean, and work exactly the way you expect.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16532,
+    "fetchedAt": "2026-11-19T11:24:27.425Z"
+  },
+  "yunx": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5654,
+    "fetchedAt": "2026-11-19T11:24:27.425Z"
+  },
+  "openfilm": {
+    "summary": "OpenFilm turns any coding agent into a video agent, with editors to change anything it makes.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7883,
+    "fetchedAt": "2026-11-19T11:24:27.425Z"
+  },
+  "ds-bot": {
+    "summary": "DS Bot is an open-source project built on DeepSeek Harness (DSH), available as a standalone desktop app or as a DSH plugin. It turns DSH into bots that you create, talk to and work with.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13240,
+    "fetchedAt": "2026-11-19T11:24:27.425Z"
+  },
+  "android-ad-cleaner": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 19370,
+    "fetchedAt": "2026-11-19T11:24:27.946Z"
+  },
+  "deep-searcher": {
+    "summary": "DeepSearcher combines cutting-edge LLMs (OpenAI o3, Qwen3, DeepSeek, Grok 4, Claude 4 Sonnet, Llama 4, QwQ, etc.) and Vector Databases (Milvus, Zilliz Cloud etc.) to perform search, evaluation, and reasoning based on private data, providing highly accurate answer and comprehensive report. This proje…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 32672,
+    "fetchedAt": "2026-11-19T11:24:27.946Z"
+  },
+  "isaac-gr00t": {
+    "summary": "GR00T N1.7 is trained on a diverse mixture of robot data including bimanual, semi-humanoid and an expansive humanoid dataset. It is adaptable through post-training for specific embodiments, tasks and environments.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 39657,
+    "fetchedAt": "2026-11-19T11:24:27.946Z"
+  },
+  "higgs-audio": {
+    "summary": "Higgs Audio v3 is a standalone release and does not depend on the code here. Just grab the weights or call the hosted API:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3333,
+    "fetchedAt": "2026-11-19T11:24:27.946Z"
+  },
+  "capsule-fs": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1527,
+    "fetchedAt": "2026-11-19T11:24:27.946Z"
+  },
+  "jiangshan-map": {
+    "summary": "",
+    "docker": "docker compose up -d --build",
+    "source": "README.md",
+    "rawLength": 33130,
+    "fetchedAt": "2026-11-19T11:24:27.946Z"
+  },
+  "marketing-skills": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5920,
+    "fetchedAt": "2026-11-19T11:24:28.449Z"
+  },
+  "google-ads-meta-ads-mcp": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 30379,
+    "fetchedAt": "2026-11-19T11:24:28.449Z"
+  },
+  "thinkrail": {
+    "summary": "ThinkRail is an agentic IDE that gets better every time you use it. With Spec-Driven Development support, it learns your project as you work, becoming more capable and helpful over time.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 25078,
+    "fetchedAt": "2026-11-19T11:24:28.449Z"
+  },
+  "pi-web": {
+    "summary": "Pi Web requires Node.js 22.19.0 or newer. Check your version with node --version, then run:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8754,
+    "fetchedAt": "2026-11-19T11:24:28.449Z"
+  },
+  "aisoc": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 23346,
+    "fetchedAt": "2026-11-19T11:24:28.449Z"
+  },
+  "xianyu-auto-reply": {
+    "summary": "",
+    "docker": "docker compose up -d mysql redis",
+    "source": "README.md",
+    "rawLength": 51012,
+    "fetchedAt": "2026-11-19T11:24:28.449Z"
+  },
+  "skills-9": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10667,
+    "fetchedAt": "2026-11-19T11:24:28.958Z"
+  },
+  "chinese-buy-us-stock-guide": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1430,
+    "fetchedAt": "2026-11-19T11:24:28.958Z"
+  },
+  "potencializando-estudos-carreira-com-ia": {
+    "summary": "Comece a ajustar o que veio. Conforme você digita, o copiloto vai sugerindo continuações. Aceite as que fazem sentido, ignore as que não, e perceba como ele se adapta ao seu jeito de escrever.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8404,
+    "fetchedAt": "2026-11-19T11:24:28.958Z"
+  },
+  "cadcraft": {
+    "summary": "CADCraft is in early, fast development. Honest status (see ROADMAP.md for parity numbers):",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 32782,
+    "fetchedAt": "2026-11-19T11:24:28.958Z"
+  },
+  "zerobrew": {
+    "summary": "zerobrew is more of a performance-optimized client for the Homebrew ecosystem. We rely on: - Homebrew's formula definitions (homebrew-core) - Homebrew's pre-built bottles when available - Homebrew's package metadata and infrastructure",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16794,
+    "fetchedAt": "2026-11-19T11:24:28.958Z"
+  },
+  "kimi-code": {
+    "summary": "Kimi Code CLI is an AI coding agent that runs in your terminal — it can read and edit code, run shell commands, search files, fetch web pages, and choose the next step based on the feedback it receives. It works out of the box with Moonshot AI’s Kimi models and can also be configured to use other co…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5316,
+    "fetchedAt": "2026-11-19T11:24:28.958Z"
+  },
+  "pi-autoresearch": {
+    "summary": "autoresearch-create asks a few questions (or infers from context) about your goal, command, metric, and files in scope — then writes two files and starts the loop immediately:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18934,
+    "fetchedAt": "2026-11-19T11:24:37.977Z"
+  },
+  "open-codesign": {
+    "summary": "Open-source alternative to: Claude Design · v0 by Vercel · Lovable · Bolt.new · Figma AI",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 36890,
+    "fetchedAt": "2026-11-19T11:24:37.977Z"
+  },
+  "seedance-2-0": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 54016,
+    "fetchedAt": "2026-11-19T11:24:37.977Z"
+  },
+  "nullclaw": {
+    "summary": "nullclaw speaks Nostr natively via NIP-17 (gift-wrapped private DMs) and NIP-04 (legacy DMs), using nak.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 42229,
+    "fetchedAt": "2026-11-19T11:24:37.977Z"
+  },
+  "engram": {
+    "summary": "Engram keeps memory local by default. The local SQLite database is authoritative; Git Sync exports portable compressed chunks for sharing across machines, and Engram Cloud is optional, project-scoped replication/shared access with browser visibility.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 27708,
+    "fetchedAt": "2026-11-19T11:24:37.977Z"
   }
 }

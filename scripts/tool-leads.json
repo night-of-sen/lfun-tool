@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T11:27:09.171Z",
+  "generatedAt": "2026-11-19T11:26:28.808Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -6264,6 +6264,122 @@
     "capsule-identity": {
       "en": "A system prompt builder for agent developers that assembles agent identity from workspace config and spark.toml.",
       "zh": "面向智能体开发者的系统提示词构建工具，从工作区配置和 spark.toml 组装智能体身份。"
+    },
+    "gestaltx": {
+      "en": "A MobileGestalt editor for iOS 27.x that lets users tweak region codes, apply device presets, and manage backups.",
+      "zh": "面向 iOS 27.x 用户的 MobileGestalt 编辑工具，支持修改区域代码、应用设备预设和备份。"
+    },
+    "artex": {
+      "en": "An AI-driven autonomous penetration testing system for security testing work, with upstream Autumn-27/ARTEX released under AGPL-3.0.",
+      "zh": "面向安全测试场景的 AI 自主渗透测试系统，上游为 Autumn-27/ARTEX，采用 AGPL-3.0 许可。"
+    },
+    "treg": {
+      "en": "Treg is described as \"OpenRouter for agent tools\", aimed at developers working with agent tools, with a community on Discord.",
+      "zh": "Treg 被描述为“面向 agent 工具的 OpenRouter”，面向使用 agent 工具的开发者，并提供 Discord 社区。"
+    },
+    "yunx": {
+      "en": "YunX is an Android app for users who need to parse cloud drive links and video platform links for downloading.",
+      "zh": "YunX云析是一款安卓应用，面向需要解析网盘链接和视频平台链接并下载的用户。"
+    },
+    "archivetune": {
+      "en": "An Android music player for users who want local files and YouTube Music in one app.",
+      "zh": "Android 用户可在一个应用中播放本地文件与 YouTube Music。"
+    },
+    "ds-bot": {
+      "en": "For DeepSeek Harness users, DS Bot provides long-lived main bots with bot-to-bot messaging and group chats.",
+      "zh": "面向 DeepSeek Harness 用户，提供长期运行的主机器人，支持机器人间消息与群聊。"
+    },
+    "openfilm": {
+      "en": "For coding agent users, it turns any coding agent into a video agent, with editors to change what it makes.",
+      "zh": "面向编程智能体用户，它把任意编程智能体变成视频智能体，并提供编辑器修改生成结果。"
+    },
+    "deep-searcher": {
+      "en": "A Python tool for developers who need to reason and search over private data.",
+      "zh": "面向需要在私有数据上进行推理与检索的开发者的 Python 工具。"
+    },
+    "isaac-gr00t": {
+      "en": "A foundation model from NVIDIA for developers building generalist robots.",
+      "zh": "NVIDIA 推出的基础模型，供开发者用于构建通用机器人。"
+    },
+    "capsule-fs": {
+      "en": "Filesystem tools for agents that read, write, replace, grep, list, create, delete, and move files through a VFS airlock. Part of Unicity AOS.",
+      "zh": "面向智能体的文件系统工具，可通过 VFS 安全通道读取、写入、替换、grep、列出、创建、删除和移动文件。属于 Unicity AOS 的一部分。"
+    },
+    "higgs-audio": {
+      "en": "A text-audio foundation model from Boson AI, intended for developers building text and audio applications.",
+      "zh": "来自 Boson AI 的文本-音频基础模型，面向开发文本与音频相关应用的开发者。"
+    },
+    "android-ad-cleaner": {
+      "en": "For Chinese Android users, it disables system ads, hot searches, news feeds and marketing pushes; no root, reversible, AI-agent one-click.",
+      "zh": "国产安卓用户可关闭系统广告、热搜、资讯推荐、营销推送，不 root、可还原，支持 AI 智能体执行。"
+    },
+    "mirothinker": {
+      "en": "MiroThinker is a deep research agent for users tackling complex research and prediction tasks.",
+      "zh": "MiroThinker 是面向复杂研究与预测任务的深度研究智能体。"
+    },
+    "thinkrail": {
+      "en": "An agentic IDE for developers that is designed to improve as you use it.",
+      "zh": "面向开发者的智能体 IDE，会随着使用而不断改进。"
+    },
+    "pi-web": {
+      "en": "A web interface for the pi coding agent, giving its users browser-based access to the agent.",
+      "zh": "为 pi 编程代理提供网页界面，让用户通过浏览器使用该代理。"
+    },
+    "jiangshan-map": {
+      "en": "For history learners and educators: an interactive atlas of China with 18 dynasties, 198 territory snapshots, place genealogy and classical poetry routes.",
+      "zh": "面向历史学习者：交互式历史地图，含18朝代、198张疆域快照、地名沿革与诗词路线。"
+    },
+    "skills-9": {
+      "en": "Skills gives security researchers and auditors Trail of Bits workflows for vulnerability detection and audit tasks.",
+      "zh": "Skills 为安全研究人员和审计人员提供 Trail of Bits 的漏洞检测与审计工作流。"
+    },
+    "xianyu-auto-reply": {
+      "en": "A Python and FastAPI auto-reply system for Xianyu sellers, connecting via WebSocket to handle messages plus auto delivery, reviews, and listing refresh.",
+      "zh": "面向闲鱼卖家的自动回复管理系统，基于 Python 与 FastAPI，通过 WebSocket 连接处理消息，并集成自动发货、自动评价与自动擦亮。"
+    },
+    "chinese-buy-us-stock-guide": {
+      "en": "A guide for Chinese-speaking users who want to learn about buying US stocks.",
+      "zh": "面向中文用户的美股指南，帮助了解购买美股的相关内容。"
+    },
+    "potencializando-estudos-carreira-com-ia": {
+      "en": "A course for learners and professionals who want to use AI in their studies and careers, from chatbots to agents.",
+      "zh": "一门面向学习者与职场人士的课程，讲如何用 AI 助力学习与职业发展，从聊天机器人到智能体。"
+    },
+    "aisoc": {
+      "en": "AiSOC is an open-source security operations center for security teams, offering alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step.",
+      "zh": "AiSOC 是面向安全团队的开源安全运营中心，提供告警融合、LLM 智能体初筛、MITRE ATT&CK 调查，以及可回放每个智能体步骤的决策记录。"
+    },
+    "cadcraft": {
+      "en": "CADCraft is an open-source, clean-room CAD application written in pure Rust for users who need computer-aided design and drafting tools.",
+      "zh": "CADCraft 是一款开源、净室实现的纯 Rust CAD 应用，面向需要计算机辅助设计与绘图的用户。"
+    },
+    "zerobrew": {
+      "en": "A Homebrew client for macOS developers that aims to run up to 10x faster than Homebrew.",
+      "zh": "面向 macOS 开发者的 Homebrew 客户端，运行速度最高可达 Homebrew 的 10 倍。"
+    },
+    "kimi-code": {
+      "en": "Kimi Code is a command-line tool for developers who are starting to build next-gen agents.",
+      "zh": "Kimi Code 是面向开发者的命令行工具，作为构建下一代智能体的起点。"
+    },
+    "open-codesign": {
+      "en": "Open-source Claude Design alternative for users who want to turn prompts into prototypes, slides, or PDFs using their own API keys locally.",
+      "zh": "面向希望用自有 API 密钥在本地将提示词生成原型、幻灯片或 PDF 的用户，开源 Claude Design 替代工具。"
+    },
+    "seedance-2-0": {
+      "en": "A production pipeline for creators using Seedance 2.0 to make quad-modal AI films.",
+      "zh": "面向使用 Seedance 2.0 创作四模态 AI 影片的制作者，提供一套制作流程。"
+    },
+    "pi-autoresearch": {
+      "en": "Pi Autoresearch is a pi extension that gives developers an autonomous experiment loop.",
+      "zh": "Pi Autoresearch 是 pi 的扩展，为开发者提供自主实验循环。"
+    },
+    "nullclaw": {
+      "en": "Nullclaw is AI assistant infrastructure written in Zig for developers who want a fully autonomous assistant stack.",
+      "zh": "Nullclaw 是用 Zig 编写的 AI 助手基础设施，面向需要完全自主助手运行环境的开发者。"
+    },
+    "engram": {
+      "en": "Gives AI coding agents persistent memory: an agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
+      "zh": "为 AI 编程代理提供持久记忆：与代理无关的 Go 二进制，含 SQLite + FTS5 及 MCP、HTTP API、CLI、TUI。"
     }
   }
 }

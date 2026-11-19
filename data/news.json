@@ -1,6 +1,365 @@
 {
   "days": [
     {
+      "date": "2026-11-19",
+      "items": [
+        {
+          "title": "Anthropic prices initial public offering",
+          "link": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+          "source": "Hacker News",
+          "date": "2026-11-18",
+          "zhTitle": "Anthropic 敲定首次公开募股发行价",
+          "zh": "Anthropic公布其首次公开募股的发行价。",
+          "en": "Anthropic prices its initial public offering."
+        },
+        {
+          "title": "LLM assisted reverse engineering",
+          "link": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+          "source": "Hacker News",
+          "date": "2026-11-18",
+          "zhTitle": "大语言模型辅助的逆向工程",
+          "zh": "一文介绍如何用大语言模型辅助逆向工程。",
+          "en": "A post on doing reverse engineering with LLM assistance."
+        },
+        {
+          "title": "Gemini 4 Neon",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "source": "Hacker News",
+          "date": "2026-11-18",
+          "zhTitle": "Gemini 4 Neon 来了",
+          "zh": "谷歌发布新模型Gemini 4 Neon。",
+          "en": "Google introduces the Gemini 4 Neon model."
+        },
+        {
+          "title": "Seven new models at scalable price-performance",
+          "link": "https://microsoft.ai/news/microsoft-ignite-2026/",
+          "source": "Hacker News",
+          "date": "2026-11-18",
+          "zhTitle": "七款新模型：可扩展的性价比",
+          "zh": "微软推出七款主打可扩展性价比的新模型。",
+          "en": "Microsoft unveils seven new models built for scalable price-performance."
+        },
+        {
+          "title": "The AI Hype Index: AI is everywhere",
+          "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-18",
+          "zhTitle": "AI 炒作指数：AI 无处不在",
+          "zh": "MIT科技评论AI炒作指数显示AI已无处不在。",
+          "en": "MIT Technology Review's AI Hype Index finds AI is everywhere."
+        },
+        {
+          "title": "The Download: AI learns to smell and hydropower struggles",
+          "link": "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-18",
+          "zhTitle": "《下载》：AI 学会闻味，水电陷入困境",
+          "zh": "本期关注AI学习嗅觉与水电行业面临的困境。",
+          "en": "AI learns to smell, while hydropower struggles."
+        },
+        {
+          "title": "This smell startup says its AI nose is as good as a human’s",
+          "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-18",
+          "zhTitle": "这家嗅觉初创公司称其 AI 鼻子可媲美人类",
+          "zh": "初创公司Osmo称其AI鼻子与人类嗅觉一样好。",
+          "en": "Smell startup Osmo says its AI nose is as good as a human's."
+        },
+        {
+          "title": "The Silent Consensus",
+          "link": "https://openai.com/index/the-silent-consensus",
+          "source": "OpenAI",
+          "date": "2026-11-18",
+          "zhTitle": "沉默的共识",
+          "zh": "OpenAI发布《沉默的共识》一文。",
+          "en": "OpenAI publishes \"The Silent Consensus.\""
+        },
+        {
+          "title": "Research acceleration: The jagged frontier",
+          "link": "https://openai.com/index/research-acceleration-jagged-frontier",
+          "source": "OpenAI",
+          "date": "2026-11-18",
+          "zhTitle": "研究加速：参差不齐的前沿",
+          "zh": "OpenAI探讨AI加速科研中的“参差前沿”。",
+          "en": "OpenAI discusses research acceleration and the jagged frontier."
+        },
+        {
+          "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+          "link": "https://openai.com/business/customer-stories/sumitomo-life",
+          "source": "OpenAI",
+          "date": "2026-11-18",
+          "zhTitle": "住友生命的领导者如何推动团队采用 ChatGPT 企业版",
+          "zh": "住友生命管理层推动团队采用ChatGPT企业版。",
+          "en": "How Sumitomo Life's leaders helped teams adopt ChatGPT Enterprise."
+        },
+        {
+          "title": "Inside the Codex sandbox",
+          "link": "https://openai.com/index/inside-the-codex-sandbox",
+          "source": "OpenAI",
+          "date": "2026-11-18",
+          "zhTitle": "走进 Codex 沙箱",
+          "zh": "介绍Codex沙箱内部机制的官方文章。",
+          "en": "An inside look at the Codex sandbox."
+        },
+        {
+          "title": "Managing frontier AI risk: From training to deployment",
+          "link": "https://openai.com/index/managing-frontier-ai-risk",
+          "source": "OpenAI",
+          "date": "2026-11-18",
+          "zhTitle": "管理前沿 AI 风险：从训练到部署",
+          "zh": "OpenAI谈从前沿AI训练到部署的风险管理。",
+          "en": "Managing frontier AI risk, from training to deployment."
+        },
+        {
+          "title": "Maintainers don&#8217;t need more AI bug reports. They need fixes.",
+          "link": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+          "source": "GitHub Blog",
+          "date": "2026-11-17",
+          "zhTitle": "维护者不需要更多 AI 缺陷报告，他们要的是修复",
+          "zh": "开源维护者需要的是修复，而非更多AI缺陷报告。",
+          "en": "Maintainers need fixes, not more AI-generated bug reports."
+        },
+        {
+          "title": "Building the Agent Host Protocol for sessions that continue across devices",
+          "link": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+          "source": "GitHub Blog",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "Building trustworthy AI by fencing it in, not predicting it",
+          "link": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-16",
+          "zhTitle": "用“围栏”而非预测来构建可信 AI",
+          "zh": "文章主张靠设限而非预测来打造可信AI。",
+          "en": "Building trustworthy AI by fencing it in, not predicting it."
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "artex",
+          "name": "ARTEX",
+          "repo": "BaaRai/ARTEX",
+          "stars": 10458
+        },
+        {
+          "id": "gestaltx",
+          "name": "GestaltX",
+          "repo": "huami1314/GestaltX",
+          "stars": 8467
+        },
+        {
+          "id": "treg",
+          "name": "Treg",
+          "repo": "superdesigndev/treg",
+          "stars": 8463
+        },
+        {
+          "id": "archivetune",
+          "name": "ArchiveTune",
+          "repo": "rukamori/ArchiveTune",
+          "stars": 8449
+        },
+        {
+          "id": "yunx",
+          "name": "YunX",
+          "repo": "CYQawa/YunX",
+          "stars": 8438
+        },
+        {
+          "id": "openfilm",
+          "name": "Openfilm",
+          "repo": "openfilm/openfilm",
+          "stars": 8433
+        },
+        {
+          "id": "ds-bot",
+          "name": "DS Bot",
+          "repo": "Fei2411/DS-Bot",
+          "stars": 8421
+        },
+        {
+          "id": "android-ad-cleaner",
+          "name": "Android Ad Cleaner",
+          "repo": "rddmwmddr/android-ad-cleaner",
+          "stars": 8409
+        },
+        {
+          "id": "deep-searcher",
+          "name": "Deep Searcher",
+          "repo": "zilliztech/deep-searcher",
+          "stars": 8400
+        },
+        {
+          "id": "isaac-gr00t",
+          "name": "Isaac GR00T",
+          "repo": "NVIDIA/Isaac-GR00T",
+          "stars": 8398
+        },
+        {
+          "id": "higgs-audio",
+          "name": "Higgs Audio",
+          "repo": "boson-ai/higgs-audio",
+          "stars": 8391
+        },
+        {
+          "id": "capsule-fs",
+          "name": "Capsule Fs",
+          "repo": "unicity-aos/capsule-fs",
+          "stars": 8381
+        },
+        {
+          "id": "jiangshan-map",
+          "name": "Jiangshan Map",
+          "repo": "DeanChensj/jiangshan-map",
+          "stars": 8379
+        },
+        {
+          "id": "marketing-skills",
+          "name": "Marketing Skills",
+          "repo": "irinabuht12-oss/marketing-skills",
+          "stars": 8369
+        },
+        {
+          "id": "google-ads-meta-ads-mcp",
+          "name": "Google Ads Meta Ads Mcp",
+          "repo": "irinabuht12-oss/google-ads-meta-ads-mcp",
+          "stars": 8366
+        },
+        {
+          "id": "thinkrail",
+          "name": "Thinkrail",
+          "repo": "JetBrains/thinkrail",
+          "stars": 8357
+        },
+        {
+          "id": "pi-web",
+          "name": "Pi Web",
+          "repo": "agegr/pi-web",
+          "stars": 8323
+        },
+        {
+          "id": "aisoc",
+          "name": "AiSOC",
+          "repo": "beenuar/AiSOC",
+          "stars": 8322
+        },
+        {
+          "id": "xianyu-auto-reply",
+          "name": "Xianyu Auto Reply",
+          "repo": "zhinianboke/xianyu-auto-reply",
+          "stars": 8319
+        },
+        {
+          "id": "skills-9",
+          "name": "Skills",
+          "repo": "trailofbits/skills",
+          "stars": 8292
+        },
+        {
+          "id": "chinese-buy-us-stock-guide",
+          "name": "Chinese Buy Us Stock Guide",
+          "repo": "zgwl/chinese-buy-us-stock-guide",
+          "stars": 8287
+        },
+        {
+          "id": "potencializando-estudos-carreira-com-ia",
+          "name": "Potencializando Estudos Carreira Com Ia",
+          "repo": "digitalinnovationone/potencializando-estudos-carreira-com-ia",
+          "stars": 8282
+        },
+        {
+          "id": "cadcraft",
+          "name": "Cadcraft",
+          "repo": "storytold/cadcraft",
+          "stars": 8278
+        },
+        {
+          "id": "zerobrew",
+          "name": "Zerobrew",
+          "repo": "zerobrewhq/zerobrew",
+          "stars": 8272
+        },
+        {
+          "id": "kimi-code",
+          "name": "Kimi Code",
+          "repo": "MoonshotAI/kimi-code",
+          "stars": 8259
+        },
+        {
+          "id": "pi-autoresearch",
+          "name": "Pi Autoresearch",
+          "repo": "davebcn87/pi-autoresearch",
+          "stars": 8247
+        },
+        {
+          "id": "open-codesign",
+          "name": "Open Codesign",
+          "repo": "OpenCoworkAI/open-codesign",
+          "stars": 8241
+        },
+        {
+          "id": "seedance-2-0",
+          "name": "Seedance 2.0",
+          "repo": "Emily2040/seedance-2.0",
+          "stars": 8236
+        },
+        {
+          "id": "nullclaw",
+          "name": "Nullclaw",
+          "repo": "nullclaw/nullclaw",
+          "stars": 8235
+        },
+        {
+          "id": "engram",
+          "name": "Engram",
+          "repo": "Gentleman-Programming/engram",
+          "stars": 8235
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "artex",
+          "name": "ARTEX",
+          "repo": "BaaRai/ARTEX",
+          "stars": 10458,
+          "gain": 10458
+        },
+        {
+          "id": "gestaltx",
+          "name": "GestaltX",
+          "repo": "huami1314/GestaltX",
+          "stars": 8467,
+          "gain": 8467
+        },
+        {
+          "id": "treg",
+          "name": "Treg",
+          "repo": "superdesigndev/treg",
+          "stars": 8463,
+          "gain": 8463
+        },
+        {
+          "id": "archivetune",
+          "name": "ArchiveTune",
+          "repo": "rukamori/ArchiveTune",
+          "stars": 8449,
+          "gain": 8449
+        },
+        {
+          "id": "yunx",
+          "name": "YunX",
+          "repo": "CYQawa/YunX",
+          "stars": 8438,
+          "gain": 8438
+        }
+      ],
+      "rollupZh": "今日模型发布密集：谷歌推出Gemini 4 Neon，微软一次发布七款主打性价比的新模型，Anthropic则为首次公开募股定价。OpenAI连发多文，谈前沿AI风险管理、Codex沙箱与研究加速。GitHub与MIT科技评论关注开源维护负担、跨设备Agent会话，以及AI嗅觉与炒作现状。",
+      "rollupEn": "Model news dominates: Google debuts Gemini 4 Neon, Microsoft ships seven price-performance models, and Anthropic prices its IPO. OpenAI publishes several pieces on frontier risk management, the Codex sandbox, and research acceleration. GitHub and MIT Technology Review cover maintainer burden, cross-device agent sessions, AI smell, and the hype index.",
+      "failures": []
+    },
+    {
       "date": "2026-11-18",
       "items": [
         {
