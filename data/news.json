@@ -1,6 +1,377 @@
 {
   "days": [
     {
+      "date": "2026-11-20",
+      "items": [
+        {
+          "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+          "link": "https://architectlabs.com/blog/frostbite",
+          "source": "Hacker News",
+          "date": "2026-11-20",
+          "zhTitle": "Frostbite：AI发现、设计并验证的新型CPU架构",
+          "zh": "AI发现、设计并验证新型CPU架构Frostbite。",
+          "en": "Frostbite is a new CPU architecture discovered, designed, and verified by AI."
+        },
+        {
+          "title": "Claude solves two open problems in the physics of black holes",
+          "link": "https://www.anthropic.com/research/claude-black-hole-physics",
+          "source": "Hacker News",
+          "date": "2026-11-19",
+          "zhTitle": "Claude解决黑洞物理学的两个开放问题",
+          "zh": "Claude解决了黑洞物理学中的两个开放问题。",
+          "en": "Claude solves two open problems in black hole physics."
+        },
+        {
+          "title": "Anthropic’s Nasdaq debut",
+          "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+          "source": "Hacker News",
+          "date": "2026-11-19",
+          "zhTitle": "Anthropic的纳斯达克首秀",
+          "zh": "Anthropic完成纳斯达克首秀。",
+          "en": "Anthropic makes its Nasdaq debut."
+        },
+        {
+          "title": "Pete Warden on local AI, open models, voice interfaces, the future of hardware",
+          "link": "https://thedataexchange.media/pete-warden-moonshine/",
+          "source": "Hacker News",
+          "date": "2026-11-19",
+          "zhTitle": "Pete Warden谈本地AI、开放模型、语音界面与硬件未来",
+          "zh": "Pete Warden讨论本地AI、开放模型、语音界面和硬件未来。",
+          "en": "Pete Warden discusses local AI, open models, voice interfaces, and the future of hardware."
+        },
+        {
+          "title": "The Download: a living liver, a billion-dollar battery deal, and AI hype",
+          "link": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-19",
+          "zhTitle": "The Download：存活肝脏、十亿美元电池交易与AI炒作",
+          "zh": "The Download：存活肝脏、十亿美元电池交易和AI炒作。",
+          "en": "The Download: a living liver, a billion-dollar battery deal, and AI hype."
+        },
+        {
+          "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+          "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+          "source": "OpenAI",
+          "date": "2026-11-19",
+          "zhTitle": "OpenAI的Performance Factory如何保持ChatGPT快速",
+          "zh": "OpenAI的Performance Factory如何让ChatGPT保持快速。",
+          "en": "How OpenAI's Performance Factory keeps ChatGPT fast."
+        },
+        {
+          "title": "Deploying Daybreak Red",
+          "link": "https://openai.com/business/learn/deploying-daybreak-red",
+          "source": "OpenAI",
+          "date": "2026-11-19",
+          "zhTitle": "部署Daybreak Red",
+          "zh": "部署Daybreak Red。",
+          "en": "Deploying Daybreak Red."
+        },
+        {
+          "title": "See PR scans in action",
+          "link": "https://openai.com/business/learn/pr-scans-demo",
+          "source": "OpenAI",
+          "date": "2026-11-19",
+          "zhTitle": "查看PR扫描的实际演示",
+          "zh": "查看PR扫描的实际演示。",
+          "en": "See PR scans in action."
+        },
+        {
+          "title": "Explore the Codex Security Plugin",
+          "link": "https://openai.com/business/learn/codex-security-plugin-demo",
+          "source": "OpenAI",
+          "date": "2026-11-19",
+          "zhTitle": "探索Codex安全插件",
+          "zh": "探索Codex安全插件。",
+          "en": "Explore the Codex Security Plugin."
+        },
+        {
+          "title": "Get started with Daybreak Blue",
+          "link": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+          "source": "OpenAI",
+          "date": "2026-11-19",
+          "zhTitle": "Daybreak Blue入门",
+          "zh": "Daybreak Blue入门指南。",
+          "en": "Get started with Daybreak Blue."
+        },
+        {
+          "title": "The AI Hype Index: AI is everywhere",
+          "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-18",
+          "zhTitle": "AI炒作指数：AI无处不在",
+          "zh": "AI炒作指数显示AI无处不在。",
+          "en": "The AI Hype Index: AI is everywhere."
+        },
+        {
+          "title": "The Download: AI learns to smell and hydropower struggles",
+          "link": "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-18",
+          "zhTitle": "The Download：AI学会嗅觉，水电面临困境",
+          "zh": "The Download：AI学会嗅觉，水电面临困境。",
+          "en": "The Download: AI learns to smell and hydropower struggles."
+        },
+        {
+          "title": "This smell startup says its AI nose is as good as a human’s",
+          "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-18",
+          "zhTitle": "这家嗅觉初创公司称其AI鼻子媲美人类",
+          "zh": "一家嗅觉初创公司称其AI鼻子媲美人类。",
+          "en": "A smell startup says its AI nose is as good as a human's."
+        },
+        {
+          "title": "Weight-Space Programming builds neural networks like a 1990s researcher",
+          "link": "https://notesbylex.com/weight-space-programming-1990s",
+          "source": "Hacker News",
+          "date": "2026-11-17",
+          "zhTitle": "权重空间编程像1990年代研究者那样构建神经网络",
+          "zh": "权重空间编程以1990年代研究者的方式构建神经网络。",
+          "en": "Weight-Space Programming builds neural networks like a 1990s researcher."
+        },
+        {
+          "title": "Maintainers don&#8217;t need more AI bug reports. They need fixes.",
+          "link": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+          "source": "GitHub Blog",
+          "date": "2026-11-17",
+          "zhTitle": "维护者不需要更多AI错误报告，而是需要修复",
+          "zh": "维护者不需要更多AI错误报告，而是需要修复。",
+          "en": "Maintainers don't need more AI bug reports; they need fixes."
+        },
+        {
+          "title": "Building the Agent Host Protocol for sessions that continue across devices",
+          "link": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+          "source": "GitHub Blog",
+          "date": "2026-11-17",
+          "zhTitle": "构建Agent Host Protocol，支持跨设备持续会话",
+          "zh": "构建Agent Host Protocol以支持跨设备持续会话。",
+          "en": "Building the Agent Host Protocol for sessions that continue across devices."
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "ffmpeg-skill",
+          "name": "Ffmpeg Skill",
+          "repo": "kajisho5/ffmpeg-skill",
+          "stars": 8579
+        },
+        {
+          "id": "apkstart",
+          "name": "Apkstart",
+          "repo": "RoutineMiku/apkstart",
+          "stars": 8554
+        },
+        {
+          "id": "pixelfx",
+          "name": "Pixelfx",
+          "repo": "patch-gg/pixelfx",
+          "stars": 8432
+        },
+        {
+          "id": "openresearch",
+          "name": "OpenResearch",
+          "repo": "alphaXiv/OpenResearch",
+          "stars": 8285
+        },
+        {
+          "id": "knightbot-md",
+          "name": "Knightbot MD",
+          "repo": "mruniquehacker/Knightbot-MD",
+          "stars": 8226
+        },
+        {
+          "id": "agents",
+          "name": "Agents",
+          "repo": "GetStream/Agents",
+          "stars": 8215
+        },
+        {
+          "id": "lieflat-less-ai-tone",
+          "name": "Lieflat Less Ai Tone",
+          "repo": "larashero3-dotcom/lieflat-less-ai-tone",
+          "stars": 8202
+        },
+        {
+          "id": "guizang-social-card-skill",
+          "name": "Guizang Social Card Skill",
+          "repo": "op7418/guizang-social-card-skill",
+          "stars": 8195
+        },
+        {
+          "id": "osaurus",
+          "name": "Osaurus",
+          "repo": "osaurus-ai/osaurus",
+          "stars": 8187
+        },
+        {
+          "id": "repowise",
+          "name": "Repowise",
+          "repo": "repowise-dev/repowise",
+          "stars": 8175
+        },
+        {
+          "id": "awesome-gpt4o-images",
+          "name": "Awesome Gpt4o Images",
+          "repo": "jamez-bondos/awesome-gpt4o-images",
+          "stars": 8170
+        },
+        {
+          "id": "ai-infra-book",
+          "name": "Ai Infra Book",
+          "repo": "bojieli/ai-infra-book",
+          "stars": 8155
+        },
+        {
+          "id": "open-infra-index",
+          "name": "Open Infra Index",
+          "repo": "deepseek-ai/open-infra-index",
+          "stars": 8140
+        },
+        {
+          "id": "vphone-aio",
+          "name": "Vphone Aio",
+          "repo": "34306/vphone-aio",
+          "stars": 8134
+        },
+        {
+          "id": "term-everything",
+          "name": "Term.everything",
+          "repo": "mmulet/term.everything",
+          "stars": 8125
+        },
+        {
+          "id": "agentpilot",
+          "name": "AgentPilot",
+          "repo": "HKUDS/AgentPilot",
+          "stars": 8124
+        },
+        {
+          "id": "macnativegames",
+          "name": "MacNativeGames",
+          "repo": "ly05010419/MacNativeGames",
+          "stars": 8109
+        },
+        {
+          "id": "tick-stock-panel",
+          "name": "Tick Stock Panel",
+          "repo": "shy3130/tick-stock-panel",
+          "stars": 8104
+        },
+        {
+          "id": "product-manager-skills",
+          "name": "Product Manager Skills",
+          "repo": "deanpeters/Product-Manager-Skills",
+          "stars": 8102
+        },
+        {
+          "id": "sdk-js",
+          "name": "Sdk Js",
+          "repo": "astrid-runtime/sdk-js",
+          "stars": 8086
+        },
+        {
+          "id": "mornye",
+          "name": "Mornye",
+          "repo": "mornyeapp/Mornye",
+          "stars": 8067
+        },
+        {
+          "id": "codex-ppt-skill",
+          "name": "Codex Ppt Skill",
+          "repo": "ningzimu/codex-ppt-skill",
+          "stars": 8061
+        },
+        {
+          "id": "robin",
+          "name": "Robin",
+          "repo": "apurvsinghgautam/robin",
+          "stars": 8057
+        },
+        {
+          "id": "clicky",
+          "name": "Clicky",
+          "repo": "farzaa/clicky",
+          "stars": 8048
+        },
+        {
+          "id": "plugins-2",
+          "name": "Plugins",
+          "repo": "openai/plugins",
+          "stars": 8030
+        },
+        {
+          "id": "webnovel-writer",
+          "name": "Webnovel Writer",
+          "repo": "lingfengQAQ/webnovel-writer",
+          "stars": 8028
+        },
+        {
+          "id": "no-as-a-service",
+          "name": "No As A Service",
+          "repo": "hotheadhacker/no-as-a-service",
+          "stars": 8025
+        },
+        {
+          "id": "dsh-tui",
+          "name": "Dsh TUI",
+          "repo": "ccch1mneyyy/dsh-TUI",
+          "stars": 8018
+        },
+        {
+          "id": "bitchat-android",
+          "name": "Bitchat Android",
+          "repo": "permissionlesstech/bitchat-android",
+          "stars": 8010
+        },
+        {
+          "id": "ha-mcp",
+          "name": "Ha Mcp",
+          "repo": "homeassistant-ai/ha-mcp",
+          "stars": 8011
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "ffmpeg-skill",
+          "name": "Ffmpeg Skill",
+          "repo": "kajisho5/ffmpeg-skill",
+          "stars": 8579,
+          "gain": 8579
+        },
+        {
+          "id": "apkstart",
+          "name": "Apkstart",
+          "repo": "RoutineMiku/apkstart",
+          "stars": 8554,
+          "gain": 8554
+        },
+        {
+          "id": "pixelfx",
+          "name": "Pixelfx",
+          "repo": "patch-gg/pixelfx",
+          "stars": 8432,
+          "gain": 8432
+        },
+        {
+          "id": "openresearch",
+          "name": "OpenResearch",
+          "repo": "alphaXiv/OpenResearch",
+          "stars": 8285,
+          "gain": 8285
+        },
+        {
+          "id": "knightbot-md",
+          "name": "Knightbot MD",
+          "repo": "mruniquehacker/Knightbot-MD",
+          "stars": 8226,
+          "gain": 8226
+        }
+      ],
+      "rollupZh": "AI在芯片架构设计与黑洞物理问题求解上取得进展，Anthropic完成纳斯达克首秀。OpenAI介绍ChatGPT性能保障、Daybreak部署及Codex安全插件等资源。GitHub关注AI错误报告与跨设备会话协议，MIT科技评论则聚焦AI嗅觉、AI炒作和水电困境。",
+      "rollupEn": "AI shows progress in chip architecture design and black hole physics, while Anthropic makes its Nasdaq debut. OpenAI highlights ChatGPT performance, Daybreak deployment, and Codex security resources. GitHub covers AI bug reports and cross-device sessions, and MIT Technology Review focuses on AI smell, hype, and hydropower.",
+      "failures": []
+    },
+    {
       "date": "2026-11-19",
       "items": [
         {

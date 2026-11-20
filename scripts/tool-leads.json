@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T11:26:28.808Z",
+  "generatedAt": "2026-11-20T11:12:16.279Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -4282,8 +4282,8 @@
       "zh": "让 Claude 用户通过 /watch 下载视频、抽取画面帧并转写音频，再全部交给 Claude 处理。"
     },
     "rocketride-server": {
-      "en": "For developers building LLM workflows, it offers a C++ core engine with 50+ Python-extensible nodes to build, debug, and scale agent pipelines from the IDE.",
-      "zh": "面向构建 LLM 工作流的开发者，提供 C++ 核心与 50+ 可扩展 Python 节点，可在 IDE 中搭建、调试并扩展智能体流程。"
+      "en": "For developers building AI agents, RocketRide Server is an open source meta-harness with a C++ runtime to build, test and publish durable agents.",
+      "zh": "面向 AI 代理开发者，RocketRide Server 是开源元框架，含 C++ 运行时，可构建、测试并发布可扩展的持久代理。"
     },
     "deep-research": {
       "en": "An AI research assistant for anyone exploring a topic: it combines search engines, web scraping, and LLMs to iterate and deepen research.",
@@ -6380,6 +6380,126 @@
     "engram": {
       "en": "Gives AI coding agents persistent memory: an agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
       "zh": "为 AI 编程代理提供持久记忆：与代理无关的 Go 二进制，含 SQLite + FTS5 及 MCP、HTTP API、CLI、TUI。"
+    },
+    "openresearch": {
+      "en": "A dev tool that turns your coding agents into research agents, for developers who want their agents to handle research tasks.",
+      "zh": "一款开发者工具，可将编码智能体转变为研究智能体，适合需要让智能体承担研究任务的开发者。"
+    },
+    "pixelfx": {
+      "en": "For pixel art creators: 244 pixel art effects, each a small piece of code, plus a Claude Code skill to make your own.",
+      "zh": "面向像素画创作者：提供 244 个像素画效果，每个都是一小段代码，另附 Claude Code 技能用于自制。"
+    },
+    "ffmpeg-skill": {
+      "en": "Local FFmpeg video editor for coding agents like Claude Code, Cursor and Codex: 42 tools, an MCP server, and no cloud or API keys.",
+      "zh": "为 Claude Code、Cursor、Codex 等编码代理提供本地 FFmpeg 视频编辑，含 42 个工具与 MCP 服务器，无需云端或 API 密钥。"
+    },
+    "knightbot-md": {
+      "en": "A simple WhatsApp bot for group administrators who need to manage their groups.",
+      "zh": "一个简单的 WhatsApp 机器人，面向需要管理群组的群管理员。"
+    },
+    "apkstart": {
+      "en": "A Windows Android app runner for users who want to double-click an APK to install and run apps in separate windows with desktop icons.",
+      "zh": "Windows 用户可双击 APK 安装安卓应用，并以独立窗口和桌面图标运行。"
+    },
+    "agents": {
+      "en": "For developers building text, voice or video agents, it offers a fast Go-based backend with SDKs for every language and defaults for search, knowledge, skills, telephony, sandboxes, memory and persistence.",
+      "zh": "面向构建文本、语音或视频智能体的开发者，提供基于 Go 的快速后端，含多语言 SDK，并内置搜索、知识、技能、电话、沙箱、记忆与持久化的默认配置。"
+    },
+    "lieflat-less-ai-tone": {
+      "en": "An AI-tone removal skill for writers and developers who want text to read less like machine output, grounded in a 5.2-million-character corpus study.",
+      "zh": "一个去 AI 味 skill，面向希望文本少一些机器感的写作者和开发者，基于 520 万字语料统计。"
+    },
+    "repowise": {
+      "en": "Repowise gives developers and AI agents code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
+      "zh": "Repowise 面向开发者与 AI 代理，通过 MCP 提供代码健康评分、自动生成文档、git 分析、死代码检测与架构决策。"
+    },
+    "awesome-gpt4o-images": {
+      "en": "A curated collection of GPT-4o and gpt-image-1 images with prompts for people seeking reference examples of AI visuals.",
+      "zh": "为寻找 AI 图像参考的人整理的 GPT-4o 与 gpt-image-1 图片及提示词合集。"
+    },
+    "guizang-social-card-skill": {
+      "en": "A Claude Code and Codex skill for creators who need Xiaohongshu carousels and WeChat cover pairs, offering editorial and Swiss visual systems, 28 layouts, 10 themes, and single-file HTML to PNG output.",
+      "zh": "面向需要制作小红书图文与公众号封面对的创作者，提供编辑风与瑞士风视觉系统、28 种布局、10 套主题，单文件 HTML 转 PNG 输出。"
+    },
+    "osaurus": {
+      "en": "An open-source agent harness for macOS developers, running local or cloud models with persistent memory, skills, tools, and autonomous execution, built in Swift.",
+      "zh": "面向开发者的 macOS 开源 AI 智能体框架，可运行本地或云端模型，支持持久记忆与自主执行。"
+    },
+    "vphone-aio": {
+      "en": "A single script that runs vphone for developers.",
+      "zh": "一个运行 vphone 的脚本，面向开发者使用。"
+    },
+    "open-infra-index": {
+      "en": "For AI developers, it offers production-tested infrastructure tools to support efficient AGI development and community-driven innovation.",
+      "zh": "面向 AI 开发者，提供经生产验证的基础设施工具，支持高效的 AGI 开发与社区驱动的创新。"
+    },
+    "term-everything": {
+      "en": "Term.everything lets terminal users run any GUI app inside the terminal.",
+      "zh": "Term.everything 让终端用户可以在终端里运行任何 GUI 应用。"
+    },
+    "tick-stock-panel": {
+      "en": "A self-hosted, zero-ops A-share quant workbench for individual developers who want custom strategies, monitoring, and backtesting with LLM-assisted analysis.",
+      "zh": "面向需要自建策略、监控与回测的个人开发者，TSP 是自托管、零运维的 A 股量化工作台，并支持 LLM 辅助分析与复盘。"
+    },
+    "ai-infra-book": {
+      "en": "For engineers and students, this open book quantitatively derives LLM inference and training system design from hardware constraints, with PDF, tools, and experiments.",
+      "zh": "面向学生与工程师，量化推导 LLM 推理与训练系统设计，附计算工具与实验。"
+    },
+    "agentpilot": {
+      "en": "For developers building agents, AgentPilot aims to help their agents move better and faster.",
+      "zh": "面向构建智能体的开发者，AgentPilot 旨在帮助其智能体移动得更好、更快。"
+    },
+    "product-manager-skills": {
+      "en": "A skills framework for product managers using Claude Code, Cowork, Codex, and AI agents, built on established methods.",
+      "zh": "面向产品经理的技能框架，基于成熟方法，适用于 Claude Code、Cowork、Codex 和 AI 代理。"
+    },
+    "sdk-js": {
+      "en": "A JavaScript and TypeScript SDK for developers building Astrid capsules.",
+      "zh": "面向开发者的 JavaScript 与 TypeScript SDK，用于构建 Astrid capsules。"
+    },
+    "macnativegames": {
+      "en": "For players who own the games: run Tears of the Kingdom and Breath of the Wild natively on Apple silicon, without an emulator.",
+      "zh": "给拥有游戏的玩家：在苹果芯片上原生运行《王国之泪》和《旷野之息》，无需模拟器。"
+    },
+    "mornye": {
+      "en": "An open-source mobile music utility for people managing a personal audio library, built with Flutter and Rust.",
+      "zh": "面向管理个人音乐库的用户，基于 Flutter 与 Rust 构建的开源移动音乐工具。"
+    },
+    "robin": {
+      "en": "For OSINT analysts working on the dark web, Robin is an AI-powered tool that supports intelligence gathering.",
+      "zh": "面向暗网开源情报分析人员，Robin 是 AI 驱动的 OSINT 工具，用于暗网信息收集。"
+    },
+    "plugins-2": {
+      "en": "OpenAI Plugins is an OpenAI plugin offering for users who want to extend OpenAI-based tools.",
+      "zh": "OpenAI Plugins 是 OpenAI 提供的插件，面向希望扩展 OpenAI 工具能力的用户。"
+    },
+    "codex-ppt-skill": {
+      "en": "A GPT-Image-2 skill for Codex and compatible agents that creates image-based PowerPoint presentations.",
+      "zh": "GPT-Image-2 技能，供 Codex 等兼容代理生成基于图片的 PPT。"
+    },
+    "clicky": {
+      "en": "Clicky is the open-source project HeyClicky grew out of; the official app is an AI buddy for Mac and Windows.",
+      "zh": "Clicky 是 HeyClicky 所源自的开源项目，官方应用是面向 Mac 和 Windows 的 AI 伙伴。"
+    },
+    "webnovel-writer": {
+      "en": "A Claude Code-based writing assistant for long-form web novel authors, addressing AI forgetting and hallucination across 2-million-character serials.",
+      "zh": "面向长篇网文作者的 Claude Code 辅助创作系统，缓解 AI 写作中的遗忘与幻觉，支持 200 万字量级连载。"
+    },
+    "no-as-a-service": {
+      "en": "A simple API for developers that returns a random rejection reason, for realistic excuses or playful nos.",
+      "zh": "面向开发者的简单 API，返回随机拒绝理由，可用于真实借口或有趣的“不”。"
+    },
+    "dsh-tui": {
+      "en": "A TUI plugin for DSH users who want a pixel whale interface with mouse support, installable in one npm command.",
+      "zh": "面向 DSH 用户的 TUI 插件，提供像素鲸鱼界面与鼠标交互，可通过 npm 一键安装。"
+    },
+    "ha-mcp": {
+      "en": "Lets Home Assistant users configure and automate their smart home through Claude, ChatGPT, and other AI assistants.",
+      "zh": "让 Home Assistant 用户通过 Claude、ChatGPT 等 AI 助手配置并自动化智能家居。"
+    },
+    "bitchat-android": {
+      "en": "A decentralized mesh chat tool for Android users who want messaging that does not rely on a central server.",
+      "zh": "面向需要不依赖中心服务器通讯的 Android 用户的去中心化 mesh 聊天工具。"
     }
   }
 }

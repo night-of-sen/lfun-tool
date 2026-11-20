@@ -11176,5 +11176,222 @@
     "source": "README.md",
     "rawLength": 27708,
     "fetchedAt": "2026-11-19T11:24:37.977Z"
+  },
+  "ffmpeg-skill": {
+    "summary": "ffmpeg-skill runs your FFmpeg build as a separate executable. FFmpeg has its own license. Its LGPL builds can include encoders such as SVT-AV1 or VideoToolbox when available. Builds with GPL components such as libx264, libx265 or libvidstab use GPL terms. That affects the default x264/x265 encoding…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 131191,
+    "fetchedAt": "2026-11-20T11:09:36.584Z"
+  },
+  "apkstart": {
+    "summary": "所以 ApkStart 在安装 APK 时离线解析 AndroidManifest.xml，统计出这个应用天然是横屏还是竖屏 （启动 Activity 加权；全 sensor / fullSensor 的会在首次运行后再问安卓要一次实际值），存进 apps.json，启动时按它选面板：",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14405,
+    "fetchedAt": "2026-11-20T11:09:36.585Z"
+  },
+  "pixelfx": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12089,
+    "fetchedAt": "2026-11-20T11:09:47.885Z"
+  },
+  "openresearch": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8185,
+    "fetchedAt": "2026-11-20T11:09:47.885Z"
+  },
+  "knightbot-md": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10045,
+    "fetchedAt": "2026-11-20T11:09:47.885Z"
+  },
+  "agents": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9816,
+    "fetchedAt": "2026-11-20T11:09:47.885Z"
+  },
+  "lieflat-less-ai-tone": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8706,
+    "fetchedAt": "2026-11-20T11:09:47.885Z"
+  },
+  "guizang-social-card-skill": {
+    "summary": "能用其他模型生图吗? 可以。生图本身不在 Skill 范围内,但 SKILL.md Step 4 写清了取图协议:用户图 → AI 生图 → 网络取图。AI 生图能力依赖你当前 Agent 接的模型。",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14535,
+    "fetchedAt": "2026-11-20T11:09:48.446Z"
+  },
+  "osaurus": {
+    "summary": "Osaurus keeps it on your Mac. Your agents, memory, tools, and keys live locally, work fully offline with local models, and stay intact when you switch to a different local or cloud model. Nothing leaves your Mac unless you choose a cloud model or turn on a feature that connects out. Native Swift on…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15022,
+    "fetchedAt": "2026-11-20T11:09:48.446Z"
+  },
+  "repowise": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 52082,
+    "fetchedAt": "2026-11-20T11:09:48.446Z"
+  },
+  "awesome-gpt4o-images": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 85969,
+    "fetchedAt": "2026-11-20T11:09:48.446Z"
+  },
+  "ai-infra-book": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10584,
+    "fetchedAt": "2026-11-20T11:09:48.446Z"
+  },
+  "open-infra-index": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5228,
+    "fetchedAt": "2026-11-20T11:09:48.446Z"
+  },
+  "vphone-aio": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2389,
+    "fetchedAt": "2026-11-20T11:09:52.397Z"
+  },
+  "term-everything": {
+    "summary": "Terminal in a terminal in a terminal in a terminal in a terminal.... it's terminals all the way down.",
+    "docker": "",
+    "source": "Readme.md",
+    "rawLength": 4539,
+    "fetchedAt": "2026-11-20T11:09:52.397Z"
+  },
+  "agentpilot": {
+    "summary": "AgentPilot uses a lightweight 9B strategy model to guide much larger frontier models in executing coding tasks.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 23452,
+    "fetchedAt": "2026-11-20T11:09:52.397Z"
+  },
+  "macnativegames": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 39924,
+    "fetchedAt": "2026-11-20T11:09:52.397Z"
+  },
+  "tick-stock-panel": {
+    "summary": "",
+    "docker": "docker run -d --name tsp \\\n  -p 3018:3018 \\\n  -e DATA_DIR=/app/data \\\n  -v \"${PWD}/data:/app/data\" \\\n  ghcr.io/shy3130/tick-stock-panel:latest",
+    "source": "README.md",
+    "rawLength": 37909,
+    "fetchedAt": "2026-11-20T11:09:52.397Z"
+  },
+  "product-manager-skills": {
+    "summary": "Product work unfolds in an order: set the outcome before you investigate, investigate before you define, define before you build. The library follows that arc in five bundles, with a sixth that runs underneath all of them. It's a cycle, not a pipeline, so you will loop back, and every skill still ru…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 40816,
+    "fetchedAt": "2026-11-20T11:09:52.397Z"
+  },
+  "sdk-js": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5267,
+    "fetchedAt": "2026-11-20T11:09:53.426Z"
+  },
+  "mornye": {
+    "summary": "Mornye combines a Flutter/Dart UI, a Rust backend from rustbackend/, and thin Android/iOS platform bridges.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 19782,
+    "fetchedAt": "2026-11-20T11:09:53.426Z"
+  },
+  "codex-ppt-skill": {
+    "summary": "一个面向 Codex 的 PPT 生成 skill，也可在 Claude Code、OpenClaw、Hermes Agent 等支持 SKILL.md 的 agent 中使用；在这些非 Codex 环境中通常需要配置 gpt-image-2.5-flare、第三方生图 API 或 OpenAI 兼容格式的生图接口。它把文章、报告、论文、课程笔记等内容转换成“整页图片式”的演示文稿：先规划大纲和视觉风格，再生成每页幻灯片图片，最后用本地脚本组装为 .pptx。",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11201,
+    "fetchedAt": "2026-11-20T11:09:53.426Z"
+  },
+  "robin": {
+    "summary": "",
+    "docker": "docker run --rm \\\n   -v \"$(pwd)/.env:/app/.env\" \\\n   --add-host=host.docker.internal:host-gateway \\\n   -p 8501:8501 \\\n   apurvsg/robin:latest",
+    "source": "README.md",
+    "rawLength": 11481,
+    "fetchedAt": "2026-11-20T11:09:53.426Z"
+  },
+  "clicky": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6649,
+    "fetchedAt": "2026-11-20T11:09:53.426Z"
+  },
+  "plugins-2": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1283,
+    "fetchedAt": "2026-11-20T11:09:53.426Z"
+  },
+  "webnovel-writer": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 14442,
+    "fetchedAt": "2026-11-20T11:10:04.320Z"
+  },
+  "no-as-a-service": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6781,
+    "fetchedAt": "2026-11-20T11:10:04.320Z"
+  },
+  "dsh-tui": {
+    "summary": "dsh-TUI can also run its session on Claude: the same interface, driving the Claude Code CLI through the Claude Agent SDK. Your project's CLAUDE.md, settings, hooks, MCP servers and plugins load as the CLI loads them.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 80254,
+    "fetchedAt": "2026-11-20T11:10:04.320Z"
+  },
+  "ha-mcp": {
+    "summary": "ha-mcp is a standalone server built for configuring, building, and debugging your smart home, not just controlling it. On top of device control, it adds capabilities the built-in integration does not have:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 47684,
+    "fetchedAt": "2026-11-20T11:10:04.320Z"
+  },
+  "bitchat-android": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4720,
+    "fetchedAt": "2026-11-20T11:10:04.320Z"
+  },
+  "layoza": {
+    "summary": "Layoza ships 19 skills with progressive disclosure: the layoza router plus 18 specialists.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 17714,
+    "fetchedAt": "2026-11-20T11:11:08.172Z"
   }
 }

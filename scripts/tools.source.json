@@ -37060,6 +37060,650 @@
       "cloud": "",
       "descEn": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
       "pushedAt": "2026-11-17"
+    },
+    {
+      "id": "ffmpeg-skill",
+      "name": "Ffmpeg Skill",
+      "repo": "kajisho5/ffmpeg-skill",
+      "homepage": "https://www.npmjs.com/package/ffmpeg-skill",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "audio-processing",
+        "captions"
+      ],
+      "seed": {
+        "stars": 8578,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platf",
+      "pushedAt": "2026-11-20"
+    },
+    {
+      "id": "apkstart",
+      "name": "Apkstart",
+      "repo": "RoutineMiku/apkstart",
+      "homepage": "",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "android",
+        "android-x86",
+        "apk",
+        "electron"
+      ],
+      "seed": {
+        "stars": 8552,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时",
+      "pushedAt": "2026-11-20"
+    },
+    {
+      "id": "pixelfx",
+      "name": "Pixelfx",
+      "repo": "patch-gg/pixelfx",
+      "homepage": "https://patch-gg.github.io/pixelfx/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "animation",
+        "canvas",
+        "claude-code-plugin"
+      ],
+      "seed": {
+        "stars": 8429,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "openresearch",
+      "name": "OpenResearch",
+      "repo": "alphaXiv/OpenResearch",
+      "homepage": "https://openresearch.sh/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8285,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Turn your coding agents into research agents",
+      "pushedAt": "2026-11-20"
+    },
+    {
+      "id": "knightbot-md",
+      "name": "Knightbot MD",
+      "repo": "mruniquehacker/Knightbot-MD",
+      "homepage": "www.knightbotmini.online",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "github-whatsapp-bot",
+        "knight",
+        "knight-bot",
+        "knight-bot-md"
+      ],
+      "seed": {
+        "stars": 8226,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A simple WhatsApp bot to manage groups",
+      "pushedAt": "2026-11-09"
+    },
+    {
+      "id": "agents",
+      "name": "Agents",
+      "repo": "GetStream/Agents",
+      "homepage": "https://visionagents.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "ai-agents"
+      ],
+      "seed": {
+        "stars": 8215,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Quickly build text, voice and video agents. Fast, Go based Agent backend with SDKs for every language. Sensible defaults for search, knowledge, skills, telephony, sandboxes, memory",
+      "pushedAt": "2026-11-20"
+    },
+    {
+      "id": "lieflat-less-ai-tone",
+      "name": "Lieflat Less Ai Tone",
+      "repo": "larashero3-dotcom/lieflat-less-ai-tone",
+      "homepage": "https://lieflat.work/skills/less-ai-tone/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8199,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "一个基于 520 万字语料统计的去 AI 味 skill · An AI-tone removal skill grounded in a 5.2-million-character corpus study",
+      "pushedAt": "2026-11-11"
+    },
+    {
+      "id": "guizang-social-card-skill",
+      "name": "Guizang Social Card Skill",
+      "repo": "op7418/guizang-social-card-skill",
+      "homepage": "https://github.com/op7418/guizang-social-card-skill",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skill",
+        "ai-agent",
+        "anthropic",
+        "claude-code"
+      ],
+      "seed": {
+        "stars": 8195,
+        "language": "HTML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 ",
+      "pushedAt": "2026-10-30"
+    },
+    {
+      "id": "osaurus",
+      "name": "Osaurus",
+      "repo": "osaurus-ai/osaurus",
+      "homepage": "https://osaurus.ai",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "anthropic",
+        "apple-foundation-models",
+        "apple-intelligence",
+        "apple-neural-engine"
+      ],
+      "seed": {
+        "stars": 8187,
+        "language": "Swift"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Own your AI. The open-source agent harness for macOS. Run local or cloud models with persistent memory, skills, tools, and autonomous execution. Built in Swift.",
+      "pushedAt": "2026-11-20"
+    },
+    {
+      "id": "repowise",
+      "name": "Repowise",
+      "repo": "repowise-dev/repowise",
+      "homepage": "https://repowise.dev",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "code-complexity",
+        "code-health",
+        "code-intelligence"
+      ],
+      "seed": {
+        "stars": 8175,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Codebase intelligence for AI and humans: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
+      "pushedAt": "2026-11-20"
+    },
+    {
+      "id": "awesome-gpt4o-images",
+      "name": "Awesome Gpt4o Images",
+      "repo": "jamez-bondos/awesome-gpt4o-images",
+      "homepage": "https://animeai.online/gallery",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-art",
+        "ai-image-examples",
+        "anime-ai-art",
+        "awesome-list"
+      ],
+      "seed": {
+        "stars": 8170,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Awesome curated collection of images and prompts generated by GPT-4o and gpt-image-1. Explore AI generated visuals created with ChatGPT and Sora, showcasing OpenAI’s advanced image",
+      "pushedAt": "2025-05-26"
+    },
+    {
+      "id": "ai-infra-book",
+      "name": "Ai Infra Book",
+      "repo": "bojieli/ai-infra-book",
+      "homepage": "https://bojieli.github.io/ai-infra-book/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "accelerator",
+        "ai-infra",
+        "ai-infrastructure",
+        "book"
+      ],
+      "seed": {
+        "stars": 8155,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
+      "pushedAt": "2026-10-01"
+    },
+    {
+      "id": "open-infra-index",
+      "name": "Open Infra Index",
+      "repo": "deepseek-ai/open-infra-index",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8140,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Production-tested AI infrastructure tools for efficient AGI development and community-driven innovation",
+      "pushedAt": "2025-05-15"
+    },
+    {
+      "id": "vphone-aio",
+      "name": "Vphone Aio",
+      "repo": "34306/vphone-aio",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8134,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "1 script run the vphone",
+      "pushedAt": "2026-08-27"
+    },
+    {
+      "id": "term-everything",
+      "name": "Term.everything",
+      "repo": "mmulet/term.everything",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "alacritty",
+        "cli",
+        "foss",
+        "iterm2"
+      ],
+      "seed": {
+        "stars": 8125,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Run any GUI app in the terminal❗",
+      "pushedAt": "2026-03-18"
+    },
+    {
+      "id": "agentpilot",
+      "name": "AgentPilot",
+      "repo": "HKUDS/AgentPilot",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8124,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AgentPilot: Make Your Agents Move Better and Faster",
+      "pushedAt": "2026-11-12"
+    },
+    {
+      "id": "macnativegames",
+      "name": "MacNativeGames",
+      "repo": "ly05010419/MacNativeGames",
+      "homepage": "",
+      "category": "fun-games",
+      "desc": "",
+      "tags": [
+        "apple-silicon",
+        "arm64",
+        "breath-of-the-wild",
+        "game-port"
+      ],
+      "seed": {
+        "stars": 8109,
+        "language": "C"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal",
+      "pushedAt": "2026-11-20"
+    },
+    {
+      "id": "tick-stock-panel",
+      "name": "Tick Stock Panel",
+      "repo": "shy3130/tick-stock-panel",
+      "homepage": "https://tsp.shy313.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "a-stock",
+        "ai-agent",
+        "aigc",
+        "aigc-detection"
+      ],
+      "seed": {
+        "stars": 8103,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "TSP自托管、零运维的 A 股「自建策略 + 监控 + 回测」量化工作台 | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源",
+      "pushedAt": "2026-11-19"
+    },
+    {
+      "id": "product-manager-skills",
+      "name": "Product Manager Skills",
+      "repo": "deanpeters/Product-Manager-Skills",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-agents",
+        "ai-product-management",
+        "claude-skills",
+        "pm-frameworks"
+      ],
+      "seed": {
+        "stars": 8102,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agents.",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "sdk-js",
+      "name": "Sdk Js",
+      "repo": "astrid-runtime/sdk-js",
+      "homepage": "https://github.com/astrid-runtime/astrid",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8086,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "JavaScript and TypeScript SDK for building Astrid capsules.",
+      "pushedAt": "2026-08-05"
+    },
+    {
+      "id": "mornye",
+      "name": "Mornye",
+      "repo": "mornyeapp/Mornye",
+      "homepage": "https://mornye.com",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "android",
+        "flac",
+        "flutter",
+        "ios"
+      ],
+      "seed": {
+        "stars": 8067,
+        "language": "Dart"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Mobile music utility built with Flutter and Rust. High-quality audio management for your personal library. open source, no ads, no subscription.",
+      "pushedAt": "2026-11-19"
+    },
+    {
+      "id": "codex-ppt-skill",
+      "name": "Codex Ppt Skill",
+      "repo": "ningzimu/codex-ppt-skill",
+      "homepage": "https://ppt-skill.ningzimu.vip",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "ai-ppt",
+        "claude-code",
+        "codex"
+      ],
+      "seed": {
+        "stars": 8061,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "GPT-Image-2 PPT Generator Skill for Creating Image-Based PowerPoint Presentations in Codex and Other Skill-Compatible Agents",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "robin",
+      "name": "Robin",
+      "repo": "apurvsinghgautam/robin",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-tool",
+        "darkweb",
+        "darkweb-osint",
+        "investigation-tool"
+      ],
+      "seed": {
+        "stars": 8057,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "AI-Powered Dark Web OSINT Tool",
+      "pushedAt": "2026-10-03"
+    },
+    {
+      "id": "clicky",
+      "name": "Clicky",
+      "repo": "farzaa/clicky",
+      "homepage": "https://www.heyclicky.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8048,
+        "language": "Swift"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The open-source project HeyClicky grew out of. The official HeyClicky app, an AI buddy for Mac and Windows: heyclicky.com",
+      "pushedAt": "2026-10-28"
+    },
+    {
+      "id": "plugins-2",
+      "name": "Plugins",
+      "repo": "openai/plugins",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8030,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "OpenAI Plugins",
+      "pushedAt": "2026-11-18"
+    },
+    {
+      "id": "webnovel-writer",
+      "name": "Webnovel Writer",
+      "repo": "lingfengQAQ/webnovel-writer",
+      "homepage": "https://lingfengqaq.github.io/webnovel-writer/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-writing",
+        "chinese-novel",
+        "deepseek-harness",
+        "dsh-plugin"
+      ],
+      "seed": {
+        "stars": 8028,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "基于 Claude Code 的长篇网文辅助创作系统，解决 AI 写作中的「遗忘」和「幻觉」问题，支持 200 万字量级 连载创作。",
+      "pushedAt": "2026-11-19"
+    },
+    {
+      "id": "no-as-a-service",
+      "name": "No As A Service",
+      "repo": "hotheadhacker/no-as-a-service",
+      "homepage": "https://naas.isalman.dev/no",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "api",
+        "expressjs",
+        "json"
+      ],
+      "seed": {
+        "stars": 8025,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "No-as-a-Service (NaaS) is a simple API that returns a random rejection reason. Use it when you need a realistic excuse, a fun “no,” or want to simulate being turned down in style.",
+      "pushedAt": "2026-05-09"
+    },
+    {
+      "id": "dsh-tui",
+      "name": "Dsh TUI",
+      "repo": "ccch1mneyyy/dsh-TUI",
+      "homepage": "https://dshtui.com/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "claude-code",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness"
+      ],
+      "seed": {
+        "stars": 8018,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "DSH's officially top-recommended TUI plugin — high performance, low overhead, cute pixel whale, smooth mouse interaction. One-command install via npm. / DSH 官方首推的 TUI 插件，高性能低占用，可爱像",
+      "pushedAt": "2026-11-20"
+    },
+    {
+      "id": "bitchat-android",
+      "name": "Bitchat Android",
+      "repo": "permissionlesstech/bitchat-android",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8010,
+        "language": "Kotlin"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "decentralized mesh chat",
+      "pushedAt": "2026-11-15"
+    },
+    {
+      "id": "ha-mcp",
+      "name": "Ha Mcp",
+      "repo": "homeassistant-ai/ha-mcp",
+      "homepage": "https://homeassistant-ai.github.io/ha-mcp/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "claude",
+        "hacs",
+        "home-assistant"
+      ],
+      "seed": {
+        "stars": 8010,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "pushedAt": "2026-11-20"
     }
   ]
 }
