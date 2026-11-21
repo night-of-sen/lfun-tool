@@ -11393,5 +11393,215 @@
     "source": "README.md",
     "rawLength": 17714,
     "fetchedAt": "2026-11-20T11:11:08.172Z"
+  },
+  "echarts": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4162,
+    "fetchedAt": "2026-11-21T10:52:49.858Z"
+  },
+  "awesome-nodejs": {
+    "summary": "",
+    "docker": "",
+    "source": "readme.md",
+    "rawLength": 68340,
+    "fetchedAt": "2026-11-21T10:52:49.859Z"
+  },
+  "gpt4free": {
+    "summary": "",
+    "docker": "docker run -p 8080:8080 -p 7900:7900 \\\n     --shm-size=\"2g\" \\\n     -v ${PWD}/har_and_cookies:/app/har_and_cookies \\\n     -v ${PWD}/generated_media:/app/generated_media \\\n     hlohaus789/g4f:latest",
+    "source": "README.md",
+    "rawLength": 24290,
+    "fetchedAt": "2026-11-21T10:52:49.859Z"
+  },
+  "nocode": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 835,
+    "fetchedAt": "2026-11-21T10:52:49.859Z"
+  },
+  "warp": {
+    "summary": "Warp is an agentic development environment, born out of the terminal. Use Warp's built-in coding agent, or bring your own CLI agent (Claude Code, Codex, Gemini CLI, and others).",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6012,
+    "fetchedAt": "2026-11-21T10:52:49.859Z"
+  },
+  "webpack": {
+    "summary": "Webpack is a bundler for modules. The main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 80049,
+    "fetchedAt": "2026-11-21T10:52:49.859Z"
+  },
+  "interviews": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 21813,
+    "fetchedAt": "2026-11-21T10:52:54.458Z"
+  },
+  "scrapy": {
+    "summary": "Scrapy is a web scraping framework to extract structured data from websites. It is cross-platform, and requires Python 3.11+. It is maintained by Zyte (formerly Scrapinghub) and many other contributors.",
+    "docker": "",
+    "source": "README.rst",
+    "rawLength": 1793,
+    "fetchedAt": "2026-11-21T10:52:54.458Z"
+  },
+  "nerd-fonts": {
+    "summary": "Nerd Fonts is a project that patches developer targeted fonts with a high number of glyphs (icons). Specifically to add a high number of extra glyphs from popular 'iconic fonts' such as [Font Awesome][font-awesome], [Devicons][devicons], [Octicons][octicons], and others.",
+    "docker": "docker run --rm -v /path/to/fonts:/in:Z -v /path/for/output:/out:Z nerdfonts/patcher [OPTIONS]",
+    "source": "readme.md",
+    "rawLength": 52236,
+    "fetchedAt": "2026-11-21T10:52:54.458Z"
+  },
+  "javascript-questions": {
+    "summary": "JavaScript interprets (or unboxes) statements. When we use bracket notation, it sees the first opening bracket [ and keeps going until it finds the closing bracket ]. Only then, it will evaluate the statement.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 144509,
+    "fetchedAt": "2026-11-21T10:52:54.458Z"
+  },
+  "rustlings": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 376,
+    "fetchedAt": "2026-11-21T10:52:54.458Z"
+  },
+  "flclash": {
+    "summary": "FlClash starts the core only after the disclaimer is accepted. Where nobody can click it, such as a container, set FLCLASHACCEPTDISCLAIMER=1 in the app's environment to accept it on first launch.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6055,
+    "fetchedAt": "2026-11-21T10:52:54.458Z"
+  },
+  "keras": {
+    "summary": "Keras 3 is a multi-backend deep learning framework, with support for JAX, TensorFlow, PyTorch, and OpenVINO (for inference-only). Effortlessly build and train models for computer vision, natural language processing, audio processing, timeseries forecasting, recommender systems, etc.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5548,
+    "fetchedAt": "2026-11-21T10:53:00.133Z"
+  },
+  "gpt-sovits": {
+    "summary": "",
+    "docker": "docker compose run --service-ports <GPT-SoVITS-CU126-Lite|GPT-SoVITS-CU128-Lite|GPT-SoVITS-CU126|GPT-SoVITS-CU128>",
+    "source": "README.md",
+    "rawLength": 21933,
+    "fetchedAt": "2026-11-21T10:53:00.133Z"
+  },
+  "astro": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8341,
+    "fetchedAt": "2026-11-21T10:53:00.133Z"
+  },
+  "ultralytics": {
+    "summary": "Ultralytics YOLO can also be integrated directly into your Python projects. It accepts the same configuration arguments as the CLI:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 39138,
+    "fetchedAt": "2026-11-21T10:53:00.133Z"
+  },
+  "resume-github-com": {
+    "summary": "GitHub Résumé is opt-in. To make your resume visible, just star this project. To view your résumé, go to https://resume.github.io/?yourusername or follow the instructions on the home page.",
+    "docker": "",
+    "source": "README.markdown",
+    "rawLength": 650,
+    "fetchedAt": "2026-11-21T10:53:00.133Z"
+  },
+  "leetcode-master": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 17222,
+    "fetchedAt": "2026-11-21T10:53:00.624Z"
+  },
+  "pathway": {
+    "summary": "Pathway Live Data Framework is a Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
+    "docker": "docker build -t my-pathway-app .\ndocker run -it --rm --name my-pathway-app my-pathway-app",
+    "source": "README.md",
+    "rawLength": 16239,
+    "fetchedAt": "2026-11-21T10:53:00.624Z"
+  },
+  "lodash": {
+    "summary": "Lodash is released under the MIT license & supports modern environments. Review the build differences & pick one that’s right for you.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3619,
+    "fetchedAt": "2026-11-21T10:53:00.624Z"
+  },
+  "sway": {
+    "summary": "Sway is a language developed for the Fuel blockchain. It is heavily inspired by Rust and aims to bring modern language development and performance to the blockchain ecosystem.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3669,
+    "fetchedAt": "2026-11-21T10:53:00.624Z"
+  },
+  "dive-into-llms": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8389,
+    "fetchedAt": "2026-11-21T10:53:00.624Z"
+  },
+  "front-end-developer-interview-questions": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 48760,
+    "fetchedAt": "2026-11-21T10:53:00.624Z"
+  },
+  "real-time-voice-cloning": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4545,
+    "fetchedAt": "2026-11-21T10:53:09.217Z"
+  },
+  "markdown-here": {
+    "summary": "Markdown Here is a Google Chrome, Firefox, Opera, and Thunderbird extension that lets you write email &dagger; in Markdown &Dagger; and render them before sending. It also supports syntax highlighting (just specify the language in a fenced code block).",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12802,
+    "fetchedAt": "2026-11-21T10:53:09.217Z"
+  },
+  "gitea": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10410,
+    "fetchedAt": "2026-11-21T10:53:09.217Z"
+  },
+  "billion-context": {
+    "summary": "billion-context sits between any agent and its model API, rewriting Anthropic/OpenAI streams with acp-kernel compression. The model decides when and what to compress into high-fidelity summaries — not a hard truncation limit.",
+    "docker": "docker build -t billion-context .\ndocker run -d --name bili -p 8787:8787 \\\n  -v bili-config:/root/.config/billion-context \\\n  -v bili-data:/root/.local/share/billion-context \\\n  -v bili-cache:/root/.cache/billion-context \\\n  -v bili-state:/root/.local/state/billion-context \\\n  billion-context",
+    "source": "README.md",
+    "rawLength": 82452,
+    "fetchedAt": "2026-11-21T10:53:19.689Z"
+  },
+  "substrate": {
+    "summary": "Substrate is a low-opinion runtime, not an agent SDK. The workloads it runs do not have to be AI agents, though autonomous, untrusted, mostly-idle agents are the target for its isolation and scheduling model. It runs on standard Kubernetes: Pods, autoscaling, NetworkPolicies. It adds agent-specific…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 17873,
+    "fetchedAt": "2026-11-21T10:53:19.689Z"
+  },
+  "app-store-screenshots": {
+    "summary": "App Store Connect has no CarPlay screenshot slot: CarPlay shots are uploaded into the iPhone slot, so the CarPlay deck exports landscape iPhone sizes with a head-unit frame.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16661,
+    "fetchedAt": "2026-11-21T10:53:19.689Z"
+  },
+  "fast-jev-compaction": {
+    "summary": "Jev failures, malformed answers, a missing key, or a history that cannot be fitted throw; the caller (or the Claude Code hook) decides what to fall back to.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8660,
+    "fetchedAt": "2026-11-21T10:53:19.689Z"
   }
 }

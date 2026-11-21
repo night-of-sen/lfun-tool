@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T11:12:16.279Z",
+  "generatedAt": "2026-11-21T10:55:11.263Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -6500,6 +6500,126 @@
     "bitchat-android": {
       "en": "A decentralized mesh chat tool for Android users who want messaging that does not rely on a central server.",
       "zh": "面向需要不依赖中心服务器通讯的 Android 用户的去中心化 mesh 聊天工具。"
+    },
+    "warp": {
+      "en": "Warp is an agentic development environment, born out of the terminal, for developers who work in the command line.",
+      "zh": "Warp 是源自终端的智能体开发环境，面向在命令行中工作的开发者。"
+    },
+    "awesome-nodejs": {
+      "en": "A curated list of Node.js packages and resources for developers seeking libraries, though new submissions are paused.",
+      "zh": "面向寻找库和资源的 Node.js 开发者的精选列表，目前暂停接收新提交。"
+    },
+    "echarts": {
+      "en": "Apache ECharts is an interactive charting and data visualization library for developers who build charts in the browser.",
+      "zh": "Apache ECharts 是面向开发者的交互式图表与数据可视化库，用于在浏览器中绘制图表。"
+    },
+    "webpack": {
+      "en": "Webpack bundles many JavaScript modules and related assets into a few files for developers building applications.",
+      "zh": "Webpack 面向构建应用的开发者，把众多 JavaScript 模块及相关资源打包成少量文件。"
+    },
+    "nocode": {
+      "en": "A satirical dev tool whose own description says users write nothing and deploy nowhere.",
+      "zh": "按其自身描述，这是一个写零代码、不部署的玩笑式开发工具。"
+    },
+    "interviews": {
+      "en": "A resource for job seekers that covers what you need to know to get the job, aimed at interview preparation.",
+      "zh": "面向求职者的面试准备资源，提供拿到工作所需了解的内容。"
+    },
+    "scrapy": {
+      "en": "A Python framework for developers who need to build web crawlers and scrape data from websites.",
+      "zh": "面向 Python 开发者的网页爬取与数据抓取框架，用于构建爬虫。"
+    },
+    "javascript-questions": {
+      "en": "A long list of advanced JavaScript questions with explanations, for developers who want to deepen their JavaScript knowledge.",
+      "zh": "一份带解析的进阶 JavaScript 问题清单，面向想深入理解 JavaScript 的开发者。"
+    },
+    "rustlings": {
+      "en": "Rustlings offers small exercises for learners who want practice reading and writing Rust code.",
+      "zh": "Rustlings 提供小型练习，帮助学习者练习阅读和编写 Rust 代码。"
+    },
+    "gpt4free": {
+      "en": "A repository for developers offering a collection of language models, including Opus 4.6, GPT 5.3, Kimi 2.5, DeepSeek V3.2 and Gemini 3.",
+      "zh": "面向开发者，汇集多种语言模型，包括 Opus 4.6、Kimi 2.5 等。"
+    },
+    "flclash": {
+      "en": "FlClash is an open-source, ad-free proxy client based on ClashMeta for users who need a simple multi-platform proxy tool.",
+      "zh": "FlClash 是一款基于 ClashMeta 的开源无广告代理客户端，适合需要简单易用多平台代理工具的用户。"
+    },
+    "keras": {
+      "en": "Keras is a deep learning tool whose stated aim is deep learning for humans, aimed at people who build deep learning models.",
+      "zh": "Keras 是一个以“Deep Learning for humans”为宗旨的深度学习工具，面向构建深度学习模型的使用者。"
+    },
+    "nerd-fonts": {
+      "en": "A font aggregator and patcher that adds 3,600+ icons to fonts like Hack and Source Code Pro for terminal and editor users.",
+      "zh": "为终端与编辑器用户聚合图标字体，并为 Hack 等字体加入 3,600+ 图标。"
+    },
+    "ultralytics": {
+      "en": "Ultralytics provides YOLO models for developers who need object detection, segmentation, classification, pose estimation, and tracking.",
+      "zh": "Ultralytics 提供 YOLO 系列模型，面向需要目标检测、分割、分类、姿态估计与跟踪的开发者。"
+    },
+    "gpt-sovits": {
+      "en": "For users who need few shot voice cloning, GPT SoVITS can train a TTS model from about 1 minute of voice data.",
+      "zh": "面向需要少样本音色克隆的用户，GPT SoVITS 能用约 1 分钟语音数据训练 TTS 模型。"
+    },
+    "astro": {
+      "en": "A web framework for developers who build content-driven websites.",
+      "zh": "面向构建内容驱动型网站的开发者的一款 Web 框架。"
+    },
+    "pathway": {
+      "en": "A Python ETL framework for developers working with stream processing, real-time analytics, LLM pipelines, and RAG.",
+      "zh": "一个 Python ETL 框架，面向需要处理流处理、实时分析、LLM 流水线和 RAG 的开发者。"
+    },
+    "resume-github-com": {
+      "en": "Generates a resume from your GitHub information, for developers who want a resume built from their GitHub profile.",
+      "zh": "根据 GitHub 信息生成简历，适合希望用 GitHub 资料生成简历的开发者。"
+    },
+    "sway": {
+      "en": "Sway is a language for developers building reliable and efficient smart contracts.",
+      "zh": "Sway 是面向开发者的智能合约语言，用于构建可靠且高效的智能合约。"
+    },
+    "lodash": {
+      "en": "Lodash is a modern JavaScript utility library that offers modularity, performance, and extras for developers.",
+      "zh": "Lodash 是一个现代 JavaScript 工具库，为开发者提供模块化、性能与附加功能。"
+    },
+    "dive-into-llms": {
+      "en": "A hands-on programming tutorial series that helps developers learn large language models through practice.",
+      "zh": "一套面向开发者的编程实践教程，通过动手实践学习大模型。"
+    },
+    "front-end-developer-interview-questions": {
+      "en": "A list of front-end interview questions for interviewing potential candidates or testing your own knowledge.",
+      "zh": "一份前端面试问题清单，可用于面试候选人，也可用于自我测试。"
+    },
+    "markdown-here": {
+      "en": "For people who write email in Chrome, Firefox, or Thunderbird and want Markdown rendered before sending.",
+      "zh": "面向在 Chrome、Firefox 或 Thunderbird 中写邮件并希望发送前渲染 Markdown 的用户。"
+    },
+    "real-time-voice-cloning": {
+      "en": "For developers who need quick voice cloning, it clones a voice in 5 seconds and generates arbitrary speech in real-time.",
+      "zh": "面向需要快速克隆声音的开发者，可在5秒内克隆音色并实时生成任意语音。"
+    },
+    "leetcode-master": {
+      "en": "A LeetCode study guide for algorithm learners, offering a 200-problem practice order with detailed explanations, video breakdowns, mind maps, and multi-language solutions.",
+      "zh": "面向算法学习者，提供200道经典题目的刷题顺序、详细图解、视频难点剖析、思维导图及多语言题解。"
+    },
+    "billion-context": {
+      "en": "A context-compression plugin for developers running month-long single sessions or working within small context windows, where 100K tokens is enough.",
+      "zh": "一款上下文压缩插件，面向需要长时间单会话或上下文窗口较小的开发者，100K 上下文即可使用。"
+    },
+    "app-store-screenshots": {
+      "en": "Helps app developers and marketers create end-to-end App Store screenshots using AI.",
+      "zh": "帮助应用开发者和营销人员使用 AI 完成 App Store 截图的端到端制作。"
+    },
+    "substrate": {
+      "en": "Substrate is described as the core system for AI agents, aimed at teams building agent-based tools.",
+      "zh": "Substrate 是面向 AI 智能体开发者的核心系统，用于为智能体项目提供基础支撑。"
+    },
+    "gitea": {
+      "en": "For teams wanting self-hosted Git: Gitea combines Git hosting, code review, team collaboration, package registry and CI/CD in one service.",
+      "zh": "面向自托管 Git 的团队：集 Git 托管、代码审查、协作、包注册表与 CI/CD 于一体。"
+    },
+    "fast-jev-compaction": {
+      "en": "For Claude Code users: replaces the compaction summary with fast per-item scoring, dropping or truncating stale tool calls and results while keeping the rest verbatim.",
+      "zh": "Claude Code 用户：一次打分替代压缩摘要，丢弃或截断过时内容。"
     }
   }
 }

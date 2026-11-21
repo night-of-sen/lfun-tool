@@ -24963,7 +24963,7 @@
     {
       "id": "docusaurus",
       "name": "Docusaurus",
-      "repo": "facebook/docusaurus",
+      "repo": "meta/docusaurus",
       "homepage": "https://docusaurus.io",
       "category": "writing-knowledge",
       "desc": "",
@@ -25590,7 +25590,7 @@
     {
       "id": "openshell",
       "name": "OpenShell",
-      "repo": "NVIDIA/OpenShell",
+      "repo": "ai-openshell/openshell",
       "homepage": "https://docs.nvidia.com/openshell/latest/",
       "category": "dev-tools",
       "desc": "",
@@ -37704,6 +37704,660 @@
       "cloud": "",
       "descEn": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
       "pushedAt": "2026-11-20"
+    },
+    {
+      "id": "billion-context",
+      "name": "Billion Context",
+      "repo": "ranxianglei/billion-context",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8056,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A context-compression plugin for month-long single sessions (billions of tokens) and small context windows (a 100K context is enough), billion-context is all you need .",
+      "pushedAt": "2026-11-21"
+    },
+    {
+      "id": "substrate",
+      "name": "Substrate",
+      "repo": "agent-substrate/substrate",
+      "homepage": "https://ate.dev/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agents",
+        "cncf",
+        "sandboxing"
+      ],
+      "seed": {
+        "stars": 8051,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Agent Substrate: the core system",
+      "pushedAt": "2026-11-21"
+    },
+    {
+      "id": "app-store-screenshots",
+      "name": "App Store Screenshots",
+      "repo": "ParthJadhav/app-store-screenshots",
+      "homepage": "https://www.parthjadhav.com/products/app-store-screenshots",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agentic-ai",
+        "apple",
+        "appstore",
+        "automate"
+      ],
+      "seed": {
+        "stars": 8005,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "end to end app store screenshot creation using AI",
+      "pushedAt": "2026-11-07"
+    },
+    {
+      "id": "fast-jev-compaction",
+      "name": "Fast Jev Compaction",
+      "repo": "tamaratran/fast-jev-compaction",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8003,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everythin",
+      "pushedAt": "2026-09-18"
+    },
+    {
+      "id": "echarts",
+      "name": "Echarts",
+      "repo": "apache/echarts",
+      "homepage": "https://echarts.apache.org",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "apache",
+        "canvas",
+        "charting-library",
+        "charts"
+      ],
+      "seed": {
+        "stars": 67766,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Apache ECharts is a powerful, interactive charting and data visualization library for browser",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "awesome-nodejs",
+      "name": "Awesome Nodejs",
+      "repo": "sindresorhus/awesome-nodejs",
+      "homepage": "https://node.cool",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "awesome",
+        "awesome-list",
+        "javascript",
+        "list"
+      ],
+      "seed": {
+        "stars": 67586,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": ":zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED TEMPORARILY]",
+      "pushedAt": "2026-09-02"
+    },
+    {
+      "id": "gpt4free",
+      "name": "Gpt4free",
+      "repo": "xtekky/gpt4free",
+      "homepage": "https://t.me/g4f_channel",
+      "category": "marketing-growth",
+      "desc": "",
+      "tags": [
+        "chatbot",
+        "chatbots",
+        "chatgpt",
+        "chatgpt-4"
+      ],
+      "seed": {
+        "stars": 67093,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The official gpt4free repository | various collection of powerful language models | opus 4.6 gpt 5.3 kimi 2.5 deepseek v3.2 gemini 3",
+      "pushedAt": "2026-11-11"
+    },
+    {
+      "id": "nocode",
+      "name": "Nocode",
+      "repo": "kelseyhightower/nocode",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 66156,
+        "language": "Dockerfile"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The best way to write secure and reliable applications. Write nothing; deploy nowhere.",
+      "pushedAt": "2024-08-07"
+    },
+    {
+      "id": "warp",
+      "name": "Warp",
+      "repo": "warpdotdev/warp",
+      "homepage": "https://warp.dev",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "bash",
+        "linux",
+        "macos",
+        "rust"
+      ],
+      "seed": {
+        "stars": 66071,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Warp is an agentic development environment, born out of the terminal.",
+      "pushedAt": "2026-11-21"
+    },
+    {
+      "id": "webpack",
+      "name": "Webpack",
+      "repo": "webpack/webpack",
+      "homepage": "https://webpack.js.org",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "amd",
+        "build-tool",
+        "commonjs",
+        "compiler"
+      ],
+      "seed": {
+        "stars": 66018,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules",
+      "pushedAt": "2026-11-20"
+    },
+    {
+      "id": "interviews",
+      "name": "Interviews",
+      "repo": "kdn251/interviews",
+      "homepage": "https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g?view_as=subscriber",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "algorithm",
+        "algorithm-challenges",
+        "algorithm-competitions",
+        "algorithms"
+      ],
+      "seed": {
+        "stars": 65578,
+        "language": "Java"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Everything you need to know to get the job.",
+      "pushedAt": "2025-05-12"
+    },
+    {
+      "id": "scrapy",
+      "name": "Scrapy",
+      "repo": "scrapy/scrapy",
+      "homepage": "https://scrapy.org",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "crawler",
+        "crawling",
+        "framework",
+        "hacktoberfest"
+      ],
+      "seed": {
+        "stars": 65518,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Scrapy, a fast high-level web crawling & scraping framework for Python.",
+      "pushedAt": "2026-11-19"
+    },
+    {
+      "id": "nerd-fonts",
+      "name": "Nerd Fonts",
+      "repo": "ryanoasis/nerd-fonts",
+      "homepage": "https://NerdFonts.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "font",
+        "font-awesome",
+        "fonts",
+        "hacktoberfest"
+      ],
+      "seed": {
+        "stars": 65269,
+        "language": "CSS"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & mor",
+      "pushedAt": "2026-10-17"
+    },
+    {
+      "id": "javascript-questions",
+      "name": "Javascript Questions",
+      "repo": "lydiahallie/javascript-questions",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 65267,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A long list of (advanced) JavaScript questions, and their explanations :sparkles:",
+      "pushedAt": "2024-08-04"
+    },
+    {
+      "id": "rustlings",
+      "name": "Rustlings",
+      "repo": "rust-lang/rustlings",
+      "homepage": "https://rustlings.rust-lang.org",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "beginner-friendly",
+        "exercises",
+        "rust",
+        "rustlings"
+      ],
+      "seed": {
+        "stars": 64757,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": ":crab: Small exercises to get you used to reading and writing Rust code!",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "flclash",
+      "name": "FlClash",
+      "repo": "chen08209/FlClash",
+      "homepage": "https://chen08209.github.io/FlClash",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "clash",
+        "clash-meta",
+        "flutter",
+        "hysteria"
+      ],
+      "seed": {
+        "stars": 64519,
+        "language": "Dart"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.",
+      "pushedAt": "2026-11-20"
+    },
+    {
+      "id": "keras",
+      "name": "Keras",
+      "repo": "keras-team/keras",
+      "homepage": "http://keras.io/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "data-science",
+        "deep-learning",
+        "jax",
+        "machine-learning"
+      ],
+      "seed": {
+        "stars": 64445,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Deep Learning for humans",
+      "pushedAt": "2026-11-20"
+    },
+    {
+      "id": "gpt-sovits",
+      "name": "GPT SoVITS",
+      "repo": "RVC-Boss/GPT-SoVITS",
+      "homepage": "",
+      "category": "video-media",
+      "desc": "",
+      "tags": [
+        "text-to-speech",
+        "tts",
+        "vits",
+        "voice-clone"
+      ],
+      "seed": {
+        "stars": 64156,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
+      "pushedAt": "2026-11-11"
+    },
+    {
+      "id": "astro",
+      "name": "Astro",
+      "repo": "withastro/astro",
+      "homepage": "https://astro.build",
+      "category": "productivity",
+      "desc": "",
+      "tags": [
+        "astro",
+        "blog",
+        "browser",
+        "components"
+      ],
+      "seed": {
+        "stars": 64099,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The web framework for content-driven websites.",
+      "pushedAt": "2026-11-21"
+    },
+    {
+      "id": "ultralytics",
+      "name": "Ultralytics",
+      "repo": "ultralytics/ultralytics",
+      "homepage": "https://platform.ultralytics.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "computer-vision",
+        "deep-learning",
+        "image-classification",
+        "instance-segmentation"
+      ],
+      "seed": {
+        "stars": 63636,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Ultralytics YOLO27, YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, image classification, pose estimation, object tracking",
+      "pushedAt": "2026-11-21"
+    },
+    {
+      "id": "resume-github-com",
+      "name": "Resume.github.com",
+      "repo": "resume/resume.github.com",
+      "homepage": "https://resume.github.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 62902,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Resumes generated using the GitHub informations",
+      "pushedAt": "2023-02-15"
+    },
+    {
+      "id": "leetcode-master",
+      "name": "Leetcode Master",
+      "repo": "youngyangyang04/leetcode-master",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "algorithm",
+        "cpp",
+        "go",
+        "interview"
+      ],
+      "seed": {
+        "stars": 62840,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "《代码随想录》LeetCode 刷题攻略：200道经典题目刷题顺序，共60w字的详细图解，视频难点剖析，50余张思维导图，支持C++，Java，Python，Go，JavaScript等多语言版本，从此算法学习不再迷茫！🔥🔥 来看看，你会发现相见恨晚！🚀",
+      "pushedAt": "2026-10-24"
+    },
+    {
+      "id": "pathway",
+      "name": "Pathway",
+      "repo": "pathwaycom/pathway",
+      "homepage": "https://pathway.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "batch-processing",
+        "data-analytics",
+        "data-pipelines",
+        "data-processing"
+      ],
+      "seed": {
+        "stars": 61979,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
+      "pushedAt": "2026-11-21"
+    },
+    {
+      "id": "lodash",
+      "name": "Lodash",
+      "repo": "lodash/lodash",
+      "homepage": "https://lodash.com/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "javascript",
+        "lodash",
+        "modules",
+        "utilities"
+      ],
+      "seed": {
+        "stars": 61327,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A modern JavaScript utility library delivering modularity, performance, & extras.",
+      "pushedAt": "2026-10-01"
+    },
+    {
+      "id": "sway",
+      "name": "Sway",
+      "repo": "FuelLabs/sway",
+      "homepage": "https://docs.fuel.network/docs/sway/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "compiler",
+        "fuel",
+        "language",
+        "sway"
+      ],
+      "seed": {
+        "stars": 61322,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🌴 Empowering everyone to build reliable and efficient smart contracts.",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "dive-into-llms",
+      "name": "Dive Into Llms",
+      "repo": "Lordog/dive-into-llms",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 60847,
+        "language": "Jupyter Notebook"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "pushedAt": "2025-10-10"
+    },
+    {
+      "id": "front-end-developer-interview-questions",
+      "name": "Front End Developer Interview Questions",
+      "repo": "h5bp/Front-end-Developer-Interview-Questions",
+      "homepage": "https://h5bp.org/Front-end-Developer-Interview-Questions/",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "css-questions",
+        "front-end",
+        "html-questions",
+        "interview-questions"
+      ],
+      "seed": {
+        "stars": 60839,
+        "language": "Nunjucks"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "real-time-voice-cloning",
+      "name": "Real Time Voice Cloning",
+      "repo": "CorentinJ/Real-Time-Voice-Cloning",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "deep-learning",
+        "python",
+        "pytorch",
+        "tensorflow"
+      ],
+      "seed": {
+        "stars": 60249,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Clone a voice in 5 seconds to generate arbitrary speech in real-time",
+      "pushedAt": "2026-03-09"
+    },
+    {
+      "id": "markdown-here",
+      "name": "Markdown Here",
+      "repo": "adam-p/markdown-here",
+      "homepage": "https://markdown-here.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 60246,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.",
+      "pushedAt": "2025-08-22"
+    },
+    {
+      "id": "gitea",
+      "name": "Gitea",
+      "repo": "go-gitea/gitea",
+      "homepage": "https://gitea.com",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "bitbucket",
+        "cicd",
+        "devops",
+        "docker-registry-v2"
+      ],
+      "seed": {
+        "stars": 59196,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "pushedAt": "2026-11-21"
     }
   ]
 }

@@ -1,6 +1,359 @@
 {
   "days": [
     {
+      "date": "2026-11-21",
+      "items": [
+        {
+          "title": "ClawDOS – An AI coding agent for DOS",
+          "link": "http://ricapar.net/ClawDOS/",
+          "source": "Hacker News",
+          "date": "2026-11-21",
+          "zhTitle": "ClawDOS：面向 DOS 的 AI 编程智能体",
+          "zh": "一个为 DOS 系统打造的 AI 编程智能体项目。",
+          "en": "An AI coding agent built for DOS."
+        },
+        {
+          "title": "The most misunderstood graph in AI just got a major update",
+          "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-20",
+          "zhTitle": "AI 领域最被误解的图表迎来重大更新",
+          "zh": "解读 AI 领域最常被误解的那张图表的重大更新。",
+          "en": "A major update to AI's most misunderstood graph, explained."
+        },
+        {
+          "title": "Language Models Can Rewrite Their Own Weights",
+          "link": "https://arxiv.org/abs/2611.21885",
+          "source": "Hacker News",
+          "date": "2026-11-20",
+          "zhTitle": "语言模型能够重写自身权重",
+          "zh": "论文提出语言模型可重写自身权重的方法。",
+          "en": "A paper proposes language models that rewrite their own weights."
+        },
+        {
+          "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+          "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+          "source": "Hacker News",
+          "date": "2026-11-20",
+          "zhTitle": "AI 抛售拖累 Anthropic 上市次日，纳斯达克回吐 2026 年全部涨幅",
+          "zh": "AI 股抛售令纳指抹平 2026 年全部涨幅。",
+          "en": "Nasdaq wipes out 2026 gains as AI sell-off hits Anthropic's second day."
+        },
+        {
+          "title": "Combatting adversarial distillation",
+          "link": "https://openai.com/index/combatting-adversarial-distillation",
+          "source": "OpenAI",
+          "date": "2026-11-20",
+          "zhTitle": "应对对抗性蒸馏",
+          "zh": "OpenAI 谈如何应对对抗性蒸馏行为。",
+          "en": "OpenAI on countering adversarial distillation."
+        },
+        {
+          "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+          "link": "https://openai.com/business/customer-stories/hebbia",
+          "source": "OpenAI",
+          "date": "2026-11-20",
+          "zhTitle": "Hebbia 借助 GPT-6 Astra 提升金融研究表现",
+          "zh": "Hebbia 称使用 GPT-6 Astra 改善了金融研究。",
+          "en": "Hebbia reports better financial research with GPT-6 Astra."
+        },
+        {
+          "title": "Can AI help scientists identify promising drug candidates?",
+          "link": "https://openai.com/index/introducing-medchembench",
+          "source": "OpenAI",
+          "date": "2026-11-20",
+          "zhTitle": "AI 能帮科学家识别有前景的药物候选吗？",
+          "zh": "OpenAI 发布 MedChemBench，探讨 AI 辅助药物发现。",
+          "en": "OpenAI introduces MedChemBench to test AI drug-candidate finding."
+        },
+        {
+          "title": "The Download: a living liver, a billion-dollar battery deal, and AI hype",
+          "link": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-19",
+          "zhTitle": "每日速递：存活的肝脏、十亿美元电池交易与 AI 炒作",
+          "zh": "今日速递涵盖活体肝脏、十亿美元电池交易与 AI 炒作。",
+          "en": "The Download: a living liver, a billion-dollar battery deal, and AI hype."
+        },
+        {
+          "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+          "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+          "source": "OpenAI",
+          "date": "2026-11-19",
+          "zhTitle": "OpenAI 的 Performance Factory 如何让 ChatGPT 保持快速",
+          "zh": "介绍 OpenAI 性能工厂如何保障 ChatGPT 的速度。",
+          "en": "How OpenAI's Performance Factory keeps ChatGPT fast."
+        },
+        {
+          "title": "Explore the Codex Security Plugin",
+          "link": "https://openai.com/business/learn/codex-security-plugin-demo",
+          "source": "OpenAI",
+          "date": "2026-11-19",
+          "zhTitle": "探索 Codex 安全插件",
+          "zh": "展示 Codex 安全插件的使用演示。",
+          "en": "A walkthrough of the Codex Security Plugin."
+        },
+        {
+          "title": "The AI Hype Index: AI is everywhere",
+          "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-18",
+          "zhTitle": "AI 炒作指数：AI 无处不在",
+          "zh": "AI 炒作指数显示 AI 已无处不在。",
+          "en": "The AI Hype Index finds AI is everywhere."
+        },
+        {
+          "title": "The Download: AI learns to smell and hydropower struggles",
+          "link": "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-18",
+          "zhTitle": "每日速递：AI 学会嗅觉，水电面临困境",
+          "zh": "今日速递：AI 学习嗅觉，水电行业遭遇困难。",
+          "en": "The Download: AI learns to smell, and hydropower struggles."
+        },
+        {
+          "title": "Maintainers don&#8217;t need more AI bug reports. They need fixes.",
+          "link": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+          "source": "GitHub Blog",
+          "date": "2026-11-17",
+          "zhTitle": "维护者不需要更多 AI 缺陷报告，他们需要修复",
+          "zh": "GitHub 博客称维护者更需要修复而非 AI 缺陷报告。",
+          "en": "Maintainers need fixes, not more AI-generated bug reports."
+        },
+        {
+          "title": "Building the Agent Host Protocol for sessions that continue across devices",
+          "link": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+          "source": "GitHub Blog",
+          "date": "2026-11-17",
+          "zhTitle": "构建 Agent Host Protocol，让会话跨设备延续",
+          "zh": "GitHub 介绍用于跨设备延续会话的 Agent Host Protocol。",
+          "en": "GitHub builds the Agent Host Protocol for cross-device sessions."
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "billion-context",
+          "name": "Billion Context",
+          "repo": "ranxianglei/billion-context",
+          "stars": 8057
+        },
+        {
+          "id": "substrate",
+          "name": "Substrate",
+          "repo": "agent-substrate/substrate",
+          "stars": 8052
+        },
+        {
+          "id": "app-store-screenshots",
+          "name": "App Store Screenshots",
+          "repo": "ParthJadhav/app-store-screenshots",
+          "stars": 8005
+        },
+        {
+          "id": "fast-jev-compaction",
+          "name": "Fast Jev Compaction",
+          "repo": "tamaratran/fast-jev-compaction",
+          "stars": 8003
+        },
+        {
+          "id": "echarts",
+          "name": "Echarts",
+          "repo": "apache/echarts",
+          "stars": 67766
+        },
+        {
+          "id": "awesome-nodejs",
+          "name": "Awesome Nodejs",
+          "repo": "sindresorhus/awesome-nodejs",
+          "stars": 67586
+        },
+        {
+          "id": "gpt4free",
+          "name": "Gpt4free",
+          "repo": "xtekky/gpt4free",
+          "stars": 67093
+        },
+        {
+          "id": "nocode",
+          "name": "Nocode",
+          "repo": "kelseyhightower/nocode",
+          "stars": 66156
+        },
+        {
+          "id": "warp",
+          "name": "Warp",
+          "repo": "warpdotdev/warp",
+          "stars": 66072
+        },
+        {
+          "id": "webpack",
+          "name": "Webpack",
+          "repo": "webpack/webpack",
+          "stars": 66018
+        },
+        {
+          "id": "interviews",
+          "name": "Interviews",
+          "repo": "kdn251/interviews",
+          "stars": 65578
+        },
+        {
+          "id": "scrapy",
+          "name": "Scrapy",
+          "repo": "scrapy/scrapy",
+          "stars": 65519
+        },
+        {
+          "id": "nerd-fonts",
+          "name": "Nerd Fonts",
+          "repo": "ryanoasis/nerd-fonts",
+          "stars": 65269
+        },
+        {
+          "id": "javascript-questions",
+          "name": "Javascript Questions",
+          "repo": "lydiahallie/javascript-questions",
+          "stars": 65267
+        },
+        {
+          "id": "rustlings",
+          "name": "Rustlings",
+          "repo": "rust-lang/rustlings",
+          "stars": 64757
+        },
+        {
+          "id": "flclash",
+          "name": "FlClash",
+          "repo": "chen08209/FlClash",
+          "stars": 64519
+        },
+        {
+          "id": "keras",
+          "name": "Keras",
+          "repo": "keras-team/keras",
+          "stars": 64445
+        },
+        {
+          "id": "gpt-sovits",
+          "name": "GPT SoVITS",
+          "repo": "RVC-Boss/GPT-SoVITS",
+          "stars": 64156
+        },
+        {
+          "id": "astro",
+          "name": "Astro",
+          "repo": "withastro/astro",
+          "stars": 64099
+        },
+        {
+          "id": "ultralytics",
+          "name": "Ultralytics",
+          "repo": "ultralytics/ultralytics",
+          "stars": 63636
+        },
+        {
+          "id": "resume-github-com",
+          "name": "Resume.github.com",
+          "repo": "resume/resume.github.com",
+          "stars": 62902
+        },
+        {
+          "id": "leetcode-master",
+          "name": "Leetcode Master",
+          "repo": "youngyangyang04/leetcode-master",
+          "stars": 62840
+        },
+        {
+          "id": "pathway",
+          "name": "Pathway",
+          "repo": "pathwaycom/pathway",
+          "stars": 61978
+        },
+        {
+          "id": "lodash",
+          "name": "Lodash",
+          "repo": "lodash/lodash",
+          "stars": 61327
+        },
+        {
+          "id": "sway",
+          "name": "Sway",
+          "repo": "FuelLabs/sway",
+          "stars": 61322
+        },
+        {
+          "id": "dive-into-llms",
+          "name": "Dive Into Llms",
+          "repo": "Lordog/dive-into-llms",
+          "stars": 60847
+        },
+        {
+          "id": "front-end-developer-interview-questions",
+          "name": "Front End Developer Interview Questions",
+          "repo": "h5bp/Front-end-Developer-Interview-Questions",
+          "stars": 60839
+        },
+        {
+          "id": "real-time-voice-cloning",
+          "name": "Real Time Voice Cloning",
+          "repo": "CorentinJ/Real-Time-Voice-Cloning",
+          "stars": 60249
+        },
+        {
+          "id": "markdown-here",
+          "name": "Markdown Here",
+          "repo": "adam-p/markdown-here",
+          "stars": 60246
+        },
+        {
+          "id": "gitea",
+          "name": "Gitea",
+          "repo": "go-gitea/gitea",
+          "stars": 59196
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "echarts",
+          "name": "Echarts",
+          "repo": "apache/echarts",
+          "stars": 67766,
+          "gain": 67766
+        },
+        {
+          "id": "awesome-nodejs",
+          "name": "Awesome Nodejs",
+          "repo": "sindresorhus/awesome-nodejs",
+          "stars": 67586,
+          "gain": 67586
+        },
+        {
+          "id": "gpt4free",
+          "name": "Gpt4free",
+          "repo": "xtekky/gpt4free",
+          "stars": 67093,
+          "gain": 67093
+        },
+        {
+          "id": "nocode",
+          "name": "Nocode",
+          "repo": "kelseyhightower/nocode",
+          "stars": 66156,
+          "gain": 66156
+        },
+        {
+          "id": "warp",
+          "name": "Warp",
+          "repo": "warpdotdev/warp",
+          "stars": 66072,
+          "gain": 66072
+        }
+      ],
+      "rollupZh": "今日焦点在 AI 与资本市场：AI 股抛售令纳斯达克回吐 2026 年全部涨幅，Anthropic 上市次日承压。研究侧，有论文提出语言模型可重写自身权重，MIT 科技评论解读 AI 最被误解图表的重大更新。OpenAI 则发布应对对抗性蒸馏、MedChemBench 及 ChatGPT 性能工程等内容。",
+      "rollupEn": "Today's focus is AI and the markets: an AI sell-off erased Nasdaq's 2026 gains, weighing on Anthropic's second trading day. On the research side, a paper proposes language models that rewrite their own weights, while MIT Technology Review covers a major update to AI's most misunderstood graph. OpenAI published work on countering adversarial distillation, MedChemBench, and the engineering behind ChatGPT's speed.",
+      "failures": []
+    },
+    {
       "date": "2026-11-20",
       "items": [
         {
