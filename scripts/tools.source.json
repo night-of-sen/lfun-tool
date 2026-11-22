@@ -7677,7 +7677,7 @@
     {
       "id": "goose",
       "name": "Goose",
-      "repo": "block/goose",
+      "repo": "aaif-goose/goose",
       "homepage": "https://block.github.io/goose/",
       "category": "ai-agents",
       "desc": "Block 开源的可扩展编码智能体，本地跑，能接任意模型和 MCP 工具",
@@ -38358,6 +38358,657 @@
       "cloud": "",
       "descEn": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
       "pushedAt": "2026-11-21"
+    },
+    {
+      "id": "leonida",
+      "name": "Leonida",
+      "repo": "ItsNotRexed/Leonida",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 9007,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+      "pushedAt": "2026-11-22"
+    },
+    {
+      "id": "magnitude",
+      "name": "Magnitude",
+      "repo": "magnitudedev/magnitude",
+      "homepage": "https://magnitude.dev",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8145,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open source inference engine that tunes its kernels on your hardware to find the fastest way to run each model. 2x faster than Ollama. Works on Apple Silicon, NVIDIA, AMD, Intel, o",
+      "pushedAt": "2026-11-21"
+    },
+    {
+      "id": "instagram-agent-skill",
+      "name": "Instagram Agent Skill",
+      "repo": "Jakeschincariol/instagram-agent-skill",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8102,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT.",
+      "pushedAt": "2026-09-13"
+    },
+    {
+      "id": "nx2apple",
+      "name": "NX2Apple",
+      "repo": "LNPANDY/NX2Apple",
+      "homepage": "https://github.com/LNPANDY/NX2Apple#readme",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "apple-silicon",
+        "custom-format",
+        "homebrew",
+        "ios"
+      ],
+      "seed": {
+        "stars": 8089,
+        "language": "Swift"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.",
+      "pushedAt": "2026-11-22"
+    },
+    {
+      "id": "hex",
+      "name": "Hex",
+      "repo": "anomalyco/hex",
+      "homepage": "https://anoma.ly/hex",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "dictation",
+        "linux",
+        "local-first",
+        "macos"
+      ],
+      "seed": {
+        "stars": 8039,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Local voice dictation for mac, windows and linux",
+      "pushedAt": "2026-11-22"
+    },
+    {
+      "id": "qingjian",
+      "name": "Qingjian",
+      "repo": "qingjian-team/qingjian",
+      "homepage": "https://qingjian.app",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "chinese",
+        "chinese-input-method",
+        "english-learning",
+        "ime"
+      ],
+      "seed": {
+        "stars": 8017,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "青简 Qingjian：用 Rust 写的拼音输入法，候选词旁多一条正在学的语言的译词",
+      "pushedAt": "2026-11-20"
+    },
+    {
+      "id": "skills-10",
+      "name": "Skills",
+      "repo": "MengTo/Skills",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8014,
+        "language": "HTML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents",
+      "pushedAt": "2026-11-22"
+    },
+    {
+      "id": "rails",
+      "name": "Rails",
+      "repo": "rails/rails",
+      "homepage": "https://rubyonrails.org",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "activejob",
+        "activerecord",
+        "framework",
+        "html"
+      ],
+      "seed": {
+        "stars": 59135,
+        "language": "Ruby"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Ruby on Rails",
+      "pushedAt": "2026-11-21"
+    },
+    {
+      "id": "zustand",
+      "name": "Zustand",
+      "repo": "pmndrs/zustand",
+      "homepage": "https://zustand-demo.pmnd.rs/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "hacktoberfest",
+        "hooks",
+        "react",
+        "react-context"
+      ],
+      "seed": {
+        "stars": 58975,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🐻 Bear necessities for state management in React",
+      "pushedAt": "2026-11-21"
+    },
+    {
+      "id": "serviette",
+      "name": "Serviette",
+      "repo": "pathwaycom/serviette",
+      "homepage": "https://github.com/pathwaycom/serviette/blob/main/docs/README.md",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "chromadb",
+        "document-qa",
+        "document-search",
+        "duckdb"
+      ],
+      "seed": {
+        "stars": 58689,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A no-code RAG server that keeps answers in sync with your documents. Works with 8 vector databases. Built on Pathway.",
+      "pushedAt": "2026-11-10"
+    },
+    {
+      "id": "awesome-android-ui",
+      "name": "Awesome Android Ui",
+      "repo": "wasabeef/awesome-android-ui",
+      "homepage": "",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "android",
+        "awesome",
+        "ui"
+      ],
+      "seed": {
+        "stars": 58612,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A curated list of awesome Android UI/UX libraries",
+      "pushedAt": "2026-06-05"
+    },
+    {
+      "id": "appwrite",
+      "name": "Appwrite",
+      "repo": "appwrite/appwrite",
+      "homepage": "https://appwrite.io",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "android",
+        "appwrite",
+        "backend",
+        "backend-as-a-service"
+      ],
+      "seed": {
+        "stars": 58549,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+      "pushedAt": "2026-11-22"
+    },
+    {
+      "id": "yolov5",
+      "name": "Yolov5",
+      "repo": "ultralytics/yolov5",
+      "homepage": "https://docs.ultralytics.com/yolov5/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "computer-vision",
+        "coreml",
+        "deep-learning",
+        "image-classification"
+      ],
+      "seed": {
+        "stars": 58295,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and export.",
+      "pushedAt": "2026-11-16"
+    },
+    {
+      "id": "fanqiang",
+      "name": "Fanqiang",
+      "repo": "bannedbook/fanqiang",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "brook",
+        "daze",
+        "fanqiang",
+        "goflyway"
+      ],
+      "seed": {
+        "stars": 58115,
+        "language": "Kotlin"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "翻墙-科学上网",
+      "pushedAt": "2026-11-22"
+    },
+    {
+      "id": "rich",
+      "name": "Rich",
+      "repo": "Textualize/rich",
+      "homepage": "https://rich.readthedocs.io/en/latest/",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "ansi-colors",
+        "emoji",
+        "markdown",
+        "progress-bar"
+      ],
+      "seed": {
+        "stars": 57842,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Rich is a Python library for rich text and beautiful formatting in the terminal.",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "deeplearning-500-questions",
+      "name": "DeepLearning 500 Questions",
+      "repo": "scutan90/DeepLearning-500-questions",
+      "homepage": "https://github.com/scutan90/DeepLearning-500-questions",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 57728,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "深度学习500问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述，以帮助自己及有需要的读者。 全书分为18个章节，50余万字。由于水平有限，书中不妥之处恳请广大读者批评指正。 未完待续............ 如有意合作，联系scutjy2015@163.com 版权所有，违权必究 Tan 2018.06",
+      "pushedAt": "2024-06-26"
+    },
+    {
+      "id": "html5-boilerplate",
+      "name": "Html5 Boilerplate",
+      "repo": "h5bp/html5-boilerplate",
+      "homepage": "https://html5boilerplate.com/",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "best-practices",
+        "css",
+        "html",
+        "html5"
+      ],
+      "seed": {
+        "stars": 57699,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A professional front-end template for building fast, robust, and adaptable web apps or sites.",
+      "pushedAt": "2026-11-17"
+    },
+    {
+      "id": "private-gpt",
+      "name": "Private Gpt",
+      "repo": "zylon-ai/private-gpt",
+      "homepage": "https://www.zylon.ai/private-gpt",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "ai-tools",
+        "on-premise"
+      ],
+      "seed": {
+        "stars": 57641,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more. Works with any OpenAI-compatible inference server.",
+      "pushedAt": "2026-11-19"
+    },
+    {
+      "id": "faceswap",
+      "name": "Faceswap",
+      "repo": "deepfakes/faceswap",
+      "homepage": "https://www.faceswap.dev",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "deep-face-swap",
+        "deep-learning",
+        "deep-neural-networks",
+        "deepface"
+      ],
+      "seed": {
+        "stars": 57627,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Deepfakes Software For All",
+      "pushedAt": "2026-08-05"
+    },
+    {
+      "id": "typst",
+      "name": "Typst",
+      "repo": "typst/typst",
+      "homepage": "https://typst.app",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "compiler",
+        "markup",
+        "typesetting",
+        "typst"
+      ],
+      "seed": {
+        "stars": 57346,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A markup-based typesetting system that is powerful and easy to learn.",
+      "pushedAt": "2026-11-20"
+    },
+    {
+      "id": "freqtrade",
+      "name": "Freqtrade",
+      "repo": "freqtrade/freqtrade",
+      "homepage": "https://www.freqtrade.io",
+      "category": "business-support",
+      "desc": "",
+      "tags": [
+        "algorithmic-trading",
+        "bitcoin",
+        "cryptocurrencies",
+        "cryptocurrency"
+      ],
+      "seed": {
+        "stars": 57154,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Free, open source crypto trading bot",
+      "pushedAt": "2026-11-19"
+    },
+    {
+      "id": "first-contributions",
+      "name": "First Contributions",
+      "repo": "firstcontributions/first-contributions",
+      "homepage": "https://firstcontributions.github.io",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "beginner",
+        "beginner-friendly",
+        "contribute",
+        "contribution"
+      ],
+      "seed": {
+        "stars": 56966,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🚀✨ Help beginners to contribute to open source projects",
+      "pushedAt": "2026-11-22"
+    },
+    {
+      "id": "face-recognition",
+      "name": "Face Recognition",
+      "repo": "ageitgey/face_recognition",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "face-detection",
+        "face-recognition",
+        "machine-learning",
+        "python"
+      ],
+      "seed": {
+        "stars": 56919,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The world's simplest facial recognition api for Python and the command line",
+      "pushedAt": "2026-06-25"
+    },
+    {
+      "id": "you-get",
+      "name": "You Get",
+      "repo": "soimort/you-get",
+      "homepage": "https://you-get.org/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 56852,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": ":arrow_double_down: Dumb downloader that scrapes the web",
+      "pushedAt": "2026-11-15"
+    },
+    {
+      "id": "project-layout",
+      "name": "Project Layout",
+      "repo": "golang-standards/project-layout",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "go",
+        "golang",
+        "project-structure",
+        "project-template"
+      ],
+      "seed": {
+        "stars": 56757,
+        "language": "Makefile"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Standard Go Project Layout",
+      "pushedAt": "2026-04-28"
+    },
+    {
+      "id": "fuel-core",
+      "name": "Fuel Core",
+      "repo": "FuelLabs/fuel-core",
+      "homepage": "",
+      "category": "business-support",
+      "desc": "",
+      "tags": [
+        "blockchain",
+        "fuel"
+      ],
+      "seed": {
+        "stars": 56739,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Rust full node implementation of the Fuel v2 protocol.",
+      "pushedAt": "2026-11-22"
+    },
+    {
+      "id": "react-router",
+      "name": "React Router",
+      "repo": "remix-run/react-router",
+      "homepage": "https://reactrouter.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 56652,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Declarative routing for React",
+      "pushedAt": "2026-11-20"
+    },
+    {
+      "id": "powershell",
+      "name": "PowerShell",
+      "repo": "PowerShell/PowerShell",
+      "homepage": "https://microsoft.com/PowerShell",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "command-line",
+        "hacktoberfest",
+        "linux",
+        "macos"
+      ],
+      "seed": {
+        "stars": 56274,
+        "language": "C#"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "PowerShell for every system!",
+      "pushedAt": "2026-11-21"
+    },
+    {
+      "id": "odoo",
+      "name": "Odoo",
+      "repo": "odoo/odoo",
+      "homepage": "https://www.odoo.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "apps",
+        "business",
+        "erp",
+        "management"
+      ],
+      "seed": {
+        "stars": 56016,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Odoo. Open Source Apps To Grow Your Business.",
+      "pushedAt": "2026-11-22"
+    },
+    {
+      "id": "imhex",
+      "name": "ImHex",
+      "repo": "WerWolv/ImHex",
+      "homepage": "https://imhex.werwolv.net/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "analyzer",
+        "binary-analysis",
+        "c-plus-plus",
+        "cpp"
+      ],
+      "seed": {
+        "stars": 56000,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
+      "pushedAt": "2026-11-17"
     }
   ]
 }

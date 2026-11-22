@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T10:55:11.263Z",
+  "generatedAt": "2026-11-22T11:00:46.254Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -5818,8 +5818,8 @@
       "zh": "TitanBot 是一款一体化 Discord 助手，面向服务器所有者和管理员，用一款工具来支持社区运营。"
     },
     "horizon-2": {
-      "en": "For Minecraft Java players who want version 26.3 rewritten in Rust, checked against vanilla with 281 differential harnesses and installed through the Horizon launcher.",
-      "zh": "面向想玩 Rust 重写版 Minecraft Java 26.3 的玩家，经 281 个差分测试对照原版，可通过 Horizon 启动器获取。"
+      "en": "A Rust rewrite of Minecraft 26.3 aimed at players who want the game rebuilt in Rust.",
+      "zh": "用 Rust 重写的 Minecraft 26.3，面向希望以 Rust 重建该游戏的玩家。"
     },
     "xberg": {
       "en": "A precise document-intelligence engine for developers that extracts text, tables and metadata from 100+ formats, with OCR, transcription and code intelligence.",
@@ -6620,6 +6620,126 @@
     "fast-jev-compaction": {
       "en": "For Claude Code users: replaces the compaction summary with fast per-item scoring, dropping or truncating stale tool calls and results while keeping the rest verbatim.",
       "zh": "Claude Code 用户：一次打分替代压缩摘要，丢弃或截断过时内容。"
+    },
+    "appwrite": {
+      "en": "An open-source cloud platform for agents and developers, bundling auth, databases, storage, functions, messaging, hosting, realtime, and WAF.",
+      "zh": "面向智能体与开发者的开源云平台，集成认证、数据库、存储、函数、消息、托管、实时与 WAF 等能力。"
+    },
+    "rails": {
+      "en": "Ruby on Rails is a web framework for developers who need to build database-backed web applications in Ruby.",
+      "zh": "Ruby on Rails 是面向开发者的 Web 框架，用于使用 Ruby 构建数据库驱动的 Web 应用。"
+    },
+    "zustand": {
+      "en": "A state management tool for React developers, pitched as the bear necessities for handling state in React.",
+      "zh": "面向 React 开发者的状态管理工具，定位为处理 React 状态的基础所需。"
+    },
+    "awesome-android-ui": {
+      "en": "For Android developers looking for UI/UX libraries, this curated list gathers related resources in one place.",
+      "zh": "面向寻找 Android UI/UX 库的开发者，这份精选清单将相关资源汇总在一处。"
+    },
+    "rich": {
+      "en": "Rich is a Python library for developers who want rich text and beautiful formatting in the terminal.",
+      "zh": "Rich 是一个 Python 库，适合希望在终端中呈现富文本和美观格式的开发者。"
+    },
+    "deeplearning-500-questions": {
+      "en": "A Q&A reference for readers learning probability, linear algebra, machine learning, deep learning, and computer vision.",
+      "zh": "以问答形式面向学习概率、线性代数、机器学习、深度学习与计算机视觉的读者，梳理常用知识点。"
+    },
+    "yolov5": {
+      "en": "For developers using PyTorch, YOLOv5 supports object detection, instance segmentation, classification, training, and export.",
+      "zh": "面向使用 PyTorch 的开发者，YOLOv5 支持目标检测、实例分割、分类、训练与导出。"
+    },
+    "html5-boilerplate": {
+      "en": "A front-end template for developers who need a starting point for fast, robust, adaptable web apps or sites.",
+      "zh": "一个前端模板，为需要快速、稳健且可适配的 Web 应用或网站起点的开发者提供基础。"
+    },
+    "fanqiang": {
+      "en": "Fanqiang is a dev tool for users who need to bypass network restrictions and access the internet.",
+      "zh": "Fanqiang 是面向需要翻墙用户的开发工具，帮助实现科学上网。"
+    },
+    "typst": {
+      "en": "A markup-based typesetting system for people who need to typeset documents and want a system that is easy to learn.",
+      "zh": "面向需要排版文档、并希望使用易学标记系统的用户，提供基于标记的排版系统。"
+    },
+    "freqtrade": {
+      "en": "Freqtrade is a free, open source crypto trading bot for people who want automated cryptocurrency trading.",
+      "zh": "Freqtrade 是一款免费开源的加密货币交易机器人，面向希望自动化交易加密货币的用户。"
+    },
+    "faceswap": {
+      "en": "Faceswap is deepfake software made for everyone, aimed at users who want to work with deepfake media.",
+      "zh": "Faceswap 是一款面向所有人的 deepfake 软件，面向需要处理 deepfake 内容的用户。"
+    },
+    "first-contributions": {
+      "en": "A guided workflow that helps beginners make their first contributions to open source projects.",
+      "zh": "为新手提供分步引导，帮助他们完成对开源项目的首次贡献。"
+    },
+    "private-gpt": {
+      "en": "For developers building private AI apps on local models: an API layer with RAG, tools, MCP and text-to-sql, on any OpenAI-compatible server.",
+      "zh": "面向本地模型私有 AI 应用开发者：提供含 RAG、工具、MCP、text-to-sql 的 API 层，兼容任意 OpenAI 接口推理服务。"
+    },
+    "project-layout": {
+      "en": "A standard project layout reference for Go developers organizing directories and files.",
+      "zh": "面向 Go 开发者的标准项目结构参考，用于组织目录与文件。"
+    },
+    "face-recognition": {
+      "en": "A facial recognition API for Python developers and command-line users who need to add face recognition to their work.",
+      "zh": "面向 Python 开发者和命令行用户的人脸识别 API，用于在项目中加入人脸识别功能。"
+    },
+    "serviette": {
+      "en": "A no-code RAG server for users who need answers to stay in sync with documents, supporting 8 vector databases and built on Pathway.",
+      "zh": "为需要答案与文档同步的用户提供免代码 RAG 服务器，支持 8 种向量数据库。"
+    },
+    "you-get": {
+      "en": "A simple downloader for developers that scrapes the web to retrieve content.",
+      "zh": "面向开发者的简易下载器，通过网络抓取获取内容。"
+    },
+    "fuel-core": {
+      "en": "Developers can run a Fuel v2 protocol node using this Rust full node implementation.",
+      "zh": "开发者可用这个 Rust 全节点实现来运行 Fuel v2 协议节点。"
+    },
+    "imhex": {
+      "en": "A hex editor for reverse engineers and programmers, made for comfortable viewing during late-night work.",
+      "zh": "一款面向逆向工程师和程序员的十六进制编辑器，适合深夜长时间查看数据时使用。"
+    },
+    "react-router": {
+      "en": "For React developers: declarative routing for handling navigation in a React app.",
+      "zh": "面向 React 开发者，提供声明式路由，用于处理 React 应用中的导航。"
+    },
+    "powershell": {
+      "en": "PowerShell is described as a tool for every system, aimed at users who work across different systems.",
+      "zh": "PowerShell 面向需要在不同系统上工作的用户，被描述为适用于每个系统的工具。"
+    },
+    "odoo": {
+      "en": "Odoo provides open source apps for businesses that want to grow, helping teams support their daily operations.",
+      "zh": "Odoo 提供开源应用，面向希望发展业务的企业，帮助团队支撑日常运营。"
+    },
+    "leonida": {
+      "en": "Leonida is a native PC recompilation of the Xbox version of Grand Theft Auto 6, aimed at PC users who want that Xbox build running natively on their platform.",
+      "zh": "Leonida 是《侠盗猎车手6》Xbox 版本的原生 PC 重编译项目，面向希望在 PC 上原生运行该 Xbox 版本的用户。"
+    },
+    "nx2apple": {
+      "en": "A one-click macOS app for people who want to play their own Switch games on iPhone or iPad without using the terminal.",
+      "zh": "面向想在 iPhone 或 iPad 上玩自己 Switch 游戏的人，提供一键式 macOS 应用，无需命令行。"
+    },
+    "instagram-agent-skill": {
+      "en": "A set of thirteen Claude skills for people running an Instagram account, covering Reels hooks, viral research, caption linting, and text humanizing. Free, MIT.",
+      "zh": "一套包含十三个 Claude 技能的工具，面向运营 Instagram 账号的人，涵盖 Reels 钩子、爆款研究、文案检查和文本人性化。"
+    },
+    "hex": {
+      "en": "Hex provides local voice dictation on macOS, Windows and Linux, helping developers and writers type by voice instead of keyboard.",
+      "zh": "Hex 为 macOS、Windows 和 Linux 用户提供本地语音听写，帮助开发者用语音代替键盘输入。"
+    },
+    "skills-10": {
+      "en": "Agent skills for designers and builders who use Codex, Claude, Cursor, and other AI coding agents.",
+      "zh": "面向使用 Codex、Claude、Cursor 等 AI 编程代理的设计师与开发者，提供可用的 Agent 技能。"
+    },
+    "qingjian": {
+      "en": "For people learning a language while typing Pinyin, Qingjian, written in Rust, shows a translation in the language being studied beside the candidates.",
+      "zh": "给边打字边学外语的人：用 Rust 写的青简，在拼音候选词旁多显示一条所学语言的译词。"
+    },
+    "magnitude": {
+      "en": "An open source inference engine for developers that tunes kernels on your hardware to run each model faster, 2x faster than Ollama.",
+      "zh": "面向开发者的开源推理引擎，会在你的硬件上调优内核，让每个模型跑得更快。"
     }
   }
 }

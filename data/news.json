@@ -1,6 +1,323 @@
 {
   "days": [
     {
+      "date": "2026-11-22",
+      "items": [
+        {
+          "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+          "link": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+          "source": "Hacker News",
+          "date": "2026-11-22",
+          "zhTitle": "2028年，Anthropic 87%的电力将来自天然气，11%来自煤炭",
+          "zh": "2028年Anthropic电力87%来自天然气、11%来自煤炭。",
+          "en": "In 2028, 87% of Anthropic's power will come from gas and 11% from coal."
+        },
+        {
+          "title": "The Mythology of Conscious AI",
+          "link": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+          "source": "Hacker News",
+          "date": "2026-11-22",
+          "zhTitle": "有意识AI的神话",
+          "zh": "文章探讨有意识人工智能的神话。",
+          "en": "The article explores the mythology of conscious AI."
+        },
+        {
+          "title": "Pandex – Official European Law for AI Agents, over MCP",
+          "link": "https://www.pandex.io",
+          "source": "Hacker News",
+          "date": "2026-11-21",
+          "zhTitle": "Pandex——基于MCP的AI代理欧洲官方法律",
+          "zh": "Pandex提供基于MCP的AI代理欧洲官方法律。",
+          "en": "Pandex offers official European law for AI agents over MCP."
+        },
+        {
+          "title": "The most misunderstood graph in AI just got a major update",
+          "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-20",
+          "zhTitle": "AI中最被误解的图表刚刚获得重大更新",
+          "zh": "AI领域最被误解的图表获重大更新。",
+          "en": "The most misunderstood graph in AI just got a major update."
+        },
+        {
+          "title": "Combatting adversarial distillation",
+          "link": "https://openai.com/index/combatting-adversarial-distillation",
+          "source": "OpenAI",
+          "date": "2026-11-20",
+          "zhTitle": "应对对抗性蒸馏",
+          "zh": "探讨如何应对对抗性蒸馏。",
+          "en": "Combatting adversarial distillation."
+        },
+        {
+          "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+          "link": "https://openai.com/business/customer-stories/hebbia",
+          "source": "OpenAI",
+          "date": "2026-11-20",
+          "zhTitle": "Hebbia借助GPT-6 Astra在金融研究中取得改进",
+          "zh": "Hebbia用GPT-6 Astra提升金融研究。",
+          "en": "Hebbia sees improvements in financial research with GPT-6 Astra."
+        },
+        {
+          "title": "Can AI help scientists identify promising drug candidates?",
+          "link": "https://openai.com/index/introducing-medchembench",
+          "source": "OpenAI",
+          "date": "2026-11-20",
+          "zhTitle": "AI能帮助科学家识别有前景的候选药物吗？",
+          "zh": "探讨AI能否帮助科学家识别有前景的候选药物。",
+          "en": "Can AI help scientists identify promising drug candidates?"
+        },
+        {
+          "title": "The Download: a living liver, a billion-dollar battery deal, and AI hype",
+          "link": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-19",
+          "zhTitle": "The Download：活体肝脏、十亿美元电池交易与AI炒作",
+          "zh": "今日下载：活体肝脏、十亿美元电池交易与AI炒作。",
+          "en": "The Download: a living liver, a billion-dollar battery deal, and AI hype."
+        },
+        {
+          "title": "Maintainers don&#8217;t need more AI bug reports. They need fixes.",
+          "link": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+          "source": "GitHub Blog",
+          "date": "2026-11-17",
+          "zhTitle": "维护者不需要更多AI错误报告，他们需要修复",
+          "zh": "维护者需要的是修复，而非更多AI错误报告。",
+          "en": "Maintainers don’t need more AI bug reports; they need fixes."
+        },
+        {
+          "title": "Building the Agent Host Protocol for sessions that continue across devices",
+          "link": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+          "source": "GitHub Blog",
+          "date": "2026-11-17",
+          "zhTitle": "为跨设备延续的会话构建Agent Host Protocol",
+          "zh": "构建支持跨设备持续会话的Agent Host Protocol。",
+          "en": "Building the Agent Host Protocol for sessions that continue across devices."
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "leonida",
+          "name": "Leonida",
+          "repo": "ItsNotRexed/Leonida",
+          "stars": 9064
+        },
+        {
+          "id": "magnitude",
+          "name": "Magnitude",
+          "repo": "magnitudedev/magnitude",
+          "stars": 8145
+        },
+        {
+          "id": "instagram-agent-skill",
+          "name": "Instagram Agent Skill",
+          "repo": "Jakeschincariol/instagram-agent-skill",
+          "stars": 8106
+        },
+        {
+          "id": "nx2apple",
+          "name": "NX2Apple",
+          "repo": "LNPANDY/NX2Apple",
+          "stars": 8089
+        },
+        {
+          "id": "hex",
+          "name": "Hex",
+          "repo": "anomalyco/hex",
+          "stars": 8039
+        },
+        {
+          "id": "qingjian",
+          "name": "Qingjian",
+          "repo": "qingjian-team/qingjian",
+          "stars": 8017
+        },
+        {
+          "id": "skills-10",
+          "name": "Skills",
+          "repo": "MengTo/Skills",
+          "stars": 8014
+        },
+        {
+          "id": "rails",
+          "name": "Rails",
+          "repo": "rails/rails",
+          "stars": 59135
+        },
+        {
+          "id": "zustand",
+          "name": "Zustand",
+          "repo": "pmndrs/zustand",
+          "stars": 58975
+        },
+        {
+          "id": "serviette",
+          "name": "Serviette",
+          "repo": "pathwaycom/serviette",
+          "stars": 58689
+        },
+        {
+          "id": "awesome-android-ui",
+          "name": "Awesome Android Ui",
+          "repo": "wasabeef/awesome-android-ui",
+          "stars": 58612
+        },
+        {
+          "id": "appwrite",
+          "name": "Appwrite",
+          "repo": "appwrite/appwrite",
+          "stars": 58550
+        },
+        {
+          "id": "yolov5",
+          "name": "Yolov5",
+          "repo": "ultralytics/yolov5",
+          "stars": 58295
+        },
+        {
+          "id": "fanqiang",
+          "name": "Fanqiang",
+          "repo": "bannedbook/fanqiang",
+          "stars": 58116
+        },
+        {
+          "id": "rich",
+          "name": "Rich",
+          "repo": "Textualize/rich",
+          "stars": 57843
+        },
+        {
+          "id": "deeplearning-500-questions",
+          "name": "DeepLearning 500 Questions",
+          "repo": "scutan90/DeepLearning-500-questions",
+          "stars": 57728
+        },
+        {
+          "id": "html5-boilerplate",
+          "name": "Html5 Boilerplate",
+          "repo": "h5bp/html5-boilerplate",
+          "stars": 57699
+        },
+        {
+          "id": "private-gpt",
+          "name": "Private Gpt",
+          "repo": "zylon-ai/private-gpt",
+          "stars": 57641
+        },
+        {
+          "id": "faceswap",
+          "name": "Faceswap",
+          "repo": "deepfakes/faceswap",
+          "stars": 57627
+        },
+        {
+          "id": "typst",
+          "name": "Typst",
+          "repo": "typst/typst",
+          "stars": 57346
+        },
+        {
+          "id": "freqtrade",
+          "name": "Freqtrade",
+          "repo": "freqtrade/freqtrade",
+          "stars": 57154
+        },
+        {
+          "id": "first-contributions",
+          "name": "First Contributions",
+          "repo": "firstcontributions/first-contributions",
+          "stars": 56966
+        },
+        {
+          "id": "face-recognition",
+          "name": "Face Recognition",
+          "repo": "ageitgey/face_recognition",
+          "stars": 56919
+        },
+        {
+          "id": "you-get",
+          "name": "You Get",
+          "repo": "soimort/you-get",
+          "stars": 56852
+        },
+        {
+          "id": "project-layout",
+          "name": "Project Layout",
+          "repo": "golang-standards/project-layout",
+          "stars": 56757
+        },
+        {
+          "id": "fuel-core",
+          "name": "Fuel Core",
+          "repo": "FuelLabs/fuel-core",
+          "stars": 56739
+        },
+        {
+          "id": "react-router",
+          "name": "React Router",
+          "repo": "remix-run/react-router",
+          "stars": 56652
+        },
+        {
+          "id": "powershell",
+          "name": "PowerShell",
+          "repo": "PowerShell/PowerShell",
+          "stars": 56274
+        },
+        {
+          "id": "odoo",
+          "name": "Odoo",
+          "repo": "odoo/odoo",
+          "stars": 56017
+        },
+        {
+          "id": "imhex",
+          "name": "ImHex",
+          "repo": "WerWolv/ImHex",
+          "stars": 56000
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "rails",
+          "name": "Rails",
+          "repo": "rails/rails",
+          "stars": 59135,
+          "gain": 59135
+        },
+        {
+          "id": "zustand",
+          "name": "Zustand",
+          "repo": "pmndrs/zustand",
+          "stars": 58975,
+          "gain": 58975
+        },
+        {
+          "id": "serviette",
+          "name": "Serviette",
+          "repo": "pathwaycom/serviette",
+          "stars": 58689,
+          "gain": 58689
+        },
+        {
+          "id": "awesome-android-ui",
+          "name": "Awesome Android Ui",
+          "repo": "wasabeef/awesome-android-ui",
+          "stars": 58612,
+          "gain": 58612
+        },
+        {
+          "id": "appwrite",
+          "name": "Appwrite",
+          "repo": "appwrite/appwrite",
+          "stars": 58550,
+          "gain": 58550
+        }
+      ],
+      "rollupZh": "今日要闻围绕AI的能源、治理与安全展开：Anthropic 2028年电力结构显示87%来自天然气、11%来自煤炭，Pandex提供基于MCP的AI代理欧洲官方法律，OpenAI讨论应对对抗性蒸馏。技术进展方面，MIT解读AI中最被误解图表的重大更新，Hebbia借助GPT-6 Astra改进金融研究，GitHub关注维护者负担与跨设备Agent会话协议。",
+      "rollupEn": "Today’s highlights center on AI power, governance, and safety: Anthropic’s 2028 power mix is 87% gas and 11% coal, Pandex offers official European law for AI agents over MCP, and OpenAI addresses adversarial distillation. On the technical side, MIT Technology Review covers a major update to AI’s most misunderstood graph, Hebbia reports financial-research gains with GPT-6 Astra, and GitHub focuses on maintainer fixes and a cross-device Agent Host Protocol.",
+      "failures": []
+    },
+    {
       "date": "2026-11-21",
       "items": [
         {

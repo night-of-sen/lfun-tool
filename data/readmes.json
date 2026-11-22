@@ -11603,5 +11603,215 @@
     "source": "README.md",
     "rawLength": 8660,
     "fetchedAt": "2026-11-21T10:53:19.689Z"
+  },
+  "rails": {
+    "summary": "Rails is a web application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 4786,
+    "fetchedAt": "2026-11-22T10:58:16.700Z"
+  },
+  "zustand": {
+    "summary": "Zustand core can be imported and used without the React dependency. The only difference is that the create function does not return a hook, but the API utilities.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 17827,
+    "fetchedAt": "2026-11-22T10:58:16.700Z"
+  },
+  "serviette": {
+    "summary": "serviette runs on Pathway, which needs a free license key — one click at (GitHub or LinkedIn sign-in). Every command below expects it in PATHWAYLICENSEKEY.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 30646,
+    "fetchedAt": "2026-11-22T10:58:16.700Z"
+  },
+  "awesome-android-ui": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 63638,
+    "fetchedAt": "2026-11-22T10:58:16.700Z"
+  },
+  "appwrite": {
+    "summary": "Appwrite The open-source cloud for agents and developers. Appwrite is an MCP and agent-first platform for building and scaling apps. Give your agents Auth, Databases, Storage, Functions, Messaging, Realtime, and Hosting, all in one place.",
+    "docker": "docker run -it --rm \\\n    --publish 127.0.0.1:20080:20080 \\\n    --volume /var/run/docker.sock:/var/run/docker.sock \\\n    --volume \"$(pwd)\"/appwrite:/usr/src/code/appwrite:rw \\\n    --entrypoint=\"install\" \\\n    appwrite/appwrite:2.7.2",
+    "source": "README.md",
+    "rawLength": 17797,
+    "fetchedAt": "2026-11-22T10:58:16.700Z"
+  },
+  "yolov5": {
+    "summary": "YOLOv5 is designed for simplicity and ease of use. We prioritize real-world performance and accessibility.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 46516,
+    "fetchedAt": "2026-11-22T10:58:17.252Z"
+  },
+  "fanqiang": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8012,
+    "fetchedAt": "2026-11-22T10:58:17.252Z"
+  },
+  "rich": {
+    "summary": "Rich is a Python library for rich text and beautiful formatting in the terminal.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16911,
+    "fetchedAt": "2026-11-22T10:58:17.252Z"
+  },
+  "deeplearning-500-questions": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6720,
+    "fetchedAt": "2026-11-22T10:58:17.252Z"
+  },
+  "html5-boilerplate": {
+    "summary": "HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5659,
+    "fetchedAt": "2026-11-22T10:58:17.252Z"
+  },
+  "private-gpt": {
+    "summary": "PrivateGPT is the open-source API layer that turns local models into production AI applications.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12826,
+    "fetchedAt": "2026-11-22T10:58:17.252Z"
+  },
+  "faceswap": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12068,
+    "fetchedAt": "2026-11-22T10:58:17.838Z"
+  },
+  "typst": {
+    "summary": "Typst is a new markup-based typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use. Typst has:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12001,
+    "fetchedAt": "2026-11-22T10:58:17.838Z"
+  },
+  "freqtrade": {
+    "summary": "Freqtrade is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram or webUI. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12770,
+    "fetchedAt": "2026-11-22T10:58:17.838Z"
+  },
+  "first-contributions": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 25012,
+    "fetchedAt": "2026-11-22T10:58:17.838Z"
+  },
+  "face-recognition": {
+    "summary": "Face recognition can be done in parallel if you have a computer with multiple CPU cores. For example, if your system has 4 CPU cores, you can process about 4 times as many images in the same amount of time by using all your CPU cores in parallel.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 19443,
+    "fetchedAt": "2026-11-22T10:58:17.838Z"
+  },
+  "you-get": {
+    "summary": "You-Get is a tiny command-line utility to download media contents (videos, audios, images) from the Web, in case there is no other handy way to do it.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 20178,
+    "fetchedAt": "2026-11-22T10:58:17.838Z"
+  },
+  "project-layout": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16070,
+    "fetchedAt": "2026-11-22T10:58:18.357Z"
+  },
+  "fuel-core": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7506,
+    "fetchedAt": "2026-11-22T10:58:18.357Z"
+  },
+  "react-router": {
+    "summary": "React Router is a multi-strategy router for React. You can use it maximally as a Framework or minimally as a library with your own architecture. Check out the Getting Started docs and choose the mode that works best for your app.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2903,
+    "fetchedAt": "2026-11-22T10:58:18.357Z"
+  },
+  "powershell": {
+    "summary": "PowerShell is supported on Windows, macOS, and a variety of Linux platforms. For more information, see Installing PowerShell.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6218,
+    "fetchedAt": "2026-11-22T10:58:18.357Z"
+  },
+  "odoo": {
+    "summary": "Odoo Apps can be used as stand-alone applications, but they also integrate seamlessly so you get a full-featured Open Source ERP when you install several Apps.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2044,
+    "fetchedAt": "2026-11-22T10:58:18.357Z"
+  },
+  "imhex": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 21417,
+    "fetchedAt": "2026-11-22T10:58:18.357Z"
+  },
+  "leonida": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16482,
+    "fetchedAt": "2026-11-22T10:58:25.972Z"
+  },
+  "magnitude": {
+    "summary": "Magnitude is an open source inference engine that tunes its kernels on your hardware to find the fastest way to run each model. It's over 2x faster than Ollama and works on Apple Silicon, NVIDIA, AMD, Intel, or just a CPU. One click connects it to the agent you already use (Pi, OpenCode, Hermes, Cod…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5944,
+    "fetchedAt": "2026-11-22T10:58:25.972Z"
+  },
+  "instagram-agent-skill": {
+    "summary": "Instagram gives a caption about 125 characters in the feed and hides the rest behind a tap. Almost every caption that fails, fails there. So the first thing this prints is that window, as a box, the way a scrolling stranger reads it:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 16332,
+    "fetchedAt": "2026-11-22T10:58:35.389Z"
+  },
+  "nx2apple": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 24368,
+    "fetchedAt": "2026-11-22T10:58:35.389Z"
+  },
+  "hex": {
+    "summary": "Hex is local voice dictation for Mac, Windows and Linux. Hold a key, speak, and it pastes.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5489,
+    "fetchedAt": "2026-11-22T10:58:35.389Z"
+  },
+  "qingjian": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5593,
+    "fetchedAt": "2026-11-22T10:58:35.389Z"
+  },
+  "skills-10": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 29210,
+    "fetchedAt": "2026-11-22T10:58:35.389Z"
   }
 }
