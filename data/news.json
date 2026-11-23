@@ -1,6 +1,296 @@
 {
   "days": [
     {
+      "date": "2026-11-23",
+      "items": [
+        {
+          "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+          "link": "https://z.ai/blog/glm-5.4",
+          "source": "Hacker News",
+          "date": "2026-11-23",
+          "zhTitle": "GLM-5.4：以我们的首个 Loop Transformer 迈向通用编程",
+          "zh": "智谱发布 GLM-5.4，首个 Loop Transformer，指向通用编程。",
+          "en": "Z.ai releases GLM-5.4, its first Loop Transformer, aimed at generalized coding."
+        },
+        {
+          "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+          "link": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+          "source": "Hacker News",
+          "date": "2026-11-22",
+          "zhTitle": "本地 AI 入门指南：Inkling、Qwen 与 Unsloth",
+          "zh": "一份面向初学者的本地 AI 指南，涉及 Inkling、Qwen 和 Unsloth。",
+          "en": "A beginner's guide to local AI covering Inkling, Qwen and Unsloth."
+        },
+        {
+          "title": "Show HN: I built a game where you are an LLM's subagent",
+          "link": "https://github.com/gulivan/worker755",
+          "source": "Hacker News",
+          "date": "2026-11-22",
+          "zhTitle": "Show HN：我做了一个游戏，你就是 LLM 的子代理",
+          "zh": "Show HN 展示了一款扮演 LLM 子代理的游戏。",
+          "en": "Show HN: a game in which you play as an LLM's subagent."
+        },
+        {
+          "title": "Perplexity and Intelligence",
+          "link": "https://openai.com/index/perplexity-and-intelligence",
+          "source": "OpenAI",
+          "date": "2026-11-22",
+          "zhTitle": "Perplexity 与智能",
+          "zh": "OpenAI 发布题为《Perplexity 与智能》的文章。",
+          "en": "OpenAI publishes a post titled \"Perplexity and Intelligence.\""
+        },
+        {
+          "title": "The most misunderstood graph in AI just got a major update",
+          "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-20",
+          "zhTitle": "AI 领域最被误解的那张图迎来重大更新",
+          "zh": "MIT 科技评论：AI 中最被误解的图表获得重大更新。",
+          "en": "MIT Technology Review: AI's most misunderstood graph just got a major update."
+        },
+        {
+          "title": "Maintainers don&#8217;t need more AI bug reports. They need fixes.",
+          "link": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+          "source": "GitHub Blog",
+          "date": "2026-11-17",
+          "zhTitle": "维护者不需要更多 AI 生成的 bug 报告，他们需要修复",
+          "zh": "GitHub 博客：开源维护者要的是修复，不是 AI 报告。",
+          "en": "GitHub Blog: maintainers need fixes, not more AI-generated bug reports."
+        },
+        {
+          "title": "Building the Agent Host Protocol for sessions that continue across devices",
+          "link": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+          "source": "GitHub Blog",
+          "date": "2026-11-17",
+          "zhTitle": "构建 Agent Host 协议，让会话跨设备延续",
+          "zh": "GitHub 介绍 Agent Host 协议，支持会话跨设备延续。",
+          "en": "GitHub outlines the Agent Host Protocol for sessions continued across devices."
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "rust-anything",
+          "name": "Rust Anything",
+          "repo": "erkamyaman/rust-anything",
+          "stars": 8426
+        },
+        {
+          "id": "totk-pc-recomp",
+          "name": "Totk Pc Recomp",
+          "repo": "valentderah/totk-pc-recomp",
+          "stars": 8095
+        },
+        {
+          "id": "handraw-style",
+          "name": "Handraw Style",
+          "repo": "yang0/handraw-style",
+          "stars": 8021
+        },
+        {
+          "id": "pxpipe",
+          "name": "Pxpipe",
+          "repo": "teamchong/pxpipe",
+          "stars": 8005
+        },
+        {
+          "id": "gatsby",
+          "name": "Gatsby",
+          "repo": "gatsbyjs/gatsby",
+          "stars": 55915
+        },
+        {
+          "id": "ghost",
+          "name": "Ghost",
+          "repo": "TryGhost/Ghost",
+          "stars": 55885
+        },
+        {
+          "id": "trackerslist",
+          "name": "Trackerslist",
+          "repo": "ngosang/trackerslist",
+          "stars": 55764
+        },
+        {
+          "id": "leetcode",
+          "name": "Leetcode",
+          "repo": "azl397985856/leetcode",
+          "stars": 55701
+        },
+        {
+          "id": "lx-music-desktop",
+          "name": "Lx Music Desktop",
+          "repo": "lyswhut/lx-music-desktop",
+          "stars": 55597
+        },
+        {
+          "id": "powerlevel10k",
+          "name": "Powerlevel10k",
+          "repo": "romkatv/powerlevel10k",
+          "stars": 55384
+        },
+        {
+          "id": "segment-anything",
+          "name": "Segment Anything",
+          "repo": "facebookresearch/segment-anything",
+          "stars": 55172
+        },
+        {
+          "id": "core",
+          "name": "Core",
+          "repo": "vuejs/core",
+          "stars": 55156
+        },
+        {
+          "id": "requests",
+          "name": "Requests",
+          "repo": "psf/requests",
+          "stars": 54748
+        },
+        {
+          "id": "chatgpt",
+          "name": "ChatGPT",
+          "repo": "lencx/ChatGPT",
+          "stars": 54678
+        },
+        {
+          "id": "chinese-poetry",
+          "name": "Chinese Poetry",
+          "repo": "chinese-poetry/chinese-poetry",
+          "stars": 54541
+        },
+        {
+          "id": "material-design-icons",
+          "name": "Material Design Icons",
+          "repo": "google/material-design-icons",
+          "stars": 54356
+        },
+        {
+          "id": "windows",
+          "name": "Windows",
+          "repo": "dockur/windows",
+          "stars": 54266
+        },
+        {
+          "id": "pdf-js",
+          "name": "Pdf.js",
+          "repo": "mozilla/pdf.js",
+          "stars": 54176
+        },
+        {
+          "id": "awesome-ios",
+          "name": "Awesome Ios",
+          "repo": "vsouza/awesome-ios",
+          "stars": 54089
+        },
+        {
+          "id": "element-2",
+          "name": "Element",
+          "repo": "ElemeFE/element",
+          "stars": 53972
+        },
+        {
+          "id": "cherry-studio",
+          "name": "Cherry Studio",
+          "repo": "CherryHQ/cherry-studio",
+          "stars": 53780
+        },
+        {
+          "id": "expo",
+          "name": "Expo",
+          "repo": "expo/expo",
+          "stars": 53735
+        },
+        {
+          "id": "kotlin",
+          "name": "Kotlin",
+          "repo": "JetBrains/kotlin",
+          "stars": 53614
+        },
+        {
+          "id": "hiring-without-whiteboards",
+          "name": "Hiring Without Whiteboards",
+          "repo": "poteto/hiring-without-whiteboards",
+          "stars": 53577
+        },
+        {
+          "id": "normalize-css",
+          "name": "Normalize.css",
+          "repo": "necolas/normalize.css",
+          "stars": 53486
+        },
+        {
+          "id": "open-source-ios-apps",
+          "name": "Open Source Ios Apps",
+          "repo": "dkhamsing/open-source-ios-apps",
+          "stars": 53439
+        },
+        {
+          "id": "lazydocker",
+          "name": "Lazydocker",
+          "repo": "jesseduffield/lazydocker",
+          "stars": 53410
+        },
+        {
+          "id": "docker-osx",
+          "name": "Docker OSX",
+          "repo": "sickcodes/Docker-OSX",
+          "stars": 53019
+        },
+        {
+          "id": "llama-index",
+          "name": "Llama Index",
+          "repo": "run-llama/llama_index",
+          "stars": 52990
+        },
+        {
+          "id": "ionic-framework",
+          "name": "Ionic Framework",
+          "repo": "ionic-team/ionic-framework",
+          "stars": 52776
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "gatsby",
+          "name": "Gatsby",
+          "repo": "gatsbyjs/gatsby",
+          "stars": 55915,
+          "gain": 55915
+        },
+        {
+          "id": "ghost",
+          "name": "Ghost",
+          "repo": "TryGhost/Ghost",
+          "stars": 55885,
+          "gain": 55885
+        },
+        {
+          "id": "trackerslist",
+          "name": "Trackerslist",
+          "repo": "ngosang/trackerslist",
+          "stars": 55764,
+          "gain": 55764
+        },
+        {
+          "id": "leetcode",
+          "name": "Leetcode",
+          "repo": "azl397985856/leetcode",
+          "stars": 55701,
+          "gain": 55701
+        },
+        {
+          "id": "lx-music-desktop",
+          "name": "Lx Music Desktop",
+          "repo": "lyswhut/lx-music-desktop",
+          "stars": 55597,
+          "gain": 55597
+        }
+      ],
+      "rollupZh": "今日焦点包括智谱发布首个 Loop Transformer 模型 GLM-5.4，主打通用编程能力。开源侧，GitHub 博客呼吁维护者需要的是修复而非更多 AI 报告，并介绍可跨设备延续会话的 Agent Host 协议。此外还有本地 AI 入门指南、一款扮演 LLM 子代理的游戏，以及 MIT 科技评论对 AI 最被误解图表的更新解读。",
+      "rollupEn": "Today's highlights include Z.ai's GLM-5.4, its first Loop Transformer, pitched at generalized coding. On the open-source side, GitHub Blog argues maintainers need fixes rather than more AI bug reports, and details an Agent Host Protocol for sessions that continue across devices. Also featured: a beginner's guide to local AI, a game where you play an LLM's subagent, and MIT Technology Review's update on AI's most misunderstood graph.",
+      "failures": []
+    },
+    {
       "date": "2026-11-22",
       "items": [
         {

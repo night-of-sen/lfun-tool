@@ -14309,7 +14309,7 @@
     {
       "id": "anthropic-cookbook",
       "name": "Anthropic Cookbook",
-      "repo": "anthropics/anthropic-cookbook",
+      "repo": "anthropics/claude-cookbooks",
       "homepage": "",
       "category": "ai-agents",
       "desc": "Anthropic 官方食谱，工具调用、RAG、视觉等实战示例",
@@ -38078,7 +38078,7 @@
     {
       "id": "gpt-sovits",
       "name": "GPT SoVITS",
-      "repo": "RVC-Boss/GPT-SoVITS",
+      "repo": "bilibili/GPT-SoVITS",
       "homepage": "",
       "category": "video-media",
       "desc": "",
@@ -39009,6 +39009,662 @@
       "cloud": "",
       "descEn": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
       "pushedAt": "2026-11-17"
+    },
+    {
+      "id": "rust-anything",
+      "name": "Rust Anything",
+      "repo": "erkamyaman/rust-anything",
+      "homepage": "https://www.npmjs.com/package/rust-anything",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "claude-code",
+        "cli",
+        "code-migration"
+      ],
+      "seed": {
+        "stars": 8422,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, ",
+      "pushedAt": "2026-11-23"
+    },
+    {
+      "id": "totk-pc-recomp",
+      "name": "Totk Pc Recomp",
+      "repo": "valentderah/totk-pc-recomp",
+      "homepage": "",
+      "category": "fun-games",
+      "desc": "",
+      "tags": [
+        "game",
+        "linux",
+        "port",
+        "recompilation"
+      ],
+      "seed": {
+        "stars": 8093,
+        "language": "C"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
+      "pushedAt": "2026-11-23"
+    },
+    {
+      "id": "handraw-style",
+      "name": "Handraw Style",
+      "repo": "yang0/handraw-style",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8021,
+        "language": "HTML"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "手绘风格编号画廊与双语提示词 Skill",
+      "pushedAt": "2026-11-23"
+    },
+    {
+      "id": "pxpipe",
+      "name": "Pxpipe",
+      "repo": "teamchong/pxpipe",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8005,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "cut Claude Code token usage by rendering text context as images",
+      "pushedAt": "2026-11-20"
+    },
+    {
+      "id": "gatsby",
+      "name": "Gatsby",
+      "repo": "gatsbyjs/gatsby",
+      "homepage": "https://www.gatsbyjs.com",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "blog",
+        "compiler",
+        "gatsby",
+        "graphql"
+      ],
+      "seed": {
+        "stars": 55915,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "React-based framework with performance, scalability, and security built in.",
+      "pushedAt": "2026-11-20"
+    },
+    {
+      "id": "ghost",
+      "name": "Ghost",
+      "repo": "TryGhost/Ghost",
+      "homepage": "https://ghost.org",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "blogging",
+        "cms",
+        "ghost",
+        "javascript"
+      ],
+      "seed": {
+        "stars": 55885,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Independent technology for modern publishing, memberships, subscriptions and newsletters.",
+      "pushedAt": "2026-11-23"
+    },
+    {
+      "id": "trackerslist",
+      "name": "Trackerslist",
+      "repo": "ngosang/trackerslist",
+      "homepage": "https://ngosang.github.io/trackerslist/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "bittorrent",
+        "bittorrent-tracker",
+        "bittorrent-trackers",
+        "http"
+      ],
+      "seed": {
+        "stars": 55764,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Updated list of public BitTorrent trackers",
+      "pushedAt": "2026-11-22"
+    },
+    {
+      "id": "leetcode",
+      "name": "Leetcode",
+      "repo": "azl397985856/leetcode",
+      "homepage": "https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "algo",
+        "algorithm",
+        "algorithms",
+        "algorithms-datastructures"
+      ],
+      "seed": {
+        "stars": 55701,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "LeetCode Solutions: A Record of My Problem Solving Journey.( leetcode题解，记录自己的leetcode解题之路。)",
+      "pushedAt": "2026-11-15"
+    },
+    {
+      "id": "lx-music-desktop",
+      "name": "Lx Music Desktop",
+      "repo": "lyswhut/lx-music-desktop",
+      "homepage": "https://lyswhut.github.io/lx-music-doc/",
+      "category": "video-media",
+      "desc": "",
+      "tags": [
+        "electron",
+        "javascript",
+        "music-player",
+        "vue"
+      ],
+      "seed": {
+        "stars": 55597,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "一个基于 Electron 的音乐软件",
+      "pushedAt": "2026-11-23"
+    },
+    {
+      "id": "powerlevel10k",
+      "name": "Powerlevel10k",
+      "repo": "romkatv/powerlevel10k",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "zsh"
+      ],
+      "seed": {
+        "stars": 55384,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A Zsh theme",
+      "pushedAt": "2026-11-19"
+    },
+    {
+      "id": "segment-anything",
+      "name": "Segment Anything",
+      "repo": "facebookresearch/segment-anything",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 55172,
+        "language": "Jupyter Notebook"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to",
+      "pushedAt": "2024-09-18"
+    },
+    {
+      "id": "core",
+      "name": "Core",
+      "repo": "vuejs/core",
+      "homepage": "https://vuejs.org/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 55156,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
+      "pushedAt": "2026-11-23"
+    },
+    {
+      "id": "requests",
+      "name": "Requests",
+      "repo": "psf/requests",
+      "homepage": "https://requests.readthedocs.io/en/latest/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "client",
+        "cookies",
+        "forhumans",
+        "http"
+      ],
+      "seed": {
+        "stars": 54748,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A simple, yet elegant, HTTP library.",
+      "pushedAt": "2026-11-02"
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "repo": "lencx/ChatGPT",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "app",
+        "application",
+        "chatgpt"
+      ],
+      "seed": {
+        "stars": 54678,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "❄️ ChatGPT Desktop Application (Mac, Windows and Linux)",
+      "pushedAt": "2024-08-29"
+    },
+    {
+      "id": "chinese-poetry",
+      "name": "Chinese Poetry",
+      "repo": "chinese-poetry/chinese-poetry",
+      "homepage": "https://awesome-poetry.top/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "chinese",
+        "chinese-poetry",
+        "ci",
+        "json"
+      ],
+      "seed": {
+        "stars": 54541,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库, 唐宋两朝近一万四千古诗人, 接近5.5万首唐诗加26万宋诗. 两宋时期1564位词人，21050首词。",
+      "pushedAt": "2026-06-17"
+    },
+    {
+      "id": "material-design-icons",
+      "name": "Material Design Icons",
+      "repo": "google/material-design-icons",
+      "homepage": "http://google.github.io/material-design-icons/",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "android",
+        "icons",
+        "ios",
+        "material"
+      ],
+      "seed": {
+        "stars": 54356,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Material Design icons by Google (Material Symbols)",
+      "pushedAt": "2026-10-23"
+    },
+    {
+      "id": "windows",
+      "name": "Windows",
+      "repo": "dockur/windows",
+      "homepage": "",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "docker",
+        "docker-container",
+        "virtualization",
+        "windows"
+      ],
+      "seed": {
+        "stars": 54266,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Windows inside a Docker container.",
+      "pushedAt": "2026-11-13"
+    },
+    {
+      "id": "pdf-js",
+      "name": "Pdf.js",
+      "repo": "mozilla/pdf.js",
+      "homepage": "https://mozilla.github.io/pdf.js/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 54176,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "PDF Reader in JavaScript",
+      "pushedAt": "2026-11-23"
+    },
+    {
+      "id": "awesome-ios",
+      "name": "Awesome Ios",
+      "repo": "vsouza/awesome-ios",
+      "homepage": "http://awesomeios.dev",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "apple-swift",
+        "arkit",
+        "awesome",
+        "ios"
+      ],
+      "seed": {
+        "stars": 54089,
+        "language": "Swift"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects",
+      "pushedAt": "2026-08-27"
+    },
+    {
+      "id": "element-2",
+      "name": "Element",
+      "repo": "ElemeFE/element",
+      "homepage": "https://element.eleme.io/",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "components",
+        "element-ui",
+        "javascript",
+        "ui-kit"
+      ],
+      "seed": {
+        "stars": 53972,
+        "language": "Vue"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A Vue.js 2.0 UI Toolkit for Web",
+      "pushedAt": "2024-08-20"
+    },
+    {
+      "id": "cherry-studio",
+      "name": "Cherry Studio",
+      "repo": "CherryHQ/cherry-studio",
+      "homepage": "https://cherryai.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agent-skills",
+        "agent-workspace",
+        "agentic-workspace",
+        "ai-agents"
+      ],
+      "seed": {
+        "stars": 53779,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Your AI workspace for models, agents, and productivity.",
+      "pushedAt": "2026-11-23"
+    },
+    {
+      "id": "expo",
+      "name": "Expo",
+      "repo": "expo/expo",
+      "homepage": "https://docs.expo.dev",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "android",
+        "app-framework",
+        "expo",
+        "framework"
+      ],
+      "seed": {
+        "stars": 53736,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.",
+      "pushedAt": "2026-11-23"
+    },
+    {
+      "id": "kotlin",
+      "name": "Kotlin",
+      "repo": "JetBrains/kotlin",
+      "homepage": "https://kotlinlang.org",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "compiler",
+        "gradle-plugin",
+        "intellij-plugin",
+        "kotlin"
+      ],
+      "seed": {
+        "stars": 53614,
+        "language": "Kotlin"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The Kotlin Programming Language.",
+      "pushedAt": "2026-11-23"
+    },
+    {
+      "id": "hiring-without-whiteboards",
+      "name": "Hiring Without Whiteboards",
+      "repo": "poteto/hiring-without-whiteboards",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "airtable",
+        "hiring",
+        "hiring-without-whiteboards",
+        "interview"
+      ],
+      "seed": {
+        "stars": 53577,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "⭐️ Companies that don't have a broken hiring process",
+      "pushedAt": "2026-11-14"
+    },
+    {
+      "id": "normalize-css",
+      "name": "Normalize.css",
+      "repo": "necolas/normalize.css",
+      "homepage": "http://necolas.github.io/normalize.css/",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "css",
+        "css-reset",
+        "normalize-css"
+      ],
+      "seed": {
+        "stars": 53486,
+        "language": "CSS"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A modern alternative to CSS resets",
+      "pushedAt": "2024-06-12"
+    },
+    {
+      "id": "open-source-ios-apps",
+      "name": "Open Source Ios Apps",
+      "repo": "dkhamsing/open-source-ios-apps",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "app",
+        "apple",
+        "apple-tv",
+        "apple-vision-pro"
+      ],
+      "seed": {
+        "stars": 53440,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": ":iphone: Collaborative List of Open-Source iOS Apps",
+      "pushedAt": "2026-11-22"
+    },
+    {
+      "id": "lazydocker",
+      "name": "Lazydocker",
+      "repo": "jesseduffield/lazydocker",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 53409,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The lazier way to manage everything docker",
+      "pushedAt": "2026-11-15"
+    },
+    {
+      "id": "docker-osx",
+      "name": "Docker OSX",
+      "repo": "sickcodes/Docker-OSX",
+      "homepage": "https://hub.docker.com/r/sickcodes/docker-osx",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "container",
+        "docker",
+        "docker-osx",
+        "kvm"
+      ],
+      "seed": {
+        "stars": 53019,
+        "language": "Shell"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers.",
+      "pushedAt": "2025-11-11"
+    },
+    {
+      "id": "llama-index",
+      "name": "Llama Index",
+      "repo": "run-llama/llama_index",
+      "homepage": "https://developers.llamaindex.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agents",
+        "application",
+        "data",
+        "fine-tuning"
+      ],
+      "seed": {
+        "stars": 52990,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "LlamaIndex is the document processing platform for AI",
+      "pushedAt": "2026-11-20"
+    },
+    {
+      "id": "ionic-framework",
+      "name": "Ionic Framework",
+      "repo": "ionic-team/ionic-framework",
+      "homepage": "https://ionicframework.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "angular",
+        "capacitor",
+        "framework",
+        "frontend"
+      ],
+      "seed": {
+        "stars": 52778,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A powerful cross-platform UI toolkit for building native-quality iOS, Android, and Progressive Web Apps with HTML, CSS, and JavaScript.",
+      "pushedAt": "2026-11-23"
     }
   ]
 }

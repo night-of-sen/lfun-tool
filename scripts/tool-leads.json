@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T11:00:46.254Z",
+  "generatedAt": "2026-11-23T12:09:16.887Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -6740,6 +6740,126 @@
     "magnitude": {
       "en": "An open source inference engine for developers that tunes kernels on your hardware to run each model faster, 2x faster than Ollama.",
       "zh": "面向开发者的开源推理引擎，会在你的硬件上调优内核，让每个模型跑得更快。"
+    },
+    "ghost": {
+      "en": "Ghost is independent publishing software for writers and publishers who want to run blogs, memberships, subscriptions and newsletters.",
+      "zh": "Ghost 是面向写作者与出版方的独立发布工具，用于运营博客、会员、订阅与通讯。"
+    },
+    "leetcode": {
+      "en": "For developers practicing LeetCode, this repository records one person's problem-solving journey with solutions.",
+      "zh": "面向刷 LeetCode 的开发者，这个仓库记录个人的题解与解题过程。"
+    },
+    "lx-music-desktop": {
+      "en": "A music application built with Electron, for desktop users who want a music program on their computer.",
+      "zh": "一款基于 Electron 构建的音乐软件，适合需要在电脑上使用音乐程序的桌面用户。"
+    },
+    "trackerslist": {
+      "en": "An updated list of public BitTorrent trackers for users who need tracker addresses for their client.",
+      "zh": "面向需要为 BitTorrent 客户端添加追踪器地址的用户，提供一份持续更新的公共追踪器列表。"
+    },
+    "gatsby": {
+      "en": "A React-based framework for developers who need performance, scalability, and security built in.",
+      "zh": "为开发者提供内置性能、可扩展性与安全性的 React 框架。"
+    },
+    "powerlevel10k": {
+      "en": "A Zsh theme for users who want a theme for their Zsh shell.",
+      "zh": "一款 Zsh 主题，面向希望为 Zsh 终端配置主题的用户。"
+    },
+    "segment-anything": {
+      "en": "Developers can run inference with the SegmentAnything Model, download trained checkpoints, and follow example notebooks.",
+      "zh": "为开发者提供 SegmentAnything 模型推理代码、预训练权重下载链接和示例笔记本。"
+    },
+    "requests": {
+      "en": "For developers who want a simple, elegant HTTP library.",
+      "zh": "面向需要简洁优雅的 HTTP 库的开发者。"
+    },
+    "chatgpt": {
+      "en": "A ChatGPT desktop application for Mac, Windows, and Linux users.",
+      "zh": "面向 Mac、Windows 和 Linux 用户的 ChatGPT 桌面应用。"
+    },
+    "core": {
+      "en": "Vue.js is a JavaScript framework for developers building web user interfaces, designed to be adopted incrementally.",
+      "zh": "Vue.js 是构建 Web 界面的 JavaScript 框架，可供开发者渐进式采用。"
+    },
+    "windows": {
+      "en": "For developers who need a Windows environment, it runs Windows inside a Docker container.",
+      "zh": "面向需要 Windows 环境的开发者，它在 Docker 容器中运行 Windows。"
+    },
+    "material-design-icons": {
+      "en": "Provides Google's Material Symbols icon set for mobile and IoT projects.",
+      "zh": "面向移动与物联网项目，提供 Google 的 Material Symbols 图标集。"
+    },
+    "pdf-js": {
+      "en": "A PDF reader written in JavaScript, for developers who need to open PDF files in their projects.",
+      "zh": "一个用 JavaScript 编写的 PDF 阅读器，供开发者在项目中打开 PDF 文件使用。"
+    },
+    "awesome-ios": {
+      "en": "A curated list of iOS ecosystem resources, including Objective-C and Swift projects, for developers seeking libraries and tools.",
+      "zh": "面向 iOS 开发者的精选资源清单，收录 Objective-C 与 Swift 项目，便于查找库和工具。"
+    },
+    "element-2": {
+      "en": "Element is a Vue.js 2.0 UI toolkit that helps web developers build interfaces with ready-made components.",
+      "zh": "Element 是面向 Web 开发者的 Vue.js 2.0 UI 工具包，用现成组件帮助搭建界面。"
+    },
+    "cherry-studio": {
+      "en": "An AI workspace for people working with multiple models and agents, bringing model access and everyday productivity into one place.",
+      "zh": "面向需要同时使用多种模型与智能体的用户，把模型调用和日常效率工作集中在一个工作区里。"
+    },
+    "expo": {
+      "en": "A framework for developers who want to build native apps with React across Android, iOS, and the web.",
+      "zh": "面向希望用 React 构建 Android、iOS 和 Web 原生应用的开发者，提供开源框架支持。"
+    },
+    "kotlin": {
+      "en": "Kotlin is a programming language for developers who write software; the given description lists no further details.",
+      "zh": "Kotlin 是一门供开发者编写软件的编程语言，给定描述未提供更多细节。"
+    },
+    "open-source-ios-apps": {
+      "en": "A collaborative list of open-source iOS apps, helping developers and users find open-source iPhone and iPad apps in one place.",
+      "zh": "一份协作维护的开源 iOS 应用清单，帮助开发者与用户集中查找开源 iPhone 和 iPad 应用。"
+    },
+    "hiring-without-whiteboards": {
+      "en": "A list for job seekers who want companies without broken hiring processes, avoiding whiteboard-style interviews.",
+      "zh": "面向求职者的公司清单，帮助避开流程混乱、白板面试式的招聘。"
+    },
+    "normalize-css": {
+      "en": "For front-end developers who need a modern alternative to CSS resets.",
+      "zh": "面向需要现代化 CSS 重置替代方案的前端开发者。"
+    },
+    "docker-osx": {
+      "en": "A tool for running a macOS virtual machine inside Docker, aimed at developers and security researchers who need macOS environments for CI/CD and OS X security research.",
+      "zh": "一个在 Docker 中运行 macOS 虚拟机的工具，面向需要 macOS 环境进行 CI/CD 和 OS X 安全研究的开发者与安全研究人员。"
+    },
+    "llama-index": {
+      "en": "LlamaIndex is a document processing platform for AI, built for developers who need to prepare and connect documents to AI applications.",
+      "zh": "LlamaIndex 是面向 AI 的文档处理平台，适合需要将文档处理并接入 AI 应用的开发者。"
+    },
+    "lazydocker": {
+      "en": "Lazydocker gives Docker users a lazier way to manage all things Docker.",
+      "zh": "Lazydocker 为 Docker 用户提供更省事地管理所有 Docker 事务的方式。"
+    },
+    "marketing-skills": {
+      "en": "For marketers using Claude Code or claude.ai: 49 free skills covering Google Ads, Meta Ads, SEO and AI visibility, plus Ryze MCP connectors.",
+      "zh": "面向使用 Claude 的营销人员：49 个免费技能覆盖 Google Ads、Meta Ads、SEO 与 AI 可见度，并含 Ryze MCP 连接器。"
+    },
+    "totk-pc-recomp": {
+      "en": "For players who want to run Tears of the Kingdom natively on Windows or Linux x86-64 through static recompilation with a Vulkan renderer. Game files are not included.",
+      "zh": "供希望在 Windows 或 Linux x86-64 上以静态重编译加 Vulkan 渲染器原生运行《王国之泪》的用户；不含游戏文件。"
+    },
+    "handraw-style": {
+      "en": "A skill for developers that turns prompts into hand-drawn numbered galleries with bilingual labels.",
+      "zh": "面向开发者的 Skill，把手绘风格编号画廊与双语提示词结合使用。"
+    },
+    "pxpipe": {
+      "en": "Pxpipe helps Claude Code users cut token usage by rendering text context as images.",
+      "zh": "Pxpipe 面向 Claude Code 用户，通过将文本上下文渲染为图片来减少 token 消耗。"
+    },
+    "ionic-framework": {
+      "en": "A cross-platform UI toolkit for developers building iOS, Android, and progressive web apps with HTML, CSS, and JavaScript.",
+      "zh": "面向 iOS、Android 和渐进式网页应用开发者的跨平台 UI 工具包，使用 HTML、CSS 和 JavaScript 构建。"
+    },
+    "rust-anything": {
+      "en": "Rewrites CLIs, HTTP servers, and libraries in Rust piece by piece, checking steps against recorded original behavior; supports TypeScript, Python, C, Go, Ruby, and Java.",
+      "zh": "逐步把多语言 CLI、HTTP 服务与库改写成 Rust，每一步对照原程序记录校验。"
     }
   }
 }

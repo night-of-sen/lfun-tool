@@ -11813,5 +11813,215 @@
     "source": "README.md",
     "rawLength": 29210,
     "fetchedAt": "2026-11-22T10:58:35.389Z"
+  },
+  "gatsby": {
+    "summary": "Gatsby is dedicated to building a welcoming, diverse, safe community. We expect everyone participating in the Gatsby community to abide by our Code of Conduct. Please read it. Please follow it. In the Gatsby community, we work hard to build each other up and create amazing things together. 💪💜",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9134,
+    "fetchedAt": "2026-11-23T12:06:21.690Z"
+  },
+  "ghost": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6241,
+    "fetchedAt": "2026-11-23T12:06:21.690Z"
+  },
+  "trackerslist": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6952,
+    "fetchedAt": "2026-11-23T12:06:21.690Z"
+  },
+  "leetcode": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 31604,
+    "fetchedAt": "2026-11-23T12:06:21.690Z"
+  },
+  "lx-music-desktop": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6399,
+    "fetchedAt": "2026-11-23T12:06:21.690Z"
+  },
+  "powerlevel10k": {
+    "summary": "Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.",
+    "docker": "docker run -e TERM -e COLORTERM -e LC_ALL=C.UTF-8 -it --rm alpine sh -uec '\n  apk add git zsh nano vim\n  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k\n  echo \"source ~/powerlevel10k/powerlevel10k.zsh-theme\" >>~/.zshrc\n  cd ~/powerlevel10k\n  exec zsh'",
+    "source": "README.md",
+    "rawLength": 105238,
+    "fetchedAt": "2026-11-23T12:06:22.246Z"
+  },
+  "segment-anything": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9621,
+    "fetchedAt": "2026-11-23T12:06:22.246Z"
+  },
+  "core": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2741,
+    "fetchedAt": "2026-11-23T12:06:22.246Z"
+  },
+  "requests": {
+    "summary": "Requests allows you to send HTTP/1.1 requests extremely easily. There’s no need to manually add query strings to your URLs, or to form-encode your PUT & POST data — but nowadays, just use the json method!",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2894,
+    "fetchedAt": "2026-11-23T12:06:22.246Z"
+  },
+  "chatgpt": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1813,
+    "fetchedAt": "2026-11-23T12:06:22.246Z"
+  },
+  "chinese-poetry": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6055,
+    "fetchedAt": "2026-11-23T12:06:22.246Z"
+  },
+  "material-design-icons": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7833,
+    "fetchedAt": "2026-11-23T12:06:23.568Z"
+  },
+  "windows": {
+    "summary": "Windows can automatically join an Active Directory domain during installation. Specify the domain name in your compose file:",
+    "docker": "docker run -it --rm --name windows -e \"VERSION=11\" -p 8006:8006 --device=/dev/kvm --device=/dev/net/tun --cap-add NET_ADMIN -v \"${PWD:-.}/windows:/storage\" --stop-timeout 120 docker.io/dockurr/windows",
+    "source": "readme.md",
+    "rawLength": 17311,
+    "fetchedAt": "2026-11-23T12:06:23.568Z"
+  },
+  "pdf-js": {
+    "summary": "PDF.js is community-driven and supported by Mozilla. Our goal is to create a general-purpose, web standards-based platform for parsing and rendering PDFs.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 9830,
+    "fetchedAt": "2026-11-23T12:06:23.568Z"
+  },
+  "awesome-ios": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 272582,
+    "fetchedAt": "2026-11-23T12:06:23.568Z"
+  },
+  "element-2": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6403,
+    "fetchedAt": "2026-11-23T12:06:23.568Z"
+  },
+  "cherry-studio": {
+    "summary": "Cherry Studio is an AI workstation for Windows, macOS, and Linux. Chat with multiple models, work with agents, build knowledge bases, create images, and automate everyday tasks in one place.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 15310,
+    "fetchedAt": "2026-11-23T12:06:23.568Z"
+  },
+  "expo": {
+    "summary": "Expo is an open-source platform for making universal native apps that run on Android, iOS, and the web. It includes a universal runtime and libraries that let you build native apps by writing React and JavaScript.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7452,
+    "fetchedAt": "2026-11-23T12:06:59.449Z"
+  },
+  "kotlin": {
+    "summary": "",
+    "docker": "",
+    "source": "",
+    "fetchedAt": "2026-11-23T12:06:59.449Z",
+    "missing": true
+  },
+  "hiring-without-whiteboards": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 145240,
+    "fetchedAt": "2026-11-23T12:06:59.449Z"
+  },
+  "normalize-css": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3212,
+    "fetchedAt": "2026-11-23T12:06:59.449Z"
+  },
+  "open-source-ios-apps": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 435815,
+    "fetchedAt": "2026-11-23T12:06:59.449Z"
+  },
+  "lazydocker": {
+    "summary": "",
+    "docker": "docker run --rm -it -v \\\n    /var/run/docker.sock:/var/run/docker.sock \\\n    -v /yourpath:/.config/jesseduffield/lazydocker \\\n    lazyteam/lazydocker",
+    "source": "README.md",
+    "rawLength": 22201,
+    "fetchedAt": "2026-11-23T12:06:59.449Z"
+  },
+  "docker-osx": {
+    "summary": "Docker-OSX is licensed under the GPL v3+. Contributions are welcomed and immensely appreciated. You are in fact permitted to use Docker-OSX as a tool to create proprietary software.",
+    "docker": "docker run -it \\\n    --device /dev/kvm \\\n    -p 50922:10022 \\\n    -v /tmp/.X11-unix:/tmp/.X11-unix \\\n    -e \"DISPLAY=${DISPLAY:-:0.0}\" \\\n    -e SHORTNAME=catalina \\\n    sickcodes/docker-osx:latest\n\n# docker build -t docker-osx .",
+    "source": "README.md",
+    "rawLength": 70637,
+    "fetchedAt": "2026-11-23T12:07:06.167Z"
+  },
+  "llama-index": {
+    "summary": "LlamaIndex Framework (by LlamaIndex, the company behind LlamaParse) is an open-source framework to build agentic applications. You can use LlamaParse with this framework or on its own; see LlamaParse below for signup and product links.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11566,
+    "fetchedAt": "2026-11-23T12:07:06.167Z"
+  },
+  "ionic-framework": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6152,
+    "fetchedAt": "2026-11-23T12:07:06.167Z"
+  },
+  "rust-anything": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 25866,
+    "fetchedAt": "2026-11-23T12:07:16.458Z"
+  },
+  "totk-pc-recomp": {
+    "summary": "TotK Recomp is a static recompilation of The Legend of Zelda: Tears of the Kingdom (Nintendo Switch, 2023) into a native x86-64 application for Windows and Linux (docs/architecture.md).",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7373,
+    "fetchedAt": "2026-11-23T12:07:16.458Z"
+  },
+  "handraw-style": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 11631,
+    "fetchedAt": "2026-11-23T12:07:16.458Z"
+  },
+  "pxpipe": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 36199,
+    "fetchedAt": "2026-11-23T12:07:16.458Z"
   }
 }
