@@ -1106,7 +1106,7 @@
     {
       "id": "spotube",
       "name": "Spotube",
-      "repo": "KRTirtho/spotube",
+      "repo": "team-spotube/spotube",
       "homepage": null,
       "category": "video-media",
       "usage": [
@@ -36578,7 +36578,7 @@
     {
       "id": "ds-bot",
       "name": "DS Bot",
-      "repo": "Fei2411/DS-Bot",
+      "repo": "Fei-Craft/DS-Bot",
       "homepage": "",
       "category": "dev-tools",
       "desc": "",
@@ -39665,6 +39665,668 @@
       "cloud": "",
       "descEn": "A powerful cross-platform UI toolkit for building native-quality iOS, Android, and Progressive Web Apps with HTML, CSS, and JavaScript.",
       "pushedAt": "2026-11-23"
+    },
+    {
+      "id": "victory",
+      "name": "VIctory",
+      "repo": "Marvisak/VIctory",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8698,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An attempt at running GTA VI on PC",
+      "pushedAt": "2026-11-24"
+    },
+    {
+      "id": "claude-cage",
+      "name": "Claude Cage",
+      "repo": "Lee-xeo/Claude-Cage",
+      "homepage": "https://lee-xeo.github.io/Claude-Cage/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8268,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
+      "pushedAt": "2026-11-24"
+    },
+    {
+      "id": "ai-pose-gallery-zh",
+      "name": "Ai Pose Gallery Zh",
+      "repo": "anhao/ai-pose-gallery-zh",
+      "homepage": "https://ai-pose-gallery.anhao.app",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-art",
+        "chinese",
+        "cloudflare-pages",
+        "gallery"
+      ],
+      "seed": {
+        "stars": 8233,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
+      "pushedAt": "2026-11-18"
+    },
+    {
+      "id": "claude-trading-skills",
+      "name": "Claude Trading Skills",
+      "repo": "tradermonty/claude-trading-skills",
+      "homepage": "https://tradermonty.github.io/claude-trading-skills/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 8223,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "pushedAt": "2026-11-23"
+    },
+    {
+      "id": "tokeneconomizer",
+      "name": "TokenEconomizer",
+      "repo": "microsoft/TokenEconomizer",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "agentic-ai",
+        "agentic-coding",
+        "ai-coding",
+        "ai-coding-assistant"
+      ],
+      "seed": {
+        "stars": 8064,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Experience-Driven Black-Box Cost Control for Coding Agents",
+      "pushedAt": "2026-11-24"
+    },
+    {
+      "id": "dsh-wallpaper-engine",
+      "name": "Dsh Wallpaper Engine",
+      "repo": "elysia395/dsh-wallpaper-engine",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "dsh-plugin-market",
+        "dsh-plugins"
+      ],
+      "seed": {
+        "stars": 8041,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "把本机 Wallpaper Engine 的壁纸搬进 DSH 网页界面：场景壁纸由内置 MIT 开源引擎 WebWallGL 实时 WebGL 渲染（粒子 / puppet 骨骼 / SceneScript / 音频反应 / 鼠标交互），失败自动降级内嵌 MP4 与场景静态帧；Web 壁纸严格沙箱 + WE API；iOS 风格液态玻璃 UI 高度自定义，遮",
+      "pushedAt": "2026-11-23"
+    },
+    {
+      "id": "etcd",
+      "name": "Etcd",
+      "repo": "etcd-io/etcd",
+      "homepage": "https://etcd.io",
+      "category": "infra-security",
+      "desc": "",
+      "tags": [
+        "cncf",
+        "consensus",
+        "database",
+        "distributed-database"
+      ],
+      "seed": {
+        "stars": 52646,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "pushedAt": "2026-11-24"
+    },
+    {
+      "id": "react-bits",
+      "name": "React Bits",
+      "repo": "DavidHDev/react-bits",
+      "homepage": "https://reactbits.dev",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "3d",
+        "animations",
+        "component-library",
+        "components"
+      ],
+      "seed": {
+        "stars": 52618,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The largest open-source library of animated, interactive, and customizable React & Next.js components for building standout web products and experiences. Built for humans and AI ag",
+      "pushedAt": "2026-11-24"
+    },
+    {
+      "id": "new-api",
+      "name": "New Api",
+      "repo": "QuantumNous/new-api",
+      "homepage": "https://www.newapi.ai",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-gateway",
+        "api-management",
+        "claude",
+        "deepseek"
+      ],
+      "seed": {
+        "stars": 52466,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.",
+      "pushedAt": "2026-11-24"
+    },
+    {
+      "id": "prettier",
+      "name": "Prettier",
+      "repo": "prettier/prettier",
+      "homepage": "https://prettier.io",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "angular",
+        "ast",
+        "css",
+        "flow"
+      ],
+      "seed": {
+        "stars": 52445,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Prettier is an opinionated code formatter.",
+      "pushedAt": "2026-11-23"
+    },
+    {
+      "id": "grok-1",
+      "name": "Grok 1",
+      "repo": "xai-org/grok-1",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 52241,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Grok open release",
+      "pushedAt": "2024-08-30"
+    },
+    {
+      "id": "100-days-of-ml-code",
+      "name": "100 Days Of ML Code",
+      "repo": "Avik-Jain/100-Days-Of-ML-Code",
+      "homepage": "",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "100-days-of-code-log",
+        "100daysofcode",
+        "deep-learning",
+        "implementation"
+      ],
+      "seed": {
+        "stars": 52075,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "100 Days of ML Coding",
+      "pushedAt": "2023-12-29"
+    },
+    {
+      "id": "jadx",
+      "name": "Jadx",
+      "repo": "skylot/jadx",
+      "homepage": "",
+      "category": "mobile-iot",
+      "desc": "",
+      "tags": [
+        "android",
+        "decompiler",
+        "dex",
+        "java"
+      ],
+      "seed": {
+        "stars": 51979,
+        "language": "Java"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Dex to Java decompiler",
+      "pushedAt": "2026-11-23"
+    },
+    {
+      "id": "guava",
+      "name": "Guava",
+      "repo": "google/guava",
+      "homepage": "https://guava.dev/",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "guava",
+        "java"
+      ],
+      "seed": {
+        "stars": 51925,
+        "language": "Java"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Google core libraries for Java",
+      "pushedAt": "2026-11-24"
+    },
+    {
+      "id": "jekyll",
+      "name": "Jekyll",
+      "repo": "jekyll/jekyll",
+      "homepage": "https://jekyllrb.com",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "blog-engine",
+        "jekyll",
+        "liquid",
+        "markdown"
+      ],
+      "seed": {
+        "stars": 51796,
+        "language": "Ruby"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": ":globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby",
+      "pushedAt": "2026-10-13"
+    },
+    {
+      "id": "airi",
+      "name": "Airi",
+      "repo": "moeru-ai/airi",
+      "homepage": "https://airi.moeru.ai/docs/",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai-companion",
+        "ai-vtuber",
+        "airi",
+        "digital-life"
+      ],
+      "seed": {
+        "stars": 51710,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtim",
+      "pushedAt": "2026-11-24"
+    },
+    {
+      "id": "supervision",
+      "name": "Supervision",
+      "repo": "roboflow/supervision",
+      "homepage": "https://supervision.roboflow.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "classification",
+        "coco",
+        "computer-vision",
+        "deep-learning"
+      ],
+      "seed": {
+        "stars": 51707,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "We write your reusable computer vision tools. 💜",
+      "pushedAt": "2026-11-24"
+    },
+    {
+      "id": "professional-programming",
+      "name": "Professional Programming",
+      "repo": "charlax/professional-programming",
+      "homepage": "",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "architecture",
+        "computer-science",
+        "concepts",
+        "documentation"
+      ],
+      "seed": {
+        "stars": 51698,
+        "language": "Python"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A collection of learning resources for curious software engineers",
+      "pushedAt": "2026-11-20"
+    },
+    {
+      "id": "open-source-mac-os-apps",
+      "name": "Open Source Mac Os Apps",
+      "repo": "serhii-londar/open-source-mac-os-apps",
+      "homepage": "https://serhii-londar.github.io/open-source-mac-os-apps/",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "applications",
+        "apps",
+        "awesome",
+        "awesome-list"
+      ],
+      "seed": {
+        "stars": 51530,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps",
+      "pushedAt": "2026-11-23"
+    },
+    {
+      "id": "definitelytyped",
+      "name": "DefinitelyTyped",
+      "repo": "DefinitelyTyped/DefinitelyTyped",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "definition",
+        "dts",
+        "hacktoberfest",
+        "types"
+      ],
+      "seed": {
+        "stars": 51489,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "The repository for high quality TypeScript type definitions.",
+      "pushedAt": "2026-11-24"
+    },
+    {
+      "id": "go-ethereum",
+      "name": "Go Ethereum",
+      "repo": "ethereum/go-ethereum",
+      "homepage": "https://geth.ethereum.org",
+      "category": "business-support",
+      "desc": "",
+      "tags": [
+        "blockchain",
+        "ethereum",
+        "geth",
+        "go"
+      ],
+      "seed": {
+        "stars": 51477,
+        "language": "Go"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Go implementation of the Ethereum protocol",
+      "pushedAt": "2026-11-24"
+    },
+    {
+      "id": "ruff",
+      "name": "Ruff",
+      "repo": "astral-sh/ruff",
+      "homepage": "https://docs.astral.sh/ruff",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "linter",
+        "pep8",
+        "python",
+        "python3"
+      ],
+      "seed": {
+        "stars": 51404,
+        "language": "Rust"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "An extremely fast Python linter and code formatter, written in Rust.",
+      "pushedAt": "2026-11-24"
+    },
+    {
+      "id": "wechat-miniapp-radar",
+      "name": "Wechat Miniapp Radar",
+      "repo": "justjavac/wechat-miniapp-radar",
+      "homepage": "https://miniapp.denohub.com",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "minapp",
+        "miniprogram",
+        "wechat",
+        "wechat-weapp"
+      ],
+      "seed": {
+        "stars": 51141,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": ":traffic_light:小程序雷达：AI 驱动的小程序技术选型、趋势追踪和迁移诊断工具",
+      "pushedAt": "2026-11-11"
+    },
+    {
+      "id": "clickhouse",
+      "name": "ClickHouse",
+      "repo": "ClickHouse/ClickHouse",
+      "homepage": "https://clickhouse.com",
+      "category": "ai-agents",
+      "desc": "",
+      "tags": [
+        "ai",
+        "analytics",
+        "big-data",
+        "clickhouse"
+      ],
+      "seed": {
+        "stars": 51099,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "ClickHouse® is a real-time analytics database management system",
+      "pushedAt": "2026-11-24"
+    },
+    {
+      "id": "cypress",
+      "name": "Cypress",
+      "repo": "cypress-io/cypress",
+      "homepage": "https://cypress.io",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "component-testing",
+        "cypress",
+        "end-to-end-testing",
+        "testing-framework"
+      ],
+      "seed": {
+        "stars": 51042,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Fast, easy and reliable testing for anything that runs in a browser.",
+      "pushedAt": "2026-11-24"
+    },
+    {
+      "id": "awesome-remote-job",
+      "name": "Awesome Remote Job",
+      "repo": "lukasz-madon/awesome-remote-job",
+      "homepage": "",
+      "category": "writing-knowledge",
+      "desc": "",
+      "tags": [
+        "awesome",
+        "awesome-list",
+        "list"
+      ],
+      "seed": {
+        "stars": 51035,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python",
+      "pushedAt": "2026-09-21"
+    },
+    {
+      "id": "semantic-ui",
+      "name": "Semantic UI",
+      "repo": "Semantic-Org/Semantic-UI",
+      "homepage": "http://www.semantic-ui.com",
+      "category": "design-creativity",
+      "desc": "",
+      "tags": [
+        "button",
+        "css-framework",
+        "dropdown",
+        "flexbox"
+      ],
+      "seed": {
+        "stars": 50993,
+        "language": "JavaScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Semantic is a UI component framework based around useful principles from natural language.",
+      "pushedAt": "2024-11-27"
+    },
+    {
+      "id": "json",
+      "name": "Json",
+      "repo": "nlohmann/json",
+      "homepage": "https://json.nlohmann.me",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "bson",
+        "cbor",
+        "header-only",
+        "json"
+      ],
+      "seed": {
+        "stars": 50971,
+        "language": "C++"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "JSON for Modern C++",
+      "pushedAt": "2026-11-24"
+    },
+    {
+      "id": "kubernetes-the-hard-way",
+      "name": "Kubernetes The Hard Way",
+      "repo": "kelseyhightower/kubernetes-the-hard-way",
+      "homepage": "",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [],
+      "seed": {
+        "stars": 50771,
+        "language": ""
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "Bootstrap Kubernetes the hard way. No scripts.",
+      "pushedAt": "2025-04-10"
+    },
+    {
+      "id": "query",
+      "name": "Query",
+      "repo": "TanStack/query",
+      "homepage": "https://tanstack.com/query",
+      "category": "dev-tools",
+      "desc": "",
+      "tags": [
+        "async",
+        "cache",
+        "data",
+        "fetch"
+      ],
+      "seed": {
+        "stars": 50625,
+        "language": "TypeScript"
+      },
+      "usage": [],
+      "scene": "",
+      "cloud": "",
+      "descEn": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
+      "pushedAt": "2026-11-24"
     }
   ]
 }

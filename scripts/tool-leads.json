@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T12:09:16.887Z",
+  "generatedAt": "2026-11-24T13:34:50.393Z",
   "items": {
     "build-your-own-x": {
       "en": "For learners who want hands-on practice, this collection guides you through rebuilding databases, compilers, operating systems, and Git from scratch.",
@@ -5110,8 +5110,8 @@
       "zh": "面向 AI agent 的隐身无头浏览器，可绕过 Cloudflare、机器人检测与反爬机制，并能直接替代 Puppeteer/Playwright。"
     },
     "claude-skills-2": {
-      "en": "Claude Skills offers 67 specialized skills for full-stack developers, turning Claude Code into an expert pair programmer.",
-      "zh": "Claude Skills 为全栈开发者提供 67 项专用技能，把 Claude Code 变成专家级结对编程助手。"
+      "en": "Claude Skills offers 71 specialized skills for full-stack developers, turning Claude Code into an expert pair programmer.",
+      "zh": "Claude Skills 为全栈开发者提供 71 项专用技能，把 Claude Code 变成专家级结对程序员。"
     },
     "crucix": {
       "en": "A personal intelligence agent for people tracking many data sources. It watches the world and pings you when something changes.",
@@ -6166,8 +6166,8 @@
       "zh": "3FUI 是 ffmpeg 在 Windows 上的轻度专业交互外壳，收录大量参数，帮助普通用户轻松压制视频和转换格式。"
     },
     "claude-bughunter": {
-      "en": "A Claude Code skill bundle for bug hunters and red teams, with 82 skills, 15 slash commands, and 681 disclosed-report patterns across 24 vulnerability classes.",
-      "zh": "为漏洞挖掘和外部红队工作设计的 Claude Code 技能包，含 82 个技能、15 个斜杠命令与 681 个已披露报告模式。"
+      "en": "For bug hunters and red teams: a Claude Code skill bundle with 84 skills, 15 slash commands, and 681 disclosed-report patterns.",
+      "zh": "面向漏洞猎人与红队：Claude Code 技能包，含 84 个技能、15 个斜杠命令与 681 个披露报告模式。"
     },
     "agentic-design-patterns": {
       "en": "A Chinese version of Google's Agentic Design Patterns book for developers, with online reading and PDF/EPUB downloads.",
@@ -6860,6 +6860,130 @@
     "rust-anything": {
       "en": "Rewrites CLIs, HTTP servers, and libraries in Rust piece by piece, checking steps against recorded original behavior; supports TypeScript, Python, C, Go, Ruby, and Java.",
       "zh": "逐步把多语言 CLI、HTTP 服务与库改写成 Rust，每一步对照原程序记录校验。"
+    },
+    "react-bits": {
+      "en": "An open-source library of animated, interactive, customizable React and Next.js components for developers building web products, made for humans and AI agents.",
+      "zh": "一个开源库，提供带动画、可交互、可自定义的 React 与 Next.js 组件，面向构建网页产品的开发者，适合人与 AI 代理使用。"
+    },
+    "etcd": {
+      "en": "Etcd is a distributed reliable key-value store for teams running distributed systems that need to keep their most critical data.",
+      "zh": "Etcd 是分布式可靠的键值存储，适合运行分布式系统的团队保存最关键的数据。"
+    },
+    "prettier": {
+      "en": "Prettier is an opinionated code formatter for developers who want code formatted automatically.",
+      "zh": "Prettier 是一款有固定风格取向的代码格式化工具，适合希望自动格式化代码的开发者。"
+    },
+    "100-days-of-ml-code": {
+      "en": "A 100-day machine learning coding challenge for learners who want a structured daily practice plan.",
+      "zh": "一个为期 100 天的机器学习编程挑战，适合希望按每日计划坚持练习的学习者。"
+    },
+    "jadx": {
+      "en": "A Dex to Java decompiler for Android developers and researchers who need to read compiled Dex code as Java.",
+      "zh": "一个 Dex 转 Java 反编译器，供 Android 开发者和研究人员将 Dex 代码还原为 Java 阅读。"
+    },
+    "grok-1": {
+      "en": "Grok open release: an open release listed under dev-tools, offered to developers as an openly released tool.",
+      "zh": "Grok 开源发布：列在开发工具分类下的开源发布版本，以开源形式提供给开发者。"
+    },
+    "jekyll": {
+      "en": "Jekyll is a blog-aware static site generator in Ruby for people who want to build blogs and sites from plain text files.",
+      "zh": "Jekyll 是一个用 Ruby 编写的、支持博客的静态网站生成器，适合用纯文本文件搭建博客和网站的人。"
+    },
+    "guava": {
+      "en": "Guava gives Java developers Google's core libraries, offering a shared foundation of core Java code.",
+      "zh": "Guava 为 Java 开发者提供 Google 的核心 Java 库，作为共用的基础代码。"
+    },
+    "supervision": {
+      "en": "Supervision provides reusable computer vision tools for developers building computer vision projects.",
+      "zh": "Supervision 为构建计算机视觉项目的开发者提供可复用的计算机视觉工具。"
+    },
+    "professional-programming": {
+      "en": "A collection of learning resources for curious software engineers who want to broaden their professional knowledge.",
+      "zh": "面向好奇的软件工程师的学习资源合集，帮助他们拓展专业知识。"
+    },
+    "airi": {
+      "en": "A self-hosted companion for users who want to own AI characters with realtime voice chat and Minecraft or Factorio play on web, macOS and Windows.",
+      "zh": "面向想自托管并拥有 AI 角色的用户，支持实时语音聊天与 Minecraft、Factorio 游玩，覆盖 Web、macOS、Windows。"
+    },
+    "new-api": {
+      "en": "New Api is an open-source self-hosted AI gateway for teams, with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.",
+      "zh": "New Api 是开源自建 AI 网关，供团队统一接入模型，提供路由、访问控制与用量成本统计。"
+    },
+    "definitelytyped": {
+      "en": "A repository of high quality TypeScript type definitions for developers who need types for JavaScript libraries.",
+      "zh": "为需要为 JavaScript 库补充类型的开发者提供高质量 TypeScript 类型定义的代码仓库。"
+    },
+    "go-ethereum": {
+      "en": "Go Ethereum provides a Go implementation of the Ethereum protocol for developers who need Ethereum protocol support in Go.",
+      "zh": "Go Ethereum 是 Ethereum 协议的 Go 实现，供需要在 Go 中使用该协议的开发者使用。"
+    },
+    "open-source-mac-os-apps": {
+      "en": "A curated awesome list of open source applications for macOS, helping users find open source apps in one place.",
+      "zh": "面向 macOS 用户的精选开源应用清单，帮助集中查找开源应用。"
+    },
+    "chinese-poetry": {
+      "en": "A Chinese poetry database for developers, covering Tang and Song poets, poems, and ci works as a dataset.",
+      "zh": "面向开发者的中华古诗词数据库，收录唐宋诗人、唐诗宋诗与宋词作品数据。"
+    },
+    "wechat-miniapp-radar": {
+      "en": "An AI-driven radar that helps mini-program developers choose tech stacks, track trends, and diagnose migration issues.",
+      "zh": "一款 AI 驱动的小程序雷达，帮开发者做技术选型、追踪趋势并诊断迁移问题。"
+    },
+    "awesome-remote-job": {
+      "en": "A curated list of remote jobs and resources for people seeking remote work opportunities.",
+      "zh": "为寻找远程工作的人整理的远程职位与资源清单。"
+    },
+    "clickhouse": {
+      "en": "ClickHouse is a real-time analytics database management system for teams that need real-time analytics.",
+      "zh": "ClickHouse 是一个实时分析数据库管理系统，面向需要实时分析的团队。"
+    },
+    "cypress": {
+      "en": "For developers who need fast, easy, reliable testing for anything that runs in a browser.",
+      "zh": "面向需要为浏览器中运行的内容做快速、简单、可靠测试的开发者。"
+    },
+    "json": {
+      "en": "A JSON library for developers working with modern C++.",
+      "zh": "面向使用现代 C++ 的开发者提供的 JSON 库。"
+    },
+    "semantic-ui": {
+      "en": "Semantic UI is a component framework that helps front-end developers build interfaces using class names based on natural language.",
+      "zh": "Semantic UI 是围绕自然语言原则构建的界面组件框架，方便开发者用直观类名搭建界面。"
+    },
+    "ruff": {
+      "en": "Ruff is a fast Python linter and code formatter written in Rust, helping Python developers check and format code in one tool.",
+      "zh": "Ruff 是 Rust 编写的 Python 代码检查与格式化工具，帮开发者检查并格式化代码。"
+    },
+    "kubernetes-the-hard-way": {
+      "en": "For engineers who want to learn Kubernetes cluster setup by hand, this guide bootstraps a cluster without scripts.",
+      "zh": "面向想手动搭建 Kubernetes 集群的工程师，本教程不使用脚本，一步步完成集群引导。"
+    },
+    "victory": {
+      "en": "A dev-tools project for players who want to attempt running GTA VI on a PC.",
+      "zh": "一个面向想在 PC 上尝试运行 GTA VI 的玩家的开发工具项目。"
+    },
+    "claude-trading-skills": {
+      "en": "Claude Code skills for equity investors and traders, covering market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "zh": "面向股票投资者和交易者的 Claude Code 技能，涵盖市场分析、技术图表、经济日历、筛选器和交易策略开发。"
+    },
+    "ai-pose-gallery-zh": {
+      "en": "A Chinese-localized static pose reference gallery with 1,439 sets and 2,878 images for AI artists seeking pose ideas.",
+      "zh": "面向需要姿势参考的 AI 创作者的中文版静态姿势图库，含 1439 组、2878 张图片。"
+    },
+    "claude-cage": {
+      "en": "A lightweight VM for Claude users that isolates Claude to prevent network leaks, with multi-platform support, multi-account management, remote deployment and mobile control.",
+      "zh": "为 Claude 用户提供轻量化虚拟机，隔离运行杜绝网络泄露，支持多平台、多账号、远程部署与移动端操控。"
+    },
+    "query": {
+      "en": "For web developers using TS/JS, React, Solid, Svelte or Vue who need asynchronous state management, server-state utilities and data fetching.",
+      "zh": "为 Web 开发者提供异步状态管理与数据获取，支持 React、Solid、Vue 等。"
+    },
+    "tokeneconomizer": {
+      "en": "For developers running coding agents, TokenEconomizer offers experience-driven black-box cost control.",
+      "zh": "面向运行编码代理的开发者，TokenEconomizer 提供经验驱动的黑盒成本控制。"
+    },
+    "google-ads-meta-ads-mcp": {
+      "en": "A hosted remote MCP that connects Claude, ChatGPT, Cursor and n8n to Google Ads, Meta Ads, GA4 and Search Console via OAuth, with approval-gated writes.",
+      "zh": "面向 Claude 等客户端的托管 MCP，OAuth 接入广告与分析数据，写操作需审批。"
     }
   }
 }

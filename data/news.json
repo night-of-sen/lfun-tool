@@ -1,6 +1,347 @@
 {
   "days": [
     {
+      "date": "2026-11-24",
+      "items": [
+        {
+          "title": "The Download: AI’s gas power boom and a consciousness reality check",
+          "link": "https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-24",
+          "zhTitle": "《下载》：AI 带动的燃气发电热潮与一场意识议题的现实检验",
+          "zh": "本期简报关注 AI 数据中心推动燃气发电扩张，并冷静审视意识相关说法。",
+          "en": "Today's newsletter covers AI data centers driving gas power growth and a reality check on consciousness claims."
+        },
+        {
+          "title": "LLM agents work for their parent companies, not for you",
+          "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+          "source": "Hacker News",
+          "date": "2026-11-24",
+          "zhTitle": "LLM 智能体为母公司效力，而不是为你",
+          "zh": "文章认为 LLM 智能体的利益归属于其开发公司，而非用户。",
+          "en": "An argument that LLM agents serve their parent companies' interests rather than users'."
+        },
+        {
+          "title": "Jevons Paradox in AI: Cheaper Tokens Won't Pay for Capex",
+          "link": "https://philippdubach.com/posts/cheaper-ai-tokens-wont-pay-for-capex/",
+          "source": "Hacker News",
+          "date": "2026-11-24",
+          "zhTitle": "AI 中的杰文斯悖论：更便宜的 token 无法覆盖资本开支",
+          "zh": "文章质疑 token 降价带来的需求能否覆盖 AI 巨额资本支出。",
+          "en": "A post questioning whether cheaper tokens can generate enough revenue to cover AI capex."
+        },
+        {
+          "title": "Declare is a UI language for you and your AI",
+          "link": "https://davidtemkin.github.io/declarelang/",
+          "source": "Hacker News",
+          "date": "2026-11-24",
+          "zhTitle": "Declare：为你和你的 AI 打造的 UI 语言",
+          "zh": "Declare 是一种供人类与 AI 共同使用的界面语言。",
+          "en": "Declare is presented as a UI language built for both humans and AI."
+        },
+        {
+          "title": "OpenAI and Cisco introduce Shirudo",
+          "link": "https://openai.com/index/introducing-shirudo",
+          "source": "OpenAI",
+          "date": "2026-11-23",
+          "zhTitle": "OpenAI 与思科推出 Shirudo",
+          "zh": "OpenAI 与思科联合发布名为 Shirudo 的新项目。",
+          "en": "OpenAI and Cisco announce a joint project called Shirudo."
+        },
+        {
+          "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+          "link": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-23",
+          "zhTitle": "一位著名哲学家并不认同 Anthropic 的意识论证",
+          "zh": "知名哲学家对 Anthropic 关于模型意识的论点提出质疑。",
+          "en": "A renowned philosopher rejects Anthropic's argument about model consciousness."
+        },
+        {
+          "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
+          "link": "https://twitter.com/ylecun/status/2124550037912920090",
+          "source": "Hacker News",
+          "date": "2026-11-23",
+          "zhTitle": "“Dario 夸大危险，是为了让开源模型非法、自己保持控制”",
+          "zh": "LeCun 发推称 Dario 夸大 AI 风险，意在打压开源模型并维持控制。",
+          "en": "Yann LeCun tweets that Dario hypes dangers to make open-source models illegal and stay in control."
+        },
+        {
+          "title": "The Download: AI’s judgment problem and carbon removal’s crop threat",
+          "link": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
+          "source": "MIT Technology Review",
+          "date": "2026-11-23",
+          "zhTitle": "《下载》：AI 的判断力问题与碳移除对农作物的威胁",
+          "zh": "本期简报讨论 AI 的判断力难题，以及碳移除项目对农作物的威胁。",
+          "en": "Today's newsletter covers AI's judgment problem and carbon removal's threat to crops."
+        },
+        {
+          "title": "Connected intelligence for in-house legal",
+          "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+          "source": "OpenAI",
+          "date": "2026-11-23",
+          "zhTitle": "面向公司法务的互联智能",
+          "zh": "OpenAI 介绍面向企业内部法务团队的互联智能方案。",
+          "en": "OpenAI outlines connected intelligence aimed at in-house legal teams."
+        },
+        {
+          "title": "Richpanel helps companies automate 50% of support in 30 days",
+          "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+          "source": "OpenAI",
+          "date": "2026-11-23",
+          "zhTitle": "Richpanel 助企业在 30 天内自动化 50% 的客服",
+          "zh": "OpenAI 客户案例称 Richpanel 可在 30 天内自动化半数客服工作。",
+          "en": "An OpenAI customer story says Richpanel automates 50% of support in 30 days."
+        },
+        {
+          "title": "Perplexity and Intelligence",
+          "link": "https://openai.com/index/perplexity-and-intelligence",
+          "source": "OpenAI",
+          "date": "2026-11-22",
+          "zhTitle": "Perplexity 与智能",
+          "zh": "OpenAI 发布题为“Perplexity 与智能”的内容页面。",
+          "en": "OpenAI publishes a page titled \"Perplexity and Intelligence.\""
+        },
+        {
+          "title": "Maintainers don&#8217;t need more AI bug reports. They need fixes.",
+          "link": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+          "source": "GitHub Blog",
+          "date": "2026-11-17",
+          "zhTitle": "维护者不需要更多 AI 缺陷报告，他们需要的是修复",
+          "zh": "GitHub 博客指出开源维护者更需要实际修复，而非 AI 生成的报告。",
+          "en": "GitHub Blog argues maintainers need actual fixes, not more AI-generated bug reports."
+        },
+        {
+          "title": "Building the Agent Host Protocol for sessions that continue across devices",
+          "link": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+          "source": "GitHub Blog",
+          "date": "2026-11-17"
+        }
+      ],
+      "toolsNew": [
+        {
+          "id": "victory",
+          "name": "VIctory",
+          "repo": "Marvisak/VIctory",
+          "stars": 8752
+        },
+        {
+          "id": "claude-cage",
+          "name": "Claude Cage",
+          "repo": "Lee-xeo/Claude-Cage",
+          "stars": 8268
+        },
+        {
+          "id": "ai-pose-gallery-zh",
+          "name": "Ai Pose Gallery Zh",
+          "repo": "anhao/ai-pose-gallery-zh",
+          "stars": 8241
+        },
+        {
+          "id": "claude-trading-skills",
+          "name": "Claude Trading Skills",
+          "repo": "tradermonty/claude-trading-skills",
+          "stars": 8224
+        },
+        {
+          "id": "tokeneconomizer",
+          "name": "TokenEconomizer",
+          "repo": "microsoft/TokenEconomizer",
+          "stars": 8064
+        },
+        {
+          "id": "dsh-wallpaper-engine",
+          "name": "Dsh Wallpaper Engine",
+          "repo": "elysia395/dsh-wallpaper-engine",
+          "stars": 8042
+        },
+        {
+          "id": "etcd",
+          "name": "Etcd",
+          "repo": "etcd-io/etcd",
+          "stars": 52646
+        },
+        {
+          "id": "react-bits",
+          "name": "React Bits",
+          "repo": "DavidHDev/react-bits",
+          "stars": 52618
+        },
+        {
+          "id": "new-api",
+          "name": "New Api",
+          "repo": "QuantumNous/new-api",
+          "stars": 52466
+        },
+        {
+          "id": "prettier",
+          "name": "Prettier",
+          "repo": "prettier/prettier",
+          "stars": 52446
+        },
+        {
+          "id": "grok-1",
+          "name": "Grok 1",
+          "repo": "xai-org/grok-1",
+          "stars": 52241
+        },
+        {
+          "id": "100-days-of-ml-code",
+          "name": "100 Days Of ML Code",
+          "repo": "Avik-Jain/100-Days-Of-ML-Code",
+          "stars": 52075
+        },
+        {
+          "id": "jadx",
+          "name": "Jadx",
+          "repo": "skylot/jadx",
+          "stars": 51979
+        },
+        {
+          "id": "guava",
+          "name": "Guava",
+          "repo": "google/guava",
+          "stars": 51925
+        },
+        {
+          "id": "jekyll",
+          "name": "Jekyll",
+          "repo": "jekyll/jekyll",
+          "stars": 51796
+        },
+        {
+          "id": "airi",
+          "name": "Airi",
+          "repo": "moeru-ai/airi",
+          "stars": 51711
+        },
+        {
+          "id": "supervision",
+          "name": "Supervision",
+          "repo": "roboflow/supervision",
+          "stars": 51707
+        },
+        {
+          "id": "professional-programming",
+          "name": "Professional Programming",
+          "repo": "charlax/professional-programming",
+          "stars": 51699
+        },
+        {
+          "id": "open-source-mac-os-apps",
+          "name": "Open Source Mac Os Apps",
+          "repo": "serhii-londar/open-source-mac-os-apps",
+          "stars": 51530
+        },
+        {
+          "id": "definitelytyped",
+          "name": "DefinitelyTyped",
+          "repo": "DefinitelyTyped/DefinitelyTyped",
+          "stars": 51489
+        },
+        {
+          "id": "go-ethereum",
+          "name": "Go Ethereum",
+          "repo": "ethereum/go-ethereum",
+          "stars": 51478
+        },
+        {
+          "id": "ruff",
+          "name": "Ruff",
+          "repo": "astral-sh/ruff",
+          "stars": 51404
+        },
+        {
+          "id": "wechat-miniapp-radar",
+          "name": "Wechat Miniapp Radar",
+          "repo": "justjavac/wechat-miniapp-radar",
+          "stars": 51140
+        },
+        {
+          "id": "clickhouse",
+          "name": "ClickHouse",
+          "repo": "ClickHouse/ClickHouse",
+          "stars": 51100
+        },
+        {
+          "id": "cypress",
+          "name": "Cypress",
+          "repo": "cypress-io/cypress",
+          "stars": 51043
+        },
+        {
+          "id": "awesome-remote-job",
+          "name": "Awesome Remote Job",
+          "repo": "lukasz-madon/awesome-remote-job",
+          "stars": 51035
+        },
+        {
+          "id": "semantic-ui",
+          "name": "Semantic UI",
+          "repo": "Semantic-Org/Semantic-UI",
+          "stars": 50994
+        },
+        {
+          "id": "json",
+          "name": "Json",
+          "repo": "nlohmann/json",
+          "stars": 50971
+        },
+        {
+          "id": "kubernetes-the-hard-way",
+          "name": "Kubernetes The Hard Way",
+          "repo": "kelseyhightower/kubernetes-the-hard-way",
+          "stars": 50771
+        },
+        {
+          "id": "query",
+          "name": "Query",
+          "repo": "TanStack/query",
+          "stars": 50625
+        }
+      ],
+      "toolsTrending": [
+        {
+          "id": "etcd",
+          "name": "Etcd",
+          "repo": "etcd-io/etcd",
+          "stars": 52646,
+          "gain": 52646
+        },
+        {
+          "id": "react-bits",
+          "name": "React Bits",
+          "repo": "DavidHDev/react-bits",
+          "stars": 52618,
+          "gain": 52618
+        },
+        {
+          "id": "new-api",
+          "name": "New Api",
+          "repo": "QuantumNous/new-api",
+          "stars": 52466,
+          "gain": 52466
+        },
+        {
+          "id": "prettier",
+          "name": "Prettier",
+          "repo": "prettier/prettier",
+          "stars": 52446,
+          "gain": 52446
+        },
+        {
+          "id": "grok-1",
+          "name": "Grok 1",
+          "repo": "xai-org/grok-1",
+          "stars": 52241,
+          "gain": 52241
+        }
+      ],
+      "rollupZh": "今日焦点围绕 AI 的代价与治理：有分析质疑更便宜的 token 能否覆盖巨额资本开支，也有报道关注数据中心扩张带来的燃气发电热潮。与此同时，关于模型意识与开源控制的争论升温，LeCun 公开指责 Dario 夸大风险；GitHub 则提醒维护者需要的是修复而非更多 AI 缺陷报告。",
+      "rollupEn": "Today's highlights center on the costs and governance of AI: one analysis asks whether cheaper tokens can cover massive capex, while another looks at gas power demand from data center growth. Debates over model consciousness and open-source control intensified, with LeCun accusing Dario of hyping risks, and GitHub reminded maintainers they need fixes, not more AI bug reports.",
+      "failures": []
+    },
+    {
       "date": "2026-11-23",
       "items": [
         {

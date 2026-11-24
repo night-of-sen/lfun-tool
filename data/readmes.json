@@ -12023,5 +12023,215 @@
     "source": "README.md",
     "rawLength": 36199,
     "fetchedAt": "2026-11-23T12:07:16.458Z"
+  },
+  "etcd": {
+    "summary": "etcd is written in Go and uses the [Raft][] consensus algorithm to manage a highly-available replicated log.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10197,
+    "fetchedAt": "2026-11-24T13:32:20.349Z"
+  },
+  "react-bits": {
+    "summary": "React Bits works with the shadcn MCP server, so Claude Code, Cursor, Codex, VS Code and Antigravity can find and add components for you. Add the registry to your components.json:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12592,
+    "fetchedAt": "2026-11-24T13:32:20.350Z"
+  },
+  "new-api": {
+    "summary": "New API is a self-hosted AI gateway for applications, agents, and teams. Connect upstream model services, expose a consistent API to your clients, and manage routing, access, usage, and costs in one place.",
+    "docker": "mkdir -p data\ndocker run --name new-api -d --restart unless-stopped \\\n  -p 127.0.0.1:3000:3000 \\\n  -e TZ=Asia/Shanghai \\\n  -v \"$(pwd)/data:/data\" \\\n  calciumion/new-api:latest",
+    "source": "README.md",
+    "rawLength": 17639,
+    "fetchedAt": "2026-11-24T13:32:20.350Z"
+  },
+  "prettier": {
+    "summary": "Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 3383,
+    "fetchedAt": "2026-11-24T13:32:20.350Z"
+  },
+  "grok-1": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2143,
+    "fetchedAt": "2026-11-24T13:32:25.644Z"
+  },
+  "100-days-of-ml-code": {
+    "summary": "#100DaysOfMLCode To clear my insights on logistic regression I was searching on the internet for some resource or article and I came across this article (https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc) by Saishruthi Swaminathan.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18245,
+    "fetchedAt": "2026-11-24T13:32:25.644Z"
+  },
+  "jadx": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 18599,
+    "fetchedAt": "2026-11-24T13:32:25.644Z"
+  },
+  "guava": {
+    "summary": "Guava is a set of core Java libraries from Google that includes new collection types (such as multimap and multiset), immutable collections, a graph library, and utilities for concurrency, I/O, hashing, primitives, strings, and more! It is widely used on most Java projects within Google, and widely…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6542,
+    "fetchedAt": "2026-11-24T13:32:25.644Z"
+  },
+  "jekyll": {
+    "summary": "Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by…",
+    "docker": "",
+    "source": "README.markdown",
+    "rawLength": 5603,
+    "fetchedAt": "2026-11-24T13:32:25.644Z"
+  },
+  "airi": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 27217,
+    "fetchedAt": "2026-11-24T13:32:25.644Z"
+  },
+  "supervision": {
+    "summary": "Supervision was designed to be model agnostic. Just plug in any classification, detection, or segmentation model. For your convenience, we have created connectors for the most popular libraries like Ultralytics, Transformers, MMDetection, or Inference. Other integrations, like rfdetr, already return…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 12438,
+    "fetchedAt": "2026-11-24T13:32:26.177Z"
+  },
+  "professional-programming": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 178345,
+    "fetchedAt": "2026-11-24T13:32:26.177Z"
+  },
+  "open-source-mac-os-apps": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 477836,
+    "fetchedAt": "2026-11-24T13:32:26.177Z"
+  },
+  "definitelytyped": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 48015,
+    "fetchedAt": "2026-11-24T13:32:26.177Z"
+  },
+  "go-ethereum": {
+    "summary": "",
+    "docker": "docker run -d --name ethereum-node -v /Users/alice/ethereum:/root \\\n           -p 8545:8545 -p 30303:30303 \\\n           ethereum/client-go",
+    "source": "README.md",
+    "rawLength": 15709,
+    "fetchedAt": "2026-11-24T13:32:26.177Z"
+  },
+  "ruff": {
+    "summary": "Ruff aims to be orders of magnitude faster than alternative tools while integrating more functionality behind a single, common interface.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 19606,
+    "fetchedAt": "2026-11-24T13:32:26.177Z"
+  },
+  "wechat-miniapp-radar": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 1692,
+    "fetchedAt": "2026-11-24T13:32:26.678Z"
+  },
+  "clickhouse": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7082,
+    "fetchedAt": "2026-11-24T13:32:26.678Z"
+  },
+  "cypress": {
+    "summary": "Cypress is a quality platform for teams shipping modern web applications. It tests anything that runs in a browser, on your machine and in CI.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 8545,
+    "fetchedAt": "2026-11-24T13:32:26.678Z"
+  },
+  "awesome-remote-job": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 67270,
+    "fetchedAt": "2026-11-24T13:32:26.678Z"
+  },
+  "semantic-ui": {
+    "summary": "Semantic allows developers to build beautiful websites fast, with concise HTML, intuitive javascript, and simplified debugging, helping make front-end development a delightful experience. Semantic is responsively designed allowing your website to scale on multiple devices. Semantic is production rea…",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 7024,
+    "fetchedAt": "2026-11-24T13:32:26.678Z"
+  },
+  "json": {
+    "summary": "json.hpp is the single required file in singleinclude/nlohmann or released here. You need to add",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 129025,
+    "fetchedAt": "2026-11-24T13:32:26.678Z"
+  },
+  "kubernetes-the-hard-way": {
+    "summary": "The target audience for this tutorial is someone who wants to understand the fundamentals of Kubernetes and how the core components fit together.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 2624,
+    "fetchedAt": "2026-11-24T13:32:35.991Z"
+  },
+  "query": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 5043,
+    "fetchedAt": "2026-11-24T13:32:35.991Z"
+  },
+  "victory": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 6999,
+    "fetchedAt": "2026-11-24T13:32:35.991Z"
+  },
+  "claude-cage": {
+    "summary": "Cage 支持 macOS、Windows 和 Linux：macOS 14+ 的 Apple Silicon Mac 与 Intel Mac、Windows 10 22H2 / 11 x64，以及 Debian 12 / Ubuntu 22.04 / 24.04 x8664。Windows ARM64 和 Linux ARM64 暂不支持。 macOS · Windows · Linux。",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10629,
+    "fetchedAt": "2026-11-24T13:32:46.491Z"
+  },
+  "ai-pose-gallery-zh": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 13560,
+    "fetchedAt": "2026-11-24T13:32:46.491Z"
+  },
+  "claude-trading-skills": {
+    "summary": "Claude Trading Skills started as a personal project to use AI to improve my own trading process.",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 44079,
+    "fetchedAt": "2026-11-24T13:32:46.491Z"
+  },
+  "tokeneconomizer": {
+    "summary": "TokenEconomizer makes coding agents cheaper to run in the repositories you work in often, without changing the agent itself. It learns from the sessions an agent has already run in a repository, and uses that experience to cut waste in the sessions that follow. It has three mechanisms:",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 32763,
+    "fetchedAt": "2026-11-24T13:32:46.491Z"
+  },
+  "dsh-wallpaper-engine": {
+    "summary": "",
+    "docker": "",
+    "source": "README.md",
+    "rawLength": 10556,
+    "fetchedAt": "2026-11-24T13:32:46.491Z"
   }
 }
